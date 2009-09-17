@@ -9,6 +9,7 @@
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/my/"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>ms</dc:language>
+    <dc:title xml:lang="i18n">${country.my}</dc:title>
     <dc:title xml:lang="zh">马来西亚</dc:title>
     <dc:title xml:lang="da">Malaysia</dc:title>
     <dc:title xml:lang="es-ar">Malasia</dc:title>
@@ -60,6 +61,7 @@
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.tw"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>zh-tw</dc:language>
+    <dc:title xml:lang="i18n">${country.tw}</dc:title>
     <dc:title xml:lang="pl">Tajwan</dc:title>
     <dc:title xml:lang="eo">Tajvano</dc:title>
     <dc:title xml:lang="zu">iTaiwan</dc:title>
