@@ -182,4 +182,9 @@
     <cc:licenseCode>publicdomain</cc:licenseCode>
   </cc:LicenseSelector>
 
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/software">
+    <dc:title xml:lang="en">Software</dc:title>
+    <cc:licenseCode>software</cc:licenseCode>
+  </cc:LicenseSelector>
+
 </rdf:RDF>
