@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/BSD/">
+    <dc:title>BSD License</dc:title>
+    <dc:title xml:lang="i18n">${licenses.pretty_BSD}</dc:title>
+    <dc:identifier>BSD</dc:identifier>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="http://opensource.org/licenses/bsd-license.php"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
+  </rdf:Description>
+</rdf:RDF>
