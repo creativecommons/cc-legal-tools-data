@@ -9,7 +9,6 @@
 >
   <rdf:Description rdf:about="http://creativecommons.org/licenses/BSD/">
     <dc:title>BSD License</dc:title>
-    <dc:title xml:lang="i18n">${licenses.pretty_BSD}</dc:title>
     <dc:identifier>BSD</dc:identifier>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>

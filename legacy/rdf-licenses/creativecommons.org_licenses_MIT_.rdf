@@ -12,7 +12,6 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <dc:title xml:lang="i18n">${licenses.pretty_MIT}</dc:title>
     <dc:identifier>MIT</dc:identifier>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
     <cc:legalcode rdf:resource="http://opensource.org/licenses/mit-license.php"/>
