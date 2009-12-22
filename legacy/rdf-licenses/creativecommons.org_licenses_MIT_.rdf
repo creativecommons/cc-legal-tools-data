@@ -6,7 +6,7 @@
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:xml="http://www.w3.org/XML/1998/namespace"
 >
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/MIT/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/MIT/">
     <dc:title>MIT License</dc:title>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
@@ -15,5 +15,5 @@
     <dc:identifier>MIT</dc:identifier>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
     <cc:legalcode rdf:resource="http://opensource.org/licenses/mit-license.php"/>
-  </rdf:Description>
+  </cc:License>
 </rdf:RDF>

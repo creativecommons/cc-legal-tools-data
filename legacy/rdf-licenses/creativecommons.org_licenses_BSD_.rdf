@@ -7,7 +7,7 @@
   xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
   xmlns:xml="http://www.w3.org/XML/1998/namespace"
 >
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/BSD/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/BSD/">
     <dc:title>BSD License</dc:title>
     <dc:identifier>BSD</dc:identifier>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
@@ -16,5 +16,5 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:legalcode rdf:resource="http://opensource.org/licenses/bsd-license.php"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
-  </rdf:Description>
+  </cc:License>
 </rdf:RDF>
