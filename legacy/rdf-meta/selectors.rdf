@@ -188,8 +188,8 @@
   </cc:LicenseSelector>
 
   <cc:LicenseSelector rdf:about="http://creativecommons.org/choose/zero/">
-    <dc:title xml:lang="en">CC0</dc:title>
-    <cc:licenseCode>CC0</cc:licenseCode>
+    <dc:title xml:lang="en">zero</dc:title>
+    <cc:licenseCode>zero</cc:licenseCode>
   </cc:LicenseSelector>
 
 </rdf:RDF>
