@@ -187,4 +187,9 @@
     <cc:licenseCode>software</cc:licenseCode>
   </cc:LicenseSelector>
 
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/choose/zero/">
+    <dc:title xml:lang="en">CC0</dc:title>
+    <cc:licenseCode>CC0</cc:licenseCode>
+  </cc:LicenseSelector>
+
 </rdf:RDF>
