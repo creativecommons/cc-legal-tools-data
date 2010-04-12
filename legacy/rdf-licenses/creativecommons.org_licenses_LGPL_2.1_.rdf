@@ -7,64 +7,64 @@
   xmlns:dcq='http://purl.org/dc/terms/'
 >
   <cc:License rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#SourceCode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/80x15.png"/>
-    <dc:title xml:lang="i18n">${license.LGPL_name_full}</dc:title>
-    <dc:title xml:lang="bg">LGPL</dc:title>
-    <dc:title xml:lang="es-pe">LGPL</dc:title>
-    <dc:title xml:lang="eo">LGPL</dc:title>
-    <dc:title xml:lang="en-gb">LGPL</dc:title>
-    <dc:title xml:lang="fr-lu">LGPL</dc:title>
-    <dc:title xml:lang="gl">LGPL</dc:title>
-    <dc:title xml:lang="he">LGPL</dc:title>
+    <dc:identifier>LGPL</dc:identifier>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/legalcode"/>
+    <dc:title xml:lang="es-co">LGPL</dc:title>
+    <dc:title xml:lang="es">LGPL</dc:title>
+    <dc:title xml:lang="it-ch"><![CDATA[<abbr title="Gnu is not Unix">Gnu</abbr>-<abbr title="Lesser general public license">Lgpl</abbr>]]></dc:title>
+    <dc:title xml:lang="ca">LGPL</dc:title>
+    <dc:title xml:lang="de-ch">LGPL</dc:title>
+    <dc:title xml:lang="nso">LGPL</dc:title>
+    <dc:title xml:lang="it"><![CDATA[<abbr title="Gnu is not Unix">Gnu</abbr>-<abbr title="Lesser general public license">Lgpl</abbr>]]></dc:title>
+    <dc:title xml:lang="de-at">LGPL</dc:title>
+    <dc:title xml:lang="en">LGPL</dc:title>
+    <dc:title xml:lang="de">LGPL</dc:title>
+    <dc:title xml:lang="es-mx">LGPL</dc:title>
+    <dc:title xml:lang="i18n">${license.LGPL_name_full</dc:title>
+    <dc:title xml:lang="pt">LGPL</dc:title>
+    <dc:title xml:lang="es-ar">LGPL</dc:title>
     <dc:title xml:lang="zh-tw">較寬鬆通用公共授權條款 (LGPL)</dc:title>
+    <dc:title xml:lang="sv">LGPL</dc:title>
+    <dc:title xml:lang="bg">LGPL</dc:title>
+    <dc:title xml:lang="zu">LGPL</dc:title>
+    <dc:title xml:lang="fi">LGPL</dc:title>
+    <dc:title xml:lang="en-ca">LGPL</dc:title>
+    <dc:title xml:lang="fr-lu">LGPL</dc:title>
+    <dc:title xml:lang="hu">LGPL</dc:title>
     <dc:title xml:lang="mk">ЛГПЛ</dc:title>
-    <dc:title xml:lang="es-cl">LGPL</dc:title>
+    <dc:title xml:lang="ja">LGPL</dc:title>
+    <dc:title xml:lang="fr-ca">LGPL</dc:title>
+    <dc:title xml:lang="ms">LGPL (Lesen Awam Am Yang Lebih Kecil)</dc:title>
+    <dc:title xml:lang="es-pe">LGPL</dc:title>
+    <dc:title xml:lang="pl">LGPL</dc:title>
+    <dc:title xml:lang="en-gb">LGPL</dc:title>
+    <dc:title xml:lang="hr">LGPL</dc:title>
+    <dc:title xml:lang="fr">LGPL</dc:title>
+    <dc:title xml:lang="ko">LGPL</dc:title>
+    <dc:title xml:lang="nl">LGPL</dc:title>
+    <dc:title xml:lang="eo">LGPL</dc:title>
+    <dc:title xml:lang="eu">LGPL</dc:title>
+    <dc:title xml:lang="en-us">LGPL</dc:title>
+    <dc:title xml:lang="he">LGPL</dc:title>
     <dc:title xml:lang="af">LGPL</dc:title>
     <dc:title xml:lang="sl">LGPL</dc:title>
-    <dc:title xml:lang="de-at">LGPL</dc:title>
-    <dc:title xml:lang="en-ca">LGPL</dc:title>
-    <dc:title xml:lang="da">LGPL</dc:title>
-    <dc:title xml:lang="ca">LGPL</dc:title>
-    <dc:title xml:lang="fr-ca">LGPL</dc:title>
-    <dc:title xml:lang="it-ch"><![CDATA[<abbr title="Gnu is not Unix">Gnu</abbr>-<abbr title="Lesser general public license">Lgpl</abbr>]]></dc:title>
-    <dc:title xml:lang="ms">LGPL (Lesen Awam Am Yang Lebih Kecil)</dc:title>
-    <dc:title xml:lang="zh">LGPL</dc:title>
-    <dc:title xml:lang="pt-pt">LGPL</dc:title>
-    <dc:title xml:lang="zu">LGPL</dc:title>
-    <dc:title xml:lang="it"><![CDATA[<abbr title="Gnu is not Unix">Gnu</abbr>-<abbr title="Lesser general public license">Lgpl</abbr>]]></dc:title>
-    <dc:title xml:lang="ko">LGPL</dc:title>
-    <dc:title xml:lang="es-mx">LGPL</dc:title>
-    <dc:title xml:lang="st">LGPL</dc:title>
-    <dc:title xml:lang="sv">LGPL</dc:title>
-    <dc:title xml:lang="de">LGPL</dc:title>
-    <dc:title xml:lang="es-ar">LGPL</dc:title>
-    <dc:title xml:lang="de-ch">LGPL</dc:title>
-    <dc:title xml:lang="fr">LGPL</dc:title>
-    <dc:title xml:lang="pt">LGPL</dc:title>
-    <dc:title xml:lang="es-co">LGPL</dc:title>
-    <dc:title xml:lang="hr">LGPL</dc:title>
-    <dc:title xml:lang="nl">LGPL</dc:title>
-    <dc:title xml:lang="fi">LGPL</dc:title>
-    <dc:title xml:lang="pl">LGPL</dc:title>
-    <dc:title xml:lang="en">LGPL</dc:title>
-    <dc:title xml:lang="hu">LGPL</dc:title>
-    <dc:title xml:lang="eu">LGPL</dc:title>
-    <dc:title xml:lang="ja">LGPL</dc:title>
-    <dc:title xml:lang="nso">LGPL</dc:title>
-    <dc:title xml:lang="es">LGPL</dc:title>
+    <dc:title xml:lang="gl">LGPL</dc:title>
     <dc:title xml:lang="fr-ch">LGPL</dc:title>
-    <dc:title xml:lang="en-us">LGPL</dc:title>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
-    <dcq:hasVersion>2.1</dcq:hasVersion>
+    <dc:title xml:lang="zh">LGPL</dc:title>
+    <dc:title xml:lang="st">LGPL</dc:title>
+    <dc:title xml:lang="es-cl">LGPL</dc:title>
+    <dc:title xml:lang="da">LGPL</dc:title>
+    <dc:title xml:lang="pt-pt">LGPL</dc:title>
     <dc:creator rdf:resource="http://fsf.org"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/legalcode"/>
+    <dcq:hasVersion>2.1</dcq:hasVersion>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#SourceCode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x31.png"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <dc:identifier>LGPL</dc:identifier>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
   </cc:License>
 </rdf:RDF>
