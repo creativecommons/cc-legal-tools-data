@@ -12,6 +12,7 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#SourceCode"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x31.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/80x15.png"/>
+    <dc:title xml:lang="i18n">${license.LGPL_name_full}</dc:title>
     <dc:title xml:lang="bg">LGPL</dc:title>
     <dc:title xml:lang="es-pe">LGPL</dc:title>
     <dc:title xml:lang="eo">LGPL</dc:title>

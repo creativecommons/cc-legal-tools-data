@@ -19,6 +19,7 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/GPL/2.0/legalcode"/>
+    <dc:title xml:lang="i18n">${license.GPL_name_full}</dc:title>
     <dc:title xml:lang="pl">GPL</dc:title>
     <dc:title xml:lang="ms">GPL (Lesen Awam Am)</dc:title>
     <dc:title xml:lang="mk">ГПЛ</dc:title>
