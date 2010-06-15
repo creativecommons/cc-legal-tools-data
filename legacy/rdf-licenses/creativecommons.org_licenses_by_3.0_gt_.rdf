@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:cc='http://creativecommons.org/ns#'
-  xmlns:_6='http://xmlns.com/foaf/0.1/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
@@ -13,8 +13,8 @@
     <dc:identifier>by</dc:identifier>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/88x31.png"/>
     <dc:description xml:lang="nl">U dient bij het werk de naamsvermelding te vermelden op de door de  maker of licentiegever aangegeven wijze.</dc:description>
     <dc:description xml:lang="de-ch">Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe seines Werkes. Der Lizenznehmer muß dafür den Namen des Autors/Rechteinhabers nennen.</dc:description>
     <dc:description xml:lang="sv">Du måste ange upphovsmannen och/eller licensgivaren på det sätt de anger.</dc:description>

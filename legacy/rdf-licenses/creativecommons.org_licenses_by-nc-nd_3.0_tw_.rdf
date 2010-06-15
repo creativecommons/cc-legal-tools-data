@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:cc='http://creativecommons.org/ns#'
-  xmlns:_6='http://xmlns.com/foaf/0.1/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
@@ -54,8 +54,8 @@
     <dc:title xml:lang="ko">저작자표시-비영리-변경금지</dc:title>
     <dc:title xml:lang="en-ca">Attribution-NonCommercial-NoDerivs</dc:title>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"/>
     <dc:identifier>by-nc-nd</dc:identifier>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>

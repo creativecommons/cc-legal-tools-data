@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:cc='http://creativecommons.org/ns#'
-  xmlns:_6='http://xmlns.com/foaf/0.1/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
@@ -14,8 +14,8 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/hk/legalcode"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/88x31.png"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/80x15.png"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo- E sego ya kgwebo 3.0 Hong Kong</dc:title>

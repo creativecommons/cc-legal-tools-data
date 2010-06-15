@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:cc='http://creativecommons.org/ns#'
-  xmlns:_6='http://xmlns.com/foaf/0.1/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
@@ -145,8 +145,8 @@ walo msebenzi ngendlela eshiwo umbhali wawo noma umnikazi welayisensi.</dc:descr
     <dc:description xml:lang="es-ar">Usted debe atribuir la obra en la forma especificada por el autor o el licenciante.</dc:description>
     <dc:description xml:lang="fr-ch">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat doivent citer le nom de l'auteur original.</dc:description>
     <dc:creator rdf:resource="http://creativecommons.org"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/88x31.png"/>
-    <_6:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
   </cc:License>
 </rdf:RDF>
