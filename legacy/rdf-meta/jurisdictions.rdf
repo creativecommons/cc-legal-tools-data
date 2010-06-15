@@ -117,6 +117,7 @@
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org.mx"/>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/vn/">
+    <cc:defaultLanguage>vi</cc:defaultLanguage>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>vi</dc:language>
     <dc:title xml:lang="ko">country.vn</dc:title>
