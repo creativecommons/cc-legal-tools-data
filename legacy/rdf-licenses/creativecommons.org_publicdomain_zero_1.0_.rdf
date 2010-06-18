@@ -4,8 +4,11 @@
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
 >
   <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/zero/1.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/zero/1.0/88x31.png"/>
     <dc:title xml:lang="tr">CC0 1.0 Universal</dc:title>
     <dc:title xml:lang="en-gb">CC0 1.0 Universal</dc:title>
     <dc:title xml:lang="ro">CC0 1.0 Universal</dc:title>
