@@ -5,7 +5,7 @@
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd-nc/2.0/jp/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/jp/">
     <dc:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/"/>
     <dc:isBasedOn rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/"/>
     <dc:hasVersion>2.0</dc:hasVersion>
@@ -61,9 +61,9 @@
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd-nc/2.0/jp/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd-nc/2.0/jp/88x31.png"/>
-    <dc:identifier>by-nd-nc</dc:identifier>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/jp/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/jp/88x31.png"/>
+    <dc:identifier>by-nc-nd</dc:identifier>
     <dc:title xml:lang="ga">Attribution-NoDerivs-NonCommercial 2.0 Generic</dc:title>
     <dc:title xml:lang="sv">Erkännande-IngaBearbetningar-IckeKommersiell 2.0 Generisk</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Nezasahujte do díla-Neužívejte komerčně 2.0 Generic</dc:title>
