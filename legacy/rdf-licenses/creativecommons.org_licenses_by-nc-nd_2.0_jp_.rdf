@@ -5,7 +5,7 @@
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
 >
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/jp/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd-nc/2.0/jp/">
     <dc:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/"/>
     <dc:isBasedOn rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/"/>
     <dc:hasVersion>2.0</dc:hasVersion>
@@ -57,8 +57,6 @@
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Ne változtasd!</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Proibição de realização de Obras Derivadas</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-NichtKommerziell-KeineBearbeitung</dc:title>
-  </rdf:Description>
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd-nc/2.0/jp/">
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
