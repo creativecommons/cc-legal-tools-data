@@ -838,6 +838,7 @@
     <dc:title xml:lang="st">Czech Republic</dc:title>
     <dc:title xml:lang="eu">Txekiar Errepublika</dc:title>
     <dc:title xml:lang="en_HK">Czech Republic</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.cz"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>cs</dc:language>
   </cc:Jurisdiction>
@@ -1129,6 +1130,7 @@
     <dc:title xml:lang="mn">Шинэ Зеланд</dc:title>
     <dc:title xml:lang="da">New Zealand</dc:title>
     <dc:title xml:lang="ar">نيوزيلندا</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.nz"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>en-nz</dc:language>
     <dc:language>mi</dc:language>
@@ -1792,6 +1794,7 @@
     <dc:title xml:lang="es">Norway</dc:title>
     <dc:title xml:lang="bg">Norway</dc:title>
     <dc:title xml:lang="ms">Norway</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.no"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>no</dc:language>
   </cc:Jurisdiction>
@@ -2537,6 +2540,7 @@
     <dc:title xml:lang="es_AR">Hong Kong</dc:title>
     <dc:title xml:lang="es_EC">Hong Kong</dc:title>
     <dc:title xml:lang="af">Hong Kong</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://hk.creativecommons.org"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>zh-hk</dc:language>
     <dc:language>en-hk</dc:language>
@@ -2754,6 +2758,7 @@
     <dc:title xml:lang="zh-hk">厄瓜多爾</dc:title>
     <dc:title xml:lang="hr">Ekvador</dc:title>
     <dc:title xml:lang="az">Ecuador</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.ec"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>es-ec</dc:language>
   </cc:Jurisdiction>
@@ -2989,6 +2994,7 @@
     <dc:title xml:lang="no">Guatemala</dc:title>
     <dc:title xml:lang="el">Guatemala</dc:title>
     <dc:title xml:lang="ms">Guatemala</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://gt.creativecommons.org"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>es-gt</dc:language>
   </cc:Jurisdiction>
@@ -3151,6 +3157,7 @@
     <dc:title xml:lang="en">Romania</dc:title>
     <dc:title xml:lang="de_CH">Rumänien</dc:title>
     <dc:title xml:lang="tr">Romania</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://ro.creativecommons.org"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>ro</dc:language>
   </cc:Jurisdiction>
