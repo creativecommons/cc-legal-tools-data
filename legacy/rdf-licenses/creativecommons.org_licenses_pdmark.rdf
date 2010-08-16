@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+>
+  <cc:License rdf:about="http://creativecommons.org/licenses/pdmark/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dc:identifier>pdmark</dc:identifier>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/publicdomain/"/>
+  </cc:License>
+</rdf:RDF>
