@@ -997,6 +997,7 @@
     <dc:title xml:lang="tr">Serbia</dc:title>
     <dc:title xml:lang="mk">Србија</dc:title>
     <dc:title xml:lang="fi">Serbia</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.rs/faq"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>sr</dc:language>
     <dc:language>sr-latn</dc:language>
