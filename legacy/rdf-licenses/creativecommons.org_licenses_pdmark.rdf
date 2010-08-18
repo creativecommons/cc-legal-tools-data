@@ -11,5 +11,6 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <dc:identifier>pdmark</dc:identifier>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/publicdomain/"/>
+    <dc:title xml:lang="i18n">${licenses.publicdomain_mark_title}</dc:title>
   </cc:License>
 </rdf:RDF>
