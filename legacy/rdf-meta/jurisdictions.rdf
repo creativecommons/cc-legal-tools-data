@@ -723,7 +723,7 @@
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ph/">
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ph/"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:defaultLanguage>es-pe</cc:defaultLanguage>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="de-at">Philippinen</dc:title>
     <dc:title xml:lang="st">Philippines</dc:title>
     <dc:title xml:lang="es-co">Filipinas</dc:title>
