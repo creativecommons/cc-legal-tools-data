@@ -723,7 +723,7 @@
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ph/">
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ph/"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:defaultLanguage>es-pe</cc:defaultLanguage>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="de-at">Philippinen</dc:title>
     <dc:title xml:lang="st">Philippines</dc:title>
     <dc:title xml:lang="es-co">Filipinas</dc:title>
@@ -769,7 +769,7 @@
     <dc:title xml:lang="es-ar">Filipinas</dc:title>
     <dc:title xml:lang="de-ch">Philippinen</dc:title>
     <dc:title xml:lang="ms">Filipina</dc:title>
-    <dc:language>es-pe</dc:language>
+    <dc:language>en</dc:language>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cz/">
     <cc:defaultLanguage>cs</cc:defaultLanguage>
@@ -997,6 +997,7 @@
     <dc:title xml:lang="tr">Serbia</dc:title>
     <dc:title xml:lang="mk">Србија</dc:title>
     <dc:title xml:lang="fi">Serbia</dc:title>
+    <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.rs/faq"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:language>sr</dc:language>
     <dc:language>sr-latn</dc:language>
