@@ -279,11 +279,15 @@
 
 		<div id="morePermissions" about="#morePermissions" 
 		     typeof="rdf:Property">
-		  <h4>cc:morePermissions</h4> The <a rel="rdfs:range"
-            href="http://www.w3.org/2000/01/rdf-schema#Resource">
-		    URL</a> where additional permissions or alternative
-		  licenses for a
-		  <a rel="rdfs:domain" href="#Work">Work</a> are available.
+		  <h4>cc:morePermissions</h4> A 
+		  <span rel="rdfs:subPropertyOf"
+		  resource="http://purl.org/dc/terms/relation">related</span>
+		  <span rel="rdfs:range"
+		  resource="http://www.w3.org/2000/01/rdf-schema#Resource">resource</span>
+		  which describes additional permissions or
+		  alternative licenses for a
+		  <a rel="rdfs:domain" href="#Work">Work</a> which may
+		  be available.
 		</div>
 
 		<div id="attributionName" about="#attributionName" 
