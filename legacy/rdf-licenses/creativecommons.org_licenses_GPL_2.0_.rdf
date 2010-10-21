@@ -12,8 +12,6 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/GPL/2.0/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/GPL/2.0/80x15.png"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/GPL/2.0/legalcode"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#SourceCode"/>
@@ -93,5 +91,6 @@
     <dc:title xml:lang="ro">GNU Licenţa Publică Generală</dc:title>
     <dc:title xml:lang="zu">Ilayisensi Evamile Yomphakathi ye-GNU</dc:title>
     <dc:title xml:lang="bg">GNU General Public License</dc:title>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/GPL/2.0/88x62.png"/>
   </cc:License>
 </rdf:RDF>

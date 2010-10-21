@@ -90,8 +90,7 @@
     <dc:title xml:lang="hr">GNU Manja opća javna licenca</dc:title>
     <dc:title xml:lang="es-pe">Licencia Pública General Menor de GNU</dc:title>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x62.png"/>
     <dcq:hasVersion>2.1</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>
