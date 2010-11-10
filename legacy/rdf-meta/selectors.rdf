@@ -191,5 +191,10 @@
     <dc:title xml:lang="en">CC0</dc:title>
     <cc:licenseCode>zero</cc:licenseCode>
   </cc:LicenseSelector>
+  
+  <cc:LicenseSelector rdf:about="http://creativecommons.org/choose/mark/">
+    <dc:title xml:lang="en">Public Domain Mark</dc:title>
+    <cc:licenseCode>mark</cc:licenseCode>
+  </cc:LicenseSelector>
 
 </rdf:RDF>
