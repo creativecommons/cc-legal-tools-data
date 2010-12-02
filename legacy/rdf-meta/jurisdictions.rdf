@@ -1532,7 +1532,6 @@
     <dc:language>el</dc:language>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/in/">
-    <cc:jurisdictionSite rdf:resource="http://cc-india.org"/>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:defaultLanguage>en-in</cc:defaultLanguage>
     <dc:title xml:lang="fr">Inde</dc:title>
