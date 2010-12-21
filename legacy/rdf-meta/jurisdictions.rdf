@@ -108,7 +108,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ec/">
-    <cc:defaultLanguage>es-ec</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="zu">Ecuador</dc:title>
     <dc:title xml:lang="lv">Ecuador</dc:title>
     <dc:title xml:lang="ur">Ecuador</dc:title>
@@ -473,7 +473,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cl/">
-    <cc:defaultLanguage>es-cl</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="ko">Chile</dc:title>
     <dc:title xml:lang="en-ca">Chile</dc:title>
     <dc:title xml:lang="hr">Čile</dc:title>
@@ -1293,7 +1293,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/mx/">
-    <cc:defaultLanguage>es-mx</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="es-co">México</dc:title>
     <dc:title xml:lang="de-at">Mexiko</dc:title>
     <dc:title xml:lang="pl">Meksyk</dc:title>
@@ -1344,7 +1344,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/co/">
-    <cc:defaultLanguage>es-co</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="ko">Colombia</dc:title>
     <dc:title xml:lang="gl">Colombia</dc:title>
     <dc:title xml:lang="nso">Colombia</dc:title>
@@ -2420,7 +2420,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/es/">
-    <cc:defaultLanguage>es</cc:defaultLanguage>
+    <cc:defaultLanguage>es-es</cc:defaultLanguage>
     <dc:title xml:lang="fr-ca">Espagne</dc:title>
     <dc:title xml:lang="hr">Španjolska</dc:title>
     <dc:title xml:lang="es-cl">España</dc:title>
@@ -2688,7 +2688,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/gt/">
-    <cc:defaultLanguage>es-gt</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="no">Guatemala</dc:title>
     <dc:title xml:lang="ms">Guatemala</dc:title>
     <dc:title xml:lang="es_CO">Guatemala</dc:title>
@@ -2918,7 +2918,7 @@
     <cc:jurisdictionSite rdf:resource="http://creativecommonssingapore.wordpress.com"/>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pr/">
-    <cc:defaultLanguage>es-pr</cc:defaultLanguage>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="de">Puerto Rico</dc:title>
     <dc:title xml:lang="hu">Puerto Rico</dc:title>
     <dc:title xml:lang="de_AT">Puerto Rico</dc:title>
