@@ -15,7 +15,6 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/88x31.png"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="id">ShareAlike 1.0 Generic</dc:title>

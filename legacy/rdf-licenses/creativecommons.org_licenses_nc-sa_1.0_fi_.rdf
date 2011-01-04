@@ -100,7 +100,6 @@
     <dc:title xml:lang="ast">NonCommercial-ShareAlike 1.0 Finland</dc:title>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nc-sa/1.0/fi/legalcode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sa/1.0/fi/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sa/1.0/fi/88x31.png"/>
     <dc:identifier>nc-sa</dc:identifier>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>

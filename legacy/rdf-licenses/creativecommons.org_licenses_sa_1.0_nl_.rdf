@@ -7,7 +7,6 @@
   xmlns:dcq='http://purl.org/dc/terms/'
 >
   <cc:License rdf:about="http://creativecommons.org/licenses/sa/1.0/nl/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/nl/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/nl/88x31.png"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>

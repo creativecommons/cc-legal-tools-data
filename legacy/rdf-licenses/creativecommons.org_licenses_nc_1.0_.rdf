@@ -105,7 +105,6 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc/1.0/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc/1.0/80x15.png"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
   </cc:License>
 </rdf:RDF>

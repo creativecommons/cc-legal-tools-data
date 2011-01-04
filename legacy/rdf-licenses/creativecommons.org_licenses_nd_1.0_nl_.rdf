@@ -10,7 +10,6 @@
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nd/1.0/nl/legalcode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nd/1.0/nl/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/nd/1.0/nl/88x31.png"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="de">Keine Bearbeitung 1.0 Niederlande</dc:title>
