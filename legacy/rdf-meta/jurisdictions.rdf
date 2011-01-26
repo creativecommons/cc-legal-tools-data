@@ -1030,8 +1030,8 @@
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ar/">
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ar/"/>
-    <cc:defaultLanguage>es-ar</cc:defaultLanguage>
-    <dc:language>es-ar</dc:language>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
+    <dc:language>es</dc:language>
     <dc:title xml:lang="en">Argentina</dc:title>
     <dc:title xml:lang="eo">Argentino</dc:title>
     <dc:title xml:lang="hu">Argentína</dc:title>
