@@ -101,5 +101,6 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/legalcode"/>
   </cc:License>
 </rdf:RDF>
