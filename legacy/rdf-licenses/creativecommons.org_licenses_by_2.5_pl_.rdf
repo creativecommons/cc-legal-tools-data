@@ -7,6 +7,7 @@
   xmlns:dcq='http://purl.org/dc/terms/'
 >
   <cc:License rdf:about="http://creativecommons.org/licenses/by/2.5/pl/">
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by/3.0/pl/"/>
     <dc:identifier>by</dc:identifier>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
