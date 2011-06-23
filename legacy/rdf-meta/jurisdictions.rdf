@@ -3196,6 +3196,7 @@
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.or.kr"/>
     <cc:defaultLanguage>ko</cc:defaultLanguage>
     <dc:language>ko</dc:language>
+    <dc:title xml:lang="i18n">${country.kr}</dc:title>
     <dc:title xml:lang="fr">Corée</dc:title>
     <dc:title xml:lang="de-at">Süd-Korea</dc:title>
     <dc:title xml:lang="nl">Korea</dc:title>
