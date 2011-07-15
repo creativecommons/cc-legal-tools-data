@@ -1729,8 +1729,8 @@
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/nz/">
     <cc:jurisdictionSite rdf:resource="http://creativecommons.org.nz"/>
-    <cc:defaultLanguage>en-nz</cc:defaultLanguage>
-    <dc:language>en-nz</dc:language>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
+    <dc:language>en</dc:language>
     <dc:language>mi</dc:language>
     <dc:title xml:lang="sl">Nova Zelandija</dc:title>
     <dc:title xml:lang="te">న్యూజీలాండ్</dc:title>
