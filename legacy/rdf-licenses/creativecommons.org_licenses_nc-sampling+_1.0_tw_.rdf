@@ -7,6 +7,7 @@
   xmlns:dcq='http://purl.org/dc/terms/'
 >
   <cc:License rdf:about="http://creativecommons.org/licenses/nc-sampling+/1.0/tw/">
+    <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2011-09-09</cc:deprecatedOn>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sampling+/1.0/tw/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sampling+/1.0/tw/88x31.png"/>
