@@ -2284,8 +2284,6 @@
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ie/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:defaultLanguage>en_GB</cc:defaultLanguage>
-    <cc:defaultLanguage>de</cc:defaultLanguage>
-    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ie/"/>
     <cc:jurisdictionSite rdf:resource="http://wiki.creativecommons.org/Ireland"/>
     <dc:title xml:lang="zh-tw">愛爾蘭</dc:title>
     <dc:title xml:lang="nso">Ireland</dc:title>
