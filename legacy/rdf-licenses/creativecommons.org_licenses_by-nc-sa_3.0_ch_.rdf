@@ -104,9 +104,12 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/legalcode.de"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/ch/legalcode.de">
+    <dcq:language>de</dcq:language>
+  </rdf:Description>
 </rdf:RDF>

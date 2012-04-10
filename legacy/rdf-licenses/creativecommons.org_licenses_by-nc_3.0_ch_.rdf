@@ -18,7 +18,7 @@
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano 3.0 ESwitzerland</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial 3.0 Switzerland</dc:title>
@@ -108,4 +108,7 @@
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ch/88x31.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ch/80x15.png"/>
   </cc:License>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de">
+    <dcq:language>de</dcq:language>
+  </rdf:Description>
 </rdf:RDF>

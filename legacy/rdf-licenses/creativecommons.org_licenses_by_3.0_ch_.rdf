@@ -104,7 +104,10 @@
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/ch/80x15.png"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/ch/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/ch/legalcode.de"/>
     <dc:identifier>by</dc:identifier>
   </cc:License>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/3.0/ch/legalcode.de">
+    <dcq:language>de</dcq:language>
+  </rdf:Description>
 </rdf:RDF>

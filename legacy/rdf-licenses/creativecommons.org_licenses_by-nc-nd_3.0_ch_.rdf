@@ -17,7 +17,7 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ch/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ch/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/ch/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/ch/legalcode.de"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-nc-nd</dc:identifier>
@@ -107,4 +107,7 @@
     <dc:title xml:lang="ta">Attribution-NonCommercial-NoDerivs 3.0 Switzerland</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial-NoDerivs 3.0 Switzerland</dc:title>
   </cc:License>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/ch/legalcode.de">
+    <dcq:language>de</dcq:language>
+  </rdf:Description>
 </rdf:RDF>

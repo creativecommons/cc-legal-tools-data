@@ -7,7 +7,7 @@
   xmlns:dcq='http://purl.org/dc/terms/'
 >
   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/ch/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/ch/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/ch/legalcode.de"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/ch/88x31.png"/>
@@ -108,4 +108,7 @@
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-sa</dc:identifier>
   </cc:License>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/ch/legalcode.de">
+    <dcq:language>de</dcq:language>
+  </rdf:Description>
 </rdf:RDF>
