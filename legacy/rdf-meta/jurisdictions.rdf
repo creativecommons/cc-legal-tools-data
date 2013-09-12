@@ -189,7 +189,7 @@
     <dc:title xml:lang="zh-tw">Egypt</dc:title>
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://wiki.creativecommons.org/Egypt"/>
-    <cc:defaultLanguage>ar</cc:defaultLanguage>
+    <cc:defaultLanguage>en</cc:defaultLanguage>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/bg/">
     <dc:title xml:lang="en-us">Bulgaria</dc:title>
