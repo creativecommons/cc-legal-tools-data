@@ -14,6 +14,7 @@
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/es/legalcode.eu"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/es/legalcode.ca"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/es/legalcode.gl"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/es/legalcode.oci"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/es/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/es/88x31.png"/>
     <dc:title xml:lang="sv">Erkännande 3.0 Spanien</dc:title>
@@ -132,5 +133,8 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by/3.0/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/3.0/es/legalcode.oci">
+    <dcq:language>oci_ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>
