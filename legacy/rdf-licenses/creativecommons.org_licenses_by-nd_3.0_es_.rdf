@@ -18,6 +18,7 @@
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.gl"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ca"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="pl">Uznanie autorstwa-Bez utworów zależnych 3.0 Hiszpania</dc:title>
     <dc:title xml:lang="sq">Attribution-NoDerivs 3.0 Spanjë</dc:title>
@@ -131,5 +132,8 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu">
     <dcq:language>eu</dcq:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci">
+    <dcq:language>oci_ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

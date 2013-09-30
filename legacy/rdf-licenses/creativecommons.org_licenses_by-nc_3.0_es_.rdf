@@ -114,6 +114,7 @@
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.ast"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.gl"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.es"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.oci"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>
@@ -133,5 +134,8 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.es">
     <dcq:language>es</dcq:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.oci">
+    <dcq:language>oci_ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>
