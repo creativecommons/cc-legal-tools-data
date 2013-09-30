@@ -15,6 +15,7 @@
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.ca"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.eu"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.ast"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.oci"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/es/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/es/88x31.png"/>
@@ -133,5 +134,8 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.es">
     <dcq:language>es</dcq:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.oci">
+    <dcq:language>oci_ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>
