@@ -3757,4 +3757,11 @@
     <dc:title xml:lang="sv">Chile</dc:title>
     <dc:title xml:lang="he">צ'ילה</dc:title>
   </cc:Jurisdiction>
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ve/">
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:jurisdictionSite rdf:resource="http://ve.creativecommons.org"/>
+    <cc:defaultLanguage>es</cc:defaultLanguage>
+    <dc:title xml:lang="en">Venezuela</dc:title>
+    <dc:title xml:lang="es">Venezuela</dc:title>
+  </cc:Jurisdiction>
 </rdf:RDF>
