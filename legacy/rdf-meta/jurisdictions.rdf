@@ -3468,7 +3468,7 @@
     <dc:title xml:lang="de-ch">Egypt</dc:title>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/igo/">
-    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
+    <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
     <dc:title xml:lang="th">IGO</dc:title>
     <dc:title xml:lang="lv">IGO</dc:title>
     <dc:title xml:lang="es-pe">IGO</dc:title>
