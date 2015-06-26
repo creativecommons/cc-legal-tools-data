@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/au/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/au/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/au/88x31.png"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/au/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/au/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/au/88x31.png"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/au/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/au/"/>
     <dc:title xml:lang="ru">Attribution-NoDerivs (Атрибуция — Без производных произведений) 2.5 Австралия</dc:title>
     <dc:title xml:lang="en-ca">Attribution-NoDerivs 2.5 Australia</dc:title>
     <dc:title xml:lang="no">Navngivelse-IngenBearbeidelse 2.5 Australia</dc:title>
@@ -107,10 +107,10 @@
     <dc:title xml:lang="en">Attribution-NoDerivs 2.5 Australia</dc:title>
     <dc:title xml:lang="ast">Attribution-NoDerivs 2.5 Australia</dc:title>
     <dc:title xml:lang="hi">Attribution-NoDerivs 2.5 Australia</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/au/legalcode"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/au/legalcode"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
     <dc:identifier>by-nd</dc:identifier>
   </cc:License>
 </rdf:RDF>

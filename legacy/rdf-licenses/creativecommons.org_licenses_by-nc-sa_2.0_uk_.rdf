@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.0/uk/">
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/uk/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/">
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/uk/"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/uk/legalcode"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
     <dc:title xml:lang="mn">Attribution-NonCommercial-ShareAlike 2.0 UK: England &amp; Wales</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo - E sego ya Kgwebo - Mohlakanelwa 2.0 UK: Engelane &amp; Wales</dc:title>
@@ -109,11 +109,11 @@
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial-CompartirIgual 2.0 Inglaterra y País de Gales</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Partilha nos termos da mesma licença 2.0 Reino Unido</dc:title>
     <dc:title xml:lang="id">Atribusi-NonKomersial-BerbagiSerupa 2.0 Britania Raya: Inggris &amp; Wales</dc:title>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/uk/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/uk/80x15.png"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/uk/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/uk/80x15.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
   </cc:License>
 </rdf:RDF>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/">
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/88x31.png"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално-Делити под истим условима 2.5 Генеричка лиценца</dc:title>
     <dc:title xml:lang="pt">Atribuição - NãoComercial - CompartilhaIgual 2.5 Genérica</dc:title>
     <dc:title xml:lang="sr-latn">Autorstvo-Nekomercijalno-Deliti pod istim uslovima 2.5 Generička licenca</dc:title>
@@ -107,12 +107,12 @@
     <dc:title xml:lang="de">Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen 2.5 US-amerikanisch (nicht portiert)</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione - Non commerciale - Condividi allo stesso modo 2.5 Generico</dc:title>
     <dc:title xml:lang="ga">Attribution-NonCommercial-ShareAlike 2.5 Generic</dc:title>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/legalcode"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

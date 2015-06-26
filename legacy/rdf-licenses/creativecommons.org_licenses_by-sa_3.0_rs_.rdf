@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/rs/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/rs/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="sl">Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0 Srbija</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Na tych samych warunkach 3.0 Serbia</dc:title>
     <dc:title xml:lang="pt">Atribuição - CompartilhaIgual 3.0 Sérvia</dc:title>
@@ -103,23 +103,23 @@
     <dc:title xml:lang="si-lk">Attribution-ShareAlike 3.0 Serbia</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento-CompartirIgual 3.0 Serbia</dc:title>
     <dc:title xml:lang="tr">Alıntı-LisansıDevamEttirme 3.0 Sırbistan</dc:title>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/rs/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/rs/88x31.png"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Latn"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Cyrl"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/rs/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/rs/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/rs/88x31.png"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Latn"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Cyrl"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/rs/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
     <dc:identifier>by-sa</dc:identifier>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Latn">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Latn">
     <dcq:language>sr-Latn</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Cyrl">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/rs/legalcode.sr-Cyrl">
     <dcq:language>sr-Cyrl</dcq:language>
   </rdf:Description>
 </rdf:RDF>

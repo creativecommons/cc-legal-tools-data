@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/igo/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/igo/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/igo/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/igo/80x15.png"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/igo/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/igo/80x15.png"/>
     <dc:title xml:lang="ast-es">Reconocimiento-NonDerivaos 3.0 IGO</dc:title>
     <dc:title xml:lang="oci-es">Attribution-NoDerivs 3.0 IGO</dc:title>
     <dc:title xml:lang="en-ca">Attribution-NoDerivs 3.0 IGO</dc:title>
@@ -100,10 +100,10 @@
     <dc:title xml:lang="es">Atribución-SinDerivadas 3.0 IGO</dc:title>
     <dc:title xml:lang="hy">Հղում - Օգտագործում առանց վերափոխումների 3.0 IGO</dc:title>
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 3.0 IGO</dc:title>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/igo/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/igo/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/igo/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
 </rdf:RDF>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/sa/1.0/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/sa/1.0/">
     <dc:identifier>sa</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <dc:title xml:lang="ko">동일조건변경허락 1.0 일반</dc:title>
     <dc:title xml:lang="es-co">CompartirIgual 1.0 Genérica</dc:title>
     <dc:title xml:lang="st">ShareAlike 1.0 Generic</dc:title>
@@ -105,11 +105,11 @@
     <dc:title xml:lang="lv">Līdzvērtīgs 1.0 Vispārīgs</dc:title>
     <dc:title xml:lang="no">DelPåSammeVilkår 1.0 Generisk</dc:title>
     <dc:title xml:lang="si-lk">ShareAlike 1.0 Generic</dc:title>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/sa/1.0/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/88x31.png"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/sa/1.0/legalcode"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/sa/1.0/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>

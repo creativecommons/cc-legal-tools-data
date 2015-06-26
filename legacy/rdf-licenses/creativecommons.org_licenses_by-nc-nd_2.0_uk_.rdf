@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/">
     <dc:identifier>by-nc-nd</dc:identifier>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/uk/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/legalcode"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/uk/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/88x31.png"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/uk/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="es-ec">Reconocimiento-NoComercial-SinObraDerivada 2.0 Inglaterra y País de Gales</dc:title>
     <dc:title xml:lang="mn">Attribution-NonCommercial-NoDerivs 2.0 UK: England &amp; Wales</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala-LanEratorririkGabe 2.0 Ingalaterra eta Gales</dc:title>
@@ -108,10 +108,10 @@
     <dc:title xml:lang="es-gt">Reconocimiento-NoComercial-SinObraDerivada 2.0 Inglaterra y País de Gales</dc:title>
     <dc:title xml:lang="zh">署名-非商业性使用-禁止演绎 2.0 英国：英格兰和威尔士</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne-Bez utworów zależnych 2.0 UK: Anglia i Walia</dc:title>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>

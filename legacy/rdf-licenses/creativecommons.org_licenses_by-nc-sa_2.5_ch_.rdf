@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/ch/">
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/">
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ch/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <dc:title xml:lang="az">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial-PerkongsianSerupa 2.5 Switzerland</dc:title>
@@ -104,19 +104,19 @@
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dc:title>
     <dc:title xml:lang="en-us">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Partilha nos termos da mesma licença 2.5 Switzerland</dc:title>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/ch/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/ch/80x15.png"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/ch/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/ch/80x15.png"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de">
     <dcq:language>de</dcq:language>
   </rdf:Description>
 </rdf:RDF>

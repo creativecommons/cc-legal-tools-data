@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/80x15.png"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/80x15.png"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="hy">Հղում - Ոչ-առևտրային օգտագործում - Օգտագործում առանց վերափոխումների 2.5 Generic</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NonCommercial-NoDerivs 2.5 Generic</dc:title>
     <dc:title xml:lang="is">Attribution-NonCommercial-NoDerivs 2.5 Generic</dc:title>
@@ -109,8 +109,8 @@
     <dc:title xml:lang="hr">Imenovanje-Nekomercijalno-Bez prerada 2.5 nelokalizirana licenca</dc:title>
     <dc:title xml:lang="ro">Atribuire-Necomercial-FărăModificări 2.5 Generică</dc:title>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/legalcode"/>
   </cc:License>
 </rdf:RDF>

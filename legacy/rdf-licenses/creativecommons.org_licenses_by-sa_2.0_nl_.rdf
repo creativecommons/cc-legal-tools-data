@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/2.0/nl/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/nl/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
     <dc:title xml:lang="es-gt">Reconocimiento-CompartirIgual 2.0 Holanda</dc:title>
     <dc:title xml:lang="is">Attribution-ShareAlike 2.0 Holland</dc:title>
     <dc:title xml:lang="hu">Nevezd meg! - Így add tovább! 2.0 Hollandia</dc:title>
@@ -102,18 +102,18 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi-Zihlanganyeleni 2.0 iNetherlands</dc:title>
     <dc:title xml:lang="ast">Attribution-ShareAlike 2.0 Netherlands</dc:title>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <dc:identifier>by-sa</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/nl/legalcode"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/nl/"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/nl/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.0/nl/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.0/nl/80x15.png"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/nl/legalcode"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/nl/"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/nl/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.0/nl/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.0/nl/80x15.png"/>
   </cc:License>
 </rdf:RDF>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/ie/">
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ie/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ie/88x31.png"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/ie/legalcode"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/ie/">
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ie/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ie/88x31.png"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/ie/legalcode"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ie/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ie/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="hu">Nevezd meg! - Ne változtasd! 3.0 Írország</dc:title>
     <dc:title xml:lang="ta">Attribution-NoDerivs 3.0 ஐயர்லாந்து</dc:title>
     <dc:title xml:lang="it">Attribuzione - Non opere derivate 3.0 Irlanda</dc:title>

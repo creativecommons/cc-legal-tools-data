@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/gr/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/gr/">
     <dc:title xml:lang="sq">Attribution-ShareAlike 3.0 Greqi</dc:title>
     <dc:title xml:lang="es-ec">Reconocimiento-CompartirIgual 3.0 Grecia</dc:title>
     <dc:title xml:lang="is">Attribution-ShareAlike 3.0 Grikkland</dc:title>
@@ -99,20 +99,20 @@
     <dc:title xml:lang="sl">Priznanje avtorstva-Deljenje pod enakimi pogoji 3.0 Grčija</dc:title>
     <dc:title xml:lang="oci-es">Attribution-ShareAlike 3.0 Greece</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Greece</dc:title>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/gr/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/gr/88x31.png"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/gr/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/gr/88x31.png"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:identifier>by-sa</dc:identifier>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/gr/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/gr/legalcode"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/gr/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/gr/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

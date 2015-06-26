@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/tw/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/tw/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="fa">Attribution-NoDerivs 3.0 تایوان</dc:title>
     <dc:title xml:lang="et">Autorile viitamine + Tuletatud teoste keeld 3.0 Taiwan</dc:title>
     <dc:title xml:lang="sq">Attribution-NoDerivs 3.0 Taivan</dc:title>
@@ -103,14 +103,14 @@
     <dc:title xml:lang="vi">Ghi nhận công của tác giả - Không phái sinh 3.0 Taiwan</dc:title>
     <dc:title xml:lang="hr">Imenovanje-Bez prerada 3.0 Tajvan</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示-禁止改作 3.0 台灣</dc:title>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/tw/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/tw/88x31.png"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/tw/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/tw/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/tw/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/tw/legalcode"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:identifier>by-nd</dc:identifier>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
   </cc:License>
 </rdf:RDF>

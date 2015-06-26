@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/nc/1.0/fi/">
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nc/1.0/fi/legalcode"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/nc/1.0/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/nc/1.0/fi/">
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nc/1.0/fi/legalcode"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/nc/1.0/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:identifier>nc</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/fi/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/fi/"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
     <dc:title xml:lang="hy">Ոչ-առևտրային օգտագործում 1.0 Finland</dc:title>
@@ -108,10 +108,10 @@
     <dc:title xml:lang="pt-pt">Uso Não-Comercial 1.0 Filândia</dc:title>
     <dc:title xml:lang="uk">NonCommercial 1.0 Finland</dc:title>
     <dc:title xml:lang="no">Ikkekommersiell 1.0 Finland</dc:title>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/nc/1.0/fi/88x31.png"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc/1.0/fi/88x31.png"/>
   </cc:License>
 </rdf:RDF>

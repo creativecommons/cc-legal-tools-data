@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.5/co/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.5/co/">
     <dc:identifier>by-nc</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/co/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/co/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/co/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/co/88x31.png"/>
     <dc:title xml:lang="is">Attribution-NonCommercial 2.5 Colombia</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NonCommercial 2.5 Colombia</dc:title>
     <dc:title xml:lang="sl">Priznanje avtorstva-Nekomercialno 2.5 Kolumbija</dc:title>
@@ -108,11 +108,11 @@
     <dc:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne 2.5 Kolumbia</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NonCommercial 2.5 Colombia</dc:title>
     <dc:title xml:lang="sr-latn">Autorstvo-Nekomercijalno 2.5 Kolumbija</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/co/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/co/legalcode"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/co/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/co/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
 </rdf:RDF>

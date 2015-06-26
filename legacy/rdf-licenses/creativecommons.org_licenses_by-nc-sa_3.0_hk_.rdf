@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/3.0/hk/">
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/hk/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/legalcode"/>
     <dc:title xml:lang="bg">Признание-Некомерсиално-Споделяне на споделеното 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="tr">Attribution-Gayriticari-ShareAlike 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="it">Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Hong Kong</dc:title>
@@ -110,10 +110,10 @@
     <dc:title xml:lang="mn">Attribution-NonCommercial-ShareAlike 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 3.0 ฮ่องกง</dc:title>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/3.0/hk/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/3.0/hk/80x15.png"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/hk/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/hk/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/hk/80x15.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/hk/"/>
     <dc:identifier>by-nc-sa</dc:identifier>
   </cc:License>
 </rdf:RDF>

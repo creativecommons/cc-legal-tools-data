@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+  <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
     <dc:identifier>CC0</dc:identifier>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/legalcode"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/legalcode"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <dc:title xml:lang="hr">CC0 1.0 Univerzalno</dc:title>
     <dc:title xml:lang="en-us">CC0 1.0 Universal</dc:title>
     <dc:title xml:lang="es-pr">CC0 1.0 Universal</dc:title>
@@ -105,8 +105,8 @@
     <dc:title xml:lang="sl">CC0 1.0 Universal</dc:title>
     <dc:title xml:lang="uk">CC0 1.0 Universal</dc:title>
     <dc:title xml:lang="kk">CC0 1.0 Universal</dc:title>
-    <foaf:logo rdf:resource="https://licensebuttons.net/p/zero/1.0/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/p/zero/1.0/88x31.png"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/choose/zero/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/p/zero/1.0/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/p/zero/1.0/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/choose/zero/"/>
   </cc:License>
 </rdf:RDF>

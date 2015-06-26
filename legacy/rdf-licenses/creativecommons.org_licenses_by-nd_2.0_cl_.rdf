@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/cl/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/cl/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/cl/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/cl/legalcode"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/cl/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/cl/88x31.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/cl/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/cl/88x31.png"/>
     <dc:title xml:lang="es-pe">Reconocimiento-SinObraDerivada 2.0 Chile</dc:title>
     <dc:title xml:lang="en-hk">Attribution-NoDerivs 2.0 Chile</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示-禁止改作 2.0 智利</dc:title>
@@ -111,6 +111,6 @@
     <dc:title xml:lang="fa">Attribution-NoDerivs 2.0 شیلی</dc:title>
     <dc:title xml:lang="fr-ca">Paternité - Pas de Modification 2.0 Chili</dc:title>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/cl/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/cl/"/>
   </cc:License>
 </rdf:RDF>

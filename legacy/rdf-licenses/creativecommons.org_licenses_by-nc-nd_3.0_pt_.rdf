@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/pt/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/pt/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <dc:title xml:lang="mn">Attribution-NonCommercial-NoDerivs 3.0 Portugal</dc:title>
     <dc:title xml:lang="as">Attribution-NonCommercial-NoDerivs 3.0 Portugal</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne-Bez utworów zależnych 3.0 Portugalia</dc:title>
@@ -97,14 +97,14 @@
     <dc:title xml:lang="nso">Tsebagatšo-E sego ya Kgwebo-Tše sa fetolwego 3.0 Portugal</dc:title>
     <dc:title xml:lang="es">Atribución-NoComercial-SinDerivadas 3.0 Portugal</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte dílo komerčně-Nezasahujte do díla 3.0 Portugalsko</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pt/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/pt/legalcode"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pt/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/pt/legalcode"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/pt/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/pt/80x15.png"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/pt/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/pt/80x15.png"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/sa/1.0/nl/">
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/sa/1.0/nl/88x31.png"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/sa/1.0/nl/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sa/1.0/nl/88x31.png"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <dc:title xml:lang="hi">ShareAlike 1.0 Netherlands</dc:title>
     <dc:title xml:lang="fa">ShareAlike 1.0 هلند</dc:title>
     <dc:title xml:lang="az">ShareAlike 1.0 Netherlands</dc:title>
@@ -106,12 +106,12 @@
     <dc:title xml:lang="ast">ShareAlike 1.0 Netherlands</dc:title>
     <dc:title xml:lang="es-pe">CompartirIgual 1.0 Holanda</dc:title>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/sa/1.0/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/sa/1.0/"/>
     <dc:identifier>sa</dc:identifier>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/sa/1.0/nl/legalcode"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/nl/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/sa/1.0/nl/legalcode"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/nl/"/>
   </cc:License>
 </rdf:RDF>

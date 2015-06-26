@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/pt/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/pt/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/pt/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/pt/80x15.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/pt/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/pt/80x15.png"/>
     <dc:title xml:lang="ga">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="ast">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Nezasahujte do díla 2.5 Portugalsko</dc:title>
@@ -103,14 +103,14 @@
     <dc:title xml:lang="zh">署名-禁止演绎 2.5 葡萄牙</dc:title>
     <dc:title xml:lang="st">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Portugal}</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/pt/legalcode"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/pt/legalcode"/>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pt/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pt/"/>
   </cc:License>
 </rdf:RDF>

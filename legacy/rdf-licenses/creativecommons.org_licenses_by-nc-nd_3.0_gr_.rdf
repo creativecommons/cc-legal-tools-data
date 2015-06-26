@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/gr/">
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/gr/">
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Ne változtasd! 3.0 Görögország</dc:title>
     <dc:title xml:lang="ru">Attribution-NonCommercial-NoDerivs (Атрибуция — Некоммерческое использование — Без производных произведений) 3.0 Греция</dc:title>
     <dc:title xml:lang="az">Attribution-NonCommercial-NoDerivs 3.0 Greece</dc:title>
@@ -107,11 +107,11 @@
     <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno-Bez prerada 3.0 Grčka</dc:title>
     <dc:title xml:lang="eo">Atribuite-Nekomerce-Nemodifite 3.0 Grekujo</dc:title>
     <dc:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk + Tuletatud teoste keeld 3.0 Kreeka</dc:title>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/gr/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/gr/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/gr/80x15.png"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/gr/legalcode"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/gr/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/gr/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/gr/80x15.png"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/gr/legalcode"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
 </rdf:RDF>

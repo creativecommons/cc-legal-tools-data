@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/lu/">
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/lu/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/lu/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/lu/legalcode"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/lu/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/lu/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/lu/88x31.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/lu/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/lu/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/lu/88x31.png"/>
     <dc:title xml:lang="hr">Imenovanje-Bez prerada 3.0 Luksemburg</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione - Non opere derivate 3.0 Luxembourg</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού-Όχι Παράγωγα Έργα 3.0 Λουξεμβούργο</dc:title>
@@ -109,8 +109,8 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungasuseli lutho kulokhu 3.0 ELuxembourg</dc:title>
     <dc:title xml:lang="af">Erkenning-GeenAfleidings 3.0 Luxemburg</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Proibição de realização de Obras Derivadas 3.0 Luxembourg</dc:title>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
   </cc:License>
 </rdf:RDF>

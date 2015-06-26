@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/it/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/it/">
     <dc:identifier>by-nd</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/it/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/it/legalcode"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="hi">Attribution-NoDerivs 2.5 इटली</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-TiadaTerbitan 2.5 Itali</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo - Tše sa Fetolwego 2.5 Italia</dc:title>
@@ -109,8 +109,8 @@
     <dc:title xml:lang="ka">ავტორობის მითითებით გადამუშავების გარეშე 2.5 იტალია</dc:title>
     <dc:title xml:lang="ru">Attribution-NoDerivs (Атрибуция — Без производных произведений) 2.5 Италия</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungasuseli lutho kulokhu 2.5 i-Italy</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/it/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/it/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/it/80x15.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/it/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/it/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/it/80x15.png"/>
   </cc:License>
 </rdf:RDF>

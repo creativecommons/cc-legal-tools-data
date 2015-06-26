@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.0/jp/">
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dc:isBasedOn rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/jp/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/jp/88x31.png"/>
-    <dc:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/jp/">
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:isBasedOn rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/jp/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/jp/88x31.png"/>
+    <dc:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/jp/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/jp/legalcode"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="tr">Alıntı-Türetilemez-Gayriticari 2.0 Kapsamlı</dc:title>
     <dc:title xml:lang="ja">表示 - 改変禁止 - 非営利 2.0 一般</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-SinObraDerivada-NoComercial 2.0 Genérica</dc:title>
@@ -114,7 +114,7 @@
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Proibição de realização de obras derivadas 2.0 Genérica</dc:title>
     <dc:title xml:lang="az">Attribution-NoDerivs-NonCommercial 2.0 Generic</dc:title>
     <dc:title xml:lang="da">Navngivelse-IngenBearbejdelse-IkkeKommerciel 2.0 Generisk</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/jp/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/jp/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
 </rdf:RDF>

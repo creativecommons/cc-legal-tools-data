@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/ie/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/ie/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/ie/legalcode"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/ie/legalcode"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
     <dc:title xml:lang="uk">Attribution-NonCommercial-NoDerivs 3.0 Ireland</dc:title>
     <dc:title xml:lang="fa">Attribution-NonCommercial-NoDerivs 3.0 ایرلند</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione - Non commerciale - Non opere derivate 3.0 Irlanda</dc:title>
@@ -97,14 +97,14 @@
     <dc:title xml:lang="ro">Atribuire-Necomercial-FărăModificări 3.0 Irlanda</dc:title>
     <dc:title xml:lang="sr@latin">Attribution-NonCommercial-NoDerivs 3.0 Ireland</dc:title>
     <dc:title xml:lang="i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Ireland}</dc:title>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ie/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/ie/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/ie/80x15.png"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ie/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ie/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ie/80x15.png"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
   </cc:License>
 </rdf:RDF>

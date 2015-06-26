@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/">
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/88x31.png"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/legalcode"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/88x31.png"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/legalcode"/>
     <dc:title xml:lang="en-us">Attribution-NoDerivs 2.5 Generic</dc:title>
     <dc:title xml:lang="ko">저작자표시-변경금지 2.5 일반</dc:title>
     <dc:title xml:lang="bn">Attribution-NoDerivs 2.5 Generic</dc:title>
@@ -109,7 +109,7 @@
     <dc:title xml:lang="sv">Erkännande-IngaBearbetningar 2.5 Generisk</dc:title>
     <dc:title xml:lang="fi">Nimeä-Ei muutoksia 2.5 Raakaversio</dc:title>
     <dc:title xml:lang="hr">Imenovanje-Bez prerada 2.5 nelokalizirana licenca</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
   </cc:License>
 </rdf:RDF>

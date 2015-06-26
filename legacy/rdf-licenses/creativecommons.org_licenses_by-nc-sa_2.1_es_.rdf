@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.1/es/">
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.1/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.es"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.ca"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.1/es/">
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.1/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.es"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.ca"/>
     <dc:title xml:lang="es-pe">Reconocimiento-NoComercial-CompartirIgual 2.1 España</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示-非商業性-相同方式分享 2.1 西班牙</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NonCommercial-ShareAlike 2.1 Spain</dc:title>
@@ -105,23 +105,23 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano-Yihlanganyeleni 2.1 Espain</dc:title>
     <dc:title xml:lang="es-ec">Reconocimiento-NoComercial-CompartirIgual 2.1 España</dc:title>
     <dc:title xml:lang="ta">Attribution-NonCommercial-ShareAlike 2.1 ஸ்பெயின்</dc:title>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.1/es/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.1/es/88x31.png"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.1/es/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.1/es/88x31.png"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/es/"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/es/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/es/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <dcq:hasVersion>2.1</dcq:hasVersion>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.es">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.es">
     <dcq:language>es</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.ca">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.1/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
   </rdf:Description>
 </rdf:RDF>

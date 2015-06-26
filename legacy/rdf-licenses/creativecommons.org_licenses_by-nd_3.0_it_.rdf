@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/it/">
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/it/legalcode"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/it/">
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/it/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <dc:identifier>by-nd</dc:identifier>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/it/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/it/88x31.png"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/it/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/it/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/it/88x31.png"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/it/"/>
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 3.0 Italien</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NoDerivs 3.0 Italy</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Bez utworów zależnych 3.0 Włochy</dc:title>
@@ -104,6 +104,6 @@
     <dc:title xml:lang="vi">Ghi nhận công của tác giả - Không phái sinh 3.0 Nước Italy</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Nezasahujte do díla 3.0 Itálie</dc:title>
     <dc:title xml:lang="pt-br">Atribuição-Vedada a criação de obras derivativas 3.0 Italy</dc:title>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
   </cc:License>
 </rdf:RDF>

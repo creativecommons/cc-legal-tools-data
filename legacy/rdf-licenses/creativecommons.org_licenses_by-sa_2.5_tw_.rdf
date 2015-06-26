@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/2.5/tw/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.5/tw/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/tw/legalcode"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/tw/legalcode"/>
     <dc:identifier>by-sa</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/tw/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="es-pr">Reconocimiento-CompartirIgual 2.5 Taiwan</dc:title>
     <dc:title xml:lang="es-ar">Atribución-CompartirDerivadasIgual 2.5 Taiwan</dc:title>
     <dc:title xml:lang="hy">Հղում - համանման տարածում 2.5 Թայվան</dc:title>
@@ -109,10 +109,10 @@
     <dc:title xml:lang="es-es">Reconocimiento-CompartirIgual 2.5 Taiwan</dc:title>
     <dc:title xml:lang="af">Erkenning-InsgelyksDeel 2.5 Taiwan</dc:title>
     <dc:title xml:lang="eu">Aitortu-PartekatuBerdin 2.5 Taiwan</dc:title>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/tw/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/tw/88x31.png"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/tw/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/tw/88x31.png"/>
   </cc:License>
 </rdf:RDF>

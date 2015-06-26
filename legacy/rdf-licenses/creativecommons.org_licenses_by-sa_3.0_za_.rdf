@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/za/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/za/">
     <dc:title xml:lang="az">Attribution-ShareAlike 3.0 United States</dc:title>
     <dc:title xml:lang="zh">署名-相同方式共享 3.0 美国</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Na tych samych warunkach 3.0 Stany Zjednoczone</dc:title>
@@ -99,20 +99,20 @@
     <dc:title xml:lang="en-sg">Attribution-ShareAlike 3.0 United States</dc:title>
     <dc:title xml:lang="es-ar">Atribución-CompartirDerivadasIgual 3.0 Estados Unidos de Norteamérica</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-相同方式分享 3.0 美國</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/za/legalcode"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/za/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/za/legalcode"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/za/"/>
     <foaf:logo rdf:resource="https://i.creativecommons.org/l/by-sa/3.0/za/88x31.png"/>
     <foaf:logo rdf:resource="https://i.creativecommons.org/l/by-sa/3.0/za/80x15.png"/>
     <dc:identifier>by-sa</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

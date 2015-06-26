@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/nd/1.0/fi/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/nd/1.0/fi/">
     <dc:identifier>nd</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/nd/1.0/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/fi/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/nd/1.0/fi/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/nd/1.0/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/fi/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nd/1.0/fi/88x31.png"/>
     <dc:title xml:lang="ro">FărăModificări 1.0 Finlanda</dc:title>
     <dc:title xml:lang="en-ca">NoDerivs 1.0 Finland</dc:title>
     <dc:title xml:lang="sr">Без прерада 1.0 Финска</dc:title>
@@ -105,11 +105,11 @@
     <dc:title xml:lang="fr-lu">Pas de modification 1.0 Finlande</dc:title>
     <dc:title xml:lang="no">IngenBearbeidelse 1.0 Finland</dc:title>
     <dc:title xml:lang="fa">NoDerivs 1.0 فنلاند</dc:title>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nd/1.0/fi/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nd/1.0/fi/legalcode"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
   </cc:License>
 </rdf:RDF>

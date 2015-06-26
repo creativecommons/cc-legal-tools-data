@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/cn/">
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/cn/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/cn/">
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/cn/legalcode"/>
     <dc:title xml:lang="fr-ch">Paternité - Pas d'Utilisation Commerciale 3.0 Chine</dc:title>
     <dc:title xml:lang="ca">Reconeixement-NoComercial 3.0 Xina</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel 3.0 China (vasteland)</dc:title>
@@ -93,19 +93,19 @@
     <dc:title xml:lang="fr">Attribution - Pas d’Utilisation Commerciale 3.0 Chine continentale</dc:title>
     <dc:title xml:lang="fa">Attribution-NonCommercial 3.0 چین سرزمین اصلی</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo- E sego ya kgwebo 3.0 China Naga-bogareng</dc:title>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/cn/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/cn/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/cn/80x15.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/cn/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/cn/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/cn/80x15.png"/>
     <dc:identifier>by-nc</dc:identifier>
   </cc:License>
 </rdf:RDF>

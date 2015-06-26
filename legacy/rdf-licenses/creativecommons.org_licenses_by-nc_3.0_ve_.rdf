@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ve/">
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ve/">
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ve/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ve/"/>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ve/legalcode"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ve/legalcode"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
     <dc:title xml:lang="i18n">${Attribution-NonCommercial} 3.0 ${Venezuela}</dc:title>
     <dc:title xml:lang="es">Atribución-NoComercial 3.0 Venezuela</dc:title>
     <dc:title xml:lang="en">Attribution-NonCommercial 3.0 Venezuela</dc:title>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ve/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ve/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ve/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ve/80x15.png"/>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ve/legalcode">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ve/legalcode">
     <dcq:language>es</dcq:language>
   </rdf:Description>
 </rdf:RDF>

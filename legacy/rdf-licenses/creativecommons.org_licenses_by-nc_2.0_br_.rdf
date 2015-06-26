@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.0/br/">
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.0/br/legalcode"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.0/br/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/br/legalcode"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/br/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/2.0/"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/br/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/br/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/br/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.0/br/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.0/br/88x31.png"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/br/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/br/88x31.png"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="nso">Tsebagatšo- E sego ya kgwebo 2.0 Brazil</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално 2.0 Бразил</dc:title>
     <dc:title xml:lang="en-us">Attribution-NonCommercial 2.0 Brazil</dc:title>

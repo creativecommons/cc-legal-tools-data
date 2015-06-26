@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by/2.0/es/">
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/2.0/es/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/2.0/es/88x31.png"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by/2.0/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/2.0/es/legalcode.es"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/2.0/es/legalcode.ca"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by/2.1/es/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by/2.0/es/">
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/2.0/es/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/2.0/es/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/2.0/es/legalcode.es"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/2.0/es/legalcode.ca"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by/2.1/es/"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="be">Атрыбуцыя 2.0 Іспанія</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo 2.0 Sepania</dc:title>
     <dc:title xml:lang="sq">Attribution 2.0 Spanjë</dc:title>
@@ -114,12 +114,12 @@
     <dc:title xml:lang="zh">署名 2.0 西班牙</dc:title>
     <dc:title xml:lang="st">Attribution 2.0 Spain</dc:title>
     <dc:identifier>by</dc:identifier>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/es/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by/2.0/es/legalcode.es">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/2.0/es/legalcode.es">
     <dcq:language>es</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by/2.0/es/legalcode.ca">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/2.0/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
   </rdf:Description>
 </rdf:RDF>

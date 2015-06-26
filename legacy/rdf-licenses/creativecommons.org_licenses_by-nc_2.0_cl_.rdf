@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.0/cl/">
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.0/cl/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.0/cl/">
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/cl/legalcode"/>
     <dc:title xml:lang="be">Attribution-NonCommercial 2.0 Чылі</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NonCommercial 2.0 Chile</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า 2.0 ชิลี</dc:title>
@@ -101,18 +101,18 @@
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial 2.0 Chile</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel 2.0 Chili</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 2.0 Čile</dc:title>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/2.0/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/cl/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/cl/"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.0/cl/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.0/cl/88x31.png"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/cl/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/cl/88x31.png"/>
   </cc:License>
 </rdf:RDF>

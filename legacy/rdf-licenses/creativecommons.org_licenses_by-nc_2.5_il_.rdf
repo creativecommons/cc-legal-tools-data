@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.5/il/">
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/il/legalcode"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.5/il/">
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/il/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="ur">Attribution-NonCommercial 2.5 Israel</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NonCommercial 2.5 Israel</dc:title>
     <dc:title xml:lang="no">Navngivelse-Ikkekommersiell 2.5 Israel</dc:title>
@@ -104,15 +104,15 @@
     <dc:title xml:lang="es-ec">Reconocimiento-NoComercial 2.5 Israel</dc:title>
     <dc:title xml:lang="tr">Alıntı-Gayriticari 2.5 İsrail</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 2.5 Izrael</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/il/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/il/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/il/80x15.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/il/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/il/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/il/80x15.png"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <dc:identifier>by-nc</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/"/>
   </cc:License>
 </rdf:RDF>

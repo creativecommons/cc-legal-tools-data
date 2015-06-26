@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/2.5/pt/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.5/pt/">
     <dc:title xml:lang="ja">表示 - 継承 2.5 ポルトガル</dc:title>
     <dc:title xml:lang="sl">Priznanje avtorstva-Deljenje pod enakimi pogoji 2.5 Portugalska</dc:title>
     <dc:title xml:lang="bg">Признание-Споделяне на споделеното 2.5 Португалия</dc:title>
@@ -99,20 +99,20 @@
     <dc:title xml:lang="fi">Nimeä-Tarttuva 2.5 Portugali</dc:title>
     <dc:title xml:lang="hr">Imenovanje-Dijeli pod istim uvjetima 2.5 Portugal</dc:title>
     <dc:title xml:lang="lt">Attribution-ShareAlike 2.5 Portugalija</dc:title>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pt/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pt/"/>
     <dc:identifier>by-sa</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/pt/legalcode"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/pt/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/pt/80x15.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/pt/legalcode"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/pt/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/pt/80x15.png"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
   </cc:License>
 </rdf:RDF>

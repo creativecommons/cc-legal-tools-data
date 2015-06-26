@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/au/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/au/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/au/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nd/2.1/au/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/au/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/au/88x31.png"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/au/legalcode"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/au/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nd/2.1/au/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/au/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/au/88x31.png"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/au/legalcode"/>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ดัดแปลง 2.0 ออสเตรเลีย</dc:title>
     <dc:title xml:lang="ru">Attribution-NoDerivs (Атрибуция — Без производных произведений) 2.0 Австралия</dc:title>
     <dc:title xml:lang="he">ייחוס-איסור יצירות נגזרות 2.0 אוסטרליה</dc:title>
@@ -110,8 +110,8 @@
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 2.0 Australien</dc:title>
     <dc:title xml:lang="en-gb">Attribution-NoDerivs 2.0 Australia</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-SinObraDerivada 2.0 Australia</dc:title>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
   </cc:License>
 </rdf:RDF>

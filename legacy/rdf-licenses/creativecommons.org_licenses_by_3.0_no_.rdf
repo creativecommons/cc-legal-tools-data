@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by/3.0/no/">
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/3.0/no/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/3.0/no/80x15.png"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by/3.0/no/">
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/no/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/no/80x15.png"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/3.0/no/legalcode"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/no/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/no/legalcode"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/no/"/>
     <dc:title xml:lang="zh-tw">姓名標示 3.0 挪威</dc:title>
     <dc:title xml:lang="mn">Attribution 3.0 Norway</dc:title>
     <dc:title xml:lang="fi">Nimeä 3.0 Norja</dc:title>
@@ -104,14 +104,14 @@
     <dc:title xml:lang="el">Αναφορά Δημιουργού 3.0 Νορβηγία</dc:title>
     <dc:title xml:lang="bg">Признание 3.0 Norway</dc:title>
     <dc:title xml:lang="ml">കടപ്പാട് 3.0 നോർവെ</dc:title>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:identifier>by</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

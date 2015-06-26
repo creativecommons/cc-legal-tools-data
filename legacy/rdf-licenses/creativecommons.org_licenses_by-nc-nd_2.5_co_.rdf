@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/co/">
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/co/"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/co/">
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/co/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="ur">Attribution-NonCommercial-NoDerivs 2.5 Colombia</dc:title>
     <dc:title xml:lang="zh">署名-非商业性使用-禁止演绎 2.5 哥伦比亚</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial-NoDerivs 2.5 Colombia</dc:title>
@@ -104,14 +104,14 @@
     <dc:title xml:lang="es-pe">Reconocimiento-NoComercial-SinObraDerivada 2.5 Colombia</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne-Bez utworów zależnych 2.5 Kolumbia</dc:title>
     <dc:title xml:lang="ru">Attribution-NonCommercial-NoDerivs (Атрибуция — Некоммерческое использование — Без производных произведений) 2.5 Колумбия</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/co/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/co/80x15.png"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/co/legalcode"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/co/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/co/80x15.png"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/co/legalcode"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
 </rdf:RDF>

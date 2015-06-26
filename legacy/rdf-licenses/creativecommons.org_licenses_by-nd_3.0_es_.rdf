@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/">
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/es/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/">
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.es"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ast"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.gl"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ca"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.es"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ast"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.gl"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ca"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:title xml:lang="pl">Uznanie autorstwa-Bez utworów zależnych 3.0 Hiszpania</dc:title>
     <dc:title xml:lang="sq">Attribution-NoDerivs 3.0 Spanjë</dc:title>
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 3.0 Spanien</dc:title>
@@ -112,28 +112,28 @@
     <dc:title xml:lang="bg">Признание-Без производни 3.0 Испания</dc:title>
     <dc:title xml:lang="et">Autorile viitamine + Tuletatud teoste keeld 3.0 Hispaania</dc:title>
     <dc:title xml:lang="ur">Attribution-NoDerivs 3.0 Spain</dc:title>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/es/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/es/88x31.png"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/es/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/es/88x31.png"/>
     <dc:identifier>by-nd</dc:identifier>
   </cc:License>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.gl">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.gl">
     <dcq:language>gl</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.es">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.es">
     <dcq:language>es</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ast">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ast">
     <dcq:language>ast</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ca">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.eu">
     <dcq:language>eu</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci">
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci">
     <dcq:language>oci_ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

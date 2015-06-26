@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/hk/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/hk/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/hk/88x31.png"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/hk/"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/hk/legalcode"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/hk/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/hk/88x31.png"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/hk/"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/legalcode"/>
     <dc:identifier>by-nc-nd</dc:identifier>
     <dc:title xml:lang="zh-hk">姓名標示-非商業性-禁止改作 3.0 香港</dc:title>
     <dc:title xml:lang="ja">表示 - 非営利 - 改変禁止 3.0 香港</dc:title>
@@ -112,6 +112,6 @@
     <dc:title xml:lang="en">Attribution-NonCommercial-NoDerivs 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo-E sego ya Kgwebo-Tše sa fetolwego 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="es-mx">Atribución-No Comercial-No Derivadas 3.0 Hong Kong</dc:title>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
 </rdf:RDF>

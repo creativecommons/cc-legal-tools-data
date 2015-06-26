@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.5/">
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.5/">
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dc:title xml:lang="sl">Priznanje avtorstva-Nekomercialno 2.5 Generična</dc:title>
     <dc:title xml:lang="hi">Attribution-NonCommercial 2.5 Generic</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-非商業性 2.5 通用版</dc:title>
@@ -100,18 +100,18 @@
     <dc:title xml:lang="be">Attribution-NonCommercial 2.5 Generic</dc:title>
     <dc:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale 2.5 Générique</dc:title>
     <dc:title xml:lang="de">Namensnennung-Nicht-kommerziell 2.5 US-amerikanisch (nicht portiert)</dc:title>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/80x15.png"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/legalcode"/>
-    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/80x15.png"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/legalcode"/>
+    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
   </cc:License>
 </rdf:RDF>

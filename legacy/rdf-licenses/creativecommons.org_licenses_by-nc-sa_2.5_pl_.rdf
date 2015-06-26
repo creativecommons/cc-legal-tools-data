@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/pl/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/pl/legalcode"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/pl/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/pl/legalcode"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pl/"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/pl/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/pl/80x15.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pl/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/pl/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/pl/80x15.png"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:title xml:lang="ru">Attribution-NonCommercial-ShareAlike (Атрибуция — Некоммерческое использование — С сохранением условий) 2.5 Польша</dc:title>
     <dc:title xml:lang="si-lk">Attribution-NonCommercial-ShareAlike 2.5 Poland</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-NoComercial-CompartirIgual 2.5 Polonia</dc:title>
@@ -114,6 +114,6 @@
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Így add tovább! 2.5 Lengyelország</dc:title>
     <dc:title xml:lang="es-es">Reconocimiento-NoComercial-CompartirIgual 2.5 Polonia</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით 2.5 პოლონეთი</dc:title>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

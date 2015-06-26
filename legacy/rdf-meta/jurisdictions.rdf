@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
 >
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/nl/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/nl/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.nl"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.nl"/>
     <cc:defaultLanguage>nl</cc:defaultLanguage>
     <dc:title xml:lang="de-at">Niederlande</dc:title>
     <dc:title xml:lang="nl">Nederland</dc:title>
@@ -53,9 +53,9 @@
     <dc:title xml:lang="he">הולנד</dc:title>
     <dc:title xml:lang="pt">Holanda</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/si/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/si/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.si"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.si"/>
     <cc:defaultLanguage>sl</cc:defaultLanguage>
     <dc:title xml:lang="en">Slovenia</dc:title>
     <dc:title xml:lang="bg">Словения</dc:title>
@@ -102,9 +102,9 @@
     <dc:title xml:lang="sv">Slovenien</dc:title>
     <dc:title xml:lang="da">Slovenien</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/bg/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/bg/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/bg/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/bg/"/>
     <cc:defaultLanguage>bg</cc:defaultLanguage>
     <dc:title xml:lang="en">Bulgaria</dc:title>
     <dc:title xml:lang="he">בולגריה</dc:title>
@@ -151,7 +151,7 @@
     <dc:title xml:lang="fr-ca">Bulgarie</dc:title>
     <dc:title xml:lang="zh-tw">保加利亞</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/za/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/za/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://za.creativecommons.org"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
@@ -200,7 +200,7 @@
     <dc:title xml:lang="sl">Južnoafriška Republika</dc:title>
     <dc:title xml:lang="nl">Zuid-Afrika</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/uk/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/uk/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.uk"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
@@ -249,9 +249,9 @@
     <dc:title xml:lang="es-mx">Inglaterra y País de Gales</dc:title>
     <dc:title xml:lang="mk">Велика Британија: Англија и Велс</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/jo/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/jo/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/jo/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/jo/"/>
     <cc:defaultLanguage>ja</cc:defaultLanguage>
     <dc:title xml:lang="zh-tw">約旦</dc:title>
     <dc:title xml:lang="hr">Jordan</dc:title>
@@ -298,7 +298,7 @@
     <dc:title xml:lang="ko">Jordan</dc:title>
     <dc:title xml:lang="pt-pt">Jordânia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/dk/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/dk/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.dk"/>
     <cc:defaultLanguage>da</cc:defaultLanguage>
@@ -347,9 +347,9 @@
     <dc:title xml:lang="da">Danmark</dc:title>
     <dc:title xml:lang="en-us">Denmark</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ch/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ch/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.ch"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.ch"/>
     <cc:defaultLanguage>de</cc:defaultLanguage>
     <dc:title xml:lang="en-us">Switzerland</dc:title>
     <dc:title xml:lang="da">Schweiz</dc:title>
@@ -396,9 +396,9 @@
     <dc:title xml:lang="sv">Schweiz</dc:title>
     <dc:title xml:lang="he">שוויץ</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/us/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/us/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/us/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/us/"/>
     <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="en">United States</dc:title>
     <dc:title xml:lang="it">United States</dc:title>
@@ -444,7 +444,7 @@
     <dc:title xml:lang="de">Vereinigte Staaten von Amerika</dc:title>
     <dc:title xml:lang="eo">Usono</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ug/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ug/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://wiki.creativecommons.org/Uganda"/>
     <cc:defaultLanguage>en</cc:defaultLanguage>
@@ -534,9 +534,9 @@
     <dc:title xml:lang="ja">Uganda</dc:title>
     <dc:title xml:lang="pl">Uganda</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/it/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/it/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.it"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.it"/>
     <cc:defaultLanguage>it</cc:defaultLanguage>
     <dc:title xml:lang="sl">Italija</dc:title>
     <dc:title xml:lang="de-ch">Italien</dc:title>
@@ -583,7 +583,7 @@
     <dc:title xml:lang="pl">Włochy</dc:title>
     <dc:title xml:lang="it-ch">Italia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/rs/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/rs/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.rs"/>
     <cc:defaultLanguage>sr</cc:defaultLanguage>
@@ -639,9 +639,9 @@
     <dc:title xml:lang="zu">Serbia</dc:title>
     <dc:title xml:lang="en">Serbia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/nz/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/nz/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.nz"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.nz"/>
     <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="pl">Nowa Zelandia</dc:title>
     <dc:title xml:lang="en-sg">New Zealand</dc:title>
@@ -740,9 +740,9 @@
     <dc:title xml:lang="gl">Nova Zelandia</dc:title>
     <dc:title xml:lang="hi">न्यू ज़ीलैंड</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ng/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ng/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/ng/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ng/"/>
     <cc:defaultLanguage>nl</cc:defaultLanguage>
     <dc:title xml:lang="he">ניגריה</dc:title>
     <dc:title xml:lang="nl">Nigeria</dc:title>
@@ -789,9 +789,9 @@
     <dc:title xml:lang="ja">ナイジェリア</dc:title>
     <dc:title xml:lang="pt">Nigeria</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/my/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/my/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/my/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/my/"/>
     <cc:defaultLanguage>ms</cc:defaultLanguage>
     <dc:title xml:lang="fr-ca">Malaisie</dc:title>
     <dc:title xml:lang="no">Malaysia</dc:title>
@@ -887,7 +887,7 @@
     <dc:title xml:lang="as">Malaysia</dc:title>
     <dc:title xml:lang="sr-latn">Malezija</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/kr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/kr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.or.kr"/>
     <cc:defaultLanguage>ko</cc:defaultLanguage>
@@ -995,7 +995,7 @@
     <dc:title xml:lang="zh-tw">韓國</dc:title>
     <dc:title xml:lang="af">Korea</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/th/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/th/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://cc.in.th"/>
     <cc:defaultLanguage>th</cc:defaultLanguage>
@@ -1064,9 +1064,9 @@
     <dc:title xml:lang="es_CL">Thailand</dc:title>
     <dc:title xml:lang="es_PR">Thailand</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ca/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ca/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.ca"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.ca"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
     <dc:title xml:lang="de-ch">Kanada</dc:title>
     <dc:title xml:lang="ko">Canada</dc:title>
@@ -1113,7 +1113,7 @@
     <dc:title xml:lang="nso">Khanada</dc:title>
     <dc:title xml:lang="zh-tw">加拿大</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/fr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/fr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://fr.creativecommons.org"/>
     <cc:defaultLanguage>fr</cc:defaultLanguage>
@@ -1162,7 +1162,7 @@
     <dc:title xml:lang="pt">França</dc:title>
     <dc:title xml:lang="en-us">France</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/de/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/de/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://de.creativecommons.org"/>
     <cc:defaultLanguage>de</cc:defaultLanguage>
@@ -1237,9 +1237,9 @@
     <dc:title xml:lang="pl">Niemcy</dc:title>
     <dc:title xml:lang="en">Germany</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ua/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ua/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">false</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/ua/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ua/"/>
     <cc:defaultLanguage>zh-tw</cc:defaultLanguage>
     <dc:title xml:lang="fr-ca">Ukraine</dc:title>
     <dc:title xml:lang="sv">Ukraina</dc:title>
@@ -1286,7 +1286,7 @@
     <dc:title xml:lang="sl">Ukrajina</dc:title>
     <dc:title xml:lang="it">Ukraine</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/cz/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cz/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.cz"/>
     <cc:defaultLanguage>cs</cc:defaultLanguage>
@@ -1356,9 +1356,9 @@
     <dc:title xml:lang="az">Czech Republic</dc:title>
     <dc:title xml:lang="no">Tjekkia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/il/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/il/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.il"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.il"/>
     <cc:defaultLanguage>he</cc:defaultLanguage>
     <dc:title xml:lang="de-ch">Israel</dc:title>
     <dc:title xml:lang="st">Israel</dc:title>
@@ -1405,9 +1405,9 @@
     <dc:title xml:lang="pl">Izrael</dc:title>
     <dc:title xml:lang="sv">Israel</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/hu/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/hu/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.hu"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.hu"/>
     <cc:defaultLanguage>hu</cc:defaultLanguage>
     <dc:title xml:lang="es">Hungría</dc:title>
     <dc:title xml:lang="it">Hungary</dc:title>
@@ -1454,9 +1454,9 @@
     <dc:title xml:lang="de">Ungarn</dc:title>
     <dc:title xml:lang="en-us">Hungary</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/mt/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/mt/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/mt/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/mt/"/>
     <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="gl">Malta</dc:title>
     <dc:title xml:lang="pt">Malta</dc:title>
@@ -1503,7 +1503,7 @@
     <dc:title xml:lang="es-mx">Malta</dc:title>
     <dc:title xml:lang="bg">Малта</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/pr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://pr.creativecommons.org"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
@@ -1560,9 +1560,9 @@
     <dc:title xml:lang="en">Puerto Rico</dc:title>
     <dc:title xml:lang="es_PR">Puerto Rico</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/fi/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/fi/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.fi"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.fi"/>
     <cc:defaultLanguage>fi</cc:defaultLanguage>
     <dc:title xml:lang="da">Finland</dc:title>
     <dc:title xml:lang="de-ch">Finnland</dc:title>
@@ -1609,9 +1609,9 @@
     <dc:title xml:lang="gl">Finlandia</dc:title>
     <dc:title xml:lang="ms">Finland</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/mx/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/mx/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.mx"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.mx"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="ca">Mèxic</dc:title>
     <dc:title xml:lang="hu">Mexikó</dc:title>
@@ -1658,9 +1658,9 @@
     <dc:title xml:lang="he">מקסיקו</dc:title>
     <dc:title xml:lang="eo">Meksiko</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/no/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/no/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.no"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.no"/>
     <cc:defaultLanguage>no</cc:defaultLanguage>
     <dc:title xml:lang="de_CH">Norway</dc:title>
     <dc:title xml:lang="eo">Norway</dc:title>
@@ -1718,7 +1718,7 @@
     <dc:title xml:lang="zu">Norway</dc:title>
     <dc:title xml:lang="fr_LU">Norway</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/in/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/in/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
     <dc:title xml:lang="hr">Indija</dc:title>
@@ -1766,7 +1766,7 @@
     <dc:title xml:lang="af">Indië</dc:title>
     <dc:title xml:lang="sv">Indien</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/lu/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/lu/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://luxcommons.lu"/>
     <cc:defaultLanguage>fr</cc:defaultLanguage>
@@ -1815,7 +1815,7 @@
     <dc:title xml:lang="ca">Luxemburg</dc:title>
     <dc:title xml:lang="st">Luxembourg</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/es/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/es/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://es.creativecommons.org"/>
     <cc:defaultLanguage>es-es</cc:defaultLanguage>
@@ -1864,9 +1864,9 @@
     <dc:title xml:lang="pl">Hiszpania</dc:title>
     <dc:title xml:lang="zh-tw">西班牙</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/jp/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/jp/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.jp"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.jp"/>
     <cc:defaultLanguage>ja</cc:defaultLanguage>
     <dc:title xml:lang="he">יפן</dc:title>
     <dc:title xml:lang="sl">Japonska</dc:title>
@@ -1913,9 +1913,9 @@
     <dc:title xml:lang="fr-lu">Japon</dc:title>
     <dc:title xml:lang="eu">Japonia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/at/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/at/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.at"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.at"/>
     <cc:defaultLanguage>de</cc:defaultLanguage>
     <dc:title xml:lang="zh-tw">奧地利</dc:title>
     <dc:title xml:lang="hr">Austrija</dc:title>
@@ -1962,7 +1962,7 @@
     <dc:title xml:lang="es-co">Austria</dc:title>
     <dc:title xml:lang="hu">Ausztria</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ie/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ie/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://wiki.creativecommons.org/Ireland"/>
     <cc:defaultLanguage>en_GB</cc:defaultLanguage>
@@ -2058,9 +2058,9 @@
     <dc:title xml:lang="st">Ireland</dc:title>
     <dc:title xml:lang="th">ไอร์แลนด์</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/hr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/hr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/hr/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/hr/"/>
     <cc:defaultLanguage>hr</cc:defaultLanguage>
     <dc:title xml:lang="es">Croacia</dc:title>
     <dc:title xml:lang="he">קרואטיה</dc:title>
@@ -2107,9 +2107,9 @@
     <dc:title xml:lang="es-mx">Croacia</dc:title>
     <dc:title xml:lang="ja">クロアチア</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/be/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/be/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.be"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.be"/>
     <cc:defaultLanguage>fr</cc:defaultLanguage>
     <dc:title xml:lang="es-mx">Bélgica</dc:title>
     <dc:title xml:lang="zh-tw">比利時</dc:title>
@@ -2156,7 +2156,7 @@
     <dc:title xml:lang="en">Belgium</dc:title>
     <dc:title xml:lang="he">בלגיה</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/pt/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pt/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://pt.creativecommons.org"/>
     <cc:defaultLanguage>pt</cc:defaultLanguage>
@@ -2205,9 +2205,9 @@
     <dc:title xml:lang="en-us">Portugal</dc:title>
     <dc:title xml:lang="en-gb">Portugal</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/br/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/br/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.br"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.br"/>
     <cc:defaultLanguage>pt-br</cc:defaultLanguage>
     <dc:title xml:lang="zh">巴西</dc:title>
     <dc:title xml:lang="de">Brasilien</dc:title>
@@ -2254,9 +2254,9 @@
     <dc:title xml:lang="ja">ブラジル</dc:title>
     <dc:title xml:lang="es-cl">Brasil</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/sg/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/sg/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommonssingapore.wordpress.com"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommonssingapore.wordpress.com"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
     <dc:title xml:lang="he">סינגפור</dc:title>
     <dc:title xml:lang="pt">Singapore</dc:title>
@@ -2318,7 +2318,7 @@
     <dc:title xml:lang="ja">シンガポール</dc:title>
     <dc:title xml:lang="ca">Singapur</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ro/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ro/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://ro.creativecommons.org"/>
     <cc:defaultLanguage>ro</cc:defaultLanguage>
@@ -2378,7 +2378,7 @@
     <dc:title xml:lang="sv">Rumänien</dc:title>
     <dc:title xml:lang="fr_LU">Roumanie</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/pe/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pe/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://pe.creativecommons.org"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
@@ -2427,7 +2427,7 @@
     <dc:title xml:lang="es-co">Perú</dc:title>
     <dc:title xml:lang="zu">ePeru</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/gt/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/gt/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://gt.creativecommons.org"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
@@ -2488,7 +2488,7 @@
     <dc:title xml:lang="en_US">Guatemala</dc:title>
     <dc:title xml:lang="ca">Guatemala</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ee/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ee/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:defaultLanguage>et</cc:defaultLanguage>
     <dc:title xml:lang="ta">Estonia</dc:title>
@@ -2587,7 +2587,7 @@
     <dc:title xml:lang="te">ఎస్టోనియా</dc:title>
     <dc:title xml:lang="zu">Estonia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/gr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/gr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.gr"/>
     <cc:defaultLanguage>el</cc:defaultLanguage>
@@ -2636,7 +2636,7 @@
     <dc:title xml:lang="af">Greece</dc:title>
     <dc:title xml:lang="ko">Greece</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/scotland/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/scotland/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.uk"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
@@ -2685,7 +2685,7 @@
     <dc:title xml:lang="fr-ch">Royaume-Uni : Ecosse</dc:title>
     <dc:title xml:lang="pt-pt">UK: Scotland</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/hk/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/hk/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://hk.creativecommons.org"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
@@ -2745,7 +2745,7 @@
     <dc:title xml:lang="da">Hong Kong</dc:title>
     <dc:title xml:lang="ca">Hong Kong</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/co/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/co/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://co.creativecommons.org"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
@@ -2794,9 +2794,9 @@
     <dc:title xml:lang="st">Colombia</dc:title>
     <dc:title xml:lang="es-pe">Colombia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ec/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ec/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.ec"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.ec"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="sq">Ekuador</dc:title>
     <dc:title xml:lang="kk">Ecuador</dc:title>
@@ -2891,9 +2891,9 @@
     <dc:title xml:lang="es-es">Ecuador</dc:title>
     <dc:title xml:lang="el">Εκουαδόρ</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/pl/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pl/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.pl"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.pl"/>
     <cc:defaultLanguage>pl</cc:defaultLanguage>
     <dc:title xml:lang="en">Poland</dc:title>
     <dc:title xml:lang="es-cl">Polonia</dc:title>
@@ -2940,9 +2940,9 @@
     <dc:title xml:lang="de">Polen</dc:title>
     <dc:title xml:lang="he">פולין</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/tw/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/tw/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.tw"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.tw"/>
     <cc:defaultLanguage>zh-tw</cc:defaultLanguage>
     <dc:title xml:lang="bn">Taiwan</dc:title>
     <dc:title xml:lang="it">Taiwan</dc:title>
@@ -3037,9 +3037,9 @@
     <dc:title xml:lang="uk">Тайвань</dc:title>
     <dc:title xml:lang="bg">Тайван</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ph/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ph/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/ph/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ph/"/>
     <cc:defaultLanguage>en</cc:defaultLanguage>
     <dc:title xml:lang="ms">Filipina</dc:title>
     <dc:title xml:lang="de-at">Philippinen</dc:title>
@@ -3086,7 +3086,7 @@
     <dc:title xml:lang="da">Filippinerne</dc:title>
     <dc:title xml:lang="en-us">Philippines</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/se/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/se/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.se"/>
     <cc:defaultLanguage>sv</cc:defaultLanguage>
@@ -3135,7 +3135,7 @@
     <dc:title xml:lang="nso">Sweden</dc:title>
     <dc:title xml:lang="sl">Švedska</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/mk/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/mk/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://cc.org.mk/"/>
     <cc:defaultLanguage>mk</cc:defaultLanguage>
@@ -3184,7 +3184,7 @@
     <dc:title xml:lang="en-gb">Macedonia</dc:title>
     <dc:title xml:lang="ca">Macedònia</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/cn/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cn/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://cn.creativecommons.org"/>
     <cc:defaultLanguage>zh</cc:defaultLanguage>
@@ -3233,9 +3233,9 @@
     <dc:title xml:lang="en-gb">China</dc:title>
     <dc:title xml:lang="af">Sjinese Vasteland</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/au/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/au/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org.au"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org.au"/>
     <cc:defaultLanguage>en-gb</cc:defaultLanguage>
     <dc:title xml:lang="ca">Austràlia</dc:title>
     <dc:title xml:lang="en-gb">Australia</dc:title>
@@ -3282,9 +3282,9 @@
     <dc:title xml:lang="sv">Australien</dc:title>
     <dc:title xml:lang="fr-ch">Australie</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/cr/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cr/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/international/cr/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/international/cr/"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="ko">코스타리카</dc:title>
     <dc:title xml:lang="ja">コスタ・リカ</dc:title>
@@ -3375,7 +3375,7 @@
     <dc:title xml:lang="bn">Costa Rica</dc:title>
     <dc:title xml:lang="es-ar">Costa Rica</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/eg/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/eg/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://wiki.creativecommons.org/Egypt"/>
     <cc:defaultLanguage>ar</cc:defaultLanguage>
@@ -3467,7 +3467,7 @@
     <dc:title xml:lang="sq">Egypt</dc:title>
     <dc:title xml:lang="de-ch">Egypt</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/igo/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/igo/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <dc:title xml:lang="th">IGO</dc:title>
     <dc:title xml:lang="lv">IGO</dc:title>
@@ -3555,9 +3555,9 @@
     <dc:title xml:lang="si-lk">IGO</dc:title>
     <dc:title xml:lang="is">IGO</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/vn/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/vn/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/international/vn"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/international/vn"/>
     <cc:defaultLanguage>vi</cc:defaultLanguage>
     <dc:title xml:lang="sv">Vietnam</dc:title>
     <dc:title xml:lang="st">country.vn</dc:title>
@@ -3659,9 +3659,9 @@
     <dc:title xml:lang="pt-pt">Vietname</dc:title>
     <dc:title xml:lang="pt-br">Vietnã</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ar/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ar/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
-    <cc:jurisdictionSite rdf:resource="https://creativecommons.org/worldwide/ar/"/>
+    <cc:jurisdictionSite rdf:resource="http://creativecommons.org/worldwide/ar/"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="zh">阿根廷</dc:title>
     <dc:title xml:lang="he">ארגנטינה</dc:title>
@@ -3708,7 +3708,7 @@
     <dc:title xml:lang="hr">Argentina</dc:title>
     <dc:title xml:lang="mk">Аргентина</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/cl/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/cl/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.cl"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>
@@ -3757,7 +3757,7 @@
     <dc:title xml:lang="sv">Chile</dc:title>
     <dc:title xml:lang="he">צ'ילה</dc:title>
   </cc:Jurisdiction>
-  <cc:Jurisdiction rdf:about="https://creativecommons.org/international/ve/">
+  <cc:Jurisdiction rdf:about="http://creativecommons.org/international/ve/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://ve.creativecommons.org"/>
     <cc:defaultLanguage>es</cc:defaultLanguage>

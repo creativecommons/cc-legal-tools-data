@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/tw/">
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/tw/legalcode"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/tw/"/>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/tw/">
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/tw/legalcode"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
     <dc:title xml:lang="mk">НаведиИзвор-Некомерцијално-СподелиПодИстиУслови 2.5 Тајван</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial-CompartirIgual 2.5 Taiwan</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით 2.5 ტაივანი</dc:title>
@@ -108,12 +108,12 @@
     <dc:title xml:lang="ro">Atribuire-Necomercial-FărăModificări 2.5 Taiwan</dc:title>
     <dc:title xml:lang="lt">Attribution-NonCommercial-ShareAlike 2.5 Taivanis</dc:title>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/tw/80x15.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/tw/88x31.png"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/tw/80x15.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/tw/88x31.png"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>

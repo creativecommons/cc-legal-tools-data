@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='https://creativecommons.org/ns#'
+  xmlns:cc='http://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/it/">
-    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/it/"/>
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/it/">
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/it/"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="https://creativecommons.org"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/it/88x31.png"/>
-    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/it/80x15.png"/>
+    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/it/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/it/80x15.png"/>
     <dc:title xml:lang="el">Αναφορά Δημιουργού - Μη Εμπορική Χρήση - Παρόμοια Διανομή 2.5 Ιταλία</dc:title>
     <dc:title xml:lang="gl">Recoñecemento-NonComercial-CompartirIgual 2.5 Italia</dc:title>
     <dc:title xml:lang="sv">Erkännande-IckeKommersiell-DelaLika 2.5 Italien</dc:title>
@@ -110,10 +110,10 @@
     <dc:title xml:lang="es-pr">Reconocimiento-NoComercial-CompartirIgual 2.5 Italia</dc:title>
     <dc:title xml:lang="ja">表示 - 非営利 - 継承 2.5 イタリア</dc:title>
     <dc:title xml:lang="as">Attribution-NonCommercial-ShareAlike 2.5 Italy</dc:title>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
-    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/it/legalcode"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/it/legalcode"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>
