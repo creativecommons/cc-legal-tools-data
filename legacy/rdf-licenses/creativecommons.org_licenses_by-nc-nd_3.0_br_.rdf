@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/br/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/br/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/br/80x15.png"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/br/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/br/">
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/br/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/br/80x15.png"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/br/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Ne változtasd! 3.0 Brazília</dc:title>
     <dc:title xml:lang="pt">Atribuição - NãoComercial - SemDerivados 3.0 Brasil</dc:title>
     <dc:title xml:lang="eo">Atribuite-Nekomerce-Nemodifite 3.0 Brazilo</dc:title>
@@ -109,9 +109,9 @@
     <dc:title xml:lang="es-ec">Reconocimiento-NoComercial-SinObraDerivada 3.0 Brasil</dc:title>
     <dc:title xml:lang="mk">НаведиИзвор-Некомерцијално-БезАдаптираниДела 3.0 Бразил</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala-LanEratorririkGabe 3.0 Brasil</dc:title>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/br/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/br/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>by-nc-nd</dc:identifier>
   </cc:License>
 </rdf:RDF>

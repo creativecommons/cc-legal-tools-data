@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by/4.0/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by/4.0/">
     <dcq:hasVersion>4.0</dcq:hasVersion>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dc:identifier>by</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/4.0/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/4.0/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/4.0/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/4.0/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/4.0/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
     <dc:title xml:lang="sr@latin">Attribution 4.0 International</dc:title>
     <dc:title xml:lang="es-ar">Atribución 4.0 Internacional</dc:title>
     <dc:title xml:lang="si-lk">Attribution 4.0 ජාත්‍යන්තර</dc:title>
@@ -100,9 +100,9 @@
     <dc:title xml:lang="zh">署名 4.0 国际</dc:title>
     <dc:title xml:lang="es">Atribución 4.0 Internacional</dc:title>
     <dc:title xml:lang="uk">Із зазначенням авторства 4.0 Міжнародна</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

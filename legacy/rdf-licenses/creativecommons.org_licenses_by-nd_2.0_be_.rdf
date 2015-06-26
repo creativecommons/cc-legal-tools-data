@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/be/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/be/">
     <dc:title xml:lang="en-gb">Attribution-NoDerivs 2.0 Belgium</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ดัดแปลง 2.0 เบลเยียม</dc:title>
     <dc:title xml:lang="mk">НаведиИзвор-БезИзведениДела 2.0 Белгија</dc:title>
@@ -100,24 +100,24 @@
     <dc:title xml:lang="hi">Attribution-NoDerivs 2.0 बेलजियम</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού-Όχι Παράγωγα Έργα 2.0 Βέλγιο</dc:title>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/be/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/be/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/be/legalcode.fr"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/be/legalcode.nl"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/be/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/be/80x15.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/be/legalcode.fr"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/be/legalcode.nl"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/be/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/be/80x15.png"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.0/be/legalcode.nl">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/2.0/be/legalcode.nl">
     <dcq:language>nl</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.0/be/legalcode.fr">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/2.0/be/legalcode.fr">
     <dcq:language>fr</dcq:language>
   </rdf:Description>
 </rdf:RDF>

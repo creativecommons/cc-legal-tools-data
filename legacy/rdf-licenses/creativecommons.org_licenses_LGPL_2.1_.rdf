@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/LGPL/2.1/">
     <dcq:hasVersion>2.1</dcq:hasVersion>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#SourceCode"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#SourceCode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
     <dc:title xml:lang="fi">GNU Lesser General Public License</dc:title>
     <dc:title xml:lang="es-pr">Licencia Pública General Menor de GNU</dc:title>
     <dc:title xml:lang="zh-hk">GNU 較寬鬆通用公共授權條款</dc:title>
@@ -103,13 +103,13 @@
     <dc:title xml:lang="pl">GNU Lesser General Public License</dc:title>
     <dc:title xml:lang="en-hk">GNU Lesser General Public Licence</dc:title>
     <dc:title xml:lang="et">GNU Lesser General Public License</dc:title>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:identifier>LGPL</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/LGPL/2.1/88x62.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/LGPL/2.1/88x62.png"/>
     <dc:creator rdf:resource="http://fsf.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/software"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/software"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/LGPL/2.1/legalcode"/>
   </cc:License>
 </rdf:RDF>

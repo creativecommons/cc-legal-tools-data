@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/si/">
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/si/">
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/si/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/si/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/si/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/si/88x31.png"/>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 2.5 สโลวาเนีย</dc:title>
     <dc:title xml:lang="en-us">Attribution-NonCommercial-ShareAlike 2.5 Slovenia</dc:title>
     <dc:title xml:lang="ta">Attribution-NonCommercial-ShareAlike 2.5 Slovenia</dc:title>
@@ -111,9 +111,9 @@
     <dc:title xml:lang="es-gt">Reconocimiento-NoComercial-CompartirIgual 2.5 Eslovenia</dc:title>
     <dc:title xml:lang="es-ar">Atribución-NoComercial-CompartirDerivadasIgual 2.5 Eslovenia</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano-Yihlanganyeleni 2.5 iSlovenia</dc:title>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/si/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/si/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/si/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/si/"/>
   </cc:License>
 </rdf:RDF>

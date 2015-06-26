@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/">
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.0/">
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/88x31.png"/>
     <dc:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale - Pas de Modification 2.0 Générique</dc:title>
     <dc:title xml:lang="es-ec">Reconocimiento-NoComercial-SinObraDerivada 2.0 Genérica</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial-NoDerivs 2.0 Generic</dc:title>
@@ -105,12 +105,12 @@
     <dc:title xml:lang="es-pe">Reconocimiento-NoComercial-SinObraDerivada 2.0 Genérica</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-ไม่ดัดแปลง 2.0 ทั่วไป</dc:title>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

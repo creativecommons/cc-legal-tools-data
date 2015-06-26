@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by/1.0/il/">
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/il/"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by/2.5/il/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by/1.0/il/">
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/il/"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by/2.5/il/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dc:title xml:lang="el">Αναφορά Δημιουργού 1.0 Ισραήλ</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示 1.0 以色列</dc:title>
     <dc:title xml:lang="sl">Priznanje avtorstva 1.0 Izrael</dc:title>
@@ -107,12 +107,12 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi 1.0 E-Israel</dc:title>
     <dc:title xml:lang="no">Navngivelse 1.0 Israel</dc:title>
     <dc:title xml:lang="en-sg">Attribution 1.0 Israel</dc:title>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by/1.0/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/1.0/il/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by/1.0/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/1.0/il/legalcode"/>
     <dc:identifier>by</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/1.0/il/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/1.0/il/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/1.0/il/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/1.0/il/80x15.png"/>
   </cc:License>
 </rdf:RDF>

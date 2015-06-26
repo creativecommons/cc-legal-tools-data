@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/">
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ch/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ch/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ch/">
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ch/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ch/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ch/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-nc</dc:identifier>
     <dc:title xml:lang="tr">Alıntı-Gayriticari 3.0 İsviçre</dc:title>
@@ -107,12 +107,12 @@
     <dc:title xml:lang="zh-hk">姓名標示-非商業性 3.0 瑞士</dc:title>
     <dc:title xml:lang="en-hk">Attribution-NonCommercial 3.0 Switzerland</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial 3.0 Switzerland</dc:title>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de">
     <dcq:language>de</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr">
     <dcq:language>fr</dcq:language>
   </rdf:Description>
 </rdf:RDF>

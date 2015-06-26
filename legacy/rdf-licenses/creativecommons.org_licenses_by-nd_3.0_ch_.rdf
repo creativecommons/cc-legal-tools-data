@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/ch/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.fr"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.de"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ch/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ch/88x31.png"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/ch/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.fr"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.de"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ch/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ch/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ch/88x31.png"/>
     <dc:title xml:lang="ka">ავტორობის მითითებით გადამუშავების გარეშე 3.0 შვეიცარია</dc:title>
     <dc:title xml:lang="es">Atribución-SinDerivadas 3.0 Suiza</dc:title>
     <dc:title xml:lang="en">Attribution-NoDerivs 3.0 Switzerland</dc:title>
@@ -97,20 +97,20 @@
     <dc:title xml:lang="en-hk">Attribution-NoDerivs 3.0 Switzerland</dc:title>
     <dc:title xml:lang="ro">Atribuire-FărăModificări 3.0 Elveţia</dc:title>
     <dc:title xml:lang="zh">署名-禁止演绎 3.0 瑞士</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.fr">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.fr">
     <dcq:language>fr</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.de">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/3.0/ch/legalcode.de">
     <dcq:language>de</dcq:language>
   </rdf:Description>
 </rdf:RDF>

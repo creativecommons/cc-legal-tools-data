@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/sampling/1.0/tw/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/sampling/1.0/tw/">
     <dc:title xml:lang="si-lk">Sampling 1.0</dc:title>
     <dc:title xml:lang="no">Sampling 1.0</dc:title>
     <dc:title xml:lang="zh">取样使用 1.0</dc:title>
@@ -99,18 +99,18 @@
     <dc:title xml:lang="de-at">Sampling 1.0</dc:title>
     <dc:title xml:lang="mn">Sampling 1.0</dc:title>
     <dc:title xml:lang="el">Sampling 1.0</dc:title>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/sampling/1.0/tw/legalcode"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/sampling/1.0/tw/legalcode"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/tw/"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2007-06-04</cc:deprecatedOn>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sampling/1.0/tw/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/sampling/1.0/tw/80x15.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/sampling/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/sampling/1.0/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/sampling/1.0/tw/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/sampling/1.0/tw/80x15.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/sampling/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/sampling/1.0/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>sampling</dc:identifier>
     <dcq:hasVersion>1.0</dcq:hasVersion>
   </cc:License>

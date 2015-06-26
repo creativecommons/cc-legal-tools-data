@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/nc-sampling+/1.0/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/nc-sampling+/1.0/">
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2011-09-09</cc:deprecatedOn>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:title xml:lang="en-sg">Non-Commercial Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="no">Ikkekommersiell Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="da">IkkeKommerciel Sampling Plus 1.0</dc:title>
@@ -103,15 +103,15 @@
     <dc:title xml:lang="is">NonCommercial Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="es-ec">Sampling Plus No Comercial 1.0</dc:title>
     <dc:title xml:lang="es-pr">Sampling Plus No Comercial 1.0</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nc-sampling+/1.0/legalcode"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nc-sampling+/1.0/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dc:identifier>nc-sampling+</dc:identifier>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/sampling/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sampling+/1.0/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sampling+/1.0/88x31.png"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/sampling/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nc-sampling+/1.0/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nc-sampling+/1.0/88x31.png"/>
   </cc:License>
 </rdf:RDF>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ee/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ee/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/ee/80x15.png"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/ee/">
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ee/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/ee/80x15.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
     <dc:identifier>by-nc</dc:identifier>
     <dc:title xml:lang="pt-br">Atribuição-Uso não-comercial 3.0 Estônia</dc:title>
     <dc:title xml:lang="pt">Atribuição - NãoComercial 3.0 Estónia</dc:title>
@@ -98,16 +98,16 @@
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 3.0 Estonia</dc:title>
     <dc:title xml:lang="eo">Atribuite-Nekomerce 3.0 Estonujo</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala 3.0 Estonia</dc:title>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ee/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ee/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ee/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ee/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

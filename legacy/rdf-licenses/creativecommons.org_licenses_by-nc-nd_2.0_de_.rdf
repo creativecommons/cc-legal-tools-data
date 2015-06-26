@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.0/de/">
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.0/de/">
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/de/legalcode"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/de/legalcode"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
     <dc:title xml:lang="te">Attribution-NonCommercial-NoDerivs 2.0 జర్మనీ</dc:title>
     <dc:title xml:lang="ru">Attribution-NonCommercial-NoDerivs (Атрибуция — Некоммерческое использование — Без производных произведений) 2.0 Германия</dc:title>
@@ -104,14 +104,14 @@
     <dc:title xml:lang="sr-latn">Autorstvo-Nekomercijalno-Bez prerada 2.0 Nemačka</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენბისათვის–გადამუშავების გარეშე 2.0 გერმანია</dc:title>
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Ne változtasd! 2.0 Németország</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/de/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.0/de/80x15.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/de/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.0/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/de/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.0/de/80x15.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/de/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.0/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
 </rdf:RDF>

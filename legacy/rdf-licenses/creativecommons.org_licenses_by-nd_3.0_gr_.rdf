@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/gr/">
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/gr/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/gr/">
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/gr/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/gr/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/gr/80x15.png"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/gr/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/gr/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/gr/80x15.png"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/gr/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="sq">Attribution-NoDerivs 3.0 Greqi</dc:title>
     <dc:title xml:lang="et">Autorile viitamine + Tuletatud teoste keeld 3.0 Kreeka</dc:title>
     <dc:title xml:lang="es-pr">Reconocimiento-SinObraDerivada 3.0 Greece</dc:title>

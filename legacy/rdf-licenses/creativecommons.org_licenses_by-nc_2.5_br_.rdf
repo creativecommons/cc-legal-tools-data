@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/2.5/br/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/2.5/br/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
     <dc:title xml:lang="eo">Atribuite-Nekomerce 2.5 Brazilo</dc:title>
     <dc:title xml:lang="bg">Признание-Некомерсиално 2.5 Бразилия</dc:title>
     <dc:title xml:lang="es-cl">Atribución-NoComercial 2.5 Brasil</dc:title>
@@ -107,12 +107,12 @@
     <dc:title xml:lang="oci-es">Attribution-NonCommercial 2.5 Brazil</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala 2.5 Brasil</dc:title>
     <dc:title xml:lang="sq">Attribution-NonCommercial 2.5 Brazil</dc:title>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/br/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/br/legalcode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/br/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.5/br/88x31.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/br/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/2.5/br/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/br/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/2.5/br/88x31.png"/>
   </cc:License>
 </rdf:RDF>

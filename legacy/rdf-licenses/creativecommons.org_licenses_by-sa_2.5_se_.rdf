@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.5/se/">
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/se/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/se/legalcode"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/2.5/se/">
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/se/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/se/legalcode"/>
     <dc:identifier>by-sa</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/se/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.5/se/80x15.png"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/se/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.5/se/80x15.png"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
     <dc:title xml:lang="tr">Alıntı-LisansıDevamEttirme 2.5 İsveç</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-อนุญาตแบบเดียวกัน 2.5 สวีเดน</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-PerkongsianSerupa 2.5 Sweden</dc:title>
@@ -112,7 +112,7 @@
     <dc:title xml:lang="ast-es">Attribution-ShareAlike 2.5 Sweden</dc:title>
     <dc:title xml:lang="fa">Attribution-ShareAlike 2.5 سوئد</dc:title>
     <dc:title xml:lang="it">Attribuzione - Condividi allo stesso modo 2.5 Sweden</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

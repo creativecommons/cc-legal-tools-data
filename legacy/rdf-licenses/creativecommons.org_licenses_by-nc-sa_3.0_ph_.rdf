@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/ph/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/ph/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/ph/80x15.png"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/3.0/ph/">
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/3.0/ph/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/3.0/ph/80x15.png"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:identifier>by-nc-sa</dc:identifier>
     <dc:title xml:lang="es-pr">Reconocimiento-NoComercial-CompartirIgual 3.0 Filipinas</dc:title>
     <dc:title xml:lang="uk">Attribution-NonCommercial-ShareAlike 3.0 Philippines</dc:title>
@@ -105,15 +105,15 @@
     <dc:title xml:lang="lt">Attribution-NonCommercial-ShareAlike 3.0 Filipinai</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Partilha nos termos da mesma licença 3.0 Philippines</dc:title>
     <dc:title xml:lang="pt-br">Atribuição-Uso não-comercial-Compartilhamento pela mesma licença 3.0 Philippines</dc:title>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ph/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ph/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/ph/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/ph/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
   </cc:License>
 </rdf:RDF>

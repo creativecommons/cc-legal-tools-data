@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/mk/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/mk/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 2.5 Macedonië</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial-TiadaTerbitan 2.5 Macedonia</dc:title>
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Ne változtasd! 2.5 Macedonia</dc:title>
@@ -101,17 +101,17 @@
     <dc:title xml:lang="eu">Aitortu-EzKomertziala-LanEratorririkGabe 2.5 Macedonia</dc:title>
     <dc:title xml:lang="is">Attribution-NonCommercial-NoDerivs 2.5 Macedonia</dc:title>
     <dc:title xml:lang="as">Attribution-NonCommercial-NoDerivs 2.5 Macedonia</dc:title>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/mk/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/mk/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/mk/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/mk/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/mk/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/mk/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/mk/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/mk/legalcode"/>
   </cc:License>
 </rdf:RDF>

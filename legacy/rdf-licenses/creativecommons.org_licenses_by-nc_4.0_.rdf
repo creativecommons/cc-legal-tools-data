@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/4.0/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/4.0/">
     <dcq:hasVersion>4.0</dcq:hasVersion>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! 4.0 Nemzetközi</dc:title>
     <dc:title xml:lang="zh">署名-非商业性使用 4.0 国际</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού-Μη Εμπορική Χρήση 4.0 Διεθνές</dc:title>
@@ -95,15 +95,15 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano 4.0 International</dc:title>
     <dc:title xml:lang="ml">Attribution-NonCommercial 4.0 അന്തർദേശീയം</dc:title>
     <dc:title xml:lang="te">Attribution-NonCommercial 4.0 అంతర్జాతీయం</dc:title>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/4.0/80x15.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/4.0/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/4.0/80x15.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/legalcode"/>
     <dc:identifier>by-nc</dc:identifier>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
   </cc:License>
 </rdf:RDF>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/ec/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/ec/">
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ec/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ec/"/>
     <dc:title xml:lang="ru">Attribution-NonCommercial-NoDerivs (Атрибуция — Некоммерческое использование — Без производных произведений) 3.0 Эквадор</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Proibição de realização de Obras Derivadas 3.0 Ecuador</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-ไม่ดัดแปลง 3.0 เอกวาดอร์</dc:title>
@@ -102,16 +102,16 @@
     <dc:title xml:lang="en-ca">Attribution-NonCommercial-NoDerivs 3.0 Ecuador</dc:title>
     <dc:title xml:lang="it">Attribuzione - Non commerciale - Non opere derivate 3.0 Ecuador</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano-Ungasuseli lutho kulokhu 3.0 Ecuador</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/ec/legalcode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ec/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/3.0/ec/80x15.png"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/3.0/ec/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/ec/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/3.0/ec/80x15.png"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
 </rdf:RDF>

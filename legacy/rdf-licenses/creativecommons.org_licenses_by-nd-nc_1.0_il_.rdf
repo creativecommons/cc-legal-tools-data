@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd-nc/1.0/il/">
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd-nc/1.0/il/">
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
     <dc:identifier>by-nd-nc</dc:identifier>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/il/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd-nc/1.0/il/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd-nc/1.0/il/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd-nc/1.0/il/legalcode"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/il/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd-nc/1.0/il/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd-nc/1.0/il/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd-nc/1.0/il/legalcode"/>
     <dc:title xml:lang="sr">Ауторство-Без прерада-Некомерцијално 1.0 Израел</dc:title>
     <dc:title xml:lang="vi">Ghi nhận công của tác giả- Không phái sinh - Phi thương mại  1.0 Nước Israel</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Nezasahujte do díla-Neužívejte komerčně 1.0 Izrael</dc:title>
@@ -109,9 +109,9 @@
     <dc:title xml:lang="es-ec">Reconocimiento-SinObraDerivada-NoComercial 1.0 Israel</dc:title>
     <dc:title xml:lang="be">Attribution-NoDerivs-NonCommercial 1.0 Ізраіль</dc:title>
     <dc:title xml:lang="tr">Alıntı-Türetilemez-Gayriticari 1.0 İsrail</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd-nc/1.0/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd-nc/1.0/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
   </cc:License>
 </rdf:RDF>

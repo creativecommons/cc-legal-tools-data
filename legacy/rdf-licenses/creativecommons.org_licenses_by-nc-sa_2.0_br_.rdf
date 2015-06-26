@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/br/">
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.0/br/">
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/br/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/br/88x31.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/br/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/br/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/br/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/br/88x31.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/br/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/br/legalcode"/>
     <dc:title xml:lang="fi">Nimeä-Epäkaupallinen-Tarttuva 2.0 Brasilia</dc:title>
     <dc:title xml:lang="fr-lu">Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 2.0 Brésil</dc:title>
     <dc:title xml:lang="uk">Attribution-NonCommercial-ShareAlike 2.0 Бразилія</dc:title>
@@ -109,12 +109,12 @@
     <dc:title xml:lang="hu">Nevezd meg! - Ne add el! - Így add tovább! 2.0 Brazília</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-NoComercial-CompartirIgual 2.0 Brasil</dc:title>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/br/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/br/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/"/>
   </cc:License>
 </rdf:RDF>

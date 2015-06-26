@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by/2.0/pl/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/2.0/pl/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/2.0/pl/80x15.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pl/"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by/2.5/pl/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by/2.0/pl/">
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/2.0/pl/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/2.0/pl/80x15.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pl/"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by/2.5/pl/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dc:title xml:lang="ko">저작자표시(Attribution) 2.0 폴란드</dc:title>
     <dc:title xml:lang="eu">Aitortu 2.0 Polonia</dc:title>
     <dc:title xml:lang="st">Attribution 2.0 Poland</dc:title>
@@ -106,13 +106,13 @@
     <dc:title xml:lang="no">Navngivelse 2.0 Polen</dc:title>
     <dc:title xml:lang="fi">Nimeä 2.0 Puola</dc:title>
     <dc:identifier>by</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by/2.0/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/2.0/pl/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/2.0/pl/legalcode"/>
   </cc:License>
 </rdf:RDF>

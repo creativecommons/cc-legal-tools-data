@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
 >
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/license/">
     <cc:licenseCode>standard</cc:licenseCode>
     <dc:title xml:lang="nso">Creative Commons</dc:title>
     <dc:title xml:lang="eu">Creative Commons</dc:title>
@@ -62,11 +62,11 @@
     <dc:title xml:lang="es_MX">Creative Commons</dc:title>
     <dc:title xml:lang="ms">Creative Commons</dc:title>
   </cc:LicenseSelector>
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/choose/zero/">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/choose/zero/">
     <cc:licenseCode>zero</cc:licenseCode>
     <dc:title xml:lang="en">CC0</dc:title>
   </cc:LicenseSelector>
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/publicdomain/">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/license/publicdomain/">
     <cc:licenseCode>publicdomain</cc:licenseCode>
     <dc:title xml:lang="it_CH">Pubblico Dominio</dc:title>
     <dc:title xml:lang="es_MX">Dominio Público</dc:title>
@@ -124,15 +124,15 @@
     <dc:title xml:lang="fr_LU">Public Domain</dc:title>
     <dc:title xml:lang="fi">Public Domain</dc:title>
   </cc:LicenseSelector>
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/choose/mark/">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/choose/mark/">
     <cc:licenseCode>mark</cc:licenseCode>
     <dc:title xml:lang="en">Public Domain Mark</dc:title>
   </cc:LicenseSelector>
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/software">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/license/software">
     <cc:licenseCode>software</cc:licenseCode>
     <dc:title xml:lang="en">Software</dc:title>
   </cc:LicenseSelector>
-  <cc:LicenseSelector rdf:about="http://creativecommons.org/license/sampling/">
+  <cc:LicenseSelector rdf:about="https://creativecommons.org/license/sampling/">
     <cc:licenseCode>recombo</cc:licenseCode>
     <dc:title xml:lang="hu">Sampling</dc:title>
     <dc:title xml:lang="zu">Ukuthatha isampula</dc:title>

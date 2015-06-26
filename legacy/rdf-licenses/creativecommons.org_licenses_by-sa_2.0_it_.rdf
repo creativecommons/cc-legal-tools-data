@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/it/">
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/it/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/2.0/it/">
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/it/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
     <dc:title xml:lang="es-es">Reconocimiento-CompartirIgual 2.0 Italia</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού - Παρόμοια Διανομή 2.0 Ιταλία</dc:title>
@@ -107,13 +107,13 @@
     <dc:title xml:lang="de-ch">Namensnennung-Weitergabe unter gleichen Bedingungen 2.0 Italien</dc:title>
     <dc:title xml:lang="ga">Attribution-ShareAlike 2.0 Italy</dc:title>
     <dc:title xml:lang="ca">Reconeixement-CompartirIgual 2.0 Itàlia</dc:title>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.0/it/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/2.0/it/88x31.png"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.0/it/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/2.0/it/88x31.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
     <dc:identifier>by-sa</dc:identifier>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/it/"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/it/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/it/"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-sa/2.5/it/"/>
   </cc:License>
 </rdf:RDF>

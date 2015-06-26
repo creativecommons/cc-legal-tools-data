@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/pe/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/pe/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pe/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/pe/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/pe/88x31.png"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pe/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/pe/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/pe/88x31.png"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/pe/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/pe/legalcode"/>
     <dc:title xml:lang="zh-tw">姓名標示-非商業性-相同方式分享 2.5 秘魯</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo - E sego ya Kgwebo - Mohlakanelwa 2.5 Peru</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-非商業性-相同方式分享 2.5 秘魯</dc:title>
@@ -111,9 +111,9 @@
     <dc:title xml:lang="en-us">Attribution-NonCommercial-ShareAlike 2.5 Peru</dc:title>
     <dc:title xml:lang="kk">Attribution-NonCommercial-ShareAlike 2.5 Peru</dc:title>
     <dc:title xml:lang="ml">Attribution-NonCommercial-ShareAlike 2.5 പെറു</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
   </cc:License>
 </rdf:RDF>

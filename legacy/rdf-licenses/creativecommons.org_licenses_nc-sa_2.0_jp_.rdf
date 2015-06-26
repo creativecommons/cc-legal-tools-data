@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/nc-sa/2.0/jp/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nc-sa/2.0/jp/legalcode"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/nc-sa/2.0/jp/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nc-sa/2.0/jp/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
     <dc:identifier>nc-sa</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
     <dc:title xml:lang="es">NoComercial-CompartirIgual 2.0 Japón</dc:title>
     <dc:title xml:lang="sr">Некомерцијално-Делити под истим условима 2.0 Јапан</dc:title>
     <dc:title xml:lang="si-lk">NonCommercial-ShareAlike 2.0 Japan</dc:title>
@@ -107,11 +107,11 @@
     <dc:title xml:lang="en">NonCommercial-ShareAlike 2.0 Japan</dc:title>
     <dc:title xml:lang="ast-es">NonCommercial-ShareAlike 2.0 Japan</dc:title>
     <dc:title xml:lang="pl">Użycie niekomercyjne-Na tych samych warunkach 2.0 Japonia</dc:title>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/nc-sa/2.0/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/jp/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sa/2.0/jp/88x31.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/nc-sa/2.0/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/jp/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nc-sa/2.0/jp/88x31.png"/>
   </cc:License>
 </rdf:RDF>

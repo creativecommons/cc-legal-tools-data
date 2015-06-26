@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/au/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/au/">
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/au/legalcode"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/au/legalcode"/>
     <dc:title xml:lang="ur">Attribution-NonCommercial-ShareAlike 2.5 Australia</dc:title>
     <dc:title xml:lang="lt">Attribution-NonCommercial-ShareAlike 2.5 Australija</dc:title>
     <dc:title xml:lang="sl">Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 2.5 Avstralija</dc:title>
@@ -106,14 +106,14 @@
     <dc:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 2.5 ออสเตรเลีย</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel-GelijkDelen 2.5 Australië</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo - E sego ya Kgwebo - Mohlakanelwa 2.5 Australia</dc:title>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/au/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/au/88x31.png"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/au/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/au/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/au/88x31.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/au/"/>
   </cc:License>
 </rdf:RDF>

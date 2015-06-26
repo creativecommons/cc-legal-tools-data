@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/jp/">
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/jp/">
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/jp/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/jp/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/jp/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/jp/88x31.png"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/jp/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/jp/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="ca">Reconeixement-SenseObraDerivada 2.0 Japó</dc:title>
     <dc:title xml:lang="kk">Туынды жасамау 2.0 Japan</dc:title>
     <dc:title xml:lang="en-us">Attribution-NoDerivs 2.0 Japan</dc:title>
@@ -111,7 +111,7 @@
     <dc:title xml:lang="es-ec">Reconocimiento-SinObraDerivada 2.0 Japón</dc:title>
     <dc:title xml:lang="ko">저작자표시-변경금지 2.0 일본</dc:title>
     <dc:title xml:lang="oci-es">Attribution-NoDerivs 2.0 Japan</dc:title>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/jp/legalcode"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nd/2.1/jp/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/jp/legalcode"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nd/2.1/jp/"/>
   </cc:License>
 </rdf:RDF>

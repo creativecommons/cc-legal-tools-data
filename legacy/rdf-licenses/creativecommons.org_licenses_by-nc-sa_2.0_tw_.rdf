@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/tw/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/tw/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/tw/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.0/tw/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/tw/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/tw/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
     <dc:title xml:lang="de">Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen 2.0 Taiwan</dc:title>
     <dc:title xml:lang="ru">Attribution-NonCommercial-ShareAlike (Атрибуция — Некоммерческое использование — С сохранением условий) 2.0 Тайвань</dc:title>
@@ -109,12 +109,12 @@
     <dc:title xml:lang="fr-lu">Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 2.0 Taiwan</dc:title>
     <dc:title xml:lang="en-us">Attribution-NonCommercial-ShareAlike 2.0 Taiwan</dc:title>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/tw/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.0/tw/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/tw/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/tw/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.0/tw/88x31.png"/>
   </cc:License>
 </rdf:RDF>

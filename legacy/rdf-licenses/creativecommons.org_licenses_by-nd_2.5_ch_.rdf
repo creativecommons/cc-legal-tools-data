@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/ch/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/ch/">
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/ch/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/ch/80x15.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/ch/legalcode.de"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/ch/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/ch/80x15.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ch/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/ch/legalcode.de"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Švajcarska</dc:title>
     <dc:title xml:lang="az">Attribution-NoDerivs 2.5 Switzerland</dc:title>
     <dc:title xml:lang="mk">НаведиИзвор-БезИзведениДела 2.5 Швајцарија</dc:title>
@@ -109,11 +109,11 @@
     <dc:title xml:lang="he">ייחוס-איסור יצירות נגזרות 2.5 שוויץ</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-KeineBearbeitung 2.5 Schweiz</dc:title>
     <dc:title xml:lang="vi">Ghi nhận công của tác giả - Không phái sinh 2.5 Switzerland</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.5/ch/legalcode.de">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/2.5/ch/legalcode.de">
     <dcq:language>de</dcq:language>
   </rdf:Description>
 </rdf:RDF>

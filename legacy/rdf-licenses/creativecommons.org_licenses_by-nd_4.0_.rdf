@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/4.0/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/4.0/">
     <dc:title xml:lang="hy">Հղում - Օգտագործում առանց վերափոխումների 4.0 International</dc:title>
     <dc:title xml:lang="pt-br">Atribuição-SemDerivados 4.0 Internacional</dc:title>
     <dc:title xml:lang="uk">Із зазначенням авторства - Без похідних творів 4.0 Міжнародна</dc:title>
@@ -92,15 +92,15 @@
     <dc:title xml:lang="oci-es">Attribution-NoDerivatives 4.0 International</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-禁止改作 4.0 國際</dc:title>
     <dc:title xml:lang="gl">Recoñecemento-SenObraDerivada 4.0 Internacional</dc:title>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/4.0/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/4.0/80x15.png"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/4.0/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/4.0/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/4.0/80x15.png"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/4.0/legalcode"/>
     <dc:identifier>by-nd</dc:identifier>
     <dcq:hasVersion>4.0</dcq:hasVersion>
   </cc:License>

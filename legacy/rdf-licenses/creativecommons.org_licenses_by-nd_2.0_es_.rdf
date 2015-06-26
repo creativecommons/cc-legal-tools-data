@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/es/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/es/">
     <dcq:hasVersion>2.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/es/legalcode.ca"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/es/legalcode.es"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/es/legalcode.ca"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/es/legalcode.es"/>
     <dc:title xml:lang="fa">Attribution-NoDerivs 2.0 اسپانیا</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-KeineBearbeitung 2.0 Spanien</dc:title>
     <dc:title xml:lang="bg">Признание-Без производни 2.0 Испания</dc:title>
@@ -104,21 +104,21 @@
     <dc:title xml:lang="en">Attribution-NoDerivs 2.0 Spain</dc:title>
     <dc:title xml:lang="id">Atribusi-TanpaTurunan 2.0 Spanyol</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-SinObraDerivada 2.0 España</dc:title>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/es/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/es/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/es/88x31.png"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nd/2.1/es/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/es/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/es/88x31.png"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nd/2.1/es/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.0/es/legalcode.ca">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/2.0/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.0/es/legalcode.es">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/2.0/es/legalcode.es">
     <dcq:language>es</dcq:language>
   </rdf:Description>
 </rdf:RDF>

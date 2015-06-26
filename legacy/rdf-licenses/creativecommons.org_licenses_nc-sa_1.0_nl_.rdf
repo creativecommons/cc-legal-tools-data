@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/nc-sa/1.0/nl/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/nc-sa/1.0/nl/">
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dc:title xml:lang="id">NonKomersial-BerbagiSerupa 1.0 Belanda</dc:title>
     <dc:title xml:lang="es-ec">NoComercial-CompartirIgual 1.0 Holanda</dc:title>
     <dc:title xml:lang="es-pr">NoComercial-CompartirIgual 1.0 Holanda</dc:title>
@@ -102,17 +102,17 @@
     <dc:title xml:lang="en-us">NonCommercial-ShareAlike 1.0 Netherlands</dc:title>
     <dc:title xml:lang="en-hk">NonCommercial-ShareAlike 1.0 Netherlands</dc:title>
     <dc:title xml:lang="st">NonCommercial-ShareAlike 1.0 Netherlands</dc:title>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/nl/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nc-sa/1.0/nl/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/nl/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nc-sa/1.0/nl/88x31.png"/>
     <dc:identifier>nc-sa</dc:identifier>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nc-sa/1.0/nl/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/nc-sa/1.0/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nc-sa/1.0/nl/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/nc-sa/1.0/"/>
   </cc:License>
 </rdf:RDF>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/cn/">
     <dc:identifier>by-nc-nd</dc:identifier>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <dc:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენბისათვის–გადამუშავების გარეშე 2.5 ჩინეთი (მატერიკი)</dc:title>
@@ -101,17 +101,17 @@
     <dc:title xml:lang="fa">Attribution-NonCommercial-NoDerivs 2.5 چین سرزمین اصلی</dc:title>
     <dc:title xml:lang="az">Attribution-NonCommercial-NoDerivs 2.5 China Mainland</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 2.5 China (vasteland)</dc:title>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/cn/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/legalcode"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/cn/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/cn/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/cn/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/cn/legalcode"/>
   </cc:License>
 </rdf:RDF>

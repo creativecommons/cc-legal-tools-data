@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.1/es/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.ca"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.es"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/es/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.1/es/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.1/es/80x15.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.1/es/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.ca"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.es"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/es/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.1/es/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.1/es/80x15.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="es-pr">Reconocimiento-NoComercial-SinObrasDerivadas 2.1 España</dc:title>
     <dc:title xml:lang="st">Attribution-NonCommercial-NoDerivs 2.1 Spain</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално-Без прерада 2.1 Шпанија</dc:title>
@@ -106,20 +106,20 @@
     <dc:title xml:lang="sq">Attribution-NonCommercial-NoDerivs 2.1 Spanjë</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Proibição de realização de Obras Derivadas 2.1 Espanha</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NonCommercial-NoDerivs 2.1 Spain</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/es/"/>
     <dcq:hasVersion>2.1</dcq:hasVersion>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.1/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.1/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.ca">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.ca">
     <dcq:language>ca</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.es">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.1/es/legalcode.es">
     <dcq:language>es</dcq:language>
   </rdf:Description>
 </rdf:RDF>

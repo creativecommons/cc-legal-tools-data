@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by/3.0/de/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by/3.0/de/">
     <dc:identifier>by</dc:identifier>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/de/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/de/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/de/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/3.0/de/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by/3.0/de/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/de/"/>
     <dc:title xml:lang="mn">Attribution 3.0 Germany</dc:title>
     <dc:title xml:lang="sr@latin">Autorstvo 3.0 Nemačka</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione 3.0 Germania</dc:title>
@@ -105,13 +105,13 @@
     <dc:title xml:lang="fa">Attribution 3.0 آلمان</dc:title>
     <dc:title xml:lang="hi">Attribution 3.0 Germany</dc:title>
     <dc:title xml:lang="oci-es">Attribution 3.0 Germany</dc:title>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/de/legalcode"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/3.0/de/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
   </cc:License>
 </rdf:RDF>

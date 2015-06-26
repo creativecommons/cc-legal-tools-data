@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/ar/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.5/ar/">
     <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Argentina</dc:title>
     <dc:title xml:lang="sr">Ауторство-Без прерада 2.5 Аргентина</dc:title>
     <dc:title xml:lang="es-mx">Atribución-No Derivadas 2.5 Argentina</dc:title>
@@ -99,18 +99,18 @@
     <dc:title xml:lang="ka">ავტორობის მითითებით გადამუშავების გარეშე 2.5 არგენტინა</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-SinObraDerivada 2.5 Argentina</dc:title>
     <dc:title xml:lang="eu">Aitortu-LanEratorririkGabe 2.5 Argentina</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ar/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ar/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dc:identifier>by-nd</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/ar/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.5/ar/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/ar/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/ar/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.5/ar/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/ar/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
   </cc:License>
 </rdf:RDF>

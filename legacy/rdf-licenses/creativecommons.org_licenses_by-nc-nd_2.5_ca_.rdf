@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.fr"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.en"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.fr"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.en"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dc:title xml:lang="ga">Attribution-NonCommercial-NoDerivs 2.5 Canada</dc:title>
     <dc:title xml:lang="i18n">${Attribution-NonCommercial-NoDerivs} 2.5 ${Canada}</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial-TiadaTerbitan 2.5 Kanada</dc:title>
@@ -104,21 +104,21 @@
     <dc:title xml:lang="ko">저작자표시-비영리-변경금지 2.5 캐나다</dc:title>
     <dc:title xml:lang="en-us">Attribution-NonCommercial-NoDerivs 2.5 Canada</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално-Без прерада 2.5 Канада</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/ca/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/ca/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ca/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/ca/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/ca/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ca/"/>
     <dc:identifier>by-nc-nd</dc:identifier>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.fr">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.fr">
     <dcq:language>fr</dcq:language>
   </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.en">
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/ca/legalcode.en">
     <dcq:language>en</dcq:language>
   </rdf:Description>
 </rdf:RDF>

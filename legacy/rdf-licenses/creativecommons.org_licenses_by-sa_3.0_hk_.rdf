@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/hk/">
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/hk/legalcode"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/hk/">
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/hk/legalcode"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
     <dc:title xml:lang="ur">Attribution-ShareAlike 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Zihlanganyeleni 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="hu">Nevezd meg! - Így add tovább! 3.0 Hong Kong</dc:title>
@@ -103,16 +103,16 @@
     <dc:title xml:lang="es-pe">Reconocimiento-CompartirIgual 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="ga">Attribution-ShareAlike 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="te">Attribution-ShareAlike 3.0 హాంకాంగ్</dc:title>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/hk/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/hk/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/hk/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/hk/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/hk/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:identifier>by-sa</dc:identifier>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
   </cc:License>
 </rdf:RDF>

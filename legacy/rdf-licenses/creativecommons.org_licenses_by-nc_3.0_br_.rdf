@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/br/">
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/br/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/br/80x15.png"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/br/">
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/br/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/br/80x15.png"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/br/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/br/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:title xml:lang="st">Attribution-NonCommercial</dc:title>
     <dc:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk 3.0 Brasiilia</dc:title>
     <dc:title xml:lang="ko">저작자표시-비영리 3.0 브라질</dc:title>
@@ -108,11 +108,11 @@
     <dc:title xml:lang="be">Attribution-NonCommercial 3.0 Бразілія</dc:title>
     <dc:title xml:lang="es-es">Reconocimiento-NoComercial 3.0 Brasil</dc:title>
     <dc:title xml:lang="ga">Attribution-NonCommercial 3.0 Brazil</dc:title>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/br/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/br/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
   </cc:License>
 </rdf:RDF>

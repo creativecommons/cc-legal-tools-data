@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/vn/">
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/vn/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/vn/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/vn/"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/vn/">
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/vn/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/vn/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/vn/"/>
     <dc:identifier>by-sa</dc:identifier>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
     <dc:title xml:lang="as">Attribution-ShareAlike 3.0 Vietnam</dc:title>
     <dc:title xml:lang="ja">表示 - 継承 3.0 ベトナム</dc:title>
     <dc:title xml:lang="lt">Attribution-ShareAlike 3.0 Vietnam</dc:title>
@@ -114,6 +114,6 @@
     <dc:title xml:lang="es-co">Reconocimiento-CompartirIgual 3.0 Vietnam</dc:title>
     <dc:title xml:lang="id">Atribusi-BerbagiSerupa 3.0 Vietnam</dc:title>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/vn/legalcode"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/vn/legalcode"/>
   </cc:License>
 </rdf:RDF>

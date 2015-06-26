@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.0/pl/">
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/pl/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/pl/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.0/pl/">
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/pl/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/pl/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
     <dc:title xml:lang="sq">Attribution-NoDerivs 2.0 Poloni</dc:title>
     <dc:title xml:lang="id">Atribusi-TanpaTurunan 2.0 Polandia</dc:title>
@@ -109,9 +109,9 @@
     <dc:title xml:lang="hi">Attribution-NoDerivs 2.0 पोलैंड</dc:title>
     <dc:title xml:lang="kk">Туынды жасамау 2.0 Poland</dc:title>
     <dc:identifier>by-nd</dc:identifier>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/pl/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.0/pl/88x31.png"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.0/"/>
-    <dcq:isReplacedBy rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/pl/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/pl/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.0/pl/88x31.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.0/"/>
+    <dcq:isReplacedBy rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/pl/"/>
   </cc:License>
 </rdf:RDF>

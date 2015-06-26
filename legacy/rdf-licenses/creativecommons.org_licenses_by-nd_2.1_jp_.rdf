@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.1/jp/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/2.1/jp/">
     <dc:title xml:lang="id">Atribusi-TanpaTurunan 2.1 Jepang</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-KeineBearbeitung 2.1 Japan</dc:title>
     <dc:title xml:lang="fa">Attribution-NoDerivs 2.1 ژاپن</dc:title>
@@ -100,17 +100,17 @@
     <dc:title xml:lang="es-ar">Atribución-SinDerivadas 2.1 Japón</dc:title>
     <dc:title xml:lang="as">Attribution-NoDerivs 2.1 Japan</dc:title>
     <dcq:hasVersion>2.1</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.1/jp/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.1/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/jp/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.1/jp/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/2.1/jp/80x15.png"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/2.1/jp/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/2.1/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/jp/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.1/jp/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/2.1/jp/80x15.png"/>
     <dc:identifier>by-nd</dc:identifier>
   </cc:License>
 </rdf:RDF>

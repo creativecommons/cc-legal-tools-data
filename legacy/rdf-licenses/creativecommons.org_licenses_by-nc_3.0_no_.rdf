@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/no/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc/3.0/no/">
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/no/legalcode"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/no/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/3.0/no/88x31.png"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/no/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/no/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc/3.0/no/88x31.png"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dc:title xml:lang="id">Attribusi-NonKomersial 3.0 Norwegia</dc:title>
     <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno 3.0 Norveška</dc:title>
     <dc:title xml:lang="fr-ch">Paternité - Pas d'Utilisation Commerciale 3.0 Norway</dc:title>
@@ -111,8 +111,8 @@
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano 3.0 Norway</dc:title>
     <dc:title xml:lang="no">Navngivelse-Ikkekommersiell 3.0 Norge</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално 3.0 Норвешка</dc:title>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dc:identifier>by-nc</dc:identifier>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/no/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/no/"/>
   </cc:License>
 </rdf:RDF>

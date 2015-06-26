@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/nd-nc/1.0/fi/">
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/fi/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/nd-nc/1.0/fi/">
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/fi/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dc:title xml:lang="en-gb">NoDerivs-NonCommercial 1.0 Finland</dc:title>
     <dc:title xml:lang="nso">Tše sa Fetolwego - E sego tša Kgwebo 1.0 Finland</dc:title>
     <dc:title xml:lang="zh-tw">禁止改作-非商業性 1.0 芬蘭</dc:title>
@@ -103,14 +103,14 @@
     <dc:title xml:lang="af">GeenAfleidings-NieKommersieel 1.0 Finland</dc:title>
     <dc:title xml:lang="fr-ca">Pas de Modification - Pas d'Utilisation Commerciale 1.0 Finlande</dc:title>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nd-nc/1.0/fi/88x31.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nd-nc/1.0/fi/88x31.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dc:identifier>nd-nc</dc:identifier>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/nd-nc/1.0/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nd-nc/1.0/fi/legalcode"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/nd-nc/1.0/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nd-nc/1.0/fi/legalcode"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
   </cc:License>
 </rdf:RDF>

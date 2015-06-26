@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/my/">
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.5/my/">
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano-Yihlanganyeleni 2.5 iMalaysia</dc:title>
     <dc:title xml:lang="en-ca">Attribution-NonCommercial-ShareAlike 2.5 Malaysia</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NonCommercial-ShareAlike 2.5 Malaysia</dc:title>
@@ -102,18 +102,18 @@
     <dc:title xml:lang="mn">Attribution-NonCommercial-ShareAlike 2.5 Malaysia</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით 2.5 მალაიზია</dc:title>
     <dc:title xml:lang="ar">المشاركة على قدم المساواة-غير تجاري-نسب العمل 2.5 ماليزيا</dc:title>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/my/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.5/my/80x15.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/my/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/my/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/my/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.5/my/80x15.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/my/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/my/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <dc:identifier>by-nc-sa</dc:identifier>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
   </cc:License>
 </rdf:RDF>

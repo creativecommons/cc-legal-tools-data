@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/nd-nc/1.0/">
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/nd-nc/1.0/">
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/nd-nc/1.0/88x31.png"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/nd-nc/1.0/legalcode"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/nd-nc/1.0/88x31.png"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/nd-nc/1.0/legalcode"/>
     <dc:identifier>nd-nc</dc:identifier>
     <dc:title xml:lang="es-mx">No Derivadas-No Comercial 1.0 Genérica</dc:title>
     <dc:title xml:lang="zh">禁止演绎-非商业性使用 1.0 未本地化版本</dc:title>
@@ -104,11 +104,11 @@
     <dc:title xml:lang="en-ca">NoDerivs-NonCommercial 1.0 Generic</dc:title>
     <dc:title xml:lang="vi">NoDerivs-NonCommercial 1.0 Chung</dc:title>
     <dc:title xml:lang="et">Mitteäriline eesmärk + Tuletatud teoste keeld 1.0 Üldine</dc:title>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dcq:hasVersion>1.0</dcq:hasVersion>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
   </cc:License>
 </rdf:RDF>

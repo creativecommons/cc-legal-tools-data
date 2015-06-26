@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/">
     <dcq:hasVersion>2.1</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.1/"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.1/"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
     <dc:identifier>by-nc-sa</dc:identifier>
     <dc:title xml:lang="he">ייחוס-שימוש לא מסחרי-שיתוף זהה 2.1 יפן</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NonCommercial-ShareAlike 2.1 Japan</dc:title>
@@ -108,12 +108,12 @@
     <dc:title xml:lang="ru">Attribution-NonCommercial-ShareAlike (Атрибуция — Некоммерческое использование — С сохранением условий) 2.1 Япония</dc:title>
     <dc:title xml:lang="fi">Nimeä-Epäkaupallinen-Tarttuva 2.1 Japani</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial-ShareAlike 2.1 Japan</dc:title>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.1/jp/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/2.1/jp/80x15.png"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/jp/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.1/jp/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-sa/2.1/jp/80x15.png"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/jp/"/>
   </cc:License>
 </rdf:RDF>

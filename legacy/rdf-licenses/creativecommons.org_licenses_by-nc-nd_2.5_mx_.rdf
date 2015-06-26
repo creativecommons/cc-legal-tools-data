@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-nd/2.5/mx/">
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/"/>
-    <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nc-nd/2.5/mx/">
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/"/>
+    <cc:prohibits rdf:resource="https://creativecommons.org/ns#CommercialUse"/>
     <dc:title xml:lang="ur">Attribution-NonCommercial-NoDerivs 2.5 Mexico</dc:title>
     <dc:title xml:lang="vi">Ghi nhận công của tác giả - Phi thương mại - Không phái sinh  2.5 Mexico</dc:title>
     <dc:title xml:lang="zh">署名-非商业性使用-禁止演绎 2.5 墨西哥</dc:title>
@@ -104,14 +104,14 @@
     <dc:title xml:lang="no">Navngivelse-Ikkekommersiell-IngenBearbeidelse 2.5 Mexiko</dc:title>
     <dc:title xml:lang="gl">Recoñecemento-NonComercial-SenObraDerivada 2.5 Mexico</dc:title>
     <dc:title xml:lang="af">Erkenning-NieKommersieel-GeenAfleidings 2.5 Mexiko</dc:title>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-nd/2.5/mx/legalcode"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/mx/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nc-nd/2.5/mx/legalcode"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/mx/"/>
     <dcq:hasVersion>2.5</dcq:hasVersion>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/mx/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-nd/2.5/mx/88x31.png"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/mx/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nc-nd/2.5/mx/88x31.png"/>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
   </cc:License>
 </rdf:RDF>

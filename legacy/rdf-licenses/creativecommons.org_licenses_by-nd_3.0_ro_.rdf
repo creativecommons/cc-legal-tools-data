@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/3.0/ro/">
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ro/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nd/3.0/ro/80x15.png"/>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-nd/3.0/ro/">
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ro/88x31.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-nd/3.0/ro/80x15.png"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:title xml:lang="de">Namensnennung-Keine Bearbeitung 3.0 Rumänien</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-GeenAfgeleideWerken 3.0 Roemenië</dc:title>
@@ -106,11 +106,11 @@
     <dc:title xml:lang="sl">Priznanje avtorstva-Brez predelav 3.0 Romunija</dc:title>
     <dc:title xml:lang="ca">Reconeixement-SenseObraDerivada 3.0 Romania</dc:title>
     <dc:identifier>by-nd</dc:identifier>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ro/"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/ro/legalcode"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/ro/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/ro/legalcode"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/"/>
   </cc:License>
 </rdf:RDF>

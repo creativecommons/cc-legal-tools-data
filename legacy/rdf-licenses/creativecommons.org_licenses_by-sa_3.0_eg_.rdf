@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:cc='https://creativecommons.org/ns#'
   xmlns:foaf='http://xmlns.com/foaf/0.1/'
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/eg/">
+  <cc:License rdf:about="https://creativecommons.org/licenses/by-sa/3.0/eg/">
     <dc:title xml:lang="he">ייחוס-שיתוף זהה 3.0 Egypt</dc:title>
     <dc:title xml:lang="bn">Attribution-ShareAlike 3.0 Egypt</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Egypt</dc:title>
@@ -92,20 +92,20 @@
     <dc:title xml:lang="sv">Erkännande-DelaLika 3.0 Egypt</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Nemainot licenci 3.0 Egypt</dc:title>
     <dc:title xml:lang="ko">저작자표시-동일조건변경허락 3.0 Egypt</dc:title>
-    <dc:creator rdf:resource="http://creativecommons.org"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/eg/legalcode"/>
-    <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/eg/80x15.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-sa/3.0/eg/88x31.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/eg/"/>
+    <dc:creator rdf:resource="https://creativecommons.org"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#ShareAlike"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="https://creativecommons.org/ns#Attribution"/>
+    <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/eg/legalcode"/>
+    <cc:licenseClass rdf:resource="https://creativecommons.org/license/"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/eg/80x15.png"/>
+    <foaf:logo rdf:resource="https://licensebuttons.net/l/by-sa/3.0/eg/88x31.png"/>
+    <cc:jurisdiction rdf:resource="https://creativecommons.org/international/eg/"/>
     <dc:identifier>by-sa</dc:identifier>
     <dcq:hasVersion>3.0</dcq:hasVersion>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-    <dc:source rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <dc:source rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/"/>
   </cc:License>
 </rdf:RDF>
