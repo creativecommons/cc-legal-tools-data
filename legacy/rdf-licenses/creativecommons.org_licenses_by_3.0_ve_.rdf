@@ -15,7 +15,7 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     <dc:title xml:lang="es">Atribución 3.0 Venezuela</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Venezuela}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Venezuela}</dc:title>
     <dc:title xml:lang="en">Attribution 3.0 Venezuela</dc:title>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/ve/88x31.png"/>

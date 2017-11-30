@@ -105,7 +105,7 @@
     <dc:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk 2.0 Lõuna-Aafrika</dc:title>
     <dc:title xml:lang="te">Attribution-NonCommercial 2.0 దక్షిణ ఆఫ్రికా</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Nekomerciāli 2.0 Dienvidāfrika</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 2.0 ${South Africa}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial} 2.0 ${South Africa}</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial 2.0 South Africa</dc:title>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/za/legalcode"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>
