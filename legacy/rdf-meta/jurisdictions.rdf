@@ -587,7 +587,7 @@
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
     <cc:jurisdictionSite rdf:resource="http://www.creativecommons.org.rs"/>
     <cc:defaultLanguage>sr</cc:defaultLanguage>
-    <dc:title xml:lang="fr_LU">Serbie</dc:title>
+    <dc:title xml:lang="fr-LU">Serbie</dc:title>
     <dc:title xml:lang="fr_CH">Serbie</dc:title>
     <dc:title xml:lang="ca">Sèrbia</dc:title>
     <dc:title xml:lang="de_AT">Serbien</dc:title>
@@ -1013,7 +1013,7 @@
     <dc:title xml:lang="es_PE">Thailand</dc:title>
     <dc:title xml:lang="pl">Thailand</dc:title>
     <dc:title xml:lang="hy">Thailand</dc:title>
-    <dc:title xml:lang="fr_LU">Thailand</dc:title>
+    <dc:title xml:lang="fr-LU">Thailand</dc:title>
     <dc:title xml:lang="en_GB">Thailand</dc:title>
     <dc:title xml:lang="sr">Thailand</dc:title>
     <dc:title xml:lang="sr_LATN">Thailand</dc:title>
@@ -1192,7 +1192,7 @@
     <dc:title xml:lang="it">Germania</dc:title>
     <dc:title xml:lang="el">Γερμανία</dc:title>
     <dc:title xml:lang="es">Alemania</dc:title>
-    <dc:title xml:lang="fr_LU">Allemagne</dc:title>
+    <dc:title xml:lang="fr-LU">Allemagne</dc:title>
     <dc:title xml:lang="fr-ch">Allemagne</dc:title>
     <dc:title xml:lang="af">Duitsland</dc:title>
     <dc:title xml:lang="it-ch">Germania</dc:title>
@@ -1334,7 +1334,7 @@
     <dc:title xml:lang="tr">Czech Republic</dc:title>
     <dc:title xml:lang="nso">Czech Repabliki</dc:title>
     <dc:title xml:lang="it">Czech Republic</dc:title>
-    <dc:title xml:lang="fr_LU">République Tchèque</dc:title>
+    <dc:title xml:lang="fr-LU">République Tchèque</dc:title>
     <dc:title xml:lang="nl">Tjechië</dc:title>
     <dc:title xml:lang="fr_CH">République Tchèque</dc:title>
     <dc:title xml:lang="eo">Ĉeĥio</dc:title>
@@ -1546,7 +1546,7 @@
     <dc:title xml:lang="af">Puerto Rico</dc:title>
     <dc:title xml:lang="hr">Puerto Rico</dc:title>
     <dc:title xml:lang="sl">Puerto Rico</dc:title>
-    <dc:title xml:lang="fr_LU">Puerto Rico</dc:title>
+    <dc:title xml:lang="fr-LU">Puerto Rico</dc:title>
     <dc:title xml:lang="es_CO">Puerto Rico</dc:title>
     <dc:title xml:lang="de_CH">Puerto Rico</dc:title>
     <dc:title xml:lang="it">Puerto Rico</dc:title>
@@ -1716,7 +1716,7 @@
     <dc:title xml:lang="it">Norway</dc:title>
     <dc:title xml:lang="zh_TW">Norway</dc:title>
     <dc:title xml:lang="zu">Norway</dc:title>
-    <dc:title xml:lang="fr_LU">Norway</dc:title>
+    <dc:title xml:lang="fr-LU">Norway</dc:title>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/in/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
@@ -2269,7 +2269,7 @@
     <dc:title xml:lang="zh_TW">新加坡</dc:title>
     <dc:title xml:lang="en_HK">Singapore</dc:title>
     <dc:title xml:lang="af">Singapoer</dc:title>
-    <dc:title xml:lang="fr_LU">Singapour</dc:title>
+    <dc:title xml:lang="fr-LU">Singapour</dc:title>
     <dc:title xml:lang="eo">Singapuro</dc:title>
     <dc:title xml:lang="st">Singapore</dc:title>
     <dc:title xml:lang="nl">Singapore</dc:title>
@@ -2376,7 +2376,7 @@
     <dc:title xml:lang="st">Romania</dc:title>
     <dc:title xml:lang="gl">Romania</dc:title>
     <dc:title xml:lang="sv">Rumänien</dc:title>
-    <dc:title xml:lang="fr_LU">Roumanie</dc:title>
+    <dc:title xml:lang="fr-LU">Roumanie</dc:title>
   </cc:Jurisdiction>
   <cc:Jurisdiction rdf:about="http://creativecommons.org/international/pe/">
     <cc:launched rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#boolean">true</cc:launched>
@@ -2433,7 +2433,7 @@
     <cc:defaultLanguage>es</cc:defaultLanguage>
     <dc:title xml:lang="nl">Guatemala</dc:title>
     <dc:title xml:lang="es_AR">Guatemala</dc:title>
-    <dc:title xml:lang="fr_LU">Guatemala</dc:title>
+    <dc:title xml:lang="fr-LU">Guatemala</dc:title>
     <dc:title xml:lang="th">Guatemala</dc:title>
     <dc:title xml:lang="fr_CA">Guatemala</dc:title>
     <dc:title xml:lang="mk">Guatemala</dc:title>
@@ -2728,7 +2728,7 @@
     <dc:title xml:lang="de">Hong Kong</dc:title>
     <dc:title xml:lang="el">Hong Kong</dc:title>
     <dc:title xml:lang="en_HK">Hong Kong</dc:title>
-    <dc:title xml:lang="fr_LU">Hong Kong</dc:title>
+    <dc:title xml:lang="fr-LU">Hong Kong</dc:title>
     <dc:title xml:lang="fr">Hong Kong</dc:title>
     <dc:title xml:lang="zu">Hong Kong</dc:title>
     <dc:title xml:lang="tr">Hong Kong</dc:title>
