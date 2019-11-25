@@ -98,6 +98,7 @@
     <dc:title xml:lang="pt-br">Atribuição 2.5 Sweden</dc:title>
     <dc:title xml:lang="pt">Atribuição  2.5 Suécia</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento 2.5 Suecia</dc:title>
+    <dc:title xml:lang="i18n">${Attribution} 2.5 ${Sweden}</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/se/"/>

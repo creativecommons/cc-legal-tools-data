@@ -103,6 +103,7 @@
     <dc:title xml:lang="sr">Ауторство-Некомерцијално 3.0 Хонг Конг</dc:title>
     <dc:title xml:lang="as">Attribution-NonCommercial 3.0 Hong Kong</dc:title>
     <dc:title xml:lang="si-lk">Attribution-NonCommercial 3.0 හොංකොං</dc:title>
+    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 3.0 ${Hong Kong}</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით არაკომერციული გამოყენებისათვის 3.0 ჰონგ კონგი</dc:title>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/hk/"/>
