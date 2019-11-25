@@ -110,7 +110,6 @@
     <dc:title xml:lang="da">Navngivelse-IngenBearbejdelse 2.5 Canada</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento-SinObraDerivada 2.5 Canadá</dc:title>
     <dc:title xml:lang="ta">Attribution-NoDerivs 2.5 Canada</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Canada}</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
   </cc:License>

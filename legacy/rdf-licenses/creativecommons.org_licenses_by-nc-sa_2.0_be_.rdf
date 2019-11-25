@@ -106,7 +106,6 @@
     <dc:title xml:lang="uk">Attribution-NonCommercial-ShareAlike 2.0 Бельгія</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-NichtKommerziell-Weitergabe unter gleichen Bedingungen 2.0 Belgien</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално-Делити под истим условима 2.0 Белгија</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial-ShareAlike} 2.0 ${Belgium}</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>

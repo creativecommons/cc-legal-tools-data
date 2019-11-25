@@ -110,7 +110,6 @@
     <dc:title xml:lang="id">Attribusi-NonKomersial 2.5 Bulgaria</dc:title>
     <dc:title xml:lang="ja">表示 - 非営利 2.5 ブルガリア</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално 2.5 Бугарска</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 2.5 ${Bulgaria}</dc:title>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/"/>
