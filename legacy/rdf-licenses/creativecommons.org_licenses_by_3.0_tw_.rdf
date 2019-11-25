@@ -14,7 +14,7 @@
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/tw/80x15.png"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/tw/legalcode"/>
     <dc:title xml:lang="te">ఆపాదింపు 3.0 తైవాన్</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 3.0 Tajvan</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 3.0 Tajvan</dc:title>
     <dc:title xml:lang="en-sg">Attribution 3.0 Taiwan</dc:title>
     <dc:title xml:lang="es-ar">Atribución 3.0 Taiwan</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição 3.0 Taiwan</dc:title>
@@ -89,7 +89,7 @@
     <dc:title xml:lang="hu">Nevezd meg! 3.0 Tajvan</dc:title>
     <dc:title xml:lang="da">Navngivelse 3.0 Taiwan</dc:title>
     <dc:title xml:lang="pt-br">Atribuição 3.0 Taiwan</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Taiwan}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Taiwan}</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa 3.0 Tajwan</dc:title>
     <dc:title xml:lang="de">Namensnennung 3.0 Taiwan</dc:title>
     <dc:title xml:lang="no">Navngivelse 3.0 Taiwan</dc:title>

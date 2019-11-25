@@ -61,7 +61,7 @@
     <dc:title xml:lang="hi">Attribution-NoDerivs 3.0 Estonia</dc:title>
     <dc:title xml:lang="ast-es">Attribution-NoDerivs 3.0 country.ee</dc:title>
     <dc:title xml:lang="en-us">Attribution-NoDerivs 3.0 Estonia</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 3.0 ${Estonia}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 3.0 ${Estonia}</dc:title>
     <dc:title xml:lang="it">Attribuzione - Non opere derivate 3.0 Estonia</dc:title>
     <dc:title xml:lang="tr">Alıntı-Türetilemez 3.0 Estonya</dc:title>
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 3.0 Estonia</dc:title>
@@ -103,7 +103,7 @@
     <dc:title xml:lang="af">Erkenning-GeenAfleidings 3.0 Estonia</dc:title>
     <dc:title xml:lang="eo">Atribuite-Nemodifite 3.0 Estonujo</dc:title>
     <dc:title xml:lang="ko">저작자표시-변경금지 3.0 에스토니아</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 3.0 country.ee</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 3.0 country.ee</dc:title>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nd/3.0/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>

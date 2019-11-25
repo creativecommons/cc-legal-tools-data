@@ -93,7 +93,7 @@
     <dc:title xml:lang="gl">Recoñecemento-SenObraDerivada 2.5 Holanda</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-禁止改作 2.5 荷蘭</dc:title>
     <dc:title xml:lang="en-hk">Attribution-NoDerivs 2.5 Netherlands</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Netherlands}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 2.5 ${Netherlands}</dc:title>
     <dc:title xml:lang="ta">Attribution-NoDerivs 2.5 நெதர்லாந்து</dc:title>
     <dc:title xml:lang="lt">Attribution-NoDerivs 2.5 Nyderlandai</dc:title>
     <dc:title xml:lang="fi">Nimeä-Ei muutoksia 2.5 Hollanti</dc:title>
@@ -107,7 +107,7 @@
     <dc:title xml:lang="de-at">Namensnennung-KeineBearbeitung 2.5 Niederlande</dc:title>
     <dc:title xml:lang="da">Navngivelse-IngenBearbejdelse 2.5 Holland</dc:title>
     <dc:title xml:lang="es-ec">Reconocimiento-SinObraDerivada 2.5 Holanda</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Holandija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 2.5 Holandija</dc:title>
     <dc:identifier>by-nd</dc:identifier>
     <dcq:hasVersion>2.5</dcq:hasVersion>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/nl/legalcode"/>

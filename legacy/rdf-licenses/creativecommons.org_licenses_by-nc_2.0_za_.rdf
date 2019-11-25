@@ -32,7 +32,7 @@
     <dc:title xml:lang="be">Attribution-NonCommercial 2.0 ПАР</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala 2.0 Hegoafrika</dc:title>
     <dc:title xml:lang="es-es">Reconocimiento-NoComercial 2.0 Suráfrica</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno 2.0 Južna Afrika</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno 2.0 Južna Afrika</dc:title>
     <dc:title xml:lang="hy">Հղում - Ոչ-առևտրային օգտագործում 2.0 Հարավային Աֆրիկա</dc:title>
     <dc:title xml:lang="da">Navngivelse-IkkeKommerciel 2.0 Sydafrika</dc:title>
     <dc:title xml:lang="af">Erkenning-NieKommersieel 2.0 Suid-Afrika</dc:title>
@@ -105,7 +105,7 @@
     <dc:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk 2.0 Lõuna-Aafrika</dc:title>
     <dc:title xml:lang="te">Attribution-NonCommercial 2.0 దక్షిణ ఆఫ్రికా</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Nekomerciāli 2.0 Dienvidāfrika</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 2.0 ${South Africa}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial} 2.0 ${South Africa}</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial 2.0 South Africa</dc:title>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/za/legalcode"/>
     <dcq:hasVersion>2.0</dcq:hasVersion>

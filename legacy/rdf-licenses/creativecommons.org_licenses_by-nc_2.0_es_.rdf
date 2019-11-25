@@ -87,7 +87,7 @@
     <dc:title xml:lang="pt-br">Atribuição-Uso não-comercial 2.0 Spain</dc:title>
     <dc:title xml:lang="ur">Attribution-NonCommercial 2.0 Spain</dc:title>
     <dc:title xml:lang="es-ar">Atribución-NoComercial 2.0 España</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 2.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial} 2.0 ${Spain}</dc:title>
     <dc:title xml:lang="fr">Paternité - Pas d'Utilisation Commerciale 2.0 Espagne</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial 2.0 España</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial 2.0 Sepanyol</dc:title>
@@ -104,7 +104,7 @@
     <dc:title xml:lang="be">Attribution-NonCommercial 2.0 Іспанія</dc:title>
     <dc:title xml:lang="sv">Erkännande-IckeKommersiell 2.0 Spanien</dc:title>
     <dc:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale 2.0 Espagne</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno 2.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno 2.0 Španija</dc:title>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/es/88x31.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc/2.0/es/80x15.png"/>

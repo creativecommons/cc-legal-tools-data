@@ -15,7 +15,7 @@
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/4.0/80x15.png"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/4.0/88x31.png"/>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/4.0/legalcode"/>
-    <dc:title xml:lang="sr@latin">Attribution 4.0 International</dc:title>
+    <dc:title xml:lang="sr-Latn">Attribution 4.0 International</dc:title>
     <dc:title xml:lang="es-ar">Atribución 4.0 Internacional</dc:title>
     <dc:title xml:lang="si-lk">Attribution 4.0 ජාත්‍යන්තර</dc:title>
     <dc:title xml:lang="eu">Aitortu 4.0 International</dc:title>
@@ -76,7 +76,7 @@
     <dc:title xml:lang="pl">Uznanie autorstwa 4.0 Międzynarodowe</dc:title>
     <dc:title xml:lang="hu">Nevezd meg! 4.0 Nemzetközi</dc:title>
     <dc:title xml:lang="ml">കടപ്പാട് 4.0 അന്തർദേശീയം</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 4.0 ${International}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 4.0 ${International}</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით  4.0 International</dc:title>
     <dc:title xml:lang="sr-latn">Autorstvo 4.0 International</dc:title>
     <dc:title xml:lang="da">Navngivelse 4.0 International</dc:title>

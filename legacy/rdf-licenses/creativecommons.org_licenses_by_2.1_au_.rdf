@@ -95,11 +95,11 @@
     <dc:title xml:lang="sr-latn">Autorstvo 2.1 Australija</dc:title>
     <dc:title xml:lang="fa">Attribution 2.1 استرالیا</dc:title>
     <dc:title xml:lang="lv">Atsaucoties 2.1 Austrālija</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 2.1 ${Australia}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 2.1 ${Australia}</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού 2.1 Αυστραλία</dc:title>
     <dc:title xml:lang="hy">Հղում 2.1 Australia</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan 2.1 Australia</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 2.1 Australija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 2.1 Australija</dc:title>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>

@@ -12,7 +12,7 @@
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ve/"/>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial-ShareAlike} 3.0 ${Venezuela}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial-ShareAlike} 3.0 ${Venezuela}</dc:title>
     <dc:title xml:lang="es">Atribución-NoComercial-CompartirIgual 3.0 Venezuela</dc:title>
     <dc:title xml:lang="en">Attribution-NonCommercial-ShareAlike 3.0 Venezuela</dc:title>
     <dc:identifier>by-nc-sa</dc:identifier>

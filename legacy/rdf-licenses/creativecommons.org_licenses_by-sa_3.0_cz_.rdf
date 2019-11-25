@@ -95,7 +95,7 @@
     <dc:title xml:lang="cs">Uveďte autora-Zachovejte licenci 3.0 Česko</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-GelijkDelen 3.0 Tjechië</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Tschechische Republik</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-ShareAlike} 3.0 ${Czech Republic}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-ShareAlike} 3.0 ${Czech Republic}</dc:title>
     <dc:title xml:lang="fr-lu">Paternité - Partage des Conditions Initiales à l'Identique 3.0 République Tchèque</dc:title>
     <dc:title xml:lang="ko">저작자표시-동일조건변경허락 3.0 체코</dc:title>
     <dc:title xml:lang="az">Attribution-ShareAlike 3.0 Czech Republic</dc:title>
@@ -103,7 +103,7 @@
     <dc:title xml:lang="af">Erkenning-InsgelyksDeel 3.0 Tsjeggiese Republiek</dc:title>
     <dc:title xml:lang="en-ca">Attribution-ShareAlike 3.0 Czech Republic</dc:title>
     <dc:title xml:lang="es-cl">Atribución-LicenciarIgual 3.0 República Checa</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Deliti pod istim uslovima 3.0 Češka</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Deliti pod istim uslovima 3.0 Češka</dc:title>
     <dc:title xml:lang="pl">Uznanie autorstwa-Na tych samych warunkach 3.0 Czechy</dc:title>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>

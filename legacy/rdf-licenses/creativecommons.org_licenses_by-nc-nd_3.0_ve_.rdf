@@ -21,7 +21,7 @@
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:identifier>by-nc-nd</dc:identifier>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Venezuela}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Venezuela}</dc:title>
     <dc:title xml:lang="es">Atribución-NoComercial-SinDerivadas 3.0 Venezuela</dc:title>
     <dc:title xml:lang="en">Attribution-NonCommercial-NoDerivs 3.0 Venezuela</dc:title>
   </cc:License>

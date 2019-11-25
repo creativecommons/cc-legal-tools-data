@@ -35,7 +35,7 @@
     <dc:title xml:lang="el">Αναφορά Δημιουργού-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα 3.0 Ισπανία</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-BukanKomersial-TiadaTerbitan 3.0 Sepanyol</dc:title>
     <dc:title xml:lang="gl">Recoñecemento-NonComercial-SenObraDerivada 3.0 España</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Spain}</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Nekomerciāls-Nemainīts 3.0 Spānija</dc:title>
     <dc:title xml:lang="en-gb">Attribution-NonCommercial-NoDerivs 3.0 Spain</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione - Non commerciale - Non opere derivate 3.0 Spagna</dc:title>
@@ -81,7 +81,7 @@
     <dc:title xml:lang="es-co">Reconocimiento-NoComercial-SinObraDerivada 3.0 España</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-非商業性-禁止改作 3.0 西班牙</dc:title>
     <dc:title xml:lang="ja">表示 - 非営利 - 改変禁止 3.0 スペイン</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno-Bez prerada 3.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno-Bez prerada 3.0 Španija</dc:title>
     <dc:title xml:lang="is">Attribution-NonCommercial-NoDerivs 3.0 Spánn</dc:title>
     <dc:title xml:lang="es-cl">Atribución-NoComercial-SinDerivadas 3.0 España</dc:title>
     <dc:title xml:lang="bg">Признание-Некомерсиално-Без производни 3.0 Испания</dc:title>
@@ -135,6 +135,6 @@
     <dcq:language>ast</dcq:language>
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/es/legalcode.oci">
-    <dcq:language>oci_ES</dcq:language>
+    <dcq:language>oci-ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

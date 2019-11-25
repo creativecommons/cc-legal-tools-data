@@ -9,7 +9,7 @@
   <cc:License rdf:about="http://creativecommons.org/licenses/by/3.0/gt/">
     <dc:title xml:lang="ru">Attribution (Атрибуция) 3.0 Гватемала</dc:title>
     <dc:title xml:lang="es">Atribución 3.0 Guatemala</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 3.0 Gvatemala</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 3.0 Gvatemala</dc:title>
     <dc:title xml:lang="fr-ch">Paternité 3.0 Guatemala</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan 3.0 Guatemala</dc:title>
     <dc:title xml:lang="es-cl">Atribución 3.0 Guatemala</dc:title>
@@ -51,7 +51,7 @@
     <dc:title xml:lang="hi">Attribution 3.0 Guatemala</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione 3.0 Guatemala</dc:title>
     <dc:title xml:lang="de-ch">Namensnennung 3.0 Guatemala</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Guatemala}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Guatemala}</dc:title>
     <dc:title xml:lang="en-ca">Attribution 3.0 Guatemala</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento 3.0 Guatemala</dc:title>
     <dc:title xml:lang="lv">Atsaucoties 3.0 Guatemala</dc:title>

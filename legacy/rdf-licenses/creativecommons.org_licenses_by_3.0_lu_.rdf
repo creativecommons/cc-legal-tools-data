@@ -18,7 +18,7 @@
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/3.0/lu/88x31.png"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:title xml:lang="eu">Aitortu 3.0 Luxemburg</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Luxembourg}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Luxembourg}</dc:title>
     <dc:title xml:lang="mn">Attribution 3.0 Luxembourg</dc:title>
     <dc:title xml:lang="es">Atribución 3.0 Luxemburgo</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione 3.0 Luxembourg</dc:title>
@@ -42,7 +42,7 @@
     <dc:title xml:lang="it">Attribuzione 3.0 Lussemburgo</dc:title>
     <dc:title xml:lang="en-ca">Attribution 3.0 Luxembourg</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding 3.0 Luxemburg</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 3.0 Luksemburg</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 3.0 Luksemburg</dc:title>
     <dc:title xml:lang="ur">Attribution 3.0 Luxembourg</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示 3.0 盧森堡</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento 3.0 Luxemburgo</dc:title>

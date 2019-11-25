@@ -41,7 +41,7 @@
     <dc:title xml:lang="es-es">Reconocimiento 2.5 Suecia</dc:title>
     <dc:title xml:lang="bn">Attribution 2.5 Sweden</dc:title>
     <dc:title xml:lang="ru">Attribution (Атрибуция) 2.5 Швеция</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 2.5 Švedska</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 2.5 Švedska</dc:title>
     <dc:title xml:lang="ur">Attribution 2.5 Sweden</dc:title>
     <dc:title xml:lang="as">Attribution 2.5 Sweden</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi 2.5 iSweden</dc:title>
@@ -98,7 +98,7 @@
     <dc:title xml:lang="pt-br">Atribuição 2.5 Sweden</dc:title>
     <dc:title xml:lang="pt">Atribuição  2.5 Suécia</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento 2.5 Suecia</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 2.5 ${Sweden}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 2.5 ${Sweden}</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/se/"/>

@@ -42,7 +42,7 @@
     <dc:title xml:lang="nl">Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="ga">Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="zu">Ukuthatha Isampula Nokunye 1.0</dc:title>
-    <dc:title xml:lang="i18n">${Sampling Plus} 1.0</dc:title>
+    <dc:title xml:lang="x-i18n">${Sampling Plus} 1.0</dc:title>
     <dc:title xml:lang="af">Voorsmaak Plus 1.0</dc:title>
     <dc:title xml:lang="es-pr">Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="sv">Sampling Plus 1.0</dc:title>
@@ -105,7 +105,7 @@
     <dc:title xml:lang="es-ec">Sampling Plus 1.0</dc:title>
     <dc:title xml:lang="el">Άδεια Δείγματος Plus 1.0</dc:title>
     <dc:title xml:lang="et">Sampling Plus 1.0</dc:title>
-    <dc:title xml:lang="sr@latin">licenca Sampling Plus 1.0</dc:title>
+    <dc:title xml:lang="sr-Latn">licenca Sampling Plus 1.0</dc:title>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/tw/"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2011-09-09</cc:deprecatedOn>
     <dc:source rdf:resource="http://creativecommons.org/licenses/sampling+/1.0/"/>

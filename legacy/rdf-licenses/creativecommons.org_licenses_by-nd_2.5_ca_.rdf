@@ -31,7 +31,7 @@
     <dc:title xml:lang="ast-es">Attribution-NoDerivs 2.5 Canada</dc:title>
     <dc:title xml:lang="es-pr">Reconocimiento-SinObraDerivada 2.5 Canadá</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-SinObraDerivada 2.5 Canadá</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Kanada</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 2.5 Kanada</dc:title>
     <dc:title xml:lang="en-gb">Attribution-NoDerivs 2.5 Canada</dc:title>
     <dc:title xml:lang="sv">Erkännande-IngaBearbetningar 2.5 Kanada</dc:title>
     <dc:title xml:lang="th">แสดงที่มา-ไม่ดัดแปลง 2.5 แคนาดา</dc:title>
@@ -110,7 +110,7 @@
     <dc:title xml:lang="da">Navngivelse-IngenBearbejdelse 2.5 Canada</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento-SinObraDerivada 2.5 Canadá</dc:title>
     <dc:title xml:lang="ta">Attribution-NoDerivs 2.5 Canada</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Canada}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 2.5 ${Canada}</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
   </cc:License>

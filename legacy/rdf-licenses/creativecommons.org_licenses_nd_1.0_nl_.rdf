@@ -90,7 +90,7 @@
     <dc:title xml:lang="da">IngenBearbejdelse 1.0 Holland</dc:title>
     <dc:title xml:lang="es-cl">SinDerivadas 1.0 Holanda</dc:title>
     <dc:title xml:lang="hu">Ne változtasd! 1.0 Hollandia</dc:title>
-    <dc:title xml:lang="sr@latin">Bez prerada 1.0 Holandija</dc:title>
+    <dc:title xml:lang="sr-Latn">Bez prerada 1.0 Holandija</dc:title>
     <dc:title xml:lang="de-at">KeineBearbeitung 1.0 Niederlande</dc:title>
     <dc:title xml:lang="cs">Nezasahujte do díla 1.0 Nizozemí</dc:title>
     <dc:title xml:lang="fi">Ei muutoksia 1.0 Hollanti</dc:title>
@@ -104,7 +104,7 @@
     <dc:title xml:lang="ta">NoDerivs 1.0 நெதர்லாந்து</dc:title>
     <dc:title xml:lang="eo">Nemodifite 1.0 Nederlando</dc:title>
     <dc:title xml:lang="pl">Bez utworów zależnych 1.0 Holandia</dc:title>
-    <dc:title xml:lang="i18n">${NoDerivs} 1.0 ${Netherlands}</dc:title>
+    <dc:title xml:lang="x-i18n">${NoDerivs} 1.0 ${Netherlands}</dc:title>
     <dc:title xml:lang="zh-tw">禁止改作 1.0 荷蘭</dc:title>
     <dc:source rdf:resource="http://creativecommons.org/licenses/nd/1.0/"/>
     <cc:deprecatedOn rdf:datatype="http://www.w3.org/2001/XMLSchema-datatypes#date">2004-05-25</cc:deprecatedOn>

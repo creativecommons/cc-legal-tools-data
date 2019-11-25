@@ -57,7 +57,7 @@
     <dc:title xml:lang="de-ch">Namensnennung-NichtKommerziell-KeineBearbeitung 3.0 Norway</dc:title>
     <dc:title xml:lang="mn">Attribution-NonCommercial-NoDerivs 3.0 Norway</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento-NoComercial-SinObraDerivada 3.0 Norway</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Norway}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial-NoDerivs} 3.0 ${Norway}</dc:title>
     <dc:title xml:lang="sr-latn">Autorstvo-Nekomercijalno-Bez prerada 3.0 Norveška</dc:title>
     <dc:title xml:lang="ro">Atribuire-Necomercial-FărăModificări 3.0 Norvegia</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte dílo komerčně-Nezasahujte do díla 3.0 Norsko</dc:title>
@@ -110,7 +110,7 @@
     <dc:title xml:lang="en-gb">Attribution-NonCommercial-NoDerivs 3.0 Norway</dc:title>
     <dc:title xml:lang="it-ch">Attribuzione - Non commerciale - Non opere derivate 3.0 Norway</dc:title>
     <dc:title xml:lang="st">Attribution-NonCommercial-NoDerivs 3.0 Norway</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno-Bez prerada 3.0 Norveška</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno-Bez prerada 3.0 Norveška</dc:title>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
   </cc:License>
