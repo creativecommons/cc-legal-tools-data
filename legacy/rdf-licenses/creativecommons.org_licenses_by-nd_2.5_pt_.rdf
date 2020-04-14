@@ -52,7 +52,7 @@
     <dc:title xml:lang="it">Attribuzione - Non opere derivate 2.5 Portogallo</dc:title>
     <dc:title xml:lang="af">Erkenning-GeenAfleidings 2.5 Portugal</dc:title>
     <dc:title xml:lang="en-hk">Attribution-NoDerivs 2.5 Portugal</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Portugalija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 2.5 Portugalija</dc:title>
     <dc:title xml:lang="en-us">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="oci-es">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan-TiadaTerbitan 2.5 Portugal</dc:title>
@@ -102,7 +102,7 @@
     <dc:title xml:lang="is">Attribution-NoDerivs 2.5 Portugal</dc:title>
     <dc:title xml:lang="zh">署名-禁止演绎 2.5 葡萄牙</dc:title>
     <dc:title xml:lang="st">Attribution-NoDerivs 2.5 Portugal</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Portugal}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 2.5 ${Portugal}</dc:title>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>

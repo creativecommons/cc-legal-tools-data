@@ -73,7 +73,7 @@
     <dc:title xml:lang="sr-latn">Autorstvo 3.0 Estonia</dc:title>
     <dc:title xml:lang="tr">Attribution 3.0 Estonya</dc:title>
     <dc:title xml:lang="eu">Aitortu 3.0 Estonia</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 3.0 country.ee</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 3.0 country.ee</dc:title>
     <dc:title xml:lang="pt-br">Atribuição 3.0 Estonia</dc:title>
     <dc:title xml:lang="th">แสดงที่มา 3.0 Estonia</dc:title>
     <dc:title xml:lang="no">Navngivelse 3.0 Estland</dc:title>
@@ -103,7 +103,7 @@
     <dc:title xml:lang="ka">ავტორობის მითითებით  3.0 Estonia</dc:title>
     <dc:title xml:lang="ms">Pengiktirafan 3.0 Estonia</dc:title>
     <dc:title xml:lang="gl">Recoñecemento 3.0 Estonia</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Estonia}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Estonia}</dc:title>
     <dc:title xml:lang="bn">Attribution 3.0 Estonia</dc:title>
     <dc:title xml:lang="hr">Imenovanje 3.0 Estonija</dc:title>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by/3.0/ee/legalcode"/>

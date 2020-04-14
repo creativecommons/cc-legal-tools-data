@@ -38,7 +38,7 @@
     <dc:title xml:lang="ca">Reconeixement 3.0 Espanya</dc:title>
     <dc:title xml:lang="ka">ავტორობის მითითებით  3.0 ესპანეთი</dc:title>
     <dc:title xml:lang="en">Attribution 3.0 Spain</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 3.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 3.0 Španija</dc:title>
     <dc:title xml:lang="es-ar">Atribución 3.0 España</dc:title>
     <dc:title xml:lang="az">Attribution 3.0 Spain</dc:title>
     <dc:title xml:lang="zh-tw">姓名標示 3.0 西班牙</dc:title>
@@ -53,7 +53,7 @@
     <dc:title xml:lang="oci-es">Attribution 3.0 Spain</dc:title>
     <dc:title xml:lang="sr-latn">Autorstvo 3.0 Španija</dc:title>
     <dc:title xml:lang="hi">Attribution 3.0 Spain</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 3.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 3.0 ${Spain}</dc:title>
     <dc:title xml:lang="es-mx">Atribución 3.0 España</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού 3.0 Ισπανία</dc:title>
     <dc:title xml:lang="hy">Հղում 3.0 Իսպանիա</dc:title>
@@ -135,6 +135,6 @@
     <dcq:language>ca</dcq:language>
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by/3.0/es/legalcode.oci">
-    <dcq:language>oci_ES</dcq:language>
+    <dcq:language>oci-ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

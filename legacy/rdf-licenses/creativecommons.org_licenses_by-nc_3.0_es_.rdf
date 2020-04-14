@@ -57,12 +57,12 @@
     <dc:title xml:lang="ro">Atribuire-NeComercial 3.0 Spania</dc:title>
     <dc:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 3.0 Španělsko</dc:title>
     <dc:title xml:lang="eu">Aitortu-EzKomertziala 3.0 Espainia</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno 3.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno 3.0 Španija</dc:title>
     <dc:title xml:lang="ta">Attribution-NonCommercial 3.0 ஸ்பெயின்</dc:title>
     <dc:title xml:lang="bn">Attribution-NonCommercial 3.0 Spain</dc:title>
     <dc:title xml:lang="gl">Recoñecemento-NonComercial 3.0 España</dc:title>
     <dc:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale 3.0 Espagne</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 3.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial} 3.0 ${Spain}</dc:title>
     <dc:title xml:lang="st">Attribution-NonCommercial 3.0 Spain</dc:title>
     <dc:title xml:lang="bg">Признание-Некомерсиално 3.0 Испания</dc:title>
     <dc:title xml:lang="ko">저작자표시-비영리 3.0 스페인</dc:title>
@@ -136,6 +136,6 @@
     <dcq:language>es</dcq:language>
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/es/legalcode.oci">
-    <dcq:language>oci_ES</dcq:language>
+    <dcq:language>oci-ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

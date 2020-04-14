@@ -19,7 +19,7 @@
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/bg/"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 2.5 Bugarska</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 2.5 Bugarska</dc:title>
     <dc:title xml:lang="vi">Ghi nhận công của tác giả - Không phái sinh 2.5 Nước Bungari</dc:title>
     <dc:title xml:lang="ml">Attribution-NoDerivs 2.5 ബൾഗേറിയ</dc:title>
     <dc:title xml:lang="mk">НаведиИзвор-БезИзведениДела 2.5 Бугарија</dc:title>
@@ -57,7 +57,7 @@
     <dc:title xml:lang="ka">ავტორობის მითითებით გადამუშავების გარეშე 2.5 ბულგარეთი</dc:title>
     <dc:title xml:lang="fi">Nimeä-Ei muutoksia 2.5 Bulgaria</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Neatvasinot 2.5 Bulgārija</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 2.5 ${Bulgaria}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 2.5 ${Bulgaria}</dc:title>
     <dc:title xml:lang="hi">Attribution-NoDerivs 2.5 बुलगेरिया</dc:title>
     <dc:title xml:lang="zh">署名-禁止演绎 2.5 保加利亚</dc:title>
     <dc:title xml:lang="kk">Туынды жасамау 2.5 Bulgaria</dc:title>

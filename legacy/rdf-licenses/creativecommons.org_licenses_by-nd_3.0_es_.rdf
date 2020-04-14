@@ -79,7 +79,7 @@
     <dc:title xml:lang="th">แสดงที่มา-ไม่ดัดแปลง 3.0 สเปน</dc:title>
     <dc:title xml:lang="ga">Attribution-NoDerivs 3.0 Spain</dc:title>
     <dc:title xml:lang="kk">Туынды жасамау 3.0 Spain</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NoDerivs} 3.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NoDerivs} 3.0 ${Spain}</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-GeenAfgeleideWerken 3.0 Spanje</dc:title>
     <dc:title xml:lang="lt">Attribution-NoDerivs 3.0 Ispanų</dc:title>
     <dc:title xml:lang="zh-hk">姓名標示-禁止改作 3.0 西班牙</dc:title>
@@ -92,7 +92,7 @@
     <dc:title xml:lang="ml">Attribution-NoDerivs 3.0 സ്പെയിൻ</dc:title>
     <dc:title xml:lang="fr-ch">Paternité - Pas de Modification 3.0 Espagne</dc:title>
     <dc:title xml:lang="el">Αναφορά Δημιουργού-Όχι Παράγωγα Έργα 3.0 Ισπανία</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Bez prerada 3.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Bez prerada 3.0 Španija</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-SinObraDerivada 3.0 España</dc:title>
     <dc:title xml:lang="es-gt">Reconocimiento-SinObraDerivada 3.0 España</dc:title>
     <dc:title xml:lang="en-sg">Attribution-NoDerivs 3.0 Spain</dc:title>
@@ -134,6 +134,6 @@
     <dcq:language>eu</dcq:language>
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/3.0/es/legalcode.oci">
-    <dcq:language>oci_ES</dcq:language>
+    <dcq:language>oci-ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>

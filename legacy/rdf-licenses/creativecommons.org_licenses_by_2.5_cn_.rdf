@@ -80,7 +80,7 @@
     <dc:title xml:lang="hu">Nevezd meg! 2.5 Kína</dc:title>
     <dc:title xml:lang="fi">Nimeä 2.5 Kiina</dc:title>
     <dc:title xml:lang="pt-br">Atribuição 2.5 China Mainland</dc:title>
-    <dc:title xml:lang="i18n">${Attribution} 2.5 ${China Mainland}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution} 2.5 ${China Mainland}</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi 2.5 EMainland China</dc:title>
     <dc:title xml:lang="pt-pt">Atribuição 2.5 China</dc:title>
     <dc:title xml:lang="it">Attribuzione 2.5 Cina</dc:title>
@@ -101,7 +101,7 @@
     <dc:title xml:lang="ro">Atribuire 2.5 China continentală</dc:title>
     <dc:title xml:lang="he">ייחוס 2.5 סין</dc:title>
     <dc:title xml:lang="ja">表示 2.5 中華人民共和国</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo 2.5 Kina</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo 2.5 Kina</dc:title>
     <dc:title xml:lang="az">Attribution 2.5 China Mainland</dc:title>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/cn/"/>
     <foaf:logo rdf:resource="http://i.creativecommons.org/l/by/2.5/cn/80x15.png"/>

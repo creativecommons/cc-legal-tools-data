@@ -56,7 +56,7 @@
     <dc:title xml:lang="en-sg">Attribution-ShareAlike 2.5 UK: Scotland</dc:title>
     <dc:title xml:lang="nso">Tsebagatšo -Mohlakanelwa 2.5 UK: Scotland</dc:title>
     <dc:title xml:lang="pt-br">Attribution-ShareAlike 2.5 UK: Scotland</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-ShareAlike} 2.5 ${UK: Scotland}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-ShareAlike} 2.5 ${UK: Scotland}</dc:title>
     <dc:title xml:lang="es-ec">Reconocimiento-CompartirIgual 2.5 Escocia</dc:title>
     <dc:title xml:lang="be">Attribution-ShareAlike 2.5 Шатландыя</dc:title>
     <dc:title xml:lang="zu">Qaphela Umnikazi-Zihlanganyeleni 2.5 E-UK: Scotland</dc:title>
@@ -100,7 +100,7 @@
     <dc:title xml:lang="af">Erkenning-InsgelyksDeel 2.5 VK: Skotland</dc:title>
     <dc:title xml:lang="ja">表示 - 継承 2.5 スコットランド（英）</dc:title>
     <dc:title xml:lang="es-cl">Atribución-LicenciarIgual 2.5 Escocia</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Deliti pod istim uslovima 2.5 VB: Škotska</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Deliti pod istim uslovima 2.5 VB: Škotska</dc:title>
     <dc:title xml:lang="es-pe">Reconocimiento-CompartirIgual 2.5 Escocia</dc:title>
     <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/scotland/legalcode"/>
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/scotland/"/>

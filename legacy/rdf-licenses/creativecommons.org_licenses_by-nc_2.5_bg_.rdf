@@ -72,7 +72,7 @@
     <dc:title xml:lang="mk">НаведиИзвор-Некомерцијално 2.5 Бугарија</dc:title>
     <dc:title xml:lang="es-pr">Reconocimiento-NoComercial 2.5 Bulgaria</dc:title>
     <dc:title xml:lang="es">Atribución-NoComercial 2.5 Bulgaria</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Nekomercijalno 2.5 Bugarska</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno 2.5 Bugarska</dc:title>
     <dc:title xml:lang="lv">Atsaucoties-Nekomerciāli 2.5 Bulgārija</dc:title>
     <dc:title xml:lang="ur">Attribution-NonCommercial 2.5 Bulgaria</dc:title>
     <dc:title xml:lang="nl">Naamsvermelding-NietCommercieel 2.5 Bulgarije</dc:title>
@@ -110,7 +110,7 @@
     <dc:title xml:lang="id">Attribusi-NonKomersial 2.5 Bulgaria</dc:title>
     <dc:title xml:lang="ja">表示 - 非営利 2.5 ブルガリア</dc:title>
     <dc:title xml:lang="sr">Ауторство-Некомерцијално 2.5 Бугарска</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-NonCommercial} 2.5 ${Bulgaria}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-NonCommercial} 2.5 ${Bulgaria}</dc:title>
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <dc:creator rdf:resource="http://creativecommons.org"/>
     <dc:source rdf:resource="http://creativecommons.org/licenses/by-nc/2.5/"/>

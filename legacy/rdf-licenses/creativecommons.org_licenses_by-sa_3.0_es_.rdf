@@ -89,7 +89,7 @@
     <dc:title xml:lang="id">Atribusi-BerbagiSerupa 3.0 Spanyol</dc:title>
     <dc:title xml:lang="he">ייחוס-שיתוף זהה 3.0 ספרד</dc:title>
     <dc:title xml:lang="es-co">Reconocimiento-CompartirIgual 3.0 España</dc:title>
-    <dc:title xml:lang="sr@latin">Autorstvo-Deliti pod istim uslovima 3.0 Španija</dc:title>
+    <dc:title xml:lang="sr-Latn">Autorstvo-Deliti pod istim uslovima 3.0 Španija</dc:title>
     <dc:title xml:lang="fr-ch">Paternité - Partage des Conditions Initiales à l'Identique 3.0 Espagne</dc:title>
     <dc:title xml:lang="ga">Attribution-ShareAlike 3.0 Spain</dc:title>
     <dc:title xml:lang="en-sg">Attribution-ShareAlike 3.0 Spain</dc:title>
@@ -117,7 +117,7 @@
     <dc:title xml:lang="sr">Ауторство-Делити под истим условима 3.0 Шпанија</dc:title>
     <dc:title xml:lang="da">Navngivelse-DelPåSammeVilkår 3.0 Spanien</dc:title>
     <dc:title xml:lang="en-gb">Attribution-ShareAlike 3.0 Spain</dc:title>
-    <dc:title xml:lang="i18n">${Attribution-ShareAlike} 3.0 ${Spain}</dc:title>
+    <dc:title xml:lang="x-i18n">${Attribution-ShareAlike} 3.0 ${Spain}</dc:title>
     <dc:identifier>by-sa</dc:identifier>
   </cc:License>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.ca">
@@ -136,6 +136,6 @@
     <dcq:language>es</dcq:language>
   </rdf:Description>
   <rdf:Description rdf:about="http://creativecommons.org/licenses/by-sa/3.0/es/legalcode.oci">
-    <dcq:language>oci_ES</dcq:language>
+    <dcq:language>oci-ES</dcq:language>
   </rdf:Description>
 </rdf:RDF>
