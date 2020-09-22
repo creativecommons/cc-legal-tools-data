@@ -6,7 +6,7 @@
   xmlns:dc='http://purl.org/dc/elements/1.1/'
   xmlns:dcq='http://purl.org/dc/terms/'
 >
-  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">
+  <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/za/">
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
@@ -106,12 +106,12 @@
     <dc:title xml:lang="da">Navngivelse-IkkeKommerciel–DelPåSammeVilkår 3.0 USA</dc:title>
     <dc:identifier>by-nc-sa</dc:identifier>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode"/>
+    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/za/legalcode"/>
     <dcq:hasVersion>3.0</dcq:hasVersion>
     <dc:creator rdf:resource="http://creativecommons.org"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"/>
-    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png"/>
-    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/us/"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/za/88x31.png"/>
+    <foaf:logo rdf:resource="http://i.creativecommons.org/l/by-nc-sa/3.0/za/80x15.png"/>
+    <cc:jurisdiction rdf:resource="http://creativecommons.org/international/za/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
