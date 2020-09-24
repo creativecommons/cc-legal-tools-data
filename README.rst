@@ -13,6 +13,10 @@ further changes. If that's not possible, change the
 ``TRANSLATION_REPOSITORY_DIRECTORY`` Django setting in
 cc-licenses to the full path to this repository.
 
-The ``translations`` directory contains ``.po`` files with
+The ``legalcode`` directory contains ``.po`` and ``.mo`` files with
 translation information for licenses.
+
+The ``locale`` directory contains ``.po`` and ``.mo`` files
+with translation information for the deeds and other parts
+of the web pages that display the licenses.
 
