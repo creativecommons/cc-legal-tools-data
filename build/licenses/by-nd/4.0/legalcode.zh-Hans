@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" class="no-js" dir="ltr">
+<html lang="zh-hans" class="no-js" dir="ltr">
 <head about=" ">
     <meta charset="utf-8">
     <title></title>
@@ -82,7 +82,7 @@
           
 
 
-<a class="skip-link" href="#content" >Skip to content</a>
+<a class="skip-link" href="#content" >跳转至主内容</a>
 
 <style>
   a.skip-link {
@@ -119,10 +119,17 @@ a.skip-link:focus, a.skip-link:active {
 <nav class="breadcrumb level-left caption bold" aria-label="breadcrumbs">
   <ul>
       
-      <li><a href="#">Home</a></li>
+      <li><a href="#">首页</a></li>
       <li><a href="#">Child page</a></li>
       <li><a href="#">Child child page</a></li>
-      <li class="is-active"><a href="#" aria-current="page displayed">Page displayed</a></li>
+      
+        <li class="is-active"><a href="#" aria-current="page displayed">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</a></li>
+      
       
   </ul>
 </nav>
@@ -148,11 +155,11 @@ a.skip-link:focus, a.skip-link:active {
       <select>
         
         <option disabled>Select</option>
-        <option selected>English - English</option>
-        <option>le Français - French</option>
-        <option>Japanese - 日本語</option>
-        <option>Russian - Русский</option>
-        <option>Spanish - Español</option>
+        <option selected>英语 - English</option>
+        <option>法语 - le Français</option>
+        <option>日语 - 日本語</option>
+        <option>俄语 - Русский</option>
+        <option>西班牙语 - Español</option>
         
       </select>
     </div>
@@ -174,7 +181,7 @@ a.skip-link:focus, a.skip-link:active {
       Translation published 2020/XX/XX
     </div>
     <div class="column">
-      <button id="next-btn" class="button tiny is-pulled-right" data-href="/licenses/by-nc-sa/4.0/">See the deed</button>
+      <button id="next-btn" class="button tiny is-pulled-right" data-href="/licenses/by-nd/4.0/deed.zh-Hans">See the deed</button>
     </div>
   </div>
 </div>
@@ -186,7 +193,12 @@ a.skip-link:focus, a.skip-link:active {
 <div class="column is-one-quarter sidebar-container">
   <aside class="menu sidebar-menu">
     
-    <p ><a class="link has-text-black">Attribution-NonCommercial-ShareAlike 4.0 International</a></p>
+    <p ><a class="link has-text-black">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</a></p>
     <ul class="menu-list" >
       <li>
         <ul>
@@ -279,10 +291,15 @@ a.skip-link:focus, a.skip-link:active {
       
       </span>
 
-    CC BY-NC-SA 4.0 
+    CC BY-ND 4.0 
   </h2>
   
-  <h1 class="b-header">Attribution-NonCommercial-ShareAlike 4.0 International</h1>
+  <h1 class="b-header">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</h1>
 </div>
 
 <div id="licenses-header" class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" >
@@ -349,10 +366,15 @@ a.skip-link:focus, a.skip-link:active {
       
       </span>
   </h2>
-  <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">CC BY-NC-SA 4.0</h2>
-  <h3 class="has-text-centered is-hidden-touch">CC BY-NC-SA 4.0</h3>
-  <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">CC BY-NC-SA 4.0</h4>
-  <h2 class="b-header has-text-centered">Attribution-NonCommercial-ShareAlike 4.0 International</h2>
+  <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">CC BY-ND 4.0</h2>
+  <h3 class="has-text-centered is-hidden-touch">CC BY-ND 4.0</h3>
+  <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">CC BY-ND 4.0</h4>
+  <h2 class="b-header has-text-centered">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</h2>
 </div>
 
 <style>
@@ -479,7 +501,7 @@ a.skip-link:focus, a.skip-link:active {
 
 
     </span>
-  CC BY-NC-SA 4.0
+  CC BY-ND 4.0
 </h3>
 <h3 class="is-vcentered is-hidden-desktop is-hidden-mobile has-text-centered">
   
@@ -542,7 +564,7 @@ a.skip-link:focus, a.skip-link:active {
 
 
     </span>
-    CC BY-NC-SA 4.0
+    CC BY-ND 4.0
 </h3>
 <h3 class="is-hidden-tablet has-text-centered">
   
@@ -606,14 +628,30 @@ a.skip-link:focus, a.skip-link:active {
 
     </span>
 </h3>
-<h4 class="has-text-centered is-hidden-tablet padding-left-normal">CC BY-NC-SA 4.0</h3>
-<h2 class="margin-bottom-larger b-header is-hidden-touch">Attribution-NonCommercial-ShareAlike 4.0 International</h2>
-<h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">Attribution-NonCommercial-ShareAlike 4.0 International</h3>
+<h4 class="has-text-centered is-hidden-tablet padding-left-normal">CC BY-ND 4.0</h4>
+<h2 class="margin-bottom-larger b-header is-hidden-touch">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</h2>
+<h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
+
+
+Attribution-NoDerivatives 4.0 International
+
+</h3>
 
   <div>
-    <h3 class="padding-bottom-normal b-header">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License</h3>
+    <h3 class="padding-bottom-normal b-header">
+      
+        Creative Commons Attribution-NoDerivatives 4.0 International Public License
+      
+    </h3>
     <p class="body-big padding-bottom-larger">
-      By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+    
+    By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+    
     </p>
     
 
@@ -622,77 +660,60 @@ a.skip-link:focus, a.skip-link:active {
       <p id="s1" class="body-bigger padding-bottom-normal"><strong>Section 1 – Definitions.</strong></p>
       
       <ol type="a" class="body-big padding-left-normal">
-        
-          <li id="s1a" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Adapted Material</span> means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.
-            </div>
+
+          
+
+          <li id="s1a_adapted_material" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Adapted Material</span> means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.</div>
           </li>
-        
-          <li id="s1b" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Adapter's License</span> means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.
-            </div>
+
+          
+
+          
+
+          
+
+          <li id="s1b_copyright_and_similar_rights" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Copyright and Similar Rights</span> means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section <a href="#s2b">2(b)(1)-(2)</a> are not Copyright and Similar Rights.</div>
           </li>
-        
-          <li id="s1c" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">BY-NC-SA Compatible License</span> means a license listed at <a href="//creativecommons.org/compatiblelicenses"> creativecommons.org/compatiblelicenses</a>, approved by Creative Commons as essentially the equivalent of this Public License.
-            </div>
+
+          <li id="s1c_effective_technological_measures" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Effective Technological Measures</span> means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.</div>
           </li>
-        
-          <li id="s1d" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Copyright and Similar Rights</span> means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section <a href="#s2b">2(b)(1)-(2)</a> are not Copyright and Similar Rights.
-            </div>
+
+          <li id="s1d_exceptions_and_limitations" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Exceptions and Limitations</span> means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.</div>
           </li>
-        
-          <li id="s1e" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Effective Technological Measures</span> means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.
-            </div>
+
+          
+
+          
+
+          <li id="s1e_licensed_material" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensed Material</span> means the artistic or literary work, database, or other material to which the Licensor applied this Public License.</div>
           </li>
-        
-          <li id="s1f" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Exceptions and Limitations</span> means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.
-            </div>
+
+          <li id="s1f_licensed_rights" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensed Rights</span> means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.</div>
           </li>
-        
-          <li id="s1g" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">License Elements</span> means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution, NonCommercial, and ShareAlike.
-            </div>
+
+          <li id="s1g_licensor" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensor</span> means the individual(s) or entity(ies) granting rights under this Public License.</div>
           </li>
-        
-          <li id="s1h" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensed Material</span> means the artistic or literary work, database, or other material to which the Licensor applied this Public License.
-            </div>
+
+          
+
+          <li id="s1h_share" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Share</span> means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.</div>
           </li>
-        
-          <li id="s1i" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensed Rights</span> means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.
-            </div>
+
+          <li id="s1i_sui_generis_database_rights" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">Sui Generis Database Rights</span> means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.</div>
           </li>
-        
-          <li id="s1j" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Licensor</span> means the individual(s) or entity(ies) granting rights under this Public License.
-            </div>
+
+          <li id="s1j_you" class="padding-bottom-normal">
+            <div class="padding-left-normal"><span style="text-decoration: underline;">You</span> means the individual or entity exercising the Licensed Rights under this Public License. <strong>Your</strong> has a corresponding meaning.</div>
           </li>
-        
-          <li id="s1k" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">NonCommercial</span> means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.
-            </div>
-          </li>
-        
-          <li id="s1l" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Share</span> means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.
-            </div>
-          </li>
-        
-          <li id="s1m" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">Sui Generis Database Rights</span> means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.
-            </div>
-          </li>
-        
-          <li id="s1n" class="padding-bottom-normal">
-            <div class="padding-left-normal"><span style="text-decoration: underline;">You</span> means the individual or entity exercising the Licensed Rights under this Public License. <strong>Your</strong> has a corresponding meaning.
-            </div>
-          </li>
-        
       </ol>
     </div>
 
@@ -704,8 +725,14 @@ a.skip-link:focus, a.skip-link:active {
         <ol class="padding-left-normal padding-vertical-normal">
           <li id="s2a1" class="padding-left-normal padding-bottom-normal">Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:
             <ol type="A" class="padding-left-normal padding-vertical-normal">
-              <li id="s2a1A" class="padding-left-normal padding-bottom-normal">reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and</li>
-              <li id="s2a1B" class="padding-left-normal padding-bottom-small">produce, reproduce, and Share Adapted Material for NonCommercial purposes only.</li>
+            
+              <li id="s2a1A" class="padding-left-normal padding-bottom-normal">reproduce and Share the Licensed Material, in whole or in part; and</li>
+            
+
+            
+              <li id="s2a1B" class="padding-left-normal padding-bottom-small">produce, reproduce, and Share Adapted Material.</li>
+            
+
             </ol>
           </li>
           <li id="s2a2" class="padding-left-normal padding-bottom-normal"><strong>Exceptions and Limitations</strong>. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.</li>
@@ -715,13 +742,15 @@ a.skip-link:focus, a.skip-link:active {
             <span style="text-decoration: underline;">Downstream recipients</span>.
             <div class="para">
               <ol type="A" class="padding-left-normal padding-vertical-normal">
-                
-                  <li id="s2a5A_offer" class="padding-left-normal padding-bottom-normal"><span style="text-decoration: underline;">Offer from the Licensor – Licensed Material</span>. . Every recipient of the Licensed Material automatically receives an  offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.</li>
-                
-                  <li id="s2a5B_adapted_material" class="padding-left-normal padding-bottom-normal"><span style="text-decoration: underline;">Additional offer from the Licensor – Adapted Material</span>. . Every recipient of Adapted Material from You automatically receives an  offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.</li>
-                
-                  <li id="s2a5C_no_restrictions" class="padding-left-normal padding-bottom-small"><span style="text-decoration: underline;">No downstream restrictions</span>. . You may not offer or impose any additional or different terms or  conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.</li>
-                
+
+                  
+
+                  <li id="s2a5A_offer" class="padding-left-normal padding-bottom-normal"><span style="text-decoration: underline;">Offer from the Licensor – Licensed Material</span>. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.</li>
+
+                  
+
+                  <li id="s2a5B_no_restrictions" class="padding-left-normal padding-bottom-small"><span style="text-decoration: underline;">No downstream restrictions</span>. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.</li>
+
               </ol>
             </div>
           </li>
@@ -732,7 +761,9 @@ a.skip-link:focus, a.skip-link:active {
           <ol class="padding-left-normal padding-vertical-normal">
             <li id="s2b1" class="padding-left-normal padding-bottom-normal">Moral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.</li>
             <li id="s2b2" class="padding-left-normal padding-bottom-normal">Patent and trademark rights are not licensed under this Public License.</li>
-            <li id="s2b3" class="padding-left-normal padding-bottom-small">To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.</li>
+          
+            <li id="s2b3" class="padding-left-normal padding-bottom-small">To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.</li>
+          
           </ol>
         </li>
       </ol>
@@ -745,14 +776,14 @@ a.skip-link:focus, a.skip-link:active {
       <p class="body-big padding-bottom-normal">Your exercise of the Licensed Rights is expressly made subject to the following conditions.</p>
 
       <ol type="a" class="body-big padding-left-normal">
-        <li id="s3a" class="padding-left-normal padding-bottom-normal"><p><strong>Attribution</strong>.</p>
+        <li id="s3a" class="padding-left-normal padding-bottom-normal"><p><strong>署名</strong>.</p>
           <ol type="1" class="padding-left-normal padding-vertical-normal">
             <li id="s3a1" class="padding-left-normal padding-bottom-normal">
-              <p><p>If You Share the Licensed Material (including in modified form), You must:</p></p>
+              <p>If You Share the Licensed Material (including in modified form), You must:</p>
               <ol type="A" class="padding-left-normal padding-vertical-normal">
                   <li id="s3a1A" class="padding-left-normal padding-bottom-small">retain the following if it is supplied by the Licensor with the Licensed Material:
                     <ol type="i" class="padding-left-normal padding-vertical-normal">
-                        <li id="s3a1Ai" class="padding-left-normal padding-bottom-normal">identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested  by the Licensor (including by pseudonym if designated);</li>
+                        <li id="s3a1Ai" class="padding-left-normal padding-bottom-normal">identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);</li>
                         <li id="s3a1Aii" class="padding-left-normal padding-bottom-normal">a copyright notice;</li>
                         <li id="s3a1Aiii" class="padding-left-normal padding-bottom-normal">a notice that refers to this Public License;</li>
                         <li id="s3a1Aiv" class="padding-left-normal padding-bottom-normal">a notice that refers to the disclaimer of warranties;</li>
@@ -760,9 +791,7 @@ a.skip-link:focus, a.skip-link:active {
                     </ol>
                   </li>
                   <li id="s3a1B" class="padding-left-normal padding-bottom-normal">indicate if You modified the Licensed Material and retain an indication of any previous modifications; and</li>
-                  <li id="s3a1C" class="padding-left-normal padding-bottom-small">indicate the Licensed Material is licensed under this Public License,
-and include the text of, or the URI or hyperlink to, this Public
-License.</li>
+                  <li id="s3a1C" class="padding-left-normal padding-bottom-small">indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.</li>
               </ol>
             </li>
             <li id="s3a2" class="padding-left-normal padding-bottom-normal">You may satisfy the conditions in Section <a href="#s3a1">3(a)(1)</a> in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.</li>
@@ -774,15 +803,6 @@ License.</li>
         </li>
 
         
-          <li id="s3b" class="padding-left-normal padding-bottom-normal"><strong>ShareAlike</strong>.
-            <p class="padding-top-normal padding-bottom-normal">In addition to the conditions in Section <a href="#s3a">3(a)</a>, if You Share Adapted Material You produce, the following conditions also apply.</p>
-            <ol class="padding-left-normal">
-              <li id="s3b1" class="padding-left-normal padding-bottom-normal">The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-NC-SA Compatible License.</li>
-              <li id="s3b2" class="padding-left-normal padding-bottom-normal">You must include the text of, or the URI or hyperlink to, the Adapter's License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.</li>
-              <li id="s3b3" class="padding-left-normal padding-bottom-small">You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter's License You apply.</li>
-            </ol>
-          </li>
-        
       </ol>
     </div>
 
@@ -791,12 +811,20 @@ License.</li>
       <p id="s4" class="body-bigger padding-bottom-normal"><strong>Section 4 – Sui Generis Database Rights.</strong></p>
       <p class="body-big padding-bottom-normal">Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:</p>
       <ol type="a" class="body-big padding-left-normal">
-          <li id="s4a" class="padding-left-normal padding-bottom-normal">for the avoidance of doubt, Section <a href="#s2a1">2(a)(1)</a> grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only;</li>
-          <li id="s4b" class="padding-left-normal padding-bottom-normal">if You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and</li>
-          <li id="s4c" class="padding-left-normal padding-bottom-small">You must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.</li>
+          <li id="s4a" class="padding-left-normal padding-bottom-normal">
+          
+            for the avoidance of doubt, Section <a href="#s2a1">2(a)(1)</a> grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;
+            
+          </li>
+          <li id="s4b" class="padding-left-normal padding-bottom-normal">
+            
+              if You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and
+            
+          </li>
+          <li id="s4c" class="padding-left-normal padding-bottom-small">You must comply with the conditions in Section <a href="#s3a">3(a)</a> if You Share all or a substantial portion of the contents of the database.</li>
       </ol>
 
-      <span class="body-big">For the avoidance of doubt, this Section  <a href="#s4">4</a>  supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.</span>
+      <span class="body-big">For the avoidance of doubt, this Section <a href="#s4">4</a> supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.</span>
     </div>
 
     <!-- Section 5. Disclaimer -->
@@ -854,7 +882,7 @@ License.</li>
 <style>
   #legal-code-body {
     background-color: rgb(255, 255, 255);
-    border: 5px solid  rgb(176, 176, 176);
+    border: 5px solid rgb(176, 176, 176);
   }
 </style>
   
@@ -883,7 +911,7 @@ License.</li>
       
 
 <div
-  class="menu padding-vertical-normal column is-half"
+  class="menu padding-vertical-normal column is-half padding-right-large"
 >
   <ul class="menu-list" >
     <li>
