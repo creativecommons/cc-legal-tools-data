@@ -1,0 +1,6120 @@
+- license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by/4.0/deed.ar
+      license: /licenses/by/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by/4.0/deed.cs
+      license: /licenses/by/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by/4.0/deed.de
+      license: /licenses/by/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by/4.0/deed.el
+      license: /licenses/by/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by/4.0/
+      license: /licenses/by/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by/4.0/deed.es
+      license: /licenses/by/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by/4.0/deed.eu
+      license: /licenses/by/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by/4.0/deed.fi
+      license: /licenses/by/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by/4.0/deed.fr
+      license: /licenses/by/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by/4.0/deed.hr
+      license: /licenses/by/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by/4.0/deed.id
+      license: /licenses/by/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by/4.0/deed.it
+      license: /licenses/by/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by/4.0/deed.ja
+      license: /licenses/by/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by/4.0/deed.ko
+      license: /licenses/by/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by/4.0/deed.lt
+      license: /licenses/by/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by/4.0/deed.lv
+      license: /licenses/by/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by/4.0/deed.mi
+      license: /licenses/by/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by/4.0/deed.nl
+      license: /licenses/by/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by/4.0/deed.no
+      license: /licenses/by/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by/4.0/deed.pl
+      license: /licenses/by/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by/4.0/deed.pt
+      license: /licenses/by/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by/4.0/deed.ro
+      license: /licenses/by/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by/4.0/deed.ru
+      license: /licenses/by/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by/4.0/deed.sl
+      license: /licenses/by/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by/4.0/deed.sv
+      license: /licenses/by/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by/4.0/deed.tr
+      license: /licenses/by/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by/4.0/deed.uk
+      license: /licenses/by/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by/4.0/deed.zh-Hans
+      license: /licenses/by/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by/4.0/deed.zh-Hant
+      license: /licenses/by/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc/4.0/deed.ar
+      license: /licenses/by-nc/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by-nc/4.0/deed.cs
+      license: /licenses/by-nc/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by-nc/4.0/deed.de
+      license: /licenses/by-nc/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by-nc/4.0/deed.el
+      license: /licenses/by-nc/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by-nc/4.0/
+      license: /licenses/by-nc/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by-nc/4.0/deed.es
+      license: /licenses/by-nc/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc/4.0/deed.eu
+      license: /licenses/by-nc/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by-nc/4.0/deed.fi
+      license: /licenses/by-nc/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by-nc/4.0/deed.fr
+      license: /licenses/by-nc/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by-nc/4.0/deed.hr
+      license: /licenses/by-nc/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by-nc/4.0/deed.id
+      license: /licenses/by-nc/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by-nc/4.0/deed.it
+      license: /licenses/by-nc/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by-nc/4.0/deed.ja
+      license: /licenses/by-nc/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by-nc/4.0/deed.ko
+      license: /licenses/by-nc/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by-nc/4.0/deed.lt
+      license: /licenses/by-nc/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by-nc/4.0/deed.lv
+      license: /licenses/by-nc/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by-nc/4.0/deed.mi
+      license: /licenses/by-nc/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by-nc/4.0/deed.nl
+      license: /licenses/by-nc/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by-nc/4.0/deed.no
+      license: /licenses/by-nc/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by-nc/4.0/deed.pl
+      license: /licenses/by-nc/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by-nc/4.0/deed.pt
+      license: /licenses/by-nc/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by-nc/4.0/deed.ro
+      license: /licenses/by-nc/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by-nc/4.0/deed.ru
+      license: /licenses/by-nc/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by-nc/4.0/deed.sl
+      license: /licenses/by-nc/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by-nc/4.0/deed.sv
+      license: /licenses/by-nc/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by-nc/4.0/deed.tr
+      license: /licenses/by-nc/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by-nc/4.0/deed.uk
+      license: /licenses/by-nc/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by-nc/4.0/deed.zh-Hans
+      license: /licenses/by-nc/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by-nc/4.0/deed.zh-Hant
+      license: /licenses/by-nc/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-nd/4.0/deed.ar
+      license: /licenses/by-nc-nd/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by-nc-nd/4.0/deed.cs
+      license: /licenses/by-nc-nd/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by-nc-nd/4.0/deed.de
+      license: /licenses/by-nc-nd/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by-nc-nd/4.0/deed.el
+      license: /licenses/by-nc-nd/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by-nc-nd/4.0/
+      license: /licenses/by-nc-nd/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by-nc-nd/4.0/deed.es
+      license: /licenses/by-nc-nd/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc-nd/4.0/deed.eu
+      license: /licenses/by-nc-nd/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by-nc-nd/4.0/deed.fi
+      license: /licenses/by-nc-nd/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by-nc-nd/4.0/deed.fr
+      license: /licenses/by-nc-nd/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by-nc-nd/4.0/deed.hr
+      license: /licenses/by-nc-nd/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by-nc-nd/4.0/deed.id
+      license: /licenses/by-nc-nd/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by-nc-nd/4.0/deed.it
+      license: /licenses/by-nc-nd/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by-nc-nd/4.0/deed.ja
+      license: /licenses/by-nc-nd/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by-nc-nd/4.0/deed.ko
+      license: /licenses/by-nc-nd/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by-nc-nd/4.0/deed.lt
+      license: /licenses/by-nc-nd/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by-nc-nd/4.0/deed.lv
+      license: /licenses/by-nc-nd/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by-nc-nd/4.0/deed.mi
+      license: /licenses/by-nc-nd/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by-nc-nd/4.0/deed.nl
+      license: /licenses/by-nc-nd/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by-nc-nd/4.0/deed.no
+      license: /licenses/by-nc-nd/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by-nc-nd/4.0/deed.pl
+      license: /licenses/by-nc-nd/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by-nc-nd/4.0/deed.pt
+      license: /licenses/by-nc-nd/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by-nc-nd/4.0/deed.ro
+      license: /licenses/by-nc-nd/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by-nc-nd/4.0/deed.ru
+      license: /licenses/by-nc-nd/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by-nc-nd/4.0/deed.sl
+      license: /licenses/by-nc-nd/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by-nc-nd/4.0/deed.sv
+      license: /licenses/by-nc-nd/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by-nc-nd/4.0/deed.tr
+      license: /licenses/by-nc-nd/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by-nc-nd/4.0/deed.uk
+      license: /licenses/by-nc-nd/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by-nc-nd/4.0/deed.zh-Hans
+      license: /licenses/by-nc-nd/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by-nc-nd/4.0/deed.zh-Hant
+      license: /licenses/by-nc-nd/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-sa/4.0/deed.ar
+      license: /licenses/by-nc-sa/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by-nc-sa/4.0/deed.cs
+      license: /licenses/by-nc-sa/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by-nc-sa/4.0/deed.de
+      license: /licenses/by-nc-sa/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by-nc-sa/4.0/deed.el
+      license: /licenses/by-nc-sa/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by-nc-sa/4.0/
+      license: /licenses/by-nc-sa/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by-nc-sa/4.0/deed.es
+      license: /licenses/by-nc-sa/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc-sa/4.0/deed.eu
+      license: /licenses/by-nc-sa/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by-nc-sa/4.0/deed.fi
+      license: /licenses/by-nc-sa/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by-nc-sa/4.0/deed.fr
+      license: /licenses/by-nc-sa/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by-nc-sa/4.0/deed.hr
+      license: /licenses/by-nc-sa/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by-nc-sa/4.0/deed.id
+      license: /licenses/by-nc-sa/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by-nc-sa/4.0/deed.it
+      license: /licenses/by-nc-sa/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by-nc-sa/4.0/deed.ja
+      license: /licenses/by-nc-sa/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by-nc-sa/4.0/deed.ko
+      license: /licenses/by-nc-sa/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by-nc-sa/4.0/deed.lt
+      license: /licenses/by-nc-sa/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by-nc-sa/4.0/deed.lv
+      license: /licenses/by-nc-sa/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by-nc-sa/4.0/deed.mi
+      license: /licenses/by-nc-sa/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by-nc-sa/4.0/deed.nl
+      license: /licenses/by-nc-sa/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by-nc-sa/4.0/deed.no
+      license: /licenses/by-nc-sa/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by-nc-sa/4.0/deed.pl
+      license: /licenses/by-nc-sa/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by-nc-sa/4.0/deed.pt
+      license: /licenses/by-nc-sa/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by-nc-sa/4.0/deed.ro
+      license: /licenses/by-nc-sa/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by-nc-sa/4.0/deed.ru
+      license: /licenses/by-nc-sa/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by-nc-sa/4.0/deed.sl
+      license: /licenses/by-nc-sa/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by-nc-sa/4.0/deed.sv
+      license: /licenses/by-nc-sa/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by-nc-sa/4.0/deed.tr
+      license: /licenses/by-nc-sa/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by-nc-sa/4.0/deed.uk
+      license: /licenses/by-nc-sa/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by-nc-sa/4.0/deed.zh-Hans
+      license: /licenses/by-nc-sa/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by-nc-sa/4.0/deed.zh-Hant
+      license: /licenses/by-nc-sa/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nd/4.0/deed.ar
+      license: /licenses/by-nd/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by-nd/4.0/deed.cs
+      license: /licenses/by-nd/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by-nd/4.0/deed.de
+      license: /licenses/by-nd/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by-nd/4.0/deed.el
+      license: /licenses/by-nd/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by-nd/4.0/
+      license: /licenses/by-nd/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by-nd/4.0/deed.es
+      license: /licenses/by-nd/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nd/4.0/deed.eu
+      license: /licenses/by-nd/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by-nd/4.0/deed.fi
+      license: /licenses/by-nd/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by-nd/4.0/deed.fr
+      license: /licenses/by-nd/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by-nd/4.0/deed.hr
+      license: /licenses/by-nd/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by-nd/4.0/deed.id
+      license: /licenses/by-nd/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by-nd/4.0/deed.it
+      license: /licenses/by-nd/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by-nd/4.0/deed.ja
+      license: /licenses/by-nd/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by-nd/4.0/deed.ko
+      license: /licenses/by-nd/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by-nd/4.0/deed.lt
+      license: /licenses/by-nd/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by-nd/4.0/deed.lv
+      license: /licenses/by-nd/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by-nd/4.0/deed.mi
+      license: /licenses/by-nd/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by-nd/4.0/deed.nl
+      license: /licenses/by-nd/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by-nd/4.0/deed.no
+      license: /licenses/by-nd/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by-nd/4.0/deed.pl
+      license: /licenses/by-nd/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by-nd/4.0/deed.pt
+      license: /licenses/by-nd/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by-nd/4.0/deed.ro
+      license: /licenses/by-nd/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by-nd/4.0/deed.ru
+      license: /licenses/by-nd/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by-nd/4.0/deed.sl
+      license: /licenses/by-nd/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by-nd/4.0/deed.sv
+      license: /licenses/by-nd/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by-nd/4.0/deed.tr
+      license: /licenses/by-nd/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by-nd/4.0/deed.uk
+      license: /licenses/by-nd/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by-nd/4.0/deed.zh-Hans
+      license: /licenses/by-nd/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by-nd/4.0/deed.zh-Hant
+      license: /licenses/by-nd/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-sa/4.0/deed.ar
+      license: /licenses/by-sa/4.0/legalcode.ar
+      title: ''
+    cs:
+      deed: /licenses/by-sa/4.0/deed.cs
+      license: /licenses/by-sa/4.0/legalcode.cs
+      title: ''
+    de:
+      deed: /licenses/by-sa/4.0/deed.de
+      license: /licenses/by-sa/4.0/legalcode.de
+      title: ''
+    el:
+      deed: /licenses/by-sa/4.0/deed.el
+      license: /licenses/by-sa/4.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/by-sa/4.0/
+      license: /licenses/by-sa/4.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/by-sa/4.0/deed.es
+      license: /licenses/by-sa/4.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-sa/4.0/deed.eu
+      license: /licenses/by-sa/4.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/by-sa/4.0/deed.fi
+      license: /licenses/by-sa/4.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/by-sa/4.0/deed.fr
+      license: /licenses/by-sa/4.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/by-sa/4.0/deed.hr
+      license: /licenses/by-sa/4.0/legalcode.hr
+      title: ''
+    id:
+      deed: /licenses/by-sa/4.0/deed.id
+      license: /licenses/by-sa/4.0/legalcode.id
+      title: ''
+    it:
+      deed: /licenses/by-sa/4.0/deed.it
+      license: /licenses/by-sa/4.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/by-sa/4.0/deed.ja
+      license: /licenses/by-sa/4.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/by-sa/4.0/deed.ko
+      license: /licenses/by-sa/4.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/by-sa/4.0/deed.lt
+      license: /licenses/by-sa/4.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/by-sa/4.0/deed.lv
+      license: /licenses/by-sa/4.0/legalcode.lv
+      title: ''
+    mi:
+      deed: /licenses/by-sa/4.0/deed.mi
+      license: /licenses/by-sa/4.0/legalcode.mi
+      title: ''
+    nl:
+      deed: /licenses/by-sa/4.0/deed.nl
+      license: /licenses/by-sa/4.0/legalcode.nl
+      title: ''
+    'no':
+      deed: /licenses/by-sa/4.0/deed.no
+      license: /licenses/by-sa/4.0/legalcode.no
+      title: ''
+    pl:
+      deed: /licenses/by-sa/4.0/deed.pl
+      license: /licenses/by-sa/4.0/legalcode.pl
+      title: ''
+    pt:
+      deed: /licenses/by-sa/4.0/deed.pt
+      license: /licenses/by-sa/4.0/legalcode.pt
+      title: ''
+    ro:
+      deed: /licenses/by-sa/4.0/deed.ro
+      license: /licenses/by-sa/4.0/legalcode.ro
+      title: ''
+    ru:
+      deed: /licenses/by-sa/4.0/deed.ru
+      license: /licenses/by-sa/4.0/legalcode.ru
+      title: ''
+    sl:
+      deed: /licenses/by-sa/4.0/deed.sl
+      license: /licenses/by-sa/4.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/by-sa/4.0/deed.sv
+      license: /licenses/by-sa/4.0/legalcode.sv
+      title: ''
+    tr:
+      deed: /licenses/by-sa/4.0/deed.tr
+      license: /licenses/by-sa/4.0/legalcode.tr
+      title: ''
+    uk:
+      deed: /licenses/by-sa/4.0/deed.uk
+      license: /licenses/by-sa/4.0/legalcode.uk
+      title: ''
+    zh-Hans:
+      deed: /licenses/by-sa/4.0/deed.zh-Hans
+      license: /licenses/by-sa/4.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/by-sa/4.0/deed.zh-Hant
+      license: /licenses/by-sa/4.0/legalcode.zh-Hant
+      title: ''
+  version: '4.0'
+- license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/
+      license: /licenses/by/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by/3.0/am/deed.hy
+      license: /licenses/by/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by/3.0/at/deed.de
+      license: /licenses/by/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/au/
+      license: /licenses/by/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by/3.0/az/deed.az
+      license: /licenses/by/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by/3.0/br/deed.pt-br
+      license: /licenses/by/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/ca/
+      license: /licenses/by/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by/3.0/ca/deed.fr
+      license: /licenses/by/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by/3.0/ch/deed.de
+      license: /licenses/by/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by/3.0/ch/deed.fr
+      license: /licenses/by/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/cl/deed.es
+      license: /licenses/by/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by/3.0/cn/deed.zh
+      license: /licenses/by/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/cr/deed.es
+      license: /licenses/by/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by/3.0/cz/deed.cs
+      license: /licenses/by/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by/3.0/de/deed.de
+      license: /licenses/by/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/ec/deed.es
+      license: /licenses/by/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by/3.0/ee/deed.et
+      license: /licenses/by/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by/3.0/eg/deed.ar
+      license: /licenses/by/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by/3.0/es/deed.ast
+      license: /licenses/by/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by/3.0/es/deed.ca
+      license: /licenses/by/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by/3.0/es/deed.es
+      license: /licenses/by/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by/3.0/es/deed.eu
+      license: /licenses/by/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by/3.0/es/deed.gl
+      license: /licenses/by/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by/3.0/es/deed.oci
+      license: /licenses/by/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by/3.0/fr/deed.fr
+      license: /licenses/by/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by/3.0/ge/deed.ka
+      license: /licenses/by/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by/3.0/gr/deed.el
+      license: /licenses/by/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/gt/deed.es
+      license: /licenses/by/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by/3.0/hk/deed.en-gb
+      license: /licenses/by/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by/3.0/hr/deed.hr
+      license: /licenses/by/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by/3.0/ie/deed.en-GB
+      license: /licenses/by/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by/3.0/igo/deed.ar
+      license: /licenses/by/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by/3.0/igo/
+      license: /licenses/by/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by/3.0/igo/deed.fr
+      license: /licenses/by/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by/3.0/it/deed.it
+      license: /licenses/by/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by/3.0/lu/deed.fr
+      license: /licenses/by/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by/3.0/nl/deed.nl
+      license: /licenses/by/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by/3.0/no/deed.no
+      license: /licenses/by/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/nz/
+      license: /licenses/by/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/ph/
+      license: /licenses/by/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by/3.0/pl/deed.pl
+      license: /licenses/by/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/pr/deed.es
+      license: /licenses/by/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by/3.0/pt/deed.pt
+      license: /licenses/by/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by/3.0/ro/deed.ro
+      license: /licenses/by/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by/3.0/rs/deed.sr-Latn
+      license: /licenses/by/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by/3.0/sg/deed.en-gb
+      license: /licenses/by/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by/3.0/th/deed.th
+      license: /licenses/by/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by/3.0/tw/deed.zh-tw
+      license: /licenses/by/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/ug/
+      license: /licenses/by/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by/3.0/us/
+      license: /licenses/by/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by/3.0/ve/deed.es
+      license: /licenses/by/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by/3.0/vn/deed.vi
+      license: /licenses/by/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by/3.0/za/deed.en-gb
+      license: /licenses/by/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/
+      license: /licenses/by-nc/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by-nc/3.0/am/deed.hy
+      license: /licenses/by-nc/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc/3.0/at/deed.de
+      license: /licenses/by-nc/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/au/
+      license: /licenses/by-nc/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by-nc/3.0/az/deed.az
+      license: /licenses/by-nc/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by-nc/3.0/br/deed.pt-br
+      license: /licenses/by-nc/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/ca/
+      license: /licenses/by-nc/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by-nc/3.0/ca/deed.fr
+      license: /licenses/by-nc/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc/3.0/ch/deed.de
+      license: /licenses/by-nc/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by-nc/3.0/ch/deed.fr
+      license: /licenses/by-nc/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/cl/deed.es
+      license: /licenses/by-nc/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by-nc/3.0/cn/deed.zh
+      license: /licenses/by-nc/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/cr/deed.es
+      license: /licenses/by-nc/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by-nc/3.0/cz/deed.cs
+      license: /licenses/by-nc/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc/3.0/de/deed.de
+      license: /licenses/by-nc/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/ec/deed.es
+      license: /licenses/by-nc/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by-nc/3.0/ee/deed.et
+      license: /licenses/by-nc/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc/3.0/eg/deed.ar
+      license: /licenses/by-nc/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by-nc/3.0/es/deed.ast
+      license: /licenses/by-nc/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by-nc/3.0/es/deed.ca
+      license: /licenses/by-nc/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by-nc/3.0/es/deed.es
+      license: /licenses/by-nc/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc/3.0/es/deed.eu
+      license: /licenses/by-nc/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by-nc/3.0/es/deed.gl
+      license: /licenses/by-nc/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by-nc/3.0/es/deed.oci
+      license: /licenses/by-nc/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc/3.0/fr/deed.fr
+      license: /licenses/by-nc/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by-nc/3.0/ge/deed.ka
+      license: /licenses/by-nc/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by-nc/3.0/gr/deed.el
+      license: /licenses/by-nc/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/gt/deed.es
+      license: /licenses/by-nc/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc/3.0/hk/deed.en-gb
+      license: /licenses/by-nc/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by-nc/3.0/hr/deed.hr
+      license: /licenses/by-nc/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by-nc/3.0/ie/deed.en-GB
+      license: /licenses/by-nc/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc/3.0/igo/deed.ar
+      license: /licenses/by-nc/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by-nc/3.0/igo/
+      license: /licenses/by-nc/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by-nc/3.0/igo/deed.fr
+      license: /licenses/by-nc/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by-nc/3.0/it/deed.it
+      license: /licenses/by-nc/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc/3.0/lu/deed.fr
+      license: /licenses/by-nc/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by-nc/3.0/nl/deed.nl
+      license: /licenses/by-nc/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by-nc/3.0/no/deed.no
+      license: /licenses/by-nc/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/nz/
+      license: /licenses/by-nc/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/ph/
+      license: /licenses/by-nc/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by-nc/3.0/pl/deed.pl
+      license: /licenses/by-nc/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/pr/deed.es
+      license: /licenses/by-nc/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by-nc/3.0/pt/deed.pt
+      license: /licenses/by-nc/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by-nc/3.0/ro/deed.ro
+      license: /licenses/by-nc/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by-nc/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by-nc/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by-nc/3.0/rs/deed.sr-Latn
+      license: /licenses/by-nc/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc/3.0/sg/deed.en-gb
+      license: /licenses/by-nc/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by-nc/3.0/th/deed.th
+      license: /licenses/by-nc/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by-nc/3.0/tw/deed.zh-tw
+      license: /licenses/by-nc/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/ug/
+      license: /licenses/by-nc/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc/3.0/us/
+      license: /licenses/by-nc/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc/3.0/ve/deed.es
+      license: /licenses/by-nc/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by-nc/3.0/vn/deed.vi
+      license: /licenses/by-nc/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by-nc
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc/3.0/za/deed.en-gb
+      license: /licenses/by-nc/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/
+      license: /licenses/by-nc-nd/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by-nc-nd/3.0/am/deed.hy
+      license: /licenses/by-nc-nd/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-nd/3.0/at/deed.de
+      license: /licenses/by-nc-nd/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/au/
+      license: /licenses/by-nc-nd/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by-nc-nd/3.0/az/deed.az
+      license: /licenses/by-nc-nd/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by-nc-nd/3.0/br/deed.pt-br
+      license: /licenses/by-nc-nd/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/ca/
+      license: /licenses/by-nc-nd/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by-nc-nd/3.0/ca/deed.fr
+      license: /licenses/by-nc-nd/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-nd/3.0/ch/deed.de
+      license: /licenses/by-nc-nd/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by-nc-nd/3.0/ch/deed.fr
+      license: /licenses/by-nc-nd/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/cl/deed.es
+      license: /licenses/by-nc-nd/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by-nc-nd/3.0/cn/deed.zh
+      license: /licenses/by-nc-nd/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/cr/deed.es
+      license: /licenses/by-nc-nd/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by-nc-nd/3.0/cz/deed.cs
+      license: /licenses/by-nc-nd/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-nd/3.0/de/deed.de
+      license: /licenses/by-nc-nd/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/ec/deed.es
+      license: /licenses/by-nc-nd/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by-nc-nd/3.0/ee/deed.et
+      license: /licenses/by-nc-nd/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-nd/3.0/eg/deed.ar
+      license: /licenses/by-nc-nd/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by-nc-nd/3.0/es/deed.ast
+      license: /licenses/by-nc-nd/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by-nc-nd/3.0/es/deed.ca
+      license: /licenses/by-nc-nd/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by-nc-nd/3.0/es/deed.es
+      license: /licenses/by-nc-nd/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc-nd/3.0/es/deed.eu
+      license: /licenses/by-nc-nd/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by-nc-nd/3.0/es/deed.gl
+      license: /licenses/by-nc-nd/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by-nc-nd/3.0/es/deed.oci
+      license: /licenses/by-nc-nd/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc-nd/3.0/fr/deed.fr
+      license: /licenses/by-nc-nd/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by-nc-nd/3.0/ge/deed.ka
+      license: /licenses/by-nc-nd/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by-nc-nd/3.0/gr/deed.el
+      license: /licenses/by-nc-nd/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/gt/deed.es
+      license: /licenses/by-nc-nd/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-nd/3.0/hk/deed.en-gb
+      license: /licenses/by-nc-nd/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by-nc-nd/3.0/hr/deed.hr
+      license: /licenses/by-nc-nd/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by-nc-nd/3.0/ie/deed.en-GB
+      license: /licenses/by-nc-nd/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-nd/3.0/igo/deed.ar
+      license: /licenses/by-nc-nd/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by-nc-nd/3.0/igo/
+      license: /licenses/by-nc-nd/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by-nc-nd/3.0/igo/deed.fr
+      license: /licenses/by-nc-nd/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by-nc-nd/3.0/it/deed.it
+      license: /licenses/by-nc-nd/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc-nd/3.0/lu/deed.fr
+      license: /licenses/by-nc-nd/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by-nc-nd/3.0/nl/deed.nl
+      license: /licenses/by-nc-nd/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by-nc-nd/3.0/no/deed.no
+      license: /licenses/by-nc-nd/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/nz/
+      license: /licenses/by-nc-nd/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/ph/
+      license: /licenses/by-nc-nd/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by-nc-nd/3.0/pl/deed.pl
+      license: /licenses/by-nc-nd/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/pr/deed.es
+      license: /licenses/by-nc-nd/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by-nc-nd/3.0/pt/deed.pt
+      license: /licenses/by-nc-nd/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by-nc-nd/3.0/ro/deed.ro
+      license: /licenses/by-nc-nd/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by-nc-nd/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by-nc-nd/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by-nc-nd/3.0/rs/deed.sr-Latn
+      license: /licenses/by-nc-nd/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-nd/3.0/sg/deed.en-gb
+      license: /licenses/by-nc-nd/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by-nc-nd/3.0/th/deed.th
+      license: /licenses/by-nc-nd/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by-nc-nd/3.0/tw/deed.zh-tw
+      license: /licenses/by-nc-nd/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/ug/
+      license: /licenses/by-nc-nd/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-nd/3.0/us/
+      license: /licenses/by-nc-nd/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-nd/3.0/ve/deed.es
+      license: /licenses/by-nc-nd/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by-nc-nd/3.0/vn/deed.vi
+      license: /licenses/by-nc-nd/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by-nc-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-nd/3.0/za/deed.en-gb
+      license: /licenses/by-nc-nd/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/
+      license: /licenses/by-nc-sa/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by-nc-sa/3.0/am/deed.hy
+      license: /licenses/by-nc-sa/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-sa/3.0/at/deed.de
+      license: /licenses/by-nc-sa/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/au/
+      license: /licenses/by-nc-sa/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by-nc-sa/3.0/az/deed.az
+      license: /licenses/by-nc-sa/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by-nc-sa/3.0/br/deed.pt-br
+      license: /licenses/by-nc-sa/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/ca/
+      license: /licenses/by-nc-sa/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by-nc-sa/3.0/ca/deed.fr
+      license: /licenses/by-nc-sa/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-sa/3.0/ch/deed.de
+      license: /licenses/by-nc-sa/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by-nc-sa/3.0/ch/deed.fr
+      license: /licenses/by-nc-sa/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/cl/deed.es
+      license: /licenses/by-nc-sa/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by-nc-sa/3.0/cn/deed.zh
+      license: /licenses/by-nc-sa/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/cr/deed.es
+      license: /licenses/by-nc-sa/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by-nc-sa/3.0/cz/deed.cs
+      license: /licenses/by-nc-sa/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nc-sa/3.0/de/deed.de
+      license: /licenses/by-nc-sa/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/ec/deed.es
+      license: /licenses/by-nc-sa/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by-nc-sa/3.0/ee/deed.et
+      license: /licenses/by-nc-sa/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-sa/3.0/eg/deed.ar
+      license: /licenses/by-nc-sa/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by-nc-sa/3.0/es/deed.ast
+      license: /licenses/by-nc-sa/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by-nc-sa/3.0/es/deed.ca
+      license: /licenses/by-nc-sa/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by-nc-sa/3.0/es/deed.es
+      license: /licenses/by-nc-sa/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nc-sa/3.0/es/deed.eu
+      license: /licenses/by-nc-sa/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by-nc-sa/3.0/es/deed.gl
+      license: /licenses/by-nc-sa/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by-nc-sa/3.0/es/deed.oci
+      license: /licenses/by-nc-sa/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc-sa/3.0/fr/deed.fr
+      license: /licenses/by-nc-sa/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by-nc-sa/3.0/ge/deed.ka
+      license: /licenses/by-nc-sa/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by-nc-sa/3.0/gr/deed.el
+      license: /licenses/by-nc-sa/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/gt/deed.es
+      license: /licenses/by-nc-sa/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-sa/3.0/hk/deed.en-gb
+      license: /licenses/by-nc-sa/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by-nc-sa/3.0/hr/deed.hr
+      license: /licenses/by-nc-sa/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by-nc-sa/3.0/ie/deed.en-GB
+      license: /licenses/by-nc-sa/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nc-sa/3.0/igo/deed.ar
+      license: /licenses/by-nc-sa/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by-nc-sa/3.0/igo/
+      license: /licenses/by-nc-sa/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by-nc-sa/3.0/igo/deed.fr
+      license: /licenses/by-nc-sa/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by-nc-sa/3.0/it/deed.it
+      license: /licenses/by-nc-sa/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nc-sa/3.0/lu/deed.fr
+      license: /licenses/by-nc-sa/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by-nc-sa/3.0/nl/deed.nl
+      license: /licenses/by-nc-sa/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by-nc-sa/3.0/no/deed.no
+      license: /licenses/by-nc-sa/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/nz/
+      license: /licenses/by-nc-sa/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/ph/
+      license: /licenses/by-nc-sa/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by-nc-sa/3.0/pl/deed.pl
+      license: /licenses/by-nc-sa/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/pr/deed.es
+      license: /licenses/by-nc-sa/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by-nc-sa/3.0/pt/deed.pt
+      license: /licenses/by-nc-sa/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by-nc-sa/3.0/ro/deed.ro
+      license: /licenses/by-nc-sa/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by-nc-sa/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by-nc-sa/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by-nc-sa/3.0/rs/deed.sr-Latn
+      license: /licenses/by-nc-sa/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-sa/3.0/sg/deed.en-gb
+      license: /licenses/by-nc-sa/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by-nc-sa/3.0/th/deed.th
+      license: /licenses/by-nc-sa/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by-nc-sa/3.0/tw/deed.zh-tw
+      license: /licenses/by-nc-sa/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/ug/
+      license: /licenses/by-nc-sa/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nc-sa/3.0/us/
+      license: /licenses/by-nc-sa/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nc-sa/3.0/ve/deed.es
+      license: /licenses/by-nc-sa/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by-nc-sa/3.0/vn/deed.vi
+      license: /licenses/by-nc-sa/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by-nc-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: true
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nc-sa/3.0/za/deed.en-gb
+      license: /licenses/by-nc-sa/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/
+      license: /licenses/by-nd/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by-nd/3.0/am/deed.hy
+      license: /licenses/by-nd/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nd/3.0/at/deed.de
+      license: /licenses/by-nd/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/au/
+      license: /licenses/by-nd/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by-nd/3.0/az/deed.az
+      license: /licenses/by-nd/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by-nd/3.0/br/deed.pt-br
+      license: /licenses/by-nd/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/ca/
+      license: /licenses/by-nd/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by-nd/3.0/ca/deed.fr
+      license: /licenses/by-nd/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nd/3.0/ch/deed.de
+      license: /licenses/by-nd/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by-nd/3.0/ch/deed.fr
+      license: /licenses/by-nd/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/cl/deed.es
+      license: /licenses/by-nd/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by-nd/3.0/cn/deed.zh
+      license: /licenses/by-nd/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/cr/deed.es
+      license: /licenses/by-nd/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by-nd/3.0/cz/deed.cs
+      license: /licenses/by-nd/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-nd/3.0/de/deed.de
+      license: /licenses/by-nd/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/ec/deed.es
+      license: /licenses/by-nd/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by-nd/3.0/ee/deed.et
+      license: /licenses/by-nd/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nd/3.0/eg/deed.ar
+      license: /licenses/by-nd/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by-nd/3.0/es/deed.ast
+      license: /licenses/by-nd/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by-nd/3.0/es/deed.ca
+      license: /licenses/by-nd/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by-nd/3.0/es/deed.es
+      license: /licenses/by-nd/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-nd/3.0/es/deed.eu
+      license: /licenses/by-nd/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by-nd/3.0/es/deed.gl
+      license: /licenses/by-nd/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by-nd/3.0/es/deed.oci
+      license: /licenses/by-nd/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nd/3.0/fr/deed.fr
+      license: /licenses/by-nd/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by-nd/3.0/ge/deed.ka
+      license: /licenses/by-nd/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by-nd/3.0/gr/deed.el
+      license: /licenses/by-nd/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/gt/deed.es
+      license: /licenses/by-nd/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nd/3.0/hk/deed.en-gb
+      license: /licenses/by-nd/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by-nd/3.0/hr/deed.hr
+      license: /licenses/by-nd/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by-nd/3.0/ie/deed.en-GB
+      license: /licenses/by-nd/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-nd/3.0/igo/deed.ar
+      license: /licenses/by-nd/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by-nd/3.0/igo/
+      license: /licenses/by-nd/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by-nd/3.0/igo/deed.fr
+      license: /licenses/by-nd/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by-nd/3.0/it/deed.it
+      license: /licenses/by-nd/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-nd/3.0/lu/deed.fr
+      license: /licenses/by-nd/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by-nd/3.0/nl/deed.nl
+      license: /licenses/by-nd/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by-nd/3.0/no/deed.no
+      license: /licenses/by-nd/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/nz/
+      license: /licenses/by-nd/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/ph/
+      license: /licenses/by-nd/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by-nd/3.0/pl/deed.pl
+      license: /licenses/by-nd/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/pr/deed.es
+      license: /licenses/by-nd/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by-nd/3.0/pt/deed.pt
+      license: /licenses/by-nd/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by-nd/3.0/ro/deed.ro
+      license: /licenses/by-nd/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by-nd/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by-nd/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by-nd/3.0/rs/deed.sr-Latn
+      license: /licenses/by-nd/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nd/3.0/sg/deed.en-gb
+      license: /licenses/by-nd/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by-nd/3.0/th/deed.th
+      license: /licenses/by-nd/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by-nd/3.0/tw/deed.zh-tw
+      license: /licenses/by-nd/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/ug/
+      license: /licenses/by-nd/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-nd/3.0/us/
+      license: /licenses/by-nd/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-nd/3.0/ve/deed.es
+      license: /licenses/by-nd/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by-nd/3.0/vn/deed.vi
+      license: /licenses/by-nd/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by-nd
+  permits_derivative_works: false
+  permits_distribution: false
+  permits_reproduction: false
+  permits_sharing: false
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-nd/3.0/za/deed.en-gb
+      license: /licenses/by-nd/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/
+      license: /licenses/by-sa/3.0/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: am
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hy:
+      deed: /licenses/by-sa/3.0/am/deed.hy
+      license: /licenses/by-sa/3.0/am/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: at
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-sa/3.0/at/deed.de
+      license: /licenses/by-sa/3.0/at/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: au
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/au/
+      license: /licenses/by-sa/3.0/au/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: az
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    az:
+      deed: /licenses/by-sa/3.0/az/deed.az
+      license: /licenses/by-sa/3.0/az/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: br
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt-br:
+      deed: /licenses/by-sa/3.0/br/deed.pt-br
+      license: /licenses/by-sa/3.0/br/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ca
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/ca/
+      license: /licenses/by-sa/3.0/ca/legalcode.en
+      title: ''
+    fr:
+      deed: /licenses/by-sa/3.0/ca/deed.fr
+      license: /licenses/by-sa/3.0/ca/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: ch
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-sa/3.0/ch/deed.de
+      license: /licenses/by-sa/3.0/ch/legalcode.de
+      title: ''
+    fr:
+      deed: /licenses/by-sa/3.0/ch/deed.fr
+      license: /licenses/by-sa/3.0/ch/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: cl
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/cl/deed.es
+      license: /licenses/by-sa/3.0/cl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cn
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh:
+      deed: /licenses/by-sa/3.0/cn/deed.zh
+      license: /licenses/by-sa/3.0/cn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cr
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/cr/deed.es
+      license: /licenses/by-sa/3.0/cr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: cz
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    cs:
+      deed: /licenses/by-sa/3.0/cz/deed.cs
+      license: /licenses/by-sa/3.0/cz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: de
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    de:
+      deed: /licenses/by-sa/3.0/de/deed.de
+      license: /licenses/by-sa/3.0/de/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ec
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/ec/deed.es
+      license: /licenses/by-sa/3.0/ec/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ee
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    et:
+      deed: /licenses/by-sa/3.0/ee/deed.et
+      license: /licenses/by-sa/3.0/ee/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: eg
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-sa/3.0/eg/deed.ar
+      license: /licenses/by-sa/3.0/eg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: es
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ast:
+      deed: /licenses/by-sa/3.0/es/deed.ast
+      license: /licenses/by-sa/3.0/es/legalcode.ast
+      title: ''
+    ca:
+      deed: /licenses/by-sa/3.0/es/deed.ca
+      license: /licenses/by-sa/3.0/es/legalcode.ca
+      title: ''
+    es:
+      deed: /licenses/by-sa/3.0/es/deed.es
+      license: /licenses/by-sa/3.0/es/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/by-sa/3.0/es/deed.eu
+      license: /licenses/by-sa/3.0/es/legalcode.eu
+      title: ''
+    gl:
+      deed: /licenses/by-sa/3.0/es/deed.gl
+      license: /licenses/by-sa/3.0/es/legalcode.gl
+      title: ''
+    oci:
+      deed: /licenses/by-sa/3.0/es/deed.oci
+      license: /licenses/by-sa/3.0/es/legalcode.oci
+      title: ''
+  version: '3.0'
+- jurisdiction: fr
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-sa/3.0/fr/deed.fr
+      license: /licenses/by-sa/3.0/fr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ge
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ka:
+      deed: /licenses/by-sa/3.0/ge/deed.ka
+      license: /licenses/by-sa/3.0/ge/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gr
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/by-sa/3.0/gr/deed.el
+      license: /licenses/by-sa/3.0/gr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: gt
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/gt/deed.es
+      license: /licenses/by-sa/3.0/gt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hk
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-sa/3.0/hk/deed.en-gb
+      license: /licenses/by-sa/3.0/hk/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: hr
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    hr:
+      deed: /licenses/by-sa/3.0/hr/deed.hr
+      license: /licenses/by-sa/3.0/hr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ie
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-GB:
+      deed: /licenses/by-sa/3.0/ie/deed.en-GB
+      license: /licenses/by-sa/3.0/ie/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: igo
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ar:
+      deed: /licenses/by-sa/3.0/igo/deed.ar
+      license: /licenses/by-sa/3.0/igo/legalcode.ar
+      title: ''
+    en:
+      deed: /licenses/by-sa/3.0/igo/
+      license: /licenses/by-sa/3.0/igo/legalcode
+      title: ''
+    fr:
+      deed: /licenses/by-sa/3.0/igo/deed.fr
+      license: /licenses/by-sa/3.0/igo/legalcode.fr
+      title: ''
+  version: '3.0'
+- jurisdiction: it
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    it:
+      deed: /licenses/by-sa/3.0/it/deed.it
+      license: /licenses/by-sa/3.0/it/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: lu
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    fr:
+      deed: /licenses/by-sa/3.0/lu/deed.fr
+      license: /licenses/by-sa/3.0/lu/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nl
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    nl:
+      deed: /licenses/by-sa/3.0/nl/deed.nl
+      license: /licenses/by-sa/3.0/nl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: 'no'
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    'no':
+      deed: /licenses/by-sa/3.0/no/deed.no
+      license: /licenses/by-sa/3.0/no/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: nz
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/nz/
+      license: /licenses/by-sa/3.0/nz/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ph
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/ph/
+      license: /licenses/by-sa/3.0/ph/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pl
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pl:
+      deed: /licenses/by-sa/3.0/pl/deed.pl
+      license: /licenses/by-sa/3.0/pl/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pr
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/pr/deed.es
+      license: /licenses/by-sa/3.0/pr/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: pt
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    pt:
+      deed: /licenses/by-sa/3.0/pt/deed.pt
+      license: /licenses/by-sa/3.0/pt/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ro
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    ro:
+      deed: /licenses/by-sa/3.0/ro/deed.ro
+      license: /licenses/by-sa/3.0/ro/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: rs
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    sr-Cyrl:
+      deed: /licenses/by-sa/3.0/rs/deed.sr-Cyrl
+      license: /licenses/by-sa/3.0/rs/legalcode.sr-Cyrl
+      title: ''
+    sr-Latn:
+      deed: /licenses/by-sa/3.0/rs/deed.sr-Latn
+      license: /licenses/by-sa/3.0/rs/legalcode.sr-Latn
+      title: ''
+  version: '3.0'
+- jurisdiction: sg
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-sa/3.0/sg/deed.en-gb
+      license: /licenses/by-sa/3.0/sg/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: th
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    th:
+      deed: /licenses/by-sa/3.0/th/deed.th
+      license: /licenses/by-sa/3.0/th/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: tw
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    zh-tw:
+      deed: /licenses/by-sa/3.0/tw/deed.zh-tw
+      license: /licenses/by-sa/3.0/tw/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ug
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/ug/
+      license: /licenses/by-sa/3.0/ug/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: us
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en:
+      deed: /licenses/by-sa/3.0/us/
+      license: /licenses/by-sa/3.0/us/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: ve
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    es:
+      deed: /licenses/by-sa/3.0/ve/deed.es
+      license: /licenses/by-sa/3.0/ve/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: vn
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    vi:
+      deed: /licenses/by-sa/3.0/vn/deed.vi
+      license: /licenses/by-sa/3.0/vn/legalcode
+      title: ''
+  version: '3.0'
+- jurisdiction: za
+  license_code: by-sa
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: true
+  requires_notice: true
+  requires_share_alike: true
+  requires_source_code: false
+  title_english: ''
+  translations:
+    en-gb:
+      deed: /licenses/by-sa/3.0/za/deed.en-gb
+      license: /licenses/by-sa/3.0/za/legalcode
+      title: ''
+  version: '3.0'
+- license_code: CC0
+  permits_derivative_works: true
+  permits_distribution: true
+  permits_reproduction: true
+  permits_sharing: true
+  prohibits_commercial_use: false
+  prohibits_high_income_nation_use: false
+  requires_attribution: false
+  requires_notice: false
+  requires_share_alike: false
+  requires_source_code: false
+  title_english: ''
+  translations:
+    el:
+      deed: /licenses/CC0/1.0/deed.el
+      license: /licenses/CC0/1.0/legalcode.el
+      title: ''
+    en:
+      deed: /licenses/CC0/1.0/
+      license: /licenses/CC0/1.0/legalcode
+      title: ''
+    es:
+      deed: /licenses/CC0/1.0/deed.es
+      license: /licenses/CC0/1.0/legalcode.es
+      title: ''
+    eu:
+      deed: /licenses/CC0/1.0/deed.eu
+      license: /licenses/CC0/1.0/legalcode.eu
+      title: ''
+    fi:
+      deed: /licenses/CC0/1.0/deed.fi
+      license: /licenses/CC0/1.0/legalcode.fi
+      title: ''
+    fr:
+      deed: /licenses/CC0/1.0/deed.fr
+      license: /licenses/CC0/1.0/legalcode.fr
+      title: ''
+    hr:
+      deed: /licenses/CC0/1.0/deed.hr
+      license: /licenses/CC0/1.0/legalcode.hr
+      title: ''
+    it:
+      deed: /licenses/CC0/1.0/deed.it
+      license: /licenses/CC0/1.0/legalcode.it
+      title: ''
+    ja:
+      deed: /licenses/CC0/1.0/deed.ja
+      license: /licenses/CC0/1.0/legalcode.ja
+      title: ''
+    ko:
+      deed: /licenses/CC0/1.0/deed.ko
+      license: /licenses/CC0/1.0/legalcode.ko
+      title: ''
+    lt:
+      deed: /licenses/CC0/1.0/deed.lt
+      license: /licenses/CC0/1.0/legalcode.lt
+      title: ''
+    lv:
+      deed: /licenses/CC0/1.0/deed.lv
+      license: /licenses/CC0/1.0/legalcode.lv
+      title: ''
+    nl:
+      deed: /licenses/CC0/1.0/deed.nl
+      license: /licenses/CC0/1.0/legalcode.nl
+      title: ''
+    pl:
+      deed: /licenses/CC0/1.0/deed.pl
+      license: /licenses/CC0/1.0/legalcode.pl
+      title: ''
+    ro:
+      deed: /licenses/CC0/1.0/deed.ro
+      license: /licenses/CC0/1.0/legalcode.ro
+      title: ''
+    sl:
+      deed: /licenses/CC0/1.0/deed.sl
+      license: /licenses/CC0/1.0/legalcode.sl
+      title: ''
+    sv:
+      deed: /licenses/CC0/1.0/deed.sv
+      license: /licenses/CC0/1.0/legalcode.sv
+      title: ''
+    zh-Hans:
+      deed: /licenses/CC0/1.0/deed.zh-Hans
+      license: /licenses/CC0/1.0/legalcode.zh-Hans
+      title: ''
+    zh-Hant:
+      deed: /licenses/CC0/1.0/deed.zh-Hant
+      license: /licenses/CC0/1.0/legalcode.zh-Hant
+      title: ''
+  version: '1.0'
