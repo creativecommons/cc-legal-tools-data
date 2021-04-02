@@ -970,8 +970,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by/3.0/cn/deed.zh-Hans
       license: /licenses/by/3.0/cn/legalcode
       title: ''
   version: '3.0'
@@ -1845,8 +1845,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by-nc/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by-nc/3.0/cn/deed.zh-Hans
       license: /licenses/by-nc/3.0/cn/legalcode
       title: ''
   version: '3.0'
@@ -2720,8 +2720,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by-nc-nd/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by-nc-nd/3.0/cn/deed.zh-Hans
       license: /licenses/by-nc-nd/3.0/cn/legalcode
       title: ''
   version: '3.0'
@@ -3595,8 +3595,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by-nc-sa/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by-nc-sa/3.0/cn/deed.zh-Hans
       license: /licenses/by-nc-sa/3.0/cn/legalcode
       title: ''
   version: '3.0'
@@ -4470,8 +4470,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by-nd/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by-nd/3.0/cn/deed.zh-Hans
       license: /licenses/by-nd/3.0/cn/legalcode
       title: ''
   version: '3.0'
@@ -5345,8 +5345,8 @@
   requires_source_code: false
   title_english: ''
   translations:
-    zh:
-      deed: /licenses/by-sa/3.0/cn/deed.zh
+    zh-Hans:
+      deed: /licenses/by-sa/3.0/cn/deed.zh-Hans
       license: /licenses/by-sa/3.0/cn/legalcode
       title: ''
   version: '3.0'
