@@ -30,7 +30,8 @@ repository for additional instructions on the use of this repository.
 
 - **[`docs/`](docs)**
   - ***(soon-to-be)*** CC Licenses data served by
-    [creativecommons.org/licenses](https://creativecommons.org/licenses)
+    **[creativecommons.org/licenses](https://creativecommons.org/licenses)**
+    website
   - *generated* by [cc-licenses][cc-licenses] `publish` command
 - **[`legacy/`](legacy)**
   - **[`legalcode/`](legacy/legalcode)**
