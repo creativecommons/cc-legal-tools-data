@@ -43,10 +43,10 @@ repository for additional instructions on the use of this repository.
     - Legacy RDF files and HTML (description, schema, etc.)
     - *ingested* by [cc-licenses][cc-licenses] `publish` command
 - **[`legalcode/`](legalcode)**
-  - `.po` and `.mo` files for legalcode internationalization
+  - `.po` and `.mo` internationalization and localization files for legalcodes
 - **[`locale/`](locale)**
-  - `.po` and `.mo` files for deed, information, and user interface
-    internationalization
+  - `.po` and `.mo` internationalization and localization files for deeds,
+    contextual information, and user interfaces
 - **Internationalization and localization file details:**
   - `.mo` machine object files
     - *generated* by [cc-licenses][cc-licenses] `compilemessages` command
