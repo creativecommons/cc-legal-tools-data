@@ -28,26 +28,26 @@ The data includes both source files used by
 [creativecommons/cc-licenses][cc-licenses] and output from it. See that
 repository for additional instructions on the use of this repository.
 
-- [`docs/`](docs)
+- **[`docs/`](docs)**
   - ***(soon-to-be)*** CC Licenses data served by
     [creativecommons.org/licenses](https://creativecommons.org/licenses)
   - *generated* by [cc-licenses][cc-licenses] `publish` command
-- [`legacy/`](legacy)
-  - [`legalcode/`](legacy/legalcode)
+- **[`legacy/`](legacy)**
+  - **[`legalcode/`](legacy/legalcode)**
     - Legacy legalcode (HTML and some plaintext)
     - *ingested* by [cc-licenses][cc-licenses] `load_html_files` command
-  - [`rdf-licenses/`](legacy/rdf-licenses)
+  - **[`rdf-licenses/`](legacy/rdf-licenses)**
     - Legacy RDF files for legalcode
     - *ingested* by [cc-licenses][cc-licenses] `publish` command
-  - [`rdf-meta/`](legacy/rdf-meta)
+  - **[`rdf-meta/`](legacy/rdf-meta)**
     - Legacy RDF files and HTML (description, schema, etc.)
     - *ingested* by [cc-licenses][cc-licenses] `publish` command
-- [`legalcode/`](legalcode)
+- **[`legalcode/`](legalcode)**
   - `.po` and `.mo` files for legalcode internationalization
-- [`locale/`](locale)
+- **[`locale/`](locale)**
   - `.po` and `.mo` files for deed, information, and user interface
     internationalization
-- Internationalization and localization file details:
+- **Internationalization and localization file details:**
   - `.mo` machine object files
     - *generated* by [cc-licenses][cc-licenses] `compilemessages` command
     - *ingested* by [cc-licenses][cc-licenses] application and `publish`
