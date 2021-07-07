@@ -79,7 +79,7 @@ repository for additional instructions on the use of this repository.
 [rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
 
 
-#### Example: CC BY 4.0
+#### Example: CC BY-SA 4.0
 
 - **Category:** `licenses`
 - **Title:** Creative Commons Attribution-ShareAlike 4.0 International Public License
