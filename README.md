@@ -1,7 +1,7 @@
 # cc-licenses-data
 
-CC Licenses data (static HTML, internationalization and localization files,
-etc.)
+Creative Commons (CC) Licenses data (static HTML, internationalization and
+localization files, etc.)
 
 
 ## Code of Conduct
@@ -59,6 +59,75 @@ repository for additional instructions on the use of this repository.
     - *ingested* by [cc-licenses][cc-licenses] `compilemessages` command
 
 [cc-licenses]: https://github.com/creativecommons/cc-licenses
+
+
+## Legal Tools Namespace
+
+[Namespace - Wikipedia][namespace], retreived 2021-07-06:
+> In computing, a **namespace** is a set of signs (names) that are used to
+> identify and refer to objects of various kinds. A namespace ensures that all
+> of a given set of objects have unique names so that they can be easily
+> identified.
+
+[namespace]: https://en.wikipedia.org/wiki/Namespace
+
+
+### License Tools
+
+[iso3166]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+[rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
+
+
+#### Example: CC BY-SA 4.0
+
+- **Category:** `licenses`
+- **Title:** Creative Commons Attribution-ShareAlike 4.0 International Public License
+- **Identifier:** CC BY-SA 4.0
+- **Canonical URL:** https://creativecommons.org/licenses/by-sa/4.0/
+- **Unit:** `by-sa`
+- **Version:** `4.0`
+- **Jurisdiction Code:** *None*, (International)
+- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
+
+
+#### Example: CC BY-NC-SA 3.0
+
+- **Category:** `licenses`
+- **Title:** Attribution-NonCommercial-ShareAlike 3.0 Unported
+- **Identifier:** CC BY-NC-SA 3.0
+- **Canonical URL:** https://creativecommons.org/licenses/by-nc-sa/3.0/
+- **Unit:** `by-nc-sa`
+- **Version:** `3.0`
+- **Jurisdiction Code:** *None* (International (unported))
+- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
+
+
+#### Example: CC BY-ND 3.0 NL
+
+- **Category:** `licenses`
+- **Title:** Naamsvermelding-GeenAfgeleideWerken 3.0
+- **Identifier:** CC BY-ND 3.0 NL
+- **Canonical URL:** https://creativecommons.org/licenses/by-nd/3.0/nl/
+- **Unit:** `by-nc-nd`
+- **Version:** `3.0`
+- **Jurisdiction Code:** `nl` ([ISO 3166-1 alpha-2 - Wikipedia][iso3166] code)
+- **Language Code:** `nl` ([RFC5646][rfc5646] language tag)
+
+
+### Public Domain Tools
+
+
+#### Example: CC0 1.0
+
+- **Category:** `publicdomain`
+- **Title:** CC0 1.0 Universal
+- **Identifier:** CC0 1.0
+- **Canonical URL:** https://creativecommons.org/publicdomain/zero/1.0/
+- **Unit:** `zero`
+- **Version:** `1.0`
+- **Jurisdiction Code:** *None* (Universal)
+- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
 
 
 ## License
