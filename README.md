@@ -3,6 +3,8 @@
 Creative Commons (CC) Licenses data (static HTML, internationalization and
 localization files, etc.)
 
+> :warning: This data is in progress and in flux. Please, DO NOT REFERENCE IT
+> until it is stable (and this warning is removed).
 
 ## Code of Conduct
 
