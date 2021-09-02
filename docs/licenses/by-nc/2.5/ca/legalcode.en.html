@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="en">
+ <head about=" ">
+  <meta charset="utf-8"/>
+  <title>
+   Attribution-NonCommercial 2.5 Canada Legal Code — Creative Commons
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="" name="description"/>
+  <meta content="" name="author"/>
+  <meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="" name="keywords"/>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.1/css/vocabulary.css" rel="stylesheet"/>
+ </head>
+ <body typeoff="cc:License">
+  <style>
+   svg { height: 73px; }
+  </style>
+  <header>
+   <nav class="navbar">
+    <div class="navbar-brand">
+     <a class="has-text-black" href="https://creativecommons.org" id="cc-logo" rel="home">
+      <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
+       <!-- Automatically finds ID amongst all assets loaded using `patchAssetIntoDom()` -->
+       <use href="#logomark">
+       </use>
+      </svg>
+     </a>
+     <a aria-expanded="false" aria-label="menu" class="navbar-burger is-active" role="button">
+      <span aria-hidden="true">
+      </span>
+      <span aria-hidden="true">
+      </span>
+      <span aria-hidden="true">
+      </span>
+     </a>
+    </div>
+    <div class="navbar-menu is-active">
+     <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+       <a class="navbar-link is-arrowless">
+        Who We Are
+        <i class="icon caret-down">
+        </i>
+       </a>
+       <div class="navbar-dropdown">
+        <a class="navbar-item">
+         Item 1
+        </a>
+        <a class="navbar-item">
+         Item 2
+        </a>
+        <a class="navbar-item">
+         Item 3
+        </a>
+       </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+       <a class="navbar-link is-arrowless">
+        What We Do
+        <i class="icon caret-down">
+        </i>
+       </a>
+       <div class="navbar-dropdown">
+        <a class="navbar-item">
+         Item 1
+        </a>
+        <a class="navbar-item">
+         Item 2
+        </a>
+        <a class="navbar-item">
+         Item 3
+        </a>
+       </div>
+      </div>
+      <a class="navbar-item">
+       Our Impact
+       <i class="icon external-link">
+       </i>
+      </a>
+      <a class="navbar-item">
+       News
+      </a>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <style>
+   html[dir="rtl"] .has-dropdown .navbar-link {
+      flex-direction: row-reverse;
+  }
+
+  html[dir="rtl"] .navbar-end {
+      margin-right: auto;
+      margin-left: 0;
+      justify-content: flex-start;
+  }
+  </style>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Skip to content
+    </a>
+    <style>
+     a.skip-link {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-link:focus, a.skip-link:active {
+    color: black;
+    font-weight: bolder;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+    </style>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/">
+        Licenses
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/by-nc/2.5/ca/legalcode.en">
+        CC BY-NC 2.5 CA Legal Code
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="legalcode.en" id="option-en" selected="" value="en">
+         English
+        </option>
+        <option data-link="legalcode.fr" id="option-fr" value="fr">
+         français
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script>
+     const select = document.getElementById("languages-dropdown")
+
+  select.addEventListener("input", function () {
+    const language_code = select.value
+    const option = document.getElementById("option-" + language_code)
+    window.location.href = option.dataset.link
+  })
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="columns">
+     <div class="column is-one-quarter">
+     </div>
+     <div class="column columns padding-vertical-normal">
+      <div class="column is-three-quarters padding-top-normal">
+       Version 2.5 •
+      See the
+       <a href="https://creativecommons.org/legal-code-errata/">
+        errata page
+       </a>
+       for any corrections and the date of change
+      </div>
+      <div class="column">
+       <button class="button tiny is-pulled-right" data-href="deed.en" id="next-btn">
+        See the deed
+       </button>
+      </div>
+     </div>
+    </div>
+    <div class="columns">
+     <div class="column">
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
+       <h2 class="is-vcentered">
+        <span class="padding-right-bigger">
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+        </span>
+        CC BY-NC 2.5 CA
+       </h2>
+       <h1 class="b-header">
+        Attribution-NonCommercial 2.5 Canada
+       </h1>
+      </div>
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
+       <h2 class="has-text-centered">
+        <span>
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+        </span>
+       </h2>
+       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
+        CC BY-NC 2.5 CA
+       </h2>
+       <h3 class="has-text-centered is-hidden-touch">
+        CC BY-NC 2.5 CA
+       </h3>
+       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
+        CC BY-NC 2.5 CA
+       </h4>
+       <h2 class="b-header has-text-centered">
+        Attribution-NonCommercial 2.5 Canada
+       </h2>
+      </div>
+      <style>
+       #licenses-header {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+      </style>
+      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
+       <div id="plain-text-marker">
+        <h3 class="padding-bottom-normal b-header">
+         Attribution-NonCommercial 2.5 Canada
+        </h3>
+        <div id="deed">
+         <div class="text">
+          <div class="fineprint" style="BACKGROUND: none transparent scroll repeat 0% 0%">
+           CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OR USE OF THIS LICENCE DOES NOT CREATE A SOLICITOR-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
+          </div>
+         </div>
+         <p>
+          <em>
+           <strong>
+            Licence
+           </strong>
+          </em>
+         </p>
+         <p>
+          THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENCE (hereafter "LICENCE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENCE IS PROHIBITED.
+         </p>
+         <p>
+          BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENCE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
+         </p>
+         <ol type="1">
+          <li>
+           <strong>
+            Definitions.
+           </strong>
+           <ol type="a">
+            <li>
+             <strong>
+              "Collective Work"
+             </strong>
+             means a work, such as a dictionary, yearbook, encyclopedia, or a newspaper, review magazine or singular periodical and any work written in distinct parts by different authors, or in which works or parts of works of different authors are incorporated. A work that constitutes a Collective Work will not be considered a Derivative Work (as defined below) for the purposes of this licence.
+            </li>
+            <li>
+             <strong>
+              "Derivative Work"
+             </strong>
+             means a work that produces or reproduces the Work or any substantial part thereof in any material form.  Derivative works include:
+             <ol type="i">
+              <li>
+               Translations of the Work;
+              </li>
+              <li>
+               Where the Work is a dramatic work, conversions of the Work into a novel or other non-dramatic work;
+              </li>
+              <li>
+               Where the Work is a novel or other non-dramatic work or an artistic work, conversions of the Work into a dramatic work by way of performance in public or otherwise;
+              </li>
+              <li>
+               Where the Work is a literary or dramatic or musical work, making a sound recording, cinematograph film or other mechanical contrivance by means of which the Work may be mechanically reproduced or performed; and
+              </li>
+              <li>
+               Where the Work is a literary or dramatic or musical or artistic work, reproductions, adaptations or public presentations of the Work as a cinematographic work.
+              </li>
+             </ol>
+             A work that constitutes a Collective Work will not be considered a Derivative Work for the purpose of this Licence. Where the Work is a musical composition or sound recording, the synchronization of the Work in time-relation with a moving image (i.e. cinematographic work "synching") will be treated  as a Derivative Work for the purpose of this Licence.
+            </li>
+            <li>
+             <strong>
+              "Licence Elements"
+             </strong>
+             means the following high-level Licence attributes as selected by Licensor and indicated in the title of this Licence: Attribution, Noncommercial, NoDerivatives, ShareAlike.
+            </li>
+            <li>
+             <strong>
+              "Licensor"
+             </strong>
+             means the individual or entity that offers the Work under the terms of this Licence.
+            </li>
+            <li>
+             <strong>
+              "Moral Rights"
+             </strong>
+             means rights that an individual who creates a Work protected by copyright has concerning the integrity of the work, the attribution (or anonymity) of authorship, and the right not to be associated with a product, service, cause or institution, or rights of similar nature in the Work anywhere in the world.
+            </li>
+            <li>
+             <strong>
+              "Musical Work"
+             </strong>
+             means any work of music or musical composition, with or without words, and includes any compilation thereof.
+            </li>
+            <li>
+             <strong>
+              "Original Author"
+             </strong>
+             means the individual who created the Work.
+            </li>
+            <li>
+             <strong>
+              "Use"
+             </strong>
+             means to exercise one or more of the rights set out below as granted by the Licence and includes the title thereof when such title is original and distinctive.
+             <ol type="i">
+              <li>
+               to produce or reproduce the work in any material form;
+              </li>
+              <li>
+               to perform the work in public;
+              </li>
+              <li>
+               if the work is unpublished, to publish the work;
+              </li>
+              <li>
+               to convert a dramatic work into a non-dramatic work;
+              </li>
+              <li>
+               to convert a non-dramatic work into a dramatic work;
+              </li>
+              <li>
+               to make a sound recording, cinematographic film or other contrivance by means of which the work may be mechanically reproduced or performed;
+              </li>
+              <li>
+               to reproduce, adapt and publicly present the work, as a cinematographic film;
+              </li>
+              <li>
+               to communicate the work to the public by telecommunication;
+              </li>
+              <li>
+               to present at a public exhibition, for a purpose other than sale or hire, an artistic work created after June 7, 1988, other than a map, chart or plan;
+              </li>
+              <li>
+               to rent a computer program;
+              </li>
+              <li>
+               to rent a sound recording embodying a musical work; and/or
+              </li>
+              <li>
+               to authorize such acts.
+              </li>
+             </ol>
+            </li>
+            <li>
+             <strong>
+              "Work"
+             </strong>
+             means the distinctive and original work of authorship offered under the terms of this Licence.
+            </li>
+            <li>
+             <strong>
+              "You"
+             </strong>
+             means an individual or entity exercising rights under this Licence who has not previously violated the terms of this Licence with respect to the Work, or who has received express permission from the Licensor to exercise rights under this Licence despite a previous violation.
+            </li>
+           </ol>
+          </li>
+          <li>
+           <strong>
+            Fair Dealing Rights.
+           </strong>
+           Nothing in this licence is intended to reduce, limit, or restrict any rights accruing to fair dealing, and those exemptions afforded to individuals, educational institutions, libraries, archives, museums, computer programs, incidental inclusions and ephemeral recordings, or other limitations on the exclusive rights of the copyright owner under the Copyright Act.
+          </li>
+          <li>
+           <strong>
+            Licence Grant.
+           </strong>
+           Subject to the terms and conditions of this Licence, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) Licence to exercise the rights in the Work as stated below:
+           <ol type="a">
+            <li>
+             to Use the Work, to incorporate the Work into one or more Collective Works, and to Use the Work as incorporated in the Collective Works; and
+            </li>
+            <li>
+             to create and reproduce Derivative Works.
+            </li>
+           </ol>
+           <p>
+            The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats.
+           </p>
+           <p>
+            All rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights set forth in Section 4(b) and 4(d).
+           </p>
+           <p>
+            Except as otherwise agreed by the Original Author, if You Use a Work or any Derivative Works or Collective Works in any material form, You must not do anything that would offend the Moral Rights of the Original Author, including but not limited to:
+           </p>
+           <ol type="i">
+            <li>
+             You must not falsely attribute the Work to someone other than the Original Author; and
+            </li>
+            <li>
+             If applicable, You must respect the Original Author's wish to remain anonymous or pseudonymous.
+            </li>
+           </ol>
+           <p>
+            All other moral rights are waived. This means the Original Author is not reserving the ability to prevent downstream creators from engaging in material distortion or modification of the work, including, but limited to, associating the Work with a particular product, service, cause or institution.
+           </p>
+          </li>
+          <li>
+           <strong>
+            Restrictions.
+           </strong>
+           The licence granted in Section 3 above is expressly made subject to and limited by the following restrictions:
+           <ol type="a">
+            <li>
+             You may Use the Work only under the terms of this Licence, and You must include a copy of, or the Uniform Resource Identifier for, this Licence with every copy or soundrecordings of the Work You Use. You may not offer or impose any terms on the Work that alter or restrict the terms of this or the recipients' exercise of the rights granted hereunder. You may not sublicense the Work. You must keep intact all notices that refer to this Licence and to the disclaimer of warranties. You may not Use the Work with any technological measures that control access or use of the Work in a manner inconsistent with the terms of this Licence Agreement.
+             <p>
+              The above applies to the Work as incorporated in a Collective Work, but this does not require the Collective Work apart from the Work itself to be made subject to the terms of this Licence.
+             </p>
+             <p>
+              If You create a Collective Work, upon request from any Licensor You must, to the extent practicable, include or remove from the Collective Work any credit required by clause 4(c).
+             </p>
+             <p>
+              If You create a Derivative Work, upon request from any Licensor You must, to the extent practicable, include or remove from the Derivative Work any credit required by clause 4(c).
+             </p>
+            </li>
+            <li>
+             You may not exercise any of the rights granted to You in Section 3 above in any manner that is primarily intended for or directed toward commercial advantage or private monetary compensation. The exchange of the Work for other copyrighted works by means of digital file-sharing or otherwise shall not be considered to be intended for or directed toward commercial advantage or private monetary compensation, provided there is no payment of any monetary compensation in connection with the exchange of copyrighted works.
+            </li>
+            <li>
+             If you Use the Work or any Derivative Works or Collective Works, You must keep intact all copyright notices for the Work and give credit reasonable to the medium or means You are utilizing to the (i) Original Author by using his, her or its name (or pseudonym) if supplied; and/or (ii) if the Original Author and/or Licensor designate another party or parties (eg. a sponsor institution, publishing entity, journal) for attribution in Licensor's copyright notice or terms of service or by other reasonable means, then to such party or parties; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any, that Licensor specifies to be associated with the Work, unless such URI does not refer to the copyright notice or licensing information for the Work; and in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work (e.g., "French translation of the Work by Original Author," or "Screenplay based on original Work by Original Author"). Such credit may be implemented in any reasonable manner; provided, however, that in the case of a Derivative Work or Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears and in a manner at least as prominent as such other comparable authorship credit.
+            </li>
+            <li>
+             For the avoidance of doubt, where the Work is a musical composition, performer's performance or sound recording:
+             <ol type="i">
+              <li>
+               <strong>
+                Performance Royalties Under Blanket Licences.
+               </strong>
+               Licensor reserves the exclusive right to collect, whether individually or via a performance rights society, royalties for the public performance or public digital performance (e.g. webcast) of the musical Work, sound recording or performer's performance if that performance is primarily intended for or directed toward commercial advantage or private monetary compensation.
+              </li>
+              <li>
+               <strong>
+                Mechanical Rights in Musical Works.
+               </strong>
+               Licensor reserves the exclusive right to collect, whether individually or via a music rights agency, collective society, or designated agent, royalties for any soundrecording You create from the musical Work ("cover version") if Your Use of such cover version is primarily intended for or directed toward commercial advantage or private monetary compensation.
+              </li>
+             </ol>
+            </li>
+           </ol>
+          </li>
+          <li>
+           <strong>
+            Representations, Warranties and Disclaimer.
+           </strong>
+           UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+          </li>
+          <li>
+           <strong>
+            Limitation on Liability.
+           </strong>
+           EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, AND EXCEPT FOR DAMAGES ARISING FROM LIABILITY TO A THIRD PARTY RESULTING FROM BREACH OF THE WARRANTIES IN SECTION 5, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENCE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+          </li>
+          <li>
+           <strong>
+            Termination.
+           </strong>
+           <ol type="a">
+            <li>
+             This Licence and the rights granted hereunder will terminate automatically upon any breach by You of the terms of this Licence. Individuals or entities who have received Derivative Works or Collective Works from You under this Licence, however, will not have their licences terminated provided such individuals or entities remain in full compliance with those licences. Sections 1, 2, 5, 6, 7, and 8 will survive any termination of this Licence.
+            </li>
+            <li>
+             Subject to the above terms and conditions, the licence granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding the above, Licensor reserves the right to release the Work under different licence terms or to stop distributing the Work at any time; provided, however that any such election will not serve to withdraw this Licence (or any other licence that has been, or is required to be, granted under the terms of this Licence), and this Licence will continue in full force and effect unless terminated as stated above.
+            </li>
+           </ol>
+          </li>
+          <li>
+           <strong>
+            Miscellaneous.
+           </strong>
+           <ol type="a">
+            <li>
+             Each time You Use the Work or a Collective Work, the Licensor offers to the recipient a licence to the Work on the same terms and conditions as the licence granted to You under this Licence.
+            </li>
+            <li>
+             Each time You Use a Derivative Work, Licensor offers to the recipient a licence to the original Work on the same terms and conditions as the licence granted to You under this Licence.
+            </li>
+            <li>
+             If any provision of this Licence is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Licence, and without further action by the parties to this agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+            </li>
+            <li>
+             No term or provision of this Licence shall be deemed waived and no breach consented to unless such waiver or consent shall be in writing and signed by the party to be charged with such waiver or consent.
+            </li>
+            <li>
+             This Licence constitutes the entire agreement between the parties with respect to the Work licensed here. There are no understandings, agreements or representations with respect to the Work not specified here. Licensor shall not be bound by any additional provisions that may appear in any communication from You. This Licence may not be modified without the mutual written agreement of the Licensor and You.
+            </li>
+            <li>
+             You must abide the Licence during its term despite the expiry, initial invalidity or later invalidation of any intellectual property rights.
+            </li>
+            <li>
+             The construction, validity and performance of this Licence shall be governed by the laws in force in Canada and, where applicable, those of the province in which the Licensor normally resides.
+            </li>
+           </ol>
+          </li>
+         </ol>
+         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+         <div class="fineprint">
+          <p>
+           Creative Commons is not a party to this Licence, and makes no warranty whatsoever in connection with the Work. Creative Commons will not be liable to You or any party on any legal theory for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this licence. Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor.
+          </p>
+          <p>
+           Except for the limited purpose of indicating to the public that the Work is licensed under this Licence, neither party will use the trademark "Creative Commons" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.
+          </p>
+          <p>
+           Creative Commons may be contacted at
+           <a href="https://creativecommons.org">
+            https://creativecommons.org/
+           </a>
+           .
+          </p>
+          <p>
+           Creative Commons Canada may be contacted at
+           <a href="http://creativecommons.ca">
+            http://creativecommons.ca/
+           </a>
+           .
+          </p>
+         </div>
+         <!-- END CC NOTICE -->
+        </div>
+       </div>
+      </div>
+      <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/about/" style="font-weight: bold;">
+            Learn more about our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://chooser-beta.creativecommons.org/" style="font-weight: bold;">
+            Use the license for your own material.
+            <i class="icon external-link padding-bottom-small caption">
+            </i>
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <style>
+     #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+    </style>
+   </section>
+  </main>
+  <footer class="main-footer margin-top-bigger">
+   <div class="container">
+    <div class="columns">
+     <div class="column is-one-quarter">
+      <a class="main-logo margin-bottom-bigger has-text-white" href="https://creativecommons.org" id="cc-footer-logo">
+       <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
+        <use href="#logomark">
+        </use>
+       </svg>
+      </a>
+      <div>
+       <address class="margin-bottom-normal">
+        Creative Commons
+        <br/>
+        PO Box 1866, Mountain View CA 94042
+       </address>
+       <a class="mail" href="mailto:info@creativecommons.org">
+        info@creativecommons.org
+       </a>
+       <br/>
+       <a class="phone" href="tel://+1-415-429-6753">
+        +1-415-429-6753
+       </a>
+      </div>
+      <div class="margin-vertical-large">
+       <a class="social has-text-white" href="https://www.instagram.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         instagram
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.twitter.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         twitter
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.facebook.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         facebook
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.linkedin.com/company/creative-commons/" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         linkedin
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="column is-three-quarters">
+      <div class="columns">
+       <div class="column is-full">
+        <nav class="footer-navigation">
+         <ul class="menu">
+          <li>
+           <a class="menu-item" href="#">
+            Who We Are
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            What We Do
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            Our Impact
+            <i class="icon external-link">
+            </i>
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            News
+           </a>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+      <div class="columns">
+       <div class="column is-two-thirds">
+        <div class="subscription">
+         <h5 class="b-header">
+          Subscribe to our newsletter
+         </h5>
+         <form class="newsletter">
+          <input class="input" placeholder="Your email" type="text"/>
+          <input class="button small" type="submit" value="subscribe"/>
+         </form>
+        </div>
+        <div class="attribution margin-top-bigger">
+         <p class="caption">
+          Except where otherwise
+          <a href="https://creativecommons.org/policies#license" rel="noopener" target="_blank">
+           noted
+          </a>
+          , content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">
+           Creative Commons Attribution 4.0 International license
+          </a>
+          .
+          <a href="https://creativecommons.org/website-icons" rel="noopener" target="_blank">
+           Icons
+          </a>
+          by
+          <a href="https://fontawesome.com/" rel="noopener" target="_blank">
+           Font Awesome
+          </a>
+          .
+         </p>
+         <div class="margin-top-smaller">
+          <i class="icon margin-right-small is-size-4">
+           cclogo
+          </i>
+          <i class="icon margin-right-small is-size-4">
+           ccby
+          </i>
+         </div>
+        </div>
+       </div>
+       <div class="column is-one-third">
+        <aside class="donate-section">
+         <h5>
+          Our work relies on you!
+         </h5>
+         <p>
+          Help us keep the internet free and open.
+         </p>
+         <a class="button small donate" href="https://creativecommons.org/donate?c_src=website&amp;c_src2=GlobalFooter">
+          <i class="icon cc-letterheart margin-right-small is-size-5 padding-top-smaller">
+          </i>
+          Donate now
+         </a>
+        </aside>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@v2020.11.1/js/vocabulary.js">
+  </script>
+  <script>
+   /**
+    * Get the fully-qualified URL of a Vocabulary asset.
+    *
+    * @param {string} version - the Vocabulary version in which to locate the asset
+    * @param {string} path - the path of the asset being patched
+    * @return {string} the fully qualified URL of the asset
+    */
+    const getFullyQualifiedUrl = (version, path) => {
+    //   let baseUrl = 'https://unpkg.com/@creativecommons/vocabulary'
+      // If you prefer jsDelivr instead, use
+      let baseUrl = 'https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary'
+      return `${baseUrl}@${version}/${path}`
+    }
+
+    /**
+    * Create an invisible container and place the asset into the DOM.
+    *
+    * This function is intended to be used to patch SVG assets that are later
+    * referenced inside `<use>` tags in `<svg>` tags. It can also be used to force
+    * an image to be downloaded to speed up its loading when referenced again.
+    *
+    * @param {string} path - the path of the asset being patched
+    * @param {string} version - the Vocabulary version in which to locate the asset
+    */
+    const patchAssetIntoDom = (path, version = 'latest') => {
+      fetch(getFullyQualifiedUrl(version, path)).then(response => {
+        return response.text()
+      }).then(data => {
+        // Render SVG in the page
+        const logo = document.querySelector('#cc-logo')
+        const footerLogo = document.querySelector('#cc-footer-logo')
+        logo.innerHTML = data;
+        footerLogo.innerHTML = data;
+      })
+    }
+
+    patchAssetIntoDom('assets/logos/cc/logomark.svg');
+
+    /** Next Button On Click Event Listener **/
+    document.getElementById("next-btn").addEventListener("click", function (e) {
+      /**
+      * On click redirect the user to page they are trying to visit
+      * which is stored in the data-href.
+      **/
+      return window.location.href = this.dataset.href
+    })
+  </script>
+  <script>
+   /*
+      Show/Hide Functionality for expand/collapse sections in use_of_licenses.html
+    */
+    let arrowArray = Array.from(document.getElementsByClassName("angle-down"))
+    arrowArray.forEach(function(arrow) {
+      arrow.addEventListener("click", handleArrowClicked);
+    });
+
+    function handleArrowClicked() {
+      // Toggle consideration section's screen reader announcement text (inside of icon)
+      if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+      } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for the Public"
+      } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
+        this.firstChild.innerHTML = "Show Considerations for Licensors"
+      } else {
+        this.firstChild.innerHTML = "Show Considerations for the Public"
+      }
+      // Toggle icon between up and down
+      if (this.dataset.direction === "down") {
+        // toggle icon to up arrow icon
+        this.classList.remove("angle-down")
+        this.classList.add("angle-up")
+        this.dataset.direction = "up"
+        // show <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.remove("is-hidden");
+      } else {
+        // toggle icon to up arrow icon
+        this.classList.add("angle-down")
+        this.classList.remove("angle-up")
+        this.dataset.direction = "down"
+        // hide <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.add("is-hidden");
+      }
+    };
+  </script>
+ </body>
+ <style>
+  body {
+      background-color: rgb(245, 245, 245);
+    }
+    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .breadcrumb li:first-child a {
+      padding-right: 0;
+      padding-left: .5rem;
+    }
+ </style>
+</html>
