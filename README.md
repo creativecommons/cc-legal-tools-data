@@ -32,7 +32,7 @@ The data includes both source files used by
 [creativecommons/cc-licenses][cc-licenses] and output from it. See that
 repository for additional instructions on the use of this repository. This
 section uses project specific terms. Please reference
-[Definitions][#definitions], below.
+[Definitions](#definitions), below.
 
 - **[`docs/`](docs)**
   - ***(:warning: NOT YET ACTIVE)*** CC Licenses data served by
@@ -77,7 +77,7 @@ section uses project specific terms. Please reference
 > identified.
 
 This section uses project specific terms. Please reference
-[Definitions][#definitions], below.
+[Definitions](#definitions), below.
 
 
 [namespace]: https://en.wikipedia.org/wiki/Namespace
