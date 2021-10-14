@@ -52,9 +52,13 @@ section uses project specific terms. Please reference
 - **[`legalcode/`](legalcode)**
   - The immediate subdirectories are Locale Names
   - Contains Gettext Files for Legal Code
+  - Each license tool has a custom Django/gettext translation domain that is
+    the same as the Transifex resource slug
 - **[`locale/`](locale)**
   - The immediate subdirectories are Locale Names
   - Contains Gettext Files for Deeds & UX
+  - The default Django/gettext translation domain is used (`django`)
+  - The Transifex resource slug is `deeds_ux`
 - Gettext Files details:
   - `.mo` machine object Gettext Files
     - *generated* by [cc-licenses][cc-licenses] `compilemessages` and
@@ -175,10 +179,13 @@ localization files). Django relies on the GNU gettext toolset.
 
 #### Portable Object File Metadata
 
-The portable object files use the following standard metadata value:
+The portable object files use the following values for these standard metadata
+entries:
+- `Project-Id-Version`: Transifex resource slug
 - `Language`: Transifex Code
 
-The portable object files use the following custom metadata values:
+The portable object files use the following values for these custom metadata
+entries:
 - `Language-Django`: Langauge Code
 - `Language-Transifex`: Transifex Code
 
