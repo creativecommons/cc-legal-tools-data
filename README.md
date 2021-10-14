@@ -143,6 +143,7 @@ The following terms are used by this dataset and the [cc-licenses][cc-licenses]
 application that ingests/generates it.
 
 [cc-licenses]: https://github.com/creativecommons/cc-licenses
+[djangocodes]: https://github.com/django/django/blob/0dc25526d8daaaa59968d4b1b597968e197f040c/django/conf/global_settings.py#L50-L148
 [django-localename]: https://docs.djangoproject.com/en/3.2/topics/i18n/#term-locale-name
 [gettext-files]: https://www.gnu.org/software/gettext/manual/html_node/Files.html
 [ietf-lang-tags]: https://en.wikipedia.org/wiki/IETF_language_tag
