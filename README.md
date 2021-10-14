@@ -30,7 +30,9 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 The data includes both source files used by
 [creativecommons/cc-licenses][cc-licenses] and output from it. See that
-repository for additional instructions on the use of this repository.
+repository for additional instructions on the use of this repository. This
+section uses project specific terms. Please reference
+[Definitions][#definitions], below.
 
 - **[`docs/`](docs)**
   - ***(:warning: NOT YET ACTIVE)*** CC Licenses data served by
@@ -73,6 +75,10 @@ repository for additional instructions on the use of this repository.
 > identify and refer to objects of various kinds. A namespace ensures that all
 > of a given set of objects have unique names so that they can be easily
 > identified.
+
+This section uses project specific terms. Please reference
+[Definitions][#definitions], below.
+
 
 [namespace]: https://en.wikipedia.org/wiki/Namespace
 
