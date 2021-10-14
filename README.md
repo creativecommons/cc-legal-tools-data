@@ -207,8 +207,9 @@ POSIX locales are language/region identifiers defined by POSIX.
 
 ### Transifex Code
 
-Transifex Codes (`transifex_code`) are Transifex language codes. Most of them
-are POSIX locales or Unicode locales.
+Transifex Codes (`transifex_code`) are Transifex language codes. *Most* consist
+of POSIX locales or Unicode locales. *Some* consist of [RFC5646][rfc5646]
+language tags.
 - [Languages on Transifex][transifex-languages]
 - [Locale (computer software) - Wikipedia][wikipedia-locale]
 
