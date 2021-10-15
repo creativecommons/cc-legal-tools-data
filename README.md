@@ -1,10 +1,11 @@
 # cc-licenses-data
 
-Creative Commons (CC) Licenses data (static HTML, internationalization and
-localization files, etc.)
+Creative Commons (CC) Licenses and Declarations data (static HTML,
+internationalization and localization files, etc.)
 
-> :warning: This data is in progress and in flux. Please, DO NOT REFERENCE IT
-> until it is stable (and this warning is removed).
+> :warning: **This data is in progress and in flux. Please, DO NOT REFERENCE IT
+> until it is stable (and this warning is removed).**
+
 
 ## Code of Conduct
 
@@ -24,14 +25,17 @@ localization files, etc.)
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 
+
 ## Data
 
 The data includes both source files used by
 [creativecommons/cc-licenses][cc-licenses] and output from it. See that
-repository for additional instructions on the use of this repository.
+repository for additional instructions on the use of this repository. This
+section uses project specific terms. Please reference
+[Definitions](#definitions), below.
 
 - **[`docs/`](docs)**
-  - ***(soon-to-be)*** CC Licenses data served by
+  - ***(:warning: NOT YET ACTIVE)*** CC Licenses data served by
     **[creativecommons.org/licenses](https://creativecommons.org/licenses)**
     website
   - *generated* by [cc-licenses][cc-licenses] `publish` command
@@ -46,21 +50,22 @@ repository for additional instructions on the use of this repository.
     - Legacy RDF files and HTML (description, schema, etc.)
     - *ingested* by [cc-licenses][cc-licenses] `publish` command
 - **[`legalcode/`](legalcode)**
-  - `.po` and `.mo` internationalization and localization files for legalcodes
+  - The immediate subdirectories are Locale Names
+  - Contains Gettext Files for Legal Code
 - **[`locale/`](locale)**
-  - `.po` and `.mo` internationalization and localization files for deeds,
-    contextual information, and user interfaces
-- **Internationalization and localization file details:**
-  - `.mo` machine object files
-    - *generated* by [cc-licenses][cc-licenses] `compilemessages` command
-    - *ingested* by [cc-licenses][cc-licenses] application and `publish`
-      command
-  - `.po` portable object files
+  - The immediate subdirectories are Locale Names
+  - Contains Gettext Files for Deeds & UX
+- Gettext Files details:
+  - `.mo` machine object Gettext Files
+    - *generated* by [cc-licenses][cc-licenses] `compilemessages` and
+      `load_html_files` commands
+    - *ingested* by [cc-licenses][cc-licenses] `publish` and `runserver`
+      commands
+  - `.po` portable object Gettext Files
     - *generated* by [cc-licenses][cc-licenses] `check_for_translation_updates`
       command
-    - *ingested* by [cc-licenses][cc-licenses] `compilemessages` command
-
-[cc-licenses]: https://github.com/creativecommons/cc-licenses
+    - *ingested* by [cc-licenses][cc-licenses] `compilemessages` and
+      `runserver` commands
 
 
 ## Legal Tools Namespace
@@ -71,14 +76,14 @@ repository for additional instructions on the use of this repository.
 > of a given set of objects have unique names so that they can be easily
 > identified.
 
+This section uses project specific terms. Please reference
+[Definitions](#definitions), below.
+
+
 [namespace]: https://en.wikipedia.org/wiki/Namespace
 
 
 ### License Tools
-
-[iso3166]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-[rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
 
 
 #### Example: CC BY-SA 4.0
@@ -90,7 +95,7 @@ repository for additional instructions on the use of this repository.
 - **Unit:** `by-sa`
 - **Version:** `4.0`
 - **Jurisdiction Code:** *None*, (International)
-- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
+- **Language Code:** `en`
 
 
 #### Example: CC BY-NC-SA 3.0
@@ -102,7 +107,7 @@ repository for additional instructions on the use of this repository.
 - **Unit:** `by-nc-sa`
 - **Version:** `3.0`
 - **Jurisdiction Code:** *None* (International (unported))
-- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
+- **Language Code:** `en`
 
 
 #### Example: CC BY-ND 3.0 NL
@@ -113,8 +118,8 @@ repository for additional instructions on the use of this repository.
 - **Canonical URL:** https://creativecommons.org/licenses/by-nd/3.0/nl/
 - **Unit:** `by-nc-nd`
 - **Version:** `3.0`
-- **Jurisdiction Code:** `nl` ([ISO 3166-1 alpha-2 - Wikipedia][iso3166] code)
-- **Language Code:** `nl` ([RFC5646][rfc5646] language tag)
+- **Jurisdiction Code:** `nl`
+- **Language Code:** `nl`
 
 
 ### Public Domain Tools
@@ -129,7 +134,127 @@ repository for additional instructions on the use of this repository.
 - **Unit:** `zero`
 - **Version:** `1.0`
 - **Jurisdiction Code:** *None* (Universal)
-- **Language Code:** `en` ([RFC5646][rfc5646] language tag)
+- **Language Code:** `en`
+
+
+## Definitions
+
+The following terms are used by this dataset and the [cc-licenses][cc-licenses]
+application that ingests/generates it.
+
+[cc-licenses]: https://github.com/creativecommons/cc-licenses
+[djangocodes]: https://github.com/django/django/blob/0dc25526d8daaaa59968d4b1b597968e197f040c/django/conf/global_settings.py#L50-L148
+[django-localename]: https://docs.djangoproject.com/en/3.2/topics/i18n/#term-locale-name
+[gettext-files]: https://www.gnu.org/software/gettext/manual/html_node/Files.html
+[ietf-lang-tags]: https://en.wikipedia.org/wiki/IETF_language_tag
+[iso15924]: https://en.wikipedia.org/wiki/ISO_15924
+[iso3166-1-alpha-2]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+[iso3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
+[iso639-1-alpha-2]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+[iso639-1]: https://en.wikipedia.org/wiki/ISO_639-1
+[iso639-2-alpha-3]: https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
+[iso639-2]: https://en.wikipedia.org/wiki/ISO_639-2
+[rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
+[settings-base]: https://github.com/creativecommons/cc-licenses/blob/main/cc_licenses/settings/base.py
+[transifex-languages]: https://www.transifex.com/explore/languages/
+[wikipedia-cldr]: https://en.wikipedia.org/wiki/Common_Locale_Data_Repository
+[wikipedia-iso3166-alpha2]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+[wikipedia-locale]: https://en.wikipedia.org/wiki/Locale_(computer_software)
+[wikipedia-ports]: https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports
+[wikipedia-posixlocale]: https://en.wikipedia.org/wiki/Locale_(computer_software)#POSIX_platforms
+
+
+### Gettext Files
+
+Gettext Files are are files conveying translations (internationalization and
+localization files). Django relies on the GNU gettext toolset.
+- machine object files with a `.mo` file extensions (ex. `django.mo`)
+- portable object files with a `.po` file extensions (ex. `django.po`)
+- [GNU gettext utilities: Files][gettext-files]
+
+
+#### Portable Object File Metadata
+
+The portable object files use the following standard metadata value:
+- `Language`: Transifex Code
+
+The portable object files use the following custom metadata values:
+- `Language-Django`: Langauge Code
+- `Language-Transifex`: Transifex Code
+
+
+### Jurisdiction Code
+
+Jurisdiction Codes are legal jurisdiction identifiers used for Creative Commons
+License Tool ports (versions 1.0 - 3.0). They consist of ISO 3166-1 alpha-2
+codes.
+- [Creative Commons jurisdiction ports - Wikipedia][wikipedia-ports]
+- [ISO 3166-1 - Wikipedia][iso3166-1] *Codes for the representation of names of
+  countries and their subdivisions – Part 1: Country codes*
+  - [ISO 3166-1 alpha-2 - Wikipedia][iso3166-1-alpha-2]
+
+
+### IETF language tag
+
+IETF language tags are identifiers for human languages.
+
+- [IETF language tag - Wikipedia][ietf-lang-tags]
+  - [RFC5646 Tags for Identifying Languages][rfc5646]
+    - [ISO 639-1 - Wikipedia][iso639-1] *Codes for the representation of names
+      of languages—Part 1: Alpha-2 code*
+      - [List of ISO 639-1 codes - Wikipedia][iso639-1-alpha-2]
+    - [ISO 639-2 - Wikipedia][iso639-2] *Codes for the representation of names
+      of languages — Part 2: Alpha-3 code*
+      - [List of ISO 639-2 codes - Wikipedia][iso639-2-alpha-3]
+    - [ISO 3166-1 - Wikipedia][iso3166-1] *Codes for the representation of
+      names of countries and their subdivisions – Part 1: Country codes*
+      - [ISO 3166-1 alpha-2 - Wikipedia][iso3166-1-alpha-2]
+    - [ISO 15924 - Wikipedia][iso15924] *Codes for the representation of  names
+      of scripts*
+
+
+### Locale Name
+
+Locale Names (`locale_name`) are Django locale names. Django locale names are
+language/region identifiers programmatically generated by Django based on the
+Language Code.  They are meant to match POSIX locales or Unicode locales.
+- [locale name | Definitions | Internationalization and localization | Django
+  documentation | Django][django-localename]
+- [Locale (computer software) - Wikipedia][wikipedia-locale]
+
+
+### Language Code
+
+Language Codes (`language_code`) are Django language codes. They consist of
+*lowercase* IETF language tags.
+- The default Django languge codes are defined in
+  `django/django`:`django/conf/global_settings.p`: [Lines 50-148][djangocodes]
+- Additional codes are defined by the [cc-licenses][cc-licenses] application in
+  [`cc_licenses/settings/base.py`][settings-base]
+
+
+### POSIX locale
+
+POSIX locales are language/region identifiers defined by POSIX.
+- [POSIX platforms - Locale (computer software) -
+  Wikipedia][wikipedia-posixlocale]
+- [Locale (computer software) - Wikipedia][wikipedia-locale]
+
+
+### Transifex Code
+
+Transifex Codes (`transifex_code`) are Transifex language codes. *Most* consist
+of POSIX locales or Unicode locales. *Some* consist of IETF language tags.
+- [Languages on Transifex][transifex-languages]
+- [Locale (computer software) - Wikipedia][wikipedia-locale]
+
+
+### Unicode locale
+
+Unicode locales are language/region identifiers defined by the Unicode
+Consortium.
+- [Common Locale Data Repository - Wikipedia][wikipedia-cldr]
+- [Locale (computer software) - Wikipedia][wikipedia-locale]
 
 
 ## License
