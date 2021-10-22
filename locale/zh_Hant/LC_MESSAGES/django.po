@@ -8,9 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 21:10:47+00:00\n"
+"POT-Creation-Date: 2021-10-22 23:14+0000\n"
 "PO-Revision-Date: 2021-10-22 21:39:57+00:00\n"
-"Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hant/\n"
+"Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-"
+"Hant/\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,24 +44,24 @@ msgstr "法律條款"
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
-"it publishes and in those instances will be considered the \"Licensor.\" The"
-" text of the Creative Commons public licenses is dedicated to the public "
+"it publishes and in those instances will be considered the \"Licensor.\" The "
+"text of the Creative Commons public licenses is dedicated to the public "
 "domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
 "the limited purpose of indicating that material is shared under a Creative "
 "Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"Creative Commons without its prior written consent including, without "
-"limitation, in connection with any unauthorized modifications to any of its "
-"public licenses or any other arrangements, understandings, or agreements "
-"concerning use of licensed material. For the avoidance of doubt, this "
-"paragraph does not form part of the public licenses."
+"policies published at <a href=\"creativecommons.org/policies"
+"\">creativecommons.org/policies</a>, Creative Commons without its prior "
+"written consent including, without limitation, in connection with any "
+"unauthorized modifications to any of its public licenses or any other "
+"arrangements, understandings, or agreements concerning use of licensed "
+"material. For the avoidance of doubt, this paragraph does not form part of "
+"the public licenses."
 msgstr ""
 
 #: licenses/templates/includes/about_cc.html:22
 msgid ""
-"Creative Commons may be contacted at <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"Creative Commons may be contacted at <a href=\"creativecommons.org"
+"\">creativecommons.org</a>."
 msgstr ""
 
 #: licenses/templates/includes/about_cc_and_license.html:6
@@ -83,23 +84,23 @@ msgstr ""
 #: licenses/templates/includes/cc_site_footer.html:25
 #: licenses/templates/includes/cc_site_header.html:40
 msgid "Contact"
-msgstr ""
+msgstr "連絡我們"
 
 #: licenses/templates/includes/cc_site_footer.html:26
 msgid "Privacy"
-msgstr ""
+msgstr "隱私權聲明"
 
 #: licenses/templates/includes/cc_site_footer.html:27
 msgid "Policies"
-msgstr ""
+msgstr "使用規範"
 
 #: licenses/templates/includes/cc_site_footer.html:28
 msgid "Terms"
-msgstr ""
+msgstr "條款"
 
 #: licenses/templates/includes/cc_site_footer.html:35
 msgid "We'd love to hear from you!"
-msgstr ""
+msgstr "我們很期待聽到你的消息！"
 
 #: licenses/templates/includes/cc_site_footer.html:44
 msgid "Frequently Asked Questions"
@@ -107,28 +108,28 @@ msgstr "常見問題集"
 
 #: licenses/templates/includes/cc_site_header.html:11
 msgid "Menu"
-msgstr ""
+msgstr "選單"
 
 #: licenses/templates/includes/cc_site_header.html:16
 #: licenses/templates/includes/cc_site_header.html:27
 msgid "Share your work"
-msgstr ""
+msgstr "分享你的作品"
 
 #: licenses/templates/includes/cc_site_header.html:17
 #: licenses/templates/includes/cc_site_header.html:28
 msgid "Use &#038; remix"
-msgstr ""
+msgstr "使用與混搭"
 
 #: licenses/templates/includes/cc_site_header.html:18
 #: licenses/templates/includes/cc_site_header.html:29
 #: licenses/templates/includes/footer.html:40
 msgid "What we do"
-msgstr ""
+msgstr "我們做的事情"
 
 #: licenses/templates/includes/cc_site_header.html:19
 #: licenses/templates/includes/cc_site_header.html:30
 msgid "Blog"
-msgstr ""
+msgstr "網誌"
 
 #: licenses/templates/includes/cc_site_header.html:20
 #: licenses/templates/includes/cc_site_header.html:37
@@ -137,7 +138,7 @@ msgstr ""
 
 #: licenses/templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
-msgstr ""
+msgstr "搜尋創用 CC 素材"
 
 #: licenses/templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
@@ -153,15 +154,15 @@ msgstr ""
 
 #: licenses/templates/includes/cc_site_header.html:46
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: licenses/templates/includes/cc_site_header.html:47
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: licenses/templates/includes/cc_site_header.html:48
 msgid "Mail"
-msgstr ""
+msgstr "信箱"
 
 #: licenses/templates/includes/deed_body_certification.html:6
 msgid ""
@@ -170,24 +171,23 @@ msgid ""
 "best of his knowledge, the work of authorship identified is in the public "
 "domain of the country from which the work is published, or (b) hereby "
 "dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
+"identified below (the \"Work\") to the public domain. A certifier, moreover, "
+"dedicates any copyright interest he may have in the associated work, and for "
+"these purposes, is described as a \"dedicator\" below.</p> <p>A certifier "
+"has taken reasonable steps to verify the copyright status of this work. "
+"Certifier recognizes that his good faith efforts may not shield him from "
+"liability if in fact the work certified is not in the public domain.</p> "
+"<p>Dedicator makes this dedication for the benefit of the public at large "
+"and to the detriment of the Dedicator's heirs and successors. Dedicator "
+"intends this dedication to be an overt act of relinquishment in perpetuity "
+"of all present and future rights under copyright law, whether vested or "
+"contingent, in the Work. Dedicator understands that such relinquishment of "
+"all rights includes the relinquishment of all rights to enforce (by lawsuit "
+"or otherwise) those copyrights in the Work.</p> <p>Dedicator recognizes "
+"that, once placed in the public domain, the Work may be freely reproduced, "
+"distributed, transmitted, used, modified, built upon, or otherwise exploited "
+"by anyone for any purpose, commercial or non-commercial, and in any way, "
+"including by methods that have not yet been invented or conceived.</p>"
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:7
@@ -219,7 +219,9 @@ msgstr "取樣，混合，或為商業或非商業目的以其他方式有創造
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr "為非商業目的而演出、展示及散布整部著作的重製物（例如，檔案分享或非商業性的網路播送）。"
+msgstr ""
+"為非商業目的而演出、展示及散布整部著作的重製物（例如，檔案分享或非商業性的網"
+"路播送）。"
 
 #: licenses/templates/includes/deed_body_licenses.html:29
 msgid ""
@@ -229,8 +231,8 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
-"<strong>Share</strong> — copy and redistribute the material in any medium or"
-" format for any purpose, even commercially."
+"<strong>Share</strong> — copy and redistribute the material in any medium or "
+"format for any purpose, even commercially."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:36
@@ -240,8 +242,8 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-" for any purpose, even commercially."
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material "
+"for any purpose, even commercially."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:46
@@ -268,13 +270,12 @@ msgstr "姓名標示"
 
 #: licenses/templates/includes/deed_body_licenses.html:75
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink"
+"\">appropriate credit</a></span>, provide a link to the license, and <span "
+"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">indicate if "
+"changes were made</a></span>. You may do so in any reasonable manner, but "
+"not in any way that suggests the licensor endorses you or your use."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:86
@@ -283,11 +284,11 @@ msgstr "非商業性"
 
 #: licenses/templates/includes/deed_body_licenses.html:87
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#\" id=\"commercial_purposes_popup"
+"\" class=\"helpLink\">commercial purposes</a>."
 msgstr ""
-"你不得將本素材進行<a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">商業目的</a>之使用。"
+"你不得將本素材進行<a href=\"#\" id=\"commercial_purposes_popup\" class="
+"\"helpLink\">商業目的</a>之使用。"
 
 #: licenses/templates/includes/deed_body_licenses.html:98
 msgid "ShareAlike"
@@ -296,11 +297,12 @@ msgstr "相同方式分享"
 #: licenses/templates/includes/deed_body_licenses.html:98
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" class="
+"\"helpLink\">same license</a> as the original."
 msgstr ""
-"若你重混、轉換本素材，或依本素材建立新素材，你必須依<a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">本素材的授權條款</a>來散布你的貢獻物。"
+"若你重混、轉換本素材，或依本素材建立新素材，你必須依<a href=\"#\" id="
+"\"same_license_popup\" class=\"helpLink\">本素材的授權條款</a>來散布你的貢獻"
+"物。"
 
 #: licenses/templates/includes/deed_body_licenses.html:109
 msgid "NoDerivatives"
@@ -308,12 +310,12 @@ msgstr "禁止改作"
 
 #: licenses/templates/includes/deed_body_licenses.html:109
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink"
+"\">remix, transform, or build upon</a> the material, you may not distribute "
+"the modified material."
 msgstr ""
-"若你<a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">重混、轉換本素材，或依本素材建立新素材</a>，則你不得散布改作後的素材。"
+"若你<a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink\">重混、轉"
+"換本素材，或依本素材建立新素材</a>，則你不得散布改作後的素材。"
 
 #: licenses/templates/includes/deed_body_licenses.html:120
 msgid ""
@@ -325,7 +327,9 @@ msgstr "不得使用本著作進行廣告或推銷。但為本著作之衍生著
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
-msgstr "為了再使用或散布之目的，你必須向他人清楚說明本著作所適用的授權條款。提供本網頁連結是最好的方式。"
+msgstr ""
+"為了再使用或散布之目的，你必須向他人清楚說明本著作所適用的授權條款。提供本網"
+"頁連結是最好的方式。"
 
 #: licenses/templates/includes/deed_body_licenses.html:142
 msgid ""
@@ -339,13 +343,12 @@ msgstr "不得增加額外限制"
 
 #: licenses/templates/includes/deed_body_licenses.html:152
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#\" id="
+"\"technological_measures_popup\" class=\"helpLink\">technological measures</"
+"a> that legally restrict others from doing anything the license permits."
 msgstr ""
-"你不能增設法律條款或<a href=\"#\" id=\"technological_measures_popup\" "
-"class=\"helpLink\">科技措施</a>，來限制別人依授權條款本已許可的作為。"
+"你不能增設法律條款或<a href=\"#\" id=\"technological_measures_popup\" class="
+"\"helpLink\">科技措施</a>，來限制別人依授權條款本已許可的作為。"
 
 #: licenses/templates/includes/deed_body_licenses.html:159
 msgid "Notices:"
@@ -354,24 +357,25 @@ msgstr "聲明"
 #: licenses/templates/includes/deed_body_licenses.html:162
 msgid ""
 "You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"the public domain or where your use is permitted by an applicable <a href=\"#"
+"\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception or "
+"limitation</a>."
 msgstr ""
-"當你使用本素材中屬於公眾領域的元素，或當法律有<a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">例外或限制條款</a>允許你的使用，則你不需要遵守本授權條款。"
+"當你使用本素材中屬於公眾領域的元素，或當法律有<a href=\"#\" id="
+"\"exception_or_limitation_popup\" class=\"helpLink\">例外或限制條款</a>允許你"
+"的使用，則你不需要遵守本授權條款。"
 
 #: licenses/templates/includes/deed_body_licenses.html:165
 msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"No warranties are given. The license may not give you all of the permissions "
+"necessary for your intended use. For example, other rights such as <a href="
+"\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink"
+"\">publicity, privacy, or moral rights</a> may limit how you use the "
+"material."
 msgstr ""
-"未提供保證。本授權條款未必能完全提供，你預期用途所需要的所有許可。例如：<a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">形象權，隱私權、著作人格權</a>等其他權利，可能限制你如何使用本素材。"
+"未提供保證。本授權條款未必能完全提供，你預期用途所需要的所有許可。例如：<a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">"
+"形象權，隱私權、著作人格權</a>等其他權利，可能限制你如何使用本素材。"
 
 #: licenses/templates/includes/deed_body_mark.html:7
 #: licenses/templates/includes/deed_body_zero.html:6
@@ -386,8 +390,9 @@ msgid ""
 "perform the work, even for commercial purposes, all without asking "
 "permission. See <b>Other Information</b> below. </p>"
 msgstr ""
-"<p id=\"nolaw-text\"> 此作品已<b>被辨識</b>為無已知的著作權利限制，亦不受所有相關和鄰接權利的限制。</p> <p> <br"
-" /> 你可以複製、修改、發布或展示此作品，亦可進行商業利用，完全不需要經過額外許可。請參考下面的<b>其他資訊</b>。</p>"
+"<p id=\"nolaw-text\"> 此作品已<b>被辨識</b>為無已知的著作權利限制，亦不受所有"
+"相關和鄰接權利的限制。</p> <p> <br /> 你可以複製、修改、發布或展示此作品，亦"
+"可進行商業利用，完全不需要經過額外許可。請參考下面的<b>其他資訊</b>。</p>"
 
 #: licenses/templates/includes/deed_body_mark.html:22
 #: licenses/templates/includes/deed_body_zero.html:19
@@ -396,44 +401,49 @@ msgstr "其他資訊"
 
 #: licenses/templates/includes/deed_body_mark.html:28
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a href=\"\" "
+"class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
 msgstr ""
-"此作並非於全 <a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">司法管轄權</a>下都不受著作權保護。"
+"此作並非於全 <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">司法管"
+"轄權</a>下都不受著作權保護。"
 
 #: licenses/templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"https://wiki.creativecommons.org/"
+"Frequently_Asked_Questions#When_are_publicity_rights_relevant\" class="
+"\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
-"此作品上可能存有其他相關之權利，例如專利權或商標權。在作品的使用上，亦可能牽涉到他人之權利，例如 <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">形象權或隱私權</a> 權利。 "
+"此作品上可能存有其他相關之權利，例如專利權或商標權。在作品的使用上，亦可能牽"
+"涉到他人之權利，例如 <a href=\"https://wiki.creativecommons.org/"
+"Frequently_Asked_Questions#When_are_publicity_rights_relevant\" class="
+"\"helpLink\" id=\"publicity_rights\">形象權或隱私權</a> 權利。 "
 
 #: licenses/templates/includes/deed_body_mark.html:32
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr "在某些司法管轄下，作者的人格權，包括作者的姓名表示權以及拒絕不合理對待的權利等，可能在著作財產權保護期滿之後繼續存在。"
+"In some jurisdictions <a href=\"\" class=\"helpLink\" id=\"moral_rights"
+"\">moral rights</a> of the author may persist beyond the term of copyright. "
+"These rights may include the right to be identified as the author and the "
+"right to object to derogatory treatments."
+msgstr ""
+"在某些司法管轄下，作者的人格權，包括作者的姓名表示權以及拒絕不合理對待的權利"
+"等，可能在著作財產權保護期滿之後繼續存在。"
 
 #: licenses/templates/includes/deed_body_mark.html:34
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
-msgstr "除非另有明示聲明，辨識人對作品並不負擔保，對於此作品之所有使用亦不承擔責任，此免責聲明在法律允許的範圍內做最大程度的適用。"
+msgstr ""
+"除非另有明示聲明，辨識人對作品並不負擔保，對於此作品之所有使用亦不承擔責任，"
+"此免責聲明在法律允許的範圍內做最大程度的適用。"
 
 #: licenses/templates/includes/deed_body_mark.html:36
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
+"When using or citing the work, you should not imply <a href=\"\" class="
+"\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the person "
+"who identified the work."
 msgstr "當使用或引用該著作時，不得暗喻作者或指認該著作之人，為你的行為背書。"
 
 #: licenses/templates/includes/deed_body_unimplemented.html:7
@@ -451,24 +461,27 @@ msgstr ""
 msgid ""
 "The person who associated a work with this deed has <b>dedicated</b> the "
 "work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
+"worldwide under copyright law, including all related and neighboring rights, "
+"to the extent allowed by law."
 msgstr ""
-"以著作結合本標章之人，代表在法律許可的範圍內，拋棄該著作依著作權法所享有之權利，包括所有相關與鄰接的法律權利，並宣告將該著作<b>貢獻</b>至公眾領域。"
+"以著作結合本標章之人，代表在法律許可的範圍內，拋棄該著作依著作權法所享有之權"
+"利，包括所有相關與鄰接的法律權利，並宣告將該著作<b>貢獻</b>至公眾領域。"
 
 #: licenses/templates/includes/deed_body_zero.html:13
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr "你可以複製、修改、發布或展示此作品，亦可進行商業利用，完全不需要經過許可，請參考下面的其他資訊。"
+msgstr ""
+"你可以複製、修改、發布或展示此作品，亦可進行商業利用，完全不需要經過許可，請"
+"參考下面的其他資訊。"
 
 #: licenses/templates/includes/deed_body_zero.html:24
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"https://wiki.creativecommons.org/"
+"Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class="
+"\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_zero.html:26
@@ -476,16 +489,18 @@ msgid ""
 "Unless expressly stated otherwise, the person who associated a work with "
 "this deed makes no warranties about the work, and disclaims liability for "
 "all uses of the work, to the fullest extent permitted by applicable law."
-msgstr "除非另有明示聲明，以著作結合本標章之人，對著作並不負擔保，對於此著作之所有使用亦不承擔責任，此免責聲明在法律允許的範圍內做最大程度的適用。"
+msgstr ""
+"除非另有明示聲明，以著作結合本標章之人，對著作並不負擔保，對於此著作之所有使"
+"用亦不承擔責任，此免責聲明在法律允許的範圍內做最大程度的適用。"
 
 #: licenses/templates/includes/deed_body_zero.html:27
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"\" class="
+"\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"當使用或引用該著作時，不得暗喻作者或指認該著作之人，為你的行為<a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">背書</a>。"
+"當使用或引用該著作時，不得暗喻作者或指認該著作之人，為你的行為<a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">背書</a>。"
 
 #: licenses/templates/includes/deed_body_zero.html:32
 msgid "Other Rights"
@@ -496,10 +511,13 @@ msgid ""
 "The use of a work free of known copyright restrictions may be otherwise "
 "regulated or limited. The work or its use may be subject to personal data "
 "protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
+"control how their voice, image or likeness is used, or other restrictions or "
+"limitations under applicable law."
 msgstr ""
-"使用無已知著作權利限制的作品仍可能受到其他權利規範或法令限制。作品或其使用可能涉及個人資料保護法，形象權、影像權、或隱私權等規範，在這些權利的規範下，人們可控制他們的聲音、影像或其他相類物如何被利用，又或者現行法令亦可能直接明定其他的拘束或限制。"
+"使用無已知著作權利限制的作品仍可能受到其他權利規範或法令限制。作品或其使用可"
+"能涉及個人資料保護法，形象權、影像權、或隱私權等規範，在這些權利的規範下，人"
+"們可控制他們的聲音、影像或其他相類物如何被利用，又或者現行法令亦可能直接明定"
+"其他的拘束或限制。"
 
 #: licenses/templates/includes/deed_body_zero.html:35
 #: licenses/templates/includes/deed_body_zero.html:42
@@ -515,7 +533,9 @@ msgstr "背書"
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
-msgstr "在某些司法官轄區，故意/惡意地暗示某作者，出版者或任何人，為你使用此作品的行為背書，可能是非法的。"
+msgstr ""
+"在某些司法官轄區，故意/惡意地暗示某作者，出版者或任何人，為你使用此作品的行為"
+"背書，可能是非法的。"
 
 #: licenses/templates/includes/deed_body_zero.html:45
 msgid "Citation"
@@ -537,30 +557,31 @@ msgid ""
 "the work or another person who may have had some copyright or related or "
 "neighboring legal rights in the work."
 msgstr ""
-"宣告者 (affirmer) "
-"是在法律適用的最大範圍內，使用CC0全球性拋棄其著作權利之人。其可能是著作之原始作者，或其他對該著作擁有著作權或相關鄰接權利之人。"
+"宣告者 (affirmer) 是在法律適用的最大範圍內，使用CC0全球性拋棄其著作權利之人。"
+"其可能是著作之原始作者，或其他對該著作擁有著作權或相關鄰接權利之人。"
 
 #: licenses/templates/includes/deed_donate_slide.html:7
 msgid ""
 "This content is freely available under simple legal terms because of "
 "Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
+"content, and love that it's free for everyone, please consider a donation to "
+"support our work."
 msgstr ""
-"本內容得以簡要法律文字進行自由提供，歸功於Creative "
-"Commons，這是一個依靠捐款來運作的非營利組織。如果您認同此內容，並認同每一個人都可自由地使用它，請考慮透過捐款來支持我們的工作。"
+"本內容得以簡要法律文字進行自由提供，歸功於Creative Commons，這是一個依靠捐款"
+"來運作的非營利組織。如果您認同此內容，並認同每一個人都可自由地使用它，請考慮"
+"透過捐款來支持我們的工作。"
 
 #: licenses/templates/includes/deed_donate_slide.html:8
 msgid "When you share, everyone wins."
-msgstr ""
+msgstr "一人分享、眾人得利。"
 
 #: licenses/templates/includes/deed_donate_slide.html:14
 msgid "Contribute today to Creative Commons"
-msgstr ""
+msgstr "今天開始就貢獻到創用 CC 吧"
 
 #: licenses/templates/includes/deed_donate_slide.html:35
 msgid "Amount"
-msgstr ""
+msgstr "數量"
 
 #: licenses/templates/includes/deed_donate_slide.html:42
 msgid "Donate Now"
@@ -575,12 +596,12 @@ msgstr "免責聲明"
 
 #: licenses/templates/includes/deprecated.html:9
 msgid ""
-"Creative Commons has <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
-"tool</a> and does not recommend that it be applied to works."
+"Creative Commons has <a href=\"http://creativecommons.org/retiredlicenses"
+"\">retired this legal tool</a> and does not recommend that it be applied to "
+"works."
 msgstr ""
-"創用CC已 <a href=\"http://creativecommons.org/retiredlicenses\">棄用這個授權工具</a> "
-"，並且不建議你在新作品中使用它。"
+"創用CC已 <a href=\"http://creativecommons.org/retiredlicenses\">棄用這個授權"
+"工具</a> ，並且不建議你在新作品中使用它。"
 
 #: licenses/templates/includes/disclaimer_40.html:11
 msgid ""
@@ -589,7 +610,8 @@ msgid ""
 "review all of the terms and conditions of the actual license before using "
 "the licensed material."
 msgstr ""
-"本授權標章僅強調實際授權條款的部分重要特點及條款，並非一份授權條款且沒有法律效力。在使用本授權作品前你應該仔細閱讀實際授權條款的所有條款及條件。"
+"本授權標章僅強調實際授權條款的部分重要特點及條款，並非一份授權條款且沒有法律"
+"效力。在使用本授權作品前你應該仔細閱讀實際授權條款的所有條款及條件。"
 
 #: licenses/templates/includes/disclaimer_40.html:18
 msgid ""
@@ -597,14 +619,17 @@ msgid ""
 "Distributing, displaying, or linking to this deed or the license that it "
 "summarizes does not create a lawyer-client or any other relationship."
 msgstr ""
-"Creative Commons不是法律事務所，亦不提供法律服務。散布，展示或連結到本授權標章或摘要過的本授權條款並不產生律師和客戶或其他的關係。"
+"Creative Commons不是法律事務所，亦不提供法律服務。散布，展示或連結到本授權標"
+"章或摘要過的本授權條款並不產生律師和客戶或其他的關係。"
 
 #: licenses/templates/includes/disclaimer_certification.html:10
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
-"the US. For dedicating new works to the public domain, we recommend <a "
-"href=\"/choose/zero/\">CC0</a>."
-msgstr "此工具基於美國法，可能不適用於美國以外。若要貢獻新作品於公眾領域，我們建議<a href=\"/choose/zero/\">CC0</a> 。"
+"the US. For dedicating new works to the public domain, we recommend <a href="
+"\"/choose/zero/\">CC0</a>."
+msgstr ""
+"此工具基於美國法，可能不適用於美國以外。若要貢獻新作品於公眾領域，我們建議<a "
+"href=\"/choose/zero/\">CC0</a> 。"
 
 #: licenses/templates/includes/disclaimer_zero.html:11
 msgid ""
@@ -613,21 +638,28 @@ msgid ""
 "of some of its key terms. Think of it as the user-friendly interface to the "
 "CC0 Legal Code beneath. This Deed itself has no legal value, and its "
 "contents do not appear in CC0. </p> <p> Creative Commons is not a law firm "
-"and does not provide legal services. Distributing, displaying, or linking to"
-" this Commons Deed does not create an attorney-client relationship. </p> <p>"
-" Creative Commons has not verified the copyright status of any work to which"
-" CC0 has been applied. CC makes no warranties about any work or its "
-"copyright status in any jurisdiction, and disclaims all liability for all "
-"uses of any work. </p>"
+"and does not provide legal services. Distributing, displaying, or linking to "
+"this Commons Deed does not create an attorney-client relationship. </p> <p> "
+"Creative Commons has not verified the copyright status of any work to which "
+"CC0 has been applied. CC makes no warranties about any work or its copyright "
+"status in any jurisdiction, and disclaims all liability for all uses of any "
+"work. </p>"
 msgstr ""
-"<p>本共享標章並非一份法律文件。它只是一份瞭解CC0法律條款的參考文件，提供其中某些關鍵用語的簡要說明。請把此共享標章看作是CC0法律條款的使用者友善界面。此標章本身不具法律價值，且其內容並不出現在CC0中。<p>創用CC不是法律事務所，亦不提供法律服務。散布、展示或連結到本共享標章並不產生律師和客戶的關係。</p>\n"
-"<p> 創用CC並未對適用CC0宣告之作品，進行著作權利狀態的驗證。創用CC對任何作品或其著作權利狀態在各個司法管轄領域下的認定，不負擔保之責，並免除所有使用行為於任何作品上產生的所有責任。</p>"
+"<p>本共享標章並非一份法律文件。它只是一份瞭解CC0法律條款的參考文件，提供其中"
+"某些關鍵用語的簡要說明。請把此共享標章看作是CC0法律條款的使用者友善界面。此標"
+"章本身不具法律價值，且其內容並不出現在CC0中。<p>創用CC不是法律事務所，亦不提"
+"供法律服務。散布、展示或連結到本共享標章並不產生律師和客戶的關係。</p>\n"
+"<p> 創用CC並未對適用CC0宣告之作品，進行著作權利狀態的驗證。創用CC對任何作品或"
+"其著作權利狀態在各個司法管轄領域下的認定，不負擔保之責，並免除所有使用行為於"
+"任何作品上產生的所有責任。</p>"
 
 #: licenses/templates/includes/disclaimer_zero.html:15
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
-msgstr "這是一份讓一般人易於了解的法律條款摘要，你可參考 <a href=\"./legalcode\">完整的法律條款</a>。"
+msgstr ""
+"這是一份讓一般人易於了解的法律條款摘要，你可參考 <a href=\"./legalcode\">完整"
+"的法律條款</a>。"
 
 #: licenses/templates/includes/footer.html:39
 msgid "Who We Are"
@@ -647,14 +679,13 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:58
 msgid ""
-"Except where otherwise <a "
-"href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
-"rel=\"noopener\">noted</a>, content on this site is licensed under a <a "
-"href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" "
-"rel=\"noopener\">Creative Commons Attribution 4.0 International license</a>."
-" <a href=\"https://creativecommons.org/website-icons\" target=\"_blank\" "
-"rel=\"noopener\">Icons</a> by <a href=\"https://fontawesome.com/\" "
-"target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
+"Except where otherwise <a href=\"https://creativecommons.org/policies#license"
+"\" target=\"_blank\" rel=\"noopener\">noted</a>, content on this site is "
+"licensed under a <a href=\"https://creativecommons.org/licenses/by/4.0/\" "
+"target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 "
+"International license</a>. <a href=\"https://creativecommons.org/website-"
+"icons\" target=\"_blank\" rel=\"noopener\">Icons</a> by <a href=\"https://"
+"fontawesome.com/\" target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
 msgstr ""
 
 #: licenses/templates/includes/footer.html:76
@@ -801,7 +832,7 @@ msgstr ""
 
 #: licenses/templates/includes/skiplink.html:4
 msgid "Skip to content"
-msgstr ""
+msgstr "跳到內容"
 
 #: licenses/templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
@@ -832,13 +863,13 @@ msgid ""
 "public permission to use material in ways otherwise restricted by copyright "
 "and certain other rights. Our licenses are irrevocable. Licensors should "
 "read and understand the terms and conditions of the license they choose "
-"before applying it. Licensors should also secure all rights necessary before"
-" applying our licenses so that the public can reuse the material as "
-"expected. Licensors should clearly mark any material not subject to the "
-"license. This includes other CC-licensed material, or material used under an"
-" exception or limitation to copyright. <a "
-"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
-" considerations for licensors.</a>"
+"before applying it. Licensors should also secure all rights necessary before "
+"applying our licenses so that the public can reuse the material as expected. "
+"Licensors should clearly mark any material not subject to the license. This "
+"includes other CC-licensed material, or material used under an exception or "
+"limitation to copyright. <a href=\"https://wiki.creativecommons.org/wiki/"
+"Considerations_for_licensors_and_licensees#Considerations_for_licensors"
+"\">More considerations for licensors.</a>"
 msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:30
@@ -852,8 +883,8 @@ msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:32
 msgid ""
-"By using one of our public licenses, a licensor grants the public permission"
-" to use the licensed material under specified terms and conditions. If the "
+"By using one of our public licenses, a licensor grants the public permission "
+"to use the licensed material under specified terms and conditions. If the "
 "licensor’s permission is not necessary for any reason–for example, because "
 "of any applicable exception or limitation to copyright–then that use is not "
 "regulated by the license. Our licenses grant only permissions under "
@@ -862,9 +893,10 @@ msgid ""
 "including because others have copyright or other rights in the material. A "
 "licensor may make special requests, such as asking that all changes be "
 "marked or described. Although not required by our licenses, you are "
-"encouraged to respect those requests where reasonable. <a "
-"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
-" considerations for the public.</a>"
+"encouraged to respect those requests where reasonable. <a href=\"https://"
+"wiki.creativecommons.org/wiki/"
+"Considerations_for_licensors_and_licensees#Considerations_for_licensees"
+"\">More considerations for the public.</a>"
 msgstr ""
 
 #: licenses/templates/legalcode.html:21
