@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:41+0000\n"
+"POT-Creation-Date: 2021-10-22 19:18+0000\n"
 "PO-Revision-Date: 2020-06-29 12:54:48+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/el/\n"
 "Language: el\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
 msgid "Legal Code"
-msgstr ""
+msgstr "Νομικός κώδικας"
 
 #: licenses/templates/includes/about_cc.html:10
 msgid ""
@@ -123,8 +123,9 @@ msgstr "Χρήση και Επεξεργασία"
 
 #: licenses/templates/includes/cc_site_header.html:18
 #: licenses/templates/includes/cc_site_header.html:29
-msgid "What We do"
-msgstr ""
+#: licenses/templates/includes/footer.html:40
+msgid "What we do"
+msgstr "Ποιοί είμαστε"
 
 #: licenses/templates/includes/cc_site_header.html:19
 #: licenses/templates/includes/cc_site_header.html:30
@@ -357,7 +358,7 @@ msgstr "Υπό τους ακόλουθους όρους:"
 
 #: licenses/templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
-msgstr ""
+msgstr "Αναπτυσσόμενα Έθνη"
 
 #: licenses/templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
@@ -854,10 +855,6 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:39
 msgid "Who We Are"
-msgstr ""
-
-#: licenses/templates/includes/footer.html:40
-msgid "What We Do"
 msgstr ""
 
 #: licenses/templates/includes/footer.html:41

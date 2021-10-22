@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:41+0000\n"
+"POT-Creation-Date: 2021-10-22 19:18+0000\n"
 "PO-Revision-Date: 2021-07-28 15:04:31+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/he/\n"
 "Language: he\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
 msgid "Legal Code"
-msgstr ""
+msgstr "נוסח משפטי"
 
 #: licenses/templates/includes/about_cc.html:10
 msgid ""
@@ -84,23 +84,23 @@ msgstr ""
 #: licenses/templates/includes/cc_site_footer.html:25
 #: licenses/templates/includes/cc_site_header.html:40
 msgid "Contact"
-msgstr ""
+msgstr "יצירת קשר"
 
 #: licenses/templates/includes/cc_site_footer.html:26
 msgid "Privacy"
-msgstr ""
+msgstr "פרטיות"
 
 #: licenses/templates/includes/cc_site_footer.html:27
 msgid "Policies"
-msgstr ""
+msgstr "מסמכי מדיניות"
 
 #: licenses/templates/includes/cc_site_footer.html:28
 msgid "Terms"
-msgstr ""
+msgstr "תנאים"
 
 #: licenses/templates/includes/cc_site_footer.html:35
 msgid "We'd love to hear from you!"
-msgstr ""
+msgstr "נשמח לשמוע ממך!"
 
 #: licenses/templates/includes/cc_site_footer.html:44
 msgid "Frequently Asked Questions"
@@ -108,27 +108,28 @@ msgstr "שאלות ותשובות"
 
 #: licenses/templates/includes/cc_site_header.html:11
 msgid "Menu"
-msgstr ""
+msgstr "תפריט"
 
 #: licenses/templates/includes/cc_site_header.html:16
 #: licenses/templates/includes/cc_site_header.html:27
 msgid "Share your work"
-msgstr ""
+msgstr "שיתוף העבודה שלך"
 
 #: licenses/templates/includes/cc_site_header.html:17
 #: licenses/templates/includes/cc_site_header.html:28
 msgid "Use &#038; remix"
-msgstr ""
+msgstr "שימוש וערבוב"
 
 #: licenses/templates/includes/cc_site_header.html:18
 #: licenses/templates/includes/cc_site_header.html:29
-msgid "What We do"
-msgstr ""
+#: licenses/templates/includes/footer.html:40
+msgid "What we do"
+msgstr "מה אנחנו עושים"
 
 #: licenses/templates/includes/cc_site_header.html:19
 #: licenses/templates/includes/cc_site_header.html:30
 msgid "Blog"
-msgstr ""
+msgstr "בלוג"
 
 #: licenses/templates/includes/cc_site_header.html:20
 #: licenses/templates/includes/cc_site_header.html:37
@@ -137,7 +138,7 @@ msgstr ""
 
 #: licenses/templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
-msgstr ""
+msgstr "חיפוש ב־Commons"
 
 #: licenses/templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
@@ -153,15 +154,15 @@ msgstr ""
 
 #: licenses/templates/includes/cc_site_header.html:46
 msgid "Facebook"
-msgstr ""
+msgstr "פייסבוק"
 
 #: licenses/templates/includes/cc_site_header.html:47
 msgid "Twitter"
-msgstr ""
+msgstr "טוויטר"
 
 #: licenses/templates/includes/cc_site_header.html:48
 msgid "Mail"
-msgstr ""
+msgstr "דוא״ל"
 
 #: licenses/templates/includes/deed_body_certification.html:6
 msgid ""
@@ -269,7 +270,7 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
-msgstr ""
+msgstr "מדינות מתפתחות"
 
 #: licenses/templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
@@ -537,22 +538,25 @@ msgid ""
 "content, and love that it's free for everyone, please consider a donation to "
 "support our work."
 msgstr ""
+"תוכן זה זמין תחת תנאים משפטיים פשוטים בזכות Creative Commons, ארגון ללא "
+"מטרות רווח שמתקיים מתרומות. אם אהבת את התוכן הזה ואת העובדה שהוא חופשי "
+"לכולם, נא לשקול לתרום כדי לתמוך בעבודתנו."
 
 #: licenses/templates/includes/deed_donate_slide.html:8
 msgid "When you share, everyone wins."
-msgstr ""
+msgstr "שיתוף שלך, רווח של כולם."
 
 #: licenses/templates/includes/deed_donate_slide.html:14
 msgid "Contribute today to Creative Commons"
-msgstr ""
+msgstr "תורמים עוד היום ל־Creative Commons"
 
 #: licenses/templates/includes/deed_donate_slide.html:35
 msgid "Amount"
-msgstr ""
+msgstr "סכום"
 
 #: licenses/templates/includes/deed_donate_slide.html:42
 msgid "Donate Now"
-msgstr ""
+msgstr "לתרום כעת"
 
 #: licenses/templates/includes/deprecated.html:7
 #: licenses/templates/includes/disclaimer_40.html:9
@@ -613,10 +617,6 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:39
 msgid "Who We Are"
-msgstr ""
-
-#: licenses/templates/includes/footer.html:40
-msgid "What We Do"
 msgstr ""
 
 #: licenses/templates/includes/footer.html:41
@@ -786,7 +786,7 @@ msgstr ""
 
 #: licenses/templates/includes/skiplink.html:4
 msgid "Skip to content"
-msgstr ""
+msgstr "דילוג לתוכן"
 
 #: licenses/templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
