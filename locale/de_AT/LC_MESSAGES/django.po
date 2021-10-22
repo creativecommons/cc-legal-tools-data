@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 19:18+0000\n"
-"PO-Revision-Date: 2021-07-28 15:04:31+00:00\n"
+"POT-Creation-Date: 2021-10-22 21:10:47+00:00\n"
+"PO-Revision-Date: 2021-10-22 21:16:26+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/de_AT/\n"
 "Language: de_AT\n"
 "MIME-Version: 1.0\n"
@@ -42,24 +42,24 @@ msgstr ""
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
-"it publishes and in those instances will be considered the \"Licensor.\" The "
-"text of the Creative Commons public licenses is dedicated to the public "
+"it publishes and in those instances will be considered the \"Licensor.\" The"
+" text of the Creative Commons public licenses is dedicated to the public "
 "domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
 "the limited purpose of indicating that material is shared under a Creative "
 "Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a href=\"creativecommons.org/policies"
-"\">creativecommons.org/policies</a>, Creative Commons without its prior "
-"written consent including, without limitation, in connection with any "
-"unauthorized modifications to any of its public licenses or any other "
-"arrangements, understandings, or agreements concerning use of licensed "
-"material. For the avoidance of doubt, this paragraph does not form part of "
-"the public licenses."
+"policies published at <a "
+"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
+"Creative Commons without its prior written consent including, without "
+"limitation, in connection with any unauthorized modifications to any of its "
+"public licenses or any other arrangements, understandings, or agreements "
+"concerning use of licensed material. For the avoidance of doubt, this "
+"paragraph does not form part of the public licenses."
 msgstr ""
 
 #: licenses/templates/includes/about_cc.html:22
 msgid ""
-"Creative Commons may be contacted at <a href=\"creativecommons.org"
-"\">creativecommons.org</a>."
+"Creative Commons may be contacted at <a "
+"href=\"creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
 #: licenses/templates/includes/about_cc_and_license.html:6
@@ -169,23 +169,24 @@ msgid ""
 "best of his knowledge, the work of authorship identified is in the public "
 "domain of the country from which the work is published, or (b) hereby "
 "dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover, "
-"dedicates any copyright interest he may have in the associated work, and for "
-"these purposes, is described as a \"dedicator\" below.</p> <p>A certifier "
-"has taken reasonable steps to verify the copyright status of this work. "
-"Certifier recognizes that his good faith efforts may not shield him from "
-"liability if in fact the work certified is not in the public domain.</p> "
-"<p>Dedicator makes this dedication for the benefit of the public at large "
-"and to the detriment of the Dedicator's heirs and successors. Dedicator "
-"intends this dedication to be an overt act of relinquishment in perpetuity "
-"of all present and future rights under copyright law, whether vested or "
-"contingent, in the Work. Dedicator understands that such relinquishment of "
-"all rights includes the relinquishment of all rights to enforce (by lawsuit "
-"or otherwise) those copyrights in the Work.</p> <p>Dedicator recognizes "
-"that, once placed in the public domain, the Work may be freely reproduced, "
-"distributed, transmitted, used, modified, built upon, or otherwise exploited "
-"by anyone for any purpose, commercial or non-commercial, and in any way, "
-"including by methods that have not yet been invented or conceived.</p>"
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:7
@@ -193,18 +194,13 @@ msgid "You are free to:"
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:11
-#, fuzzy
-#| msgid ""
-#| "<strong>to Share</strong> — to copy, distribute and transmit the work"
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr "das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen"
+msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:12
-#, fuzzy
-#| msgid "<strong>to Remix</strong> — to adapt the work"
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "Bearbeitungen des Werkes anfertigen"
+msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:17
 msgid ""
@@ -232,18 +228,15 @@ msgstr ""
 "Sharing oder nicht-kommerzielles Web-Casting)."
 
 #: licenses/templates/includes/deed_body_licenses.html:29
-#, fuzzy
-#| msgid ""
-#| "<strong>to Share</strong> — to copy, distribute and transmit the work"
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr "das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen"
+msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
-"<strong>Share</strong> — copy and redistribute the material in any medium or "
-"format for any purpose, even commercially."
+"<strong>Share</strong> — copy and redistribute the material in any medium or"
+" format for any purpose, even commercially."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:36
@@ -253,8 +246,8 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material "
-"for any purpose, even commercially."
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+" for any purpose, even commercially."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:46
@@ -281,12 +274,13 @@ msgstr "Namensnennung"
 
 #: licenses/templates/includes/deed_body_licenses.html:75
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink"
-"\">appropriate credit</a></span>, provide a link to the license, and <span "
-"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
-"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">indicate if "
-"changes were made</a></span>. You may do so in any reasonable manner, but "
-"not in any way that suggests the licensor endorses you or your use."
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:86
@@ -295,8 +289,8 @@ msgstr "NichtKommerziell"
 
 #: licenses/templates/includes/deed_body_licenses.html:87
 msgid ""
-"You may not use the material for <a href=\"#\" id=\"commercial_purposes_popup"
-"\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:98
@@ -306,8 +300,8 @@ msgstr "Weitergabe unter gleichen Bedingungen"
 #: licenses/templates/includes/deed_body_licenses.html:98
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" class="
-"\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:109
@@ -316,9 +310,9 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:109
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink"
-"\">remix, transform, or build upon</a> the material, you may not distribute "
-"the modified material."
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:120
@@ -353,9 +347,10 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:152
 msgid ""
-"You may not apply legal terms or <a href=\"#\" id="
-"\"technological_measures_popup\" class=\"helpLink\">technological measures</"
-"a> that legally restrict others from doing anything the license permits."
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:159
@@ -365,18 +360,18 @@ msgstr ""
 #: licenses/templates/includes/deed_body_licenses.html:162
 msgid ""
 "You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a href=\"#"
-"\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception or "
-"limitation</a>."
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_licenses.html:165
 msgid ""
-"No warranties are given. The license may not give you all of the permissions "
-"necessary for your intended use. For example, other rights such as <a href="
-"\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink"
-"\">publicity, privacy, or moral rights</a> may limit how you use the "
-"material."
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:7
@@ -400,25 +395,25 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:28
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\" "
-"class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a href=\"https://wiki.creativecommons.org/"
-"Frequently_Asked_Questions#When_are_publicity_rights_relevant\" class="
-"\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:32
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" id=\"moral_rights"
-"\">moral rights</a> of the author may persist beyond the term of copyright. "
-"These rights may include the right to be identified as the author and the "
-"right to object to derogatory treatments."
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:34
@@ -430,9 +425,9 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_mark.html:36
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" class="
-"\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the person "
-"who identified the work."
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_unimplemented.html:7
@@ -450,8 +445,8 @@ msgstr ""
 msgid ""
 "The person who associated a work with this deed has <b>dedicated</b> the "
 "work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights, "
-"to the extent allowed by law."
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_zero.html:13
@@ -464,9 +459,9 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a href=\"https://wiki.creativecommons.org/"
-"Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\" class="
-"\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_zero.html:26
@@ -478,8 +473,8 @@ msgstr ""
 
 #: licenses/templates/includes/deed_body_zero.html:27
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" class="
-"\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
 
@@ -492,8 +487,8 @@ msgid ""
 "The use of a work free of known copyright restrictions may be otherwise "
 "regulated or limited. The work or its use may be subject to personal data "
 "protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or "
-"limitations under applicable law."
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
 msgstr ""
 
 #: licenses/templates/includes/deed_body_zero.html:35
@@ -537,8 +532,8 @@ msgstr ""
 msgid ""
 "This content is freely available under simple legal terms because of "
 "Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to "
-"support our work."
+"content, and love that it's free for everyone, please consider a donation to"
+" support our work."
 msgstr ""
 
 #: licenses/templates/includes/deed_donate_slide.html:8
@@ -566,9 +561,9 @@ msgstr "Haftungsbeschränkung"
 
 #: licenses/templates/includes/deprecated.html:9
 msgid ""
-"Creative Commons has <a href=\"http://creativecommons.org/retiredlicenses"
-"\">retired this legal tool</a> and does not recommend that it be applied to "
-"works."
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
 msgstr ""
 
 #: licenses/templates/includes/disclaimer_40.html:11
@@ -589,8 +584,8 @@ msgstr ""
 #: licenses/templates/includes/disclaimer_certification.html:10
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
-"the US. For dedicating new works to the public domain, we recommend <a href="
-"\"/choose/zero/\">CC0</a>."
+"the US. For dedicating new works to the public domain, we recommend <a "
+"href=\"/choose/zero/\">CC0</a>."
 msgstr ""
 
 #: licenses/templates/includes/disclaimer_zero.html:11
@@ -600,12 +595,12 @@ msgid ""
 "of some of its key terms. Think of it as the user-friendly interface to the "
 "CC0 Legal Code beneath. This Deed itself has no legal value, and its "
 "contents do not appear in CC0. </p> <p> Creative Commons is not a law firm "
-"and does not provide legal services. Distributing, displaying, or linking to "
-"this Commons Deed does not create an attorney-client relationship. </p> <p> "
-"Creative Commons has not verified the copyright status of any work to which "
-"CC0 has been applied. CC makes no warranties about any work or its copyright "
-"status in any jurisdiction, and disclaims all liability for all uses of any "
-"work. </p>"
+"and does not provide legal services. Distributing, displaying, or linking to"
+" this Commons Deed does not create an attorney-client relationship. </p> <p>"
+" Creative Commons has not verified the copyright status of any work to which"
+" CC0 has been applied. CC makes no warranties about any work or its "
+"copyright status in any jurisdiction, and disclaims all liability for all "
+"uses of any work. </p>"
 msgstr ""
 
 #: licenses/templates/includes/disclaimer_zero.html:15
@@ -613,8 +608,9 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
-"Dies ist eine allgemeinverständliche Zusammenfassung des <a href=\"./"
-"legalcode\">Lizenztextes (lesen Sie hier den vollständigen Text)</a>."
+"Dies ist eine allgemeinverständliche Zusammenfassung des <a "
+"href=\"./legalcode\">Lizenztextes (lesen Sie hier den vollständigen "
+"Text)</a>."
 
 #: licenses/templates/includes/footer.html:39
 msgid "Who We Are"
@@ -634,13 +630,14 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:58
 msgid ""
-"Except where otherwise <a href=\"https://creativecommons.org/policies#license"
-"\" target=\"_blank\" rel=\"noopener\">noted</a>, content on this site is "
-"licensed under a <a href=\"https://creativecommons.org/licenses/by/4.0/\" "
-"target=\"_blank\" rel=\"noopener\">Creative Commons Attribution 4.0 "
-"International license</a>. <a href=\"https://creativecommons.org/website-"
-"icons\" target=\"_blank\" rel=\"noopener\">Icons</a> by <a href=\"https://"
-"fontawesome.com/\" target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
+"Except where otherwise <a "
+"href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
+"rel=\"noopener\">noted</a>, content on this site is licensed under a <a "
+"href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" "
+"rel=\"noopener\">Creative Commons Attribution 4.0 International license</a>."
+" <a href=\"https://creativecommons.org/website-icons\" target=\"_blank\" "
+"rel=\"noopener\">Icons</a> by <a href=\"https://fontawesome.com/\" "
+"target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
 msgstr ""
 
 #: licenses/templates/includes/footer.html:76
@@ -818,13 +815,13 @@ msgid ""
 "public permission to use material in ways otherwise restricted by copyright "
 "and certain other rights. Our licenses are irrevocable. Licensors should "
 "read and understand the terms and conditions of the license they choose "
-"before applying it. Licensors should also secure all rights necessary before "
-"applying our licenses so that the public can reuse the material as expected. "
-"Licensors should clearly mark any material not subject to the license. This "
-"includes other CC-licensed material, or material used under an exception or "
-"limitation to copyright. <a href=\"https://wiki.creativecommons.org/wiki/"
-"Considerations_for_licensors_and_licensees#Considerations_for_licensors"
-"\">More considerations for licensors.</a>"
+"before applying it. Licensors should also secure all rights necessary before"
+" applying our licenses so that the public can reuse the material as "
+"expected. Licensors should clearly mark any material not subject to the "
+"license. This includes other CC-licensed material, or material used under an"
+" exception or limitation to copyright. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
+" considerations for licensors.</a>"
 msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:30
@@ -838,8 +835,8 @@ msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:32
 msgid ""
-"By using one of our public licenses, a licensor grants the public permission "
-"to use the licensed material under specified terms and conditions. If the "
+"By using one of our public licenses, a licensor grants the public permission"
+" to use the licensed material under specified terms and conditions. If the "
 "licensor’s permission is not necessary for any reason–for example, because "
 "of any applicable exception or limitation to copyright–then that use is not "
 "regulated by the license. Our licenses grant only permissions under "
@@ -848,10 +845,9 @@ msgid ""
 "including because others have copyright or other rights in the material. A "
 "licensor may make special requests, such as asking that all changes be "
 "marked or described. Although not required by our licenses, you are "
-"encouraged to respect those requests where reasonable. <a href=\"https://"
-"wiki.creativecommons.org/wiki/"
-"Considerations_for_licensors_and_licensees#Considerations_for_licensees"
-"\">More considerations for the public.</a>"
+"encouraged to respect those requests where reasonable. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
+" considerations for the public.</a>"
 msgstr ""
 
 #: licenses/templates/legalcode.html:21
