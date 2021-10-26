@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="eu">
+ <head about=" ">
+  <meta charset="utf-8"/>
+  <title>
+   Aitortu-PartekatuBerdin 3.0 Espainia Legal Code — Creative Commons
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="" name="description"/>
+  <meta content="" name="author"/>
+  <meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="" name="keywords"/>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.1/css/vocabulary.css" rel="stylesheet"/>
+ </head>
+ <body typeoff="cc:License">
+  <style>
+   svg { height: 73px; }
+  </style>
+  <header>
+   <nav class="navbar">
+    <div class="navbar-brand">
+     <a class="has-text-black" href="https://creativecommons.org" id="cc-logo" rel="home">
+      <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
+       <!-- Automatically finds ID amongst all assets loaded using `patchAssetIntoDom()` -->
+       <use href="#logomark">
+       </use>
+      </svg>
+     </a>
+     <a aria-expanded="false" aria-label="menu" class="navbar-burger is-active" role="button">
+      <span aria-hidden="true">
+      </span>
+      <span aria-hidden="true">
+      </span>
+      <span aria-hidden="true">
+      </span>
+     </a>
+    </div>
+    <div class="navbar-menu is-active">
+     <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+       <a class="navbar-link is-arrowless">
+        Who We Are
+        <i class="icon caret-down">
+        </i>
+       </a>
+       <div class="navbar-dropdown">
+        <a class="navbar-item">
+         Item 1
+        </a>
+        <a class="navbar-item">
+         Item 2
+        </a>
+        <a class="navbar-item">
+         Item 3
+        </a>
+       </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+       <a class="navbar-link is-arrowless">
+        What We Do
+        <i class="icon caret-down">
+        </i>
+       </a>
+       <div class="navbar-dropdown">
+        <a class="navbar-item">
+         Item 1
+        </a>
+        <a class="navbar-item">
+         Item 2
+        </a>
+        <a class="navbar-item">
+         Item 3
+        </a>
+       </div>
+      </div>
+      <a class="navbar-item">
+       Our Impact
+       <i class="icon external-link">
+       </i>
+      </a>
+      <a class="navbar-item">
+       News
+      </a>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <style>
+   html[dir="rtl"] .has-dropdown .navbar-link {
+      flex-direction: row-reverse;
+  }
+
+  html[dir="rtl"] .navbar-end {
+      margin-right: auto;
+      margin-left: 0;
+      justify-content: flex-start;
+  }
+  </style>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Joan edukira
+    </a>
+    <style>
+     a.skip-link {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-link:focus, a.skip-link:active {
+    color: black;
+    font-weight: bolder;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+    </style>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Hasiera
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/">
+        Licenses
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/by-sa/3.0/es/legalcode.eu">
+        CC BY-SA 3.0 ES Kode Legala
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="legalcode.oc-aranes" id="option-oc-aranes" value="oc-aranes">
+         aranés
+        </option>
+        <option data-link="legalcode.ast" id="option-ast" value="ast">
+         asturianu
+        </option>
+        <option data-link="legalcode.ca" id="option-ca" value="ca">
+         català
+        </option>
+        <option data-link="legalcode.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="legalcode.eu" id="option-eu" selected="" value="eu">
+         euskara
+        </option>
+        <option data-link="legalcode.gl" id="option-gl" value="gl">
+         galego
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script>
+     const select = document.getElementById("languages-dropdown")
+
+  select.addEventListener("input", function () {
+    const language_code = select.value
+    const option = document.getElementById("option-" + language_code)
+    window.location.href = option.dataset.link
+  })
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="columns">
+     <div class="column is-one-quarter">
+     </div>
+     <div class="column columns padding-vertical-normal">
+      <div class="column is-three-quarters padding-top-normal">
+       Version 3.0 •
+      See the
+       <a href="https://creativecommons.org/legal-code-errata/">
+        errata page
+       </a>
+       for any corrections and the date of change
+      </div>
+      <div class="column">
+       <button class="button tiny is-pulled-right" data-href="deed.eu" id="next-btn">
+        See the deed
+       </button>
+      </div>
+     </div>
+    </div>
+    <div class="columns">
+     <div class="column">
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
+       <h2 class="is-vcentered">
+        <span class="padding-right-bigger">
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+        </span>
+        CC BY-SA 3.0 ES
+       </h2>
+       <h1 class="b-header">
+        Aitortu-PartekatuBerdin 3.0 Espainia
+       </h1>
+      </div>
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
+       <h2 class="has-text-centered">
+        <span>
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+        </span>
+       </h2>
+       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
+        CC BY-SA 3.0 ES
+       </h2>
+       <h3 class="has-text-centered is-hidden-touch">
+        CC BY-SA 3.0 ES
+       </h3>
+       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
+        CC BY-SA 3.0 ES
+       </h4>
+       <h2 class="b-header has-text-centered">
+        Aitortu-PartekatuBerdin 3.0 Espainia
+       </h2>
+      </div>
+      <style>
+       #licenses-header {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+      </style>
+      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
+       <div id="plain-text-marker">
+        <h3 class="padding-bottom-normal b-header">
+         Aitortu-PartekatuBerdin 3.0 Espainia
+        </h3>
+        <div id="deed-main-content">
+         <blockquote>
+          CREATIVE COMMONS CORPORATION EZ DA LEGELARI BULEGO BAT ETA EZ DU ZERBITZU JURIDIKORIK ESKAINTZEN. BAIMEN HAU BANATZEAK EZ DU LEGELARI/BEZERO     HARREMANIK SORTZEN. CREATIVE COMMONS-EK INFORMAZIO HAU DAGOEN-DAGOEN ESKAINTZEN DU. CREATIVE COMMONS-EK EZ DU BERMERIK ESKAINTZEN EMANDAKO INFORMAZIOAZ, ETA EZ DU ERANTZUKIZUNIK HARTZEN HURA ERABILITA SOR DAITEZKEEN KALTEEN GAINEAN.
+         </blockquote>
+         <h3>
+          <em>
+           Baimena
+          </em>
+         </h3>
+         <p>
+          LANA EDO PRESTAZIOA (AURRERAGO DAUDE DEFINIZIOAK) CREATIVE COMMONS-EN BAIMEN PUBLIKO (
+          <strong>
+           <em>
+            CCPL
+           </em>
+          </strong>
+          <strong>
+           <em>
+            BAIMENA
+           </em>
+          </strong>
+          ) HONEN BALDINTZAPEAN ESKAINTZEN DA. LANA EDO PRESTAZIOA ESPAINIAKO JABETZA INTELEKTUALAREN LEGEAREN ETA EZARGARRI DIREN GAINERAKO ARAUEN BABESEAN DAUDE. DEBEKATURIK DAGO LAN EDO PRESTAZIO HAU ERABILTZEA BAIMEN HONETAN ONETSITAKOAZ EDOTA JABETZA INTELEKTUALAREN LEGEETAN XEDATUTAKOAZ KANPOKO BESTE EZERTARAKO.
+         </p>
+         <p>
+          LANAREN EDO PRESTAZIORAREN GAINEKO EDOZEIN ESKUBIDE ERABILIZ GERO, BAIMEN HONEN MUGAK ETA BETEBEHARRAK ONARTZEN ETA BAIESTEN DITUZU, BAZTERREAN UTZI GABE BERARIAZKO BAIMENTZEA, BAIMENA ALDEZ AURRETIK URRATUZ GERO. BAIMENDUNAK BAIMEN HONEN MENDE DIREN ESKUBIDEAK LAGATZEN DIZKIZU, ZUK BALDINTZA ETA BETEBEHAR HAUEK ONARTZEN BADITUZU.
+         </p>
+         <p>
+          <strong>
+           1. Definizioak
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           <strong>
+            <em>
+             Lana
+            </em>
+           </strong>
+           da baimen honen baldintzapean eskaintzen den literatur, arte edo zientzia sorkaria.
+          </li>
+          <li>
+           Baimen honetan
+           <strong>
+            <em>
+             prestaziotzat
+            </em>
+           </strong>
+           jotzen da edozein interpretazio, joaldi, fonograma, ikus-entzunezko grabazio, emanaldi, transmisio, argazki edota jabetza intelektualaren legeak babestutako beste edozein objektu.
+          </li>
+          <li>
+           Baimen hau
+           <strong>
+            <em>
+             bilduma
+            </em>
+           </strong>
+           batean (aurrerago dago definizioa) ezartzean denean, edukien antolaera edo hautapena adierazteko eraren egiturari eragingo dio, baina ez die edukiei eragingo. Halakoetan, bilduma hartuko da lantzat baimen honen ondorioetarako.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Jatorrizko jabea
+            </em>
+           </strong>
+           da:
+           <ol type="i">
+            <li>
+             literatur, arte edo zientzia sorkarien kasuan, lana sortu zuen gizabanakoa edo pertsona multzoa.
+            </li>
+            <li>
+             lan kolektiboen kasuan, bere izenpean editatu eta hedatzen duen pertsona, besterik ituntzen ez bada.
+            </li>
+            <li>
+             interpretazio edo joaldi baten kasuan, antzezlaria, musikaria edo obra bat edozein eratan antzeztu, abestu, irakurri, interpretatu edo jotzen         duen pertsona.
+            </li>
+            <li>
+             fonograma baten kasuan, ekoizle fonografikoa, hau da, lan baten edo era guztietako hotsen joaldi baten finkatze soilik soinuduna lehen aldiz egiteko ekimena eta erantzukizuna hartu duen pertsona natural edo juridikoa.
+            </li>
+            <li>
+             ikus-entzunezko grabazioen kasuan, grabazioaren ekoizlea, hau da, plano bat edo irudi sekuentzia bat, soinuaz edo soinurik gabe, finkatzeko ekimena eta erantzukizuna hartu duen pertsona natural edo juridikoa.
+            </li>
+            <li>
+             emanaldi edo transmisioen kasuan, irrati emailea.
+            </li>
+            <li>
+             argazki hutsen kasuan, egilea den pertsona.
+            </li>
+            <li>
+             jabetza intelektualaren legeak babestutako beste edozein objekturen kasuan, legeak xedatzen duen pertsona.
+            </li>
+           </ol>
+          </li>
+          <li>
+           <strong>
+            <em>
+             Lan eratorritzat
+            </em>
+           </strong>
+           joko dira lan baimendunetik abiatuta sortutakoak, besteak beste: itzulpenak eta egokitzapenak; berrikuspenak, eguneratzeak eta oharpenak; bildumak, laburpenak eta aterakinak; musika moldaketak eta, orobat, literatur, arte edo zientzia lan baten eraldaketa oro. Zalantzarik egon ez dadin, lana baldin bada musika konposizioa eta soinu grabaketa, lan hori mugimenduzko irudiekin denboraz sinkronizatzea lan eratorritzat joko da baimen honen ondorioetarako.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Bildumatzat
+            </em>
+           </strong>
+           hartuko dira besteren lanen bildumak, datuzkoak edo bestelako elementu lokabezkoak, hala nola antologiak edota datu baseak, edukien hautapenagatik edo antolaeragatik sorkari intelektualak baldin badira. Lan bat bilduma baten barruan sartze hutsak ez du lan eratorririk sortuko baimen honen.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Baimenduna
+            </em>
+           </strong>
+           da lana edo prestazioa baimen honen baldintzapean eskaintzen duen pertsona edo erakundea, eta ustiapen-eskubideak lagatzen dituena hemen xedatutakoaren arabera.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Zu
+            </em>
+           </strong>
+           zara baimen honen bitartez lagatako eskubideak erabiltzen dituen pertsona edo erakundea eta aurrez lanari edo prestazioari buruz baimenaren baldintzak urratu ez dituena, edota baimendunaren berariazko onespena jaso duena baimen honen bitartez lagatako eskubideak erabiltzeko, nahiz aurretik urraketa egina izan.
+          </li>
+          <li>
+           Lanaren
+           <strong>
+            <em>
+             eraldatzea
+            </em>
+           </strong>
+           da itzultzea, egokitzea edota forma beste edonola aldatzea, nondik sortzen baita beste lan berri bat. Lan baten eraldaketa bidez gauzatzen den sorkaria lan eratorritzat joko da.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Erreprodukziotzat
+            </em>
+           </strong>
+           hartuko da lana edo prestazioa hedatzeko edo kopiak egiteko aukera ematen duen euskarri batean zuzenean nahiz zeharka finkatzea, behin-behin-behinekoz edo betirako, edozein bitarteko edo formatan delarik ere.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Banaketatzat
+            </em>
+           </strong>
+           hartzen da jendearen eskura jartzea lanaren edo prestazioaren jatorrizkoa nahiz kopiak, euskarri ukigai batean, salmenta, alokatze, mailegu edo beste edozein bidez.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Jendaurreko hedapentzat
+            </em>
+           </strong>
+           hartuko dira lana edo prestazioa jendaurrean, hedapena egiten duen pertsonaren etxekoen aurrean ez bada erakusteko egintza guztiak, pertsona bakoitzari lanaren edo prestazioaren ale bana aurrez eman behar izanik gabe. Jendaurreko hedapentzat joko da lana edo prestazioa jendearen eskura ipintzea bitarteko haridun nahiz hari gabekoen bidez, eta horren barnean izango da lana jendearen esku jartzea, jendeak nahi duen lekutik eta nahi duenean eskuratzeko moduan.
+          </li>
+          <li>
+           Lana edo prestazioa
+           <strong>
+            <em>
+             ustiatzea
+            </em>
+           </strong>
+           da erreproduzitzea, banatzea, jendaurrean hedatzea eta eraldatzea.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Baimenaren osagaiak
+            </em>
+           </strong>
+           dira baimenaren ezaugarri nagusiak, baimendunak egindako hautapenaren araberakoak eta baimen honen izenburuan ageri direnak: Aitortu, PartekatuBerdin.
+          </li>
+          <li>
+           <strong>
+            <em>
+             Baimen baliokide
+            </em>
+           </strong>
+           bat da:
+           <ol type="i">
+            <li>
+             Creative Commons-en baimen honen geroagoko bertsio bat, baimenaren osagai berberak dituena.
+            </li>
+            <li>
+             Creative Commons-ek onartutako edozein eskumenek emandako baimenaren bertsio bera edo geroagokoa, baimenaren osagai berberak dituena (adibidez: Aitortu-PartekatuBerdin 3.0 Japonia).
+            </li>
+            <li>
+             Baimen honen bertsio bera edo geroagokoa, Creative Commons-en lege testua eskumen jakin batera egokitu gabekoa (
+             <em>
+              Unported
+             </em>
+             ), baimenaren osagai berberak dituena.
+            </li>
+            <li>
+             Baimen bateragarrietako bat, https://creativecommons.org/compatiblelicenses webgunean agertzen denaren arabera, eta Creative Commons-ek onartutakoa baimen honen baliokide gisa, gutxienez osagai hauek dituenez:
+             <ol type="a">
+              <li>
+               Baimen honen xede, esanahi eta ondorio berdineko terminoak ditu.
+              </li>
+              <li>
+               Haien mende diren lanetatik eratorritako lanak berariaz baimentzen ditu baimen honen edota Creative Commons-en lege testua eskumen jakin batera egokitu gabekoa (
+               <em>
+                Unported
+               </em>
+               ) eta Creative Commons-ek onartutako edozein eskumenek emandako baimen osagai berberak dituenaren bitartez hedatuak izan daitezen.
+              </li>
+             </ol>
+            </li>
+           </ol>
+          </li>
+         </ol>
+         <strong>
+          2. Eskubideen mugak.
+         </strong>
+         Baimen honetan ez dira ezertan mugatu edo gutxitu nahi jabetza intelektualaren eskubideen jabeak, Jabetza Intelektualaren Legearen arabera edota aplikagarri den beste edozein legeren arabera, bereak baino ez dituen eskubideen legezko mugak, berdin dio muga horiek erabilera zilegien ondorio izan, adibidez kopia pribatuaren eskubidearena edo aipamen eskubidearena, edo bestelako mugakizunen ondorio izan, hala nola aleen lehen salmentarena (agortzea).
+         <p>
+          <strong>
+           3.  Baimen ematea.
+          </strong>
+          Baimen honetan adierazten diren betebehar eta baldintzen arabera, baimendunak mundu osoaren esparruko baimen ez esklusiboa ematen du, jabetza intelektualaren eskubideen indarraldi osorako eta trukean ordainsari gabe, eskubide hauen lagapena eginez:
+         </p>
+         <ol type="a">
+          <li>
+           Lana edo prestazioa erreproduzitu, banatu eta jendaurrean hedatzeko eskubidea.
+          </li>
+          <li>
+           Lana edo prestazioa bilduma batean nahiz gehiagotan txertatzeko eskubidea.
+          </li>
+          <li>
+           Baimen batean legez txertatutako lana edo prestazioa erreproduzitu, banatu eta jendaurrean hedatzeko eskubidea.
+          </li>
+          <li>
+           Lana eraldatzeko eskubidea lan eratorri bat sortzeko, betiere lan eratorrian azaltzen baldin bada egindako eraldaketa edo aldaketaren berri.
+          </li>
+          <li>
+           Baimendutako lanetik abiatuta sortuako lan eratorriak erreproduzitu, banatu eta jendaurrean hedatzeko eskubidea.
+          </li>
+          <li>
+           Lana edo prestazioa datu base batetik erauzi eta berrerabitzeki eskubidea
+          </li>
+          <li>
+           Zalantzarik egon ez dadin, jatorrizko jabeak:
+           <ol type="i">
+            <li>
+             lana edo prestazioa ustiatzeko ekintzen truke dagozkion ordainsariak edo kalte-ordainak jasotzeko eskubidea gordetzeko du, legeak lagaezintzat         eta besterenezintzat jotzen dituen guztietan, eta nahitaezko kudeaketa kolektiboaren mende daudenetan.
+            </li>
+            <li>
+             uko egiten dio lanaz edo prestazioaz zuk egiten dituzun ustiapen ekintzen truke inolako ordainsaririk jasotzeko bakarreko eskubideari, nahiz     bakarka, nahiz eskubideen kudeatze kolektiboko entitateen bitartez.
+            </li>
+           </ol>
+          </li>
+         </ol>
+         <p>
+          Adierazitako eskubide horiek bitarteko eta formatu guztien bidez erabil daitezke, ukigarriak nahiz ukiezinak izan, baimen hau ematerakoan ezagun direnen arabera. Aipatutako eskubide horien barruan dago behar diren aldaketa teknikoak egiteko eskubidea, beste bitarteko eta formatuetan erabili ahal izateko eskubideok. Baimendunak berariaz lagatzen ez dituen eskubide guztiak erreserbatu egiten dira, barne direla, azalpen gisara baina ez hartara mugatuta, legeetan aitortutako eskubide moral lagaezinak. Datu baseen gaineki
+          <em>
+           sui generis
+          </em>
+          eskubideei buruzko Europako arteztaraua gauzatzen duen lege nazionalaren arabera, bakarreko eskubideak badagozkio baimendunari, uko egiten eskubide horiei.
+         </p>
+         <p>
+          <strong>
+           4. Murrizketak.
+          </strong>
+          Baimen honek ematen duen eskubide-lagapena murrizketa hauen mende dago mugatua:
+         </p>
+         <ol type="a">
+          <li>
+           Baimen honen baldintzen pean soilik erreproduzitu, banatu edo jendaurrean hedatu dezakezu lana edo prestazioa, eta baimenaren kopia edota URIa (Uniform Resource Identifier) erantsi behar diozu. Ezin duzu lanaren edo prestazioaren gainean baldintzarik eskani edo ezarri, baimen honetako baldintzak edot lagapen-hartzaileen eskubide erabilera ezertan aldatu edo murrizten baditu. Ezin duzu lana edo prestazioa birbaimendu. Oso-osorik gorde behar dituzu baimen honi buruzko eta berme ezari buruzko ohar guztiak. Ezin duzu lana edo prestazioa erreproduzitu, banatu edo jendaurrean hedatu lanaren eskuratzea edo erabilera baimen honetako baldintzen aurka kontrolatzen duten bitarteko teknologikoez. Bilduma batean txertatutako lanari edo prestazioari ere eragiten dio 4.a atal honek, baina horrek ez du esan nahi bilduma osorik baimen honen mende gelditzen edo gelditu behar besterik gabe. Eskatzen bazaizu, baimendunak hala adierazita, lana edo prestazioa bilduma batean txertatzen baduzu edota lan eratorri bat sortzen baduzu, kendu beharko dituzu 4.c paragrafoan eskatzen diren kredituak, ahal duzun neurrian.
+          </li>
+          <li>
+           Lan eratorri bat banatu edo jendaurrean hedatu dezakezu, baimen honen ildoan, soil-soilik baimen honen edota bere baliokideren baten pean. Baimen hau bera erabiltzen baduzu, kopia bat edo bere URIa sartu behar duzu, banatzen edo jendaurrean hedatzen duzun lan eratorri bakoitzarekin batera. Ezin duzu lan eratorriaren gainean baldintzarik eskaini edo ezarri, baimen honetako baldintzak edota lagapen-hartzaileen eskubide erabilera ezertan aldatu edo murrizten baditu. Oso-osorik gorde behar dituzu baimen honi buruzko eta berme ezari buruzko ohar guztiak, lan eratorria banatu edo jendaurrean hedatzen duzunean. Ezin duzu lan eratorrien edo eraldatuen gainean baldintzarik eskaini edo ezarri, baimen honetako baldintzak edota lagapen-hartzaileen eskubide erabilera ezertan aldatu edo murrizten baditu. Ezin duzu lan eratorria erreproduzitu, banatu edo jendaurrean hedatu lanaren eskuratzea edo erabilera baimen honetako baldintzen aurka kontrolatzen duten bitarteko teknologikoez. Baimen baliokide bat erabiltzen baduzu, haren baldintzak bete behar dituzu lan eratorria banatu edo jendaurrean hedatzen duzunean. Baldintza horiek guztiak lan eratorri bati aplikatzen zaizkio bilduma baten parte den heinean, baina horrek ez du esan nahi bilduma baimen honen mende gelditu behar denik.
+          </li>
+          <li>
+           Lana edo prestazioa, nahiz hura jasotzen duen bilduma bat edo eratorriako lanen bat erreproduzitu, banatu eta jendaurrean hedatzen baduzu, ukitu gabe gorde behar dituzu jabetza intelektuari buruzko ohar guztiak, eta erabitzen ari zaren bitartekoen arabera, arrazoizko eran adierazi:
+           <ol type="i">
+            <li>
+             jatorrizko egilearen izena, edo goitizen behar bada, baita jatorrizko jabearena ere, horren berri ematen badizute;
+            </li>
+            <li>
+             jatorrizko jabeak edo baimendunak lege-oharrean, erabilera baldintzetan edota beste arrazoizko atalen batean jaso beharrekotzat izendatzen dituzten aldeen izenak (adibidez: erakundea, argitalpena, aldizkaria);
+            </li>
+            <li>
+             lanaren edo prestazioaren izenburua, horren berri ematen badizute;
+            </li>
+            <li>
+             baimendunak zehaztutakoaren arabera, lanari edo prestazioari estekatzeko URIa, non eta URI horrek ez duen zer ikusirik lege-oharrarekin edo lanaren edo prestazioaren baimen argibideekin;
+            </li>
+            <li>
+             lan eratorrian kasuan, lanak izandako eraldaketa zehazten duen oharra (adibidez, «Jatorrizko Egilearen lana euskaratuta» edo «Jatorrizko Egilearen lanean oinarritutako gidoia»).
+            </li>
+           </ol>
+           Aitorpen hori zentzuzko eran egin behar da. Lan eratorrietan edo bilduma batean txertatua denean, aitorpena agertu behar da, gutxienik, beste egile edo jabeen aipamenak ageri diren leku berean eta era berdintsuan. Zalantzarik ez izateko, atal honetan eskatzen diren kredituak erabili behar dira, soil-solik, lanaren edo prestazioaren aitorpena egiteko, arestian zehaztutako eran. Aldez aurretik idatzko baimena izan ezik, zuk ezin duzu baieztatu edo era inplizitu nahiz esplizituan aditzera eman jatorrizko jabearekiko, baimendunarekiko edota aitortutako aldeekiko inolako lotura, babes edo onarpenik duzunik, ez zuk, ez lanaz edo prestazioaz egiten duzun erabilerak.
+          </li>
+          <li>
+           Zalantzarik ez izateko, nabarmendu behar da aurreko murrizketak (4.a, 4.b eta 4.c atalak) ez zaizkiela aplikatzen datu basen gaineko
+           <i>
+            sui generis
+           </i>
+           eskubideei buruzko Europako arteztaraua gauzatzen duen lege nazionalaren indarrez baskarrik babes daitezkeen lanaren edo prestazioaren zatiei.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           5. Erantzukizunei uko egitea
+          </strong>
+         </p>
+         <p>
+          BAIMENDUNAK LANA EDO PRESTAZIOA DAGOEN-DAGOEN ESKAINTZEN DU, ALDEEK BESTERIK ELKAR HARTZEN EZ DUTEN BITARTEAN, ETA EZ DU INOLAKO BERMERIK EMATEN LANARI EDO PRESTAZIOARI BURUZ EDOTA BERTAN EGON DAITEZKEEN AKATSEZ, ATZEMANAK IZAN EDO EZ. JURISDIKZIO BATZUETAN EZIN DIRA BERME HORIEK SALBUETSI, ETA AGIAN SALBUESPEN HORI EZ DA ZURETZAT APLIKAGARRI IZANGO.
+         </p>
+         <p>
+          <strong>
+           6. Erantzukizuna mugatzea.
+          </strong>
+         </p>
+         <p>
+          APLIKATZEKOA DEN LEGEAK BERARIAZ ETA AGINDUZ HALA XEDATZEN EZ BADU, BAIMENDUNA EZ DA ZUREKIKO ERANTZULE IZANGO SORTUTAKO KALTEENGATIK, DIRELA OROKORRAK, DIRELA BEREZIAK (BARNE DIRA SORTUTAKO KALTEAK ETA ESKURATU GABEKO IRABAZIAK), HALABEHARREZKOAK ZEIN USTEKABEKOAK, ZUZENEKOAK NAHIZ ZEHARKAKOAK, BAIMEN HONI EDO LANAREN EDO PRESTAZIOAREN ERABILERARI LOTURIK SORTUTAKOAK, ARE BAIMENDUNARI KALTE HORIEN AUKERAREN BERRI EMANA BALDIN BAZAIO ERE.
+         </p>
+         <p>
+          <strong>
+           7. Baimen amaiera
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           Baimen hau eta beraren ondorioz lagatako eskubideak beste gabe amaituko dira baimenaren baldintza guztiak betetzen ez badira. Baimen honen mende zuregandik lan eratorriak edo bildumak jaso dituzten pertsonen edo erakundeen baimenak, ordea, ez dira amaituko pertsona edo erakunde horiek baimen honen baldintza guztiak betetzen jarraitzen badute. Baimen honetako 1, 2, 5, 6, 7 eta 8. atalek indarrean jarraituko dute baimen honen indarraldia amaitu arren.
+          </li>
+          <li>
+           Aurreko baldintza eta betebeharren arabera, baimen honen eskubide-lagapena jabetza intelektualaren eskubideen indarraldi osorako da, legeen arabera. Aurrekoa hala izanik ere, baimendunak beretzat gordetzen du lana beste baldintza batzuetan hedatu edo argitaratzeko eskubidea, eta noiznahi aldaratzekoa. Nolanahi den ere, horrek ez du baimen hau amaitutzat harraraziko (ez eta baimen honen baldintzapean emandako edo eman beharreko beste baimenik ere), indarrean jarraituko baitu ondorio guztietarako, aurrez xedatutakoaren arabera amaitzen den arte, jabetza intelektualaren legeak aitortzen duen damuaren eskubide morala baztertu gabe.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           8. Orotarikoa
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           Zuk lana edo prestazioa, edota hura erantsita duen bilduma bat, ustiatzen duzun bakoitzean, jatorrizko baimendunak hirugarren eta hurrengo baimen hartzaileei eskaintzen die lanaren edo prestazioaren gaineko eskubide-lagapena, zuri emandako baimenaren betebehar eta baldintza berberetan.
+          </li>
+          <li>
+           Zuk lan eratorria nolabait ustiatzen duzun bakoitzean, jatorrizko baimendunak hirugarren eta hurrengo baimen hartzaileei eskaintzen die jatorrizko lanaren edo prestazioaren gaineko eskubide-lagapena, zuri emandako baimenaren betebehar eta baldintza berberetan.
+          </li>
+          <li>
+           Baimen honetan jasotako xedapenen bat baliogabea edo aplikaezina baldin bada legearen arabera, horrek ez dio eragingo baimen honetako gainerako baldintzen balioari edo aplikagarritasunari, eta hitzarmen honen aldeek beste ezer egin behar izanik gabe, xedapen hori ezinbestekoa den neurrian birmoldatutzat joko da baliozkoa eta betebeharrekoa izan dadin.
+          </li>
+          <li>
+           Ez da onartuko baimen honen xedapen edo baldintzaren bati uko egiterik, edo hura urratzeko onespenik, uko egite hori edo urratze-onespen hori ez badago idatziz emana, eta uko egiten duen edo onesten duen aldeak izenpetua.
+          </li>
+          <li>
+           Baimen hau aldeen orobateko hitzarmena da, baimenaren gai den lanari edo prestazioari dagokionez. Ez dago lanaren edo prestazioaren gaineko interpretaziorik, adostasunik edo baldintzarik ezartzerik, ez badaude baimen honetan berariaz zehaztuta. Baimenduna ez da zuk berari bidalitako jakinarazpenetan ager daitezkeen xedapen osagarrien mende egongo. Baimen hau ezin da aldatu baimendunaren eta zure arteko adostasun idatziaz ez bada.
+          </li>
+         </ol>
+         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+         <blockquote>
+          <h3>
+           Creative Commons-en oharra
+          </h3>
+          <p>
+           Creative Commons ez da baimen honen partaide eta ez du inolako bermerik eskaintzen lanari edo prestazioari buruz. Creative Commons ez da zurekiko nahiz besterekiko erantzule izango, edozein teoria legalen arabera, sortutako kalteengatik, barne direlarik, baina ez bakarrik, kalte orokor zein bereziak (barne dira sortutako kalteak eta eskuratu gabeko irabaziak), halabeharrezkoak zein ustekabekoak, baimen honi loturik sortutakoak. Aurreko bi (2) perpausetan adierazitakoa hala izanik ere, Creative Commons berariazko baimendun gisa identifikatua baldin bada, baimendunaren eskubide eta betebehar guztiak izango ditu.
+          </p>
+          <p>
+           Lana edo prestazioa Creative Commons-en baimen publikoaren mende baimenduta dagoela jendeari adierazteko xede mugatuaz gain, inork ez du erabiliko «Creative Commons» marka erregistraturik, edo «Creative Commons»-ekin lotutako beste marka erregistratu edo ezaugarririk, hark berariaz onespenik eman gabe. Baimendutako erabilera guztiak «Creative Commons» marka erregistratua erabiltzeko une bakoitzean indarrean diren jarraibideen arabera egingo dira, haren webgunean argitaratu edo aurrez eskaturik ematen diren neurrian. Zalantzarik ez izateko, marka erabiltzeko murrisketa horiek ez dira baimenaren zati.
+          </p>
+          <p>
+           Creative Commons-ekin harremanetan jar zaitezke hemen:
+           <a href="https://creativecommons.org/">
+            https://creativecommons.org/
+           </a>
+           .
+          </p>
+         </blockquote>
+        </div>
+       </div>
+      </div>
+      <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/about/" style="font-weight: bold;">
+            Learn more about our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://creativecommons.org/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="https://chooser-beta.creativecommons.org/" style="font-weight: bold;">
+            Use the license for your own material.
+            <i class="icon external-link padding-bottom-small caption">
+            </i>
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <style>
+     #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+    </style>
+   </section>
+  </main>
+  <footer class="main-footer margin-top-bigger">
+   <div class="container">
+    <div class="columns">
+     <div class="column is-one-quarter">
+      <a class="main-logo margin-bottom-bigger has-text-white" href="https://creativecommons.org" id="cc-footer-logo">
+       <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
+        <use href="#logomark">
+        </use>
+       </svg>
+      </a>
+      <div>
+       <address class="margin-bottom-normal">
+        Creative Commons
+        <br/>
+        PO Box 1866, Mountain View CA 94042
+       </address>
+       <a class="mail" href="mailto:info@creativecommons.org">
+        info@creativecommons.org
+       </a>
+       <br/>
+       <a class="phone" href="tel://+1-415-429-6753">
+        +1-415-429-6753
+       </a>
+      </div>
+      <div class="margin-vertical-large">
+       <a class="social has-text-white" href="https://www.instagram.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         instagram
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.twitter.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         twitter
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.facebook.com/creativecommons" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         facebook
+        </i>
+       </a>
+       <a class="social has-text-white" href="https://www.linkedin.com/company/creative-commons/" rel="noopener" target="_blank">
+        <i class="icon margin-right-small is-size-4">
+         linkedin
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="column is-three-quarters">
+      <div class="columns">
+       <div class="column is-full">
+        <nav class="footer-navigation">
+         <ul class="menu">
+          <li>
+           <a class="menu-item" href="#">
+            Who We Are
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            Zer egiten dugu?
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            Our Impact
+            <i class="icon external-link">
+            </i>
+           </a>
+          </li>
+          <li>
+           <a class="menu-item" href="#">
+            News
+           </a>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+      <div class="columns">
+       <div class="column is-two-thirds">
+        <div class="subscription">
+         <h5 class="b-header">
+          Subscribe to our newsletter
+         </h5>
+         <form class="newsletter">
+          <input class="input" placeholder="Your email" type="text"/>
+          <input class="button small" type="submit" value="subscribe"/>
+         </form>
+        </div>
+        <div class="attribution margin-top-bigger">
+         <p class="caption">
+          Except where otherwise
+          <a href="https://creativecommons.org/policies#license" rel="noopener" target="_blank">
+           noted
+          </a>
+          , content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">
+           Creative Commons Attribution 4.0 International license
+          </a>
+          .
+          <a href="https://creativecommons.org/website-icons" rel="noopener" target="_blank">
+           Icons
+          </a>
+          by
+          <a href="https://fontawesome.com/" rel="noopener" target="_blank">
+           Font Awesome
+          </a>
+          .
+         </p>
+         <div class="margin-top-smaller">
+          <i class="icon margin-right-small is-size-4">
+           cclogo
+          </i>
+          <i class="icon margin-right-small is-size-4">
+           ccby
+          </i>
+         </div>
+        </div>
+       </div>
+       <div class="column is-one-third">
+        <aside class="donate-section">
+         <h5>
+          Our work relies on you!
+         </h5>
+         <p>
+          Help us keep the internet free and open.
+         </p>
+         <a class="button small donate" href="https://creativecommons.org/donate?c_src=website&amp;c_src2=GlobalFooter">
+          <i class="icon cc-letterheart margin-right-small is-size-5 padding-top-smaller">
+          </i>
+          Donate now
+         </a>
+        </aside>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@v2020.11.1/js/vocabulary.js">
+  </script>
+  <script>
+   /**
+    * Get the fully-qualified URL of a Vocabulary asset.
+    *
+    * @param {string} version - the Vocabulary version in which to locate the asset
+    * @param {string} path - the path of the asset being patched
+    * @return {string} the fully qualified URL of the asset
+    */
+    const getFullyQualifiedUrl = (version, path) => {
+    //   let baseUrl = 'https://unpkg.com/@creativecommons/vocabulary'
+      // If you prefer jsDelivr instead, use
+      let baseUrl = 'https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary'
+      return `${baseUrl}@${version}/${path}`
+    }
+
+    /**
+    * Create an invisible container and place the asset into the DOM.
+    *
+    * This function is intended to be used to patch SVG assets that are later
+    * referenced inside `<use>` tags in `<svg>` tags. It can also be used to force
+    * an image to be downloaded to speed up its loading when referenced again.
+    *
+    * @param {string} path - the path of the asset being patched
+    * @param {string} version - the Vocabulary version in which to locate the asset
+    */
+    const patchAssetIntoDom = (path, version = 'latest') => {
+      fetch(getFullyQualifiedUrl(version, path)).then(response => {
+        return response.text()
+      }).then(data => {
+        // Render SVG in the page
+        const logo = document.querySelector('#cc-logo')
+        const footerLogo = document.querySelector('#cc-footer-logo')
+        logo.innerHTML = data;
+        footerLogo.innerHTML = data;
+      })
+    }
+
+    patchAssetIntoDom('assets/logos/cc/logomark.svg');
+
+    /** Next Button On Click Event Listener **/
+    document.getElementById("next-btn").addEventListener("click", function (e) {
+      /**
+      * On click redirect the user to page they are trying to visit
+      * which is stored in the data-href.
+      **/
+      return window.location.href = this.dataset.href
+    })
+  </script>
+  <script>
+   /*
+      Show/Hide Functionality for expand/collapse sections in use_of_licenses.html
+    */
+    let arrowArray = Array.from(document.getElementsByClassName("angle-down"))
+    arrowArray.forEach(function(arrow) {
+      arrow.addEventListener("click", handleArrowClicked);
+    });
+
+    function handleArrowClicked() {
+      // Toggle consideration section's screen reader announcement text (inside of icon)
+      if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+      } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for the Public"
+      } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
+        this.firstChild.innerHTML = "Show Considerations for Licensors"
+      } else {
+        this.firstChild.innerHTML = "Show Considerations for the Public"
+      }
+      // Toggle icon between up and down
+      if (this.dataset.direction === "down") {
+        // toggle icon to up arrow icon
+        this.classList.remove("angle-down")
+        this.classList.add("angle-up")
+        this.dataset.direction = "up"
+        // show <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.remove("is-hidden");
+      } else {
+        // toggle icon to up arrow icon
+        this.classList.add("angle-down")
+        this.classList.remove("angle-up")
+        this.dataset.direction = "down"
+        // hide <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.add("is-hidden");
+      }
+    };
+  </script>
+ </body>
+ <style>
+  body {
+      background-color: rgb(245, 245, 245);
+    }
+    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .breadcrumb li:first-child a {
+      padding-right: 0;
+      padding-left: .5rem;
+    }
+ </style>
+</html>
