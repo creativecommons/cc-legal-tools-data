@@ -21,11 +21,11 @@ msgstr ""
 
 #: licenses/templates/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "ページが見つかりません"
 
 #: licenses/templates/base.html:34
 msgid "Home"
-msgstr ""
+msgstr "ホー厶"
 
 #: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
 msgid "Deed"
@@ -133,7 +133,7 @@ msgstr "ブログ"
 #: licenses/templates/includes/cc_site_header.html:20
 #: licenses/templates/includes/cc_site_header.html:37
 msgid "Global Network"
-msgstr ""
+msgstr "グローバルネットワーク"
 
 #: licenses/templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
@@ -145,11 +145,11 @@ msgstr ""
 
 #: licenses/templates/includes/cc_site_header.html:38
 msgid "Newsletters"
-msgstr ""
+msgstr "ニュースレター"
 
 #: licenses/templates/includes/cc_site_header.html:39
 msgid "Store"
-msgstr ""
+msgstr "ストア"
 
 #: licenses/templates/includes/cc_site_header.html:46
 msgid "Facebook"
@@ -658,11 +658,11 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:42
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #: licenses/templates/includes/footer.html:50
 msgid "Subscribe to our newsletter"
-msgstr ""
+msgstr "ニュースレターを購読する"
 
 #: licenses/templates/includes/footer.html:58
 msgid ""
@@ -686,7 +686,7 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:80
 msgid "Donate now"
-msgstr ""
+msgstr "今すぐ寄付する"
 
 #: licenses/templates/includes/language_selector.html:5
 #: licenses/templates/includes/translations.html:4

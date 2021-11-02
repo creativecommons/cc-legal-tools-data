@@ -21,11 +21,11 @@ msgstr ""
 
 #: licenses/templates/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Pagina niet gevonden"
 
 #: licenses/templates/base.html:34
 msgid "Home"
-msgstr ""
+msgstr "Thuispagina"
 
 #: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
 msgid "Deed"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: licenses/templates/deed.html:15
 msgid "See the legal code"
-msgstr ""
+msgstr "Juridische tekst inzien"
 
 #: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
 msgid "Legal Code"
