@@ -3,13 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2021
+# Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-22 23:51:07+00:00\n"
+"POT-Creation-Date: 2021-10-22 23:26+0000\n"
+"PO-Revision-Date: 2021-10-23 05:54:36+00:00\n"
+"Last-Translator: Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -219,7 +224,7 @@ msgstr "営利目的・非営利目的にかかわらず、サンプリング、
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr "非営利目的（ファイル共有や非営利のウェブキャストなど）で、本作品を複製、頒布、展示、実演することができます．"
+msgstr "非営利目的（ファイル共有や非営利のウェブキャストなど）で、本作品を複製、頒布、展示、実演することができます。"
 
 #: licenses/templates/includes/deed_body_licenses.html:29
 msgid ""
