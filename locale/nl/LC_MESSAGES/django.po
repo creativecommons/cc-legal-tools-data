@@ -3,13 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2021
+# Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-22 23:58:12+00:00\n"
+"PO-Revision-Date: 2021-10-26 10:40:23+00:00\n"
+"Last-Translator: Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/nl/\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +26,11 @@ msgstr ""
 
 #: licenses/templates/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Pagina niet gevonden"
 
 #: licenses/templates/base.html:34
 msgid "Home"
-msgstr ""
+msgstr "Thuispagina"
 
 #: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
 msgid "Deed"
@@ -33,11 +38,11 @@ msgstr ""
 
 #: licenses/templates/deed.html:15
 msgid "See the legal code"
-msgstr ""
+msgstr "Juridische tekst inzien"
 
 #: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
 msgid "Legal Code"
-msgstr "Juridische Code"
+msgstr "Juridische tekst"
 
 #: licenses/templates/includes/about_cc.html:10
 msgid ""
