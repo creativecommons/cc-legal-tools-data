@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-23 00:11:30+00:00\n"
+"PO-Revision-Date: 2021-11-10 22:22:03+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hant/\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
@@ -225,7 +225,7 @@ msgstr "為非商業目的而演出、展示及散布整部著作的重製物（
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr ""
+msgstr "<strong>分享</strong> &mdash; 以任何媒介或格式重製及散布本素材"
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 #: licenses/templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
+msgstr "<strong>修改</strong> &mdash; 重混、轉換本素材、及依本素材建立新素材"
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
@@ -276,6 +276,11 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"你必須給予 <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">適當表彰</a>、提供指向本授權條款的連結，以及 <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" "
+"class=\"helpLink\">指出（本作品的原始版本）是否已被變更</a></span>。你可以任何合理方式為前述表彰，但不得以任何方式暗示授權人為你或你的使用方式背書。"
 
 #: licenses/templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"

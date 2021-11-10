@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-22 23:53:33+00:00\n"
+"PO-Revision-Date: 2021-11-10 21:51:03+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -225,7 +225,7 @@ msgstr "비영리 목적(예, 파일 공유, 비영리 목적의 웹캐스팅)�
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr ""
+msgstr "<strong>공유</strong> &mdash; 복제, 배포, 전시, 공연 및 공중송신 (포맷 변경도 포함)"
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 #: licenses/templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
+msgstr "<strong>변경</strong> &mdash; 리믹스, 변형, 2차적 저작물의 작성"
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
@@ -276,6 +276,12 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">적절한 "
+"출처</a></span>와, 해당 라이센스 링크를 표시하고, <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">변경이 있는 경우 공지</a></span>해야 "
+"합니다. 합리적인 방식으로 이렇게 하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 "
+"안 됩니다."
 
 #: licenses/templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"
