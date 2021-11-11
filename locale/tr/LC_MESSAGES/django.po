@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-02 08:16:15+00:00\n"
+"PO-Revision-Date: 2021-11-10 22:17:20+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/tr/\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgstr "Commons`ı ara"
 
 #: licenses/templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
-msgstr ""
+msgstr "CC görsellerini arayın"
 
 #: licenses/templates/includes/cc_site_header.html:38
 msgid "Newsletters"
@@ -149,7 +149,7 @@ msgstr "Haber bültenleri"
 
 #: licenses/templates/includes/cc_site_header.html:39
 msgid "Store"
-msgstr ""
+msgstr "Mağaza"
 
 #: licenses/templates/includes/cc_site_header.html:46
 msgid "Facebook"
@@ -232,6 +232,8 @@ msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
 msgstr ""
+"<strong>Paylaş</strong> &mdash; eseri her ortam veya formatta kopyalayabilir"
+" ve yeniden dağıtabilirsiniz."
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
@@ -243,6 +245,8 @@ msgstr ""
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
+"<strong>Uyarla</strong> &mdash; her türlü amaç için (ticari amaç da dahil) "
+"karıştır, aktar ve mevcut eserin üzerine inşa et"
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
@@ -284,6 +288,13 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">uygun "
+"referans vermeli</a></span>, lisansa bağlantı sağlamalı <span "
+"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">ve değişiklik "
+"yapıldıysa bilgi</a></span>vermelisiniz. Bunları uygun bir şekilde yerine "
+"getirebilirsiniz fakat bu, lisans sahibinin sizi ve kullanım şeklinizi "
+"onayladığını göstermez."
 
 #: licenses/templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"
@@ -471,7 +482,7 @@ msgstr ""
 #: licenses/templates/includes/deed_body_unimplemented.html:7
 #: licenses/templates/legalcode.html:50
 msgid "Unimplemented"
-msgstr ""
+msgstr "Uygulanmamış"
 
 #: licenses/templates/includes/deed_body_unimplemented.html:7
 #: licenses/templates/legalcode.html:50
@@ -703,11 +714,11 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:39
 msgid "Who We Are"
-msgstr ""
+msgstr "Biz Kimiz"
 
 #: licenses/templates/includes/footer.html:41
 msgid "Our Impact"
-msgstr ""
+msgstr "Etkilerimiz"
 
 #: licenses/templates/includes/footer.html:42
 msgid "News"
@@ -739,7 +750,7 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:80
 msgid "Donate now"
-msgstr ""
+msgstr "Şimdi bağış yapın"
 
 #: licenses/templates/includes/language_selector.html:5
 #: licenses/templates/includes/translations.html:4
@@ -756,11 +767,11 @@ msgstr "Seçin"
 
 #: licenses/templates/includes/menu-sidebar.html:13
 msgid "Statement of Purpose"
-msgstr ""
+msgstr "Amacın Beyanı"
 
 #: licenses/templates/includes/menu-sidebar.html:17
 msgid "1. Copyright and Related Rights."
-msgstr ""
+msgstr "1. Telif Hakkı ve İlişkili Haklar."
 
 #: licenses/templates/includes/menu-sidebar.html:21
 msgid "2. Waiver."
@@ -772,7 +783,7 @@ msgstr ""
 
 #: licenses/templates/includes/menu-sidebar.html:29
 msgid "4. Limitations and Disclaimers."
-msgstr ""
+msgstr "4. Sınırlamalar ve Sorumluluk Reddi."
 
 #: licenses/templates/includes/menu-sidebar.html:35
 msgid "Section 1 – Definitions."
@@ -824,7 +835,7 @@ msgstr "4. Kısıtlamalar."
 
 #: licenses/templates/includes/menu-sidebar.html:85
 msgid "5. Representations, Warranties and Disclaimer"
-msgstr ""
+msgstr "5. Beyanlar, Garantiler ve Sorumluluk Reddi"
 
 #: licenses/templates/includes/menu-sidebar.html:89
 msgid "6. Limitation on Liability."

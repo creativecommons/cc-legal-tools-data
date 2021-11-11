@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-23 05:54:36+00:00\n"
+"PO-Revision-Date: 2021-11-10 21:48:07+00:00\n"
 "Last-Translator: Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
@@ -230,7 +230,7 @@ msgstr "非営利目的（ファイル共有や非営利のウェブキャスト
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
-msgstr ""
+msgstr "<strong>共有</strong> &mdash; どのようなメディアやフォーマットでも資料を複製したり、再配布できます。"
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
@@ -241,7 +241,7 @@ msgstr ""
 #: licenses/templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
+msgstr "<strong>翻案</strong> &mdash; マテリアルをリミックスしたり、改変したり、別の作品のベースにしたりできます。"
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
@@ -281,6 +281,11 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"あなたは <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">適切なクレジット</a></span>を表示し、ライセンスへのリンクを提供し、<span "
+"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#\" id=\"indicate_changes_popup\" "
+"class=\"helpLink\">変更があったらその旨を示さ</a></span>なければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。"
 
 #: licenses/templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"

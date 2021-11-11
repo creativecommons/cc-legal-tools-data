@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-10-26 10:40:23+00:00\n"
+"PO-Revision-Date: 2021-11-10 22:01:42+00:00\n"
 "Last-Translator: Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/nl/\n"
 "Language: nl\n"
@@ -67,10 +67,12 @@ msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"creativecommons.org\">creativecommons.org</a>."
 msgstr ""
+"Creative Commons kan gecontacteerd worden op <a "
+"href=\"creativecommons.org\">creativecommons.org</a>."
 
 #: licenses/templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "Over de licentie en Creative Commons"
 
 #: licenses/templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -84,6 +86,14 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (“Creative Commons”) is geen advocatenkantoor "
+"en biedt geen juridische diensten of advies.  De verdeling van publieke "
+"licenties van Creative Commons creëert geen advocaat-cliënt- of andere "
+"relatie.  Creative Commons biedt zijn licenties en gerelateerde informatie "
+"zoals ze zijn.  Creative Commons biedt geen garantie op zijn licenties, "
+"materiaal dat onder de voorwaarden van zijn licenties valt of enige "
+"gerelateerde informatie.  Creative Commons verwerpt alle aansprakelijkheid "
+"in de breedste zin voor schade als gevolg van hun gebruik."
 
 #: licenses/templates/includes/cc_site_footer.html:25
 #: licenses/templates/includes/cc_site_header.html:40
@@ -138,11 +148,11 @@ msgstr "Blog"
 #: licenses/templates/includes/cc_site_header.html:20
 #: licenses/templates/includes/cc_site_header.html:37
 msgid "Global Network"
-msgstr ""
+msgstr "Globaal netwerk"
 
 #: licenses/templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
-msgstr "Zoek door de Commons"
+msgstr "Door de Commons zoeken"
 
 #: licenses/templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
@@ -238,6 +248,8 @@ msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
 msgstr ""
+"<strong>het werk te delen</strong> &mdash; te kopiëren, te verspreiden en "
+"door te geven via elk medium of bestandsformaat"
 
 #: licenses/templates/includes/deed_body_licenses.html:31
 msgid ""
@@ -249,6 +261,8 @@ msgstr ""
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
+"<strong>het werk te bewerken</strong> &mdash; te remixen, te veranderen en "
+"afgeleide werken te maken"
 
 #: licenses/templates/includes/deed_body_licenses.html:39
 msgid ""
@@ -290,6 +304,14 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"De gebruiker dient de maker van het werk te <a href=\"#\" "
+"id=\"appropriate_credit_popup\" class=\"helpLink\">vermelden</a>, een link "
+"naar de licentie te plaatsen en <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">aan te geven of het werk "
+"veranderd is</a>. Je mag dat op redelijke wijze doen, maar niet zodanig dat "
+"de indruk gewekt wordt dat de licentiegever instemt met je werk of je "
+"gebruik van het werk."
 
 #: licenses/templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"
