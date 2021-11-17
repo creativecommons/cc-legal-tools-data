@@ -264,10 +264,10 @@ Consortium.
 - [Locale (computer software) - Wikipedia][wikipedia-locale]
 
 
-## License
+## Copying
 
 [![CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button][cc-zero-png]][cc-zero]
-[`LICENSE`](LICENSE): The text of the Creative Commons public licenses is
+[`COPYING`](COPYING): The text of the Creative Commons public licenses is
 dedicated to the public domain under the [CC0 1.0 Universal (CC0 1.0) Public
 Domain Dedication][cc-zero].
 
