@@ -39,16 +39,16 @@ This section uses project specific terms. Please reference
 [Definitions](#definitions), below.
 
 - **[`docs/`](docs)**
-  - ***(:warning: NOT YET ACTIVE)*** CC Licenses data served by
-    **[creativecommons.org/licenses](https://creativecommons.org/licenses)**
-    website
+  - ***(:warning: NOT YET ACTIVE)*** CC Legal Tools Data served by
+    creativecommons.org website
   - *generated* by [cc-legal-tools-app][cc-legal-tools-app] `publish` command
 - **[`legacy/`](legacy)**
   - **[`legalcode/`](legacy/legalcode)**
     - Legacy legalcode (HTML and some plaintext)
     - *ingested* by [cc-legal-tools-app][cc-legal-tools-app] `load_html_files` command
   - **[`rdf-licenses/`](legacy/rdf-licenses)**
-    - Legacy RDF files for legalcode
+    - Legacy RDF files for legal code (including CC0 public domain declaration,
+      which is not a license)
     - *ingested* by [cc-legal-tools-app][cc-legal-tools-app] `publish` command
   - **[`rdf-meta/`](legacy/rdf-meta)**
     - Legacy RDF files and HTML (description, schema, etc.)
@@ -56,8 +56,8 @@ This section uses project specific terms. Please reference
 - **[`legalcode/`](legalcode)**
   - The immediate subdirectories are Locale Names
   - Contains Gettext Files for Legal Code
-  - Each license tool has a custom Django/gettext translation domain that is
-    the same as the Transifex resource slug
+  - Each legal tool has a custom Django/gettext translation domain that is the
+    same as the Transifex resource slug
 - **[`locale/`](locale)**
   - The immediate subdirectories are Locale Names
   - Contains Gettext Files for Deeds & UX
@@ -163,7 +163,7 @@ The following terms are used by this dataset and the
 [iso639-2-alpha-3]: https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
 [iso639-2]: https://en.wikipedia.org/wiki/ISO_639-2
 [rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
-[settings-base]: https://github.com/creativecommons/cc-legal-tools-app/blob/main/cc_licenses/settings/base.py
+[settings-base]: https://github.com/creativecommons/cc-legal-tools-app/blob/main/cc_legal_tools/settings/base.py
 [transifex-languages]: https://www.transifex.com/explore/languages/
 [wikipedia-cldr]: https://en.wikipedia.org/wiki/Common_Locale_Data_Repository
 [wikipedia-iso3166-alpha2]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
@@ -197,8 +197,8 @@ entries:
 ### Jurisdiction Code
 
 Jurisdiction Codes are legal jurisdiction identifiers used for Creative Commons
-License Tool ports (versions 1.0 - 3.0). They consist of ISO 3166-1 alpha-2
-codes.
+legal tool ports (ex. licenses versions 1.0 - 3.0). They consist of ISO 3166-1
+alpha-2 codes.
 - [Creative Commons jurisdiction ports - Wikipedia][wikipedia-ports]
 - [ISO 3166-1 - Wikipedia][iso3166-1] *Codes for the representation of names of
   countries and their subdivisions – Part 1: Country codes*
@@ -241,7 +241,7 @@ Language Codes (`language_code`) are Django language codes. They consist of
 - The default Django languge codes are defined in
   `django/django`:`django/conf/global_settings.p`: [Lines 50-148][djangocodes]
 - Additional codes are defined by the [cc-legal-tools-app][cc-legal-tools-app]
-  application in [`cc_licenses/settings/base.py`][settings-base]
+  application in [`cc_legal_tools/settings/base.py`][settings-base]
 
 
 ### POSIX locale
