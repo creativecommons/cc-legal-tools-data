@@ -3,13 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2021
+# abc Def <hdogan1974@gmail.com>, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-10 22:17:20+00:00\n"
+"PO-Revision-Date: 2021-11-17 22:04:10+00:00\n"
+"Last-Translator: abc Def <hdogan1974@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/tr/\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -29,11 +34,11 @@ msgstr "Anasayfa"
 
 #: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
 msgid "Deed"
-msgstr ""
+msgstr "Senet"
 
 #: licenses/templates/deed.html:15
 msgid "See the legal code"
-msgstr ""
+msgstr "Yasal koda bakın"
 
 #: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
 msgid "Legal Code"
@@ -65,7 +70,7 @@ msgstr ""
 
 #: licenses/templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "Lisans ve Creative Commons hakkında"
 
 #: licenses/templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -273,6 +278,8 @@ msgstr "Gelişmekte Olan Ülkeler"
 #: licenses/templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
+"Yukarıdaki özgürlükleri yalnızca gelişmekte olan ülkelerde "
+"kullanabilirsiniz."
 
 #: licenses/templates/includes/deed_body_licenses.html:74
 msgid "Attribution"
@@ -488,7 +495,7 @@ msgstr "Uygulanmamış"
 #: licenses/templates/legalcode.html:50
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
+msgstr "bu yasal aracın geçerli bir şablonu yok. Lütfen bu sorunu bildirin:"
 
 #: licenses/templates/includes/deed_body_zero.html:12
 msgid ""
@@ -726,7 +733,7 @@ msgstr "Haberler"
 
 #: licenses/templates/includes/footer.html:50
 msgid "Subscribe to our newsletter"
-msgstr ""
+msgstr "Haber bültenimize abone olun"
 
 #: licenses/templates/includes/footer.html:58
 msgid ""
@@ -742,11 +749,11 @@ msgstr ""
 
 #: licenses/templates/includes/footer.html:76
 msgid "Our work relies on you!"
-msgstr ""
+msgstr "Bizim işimiz size güvenir!"
 
 #: licenses/templates/includes/footer.html:77
 msgid "Help us keep the internet free and open."
-msgstr ""
+msgstr "İnterneti özgür ve açık tutmamıza yardım edin."
 
 #: licenses/templates/includes/footer.html:80
 msgid "Donate now"
@@ -775,11 +782,11 @@ msgstr "1. Telif Hakkı ve İlişkili Haklar."
 
 #: licenses/templates/includes/menu-sidebar.html:21
 msgid "2. Waiver."
-msgstr ""
+msgstr "2. Feragat."
 
 #: licenses/templates/includes/menu-sidebar.html:25
 msgid "3. Public License Fallback."
-msgstr ""
+msgstr "3. Kamu Lisansı Geri Dönüşü."
 
 #: licenses/templates/includes/menu-sidebar.html:29
 msgid "4. Limitations and Disclaimers."
@@ -843,11 +850,11 @@ msgstr "6. Yükümlülüklerin Sınırlandırılması"
 
 #: licenses/templates/includes/menu-sidebar.html:93
 msgid "7. Termination"
-msgstr ""
+msgstr "7. Sonlandırma"
 
 #: licenses/templates/includes/menu-sidebar.html:97
 msgid "8. Miscellaneous"
-msgstr ""
+msgstr "8. Çeşitli"
 
 #: licenses/templates/includes/related_links.html:10
 msgid "Related Links"
@@ -858,6 +865,9 @@ msgid ""
 "Creative Commons is the nonprofit behind the open licenses that allow "
 "creators to share their work. Our licenses and legal tools are free to use."
 msgstr ""
+"Creative Commons, yaratıcıların çalışmalarını paylaşmalarına izin veren açık"
+" lisansların arkasındaki kâr amacı gütmeyen kuruluştur. Bizim lisanslarımız "
+"ve yasal araçlarımız ücretsiz kullanılır."
 
 #: licenses/templates/includes/related_links.html:23
 msgid ""
@@ -865,22 +875,25 @@ msgid ""
 "licenses that allow creators to share their work. Our licenses are free to "
 "use."
 msgstr ""
+"Burada olmandan memnunuz! Creative Commons, yaratıcıların çalışmalarını "
+"paylaşmalarına izin veren açık lisansların arkasındaki kâr amacı gütmeyen "
+"kuruluştur. Bizim lisanslarımız ücretsiz kullanılır."
 
 #: licenses/templates/includes/related_links.html:32
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Çalışmamız hakkında dahasını öğrenin"
 
 #: licenses/templates/includes/related_links.html:34
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "CC Lisanslama hakkında dahasını öğrenin"
 
 #: licenses/templates/includes/related_links.html:35
 msgid "Support our work"
-msgstr ""
+msgstr "Çalışmamızı destekleyin"
 
 #: licenses/templates/includes/related_links.html:37
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Lisansı kendi materyaliniz için kullanın."
 
 #: licenses/templates/includes/skiplink.html:4
 msgid "Skip to content"
@@ -888,7 +901,7 @@ msgstr "İçeriğe geç"
 
 #: licenses/templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Creative Commons Kamu Lisanslarını Kullanma"
 
 #: licenses/templates/includes/use_of_licenses.html:7
 msgid ""
@@ -902,12 +915,12 @@ msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:16
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Lisanslayıcılara Yönelik Hususlar"
 
 #: licenses/templates/includes/use_of_licenses.html:16
 #: licenses/templates/legalcode.html:92
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "Lisanslayıcılara Yönelik Hususları Göster"
 
 #: licenses/templates/includes/use_of_licenses.html:18
 msgid ""
@@ -926,12 +939,12 @@ msgstr ""
 
 #: licenses/templates/includes/use_of_licenses.html:30
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Kamuya Yönelik Hususlar"
 
 #: licenses/templates/includes/use_of_licenses.html:30
 #: licenses/templates/legalcode.html:94
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "Kamuya Yönelik Hususları Göster"
 
 #: licenses/templates/includes/use_of_licenses.html:32
 msgid ""
@@ -952,16 +965,16 @@ msgstr ""
 
 #: licenses/templates/legalcode.html:21
 msgid "See the deed"
-msgstr ""
+msgstr "Senede bakın"
 
 #: licenses/templates/legalcode.html:88
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Lisanslayıcılara Yönelik Hususları Gizle"
 
 #: licenses/templates/legalcode.html:90
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "Kamuya Yönelik Hususları Gizle"
 
 #: licenses/templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Yönlendir:"
