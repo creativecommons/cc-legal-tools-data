@@ -278,7 +278,7 @@ a.skip-link:focus, a.skip-link:active {
       </div>
       <div class="column">
        <button class="button tiny is-pulled-right" data-href="deed.tr" id="next-btn">
-        See the deed
+        Senede bakın
        </button>
       </div>
      </div>
@@ -424,7 +424,7 @@ a.skip-link:focus, a.skip-link:active {
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
         </i>
-        About the license and Creative Commons
+        Lisans ve Creative Commons hakkında
        </h4>
        <p class="has-text-black padding-left-big">
         Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
@@ -432,7 +432,7 @@ a.skip-link:focus, a.skip-link:active {
       </div>
       <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
        <h4 class="level is-vcentered b-header">
-        Using Creative Commons Public Licenses
+        Creative Commons Kamu Lisanslarını Kullanma
        </h4>
        <p class="has-text-black body-big">
         Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.
@@ -440,11 +440,11 @@ a.skip-link:focus, a.skip-link:active {
        <hr class="divider"/>
        <div>
         <h4 class="level is-vcentered b-header">
-         Considerations for licensors
+         Lisanslayıcılara Yönelik Hususlar
          <span class="level-right">
           <i class="angle-down icon" data-consideration="1" data-direction="down">
            <span class="is-sr-only">
-            Show Considerations for Licensors
+            Lisanslayıcılara Yönelik Hususları Göster
            </span>
           </i>
          </span>
@@ -459,11 +459,11 @@ a.skip-link:focus, a.skip-link:active {
        <hr class="divider"/>
        <div>
         <h4 class="level is-vcentered b-header">
-         Considerations for the public
+         Kamuya Yönelik Hususlar
          <span class="level-right">
           <i class="angle-down icon" data-consideration="2" data-direction="down">
            <span class="is-sr-only">
-            Show Considerations for the Public
+            Kamuya Yönelik Hususları Göster
            </span>
           </i>
          </span>
@@ -986,7 +986,7 @@ a.skip-link:focus, a.skip-link:active {
             •
            </span>
            <a class="is-inline body-big" href="https://creativecommons.org/about/" style="font-weight: bold;">
-            Learn more about our work
+            Çalışmamız hakkında dahasını öğrenin
            </a>
           </li>
           <li>
@@ -994,7 +994,7 @@ a.skip-link:focus, a.skip-link:active {
             •
            </span>
            <a class="is-inline body-big" href="https://creativecommons.org/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
+            CC Lisanslama hakkında dahasını öğrenin
            </a>
           </li>
           <li>
@@ -1002,7 +1002,7 @@ a.skip-link:focus, a.skip-link:active {
             •
            </span>
            <a class="is-inline body-big" href="https://creativecommons.org/donate/" style="font-weight: bold;">
-            Support our work
+            Çalışmamızı destekleyin
            </a>
           </li>
           <li>
@@ -1010,7 +1010,7 @@ a.skip-link:focus, a.skip-link:active {
             •
            </span>
            <a class="is-inline body-big" href="https://chooser-beta.creativecommons.org/" style="font-weight: bold;">
-            Use the license for your own material.
+            Lisansı kendi materyaliniz için kullanın.
             <i class="icon external-link padding-bottom-small caption">
             </i>
            </a>
@@ -1114,7 +1114,7 @@ a.skip-link:focus, a.skip-link:active {
        <div class="column is-two-thirds">
         <div class="subscription">
          <h5 class="b-header">
-          Subscribe to our newsletter
+          Haber bültenimize abone olun
          </h5>
          <form class="newsletter">
           <input class="input" placeholder="Your email" type="text"/>
@@ -1154,10 +1154,10 @@ a.skip-link:focus, a.skip-link:active {
        <div class="column is-one-third">
         <aside class="donate-section">
          <h5>
-          Our work relies on you!
+          Bizim işimiz size güvenir!
          </h5>
          <p>
-          Help us keep the internet free and open.
+          İnterneti özgür ve açık tutmamıza yardım edin.
          </p>
          <a class="button small donate" href="https://creativecommons.org/donate?c_src=website&amp;c_src2=GlobalFooter">
           <i class="icon cc-letterheart margin-right-small is-size-5 padding-top-smaller">
@@ -1233,13 +1233,13 @@ a.skip-link:focus, a.skip-link:active {
     function handleArrowClicked() {
       // Toggle consideration section's screen reader announcement text (inside of icon)
       if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+        this.firstChild.innerHTML = "Lisanslayıcılara Yönelik Hususları Gizle"
       } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for the Public"
+        this.firstChild.innerHTML = "Kamuya Yönelik Hususları Gizle"
       } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Show Considerations for Licensors"
+        this.firstChild.innerHTML = "Lisanslayıcılara Yönelik Hususları Göster"
       } else {
-        this.firstChild.innerHTML = "Show Considerations for the Public"
+        this.firstChild.innerHTML = "Kamuya Yönelik Hususları Göster"
       }
       // Toggle icon between up and down
       if (this.dataset.direction === "down") {
