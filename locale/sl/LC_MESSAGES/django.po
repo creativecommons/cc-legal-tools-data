@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
+"POT-Creation-Date: 2021-11-24 15:52+0000\n"
 "PO-Revision-Date: 2021-11-10 22:12:32+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sl/\n"
 "Language: sl\n"
@@ -19,27 +19,27 @@ msgstr ""
 "Language-Django: sl\n"
 "Language-Transifex: sl\n"
 
-#: licenses/templates/404.html:4
+#: templates/404.html:4
 msgid "Page Not Found"
 msgstr ""
 
-#: licenses/templates/base.html:34
+#: templates/base.html:34
 msgid "Home"
 msgstr ""
 
-#: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
+#: templates/deed.html:8 templates/dev/home.html:16
 msgid "Deed"
 msgstr ""
 
-#: licenses/templates/deed.html:15
+#: templates/deed.html:15
 msgid "See the legal code"
 msgstr ""
 
-#: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
+#: templates/dev/home.html:17 templates/legalcode.html:6
 msgid "Legal Code"
 msgstr "Pravna koda"
 
-#: licenses/templates/includes/about_cc.html:10
+#: templates/includes/about_cc.html:10
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -57,17 +57,17 @@ msgid ""
 "paragraph does not form part of the public licenses."
 msgstr ""
 
-#: licenses/templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:22
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
-#: licenses/templates/includes/about_cc_and_license.html:6
+#: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
 msgstr ""
 
-#: licenses/templates/includes/about_cc_and_license.html:8
+#: templates/includes/about_cc_and_license.html:8
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -80,90 +80,89 @@ msgid ""
 "possible."
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:25
-#: licenses/templates/includes/cc_site_header.html:40
+#: templates/includes/cc_site_footer.html:25
+#: templates/includes/cc_site_header.html:40
 msgid "Contact"
 msgstr "Kontakt"
 
-#: licenses/templates/includes/cc_site_footer.html:26
+#: templates/includes/cc_site_footer.html:26
 msgid "Privacy"
 msgstr "Zasebnost"
 
-#: licenses/templates/includes/cc_site_footer.html:27
+#: templates/includes/cc_site_footer.html:27
 msgid "Policies"
 msgstr "Pravilniki"
 
-#: licenses/templates/includes/cc_site_footer.html:28
+#: templates/includes/cc_site_footer.html:28
 msgid "Terms"
 msgstr "Pogoji"
 
-#: licenses/templates/includes/cc_site_footer.html:35
+#: templates/includes/cc_site_footer.html:35
 msgid "We'd love to hear from you!"
 msgstr "Zelo radi bi slišali od vas!"
 
-#: licenses/templates/includes/cc_site_footer.html:44
+#: templates/includes/cc_site_footer.html:44
 msgid "Frequently Asked Questions"
 msgstr "Pogosto zastavljena vprašanja"
 
-#: licenses/templates/includes/cc_site_header.html:11
+#: templates/includes/cc_site_header.html:11
 msgid "Menu"
 msgstr "Meni"
 
-#: licenses/templates/includes/cc_site_header.html:16
-#: licenses/templates/includes/cc_site_header.html:27
+#: templates/includes/cc_site_header.html:16
+#: templates/includes/cc_site_header.html:27
 msgid "Share your work"
 msgstr "Delite svoje delo"
 
-#: licenses/templates/includes/cc_site_header.html:17
-#: licenses/templates/includes/cc_site_header.html:28
+#: templates/includes/cc_site_header.html:17
+#: templates/includes/cc_site_header.html:28
 msgid "Use &#038; remix"
 msgstr "Uporaba &#038; predelava (remix)"
 
-#: licenses/templates/includes/cc_site_header.html:18
-#: licenses/templates/includes/cc_site_header.html:29
-#: licenses/templates/includes/footer.html:40
+#: templates/includes/cc_site_header.html:18
+#: templates/includes/cc_site_header.html:29 templates/includes/footer.html:40
 msgid "What we do"
 msgstr "Kaj počnemo"
 
-#: licenses/templates/includes/cc_site_header.html:19
-#: licenses/templates/includes/cc_site_header.html:30
+#: templates/includes/cc_site_header.html:19
+#: templates/includes/cc_site_header.html:30
 msgid "Blog"
 msgstr "Blog"
 
-#: licenses/templates/includes/cc_site_header.html:20
-#: licenses/templates/includes/cc_site_header.html:37
+#: templates/includes/cc_site_header.html:20
+#: templates/includes/cc_site_header.html:37
 msgid "Global Network"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:21
+#: templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
 msgstr "Išči po ustvarjalni gmajni"
 
-#: licenses/templates/includes/cc_site_header.html:36
+#: templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:38
+#: templates/includes/cc_site_header.html:38
 msgid "Newsletters"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:39
+#: templates/includes/cc_site_header.html:39
 msgid "Store"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:46
+#: templates/includes/cc_site_header.html:46
 msgid "Facebook"
 msgstr "Facebook"
 
-#: licenses/templates/includes/cc_site_header.html:47
+#: templates/includes/cc_site_header.html:47
 msgid "Twitter"
 msgstr "Twitter"
 
-#: licenses/templates/includes/cc_site_header.html:48
+#: templates/includes/cc_site_header.html:48
 msgid "Mail"
 msgstr "Pošta"
 
-#: licenses/templates/includes/deed_body_certification.html:6
+#: templates/includes/deed_body_certification.html:6
 msgid ""
 "<p>The person or persons who have associated work with this document (the "
 "\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
@@ -190,20 +189,20 @@ msgid ""
 "invented or conceived.</p>"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:7
+#: templates/includes/deed_body_licenses.html:7
 msgid "You are free to:"
 msgstr "Dovoljeno vam je:"
 
-#: licenses/templates/includes/deed_body_licenses.html:11
+#: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:12
+#: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:17
+#: templates/includes/deed_body_licenses.html:17
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
@@ -211,7 +210,7 @@ msgstr ""
 "Vzorčiti, kombinirati ali drugače ustvarjalno preoblikovati to delo za "
 "nekomercialne namene"
 
-#: licenses/templates/includes/deed_body_licenses.html:19
+#: templates/includes/deed_body_licenses.html:19
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
@@ -219,7 +218,7 @@ msgstr ""
 "Vzorčiti, kombinirati ali drugače ustvarjalno preoblikovati to delo za "
 "komercialne in nekomercialne namene"
 
-#: licenses/templates/includes/deed_body_licenses.html:23
+#: templates/includes/deed_body_licenses.html:23
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
@@ -228,7 +227,7 @@ msgstr ""
 "celoti v nekomercialne namene (npr. deljenje datotek ali nekomercialno "
 "spletno predvajanje)."
 
-#: licenses/templates/includes/deed_body_licenses.html:29
+#: templates/includes/deed_body_licenses.html:29
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
@@ -236,26 +235,19 @@ msgstr ""
 "<strong>Deljenje</strong> &mdash; kopiranje in razširjanje vsebin v "
 "kakršnemkoli mediju in obliki"
 
-#: licenses/templates/includes/deed_body_licenses.html:31
-msgid ""
-"<strong>Share</strong> — copy and redistribute the material in any medium or"
-" format for any purpose, even commercially."
-msgstr ""
+#: templates/includes/deed_body_licenses.html:31
+#: templates/includes/deed_body_licenses.html:39
+msgid "for any purpose, even commercially."
+msgstr "v vse namene, tudi komercialne."
 
-#: licenses/templates/includes/deed_body_licenses.html:36
+#: templates/includes/deed_body_licenses.html:37
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Predelovanje</strong> &mdash; remixanje, urejanje, predelava in "
 "vključevanje vsebine v lastna dela"
 
-#: licenses/templates/includes/deed_body_licenses.html:39
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-" for any purpose, even commercially."
-msgstr ""
-
-#: licenses/templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:46
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -263,23 +255,23 @@ msgstr ""
 "Dajalec licence vam ne more odreči teh pravic, dokler upoštevate pogoje "
 "licence."
 
-#: licenses/templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:52
 msgid "Under the following terms:"
 msgstr "Pod sledečimi pogoji:"
 
-#: licenses/templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Narodi v razvoju"
 
-#: licenses/templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:74
 msgid "Attribution"
 msgstr "Priznanje avtorstva"
 
-#: licenses/templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:75
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -297,11 +289,11 @@ msgstr ""
 "razumen način, vendar ne na način, ki bi namigoval na to, da dajalec licence"
 " podpira vas ali vašo uporabo dela."
 
-#: licenses/templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"
 msgstr "Nekomercialno"
 
-#: licenses/templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:87
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -309,11 +301,11 @@ msgstr ""
 "Te vsebine ne smete uporabiti v <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">komercialne namene</a>."
 
-#: licenses/templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:98
 msgid "ShareAlike"
 msgstr "Deljenje pod enakimi pogoji"
 
-#: licenses/templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:98
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -323,11 +315,11 @@ msgstr ""
 "različico razširjati pod <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">isto licenco</a> kot izvirnik."
 
-#: licenses/templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:109
 msgid "NoDerivatives"
 msgstr "Brez predelav"
 
-#: licenses/templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:109
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -337,7 +329,7 @@ msgstr ""
 "class=\"helpLink\">predelate (remixate), uredite ali na njej gradite</a>, "
 "spremenjene vsebine ne smete razširjati."
 
-#: licenses/templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:120
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -346,7 +338,7 @@ msgstr ""
 "za oglaševanje ali promocijo dela, ki ga ustvarite na podlagi tega izvirnega"
 " dela."
 
-#: licenses/templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:131
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -354,7 +346,7 @@ msgstr ""
 "Pri vsaki uporabi ali razširjanju morate uporabnike seznaniti s pogoji "
 "licence za to avtorsko delo."
 
-#: licenses/templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:142
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -362,11 +354,11 @@ msgstr ""
 "Tega celotnega dela ne smete priobčevati javnosti, razširjati ali dajati v "
 "najem kopij v kakršne koli namene."
 
-#: licenses/templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:152
 msgid "No additional restrictions"
 msgstr "Brez dodatnih omejitev"
 
-#: licenses/templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:152
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -378,11 +370,11 @@ msgstr ""
 "ukrepov</a>, ki bi pravno omejili ali onemogočilo druge, da bi storili "
 "karkoli, kar licenca dovoli."
 
-#: licenses/templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:159
 msgid "Notices:"
 msgstr "Opombe:"
 
-#: licenses/templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:162
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -394,7 +386,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">zakonske izjeme in "
 "omejitve</a>."
 
-#: licenses/templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:165
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -408,12 +400,12 @@ msgstr ""
 " pravice, pravice zasebnosti in moralne pravice</a>, lahko omejujejo kako "
 "smete uporabiti vsebino."
 
-#: licenses/templates/includes/deed_body_mark.html:7
-#: licenses/templates/includes/deed_body_zero.html:6
+#: templates/includes/deed_body_mark.html:7
+#: templates/includes/deed_body_zero.html:6
 msgid "No Copyright"
 msgstr "Brez avtorskih pravic"
 
-#: licenses/templates/includes/deed_body_mark.html:14
+#: templates/includes/deed_body_mark.html:14
 msgid ""
 "<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
 "known restrictions under copyright law, including all related and "
@@ -426,12 +418,12 @@ msgstr ""
 "spreminjate, razširjate in izvajate delo, tudi v komercialne namene, brez "
 "prošnje za dovoljenje. Glejte za <b>Ostale informacije spodaj.</b>"
 
-#: licenses/templates/includes/deed_body_mark.html:22
-#: licenses/templates/includes/deed_body_zero.html:19
+#: templates/includes/deed_body_mark.html:22
+#: templates/includes/deed_body_zero.html:19
 msgid "Other Information"
 msgstr "Ostale podrobnosti"
 
-#: licenses/templates/includes/deed_body_mark.html:28
+#: templates/includes/deed_body_mark.html:28
 msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
@@ -439,7 +431,7 @@ msgstr ""
 "Delo morda ni prosto vseh znanih avtorsko-pravnih omejitev v vseh <a "
 "href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">jurisdikcijah</a>."
 
-#: licenses/templates/includes/deed_body_mark.html:30
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -454,7 +446,7 @@ msgstr ""
 " class=\"helpLink\" id=\"publicity_rights\">osebnostne pravice ali pravice "
 "zasebnosti</a>."
 
-#: licenses/templates/includes/deed_body_mark.html:32
+#: templates/includes/deed_body_mark.html:32
 msgid ""
 "In some jurisdictions <a href=\"\" class=\"helpLink\" "
 "id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
@@ -466,7 +458,7 @@ msgstr ""
 "avtorske pravice. Med drugim to lahko vključuje pravico biti priznan kot "
 "avtor in pravico do ugovora zaradi zlorabe dela."
 
-#: licenses/templates/includes/deed_body_mark.html:34
+#: templates/includes/deed_body_mark.html:34
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -477,7 +469,7 @@ msgstr ""
 "nikakršno škodo, razen v primerih, ko izključitev odgovornosti ni dopustna "
 "po zakonu."
 
-#: licenses/templates/includes/deed_body_mark.html:36
+#: templates/includes/deed_body_mark.html:36
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
@@ -487,18 +479,18 @@ msgstr ""
 "class=\"helpLink\" id=\"endorsement\">podpore</a> avtorja ali osebe, ki je "
 "delo identificirala."
 
-#: licenses/templates/includes/deed_body_unimplemented.html:7
-#: licenses/templates/legalcode.html:50
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:50
 msgid "Unimplemented"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_unimplemented.html:7
-#: licenses/templates/legalcode.html:50
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:50
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_zero.html:12
+#: templates/includes/deed_body_zero.html:12
 msgid ""
 "The person who associated a work with this deed has <b>dedicated</b> the "
 "work to the public domain by waiving all of his or her rights to the work "
@@ -509,7 +501,7 @@ msgstr ""
 "javni domeni, s tem ko se je globalno odpovedala vsem svojim avtorskim in "
 "sorodnim pravicam, v kolikor to zakon dopušča."
 
-#: licenses/templates/includes/deed_body_zero.html:13
+#: templates/includes/deed_body_zero.html:13
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
@@ -517,7 +509,7 @@ msgstr ""
 "Delo lahko kopirate, spreminjate, razširjate in izvajate, tudi v komercialne"
 " namene, brez prošnje za dovoljenje. Glejte <b>Druge informacije</b> spodaj."
 
-#: licenses/templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:24
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
@@ -526,7 +518,7 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
-#: licenses/templates/includes/deed_body_zero.html:26
+#: templates/includes/deed_body_zero.html:26
 msgid ""
 "Unless expressly stated otherwise, the person who associated a work with "
 "this deed makes no warranties about the work, and disclaims liability for "
@@ -537,7 +529,7 @@ msgstr ""
 "dela ne odgovarja za nikakršno škodo, razen v primerih, ko izključitev "
 "odgovornosti ni dopustna po zakonu."
 
-#: licenses/templates/includes/deed_body_zero.html:27
+#: templates/includes/deed_body_zero.html:27
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
@@ -546,11 +538,11 @@ msgstr ""
 "Ko uporabljate ali navajate delo, ne smete namigovati na <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">podporo</a> avtorja ali potrditelja."
 
-#: licenses/templates/includes/deed_body_zero.html:32
+#: templates/includes/deed_body_zero.html:32
 msgid "Other Rights"
 msgstr "Ostale pravice"
 
-#: licenses/templates/includes/deed_body_zero.html:34
+#: templates/includes/deed_body_zero.html:34
 msgid ""
 "The use of a work free of known copyright restrictions may be otherwise "
 "regulated or limited. The work or its use may be subject to personal data "
@@ -564,17 +556,17 @@ msgstr ""
 "ali zasebnost. V takih primerih lahko po zakonu oseba, na primer, še vedno "
 "odloča kako se sme uporabljati njen glas, sliko ali podobnost."
 
-#: licenses/templates/includes/deed_body_zero.html:35
-#: licenses/templates/includes/deed_body_zero.html:42
-#: licenses/templates/includes/deed_body_zero.html:51
+#: templates/includes/deed_body_zero.html:35
+#: templates/includes/deed_body_zero.html:42
+#: templates/includes/deed_body_zero.html:51
 msgid "Learn more"
 msgstr "Več o tem"
 
-#: licenses/templates/includes/deed_body_zero.html:39
+#: templates/includes/deed_body_zero.html:39
 msgid "Endorsement"
 msgstr "Podpora"
 
-#: licenses/templates/includes/deed_body_zero.html:41
+#: templates/includes/deed_body_zero.html:41
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
@@ -582,22 +574,22 @@ msgstr ""
 "V nekaterih jurisdikcijah je napačno namigovanje, da avtor, založnik ali "
 "kdor koli drug podpira vašo uporabo dela, lahko protipravno."
 
-#: licenses/templates/includes/deed_body_zero.html:45
+#: templates/includes/deed_body_zero.html:45
 msgid "Citation"
 msgstr "Navedek"
 
-#: licenses/templates/includes/deed_body_zero.html:48
+#: templates/includes/deed_body_zero.html:48
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr ""
 "Kopirajte in prilepite kodo HTML na svojo spletno stran za preprosto "
 "citiranje dela."
 
-#: licenses/templates/includes/deed_body_zero.html:55
+#: templates/includes/deed_body_zero.html:55
 msgid "Who is the affirmer?"
 msgstr "Kdo je potrditelj?"
 
-#: licenses/templates/includes/deed_body_zero.html:58
+#: templates/includes/deed_body_zero.html:58
 msgid ""
 "The affirmer is the person who surrendered rights to the work worldwide "
 "using CC0, to the extent allowable by law. It may be the original author of "
@@ -609,7 +601,7 @@ msgstr ""
 "dela ali pa druga oseba, ki je lahko imela nekaj avtorskih ali sorodnih "
 "pravic na delu."
 
-#: licenses/templates/includes/deed_donate_slide.html:7
+#: templates/includes/deed_donate_slide.html:7
 msgid ""
 "This content is freely available under simple legal terms because of "
 "Creative Commons, a non-profit that survives on donations. If you love this "
@@ -621,30 +613,30 @@ msgstr ""
 "donacij. Če vam je ta vsebina všeč, in vam je všeč, da je prosto na voljo "
 "vsem, razmislite o donaciji, ki bi podprla naše delo."
 
-#: licenses/templates/includes/deed_donate_slide.html:8
+#: templates/includes/deed_donate_slide.html:8
 msgid "When you share, everyone wins."
 msgstr "Ko delite, vsi pridobijo."
 
-#: licenses/templates/includes/deed_donate_slide.html:14
+#: templates/includes/deed_donate_slide.html:14
 msgid "Contribute today to Creative Commons"
 msgstr "Prispevajte danes k Creative Commons"
 
-#: licenses/templates/includes/deed_donate_slide.html:35
+#: templates/includes/deed_donate_slide.html:35
 msgid "Amount"
 msgstr "Znesek"
 
-#: licenses/templates/includes/deed_donate_slide.html:42
+#: templates/includes/deed_donate_slide.html:42
 msgid "Donate Now"
 msgstr "Darujte danes"
 
-#: licenses/templates/includes/deprecated.html:7
-#: licenses/templates/includes/disclaimer_40.html:9
-#: licenses/templates/includes/disclaimer_certification.html:9
-#: licenses/templates/includes/disclaimer_zero.html:9
+#: templates/includes/deprecated.html:7
+#: templates/includes/disclaimer_40.html:9
+#: templates/includes/disclaimer_certification.html:9
+#: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "Izjava o omejitvi odgovornosti"
 
-#: licenses/templates/includes/deprecated.html:9
+#: templates/includes/deprecated.html:9
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -654,7 +646,7 @@ msgstr ""
 "href=\"http://creativecommons.org/retiredlicenses\">upokojila to pravno "
 "orodje</a> in ne priporoča, da ga uporabljate na delih."
 
-#: licenses/templates/includes/disclaimer_40.html:11
+#: templates/includes/disclaimer_40.html:11
 msgid ""
 "This deed highlights only some of the key features and terms of the actual "
 "license. It is not a license and has no legal value. You should carefully "
@@ -665,7 +657,7 @@ msgstr ""
 "licence. Ni licenca in nima pravne vrednosti. Pred uporabo licencirane "
 "vsebine pozorno preglejte vse pogoje dejanske licence."
 
-#: licenses/templates/includes/disclaimer_40.html:18
+#: templates/includes/disclaimer_40.html:18
 msgid ""
 "Creative Commons is not a law firm and does not provide legal services. "
 "Distributing, displaying, or linking to this deed or the license that it "
@@ -675,7 +667,7 @@ msgstr ""
 "razširjanjem, prikazovanjem ali povezovanjem na ta povzetek ali licenco, ki "
 "ga povzema, se med vami in nami ne vzpostavi nikakršno razmerje."
 
-#: licenses/templates/includes/disclaimer_certification.html:10
+#: templates/includes/disclaimer_certification.html:10
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -685,7 +677,7 @@ msgstr ""
 "uporabno tudi zunaj ZDA. Če želite posvetiti nova dela v javno domeno, "
 "predlagamo, da uporabite <a href=\"/choose/zero/\">CC0</a>."
 
-#: licenses/templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:11
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -712,7 +704,7 @@ msgstr ""
 "in ne odgovarja za nobeno škodo, ki bi nastala zaradi kakršnekoli uporabe "
 "kateregakoli dela.</p>"
 
-#: licenses/templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:15
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
@@ -720,23 +712,23 @@ msgstr ""
 "To je človeško berljiv povzetek <a href=\"./legalcode\">Pravne kode "
 "(premerite celotno besedilo)</a>."
 
-#: licenses/templates/includes/footer.html:39
+#: templates/includes/footer.html:39
 msgid "Who We Are"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:41
+#: templates/includes/footer.html:41
 msgid "Our Impact"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:42
+#: templates/includes/footer.html:42
 msgid "News"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:50
+#: templates/includes/footer.html:50
 msgid "Subscribe to our newsletter"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:58
+#: templates/includes/footer.html:58
 msgid ""
 "Except where otherwise <a "
 "href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
@@ -748,157 +740,73 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
 msgstr ""
 
-#: licenses/templates/includes/footer.html:76
+#: templates/includes/footer.html:76
 msgid "Our work relies on you!"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:77
+#: templates/includes/footer.html:77
 msgid "Help us keep the internet free and open."
 msgstr ""
 
-#: licenses/templates/includes/footer.html:80
+#: templates/includes/footer.html:80
 msgid "Donate now"
 msgstr ""
 
-#: licenses/templates/includes/language_selector.html:5
-#: licenses/templates/includes/translations.html:4
+#: templates/includes/language_selector.html:5
+#: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
 msgstr "Ta stran je dosegljiva v naslednjih jezikih:"
 
-#: licenses/templates/includes/languages_dropdown.html:4
+#: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
 msgstr ""
 
-#: licenses/templates/includes/languages_dropdown.html:9
+#: templates/includes/languages_dropdown.html:9
 msgid "Select"
 msgstr ""
 
-#: licenses/templates/includes/menu-sidebar.html:13
-msgid "Statement of Purpose"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:17
-msgid "1. Copyright and Related Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:21
-msgid "2. Waiver."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:25
-msgid "3. Public License Fallback."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:29
-msgid "4. Limitations and Disclaimers."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:35
-msgid "Section 1 – Definitions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:39
-msgid "Section 2 – Scope."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:43
-msgid "Section 3 – License Conditions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:47
-msgid "Section 4 – Sui Generis Database Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:51
-msgid "Section 5 – Disclaimer of Warranties and Limitation of Liability."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:55
-msgid "Section 6 – Term and Termination."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:59
-msgid "Section 7 – Other Terms and Conditions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:63
-msgid "Section 8 – Interpretation."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:69
-msgid "1. Definitions"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:73
-msgid "2. Fair Dealing Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:77
-msgid "3. License Grant."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:81
-msgid "4. Restrictions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:85
-msgid "5. Representations, Warranties and Disclaimer"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:89
-msgid "6. Limitation on Liability."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:93
-msgid "7. Termination"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:97
-msgid "8. Miscellaneous"
-msgstr ""
-
-#: licenses/templates/includes/related_links.html:10
+#: templates/includes/related_links.html:10
 msgid "Related Links"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:14
+#: templates/includes/related_links.html:14
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses that allow "
 "creators to share their work. Our licenses and legal tools are free to use."
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:23
+#: templates/includes/related_links.html:23
 msgid ""
 "We're glad you're here! Creative Commons is the nonprofit behind the open "
 "licenses that allow creators to share their work. Our licenses are free to "
 "use."
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:32
+#: templates/includes/related_links.html:32
 msgid "Learn more about our work"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:34
+#: templates/includes/related_links.html:34
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:35
+#: templates/includes/related_links.html:35
 msgid "Support our work"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:37
+#: templates/includes/related_links.html:37
 msgid "Use the license for your own material."
 msgstr ""
 
-#: licenses/templates/includes/skiplink.html:4
+#: templates/includes/skiplink.html:4
 msgid "Skip to content"
 msgstr "Preskoči na vsebino"
 
-#: licenses/templates/includes/use_of_licenses.html:5
+#: templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:7
+#: templates/includes/use_of_licenses.html:7
 msgid ""
 "Creative Commons public licenses provide a standard set of terms and "
 "conditions that creators and other rights holders may use to share original "
@@ -908,16 +816,15 @@ msgid ""
 "do not form part of our licenses."
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:16
+#: templates/includes/use_of_licenses.html:16
 msgid "Considerations for licensors"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:16
-#: licenses/templates/legalcode.html:92
+#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:18
+#: templates/includes/use_of_licenses.html:18
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -932,16 +839,15 @@ msgid ""
 " considerations for licensors.</a>"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:30
+#: templates/includes/use_of_licenses.html:30
 msgid "Considerations for the public"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:30
-#: licenses/templates/legalcode.html:94
+#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
 msgid "Show Considerations for the Public"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:32
+#: templates/includes/use_of_licenses.html:32
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -958,18 +864,18 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: licenses/templates/legalcode.html:21
+#: templates/legalcode.html:21
 msgid "See the deed"
 msgstr ""
 
-#: licenses/templates/legalcode.html:88
+#: templates/legalcode.html:88
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: licenses/templates/legalcode.html:90
+#: templates/legalcode.html:90
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: licenses/templates/redirect.html:5
+#: templates/redirect.html:5
 msgid "Redirect to:"
 msgstr ""
