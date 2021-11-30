@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-10 21:35:39+00:00\n"
+"PO-Revision-Date: 2021-11-24 19:01:35+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fa/\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -19,27 +19,27 @@ msgstr ""
 "Language-Django: fa\n"
 "Language-Transifex: fa\n"
 
-#: licenses/templates/404.html:4
+#: templates/404.html:4
 msgid "Page Not Found"
 msgstr ""
 
-#: licenses/templates/base.html:34
+#: templates/base.html:34
 msgid "Home"
 msgstr ""
 
-#: licenses/templates/deed.html:8 licenses/templates/dev/home.html:16
+#: templates/deed.html:8 templates/dev/home.html:16
 msgid "Deed"
 msgstr ""
 
-#: licenses/templates/deed.html:15
+#: templates/deed.html:15
 msgid "See the legal code"
 msgstr ""
 
-#: licenses/templates/dev/home.html:17 licenses/templates/legalcode.html:6
+#: templates/dev/home.html:17 templates/legalcode.html:6
 msgid "Legal Code"
 msgstr "کد حقوقی"
 
-#: licenses/templates/includes/about_cc.html:10
+#: templates/includes/about_cc.html:10
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -57,17 +57,17 @@ msgid ""
 "paragraph does not form part of the public licenses."
 msgstr ""
 
-#: licenses/templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:22
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
-#: licenses/templates/includes/about_cc_and_license.html:6
+#: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
 msgstr ""
 
-#: licenses/templates/includes/about_cc_and_license.html:8
+#: templates/includes/about_cc_and_license.html:8
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -80,90 +80,89 @@ msgid ""
 "possible."
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:25
-#: licenses/templates/includes/cc_site_header.html:40
+#: templates/includes/cc_site_footer.html:25
+#: templates/includes/cc_site_header.html:40
 msgid "Contact"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:26
+#: templates/includes/cc_site_footer.html:26
 msgid "Privacy"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:27
+#: templates/includes/cc_site_footer.html:27
 msgid "Policies"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:28
+#: templates/includes/cc_site_footer.html:28
 msgid "Terms"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:35
+#: templates/includes/cc_site_footer.html:35
 msgid "We'd love to hear from you!"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_footer.html:44
+#: templates/includes/cc_site_footer.html:44
 msgid "Frequently Asked Questions"
 msgstr "پرسش‌های متداول"
 
-#: licenses/templates/includes/cc_site_header.html:11
+#: templates/includes/cc_site_header.html:11
 msgid "Menu"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:16
-#: licenses/templates/includes/cc_site_header.html:27
+#: templates/includes/cc_site_header.html:16
+#: templates/includes/cc_site_header.html:27
 msgid "Share your work"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:17
-#: licenses/templates/includes/cc_site_header.html:28
+#: templates/includes/cc_site_header.html:17
+#: templates/includes/cc_site_header.html:28
 msgid "Use &#038; remix"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:18
-#: licenses/templates/includes/cc_site_header.html:29
-#: licenses/templates/includes/footer.html:40
+#: templates/includes/cc_site_header.html:18
+#: templates/includes/cc_site_header.html:29 templates/includes/footer.html:40
 msgid "What we do"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:19
-#: licenses/templates/includes/cc_site_header.html:30
+#: templates/includes/cc_site_header.html:19
+#: templates/includes/cc_site_header.html:30
 msgid "Blog"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:20
-#: licenses/templates/includes/cc_site_header.html:37
+#: templates/includes/cc_site_header.html:20
+#: templates/includes/cc_site_header.html:37
 msgid "Global Network"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:21
+#: templates/includes/cc_site_header.html:21
 msgid "Search the Commons"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:36
+#: templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:38
+#: templates/includes/cc_site_header.html:38
 msgid "Newsletters"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:39
+#: templates/includes/cc_site_header.html:39
 msgid "Store"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:46
+#: templates/includes/cc_site_header.html:46
 msgid "Facebook"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:47
+#: templates/includes/cc_site_header.html:47
 msgid "Twitter"
 msgstr ""
 
-#: licenses/templates/includes/cc_site_header.html:48
+#: templates/includes/cc_site_header.html:48
 msgid "Mail"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_certification.html:6
+#: templates/includes/deed_body_certification.html:6
 msgid ""
 "<p>The person or persons who have associated work with this document (the "
 "\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
@@ -190,20 +189,20 @@ msgid ""
 "invented or conceived.</p>"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:7
+#: templates/includes/deed_body_licenses.html:7
 msgid "You are free to:"
 msgstr "شما اجازه دارید:"
 
-#: licenses/templates/includes/deed_body_licenses.html:11
+#: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:12
+#: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:17
+#: templates/includes/deed_body_licenses.html:17
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
@@ -211,14 +210,14 @@ msgstr ""
 "برای نمونه‌برداشتن، ترکیب‌کردن، یا به طور دیگر تغییردادن خلاقانه به این اثر "
 "برای اهداف غیر تجاری."
 
-#: licenses/templates/includes/deed_body_licenses.html:19
+#: templates/includes/deed_body_licenses.html:19
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
 msgstr ""
 "برای نمونه، ترکیب یا انتقال خلاقانهٔ این آثار برای مقاصد تجاری و غیر تجاری."
 
-#: licenses/templates/includes/deed_body_licenses.html:23
+#: templates/includes/deed_body_licenses.html:23
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
@@ -226,7 +225,7 @@ msgstr ""
 "نمایش و نشر کپی‌ها و اجرای همه اثر برای مقاصد غیرتجاری (مثلاً اشتراک‌گذاری "
 "فایل یا رسانه‌های اینرنتی غیرتجاری)"
 
-#: licenses/templates/includes/deed_body_licenses.html:29
+#: templates/includes/deed_body_licenses.html:29
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
@@ -234,26 +233,19 @@ msgstr ""
 "<strong>اشتراک بگذارید</strong> &mdash; نسخه‌برداری کنید و توزیع کنید مواد "
 "در هر رسانه یا قالب را"
 
-#: licenses/templates/includes/deed_body_licenses.html:31
-msgid ""
-"<strong>Share</strong> — copy and redistribute the material in any medium or"
-" format for any purpose, even commercially."
-msgstr ""
+#: templates/includes/deed_body_licenses.html:31
+#: templates/includes/deed_body_licenses.html:39
+msgid "for any purpose, even commercially."
+msgstr "برای هر قصدی حتی تجاری"
 
-#: licenses/templates/includes/deed_body_licenses.html:36
+#: templates/includes/deed_body_licenses.html:37
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>مطابقت دهید</strong> &mdash; ترکیب کنید، تغییر دهید، و بر اسا مواد "
 "بسازید"
 
-#: licenses/templates/includes/deed_body_licenses.html:39
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-" for any purpose, even commercially."
-msgstr ""
-
-#: licenses/templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:46
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -261,23 +253,23 @@ msgstr ""
 "پروانه‌دهنده نمی‌تواند این آزادی‌ها را تا زمانی که شما از شرایط پروانه پیروی"
 " می‌کنید لغو کند."
 
-#: licenses/templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:52
 msgid "Under the following terms:"
 msgstr "تحت این شرایط:"
 
-#: licenses/templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "کشورهای در حال توسعه"
 
-#: licenses/templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: licenses/templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:74
 msgid "Attribution"
 msgstr "تخصیص"
 
-#: licenses/templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:75
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -296,11 +288,11 @@ msgstr ""
 " دهید، اما نه به هر روش که نشان دهد پروانه‌دهنده شما یا استفاده‌تان را تأیید"
 " می‌کند."
 
-#: licenses/templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:86
 msgid "NonCommercial"
 msgstr "غیر تجاری"
 
-#: licenses/templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:87
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -309,11 +301,11 @@ msgstr ""
 "id=\"commercial_purposes_popup\" class=\"helpLink\">اهداف تجاری</a> استفاده "
 "کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:98
 msgid "ShareAlike"
 msgstr "سهم یکسان"
 
-#: licenses/templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:98
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -323,11 +315,11 @@ msgstr ""
 "مشارکت‌هایتان را تحت <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">همان پروانه</a> بعنوان اصلی توزیع کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:109
 msgid "NoDerivatives"
 msgstr "بدون انشقاق"
 
-#: licenses/templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:109
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -337,7 +329,7 @@ msgstr ""
 "class=\"helpLink\">ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید</a>، "
 "نمی‌توانید مواد اصلاح‌شده را توزیع کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:120
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -345,7 +337,7 @@ msgstr ""
 "شما نباید از این اثر برای تبلیغ یا ترویج چیزی استفاده کنید مگر اثری که بر "
 "پایه این اثر ساخته‌ا‌ید."
 
-#: licenses/templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:131
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -353,7 +345,7 @@ msgstr ""
 "برای هر استفاده مجدد یا نشر شما باید برای دیگران مجوز این اثر را شخص کنید. "
 "بهترین روش برای این کار پیوند دادن به این صفحه است."
 
-#: licenses/templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:142
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -361,11 +353,11 @@ msgstr ""
 "شما نمی‌توانید نسخه‌هایی از کل این اثر را به هر دلیل اجرا کنید، نمایش دهید، "
 "یا توزیع کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:152
 msgid "No additional restrictions"
 msgstr "هیچ محدودیت اضافه‌ای"
 
-#: licenses/templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:152
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -377,11 +369,11 @@ msgstr ""
 " طور قانونی دیگران را از انجام هر کار اجازه‌های پروانه محدود می‌کند اعمال "
 "کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:159
 msgid "Notices:"
 msgstr "آگاهی‌ها:"
 
-#: licenses/templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:162
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -392,7 +384,7 @@ msgstr ""
 "استفاده‌تان با <a href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">استثنا یا محدودیت</a> قابل اجرا مجاز است پیروی کنید."
 
-#: licenses/templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:165
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -406,12 +398,12 @@ msgstr ""
 "تبلیغات، حفظ حریم خصوصی، یا اخلاق</a> ممکن است چگونگی استفاده‌تان از مواد را"
 " محدود کنند."
 
-#: licenses/templates/includes/deed_body_mark.html:7
-#: licenses/templates/includes/deed_body_zero.html:6
+#: templates/includes/deed_body_mark.html:7
+#: templates/includes/deed_body_zero.html:6
 msgid "No Copyright"
 msgstr "بدون کپی رایت"
 
-#: licenses/templates/includes/deed_body_mark.html:14
+#: templates/includes/deed_body_mark.html:14
 msgid ""
 "<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
 "known restrictions under copyright law, including all related and "
@@ -424,12 +416,12 @@ msgstr ""
 " شما می‌توانید اثر را اجرا، توزیع، اصلاح و نسخه‌برداری کنید، حتی برای اهداف "
 "تجاری، بدون گرفتن اجازه. <b>اطلاعات دیگر</b> را در زیر ببینید. </p>"
 
-#: licenses/templates/includes/deed_body_mark.html:22
-#: licenses/templates/includes/deed_body_zero.html:19
+#: templates/includes/deed_body_mark.html:22
+#: templates/includes/deed_body_zero.html:19
 msgid "Other Information"
 msgstr "اطلاعات دیگر"
 
-#: licenses/templates/includes/deed_body_mark.html:28
+#: templates/includes/deed_body_mark.html:28
 msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
@@ -437,7 +429,7 @@ msgstr ""
 "این اثر ممکن است از محدودیت‌های حق تکثیر شناخته‌شده در همه <a href=\"\" "
 "class=\"helpLink\" id=\"all_jurisdictions\">حوزه‌های قضایی</a> آزاد نباشد."
 
-#: licenses/templates/includes/deed_body_mark.html:30
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -446,7 +438,7 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
-#: licenses/templates/includes/deed_body_mark.html:32
+#: templates/includes/deed_body_mark.html:32
 msgid ""
 "In some jurisdictions <a href=\"\" class=\"helpLink\" "
 "id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
@@ -458,7 +450,7 @@ msgstr ""
 "ادامه یابد. این حقوق ممکن است شامل حق شناخته‌شدن به‌عنوان نویسنده و حق "
 "اعتراض‌کردن به رفتارهای تحقیرآمیز باشد."
 
-#: licenses/templates/includes/deed_body_mark.html:34
+#: templates/includes/deed_body_mark.html:34
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -468,7 +460,7 @@ msgstr ""
 "کرد هیچ ضمانتی درباره اثر نمی‌سازد، و مسئولیت برای همه استفاده‌ها از اثر را "
 "رد می‌کند، تا جایی که قانون مربوطه اجازه می‌دهد."
 
-#: licenses/templates/includes/deed_body_mark.html:36
+#: templates/includes/deed_body_mark.html:36
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
@@ -478,18 +470,18 @@ msgstr ""
 "class=\"helpLink\" id=\"endorsement\">تأیید</a> توسط نویسنده یا آن شخص که "
 "اثر را تأیید کرد اشاره کنید."
 
-#: licenses/templates/includes/deed_body_unimplemented.html:7
-#: licenses/templates/legalcode.html:50
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:50
 msgid "Unimplemented"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_unimplemented.html:7
-#: licenses/templates/legalcode.html:50
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:50
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
 
-#: licenses/templates/includes/deed_body_zero.html:12
+#: templates/includes/deed_body_zero.html:12
 msgid ""
 "The person who associated a work with this deed has <b>dedicated</b> the "
 "work to the public domain by waiving all of his or her rights to the work "
@@ -500,7 +492,7 @@ msgstr ""
 "از همه حقوقش سراسر دنیا برای این اثر تحت قانون حق تکثیر، شامل همه حقوق "
 "همجوار و مرتبط <b>اختصاص می‌دهد</b>، تا جایی که قانون مربوطه اجازه می‌دهد."
 
-#: licenses/templates/includes/deed_body_zero.html:13
+#: templates/includes/deed_body_zero.html:13
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
@@ -509,7 +501,7 @@ msgstr ""
 "دهید، حتی برای اهداف تجاری، بدون گرفتن اجازه. <b>اطلاعات دیگر</b> را در زیر "
 "ببینید."
 
-#: licenses/templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:24
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
@@ -518,7 +510,7 @@ msgid ""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
 
-#: licenses/templates/includes/deed_body_zero.html:26
+#: templates/includes/deed_body_zero.html:26
 msgid ""
 "Unless expressly stated otherwise, the person who associated a work with "
 "this deed makes no warranties about the work, and disclaims liability for "
@@ -528,7 +520,7 @@ msgstr ""
 " این سند مربوط ساخته‌است هیچ ضمانی درباره اثر نمی‌کند، و مسئولیت همه استفاده"
 " از اثر را رد می‌کند، تا جایی که قانون مربوطه اجازه می‌دهد."
 
-#: licenses/templates/includes/deed_body_zero.html:27
+#: templates/includes/deed_body_zero.html:27
 msgid ""
 "When using or citing the work, you should not imply <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
@@ -538,11 +530,11 @@ msgstr ""
 "class=\"helpLink\" id=\"endorsement\">تأیید</a> توسط نویسنده یا حمایت‌کننده "
 "اشاره کنید."
 
-#: licenses/templates/includes/deed_body_zero.html:32
+#: templates/includes/deed_body_zero.html:32
 msgid "Other Rights"
 msgstr "حقوق دیگر"
 
-#: licenses/templates/includes/deed_body_zero.html:34
+#: templates/includes/deed_body_zero.html:34
 msgid ""
 "The use of a work free of known copyright restrictions may be otherwise "
 "regulated or limited. The work or its use may be subject to personal data "
@@ -556,17 +548,17 @@ msgstr ""
 "بررسی چگونگی استفاده صدا، تصویر یا همانندی اجازه می‌دهد، یا دیگر محدودیت‌ها "
 "تحت قانون اجراشدنی."
 
-#: licenses/templates/includes/deed_body_zero.html:35
-#: licenses/templates/includes/deed_body_zero.html:42
-#: licenses/templates/includes/deed_body_zero.html:51
+#: templates/includes/deed_body_zero.html:35
+#: templates/includes/deed_body_zero.html:42
+#: templates/includes/deed_body_zero.html:51
 msgid "Learn more"
 msgstr "بیشتر بدانید"
 
-#: licenses/templates/includes/deed_body_zero.html:39
+#: templates/includes/deed_body_zero.html:39
 msgid "Endorsement"
 msgstr "تایید"
 
-#: licenses/templates/includes/deed_body_zero.html:41
+#: templates/includes/deed_body_zero.html:41
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
@@ -574,22 +566,22 @@ msgstr ""
 "در چند حوزهٔ قضایی، به اشتباه اشاره‌کردن که یک نویسنده، ناشر یا هرکس دیگر "
 "استفاده شما از یک اثر را تأیید می‌کند می‌تواند غیرقانونی باشد."
 
-#: licenses/templates/includes/deed_body_zero.html:45
+#: templates/includes/deed_body_zero.html:45
 msgid "Citation"
 msgstr "نقل قول"
 
-#: licenses/templates/includes/deed_body_zero.html:48
+#: templates/includes/deed_body_zero.html:48
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr ""
 "از اچ‌تی‌ام‌ال تهیه‌شده نسخه‌برداری کنید و آن را برای راحتی در استنادکردن به"
 " این اثر به صفحه وب‌تان بچسبانید."
 
-#: licenses/templates/includes/deed_body_zero.html:55
+#: templates/includes/deed_body_zero.html:55
 msgid "Who is the affirmer?"
 msgstr "چه کسی تائیدکننده است؟"
 
-#: licenses/templates/includes/deed_body_zero.html:58
+#: templates/includes/deed_body_zero.html:58
 msgid ""
 "The affirmer is the person who surrendered rights to the work worldwide "
 "using CC0, to the extent allowable by law. It may be the original author of "
@@ -601,7 +593,7 @@ msgstr ""
 "یا شخصی دیگر باشد که ممکن است چند حق تکثیر یا مرتبط یا قوانین قانونی همجوار "
 "در این اثر داشته باشد."
 
-#: licenses/templates/includes/deed_donate_slide.html:7
+#: templates/includes/deed_donate_slide.html:7
 msgid ""
 "This content is freely available under simple legal terms because of "
 "Creative Commons, a non-profit that survives on donations. If you love this "
@@ -609,30 +601,30 @@ msgid ""
 " support our work."
 msgstr ""
 
-#: licenses/templates/includes/deed_donate_slide.html:8
+#: templates/includes/deed_donate_slide.html:8
 msgid "When you share, everyone wins."
 msgstr ""
 
-#: licenses/templates/includes/deed_donate_slide.html:14
+#: templates/includes/deed_donate_slide.html:14
 msgid "Contribute today to Creative Commons"
 msgstr ""
 
-#: licenses/templates/includes/deed_donate_slide.html:35
+#: templates/includes/deed_donate_slide.html:35
 msgid "Amount"
 msgstr ""
 
-#: licenses/templates/includes/deed_donate_slide.html:42
+#: templates/includes/deed_donate_slide.html:42
 msgid "Donate Now"
 msgstr ""
 
-#: licenses/templates/includes/deprecated.html:7
-#: licenses/templates/includes/disclaimer_40.html:9
-#: licenses/templates/includes/disclaimer_certification.html:9
-#: licenses/templates/includes/disclaimer_zero.html:9
+#: templates/includes/deprecated.html:7
+#: templates/includes/disclaimer_40.html:9
+#: templates/includes/disclaimer_certification.html:9
+#: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "سلب مسئولیت"
 
-#: licenses/templates/includes/deprecated.html:9
+#: templates/includes/deprecated.html:9
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -642,7 +634,7 @@ msgstr ""
 "قانونی را بازنشسته کرده‌است</a> و پیشنهاد نمی دهد که آن را برای آثار استفاده"
 " کنید."
 
-#: licenses/templates/includes/disclaimer_40.html:11
+#: templates/includes/disclaimer_40.html:11
 msgid ""
 "This deed highlights only some of the key features and terms of the actual "
 "license. It is not a license and has no legal value. You should carefully "
@@ -650,14 +642,14 @@ msgid ""
 "the licensed material."
 msgstr ""
 
-#: licenses/templates/includes/disclaimer_40.html:18
+#: templates/includes/disclaimer_40.html:18
 msgid ""
 "Creative Commons is not a law firm and does not provide legal services. "
 "Distributing, displaying, or linking to this deed or the license that it "
 "summarizes does not create a lawyer-client or any other relationship."
 msgstr ""
 
-#: licenses/templates/includes/disclaimer_certification.html:10
+#: templates/includes/disclaimer_certification.html:10
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -667,7 +659,7 @@ msgstr ""
 "متحده قابل اجرا باشد. برای اختصاص‌دادن آثار تازه به مالکیت عمومی، ما <a "
 "href=\"/choose/zero/\">کریتیو کامنز 0</a> را پیشنهاد می‌کنیم."
 
-#: licenses/templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:11
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -692,7 +684,7 @@ msgstr ""
 "درباره هر اثر یا وضعیت حق تکثیرش در هیچ حوزهٔ قضایی نمی‌کند، و همه مسئولیت "
 "همه استفاده‌ها از هر اثر را رد می‌کند. </p>"
 
-#: licenses/templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:15
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
@@ -700,23 +692,23 @@ msgstr ""
 "این خلاصه‌ای قابل فهم برای انسان از <a href=\"./legalcode\">کد قانونی (متن "
 "کامل را بخوانید)</a> است."
 
-#: licenses/templates/includes/footer.html:39
+#: templates/includes/footer.html:39
 msgid "Who We Are"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:41
+#: templates/includes/footer.html:41
 msgid "Our Impact"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:42
+#: templates/includes/footer.html:42
 msgid "News"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:50
+#: templates/includes/footer.html:50
 msgid "Subscribe to our newsletter"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:58
+#: templates/includes/footer.html:58
 msgid ""
 "Except where otherwise <a "
 "href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
@@ -728,157 +720,73 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
 msgstr ""
 
-#: licenses/templates/includes/footer.html:76
+#: templates/includes/footer.html:76
 msgid "Our work relies on you!"
 msgstr ""
 
-#: licenses/templates/includes/footer.html:77
+#: templates/includes/footer.html:77
 msgid "Help us keep the internet free and open."
 msgstr ""
 
-#: licenses/templates/includes/footer.html:80
+#: templates/includes/footer.html:80
 msgid "Donate now"
 msgstr ""
 
-#: licenses/templates/includes/language_selector.html:5
-#: licenses/templates/includes/translations.html:4
+#: templates/includes/language_selector.html:5
+#: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
 msgstr "این صفحه به زبان های زیر در دسترس است :"
 
-#: licenses/templates/includes/languages_dropdown.html:4
+#: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
 msgstr ""
 
-#: licenses/templates/includes/languages_dropdown.html:9
+#: templates/includes/languages_dropdown.html:9
 msgid "Select"
 msgstr ""
 
-#: licenses/templates/includes/menu-sidebar.html:13
-msgid "Statement of Purpose"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:17
-msgid "1. Copyright and Related Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:21
-msgid "2. Waiver."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:25
-msgid "3. Public License Fallback."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:29
-msgid "4. Limitations and Disclaimers."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:35
-msgid "Section 1 – Definitions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:39
-msgid "Section 2 – Scope."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:43
-msgid "Section 3 – License Conditions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:47
-msgid "Section 4 – Sui Generis Database Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:51
-msgid "Section 5 – Disclaimer of Warranties and Limitation of Liability."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:55
-msgid "Section 6 – Term and Termination."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:59
-msgid "Section 7 – Other Terms and Conditions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:63
-msgid "Section 8 – Interpretation."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:69
-msgid "1. Definitions"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:73
-msgid "2. Fair Dealing Rights."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:77
-msgid "3. License Grant."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:81
-msgid "4. Restrictions."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:85
-msgid "5. Representations, Warranties and Disclaimer"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:89
-msgid "6. Limitation on Liability."
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:93
-msgid "7. Termination"
-msgstr ""
-
-#: licenses/templates/includes/menu-sidebar.html:97
-msgid "8. Miscellaneous"
-msgstr ""
-
-#: licenses/templates/includes/related_links.html:10
+#: templates/includes/related_links.html:10
 msgid "Related Links"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:14
+#: templates/includes/related_links.html:14
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses that allow "
 "creators to share their work. Our licenses and legal tools are free to use."
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:23
+#: templates/includes/related_links.html:23
 msgid ""
 "We're glad you're here! Creative Commons is the nonprofit behind the open "
 "licenses that allow creators to share their work. Our licenses are free to "
 "use."
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:32
+#: templates/includes/related_links.html:32
 msgid "Learn more about our work"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:34
+#: templates/includes/related_links.html:34
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:35
+#: templates/includes/related_links.html:35
 msgid "Support our work"
 msgstr ""
 
-#: licenses/templates/includes/related_links.html:37
+#: templates/includes/related_links.html:37
 msgid "Use the license for your own material."
 msgstr ""
 
-#: licenses/templates/includes/skiplink.html:4
+#: templates/includes/skiplink.html:4
 msgid "Skip to content"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:5
+#: templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:7
+#: templates/includes/use_of_licenses.html:7
 msgid ""
 "Creative Commons public licenses provide a standard set of terms and "
 "conditions that creators and other rights holders may use to share original "
@@ -888,16 +796,15 @@ msgid ""
 "do not form part of our licenses."
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:16
+#: templates/includes/use_of_licenses.html:16
 msgid "Considerations for licensors"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:16
-#: licenses/templates/legalcode.html:92
+#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:18
+#: templates/includes/use_of_licenses.html:18
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -912,16 +819,15 @@ msgid ""
 " considerations for licensors.</a>"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:30
+#: templates/includes/use_of_licenses.html:30
 msgid "Considerations for the public"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:30
-#: licenses/templates/legalcode.html:94
+#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
 msgid "Show Considerations for the Public"
 msgstr ""
 
-#: licenses/templates/includes/use_of_licenses.html:32
+#: templates/includes/use_of_licenses.html:32
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -938,18 +844,18 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: licenses/templates/legalcode.html:21
+#: templates/legalcode.html:21
 msgid "See the deed"
 msgstr ""
 
-#: licenses/templates/legalcode.html:88
+#: templates/legalcode.html:88
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: licenses/templates/legalcode.html:90
+#: templates/legalcode.html:90
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: licenses/templates/redirect.html:5
+#: templates/redirect.html:5
 msgid "Redirect to:"
 msgstr ""
