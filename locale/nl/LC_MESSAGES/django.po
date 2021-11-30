@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021
 # Timid Robot Zehta <timid@creativecommons.org>, 2021
+# Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021
+# Maarten Zeinstra <mzeinstra@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-24 19:30:40+00:00\n"
-"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2021\n"
+"PO-Revision-Date: 2021-11-29 15:44:43+00:00\n"
+"Last-Translator: Maarten Zeinstra <mzeinstra@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/nl/\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +35,7 @@ msgstr "Thuispagina"
 
 #: templates/deed.html:8 templates/dev/home.html:16
 msgid "Deed"
-msgstr ""
+msgstr "Akte"
 
 #: templates/deed.html:15
 msgid "See the legal code"
@@ -163,7 +164,7 @@ msgstr "Nieuwsbrieven"
 
 #: templates/includes/cc_site_header.html:39
 msgid "Store"
-msgstr ""
+msgstr "Winkel"
 
 #: templates/includes/cc_site_header.html:46
 msgid "Facebook"
@@ -611,11 +612,11 @@ msgid ""
 msgstr ""
 "In sommige jurisdicties kan het onrechtmatig zijn om ten onrechte te "
 "suggereren dat een maker, uitgever of iemand anders het gebruik van een werk"
-" goedkeurt. "
+" goedkeurt."
 
 #: templates/includes/deed_body_zero.html:45
 msgid "Citation"
-msgstr "Citatie"
+msgstr "Citaat"
 
 #: templates/includes/deed_body_zero.html:48
 msgid ""
@@ -625,7 +626,7 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:55
 msgid "Who is the affirmer?"
-msgstr "Wie bevestigd dit?"
+msgstr "Wie bevestigt dit?"
 
 #: templates/includes/deed_body_zero.html:58
 msgid ""
@@ -647,10 +648,10 @@ msgid ""
 "content, and love that it's free for everyone, please consider a donation to"
 " support our work."
 msgstr ""
-"Deze content is vrij beschikbaar onder eenvoudige juridische voorwaarden "
+"Deze inhoud is vrij beschikbaar onder eenvoudige juridische voorwaarden "
 "dankzij Creative Commons, een non-profitorganisatie die leeft van donaties. "
-"Als je deze content waardeert en het belangrijk vindt dat deze voor iedereen"
-" gratis is, overweeg dan om een donatie te maken om ons werk te steunen."
+"Als je deze inhoud waardeert en het belangrijk vindt dat deze voor iedereen "
+"gratis is, overweeg dan om een donatie te maken om ons werk te steunen."
 
 #: templates/includes/deed_donate_slide.html:8
 msgid "When you share, everyone wins."
@@ -658,15 +659,15 @@ msgstr "Iedereen wint wanneer je deelt."
 
 #: templates/includes/deed_donate_slide.html:14
 msgid "Contribute today to Creative Commons"
-msgstr "Doneer vandaag aan Creative Commons"
+msgstr "Draag vandaag bij aan Creative Commons"
 
 #: templates/includes/deed_donate_slide.html:35
 msgid "Amount"
-msgstr "Aantal"
+msgstr "Bedrag"
 
 #: templates/includes/deed_donate_slide.html:42
 msgid "Donate Now"
-msgstr "Doneer Nu"
+msgstr "Nu doneren"
 
 #: templates/includes/deprecated.html:7
 #: templates/includes/disclaimer_40.html:9
@@ -704,7 +705,7 @@ msgid ""
 "summarizes does not create a lawyer-client or any other relationship."
 msgstr ""
 "Creative Commons is geen advocatenkantoor en biedt geen juridische diensten "
-"aan. Het verspreiden, tentoonstellen of linken naar dit document of de "
+"aan. Het verspreiden, tentoonstellen of verwijzen naar dit document of de "
 "volledige licentietekst creëert geen advocaat-klantrelatie of enige andere "
 "relatie."
 
@@ -714,9 +715,9 @@ msgid ""
 "the US. For dedicating new works to the public domain, we recommend <a "
 "href=\"/choose/zero/\">CC0</a>."
 msgstr ""
-"Dit hulpprogramma is gebaseerd op de Amerikaanse wet en is niet "
-"noodzakelijkerwijs toepasselijk buiten de Verenigde Staten. Om nieuwe werken"
-" toe te wijzen aan het publieke domein raden we <a "
+"Dit hulpprogramma is gebaseerd op de wet van de Verenigde Staten van Amerika"
+" en is niet noodzakelijkerwijs toepasselijk buiten de Verenigde Staten. Om "
+"nieuwe werken toe te wijzen aan het publieke domein raden we <a "
 "href=\"/choose/zero/\">CC0</a> aan."
 
 #: templates/includes/disclaimer_zero.html:11
@@ -733,16 +734,16 @@ msgid ""
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
 msgstr ""
-"<p>De Commons Akte is geen juridisch instrument. Het is een handig "
+"<p>De Commons-Akte is geen juridisch instrument. Het is een handig "
 "hulpmiddel voor een beter begrip van de CC0 Juridische Overeenkomst, een "
 "voor mensen leesbare weergave van een aantal kernbegrippen daaruit. Beschouw"
 " het als de gebruiksvriendelijke interface van de onderliggende CC0 "
 "Juridische Overeenkomst. Deze Akte zelf heeft geen juridische betekenis, en "
 "de inhoud komt niet voor in de CC0.</p><p> Creative Commons is geen "
 "advocatenpraktijk en verleent geen juridische diensten. Het verspreiden, "
-"weergeven, of verwijzen naar deze Commons Akte schept geen advocaat-cliënt "
-"relatie.</p><p> Creative Commons heeft de auteursrechtelijke status van "
-"werken waarop de CC0 is toegepast niet geverifieerd. CC geeft geen "
+"weergeven, of verwijzen naar deze Commons-Akte schept geen advocaat-"
+"cliëntrelatie.</p><p> Creative Commons heeft de auteursrechtelijke status "
+"van werken waarop de CC0 is toegepast niet geverifieerd. CC geeft geen "
 "vrijwaringen met betrekking tot werken of hun auteursrechtelijke status in "
 "enige jurisdictie, en sluit alle aansprakelijkheid uit voor ieder gebruik "
 "van elk werk.</p>"
@@ -752,24 +753,24 @@ msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
-"Dit is een voor mensen leesbare samenvatting van de <a href=\"./legalcode\">"
-" Legal Code (lees de volledige tekst)</a>."
+"Dit is een voor mensen leesbare samenvatting van de <a "
+"href=\"./legalcode\">Juridische Tekst (lees de volledige tekst)</a>."
 
 #: templates/includes/footer.html:39
 msgid "Who We Are"
-msgstr ""
+msgstr "Wie wij zijn"
 
 #: templates/includes/footer.html:41
 msgid "Our Impact"
-msgstr ""
+msgstr "Onze impact"
 
 #: templates/includes/footer.html:42
 msgid "News"
-msgstr ""
+msgstr "Nieuws"
 
 #: templates/includes/footer.html:50
 msgid "Subscribe to our newsletter"
-msgstr ""
+msgstr "Meld je aan voor onze nieuwsbrief"
 
 #: templates/includes/footer.html:58
 msgid ""
@@ -782,18 +783,27 @@ msgid ""
 "rel=\"noopener\">Icons</a> by <a href=\"https://fontawesome.com/\" "
 "target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
 msgstr ""
+"Tenzij anders is <a href=\"https://creativecommons.org/policies#license\" "
+"target=\"_blank\" rel=\"noopener\">aangegeven</a>, is inhoud van deze site "
+"gelicentieerd onder een <a "
+"href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" "
+"rel=\"noopener\">Creative Commons Naamsvermelding 4.0 Internationaal</a> "
+"licentie. <a href=\"https://creativecommons.org/website-icons\" "
+"target=\"_blank\" rel=\"noopener\">Pictogrammen</a> door <a "
+"href=\"https://fontawesome.com/\" target=\"_blank\" rel=\"noopener\">Font "
+"Awesome</a>."
 
 #: templates/includes/footer.html:76
 msgid "Our work relies on you!"
-msgstr ""
+msgstr "Ons werk is afhankelijk van jou!"
 
 #: templates/includes/footer.html:77
 msgid "Help us keep the internet free and open."
-msgstr ""
+msgstr "Help ons het internet vrij en open te houden."
 
 #: templates/includes/footer.html:80
 msgid "Donate now"
-msgstr ""
+msgstr "Doneer nu"
 
 #: templates/includes/language_selector.html:5
 #: templates/includes/translations.html:4
@@ -802,21 +812,24 @@ msgstr "Deze pagina is beschikbaar in de volgende talen:"
 
 #: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
-msgstr ""
+msgstr "Beschikbare talen"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
-msgstr ""
+msgstr "Selecteer"
 
 #: templates/includes/related_links.html:10
 msgid "Related Links"
-msgstr ""
+msgstr "Gerelateerde links"
 
 #: templates/includes/related_links.html:14
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses that allow "
 "creators to share their work. Our licenses and legal tools are free to use."
 msgstr ""
+"Creative Commons is de non-profitorganisatie achter de open licenties "
+"waarmee makers hun werk kunnen delen. Onze licenties en juridische tools "
+"zijn gratis te gebruiken."
 
 #: templates/includes/related_links.html:23
 msgid ""
@@ -824,22 +837,25 @@ msgid ""
 "licenses that allow creators to share their work. Our licenses are free to "
 "use."
 msgstr ""
+"We zijn blij dat je hier bent! Creative Commons is de non-profitorganisatie "
+"achter de open licenties waarmee makers hun werk kunnen delen. Onze "
+"licenties zijn gratis te gebruiken."
 
 #: templates/includes/related_links.html:32
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Leer meer over ons werk"
 
 #: templates/includes/related_links.html:34
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Leer meer over CC-licensering"
 
 #: templates/includes/related_links.html:35
 msgid "Support our work"
-msgstr ""
+msgstr "Ondersteun ons werk"
 
 #: templates/includes/related_links.html:37
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Gebruik de licentie voor je eigen materiaal."
 
 #: templates/includes/skiplink.html:4
 msgid "Skip to content"
@@ -847,7 +863,7 @@ msgstr "Spring naar de content"
 
 #: templates/includes/use_of_licenses.html:5
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Gebruik Creative Commons' Publieke Licenties"
 
 #: templates/includes/use_of_licenses.html:7
 msgid ""
@@ -858,14 +874,20 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons-licenties bieden een standaardset voorwaarden en bepalingen"
+" die makers en andere rechthebbenden kunnen gebruiken om originele werken "
+"van auteurschap en ander materiaal te delen dat onderhevig is aan "
+"auteursrecht en verwante rechten die zijn gespecificeerd in de onderstaande "
+"licentie. De volgende overwegingen zijn alleen voor informatieve doeleinden,"
+" ze zijn niet uitputtend en maken geen deel uit van onze licenties."
 
 #: templates/includes/use_of_licenses.html:16
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Overwegingen voor licentiegevers"
 
 #: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "Laat overwegingen voor licentiegevers zien"
 
 #: templates/includes/use_of_licenses.html:18
 msgid ""
@@ -881,14 +903,27 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Onze licenties zijn bedoeld voor gebruik door degenen die geautoriseerd zijn"
+" om iedereen toestemming te geven om materiaal te gebruiken op manieren die "
+"anderszins worden beperkt door auteursrecht en aanverwante rechten. Onze "
+"licenties zijn onherroepelijk. Licentiegevers dienen de voorwaarden van de "
+"licentie die ze kiezen te lezen en te begrijpen voordat ze deze toepassen. "
+"Licentiegevers moeten ook alle benodigde rechten veiligstellen voordat ze "
+"onze licenties toepassen, zodat iedereen het materiaal kan hergebruiken "
+"zoals verwacht. Licentiegevers dienen materiaal dat niet onder de licentie "
+"valt duidelijk te markeren. Dit omvat ander CC gelicenseerd materiaal of "
+"materiaal dat wordt gebruikt onder een uitzondering of beperking op het "
+"auteursrecht. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Meer"
+" overwegingen voor licentiegevers.</a>"
 
 #: templates/includes/use_of_licenses.html:30
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Overwegingen voor het publiek"
 
 #: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "Laat overwegingen voor het publiek zien"
 
 #: templates/includes/use_of_licenses.html:32
 msgid ""
@@ -909,16 +944,16 @@ msgstr ""
 
 #: templates/legalcode.html:21
 msgid "See the deed"
-msgstr ""
+msgstr "Zie de akte"
 
 #: templates/legalcode.html:88
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Overwegingen voor licentiegevers verbergen"
 
 #: templates/legalcode.html:90
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "Overwegingen voor het publiek verbergen"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Omleiden naar:"
