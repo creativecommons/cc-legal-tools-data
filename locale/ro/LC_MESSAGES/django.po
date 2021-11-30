@@ -234,19 +234,19 @@ msgstr ""
 "<strong>Distribui</strong> &mdash; copiază și redistribuie această operă în "
 "orice mediu sau format"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "cu orice scop, chiar și comercial"
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Adaptezi</strong> &mdash; remixezi, transformi, și construiești pe "
 "baza operei"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -254,23 +254,23 @@ msgstr ""
 "Licențiatorul nu poate revoca aceste drepturi atât timp cât respectați "
 "termenii licenței. "
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Sub următorii termeni:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Țări în curs de dezvoltare"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Atribuire"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -289,11 +289,11 @@ msgstr ""
 " dar nu în vreun mod care să sugereze că licențiatorul te sprijină pe tine "
 "sau modul tău de folosire a operei."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "Necomercial"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -301,11 +301,11 @@ msgstr ""
 "Nu poți folosi această operă în <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">scopuri comerciale</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "Partajare în Condiții Identice"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -315,11 +315,11 @@ msgstr ""
 "distribui contribuțiile tale sub <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">aceeași licență</a> precum originalul."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "FărăDerivate"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -329,7 +329,7 @@ msgstr ""
 "class=\"helpLink\">remixezi, transformi, sau construiești pe baza operei, nu"
 " vei putea distribui opera modificată."
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -337,7 +337,7 @@ msgstr ""
 "Nu poți folosi această operă pentru a face publicitate sau a promova altceva"
 " în afară de opera creată de tine pe baza acestei opere."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -346,7 +346,7 @@ msgstr ""
 "celorlalţi termenii licenţei pentru această operă. Cel mai bun mod de a-l "
 "face este de a pune un link către această pagină web."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -354,11 +354,11 @@ msgstr ""
 "Nu ai dreptul să prezinţi, să publici sau să distribui copii integrale ale "
 "acestei opere, indiferent de scop."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Fără restricții suplimentare"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -370,11 +370,11 @@ msgstr ""
 "tehnologice</a> t care restricționează din punct de vedere legal acțiunile "
 "altor utilizatori care sunt permise de către licență. "
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Notificări:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -386,7 +386,7 @@ msgstr ""
 " href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">excepție"
 " sau limitare</a> aplicabile."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

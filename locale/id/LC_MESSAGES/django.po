@@ -235,19 +235,19 @@ msgstr ""
 "<strong>Berbagi</strong> &mdash; menyalin dan menyebarluaskan kembali materi"
 " ini dalam bentuk atau format apapun;"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "untuk kepentingan apapun, termasuk kepentingan komersial."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Adaptasi</strong> &mdash; menggubah, mengubah, dan membuat turunan "
 "dari materi ini"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -255,23 +255,23 @@ msgstr ""
 "Pemberi lisensi tidak dapat mencabut ketentuan di atas sepanjang Anda "
 "mematuhi ketentuan lisensi ini."
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Berdasarkan ketentuan berikut:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Negara Berkembang"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Atribusi"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -290,11 +290,11 @@ msgstr ""
 "cara yang sesuai, namun tidak mengisyaratkan bahwa pemberi lisensi mendukung"
 " Anda atau penggunaan Anda."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "NonKomersial"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -303,11 +303,11 @@ msgstr ""
 "id=\"commercial_purposes_popup\" class=\"helpLink\">kepentingan "
 "komersial</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "BerbagiSerupa"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -318,11 +318,11 @@ msgstr ""
 "id=\"same_license_popup\" class=\"helpLink\">lisensi yang sama</a> dengan "
 "materi asli."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "TanpaTurunan"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -332,7 +332,7 @@ msgstr ""
 "class=\"helpLink\">menggubah, mengubah, atau membuat turunan dari</a> materi"
 " ini, Anda tidak boleh menyebarluaskan materi yang telah dimodifikasi."
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -340,7 +340,7 @@ msgstr ""
 "Anda tidak boleh menggunakan ciptaan ini untuk mengiklankan atau "
 "mempromosikan apapun selain ciptaan yang Anda buat berdasarkan ciptaan ini."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -349,7 +349,7 @@ msgstr ""
 "lisensi dari ciptaan ini kepada orang lain. Cara terbaik untuk melakukan hal"
 " ini adalah dengan menyediakan tautan ke laman web ini."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -357,11 +357,11 @@ msgstr ""
 "Anda tidak boleh mempertunjukkan, memperlihatkan, atau menyebarluaskan "
 "salinan dari bentuk keseluruhan ciptaan ini untuk tujuan apapun."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Tidak ada pembatasan tambahan"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -373,11 +373,11 @@ msgstr ""
 "teknologi</a> yang secara hukum membatasi orang lain untuk melakukan hal-hal"
 " yang diizinkan lisensi ini."
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Pemberitahuan:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -389,7 +389,7 @@ msgstr ""
 "href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">pengecualian atau pembatasan</a>."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

@@ -234,18 +234,18 @@ msgstr ""
 "<strong>Deliti</strong> &mdash; umnožavati i ponovo distribuirati delo u "
 "svakom mediju ili formatu "
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "za svaku namenu, čak i komercijalnu."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Preraditi</strong> &mdash; remiksovati, izmeniti, i razvijati delo "
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -253,23 +253,23 @@ msgstr ""
 "Davalac licence nije ovlašćen da opozove ove slobode dok se pridržavate "
 "uslova licence. "
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Pod sledećim uslovima:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Developing Nations"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Autorstvo"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -288,11 +288,11 @@ msgstr ""
 "tako da se sugeriše da vas davalac licence podržava, kao i vaše korišćenje "
 "dela."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "Nekomercijalno"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -301,11 +301,11 @@ msgstr ""
 "id=\"commercial_purposes_popup\" class=\"helpLink\">komercijalne namene</a>."
 " "
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "Deliti pod istim uslovima"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -315,11 +315,11 @@ msgstr ""
 "svoj udeo pod <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">istom licencom</a> originalnog dela. "
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "Bez prerada"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -329,7 +329,7 @@ msgstr ""
 "class=\"helpLink\">remiksujete, menjate ili razvijate</a> delo, nije "
 "dozvoljeno da distribuirate izmenjeno delo. "
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -337,7 +337,7 @@ msgstr ""
 "Ne možete da koristite ovo delo za promociju i reklamu nečega što nije vaše "
 "delo nastalo iz tog dela."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -346,7 +346,7 @@ msgstr ""
 "predočite drugima ugovorne uslove pod kojima je delo licencirano. Najbolji "
 "način je link prema ovoj internet strani."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -354,11 +354,11 @@ msgstr ""
 "Nije dozvoljeno javno saopštavanje ili distribuiranje primeraka celog dela u"
 " bilo koje svrhe."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Bez dodatnih ograničenja"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -370,11 +370,11 @@ msgstr ""
 "mere</a>koje pravno ograničavaju druge da čine sve ono što je dozvoljeno "
 "licencom. "
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Napomene:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -386,7 +386,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">isključenja ili "
 "ograničenja</a>. "
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

@@ -234,18 +234,18 @@ msgstr ""
 "<strong>Sdílet</strong> &mdash; rozmnožovat a distribuovat materiál "
 "prostřednictvím jakéhokoli média v jakémkoli formátu"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "pro jakýkoliv účel, a to i komerční."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Upravit</strong> &mdash; remixovat, změnit a vyjít z původního díla"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -253,23 +253,23 @@ msgstr ""
 "Poskytovatel licence nemůže odvolat tato oprávnění do té doby, dokud "
 "dodržujete licenční podmínky."
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Za těchto podmínek"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Rozvíjející se země"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Uveďte původ"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -288,11 +288,11 @@ msgstr ""
 " způsobem naznačujícím, že by poskytovatel licence schvaloval nebo "
 "podporoval Vás nebo Váš způsob užití díla."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "Neužívejte dílo komerčně"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -300,11 +300,11 @@ msgstr ""
 "Je zakázáno užívat dílo pro <a href=\"#\" id=\"commercial_purposes_popup\" "
 "class=\"helpLink\">komerční účely</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "Zachovejte licenci"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -314,11 +314,11 @@ msgstr ""
 "svoje odvozená díla vystavovat pod <a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">stejnou licencí</a> jako původní dílo."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "Nezasahujte do díla"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -328,7 +328,7 @@ msgstr ""
 "class=\"helpLink\">zpracujete, zpracujete s jinými díly, doplníte nebo jinak"
 " změníte</a>, nesmíte toto upravené dílo dále šířit."
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -336,7 +336,7 @@ msgstr ""
 "Nesmíte toto dílo využívat k reklamě či propagaci čehokoliv jiného než "
 "samotného upraveného díla, které z něj vytvoříte."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -345,7 +345,7 @@ msgstr ""
 "této licence. Nejjednodušším způsobem je uvedení odkazu na tuto webovou "
 "stránku."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -353,11 +353,11 @@ msgstr ""
 "Nesmíte využívat, zobrazovat nebo distribuovat kopie celého díla pro "
 "jakékoliv účely."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Žádná další omezení"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -369,11 +369,11 @@ msgstr ""
 "prostředky ochrany</a>, které by omezovaly ostatní v možnostech poskytnutých"
 " touto licencí."
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Poznámky:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -385,7 +385,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">výjimku či omezení "
 "práva autorského</a>."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

@@ -232,19 +232,19 @@ msgstr ""
 "<strong>বণ্টন করতে পারেন</strong> &mdash; যে কোনও মাধ্যম বা বিন্যাসে "
 "উপাদানটি অনুলিপি ও পুনঃবিতরণ করতে পারেন"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "যে কোনো উদ্দেশ্যে, এমনকি ব্যবসায়িক উদ্দেশ্যেও।"
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>অভিযোজিত করতে পারেন</strong> &mdash; পুনঃমিশ্রণ, রূপান্তর ও উপাদানের"
 " উপর নির্ভর করে কাজ করতে পারেন"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -252,23 +252,23 @@ msgstr ""
 "লাইসেন্সকারী এই স্বাধীনতাগুলি প্রত্যাহার করতে পারবেন না যতক্ষণ পর্যন্ত আপনি "
 "লাইসেন্সের শর্তাবলী অনুসরণ করছেন।"
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "নিম্নলিখিত শর্তাবলীর অধীনে:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "উন্নয়নশীল দেশসমূহ"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "অ্যাট্রিবিউশন"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -287,11 +287,11 @@ msgstr ""
 " কিন্তু এমন কোন পদ্ধতিতে নয় যাতে মনে হয় লাইসেন্সকারী আপনাকে বা আপনার এই "
 "ব্যবহারের জন্য অনুমোদন দিয়েছেন।"
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "অ-বানিজ্যিক"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -299,11 +299,11 @@ msgstr ""
 "আপনি <a href=\"#\" id=\"commercial_purposes_popup\" "
 "class=\"helpLink\">বাণিজ্যিক উদ্দেশ্যে</a> উপাদান ব্যবহার করতে নাও পারেন।"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "একইভাবে বণ্টন"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -314,11 +314,11 @@ msgstr ""
 "id=\"same_license_popup\" class=\"helpLink\">একই রকমের লাইসেন্সের</a> আওতায়"
 " বিতরণ করতে হবে।"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "কোন উদ্ভূত নয়"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -328,7 +328,7 @@ msgstr ""
 "class=\"helpLink\">পরিবর্তন, রুপান্তর, বা কাজটির ওপর ভিত্তি করে কিছু "
 "তৈরি</a> করেন, তবে আপনি সম্পাদিত উপাদান বিতরণ নাও করতে পারেন।"
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -336,7 +336,7 @@ msgstr ""
 "এই কর্ম থেকে সৃষ্ট আপনার করা কর্ম ব্যতীত আপনি এই কাজটি ব্যবহার করতে বা "
 "প্রচার করতে পারবেন না।"
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -345,7 +345,7 @@ msgstr ""
 "শর্তগুলি স্পষ্ট করতে হবে। এটি করার সবচেয়ে ভাল উপায় হচ্ছে এই ওয়েব পৃষ্ঠার "
 "একটি লিঙ্ক প্রদান করা।"
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -353,11 +353,11 @@ msgstr ""
 "আপনি যেকোন উদ্দেশ্যে এই পুরো কাজের অনুলিপি সম্পাদন, প্রদর্শন, বা বিতরণ নাও "
 "করতে পারেন।"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "কোনো বাড়তি বিধিনিষেধ নয়"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -368,11 +368,11 @@ msgstr ""
 "class=\"helpLink\">প্রযুক্তিগত পরিমাপ</a> প্রয়োগ করতে পারবেন না যা "
 "লাইসেন্সের অনুমতিপত্রে বৈধভাবে কোন কিছু করা থেকে অন্যদের সীমাবদ্ধ করে।"
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "বিজ্ঞপ্তিসমূহ:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -384,7 +384,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">ব্যতিক্রম বা "
 "সীমাবদ্ধতা</a> দ্বারা অনুমোদিত।"
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
