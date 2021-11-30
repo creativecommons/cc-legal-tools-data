@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-24 19:04:18+00:00\n"
+"PO-Revision-Date: 2021-11-30 21:47:05+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fi/\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -196,11 +196,11 @@ msgstr "Voit vapaasti:"
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
+msgstr "<strong>Jakaa</strong> &mdash; kopioida, levittää ja välittää teosta"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr ""
+msgstr "<strong>Remiksata</strong> &mdash; valmistaa muutettuja teoksia"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""

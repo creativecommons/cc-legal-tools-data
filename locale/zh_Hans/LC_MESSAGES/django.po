@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-24 19:50:31+00:00\n"
+"PO-Revision-Date: 2021-11-30 21:47:05+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hans/\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -196,11 +196,11 @@ msgstr "您可以自由地："
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
+msgstr "复制、发行、展览、表演、放映、广播或通过信息网络传播本作品"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr ""
+msgstr "创作演绎作品"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""
