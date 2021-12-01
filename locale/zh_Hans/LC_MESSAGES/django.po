@@ -226,39 +226,39 @@ msgid ""
 "medium or format"
 msgstr "<strong>共享</strong> &mdash; 在任何媒介以任何形式复制、发行本作品"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "在任何用途下，甚至商业目的。"
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr "<strong>演绎</strong> &mdash; 修改、转换或以本作品为基础进行创作"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
 msgstr "只要你遵守许可协议条款，许可人就无法收回你的这些权利。"
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "惟须遵守下列条件："
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "发展中国家"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "署名"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -274,11 +274,11 @@ msgstr ""
 "id=\"indicate_changes_popup\" "
 "class=\"helpLink\">标明是否（对原始作品）作了修改</a></span>。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。"
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "非商业性使用"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -286,11 +286,11 @@ msgstr ""
 "您不得将本作品用于<a href=\"#\" id=\"commercial_purposes_popup\" "
 "class=\"helpLink\">商业目的</a>。"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "相同方式共享"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -299,11 +299,11 @@ msgstr ""
 "如果您再混合、转换或者基于本作品进行创作，您必须基于<a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">与原先许可协议相同的许可协议</a> 分发您贡献的作品。"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "禁止演绎"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -312,29 +312,29 @@ msgstr ""
 "如果您 <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">再混合、转换、或者基于该作品创作</a>，您不可以分发修改作品。"
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
 msgstr "除了您基于本作品创作的作品之外，您不得将本作品用于广告或宣传任何其他事物。"
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr "在再使用或者发行本作品时，您必须向他人明示本作品使用的许可协议条款。明示的最佳方法是附上本网页的链接。"
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
 msgstr "您不得出于任何目的表演、放映、广播、通过信息网络传播、展览或者发行该整部作品的复制件。"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "没有附加限制"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -344,11 +344,11 @@ msgstr ""
 "您不得适用法律术语或者 <a href=\"#\" id=\"technological_measures_popup\" "
 "class=\"helpLink\">技术措施</a> 从而限制其他人做许可协议允许的事情。"
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "声明："
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -358,7 +358,7 @@ msgstr ""
 "您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 <a href=\"#\" "
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">例外或限制</a>所允许。"
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

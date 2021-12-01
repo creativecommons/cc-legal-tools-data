@@ -234,12 +234,12 @@ msgstr ""
 "<strong>É a chomhroinnt</strong> &mdash; an t-ábhar a chóipeáil agus a "
 "athdháileadh in aon mheán nó in aon fhormaid"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "chun críche ar bith, fiú ar bhonn tráchtála."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
@@ -247,7 +247,7 @@ msgstr ""
 "athmheascadh, a athrú ó bhonn, agus cuir leis chun críche ar bith, fiú ar "
 "bhonn tráchtála"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -255,23 +255,23 @@ msgstr ""
 "Ní féidir leis an gceadúnóir na saoirsí sin a chúlghairm a fhad agus a "
 "chloífidh tú le téarmaí an cheadúnais."
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Faoi na téarmaí seo a leanas:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Developing Nations"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Attribution"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -290,11 +290,11 @@ msgstr ""
 "dhéanamh ar aon bhealach réasúnta, ach ní ar bhealach ar bith a thugann le "
 "fios go dtacaíonn an ceadúnóir leatsa ná le d’úsáid."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "Neamhthráchtáil"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -302,11 +302,11 @@ msgstr ""
 "Ní féidir leat an t-ábhar a úsáid chun <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">críocha tráchtála</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "Comhroinn faoi na dálaí céanna"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -317,11 +317,11 @@ msgstr ""
 " id=\"same_license_popup\" class=\"helpLink\">gceadúnas céanna</a> leis an "
 "mbunsaothar."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -331,7 +331,7 @@ msgstr ""
 "class=\"helpLink\">t-ábhar a athmheascadh nó a athrú ó bhonn nó má chuireann"
 " tú leis</a>, ní féidir leat an t-ábhar athraithe a dháileadh."
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -339,7 +339,7 @@ msgstr ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -347,7 +347,7 @@ msgstr ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -355,11 +355,11 @@ msgstr ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Gan srianta breise"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -371,11 +371,11 @@ msgstr ""
 "teicneolaíocha</a>a chur i bhfeidhm faoina gcuirtear srian dlí ar dhaoine "
 "aon rud a cheadaítear faoin gceadúnas a dhéanamh."
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Fógraí:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -387,7 +387,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">eisceacht nó "
 "teorannú</a> atá infheidhme."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

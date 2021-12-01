@@ -235,19 +235,19 @@ msgstr ""
 "<strong>Compartir</strong> &mdash; copiar y redistribuir el material en "
 "cualquier medio o formato"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "para cualquier propósito, incluso comercialmente."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Adaptar</strong> &mdash; remezclar, transformar y construir a partir"
 " del material"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -255,23 +255,23 @@ msgstr ""
 "La licenciante no puede revocar estas libertades en tanto usted siga los "
 "términos de la licencia"
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Bajo los siguientes términos:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Naciones en desarrollo"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Atribución"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -289,11 +289,11 @@ msgstr ""
 " cambios</a></span>. Puede hacerlo en cualquier forma razonable, pero no de "
 "forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "NoComercial"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -302,11 +302,11 @@ msgstr ""
 "id=\"commercial_purposes_popup\" class=\"helpLink\">propósitos "
 "comerciales</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "CompartirIgual"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -316,11 +316,11 @@ msgstr ""
 "contribución bajo la la<a href=\"#\" id=\"same_license_popup\" "
 "class=\"helpLink\">misma licencia</a> del original."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "SinDerivadas"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
@@ -330,7 +330,7 @@ msgstr ""
 "class=\"helpLink\">remezcla, transforma o crea a partir</a> del material, no"
 " podrá distribuir el material modificado."
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -338,7 +338,7 @@ msgstr ""
 "No podrá usar esta obra para anunciar o promocionar nada excepto la obra "
 "creada a partir de ésta."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -347,7 +347,7 @@ msgstr ""
 "los términos de la licencia de esta obra. La mejor forma de hacerlo es "
 "enlazar a esta página web."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -355,11 +355,11 @@ msgstr ""
 "No puede interpretar, exhibir o distribuir copias de esta obra completa, "
 "para ningún propósito."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "No hay restricciones adicionales"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -371,11 +371,11 @@ msgstr ""
 "tecnológicas</ a> que restrinjan legalmente a otras a hacer cualquier uso "
 "permitido por la licencia."
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Avisos:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -387,7 +387,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">excepción o "
 "limitación</a> aplicable."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "

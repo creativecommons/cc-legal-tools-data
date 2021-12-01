@@ -234,19 +234,19 @@ msgstr ""
 "<strong>Megoszthatod</strong> &mdash; másolhatod és terjesztheted a művet "
 "bármilyen módon vagy formában"
 
-#: templates/includes/deed_body_licenses.html:31
-#: templates/includes/deed_body_licenses.html:39
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
 msgid "for any purpose, even commercially."
 msgstr "bármilyen – akár üzleti – célra is."
 
-#: templates/includes/deed_body_licenses.html:37
+#: templates/includes/deed_body_licenses.html:36
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
 "<strong>Átdolgozhatod</strong> &mdash; származékos műveket hozhatsz létre, "
 "átalakíthatod és új művkbe építheted be"
 
-#: templates/includes/deed_body_licenses.html:46
+#: templates/includes/deed_body_licenses.html:44
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
@@ -254,23 +254,23 @@ msgstr ""
 "A jogosult nem vonhatja vissza ezen engedélyeket míg betartod a licenc "
 "feltételeit."
 
-#: templates/includes/deed_body_licenses.html:52
+#: templates/includes/deed_body_licenses.html:50
 msgid "Under the following terms:"
 msgstr "Az alábbi feltételekkel:"
 
-#: templates/includes/deed_body_licenses.html:62
+#: templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
 msgstr "Fejlődő országok"
 
-#: templates/includes/deed_body_licenses.html:63
+#: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:74
+#: templates/includes/deed_body_licenses.html:72
 msgid "Attribution"
 msgstr "Nevezd meg!"
 
-#: templates/includes/deed_body_licenses.html:75
+#: templates/includes/deed_body_licenses.html:73
 msgid ""
 "You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
 "class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
@@ -289,11 +289,11 @@ msgstr ""
 "kivéve oly módon ami azt sugallná hogy a jogosult támogat téged vagy a "
 "felhasználásod körülményeit."
 
-#: templates/includes/deed_body_licenses.html:86
+#: templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
 msgstr "Ne add el!"
 
-#: templates/includes/deed_body_licenses.html:87
+#: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
@@ -301,11 +301,11 @@ msgstr ""
 "Nem használhatod a művet <a href=\"#\" id=\"commercial_purposes_popup\" "
 "class=\"helpLink\">üzleti célokra</a>."
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
 msgstr "Így add tovább!"
 
-#: templates/includes/deed_body_licenses.html:98
+#: templates/includes/deed_body_licenses.html:96
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
 "your contributions under the <a href=\"#\" id=\"same_license_popup\" "
@@ -316,18 +316,18 @@ msgstr ""
 "class=\"helpLink\">ugyanazon licencfeltételek mellett</a> kell terjesztened "
 "mint az eredetit."
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
 msgstr "Ne változtasd!"
 
-#: templates/includes/deed_body_licenses.html:109
+#: templates/includes/deed_body_licenses.html:107
 msgid ""
 "If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
 "class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
 " not distribute the modified material."
 msgstr ""
 
-#: templates/includes/deed_body_licenses.html:120
+#: templates/includes/deed_body_licenses.html:118
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
@@ -335,7 +335,7 @@ msgstr ""
 "Ezt a művet semmilyen módon nem használhatod fel reklámcélra, kivéve az "
 "ebből a műből alkotott saját műved reklámozását."
 
-#: templates/includes/deed_body_licenses.html:131
+#: templates/includes/deed_body_licenses.html:129
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
@@ -343,7 +343,7 @@ msgstr ""
 "Bármilyen felhasználás vagy terjesztés esetén egyértelműen jelezned kell "
 "mások felé ezen mű licencfeltételeit."
 
-#: templates/includes/deed_body_licenses.html:142
+#: templates/includes/deed_body_licenses.html:140
 msgid ""
 "You may not perform, display, or distribute copies of this whole work for "
 "any purpose."
@@ -351,11 +351,11 @@ msgstr ""
 "Semmmilyen célból nem mutathatod be, nem adhatod elő, nem terjesztheted "
 "egészében ezt a művet."
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid "No additional restrictions"
 msgstr "Nincsenek további megkötések"
 
-#: templates/includes/deed_body_licenses.html:152
+#: templates/includes/deed_body_licenses.html:150
 msgid ""
 "You may not apply legal terms or <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">technological "
@@ -367,11 +367,11 @@ msgstr ""
 "korlátozásokat</a> melyek megakadályoznának bárkit abban hogy ezen licenc "
 "által engedélyezett bármely tevékenységeket folytassák."
 
-#: templates/includes/deed_body_licenses.html:159
+#: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
 msgstr "Megjegyzések:"
 
-#: templates/includes/deed_body_licenses.html:162
+#: templates/includes/deed_body_licenses.html:160
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -383,7 +383,7 @@ msgstr ""
 " href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">kivétel "
 "vagy korlátozás</a> teszi számodra lehetővé."
 
-#: templates/includes/deed_body_licenses.html:165
+#: templates/includes/deed_body_licenses.html:163
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
