@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-24 17:19:16+00:00\n"
+"PO-Revision-Date: 2021-12-01 00:05:47+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/af/\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
@@ -197,10 +197,12 @@ msgstr ""
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
 msgstr ""
+"<strong>om te Deel</strong> &mdash; om die werk te kopieer, te versprei en "
+"te versend"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr ""
+msgstr "<strong>om te Hervermeng</strong> &mdash; om die werk aan te pas"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""

@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-11-24 19:16:33+00:00\n"
+"PO-Revision-Date: 2021-12-01 16:09:58+00:00\n"
 "Last-Translator: Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
@@ -201,11 +201,11 @@ msgstr "あなたは以下の条件に従う限り、自由に："
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
+msgstr "本作品を複製、頒布、展示、実演することができます。"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr ""
+msgstr "二次的著作物を作成することができます。"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""
