@@ -24,11 +24,11 @@ jobs:
 
     - name: Check published files for invalid template
       run: |
-        grep -ir 'legal tool does not have a valid template' docs/ && false
+        ! grep -Iir 'legal tool does not have a valid template' docs/
 
     - name: Check published files for INVALID_VARIABLE
       run: |
-        grep -ir 'INVALID_VARIABLE' docs/ && false
+        ! grep -Iir 'INVALID_VARIABLE' docs/
 
     - name: Check portable object Gettext Files for errors
       run: |
