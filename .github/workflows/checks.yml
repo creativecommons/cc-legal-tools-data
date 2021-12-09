@@ -1,0 +1,39 @@
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Install system dependencies
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gettext
+
+    # https://github.com/actions/checkout
+    - name: Checkout cc-legal-tools-app
+      uses: actions/checkout@v2
+
+    - name: Check published files for invalid template
+      run: |
+        ! grep -Iir 'legal tool does not have a valid template' docs/
+
+    - name: Check published files for INVALID_VARIABLE
+      run: |
+        ! grep -Iir 'INVALID_VARIABLE' docs/
+
+    - name: Check portable object Gettext Files for errors
+      run: |
+        find legalcode locale -type f -name '*.po' -exec msgfmt -c -o/dev/null {} \;
+
+    - name: Check machine object Gettext Files for errors
+      run: |
+        find legalcode locale -type f -name '*.mo' -exec msgunfmt -o/dev/null {} \;
