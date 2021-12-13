@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" dir="rtl" lang="ar">
+<html dir="rtl" lang="ar">
  <head about="https://creativecommons.org/licenses/by-nc-sa/3.0/igo/">
   <meta charset="utf-8"/>
   <title>
@@ -11,92 +11,29 @@
   <meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type"/>
   <meta content="" name="keywords"/>
   <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.1/css/vocabulary.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/fonts@2020.9.3/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.3/css/vocabulary.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@next">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.x.x/dist/cc-globals.min.js">
+  </script>
  </head>
  <body typeoff="cc:License">
-  <style>
-   svg { height: 73px; }
-  </style>
-  <header>
-   <nav class="navbar">
-    <div class="navbar-brand">
-     <a class="has-text-black" href="https://creativecommons.org" id="cc-logo" rel="home">
-      <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
-       <!-- Automatically finds ID amongst all assets loaded using `patchAssetIntoDom()` -->
-       <use href="#logomark">
-       </use>
-      </svg>
-     </a>
-     <a aria-expanded="false" aria-label="menu" class="navbar-burger is-active" role="button">
-      <span aria-hidden="true">
-      </span>
-      <span aria-hidden="true">
-      </span>
-      <span aria-hidden="true">
-      </span>
-     </a>
-    </div>
-    <div class="navbar-menu is-active">
-     <div class="navbar-end">
-      <div class="navbar-item has-dropdown is-hoverable">
-       <a class="navbar-link is-arrowless">
-        Who We Are
-        <i class="icon caret-down">
-        </i>
-       </a>
-       <div class="navbar-dropdown">
-        <a class="navbar-item">
-         Item 1
-        </a>
-        <a class="navbar-item">
-         Item 2
-        </a>
-        <a class="navbar-item">
-         Item 3
-        </a>
-       </div>
-      </div>
-      <div class="navbar-item has-dropdown is-hoverable">
-       <a class="navbar-link is-arrowless">
-        What We Do
-        <i class="icon caret-down">
-        </i>
-       </a>
-       <div class="navbar-dropdown">
-        <a class="navbar-item">
-         Item 1
-        </a>
-        <a class="navbar-item">
-         Item 2
-        </a>
-        <a class="navbar-item">
-         Item 3
-        </a>
-       </div>
-      </div>
-      <a class="navbar-item">
-       Our Impact
-       <i class="icon external-link">
-       </i>
-      </a>
-      <a class="navbar-item">
-       News
-      </a>
-     </div>
-    </div>
-   </nav>
-  </header>
-  <style>
-   html[dir="rtl"] .has-dropdown .navbar-link {
-      flex-direction: row-reverse;
-  }
-
-  html[dir="rtl"] .navbar-end {
-      margin-right: auto;
-      margin-left: 0;
-      justify-content: flex-start;
-  }
-  </style>
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar">
+   </cc-global-header>
+  </div>
   <main>
    <div class="level padding-right-big padding-left-large padding-vertical-normal">
     <a class="skip-link" href="#content">
@@ -585,145 +522,11 @@ a.skip-link:focus, a.skip-link:active {
     </style>
    </section>
   </main>
-  <footer class="main-footer margin-top-bigger">
-   <div class="container">
-    <div class="columns">
-     <div class="column is-one-quarter">
-      <a class="main-logo margin-bottom-bigger has-text-white" href="https://creativecommons.org" id="cc-footer-logo">
-       <svg preserveaspectratio="xMidYMid meet" viewbox="0 0 304 73" xmlns="http://www.w3.org/2000/svg">
-        <use href="#logomark">
-        </use>
-       </svg>
-      </a>
-      <div>
-       <address class="margin-bottom-normal">
-        Creative Commons
-        <br/>
-        PO Box 1866, Mountain View CA 94042
-       </address>
-       <a class="mail" href="mailto:info@creativecommons.org">
-        info@creativecommons.org
-       </a>
-       <br/>
-       <a class="phone" href="tel://+1-415-429-6753">
-        +1-415-429-6753
-       </a>
-      </div>
-      <div class="margin-vertical-large">
-       <a class="social has-text-white" href="https://www.instagram.com/creativecommons" rel="noopener" target="_blank">
-        <i class="icon margin-left-small is-size-4">
-         instagram
-        </i>
-       </a>
-       <a class="social has-text-white" href="https://www.twitter.com/creativecommons" rel="noopener" target="_blank">
-        <i class="icon margin-left-small is-size-4">
-         twitter
-        </i>
-       </a>
-       <a class="social has-text-white" href="https://www.facebook.com/creativecommons" rel="noopener" target="_blank">
-        <i class="icon margin-left-small is-size-4">
-         facebook
-        </i>
-       </a>
-       <a class="social has-text-white" href="https://www.linkedin.com/company/creative-commons/" rel="noopener" target="_blank">
-        <i class="icon margin-left-small is-size-4">
-         linkedin
-        </i>
-       </a>
-      </div>
-     </div>
-     <div class="column is-three-quarters">
-      <div class="columns">
-       <div class="column is-full">
-        <nav class="footer-navigation">
-         <ul class="menu">
-          <li>
-           <a class="menu-item" href="#">
-            Who We Are
-           </a>
-          </li>
-          <li>
-           <a class="menu-item" href="#">
-            What we do
-           </a>
-          </li>
-          <li>
-           <a class="menu-item" href="#">
-            Our Impact
-            <i class="icon external-link">
-            </i>
-           </a>
-          </li>
-          <li>
-           <a class="menu-item" href="#">
-            News
-           </a>
-          </li>
-         </ul>
-        </nav>
-       </div>
-      </div>
-      <div class="columns">
-       <div class="column is-two-thirds">
-        <div class="subscription">
-         <h5 class="b-header">
-          Subscribe to our newsletter
-         </h5>
-         <form class="newsletter">
-          <input class="input" placeholder="Your email" type="text"/>
-          <input class="button small" type="submit" value="subscribe"/>
-         </form>
-        </div>
-        <div class="attribution margin-top-bigger">
-         <p class="caption">
-          Except where otherwise
-          <a href="https://creativecommons.org/policies#license" rel="noopener" target="_blank">
-           noted
-          </a>
-          , content on this site is licensed under a
-          <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">
-           Creative Commons Attribution 4.0 International license
-          </a>
-          .
-          <a href="https://creativecommons.org/website-icons" rel="noopener" target="_blank">
-           Icons
-          </a>
-          by
-          <a href="https://fontawesome.com/" rel="noopener" target="_blank">
-           Font Awesome
-          </a>
-          .
-         </p>
-         <div class="margin-top-smaller">
-          <i class="icon margin-left-small is-size-4">
-           cclogo
-          </i>
-          <i class="icon margin-left-small is-size-4">
-           ccby
-          </i>
-         </div>
-        </div>
-       </div>
-       <div class="column is-one-third">
-        <aside class="donate-section">
-         <h5>
-          Our work relies on you!
-         </h5>
-         <p>
-          Help us keep the internet free and open.
-         </p>
-         <a class="button small donate" href="https://creativecommons.org/donate?c_src=website&amp;c_src2=GlobalFooter">
-          <i class="icon cc-letterheart margin-left-small is-size-5 padding-top-smaller">
-          </i>
-          Donate now
-         </a>
-        </aside>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </footer>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
+   </cc-global-footer>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@v2020.11.1/js/vocabulary.js">
   </script>
   <script>
@@ -773,6 +576,22 @@ a.skip-link:focus, a.skip-link:active {
       **/
       return window.location.href = this.dataset.href
     })
+  </script>
+  <script>
+   /* Import and use the Explore CC component */
+    const cc_explore = Vue.createApp({});
+    cc_explore.use(CcGlobals);
+    cc_explore.mount("#explore-cc");
+
+    /* Import and use the CC Global Header component */
+    const cc_header = Vue.createApp({});
+    cc_header.use(CcGlobals);
+    cc_header.mount("#header-cc");
+
+    /* Import and use the CC Global Footer component */
+    const cc_footer = Vue.createApp({});
+    cc_footer.use(CcGlobals);
+    cc_footer.mount("#footer-cc");
   </script>
  </body>
  <style>
