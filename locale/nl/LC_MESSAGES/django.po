@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:48:22+00:00\n"
+"PO-Revision-Date: 2021-12-20 19:05:46+00:00\n"
 "Last-Translator: Hendrik Maryns <hendrik@hendrikmaryns.name>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/nl/\n"
 "Language: nl\n"
@@ -806,12 +806,12 @@ msgstr ""
 "auteur of persoon die dit werk geidentificeerd heeft."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:88
 msgid "Unimplemented"
 msgstr "Niet geïmplementeerd"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:88
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1115,7 +1115,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr "Overwegingen voor licentiegevers"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:113
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
 msgid "Show Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers laten zien"
 
@@ -1138,7 +1138,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr "Overwegingen voor het publiek"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:115
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
 msgid "Show Considerations for the Public"
 msgstr "Laat overwegingen voor het publiek zien"
 
@@ -1159,19 +1159,19 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:40 templates/list.html:12
+#: templates/legalcode.html:46 templates/list.html:12
 msgid "Legal Code"
 msgstr "Juridische tekst"
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:61
 msgid "See the deed"
 msgstr "Zie de akte"
 
-#: templates/legalcode.html:109
+#: templates/legalcode.html:115
 msgid "Hide Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers verbergen"
 
-#: templates/legalcode.html:111
+#: templates/legalcode.html:117
 msgid "Hide Considerations for the Public"
 msgstr "Overwegingen voor het publiek verbergen"
 

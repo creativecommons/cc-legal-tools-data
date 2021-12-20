@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:48:22+00:00\n"
+"PO-Revision-Date: 2021-12-20 19:05:46+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/gl/\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -782,12 +782,12 @@ msgstr ""
 "identifica a obra."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:88
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:88
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1071,7 +1071,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:113
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1094,7 +1094,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:115
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1115,19 +1115,19 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:40 templates/list.html:12
+#: templates/legalcode.html:46 templates/list.html:12
 msgid "Legal Code"
 msgstr "Código legal"
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:61
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:109
+#: templates/legalcode.html:115
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:111
+#: templates/legalcode.html:117
 msgid "Hide Considerations for the Public"
 msgstr ""
 
