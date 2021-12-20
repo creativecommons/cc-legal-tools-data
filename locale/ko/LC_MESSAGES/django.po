@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-18 01:12:49+00:00\n"
+"PO-Revision-Date: 2021-12-20 18:11:59+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -318,15 +318,15 @@ msgstr ""
 msgid "Public Domain List"
 msgstr ""
 
-#: templates/base.html:52
+#: templates/base.html:54
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:14 templates/list.html:11
+#: templates/deed.html:33 templates/list.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:21
+#: templates/deed.html:40
 msgid "See the legal code"
 msgstr ""
 
@@ -738,12 +738,12 @@ msgstr ""
 "id=\"endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:50
+#: templates/legalcode.html:61
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:50
+#: templates/legalcode.html:61
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -877,14 +877,14 @@ msgstr ""
 msgid "Donate Now"
 msgstr "지금 기부하세요"
 
-#: templates/includes/deprecated.html:7
-#: templates/includes/disclaimer_40.html:9
-#: templates/includes/disclaimer_certification.html:9
+#: templates/includes/deprecated.html:3
+#: templates/includes/disclaimer_40.html:3
+#: templates/includes/disclaimer_certification.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "면책조항"
 
-#: templates/includes/deprecated.html:9
+#: templates/includes/deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -893,7 +893,7 @@ msgstr ""
 "<a href=\"http://creativecommons.org/retiredlicenses\">폐기된 라이선스</a>입니다. 더 이상"
 " 사용하지 마세요."
 
-#: templates/includes/disclaimer_40.html:11
+#: templates/includes/disclaimer_40.html:5
 msgid ""
 "This deed highlights only some of the key features and terms of the actual "
 "license. It is not a license and has no legal value. You should carefully "
@@ -903,7 +903,7 @@ msgstr ""
 "이 증서는 라이선스의 몇 가지 주요 내용과 조건을 중점적으로 설명한 것입니다. 이 증서 자체는 라이선스가 아니며 아무런 법적 효력이 "
 "없습니다. 저작물을 이용하기 전에 실제 라이선스의 내용과 조건을 주의 깊게 읽어보기 바랍니다."
 
-#: templates/includes/disclaimer_40.html:18
+#: templates/includes/disclaimer_40.html:13
 msgid ""
 "Creative Commons is not a law firm and does not provide legal services. "
 "Distributing, displaying, or linking to this deed or the license that it "
@@ -912,7 +912,7 @@ msgstr ""
 "크리에이티브 커먼즈는 법률 사무소가 아니며 아무런 법적 서비스를 제공하지 않습니다. 이 증서를 배포, 전시하거나 이 증서 또는 라이선스로"
 " 링크를 건다고 해서 법적 서비스를 제공하는 관계가 발생하는 것은 아닙니다."
 
-#: templates/includes/disclaimer_certification.html:10
+#: templates/includes/disclaimer_certification.html:4
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -961,36 +961,26 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: templates/includes/related_links.html:10
-msgid "Related Links"
-msgstr ""
-
-#: templates/includes/related_links.html:14
+#: templates/includes/related_links.html:9
 msgid ""
-"Creative Commons is the nonprofit behind the open licenses that allow "
-"creators to share their work. Our licenses and legal tools are free to use."
-msgstr ""
-
-#: templates/includes/related_links.html:23
-msgid ""
-"We're glad you're here! Creative Commons is the nonprofit behind the open "
-"licenses that allow creators to share their work. Our licenses are free to "
+"Creative Commons is the nonprofit behind the open licenses and other legal "
+"tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:32
+#: templates/includes/related_links.html:17
 msgid "Learn more about our work"
 msgstr ""
 
-#: templates/includes/related_links.html:34
+#: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: templates/includes/related_links.html:35
+#: templates/includes/related_links.html:20
 msgid "Support our work"
 msgstr ""
 
-#: templates/includes/related_links.html:37
+#: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
 msgstr ""
 
@@ -1016,7 +1006,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:91
+#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1039,7 +1029,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:93
+#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1060,19 +1050,19 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:8 templates/list.html:12
+#: templates/legalcode.html:19 templates/list.html:12
 msgid "Legal Code"
 msgstr "이용허락규약"
 
-#: templates/legalcode.html:23
+#: templates/legalcode.html:34
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:87
+#: templates/legalcode.html:88
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:89
+#: templates/legalcode.html:90
 msgid "Hide Considerations for the Public"
 msgstr ""
 
