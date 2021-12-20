@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:11:59+00:00\n"
+"PO-Revision-Date: 2021-12-20 18:17:44+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/no/\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
@@ -968,7 +968,7 @@ msgstr ""
 "anvendbart utenfor USA. For å dedikere nye verk til det fri (Public Domain) "
 "anbefaler vi at du benytter <a href=\"/choose/zero/\">CC0</a>."
 
-#: templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:10
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -994,7 +994,7 @@ msgstr ""
 "garantier om noe verk eller dets opphavsrettslige status i noen "
 "jurisdiksjon, og fraskriver seg alt ansvar for enhver bruk av noe verk.</p>"
 
-#: templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."

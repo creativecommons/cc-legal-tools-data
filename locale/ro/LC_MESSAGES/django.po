@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:11:59+00:00\n"
+"PO-Revision-Date: 2021-12-20 18:17:44+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ro/\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -982,7 +982,7 @@ msgstr ""
 "lui ar putea fi redusă în afara Statelor Unite. Pentru dedicarea de noi "
 "opere domeniului public, recomandăm <a href=\"/choose/zero/\">CC0</a>."
 
-#: templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:10
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -1000,7 +1000,7 @@ msgstr ""
 "Rezumatul Explicativ nu este o licenţă. Este doar o referinţă simplă pentru a înţelege Codul Juridic (întreaga licenţă) CC0, o exprimare pe înţelesul tuturor a unora dintre termenii săi cheie. Să ne gândim la el ca la o interfaţă mai prietenoasă pentru Codul Juridic CC0 din spatele său. Acest Rezumat nu are nici o valoare juridică în sine şi conţinutul său nu apare în licenţă. </p> <p>\n"
 "Creative Commons nu este o companie de avocatură şi nu furnizează servicii juridice. Distribuirea, afişarea sau legătura către acest Rezumat Explicativ nu crează o relaţie de tip avocat-client. </p> <p> Creative Commons nu a verificat starea drepturilor de autor pentru nicio lucrare licențiată cu CC0. CC nu acordă vreo garanție pentru nicio operă sau statutul drepturilor sale de autor în nicio jurisdicție și declină orice responsabilitate cu privire la posibilitatea de a fi trași la răspundere pentru orice fel de prejudiciu ca urmare a utilizării oricărei lucări."
 
-#: templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."

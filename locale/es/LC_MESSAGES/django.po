@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:11:59+00:00\n"
+"PO-Revision-Date: 2021-12-20 18:17:44+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/es/\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -980,7 +980,7 @@ msgstr ""
 "aplicable fuera de los Estados Unidos. Para dedicar nuevas obras al dominio "
 "público, recomendamos <a href=\"/choose/zero/\">CC0</a>."
 
-#: templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:10
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -997,7 +997,7 @@ msgstr ""
 "<p>El resumen (Commons Deed) no es un instrumento legal. Simplemente es una referencia útil para entender el código legal de CC0, una descripción legible por humanos de algunos de sus términos clave. Piense en este como una interfaz amigable para acceder al código legal interno de CC0. El resumen por sí solo no tiene valor legal y sus contenidos no aparecen en CC0.</p> \n"
 "<p>Creative Commons no es una de abogados y no ofrece servicios de tipo legal. La distribución, exhibición o el enlace de este resumen no crea ninguna relación abogado-cliente.</p> <p> Creative Commons no ha verificado el estado de derechos autorales de ninguna de las obras a las que se ha aplicado CC0. CC no ofrece garantías sobre ninguna obra ni sobre su estado de  derechos autorales en ninguna jurisdicción, y se desliga de toda responsabilidad por todos los usos de cualquier obra.</p>"
 
-#: templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."

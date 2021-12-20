@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-20 18:11:59+00:00\n"
+"PO-Revision-Date: 2021-12-20 18:17:44+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hant/\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
@@ -898,7 +898,7 @@ msgid ""
 "href=\"/choose/zero/\">CC0</a>."
 msgstr "此工具基於美國法，可能不適用於美國以外。若要貢獻新作品於公眾領域，我們建議<a href=\"/choose/zero/\">CC0</a> 。"
 
-#: templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:10
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -915,7 +915,7 @@ msgstr ""
 "<p>本共享標章並非一份法律文件。它只是一份瞭解CC0法律條款的參考文件，提供其中某些關鍵用語的簡要說明。請把此共享標章看作是CC0法律條款的使用者友善界面。此標章本身不具法律價值，且其內容並不出現在CC0中。<p>創用CC不是法律事務所，亦不提供法律服務。散布、展示或連結到本共享標章並不產生律師和客戶的關係。</p>\n"
 "<p> 創用CC並未對適用CC0宣告之作品，進行著作權利狀態的驗證。創用CC對任何作品或其著作權利狀態在各個司法管轄領域下的認定，不負擔保之責，並免除所有使用行為於任何作品上產生的所有責任。</p>"
 
-#: templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
