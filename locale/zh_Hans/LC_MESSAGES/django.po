@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-01 18:46:13+00:00\n"
+"PO-Revision-Date: 2021-12-18 01:12:49+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hans/\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -18,25 +18,321 @@ msgstr ""
 "Language-Django: zh-hans\n"
 "Language-Transifex: zh-Hans\n"
 
-#: templates/404.html:4
-msgid "Page Not Found"
+#: i18n/__init__.py:122
+msgid "Unported"
+msgstr "未本地化版本"
+
+#: i18n/__init__.py:123
+msgid "Generic (unported)"
 msgstr ""
 
-#: templates/base.html:34
+#: i18n/__init__.py:124
+msgid "International (unported)"
+msgstr ""
+
+#: i18n/__init__.py:125
+msgid "International"
+msgstr "国际"
+
+#: i18n/__init__.py:126
+msgid "Universal"
+msgstr "通用"
+
+#: i18n/__init__.py:127
+msgid "Armenia"
+msgstr ""
+
+#: i18n/__init__.py:128
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: i18n/__init__.py:129
+msgid "Austria"
+msgstr "奥地利"
+
+#: i18n/__init__.py:130
+msgid "Australia"
+msgstr "澳大利亚"
+
+#: i18n/__init__.py:131
+msgid "Azerbaijan"
+msgstr ""
+
+#: i18n/__init__.py:132
+msgid "Belgium"
+msgstr "比利时"
+
+#: i18n/__init__.py:133
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: i18n/__init__.py:134
+msgid "Brazil"
+msgstr "巴西"
+
+#: i18n/__init__.py:135
+msgid "Canada"
+msgstr "加拿大"
+
+#: i18n/__init__.py:136
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: i18n/__init__.py:137
+msgid "Chile"
+msgstr "智利"
+
+#: i18n/__init__.py:138
+msgid "China Mainland"
+msgstr "中国大陆"
+
+#: i18n/__init__.py:139
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#: i18n/__init__.py:140
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+#: i18n/__init__.py:141
+msgid "Czech Republic"
+msgstr "捷克共和国"
+
+#: i18n/__init__.py:142
+msgid "Germany"
+msgstr "德国"
+
+#: i18n/__init__.py:143
+msgid "Denmark"
+msgstr "丹麦"
+
+#: i18n/__init__.py:144
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+#: i18n/__init__.py:145
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#: i18n/__init__.py:146
+msgid "Egypt"
+msgstr "埃及"
+
+#: i18n/__init__.py:147
+msgid "Spain"
+msgstr "西班牙"
+
+#: i18n/__init__.py:148
+msgid "Finland"
+msgstr "芬兰"
+
+#: i18n/__init__.py:149
+msgid "France"
+msgstr "法国"
+
+#: i18n/__init__.py:150
+msgid "Georgia"
+msgstr ""
+
+#: i18n/__init__.py:151
+msgid "Greece"
+msgstr "希腊"
+
+#: i18n/__init__.py:152
+msgid "Guatemala"
+msgstr "危地马拉"
+
+#: i18n/__init__.py:153
+msgid "Hong Kong"
+msgstr "香港"
+
+#: i18n/__init__.py:154
+msgid "Croatia"
+msgstr "克罗地亚"
+
+#: i18n/__init__.py:155
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: i18n/__init__.py:156
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#: i18n/__init__.py:157
+msgid "Intergovernmental Organization"
+msgstr ""
+
+#: i18n/__init__.py:158
+msgid "Israel"
+msgstr "以色列"
+
+#: i18n/__init__.py:159
+msgid "India"
+msgstr "印度"
+
+#: i18n/__init__.py:160
+msgid "Italy"
+msgstr "意大利"
+
+#: i18n/__init__.py:161
+msgid "Jordan"
+msgstr "约旦"
+
+#: i18n/__init__.py:162
+msgid "Japan"
+msgstr "日本"
+
+#: i18n/__init__.py:163
+msgid "Korea"
+msgstr "韩国"
+
+#: i18n/__init__.py:164
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+#: i18n/__init__.py:165
+msgid "Macedonia"
+msgstr "马其顿"
+
+#: i18n/__init__.py:166
+msgid "Malta"
+msgstr "马耳他"
+
+#: i18n/__init__.py:167
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: i18n/__init__.py:168
+msgid "Malaysia"
+msgstr "马来西亚"
+
+#: i18n/__init__.py:169
+msgid "Nigeria"
+msgstr "尼日利亚"
+
+#: i18n/__init__.py:170
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: i18n/__init__.py:171
+msgid "Norway"
+msgstr "挪威"
+
+#: i18n/__init__.py:172
+msgid "New Zealand"
+msgstr "新西兰"
+
+#: i18n/__init__.py:173
+msgid "Peru"
+msgstr "秘鲁"
+
+#: i18n/__init__.py:174
+msgid "Philippines"
+msgstr "菲律宾"
+
+#: i18n/__init__.py:175
+msgid "Poland"
+msgstr "波兰"
+
+#: i18n/__init__.py:176
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#: i18n/__init__.py:177
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: i18n/__init__.py:178
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: i18n/__init__.py:179
+msgid "Serbia"
+msgstr "塞尔维亚"
+
+#: i18n/__init__.py:180
+msgid "UK: Scotland"
+msgstr "英国：苏格兰"
+
+#: i18n/__init__.py:181
+msgid "Sweden"
+msgstr "瑞典"
+
+#: i18n/__init__.py:182
+msgid "Singapore"
+msgstr "新加坡"
+
+#: i18n/__init__.py:183
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#: i18n/__init__.py:184
+msgid "Thailand"
+msgstr "泰国"
+
+#: i18n/__init__.py:185
+msgid "Taiwan"
+msgstr "台湾"
+
+#: i18n/__init__.py:186
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: i18n/__init__.py:187
+msgid "Uganda"
+msgstr "乌干达"
+
+#: i18n/__init__.py:188
+msgid "UK: England & Wales"
+msgstr "英国：英格兰和威尔士"
+
+#: i18n/__init__.py:189
+msgid "United States"
+msgstr "美国"
+
+#: i18n/__init__.py:190
+msgid "Venezuela"
+msgstr "委内瑞拉"
+
+#: i18n/__init__.py:191
+msgid "Vietnam"
+msgstr "越南"
+
+#: i18n/__init__.py:192
+msgid "South Africa"
+msgstr "南非"
+
+#: legal_tools/views.py:49
+msgid "Public Domain"
+msgstr "公共领域"
+
+#: legal_tools/views.py:51
+msgid "Licenses"
+msgstr ""
+
+#: legal_tools/views.py:315
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:320
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:52
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:8 templates/dev/home.html:16
+#: templates/deed.html:14 templates/list.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:15
+#: templates/deed.html:21
 msgid "See the legal code"
 msgstr ""
 
-#: templates/dev/home.html:17 templates/legalcode.html:6
-msgid "Legal Code"
-msgstr "法律文本"
+#: templates/dev/404.html:4
+msgid "Page Not Found"
+msgstr ""
 
 #: templates/includes/about_cc.html:10
 msgid ""
@@ -119,7 +415,7 @@ msgid "Use &#038; remix"
 msgstr "使用与混合"
 
 #: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29 templates/includes/footer.html:40
+#: templates/includes/cc_site_header.html:29
 msgid "What we do"
 msgstr "我们的做法"
 
@@ -628,46 +924,6 @@ msgid ""
 "(read the full text)</a>."
 msgstr "这是一份普通人可以理解的<a href=\"./legalcode\">法律文本(许可协议全文)</a>的概要。"
 
-#: templates/includes/footer.html:39
-msgid "Who We Are"
-msgstr ""
-
-#: templates/includes/footer.html:41
-msgid "Our Impact"
-msgstr ""
-
-#: templates/includes/footer.html:42
-msgid "News"
-msgstr ""
-
-#: templates/includes/footer.html:50
-msgid "Subscribe to our newsletter"
-msgstr ""
-
-#: templates/includes/footer.html:58
-msgid ""
-"Except where otherwise <a "
-"href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
-"rel=\"noopener\">noted</a>, content on this site is licensed under a <a "
-"href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" "
-"rel=\"noopener\">Creative Commons Attribution 4.0 International license</a>."
-" <a href=\"https://creativecommons.org/website-icons\" target=\"_blank\" "
-"rel=\"noopener\">Icons</a> by <a href=\"https://fontawesome.com/\" "
-"target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
-msgstr ""
-
-#: templates/includes/footer.html:76
-msgid "Our work relies on you!"
-msgstr ""
-
-#: templates/includes/footer.html:77
-msgid "Help us keep the internet free and open."
-msgstr ""
-
-#: templates/includes/footer.html:80
-msgid "Donate now"
-msgstr ""
-
 #: templates/includes/language_selector.html:5
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
@@ -736,7 +992,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
+#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:91
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -759,7 +1015,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
+#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:93
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -780,16 +1036,32 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:21
+#: templates/legalcode.html:8 templates/list.html:12
+msgid "Legal Code"
+msgstr "法律文本"
+
+#: templates/legalcode.html:23
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:88
+#: templates/legalcode.html:87
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:90
+#: templates/legalcode.html:89
 msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/list.html:13
+msgid "Canonical URL"
+msgstr ""
+
+#: templates/list.html:56 templates/list.html:72
+msgid "Language"
+msgstr ""
+
+#: templates/list.html:58
+msgid "Legal Tools"
 msgstr ""
 
 #: templates/redirect.html:5
