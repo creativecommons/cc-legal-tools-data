@@ -1,0 +1,2804 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Development
+  </title>
+  <meta charset="utf-8"/>
+  <style>
+   body {
+      background-color: whitesmoke;
+      line-height: 150%;
+      padding: 0 2em 2em 2em;
+    }
+    table {
+      border-spacing: 0px;
+      border-collapse: collapse;
+    }
+    td, th {
+      padding: 0.2em;
+    }
+    td {
+      border: 2px solid gainsboro;
+    }
+    th {
+      border: 2px solid gray;
+    }
+    thead {
+      background-color: gainsboro;
+      position: sticky;
+      top: 0px;
+    }
+    .ballot {
+      font-size: 150%;
+      padding-left: 0.5em;
+    }
+    .font-smaller {
+      font-size: smaller;
+    }
+    .datetime {
+      font-family: monospace;
+      white-space: nowrap;
+    }
+    .helplink {
+      font-weight: normal;
+    }
+    .legal-tools-box {
+      background-color: white;
+      border: 1px solid gainsboro;
+      line-height: 200%;
+      margin: 0 -1em 0 -1em;
+      padding: 0.5em 1em 0.5em 1em;
+    }
+    .legal-tools-box li {
+      font-size: larger;
+    }
+    .long-title {
+      font-size: smaller;
+    }
+    .monospace {
+      font-family: monospace;
+    }
+    .percent {
+      font-family: monospace;
+      font-size: 105%;
+      text-align: right;
+    }
+    .status-empty {
+      color: darkred;
+    }
+    .status-hidden {
+      color: chocolate;
+    }
+    .status-displayed {
+      color: darkgreen;
+    }
+    .status-displayed {
+      background-color: white;
+    }
+  </style>
+ </head>
+ <body>
+  <h1 id="development">
+   CC-Legal-Tools Development
+  </h1>
+  <p>
+   <strong>
+    This is a convenience page for standalone environments (ex. app
+      development, GitHub Pages) of the Creative Commons (CC) Legal Tools.
+   </strong>
+  </p>
+  <p>
+   <strong>
+    This page is not visible within integrated environments (ex. production,
+    <a href="https://github.com/creativecommons/project_creativecommons.org/" rel="noopener noreferrer" target="_blank">
+     creativecommons/project_creativecommons.org
+    </a>
+    development).
+   </strong>
+  </p>
+  <p>
+   Primary GitHub repositories for this content:
+  </p>
+  <ol>
+   <li>
+    <a href="https://github.com/creativecommons/cc-legal-tools-app/" rel="noopener noreferrer" target="_blank">
+     creativecommons/cc-legal-tools-app
+    </a>
+   </li>
+   <li>
+    <a href="https://github.com/creativecommons/cc-legal-tools-data/" rel="noopener noreferrer" target="_blank">
+     creativecommons/cc-legal-tools-data
+    </a>
+   </li>
+  </ol>
+  <div class="legal-tools-box">
+   <h1 id="legal-tools">
+    Legal Tools
+   </h1>
+   <ul>
+    <li>
+     <a href="/licenses/list" rel="noopener noreferrer" target="_blank">
+      <code>
+       /licenses/list
+      </code>
+      — Licenses List
+     </a>
+    </li>
+    <li>
+     <a href="/publicdomain/list" rel="noopener noreferrer" target="_blank">
+      <code>
+       /publicdomain/list
+      </code>
+      — Public Domain List
+     </a>
+    </li>
+   </ul>
+  </div>
+  <h1 id="translation">
+   Translation
+  </h1>
+  <h2 id="translation-deed-ux">
+   Deed &amp; UX Translation Status
+  </h2>
+  <table>
+   <thead>
+    <tr>
+     <th>
+      Language Code
+      <a class="helplink" href="https://github.com/creativecommons/cc-legal-tools-data/#language-code" rel="noopener noreferrer" target="_blank">
+       [?]
+      </a>
+     </th>
+     <th>
+      Locale Name
+      <a class="helplink" href="https://github.com/creativecommons/cc-legal-tools-data/#locale-name" rel="noopener noreferrer" target="_blank">
+       [?]
+      </a>
+     </th>
+     <th>
+      Transifex Code
+      <a class="helplink" href="https://github.com/creativecommons/cc-legal-tools-data/#transifex-code" rel="noopener noreferrer" target="_blank">
+       [?]
+      </a>
+     </th>
+     <th>
+      Language Name
+     </th>
+     <th>
+      Percent Translated
+     </th>
+     <th style="white-space:nowrap;">
+      Created (UTC)
+     </th>
+     <th style="white-space:nowrap;">
+      Updated (UTC)
+     </th>
+     <th>
+      BiDi
+      <a class="helplink" href="https://en.wikipedia.org/wiki/Bidirectional_text" rel="noopener noreferrer" target="_blank">
+       [?]
+      </a>
+     </th>
+     <th class="long-title">
+      Legal Codes in this language
+     </th>
+     <th>
+      Name Local
+      <a class="helplink" href="https://en.wikipedia.org/wiki/Endonym_and_exonym" rel="noopener noreferrer" target="_blank">
+       [?]
+      </a>
+     </th>
+    </tr>
+   </thead>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      af
+     </code>
+    </td>
+    <td>
+     Afrikaans
+    </td>
+    <td class="percent">
+     41%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     Afrikaans
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      an
+     </code>
+    </td>
+    <td>
+     Aragonese
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     aragonés
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ar
+     </code>
+    </td>
+    <td>
+     Arabic
+    </td>
+    <td class="percent">
+     66%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="font-weight:bold; text-align:right; white-space:nowrap;">
+     RTL ⇦
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     العربية
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      ast
+     </code>
+    </td>
+    <td>
+     Asturian
+    </td>
+    <td class="percent">
+     6%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     asturianu
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      az
+     </code>
+    </td>
+    <td>
+     Azerbaijani
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     azərbaycan
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      be
+     </code>
+    </td>
+    <td>
+     Belarusian
+    </td>
+    <td class="percent">
+     65%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     беларуская
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      bg
+     </code>
+    </td>
+    <td>
+     Bulgarian
+    </td>
+    <td class="percent">
+     68%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     български
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      bn
+     </code>
+    </td>
+    <td>
+     Bangla
+    </td>
+    <td class="percent">
+     68%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     বাংলা
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      br
+     </code>
+    </td>
+    <td>
+     Breton
+    </td>
+    <td class="percent">
+     54%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     brezhoneg
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ca
+     </code>
+    </td>
+    <td>
+     Catalan
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     català
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      cs
+     </code>
+    </td>
+    <td>
+     Czech
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     čeština
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      da
+     </code>
+    </td>
+    <td>
+     Danish
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     dansk
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      de
+     </code>
+    </td>
+    <td>
+     German
+    </td>
+    <td class="percent">
+     74%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Deutsch
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      de-at
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      de_AT
+     </code>
+    </td>
+    <td>
+     German (Austria)
+    </td>
+    <td class="percent">
+     37%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     Deutsch (Österreich)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      el
+     </code>
+    </td>
+    <td>
+     Greek
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Ελληνικά
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      en-ca
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      en_CA
+     </code>
+    </td>
+    <td>
+     English (Canada)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     English (Canada)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      en-gb
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      en_GB
+     </code>
+    </td>
+    <td>
+     English (United Kingdom)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     English (United Kingdom)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      eo
+     </code>
+    </td>
+    <td>
+     Esperanto
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     esperanto
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      es
+     </code>
+    </td>
+    <td>
+     Spanish
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     español
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      es-ar
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      es_AR
+     </code>
+    </td>
+    <td>
+     Spanish (Argentina)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     español (Argentina)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      es-pe
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      es_PE
+     </code>
+    </td>
+    <td>
+     Spanish (Peru)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     español (Perú)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      et
+     </code>
+    </td>
+    <td>
+     Estonian
+    </td>
+    <td class="percent">
+     67%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     eesti
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      eu
+     </code>
+    </td>
+    <td>
+     Basque
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     euskara
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      fa
+     </code>
+    </td>
+    <td>
+     Persian
+    </td>
+    <td class="percent">
+     63%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="font-weight:bold; text-align:right; white-space:nowrap;">
+     RTL ⇦
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     فارسی
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      fa-ir
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      fa_IR
+     </code>
+    </td>
+    <td>
+     Persian (Iran)
+    </td>
+    <td class="percent">
+     39%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="font-weight:bold; text-align:right; white-space:nowrap;">
+     RTL ⇦
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     فارسی (ایران)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      fi
+     </code>
+    </td>
+    <td>
+     Finnish
+    </td>
+    <td class="percent">
+     65%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     suomi
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      fr
+     </code>
+    </td>
+    <td>
+     French
+    </td>
+    <td class="percent">
+     73%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     français
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      fr-ca
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      fr_CA
+     </code>
+    </td>
+    <td>
+     French (Canada)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     français (Canada)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      fr-ch
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      fr_CH
+     </code>
+    </td>
+    <td>
+     French (Switzerland)
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     français (Suisse)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      ga
+     </code>
+    </td>
+    <td>
+     Irish
+    </td>
+    <td class="percent">
+     55%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     Gaeilge
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      gl
+     </code>
+    </td>
+    <td>
+     Galician
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     galego
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      he
+     </code>
+    </td>
+    <td>
+     Hebrew
+    </td>
+    <td class="percent">
+     55%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="font-weight:bold; text-align:right; white-space:nowrap;">
+     RTL ⇦
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     עברית
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      hi
+     </code>
+    </td>
+    <td>
+     Hindi
+    </td>
+    <td class="percent">
+     37%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     हिन्दी
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      hr
+     </code>
+    </td>
+    <td>
+     Croatian
+    </td>
+    <td class="percent">
+     72%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     hrvatski
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      hu
+     </code>
+    </td>
+    <td>
+     Hungarian
+    </td>
+    <td class="percent">
+     65%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     magyar
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      hy
+     </code>
+    </td>
+    <td>
+     Armenian
+    </td>
+    <td class="percent">
+     39%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     հայերեն
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      ia
+     </code>
+    </td>
+    <td>
+     Interlingua
+    </td>
+    <td class="percent">
+     50%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     interlingua
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      id
+     </code>
+    </td>
+    <td>
+     Indonesian
+    </td>
+    <td class="percent">
+     69%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Indonesia
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      is
+     </code>
+    </td>
+    <td>
+     Icelandic
+    </td>
+    <td class="percent">
+     74%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     íslenska
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      it
+     </code>
+    </td>
+    <td>
+     Italian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     italiano
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ja
+     </code>
+    </td>
+    <td>
+     Japanese
+    </td>
+    <td class="percent">
+     77%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     日本語
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      ka
+     </code>
+    </td>
+    <td>
+     Georgian
+    </td>
+    <td class="percent">
+     43%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     ქართული
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      kk
+     </code>
+    </td>
+    <td>
+     Kazakh
+    </td>
+    <td class="percent">
+     3%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     қазақ тілі
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      km
+     </code>
+    </td>
+    <td>
+     Khmer
+    </td>
+    <td class="percent">
+     34%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     ខ្មែរ
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      kn
+     </code>
+    </td>
+    <td>
+     Kannada
+    </td>
+    <td class="percent">
+     34%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     ಕನ್ನಡ
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ko
+     </code>
+    </td>
+    <td>
+     Korean
+    </td>
+    <td class="percent">
+     65%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     한국어
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      lt
+     </code>
+    </td>
+    <td>
+     Lithuanian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     lietuvių
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      lv
+     </code>
+    </td>
+    <td>
+     Latvian
+    </td>
+    <td class="percent">
+     63%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     latviešu
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      mi
+     </code>
+    </td>
+    <td>
+     Maori
+    </td>
+    <td class="percent">
+     43%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Māori
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      mk
+     </code>
+    </td>
+    <td>
+     Macedonian
+    </td>
+    <td class="percent">
+     40%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     македонски
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      ml
+     </code>
+    </td>
+    <td>
+     Malayalam
+    </td>
+    <td class="percent">
+     33%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     മലയാളം
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ms
+     </code>
+    </td>
+    <td>
+     Malay
+    </td>
+    <td class="percent">
+     63%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Melayu
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      mt
+     </code>
+    </td>
+    <td>
+     Maltese
+    </td>
+    <td class="percent">
+     55%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     Malti
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      my
+     </code>
+    </td>
+    <td>
+     Burmese
+    </td>
+    <td class="percent">
+     29%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     မြန်မာ
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      nl
+     </code>
+    </td>
+    <td>
+     Dutch
+    </td>
+    <td class="percent">
+     93%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Nederlands
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      no
+     </code>
+    </td>
+    <td>
+     Norwegian Bokmål (Norway)
+    </td>
+    <td class="percent">
+     64%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     norsk bokmål (Norge)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      nso
+     </code>
+    </td>
+    <td>
+     Northern Sotho
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     Sesotho sa Leboa
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      oc-aranes
+     </code>
+    </td>
+    <td>
+     <code>
+      oc_Aranes
+     </code>
+    </td>
+    <td>
+     <code>
+      oc-aranes
+     </code>
+    </td>
+    <td>
+     Aranese
+    </td>
+    <td class="percent">
+     6%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     aranés
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      os
+     </code>
+    </td>
+    <td>
+     Ossetic
+    </td>
+    <td class="percent">
+     35%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     ирон
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      pl
+     </code>
+    </td>
+    <td>
+     Polish
+    </td>
+    <td class="percent">
+     64%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     polski
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      pt
+     </code>
+    </td>
+    <td>
+     Portuguese
+    </td>
+    <td class="percent">
+     72%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     português
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td>
+     <code>
+      pt-br
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      pt_BR
+     </code>
+    </td>
+    <td>
+     Portuguese (Brazil)
+    </td>
+    <td class="percent">
+     63%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     português (Brasil)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ro
+     </code>
+    </td>
+    <td>
+     Romanian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     română
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      ru
+     </code>
+    </td>
+    <td>
+     Russian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     русский
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      si-lk
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      si_LK
+     </code>
+    </td>
+    <td>
+     Sinhala (Sri Lanka)
+    </td>
+    <td class="percent">
+     4%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     සිංහල (ශ්‍රී ලංකාව)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      sk
+     </code>
+    </td>
+    <td>
+     Slovak
+    </td>
+    <td class="percent">
+     53%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     slovenčina
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      sl
+     </code>
+    </td>
+    <td>
+     Slovenian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     slovenščina
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      sq
+     </code>
+    </td>
+    <td>
+     Albanian
+    </td>
+    <td class="percent">
+     51%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     shqip
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      sr
+     </code>
+    </td>
+    <td>
+     Serbian
+    </td>
+    <td class="percent">
+     42%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     српски
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td>
+     <code>
+      sr-latn
+     </code>
+    </td>
+    <td>
+     <code>
+      sr_Latn
+     </code>
+    </td>
+    <td>
+     <code>
+      sr@latin
+     </code>
+    </td>
+    <td>
+     Serbian (Latin)
+    </td>
+    <td class="percent">
+     72%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     srpski (latinica)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      sv
+     </code>
+    </td>
+    <td>
+     Swedish
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     svenska
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      te
+     </code>
+    </td>
+    <td>
+     Telugu
+    </td>
+    <td class="percent">
+     40%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     తెలుగు
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      th
+     </code>
+    </td>
+    <td>
+     Thai
+    </td>
+    <td class="percent">
+     42%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     ไทย
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      tr
+     </code>
+    </td>
+    <td>
+     Turkish
+    </td>
+    <td class="percent">
+     89%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Türkçe
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td colspan="3">
+     <code>
+      uk
+     </code>
+    </td>
+    <td>
+     Ukrainian
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     українська
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      uz
+     </code>
+    </td>
+    <td>
+     Uzbek
+    </td>
+    <td class="percent">
+     47%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     o‘zbek
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      vi
+     </code>
+    </td>
+    <td>
+     Vietnamese
+    </td>
+    <td class="percent">
+     44%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     Tiếng Việt
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td>
+     <code>
+      zh-hans
+     </code>
+    </td>
+    <td>
+     <code>
+      zh_Hans
+     </code>
+    </td>
+    <td>
+     <code>
+      zh-Hans
+     </code>
+    </td>
+    <td>
+     Chinese (Simplified)
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     中文 (简体)
+    </td>
+   </tr>
+   <tr class="status-displayed">
+    <td>
+     <code>
+      zh-hant
+     </code>
+    </td>
+    <td>
+     <code>
+      zh_Hant
+     </code>
+    </td>
+    <td>
+     <code>
+      zh-Hant
+     </code>
+    </td>
+    <td>
+     Chinese (Traditional)
+    </td>
+    <td class="percent">
+     75%
+     <span class="ballot">
+      ☑
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+     ✔
+    </td>
+    <td style="white-space:nowrap;">
+     中文 (繁體)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td>
+     <code>
+      zh-hk
+     </code>
+    </td>
+    <td colspan="2">
+     <code>
+      zh_HK
+     </code>
+    </td>
+    <td>
+     Chinese (Traditional, Hong Kong SAR China)
+    </td>
+    <td class="percent">
+     45%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     中文 (繁體字, 中國香港特別行政區)
+    </td>
+   </tr>
+   <tr class="status-hidden">
+    <td colspan="3">
+     <code>
+      zu
+     </code>
+    </td>
+    <td>
+     Zulu
+    </td>
+    <td class="percent">
+     36%
+     <span class="ballot">
+      ☐
+     </span>
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td class="datetime">
+     2021-10-22 23:29
+    </td>
+    <td style="text-align:left; white-space:nowrap;">
+     ⇨  LTR
+    </td>
+    <td style="text-align:center; white-space:nowrap;">
+    </td>
+    <td style="white-space:nowrap;">
+     isiZulu
+    </td>
+   </tr>
+  </table>
+  <ul>
+   <li>
+    The translation inclusion threshold (
+    <code>
+     TRANSLATION_THRESHOLD
+    </code>
+    )
+      is
+    <strong class="monospace">
+     60%
+    </strong>
+    (
+    <span class="status-empty" style="padding-left: 0.25em;">
+     <code>
+      = 0%
+     </code>
+     ☐
+    </span>
+    ,
+    <span class="status-hidden" style="padding-left: 0.25em;">
+     <code>
+      &lt; 60%
+     </code>
+     ☐
+    </span>
+    ,
+    <span class="status-displayed" style="padding-left: 0.25em;">
+     <code>
+      ≥ 60%
+     </code>
+     ☑
+    </span>
+    )
+   </li>
+  </ul>
+ </body>
+</html>
