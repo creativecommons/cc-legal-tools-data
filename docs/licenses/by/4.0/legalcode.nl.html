@@ -7,7 +7,7 @@
   </title>
   <meta content="https://creativecommons.org/licenses/by/4.0/" name="CC-Canonical-URL"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/fonts@2020.9.3/css/fonts.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.3/css/vocabulary.css" rel="stylesheet"/>
   <!-- Import Vue JS via CDN -->
@@ -19,6 +19,82 @@
   <!-- Import the Component Library via CDN -->
   <script src="https://unpkg.com/@creativecommons/cc-global-components@0.x.x/dist/cc-globals.min.js">
   </script>
+  <style>
+   body {
+      background-color: rgb(245, 245, 245);
+    }
+    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .breadcrumb li:first-child a {
+      padding-right: 0;
+      padding-left: .5rem;
+    }
+    a.skip-link {
+      left:-999px;
+      position:absolute;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      z-index:-999;
+    }
+    a.skip-link:focus, a.skip-link:active {
+      color: black;
+      font-weight: bolder;
+      left: auto;
+      top: auto;
+      width: 30%;
+      height: auto;
+      overflow:auto;
+      margin: 10px 35%;
+      padding:5px;
+      background-color: rgb(255, 255, 255);
+      border-top: 10px solid rgb(60, 92, 153);
+      border-bottom: 5px solid rgb(176, 176, 176);
+      border-left: 5px solid rgb(176, 176, 176);
+      border-right: 5px solid rgb(176, 176, 176);
+      text-align:center;
+      font-size:1.2em;
+      z-index:999;
+    }
+  </style>
+  <style>
+   #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+
+  /* includes/licenses_header.html */
+  #licenses-header {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+
+  /* includes/use_of_licenses.html */
+  [dir="rtl"] .has-background-info-light .divider {
+      margin-right: -2rem;
+  }
+  [dir="ltr"] .has-background-info-light .divider {
+      margin-left: -2rem;
+  }
+  .has-background-info-light .divider {
+      width: calc(100% + 4rem);
+      background-color: #b0b0b0;
+  }
+
+  /* includes/legalcode_licenses_4.0.html */
+  #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(176, 176, 176);
+  }
+  </style>
  </head>
  <body about="" typeof="">
   <!-- Div element used to mount the Explore CC component-->
@@ -36,36 +112,6 @@
     <a class="skip-link" href="#content">
      Naar de inhoud springen
     </a>
-    <style>
-     a.skip-link {
-    left:-999px;
-    position:absolute;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-    z-index:-999;
-}
-a.skip-link:focus, a.skip-link:active {
-    color: black;
-    font-weight: bolder;
-    left: auto;
-    top: auto;
-    width: 30%;
-    height: auto;
-    overflow:auto;
-    margin: 10px 35%;
-    padding:5px;
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-    text-align:center;
-    font-size:1.2em;
-    z-index:999;
-}
-    </style>
     <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
      <ul>
       <li>
@@ -211,9 +257,9 @@ a.skip-link:focus, a.skip-link:active {
        for any corrections and the date of change
       </div>
       <div class="column">
-       <button class="button tiny is-pulled-right" data-href="deed.nl" id="next-btn">
+       <a class="button tiny is-pulled-right" href="deed.nl" id="next-btn">
         Zie de akte
-       </button>
+       </a>
       </div>
      </div>
     </div>
@@ -337,15 +383,6 @@ a.skip-link:focus, a.skip-link:active {
         Naamsvermelding 4.0 Internationaal
        </h2>
       </div>
-      <style>
-       #licenses-header {
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-  }
-      </style>
       <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
@@ -370,13 +407,13 @@ a.skip-link:focus, a.skip-link:active {
          <span class="level-right">
           <i class="angle-down icon" data-consideration="1" data-direction="down">
            <span class="is-sr-only">
-            Overwegingen voor licentiegevers laten zien
+            Overwegingen voor licentiegevers tonen
            </span>
           </i>
          </span>
         </h4>
         <p class="has-text-black body-big is-hidden">
-         Onze licenties zijn bedoeld voor gebruik door degenen die geautoriseerd zijn om iedereen toestemming te geven om materiaal te gebruiken op manieren die anderszins worden beperkt door auteursrecht en aanverwante rechten. Onze licenties zijn onherroepelijk. Licentiegevers dienen de voorwaarden van de licentie die ze kiezen te lezen en te begrijpen voordat ze deze toepassen. Licentiegevers moeten ook alle benodigde rechten veiligstellen voordat ze onze licenties toepassen, zodat iedereen het materiaal kan hergebruiken zoals verwacht. Licentiegevers dienen materiaal dat niet onder de licentie valt duidelijk te markeren. Dit omvat ander CC gelicenseerd materiaal of materiaal dat wordt gebruikt onder een uitzondering of beperking op het auteursrecht.
+         Onze licenties zijn bedoeld voor gebruik door degenen die geautoriseerd zijn om iedereen toestemming te geven om materiaal te gebruiken op manieren die anderszins worden beperkt door auteursrecht en aanverwante rechten. Onze licenties zijn onherroepelijk. Licentiegevers dienen de voorwaarden van de licentie die ze kiezen te lezen en te begrijpen voordat ze deze toepassen. Licentiegevers moeten ook alle benodigde rechten veiligstellen voordat ze onze licenties toepassen, zodat iedereen het materiaal kan hergebruiken zoals verwacht. Licentiegevers dienen materiaal dat niet onder de licentie valt duidelijk te markeren. Dit omvat ander CC-gelicenseerd materiaal of materiaal dat wordt gebruikt onder een uitzondering of beperking op het auteursrecht.
          <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
           Meer overwegingen voor licentiegevers.
          </a>
@@ -389,32 +426,19 @@ a.skip-link:focus, a.skip-link:active {
          <span class="level-right">
           <i class="angle-down icon" data-consideration="2" data-direction="down">
            <span class="is-sr-only">
-            Laat overwegingen voor het publiek zien
+            Overwegingen voor het publiek tonen
            </span>
           </i>
          </span>
         </h4>
         <p class="has-text-black body-big is-hidden">
-         By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable.
+         Door een van onze publieke licenties te gebruiken, verleent de licentiegever het publiek toestemming om het gelicenseerde materiaal onder gespecificeerde voorwaarden te gebruiken. Als de toestemming van de licentiegever om welke reden dan ook niet nodig is, bijvoorbeeld omdat een uitzondering of beperking op het auteursrecht van toepassing, dan wordt dat gebruik niet gereguleerd door de licentie. Onze licenties verlenen alleen toestemming onder het auteursrecht en bepaalde andere rechten die een licentiegever kan verlenen. Het gebruik van het gelicenseerde materiaal kan om andere redenen nog steeds worden beperkt, bijvoorbeeld omdat anderen auteursrechten of andere rechten op het materiaal hebben. Een licentiegever kan speciale verzoeken doen, zoals vragen om alle wijzigingen te markeren of te beschrijven. Hoewel dit niet vereist is door onze licenties, wordt u aangemoedigd om deze verzoeken waar redelijk te respecteren.
          <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          More considerations for the public.
+          Meer overwegingen voor het publiek.
          </a>
         </p>
        </div>
       </div>
-      <style>
-       [dir="rtl"] .has-background-info-light .divider {
-      margin-right: -2rem;
-  }
-  [dir="ltr"] .has-background-info-light .divider {
-      margin-left: -2rem;
-  }
-
-  .has-background-info-light .divider {
-      width: calc(100% + 4rem);
-      background-color: #b0b0b0;
-  }
-      </style>
       <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
        <div id="plain-text-marker">
         <h3 class="padding-bottom-normal b-header">
@@ -873,12 +897,6 @@ a.skip-link:focus, a.skip-link:active {
         </div>
        </div>
       </div>
-      <style>
-       #legal-code-body {
-    background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(176, 176, 176);
-  }
-      </style>
       <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
@@ -886,15 +904,15 @@ a.skip-link:focus, a.skip-link:active {
         About Creative Commons
        </h4>
        <p class="has-text-black padding-left-big">
-        Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the
+        Creative Commons is geen partij van zijn licenties.  Niettegenstaande kan Creative Commons ervoor kiezen om één van zijn publieke licenties toe te passen op materiaal dat het publiceert en zal in deze instanties als de “licentiegever” beschouwd worden.  De tekst van de publieke licenties van Creative Commons is vrijgegeven in het publieke domein onder de
         <a href="#">
-         CC0 Public Domain Dedication
+         CC0 Publiek-Domein-Vrijgave
         </a>
-        . Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at
+        .  Behalve voor het beperkte doel dat materiaal gedeeld wordt onder een publieke licentie van Creative Commons of zoals anderszins toegestaan door het beleid van Creative Commons, zoals gepubliceerd op
         <a href="creativecommons.org/policies">
          creativecommons.org/policies
         </a>
-        , Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+        , mogen de licenties van Creative Commons niet worden gewijzigd zonder zijn voorafgaande geschreven toestemming, waaronder begrepen, zonder beperking, ongeautoriseerde wijzigingen aan één van zijn publieke licenties of andere regelingen, schikkingen of overeenkomsten over het gebruik van gelicentieerd materiaal.  Ter vermijding van twijfel, is deze paragraaf geen deel van de publieke licenties.
        </p>
        <p class="has-text-black padding-left-big padding-top-normal">
         Creative Commons kan gecontacteerd worden op
@@ -908,7 +926,7 @@ a.skip-link:focus, a.skip-link:active {
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          We zijn blij dat je hier bent! Creative Commons is de non-profitorganisatie achter de open licenties waarmee makers hun werk kunnen delen. Onze licenties zijn gratis te gebruiken.
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
          </p>
          <ul>
           <li>
@@ -951,15 +969,6 @@ a.skip-link:focus, a.skip-link:active {
       </div>
      </div>
     </div>
-    <style>
-     #legal-code-body {
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-  }
-    </style>
    </section>
   </main>
   <!-- Div element used to mount the Global Footer component-->
@@ -967,56 +976,6 @@ a.skip-link:focus, a.skip-link:active {
    <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
    </cc-global-footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@v2020.11.1/js/vocabulary.js">
-  </script>
-  <script>
-   /**
-    * Get the fully-qualified URL of a Vocabulary asset.
-    *
-    * @param {string} version - the Vocabulary version in which to locate the asset
-    * @param {string} path - the path of the asset being patched
-    * @return {string} the fully qualified URL of the asset
-    */
-    const getFullyQualifiedUrl = (version, path) => {
-    //   let baseUrl = 'https://unpkg.com/@creativecommons/vocabulary'
-      // If you prefer jsDelivr instead, use
-      let baseUrl = 'https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary'
-      return `${baseUrl}@${version}/${path}`
-    }
-
-    /**
-    * Create an invisible container and place the asset into the DOM.
-    *
-    * This function is intended to be used to patch SVG assets that are later
-    * referenced inside `<use>` tags in `<svg>` tags. It can also be used to force
-    * an image to be downloaded to speed up its loading when referenced again.
-    *
-    * @param {string} path - the path of the asset being patched
-    * @param {string} version - the Vocabulary version in which to locate the asset
-    */
-    const patchAssetIntoDom = (path, version = 'latest') => {
-      fetch(getFullyQualifiedUrl(version, path)).then(response => {
-        return response.text()
-      }).then(data => {
-        // Render SVG in the page
-        const logo = document.querySelector('#cc-logo')
-        const footerLogo = document.querySelector('#cc-footer-logo')
-        logo.innerHTML = data;
-        footerLogo.innerHTML = data;
-      })
-    }
-
-    patchAssetIntoDom('assets/logos/cc/logomark.svg');
-
-    /** Next Button On Click Event Listener **/
-    document.getElementById("next-btn").addEventListener("click", function (e) {
-      /**
-      * On click redirect the user to page they are trying to visit
-      * which is stored in the data-href.
-      **/
-      return window.location.href = this.dataset.href
-    })
-  </script>
   <script>
    /* Import and use the Explore CC component */
     const cc_explore = Vue.createApp({});
@@ -1049,9 +1008,9 @@ a.skip-link:focus, a.skip-link:active {
       } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
         this.firstChild.innerHTML = "Overwegingen voor het publiek verbergen"
       } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Overwegingen voor licentiegevers laten zien"
+        this.firstChild.innerHTML = "Overwegingen voor licentiegevers tonen"
       } else {
-        this.firstChild.innerHTML = "Laat overwegingen voor het publiek zien"
+        this.firstChild.innerHTML = "Overwegingen voor het publiek tonen"
       }
       // Toggle icon between up and down
       if (this.dataset.direction === "down") {
@@ -1072,16 +1031,4 @@ a.skip-link:focus, a.skip-link:active {
     };
   </script>
  </body>
- <style>
-  body {
-      background-color: rgb(245, 245, 245);
-    }
-    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
-      transform: scaleX(-1);
-    }
-    html[dir="rtl"] .breadcrumb li:first-child a {
-      padding-right: 0;
-      padding-left: .5rem;
-    }
- </style>
 </html>

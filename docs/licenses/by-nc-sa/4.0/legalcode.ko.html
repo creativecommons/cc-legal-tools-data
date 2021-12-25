@@ -7,7 +7,7 @@
   </title>
   <meta content="https://creativecommons.org/licenses/by-nc-sa/4.0/" name="CC-Canonical-URL"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/fonts@2020.9.3/css/fonts.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.3/css/vocabulary.css" rel="stylesheet"/>
   <!-- Import Vue JS via CDN -->
@@ -19,6 +19,82 @@
   <!-- Import the Component Library via CDN -->
   <script src="https://unpkg.com/@creativecommons/cc-global-components@0.x.x/dist/cc-globals.min.js">
   </script>
+  <style>
+   body {
+      background-color: rgb(245, 245, 245);
+    }
+    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .breadcrumb li:first-child a {
+      padding-right: 0;
+      padding-left: .5rem;
+    }
+    a.skip-link {
+      left:-999px;
+      position:absolute;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      z-index:-999;
+    }
+    a.skip-link:focus, a.skip-link:active {
+      color: black;
+      font-weight: bolder;
+      left: auto;
+      top: auto;
+      width: 30%;
+      height: auto;
+      overflow:auto;
+      margin: 10px 35%;
+      padding:5px;
+      background-color: rgb(255, 255, 255);
+      border-top: 10px solid rgb(60, 92, 153);
+      border-bottom: 5px solid rgb(176, 176, 176);
+      border-left: 5px solid rgb(176, 176, 176);
+      border-right: 5px solid rgb(176, 176, 176);
+      text-align:center;
+      font-size:1.2em;
+      z-index:999;
+    }
+  </style>
+  <style>
+   #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+
+  /* includes/licenses_header.html */
+  #licenses-header {
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(60, 92, 153);
+    border-bottom: 5px solid rgb(176, 176, 176);
+    border-left: 5px solid rgb(176, 176, 176);
+    border-right: 5px solid rgb(176, 176, 176);
+  }
+
+  /* includes/use_of_licenses.html */
+  [dir="rtl"] .has-background-info-light .divider {
+      margin-right: -2rem;
+  }
+  [dir="ltr"] .has-background-info-light .divider {
+      margin-left: -2rem;
+  }
+  .has-background-info-light .divider {
+      width: calc(100% + 4rem);
+      background-color: #b0b0b0;
+  }
+
+  /* includes/legalcode_licenses_4.0.html */
+  #legal-code-body {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(176, 176, 176);
+  }
+  </style>
  </head>
  <body about="" typeof="">
   <!-- Div element used to mount the Explore CC component-->
@@ -36,36 +112,6 @@
     <a class="skip-link" href="#content">
      Skip to content
     </a>
-    <style>
-     a.skip-link {
-    left:-999px;
-    position:absolute;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-    z-index:-999;
-}
-a.skip-link:focus, a.skip-link:active {
-    color: black;
-    font-weight: bolder;
-    left: auto;
-    top: auto;
-    width: 30%;
-    height: auto;
-    overflow:auto;
-    margin: 10px 35%;
-    padding:5px;
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-    text-align:center;
-    font-size:1.2em;
-    z-index:999;
-}
-    </style>
     <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
      <ul>
       <li>
@@ -211,9 +257,9 @@ a.skip-link:focus, a.skip-link:active {
        for any corrections and the date of change
       </div>
       <div class="column">
-       <button class="button tiny is-pulled-right" data-href="deed.ko" id="next-btn">
+       <a class="button tiny is-pulled-right" href="deed.ko" id="next-btn">
         See the deed
-       </button>
+       </a>
       </div>
      </div>
     </div>
@@ -353,15 +399,6 @@ a.skip-link:focus, a.skip-link:active {
         저작자표시-비영리-동일조건변경허락 4.0 국제
        </h2>
       </div>
-      <style>
-       #licenses-header {
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-  }
-      </style>
       <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
@@ -418,19 +455,6 @@ a.skip-link:focus, a.skip-link:active {
         </p>
        </div>
       </div>
-      <style>
-       [dir="rtl"] .has-background-info-light .divider {
-      margin-right: -2rem;
-  }
-  [dir="ltr"] .has-background-info-light .divider {
-      margin-left: -2rem;
-  }
-
-  .has-background-info-light .divider {
-      width: calc(100% + 4rem);
-      background-color: #b0b0b0;
-  }
-      </style>
       <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
        <div id="plain-text-marker">
         <h3 class="padding-bottom-normal b-header">
@@ -937,12 +961,6 @@ a.skip-link:focus, a.skip-link:active {
         </div>
        </div>
       </div>
-      <style>
-       #legal-code-body {
-    background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(176, 176, 176);
-  }
-      </style>
       <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
@@ -972,7 +990,7 @@ a.skip-link:focus, a.skip-link:active {
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          We're glad you're here! Creative Commons is the nonprofit behind the open licenses that allow creators to share their work. Our licenses are free to use.
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
          </p>
          <ul>
           <li>
@@ -1015,15 +1033,6 @@ a.skip-link:focus, a.skip-link:active {
       </div>
      </div>
     </div>
-    <style>
-     #legal-code-body {
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-  }
-    </style>
    </section>
   </main>
   <!-- Div element used to mount the Global Footer component-->
@@ -1031,56 +1040,6 @@ a.skip-link:focus, a.skip-link:active {
    <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
    </cc-global-footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@v2020.11.1/js/vocabulary.js">
-  </script>
-  <script>
-   /**
-    * Get the fully-qualified URL of a Vocabulary asset.
-    *
-    * @param {string} version - the Vocabulary version in which to locate the asset
-    * @param {string} path - the path of the asset being patched
-    * @return {string} the fully qualified URL of the asset
-    */
-    const getFullyQualifiedUrl = (version, path) => {
-    //   let baseUrl = 'https://unpkg.com/@creativecommons/vocabulary'
-      // If you prefer jsDelivr instead, use
-      let baseUrl = 'https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary'
-      return `${baseUrl}@${version}/${path}`
-    }
-
-    /**
-    * Create an invisible container and place the asset into the DOM.
-    *
-    * This function is intended to be used to patch SVG assets that are later
-    * referenced inside `<use>` tags in `<svg>` tags. It can also be used to force
-    * an image to be downloaded to speed up its loading when referenced again.
-    *
-    * @param {string} path - the path of the asset being patched
-    * @param {string} version - the Vocabulary version in which to locate the asset
-    */
-    const patchAssetIntoDom = (path, version = 'latest') => {
-      fetch(getFullyQualifiedUrl(version, path)).then(response => {
-        return response.text()
-      }).then(data => {
-        // Render SVG in the page
-        const logo = document.querySelector('#cc-logo')
-        const footerLogo = document.querySelector('#cc-footer-logo')
-        logo.innerHTML = data;
-        footerLogo.innerHTML = data;
-      })
-    }
-
-    patchAssetIntoDom('assets/logos/cc/logomark.svg');
-
-    /** Next Button On Click Event Listener **/
-    document.getElementById("next-btn").addEventListener("click", function (e) {
-      /**
-      * On click redirect the user to page they are trying to visit
-      * which is stored in the data-href.
-      **/
-      return window.location.href = this.dataset.href
-    })
-  </script>
   <script>
    /* Import and use the Explore CC component */
     const cc_explore = Vue.createApp({});
@@ -1136,16 +1095,4 @@ a.skip-link:focus, a.skip-link:active {
     };
   </script>
  </body>
- <style>
-  body {
-      background-color: rgb(245, 245, 245);
-    }
-    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
-      transform: scaleX(-1);
-    }
-    html[dir="rtl"] .breadcrumb li:first-child a {
-      padding-right: 0;
-      padding-left: .5rem;
-    }
- </style>
 </html>

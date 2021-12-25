@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de">
+ <head about="">
+  <meta charset="utf-8"/>
+  <title>
+   Public Domain List
+  </title>
+  <meta content="" name="CC-Canonical-URL"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/fonts@2020.9.3/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary@v2020.11.3/css/vocabulary.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@next">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.x.x/dist/cc-globals.min.js">
+  </script>
+  <style>
+   body {
+      background-color: rgb(245, 245, 245);
+    }
+    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .breadcrumb li:first-child a {
+      padding-right: 0;
+      padding-left: .5rem;
+    }
+    a.skip-link {
+      left:-999px;
+      position:absolute;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      z-index:-999;
+    }
+    a.skip-link:focus, a.skip-link:active {
+      color: black;
+      font-weight: bolder;
+      left: auto;
+      top: auto;
+      width: 30%;
+      height: auto;
+      overflow:auto;
+      margin: 10px 35%;
+      padding:5px;
+      background-color: rgb(255, 255, 255);
+      border-top: 10px solid rgb(60, 92, 153);
+      border-bottom: 5px solid rgb(176, 176, 176);
+      border-left: 5px solid rgb(176, 176, 176);
+      border-right: 5px solid rgb(176, 176, 176);
+      text-align:center;
+      font-size:1.2em;
+      z-index:999;
+    }
+  </style>
+ </head>
+ <body about="" typeof="">
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar">
+   </cc-global-header>
+  </div>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Zum Inhalt überspringen
+    </a>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Start
+       </a>
+      </li>
+      <li>
+       <a href="/publicdomain/">
+        Public domain
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/list">
+        Public Domain List
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="/publicdomain/list.an" id="option-an" value="an">
+         aragonés
+        </option>
+        <option data-link="/publicdomain/list.ca" id="option-ca" value="ca">
+         català
+        </option>
+        <option data-link="/publicdomain/list.da" id="option-da" value="da">
+         dansk
+        </option>
+        <option data-link="/publicdomain/list.de" id="option-de" selected="" value="de">
+         Deutsch
+        </option>
+        <option data-link="/publicdomain/list.et" id="option-et" value="et">
+         eesti
+        </option>
+        <option data-link="/publicdomain/list.en" id="option-en" value="en">
+         English
+        </option>
+        <option data-link="/publicdomain/list.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="/publicdomain/list.eo" id="option-eo" value="eo">
+         esperanto
+        </option>
+        <option data-link="/publicdomain/list.eu" id="option-eu" value="eu">
+         euskara
+        </option>
+        <option data-link="/publicdomain/list.fr" id="option-fr" value="fr">
+         français
+        </option>
+        <option data-link="/publicdomain/list.gl" id="option-gl" value="gl">
+         galego
+        </option>
+        <option data-link="/publicdomain/list.hr" id="option-hr" value="hr">
+         hrvatski
+        </option>
+        <option data-link="/publicdomain/list.id" id="option-id" value="id">
+         Indonesia
+        </option>
+        <option data-link="/publicdomain/list.it" id="option-it" value="it">
+         italiano
+        </option>
+        <option data-link="/publicdomain/list.lv" id="option-lv" value="lv">
+         latviešu
+        </option>
+        <option data-link="/publicdomain/list.lt" id="option-lt" value="lt">
+         lietuvių
+        </option>
+        <option data-link="/publicdomain/list.hu" id="option-hu" value="hu">
+         magyar
+        </option>
+        <option data-link="/publicdomain/list.ms" id="option-ms" value="ms">
+         Melayu
+        </option>
+        <option data-link="/publicdomain/list.nl" id="option-nl" value="nl">
+         Nederlands
+        </option>
+        <option data-link="/publicdomain/list.no" id="option-no" value="no">
+         norsk bokmål (Norge)
+        </option>
+        <option data-link="/publicdomain/list.pl" id="option-pl" value="pl">
+         polski
+        </option>
+        <option data-link="/publicdomain/list.pt" id="option-pt" value="pt">
+         português
+        </option>
+        <option data-link="/publicdomain/list.pt-br" id="option-pt-br" value="pt-br">
+         português (Brasil)
+        </option>
+        <option data-link="/publicdomain/list.ro" id="option-ro" value="ro">
+         română
+        </option>
+        <option data-link="/publicdomain/list.sl" id="option-sl" value="sl">
+         slovenščina
+        </option>
+        <option data-link="/publicdomain/list.sr-latn" id="option-sr-latn" value="sr-latn">
+         srpski (latinica)
+        </option>
+        <option data-link="/publicdomain/list.fi" id="option-fi" value="fi">
+         suomi
+        </option>
+        <option data-link="/publicdomain/list.sv" id="option-sv" value="sv">
+         svenska
+        </option>
+        <option data-link="/publicdomain/list.tr" id="option-tr" value="tr">
+         Türkçe
+        </option>
+        <option data-link="/publicdomain/list.is" id="option-is" value="is">
+         íslenska
+        </option>
+        <option data-link="/publicdomain/list.cs" id="option-cs" value="cs">
+         čeština
+        </option>
+        <option data-link="/publicdomain/list.el" id="option-el" value="el">
+         Ελληνικά
+        </option>
+        <option data-link="/publicdomain/list.be" id="option-be" value="be">
+         беларуская
+        </option>
+        <option data-link="/publicdomain/list.bg" id="option-bg" value="bg">
+         български
+        </option>
+        <option data-link="/publicdomain/list.ru" id="option-ru" value="ru">
+         русский
+        </option>
+        <option data-link="/publicdomain/list.uk" id="option-uk" value="uk">
+         українська
+        </option>
+        <option data-link="/publicdomain/list.ar" id="option-ar" value="ar">
+         العربية
+        </option>
+        <option data-link="/publicdomain/list.fa" id="option-fa" value="fa">
+         فارسی
+        </option>
+        <option data-link="/publicdomain/list.bn" id="option-bn" value="bn">
+         বাংলা
+        </option>
+        <option data-link="/publicdomain/list.zh-hans" id="option-zh-hans" value="zh-hans">
+         中文 (简体)
+        </option>
+        <option data-link="/publicdomain/list.zh-hant" id="option-zh-hant" value="zh-hant">
+         中文 (繁體)
+        </option>
+        <option data-link="/publicdomain/list.ja" id="option-ja" value="ja">
+         日本語
+        </option>
+        <option data-link="/publicdomain/list.ko" id="option-ko" value="ko">
+         한국어
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script>
+     const select = document.getElementById("languages-dropdown")
+
+  select.addEventListener("input", function () {
+    const language_code = select.value
+    const option = document.getElementById("option-" + language_code)
+    window.location.href = option.dataset.link
+  })
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="columns">
+     <div class="column is-one-quarter toc-container">
+      <aside class="menu table-of-contents">
+       <ul class="menu-list">
+        <li>
+         <a class="link" href="#publicdomain-1.0">
+          1.0 Public domain
+         </a>
+         <ul>
+          <li>
+           <a class="link" href="#universell-1.0">
+            <i class="icon circle-filled">
+            </i>
+            1.0 Universell
+           </a>
+          </li>
+          <li>
+           <a class="link" href="#vereinigte-staaten-von-amerika-1.0">
+            <i class="icon circle-filled">
+            </i>
+            1.0 Vereinigte Staaten von Amerika
+           </a>
+          </li>
+          <li>
+           <a class="link" href="#universell-1.0">
+            <i class="icon circle-filled">
+            </i>
+            1.0 Universell
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </aside>
+     </div>
+     <div class="column is-three-quarters">
+      <h3 class="b-header" id="publicdomain-1.0">
+       1.0 Public domain
+      </h3>
+      <h4 class="b-header" id="universell-1.0">
+       1.0 Universell
+      </h4>
+      <div class="padding-bottom-big">
+       <p class="padding-bottom-small">
+        Canonical URL:
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+         <code>
+          https://creativecommons.org/publicdomain/zero/1.0/
+         </code>
+        </a>
+       </p>
+       <div class="is-responsive">
+        <table class="table is-bordered is-striped">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Language
+           </th>
+           <th colspan="1">
+            Legal Tools
+           </th>
+          </tr>
+          <tr>
+           <th>
+            <code>
+             zero
+            </code>
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td data-label="Language">
+            Ελληνικά
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.el">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.el">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            English
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.en">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            español
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.es">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.es">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            euskara
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.eu">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.eu">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            suomi
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.fi">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.fi">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            français
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.fr">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            hrvatski
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.hr">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.hr">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            italiano
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.it">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.it">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            日本語
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.ja">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.ja">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            한국어
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.ko">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.ko">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            lietuvių
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.lt">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.lt">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            latviešu
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.lv">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.lv">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            Nederlands
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.nl">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.nl">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            polski
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.pl">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.pl">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            română
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.ro">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.ro">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            slovenščina
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.sl">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.sl">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            svenska
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.sv">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.sv">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            中文 (简体)
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.zh-hans">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.zh-hans">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Language">
+            中文 (繁體)
+           </td>
+           <td data-label="zero">
+            <a href="zero/1.0/deed.zh-hant">
+             Deed
+            </a>
+            <br/>
+            <a href="zero/1.0/legalcode.zh-hant">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+      <h4 class="b-header" id="vereinigte-staaten-von-amerika-1.0">
+       1.0 Vereinigte Staaten von Amerika
+      </h4>
+      <div class="padding-bottom-big">
+       <p class="padding-bottom-small">
+        Canonical URL:
+        <a href="https://creativecommons.org/publicdomain/certification/1.0/us/">
+         <code>
+          https://creativecommons.org/publicdomain/certification/1.0/us/
+         </code>
+        </a>
+       </p>
+       <div class="is-responsive">
+        <table class="table is-bordered is-striped">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Language
+           </th>
+           <th colspan="1">
+            Legal Tools
+           </th>
+          </tr>
+          <tr>
+           <th>
+            <code>
+             certification
+            </code>
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td data-label="Language">
+            English
+           </td>
+           <td data-label="certification">
+            <a href="certification/1.0/us/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="certification/1.0/us/legalcode.en">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+      <h4 class="b-header" id="universell-1.0">
+       1.0 Universell
+      </h4>
+      <div class="padding-bottom-big">
+       <p class="padding-bottom-small">
+        Canonical URL:
+        <a href="https://creativecommons.org/publicdomain/mark/1.0/">
+         <code>
+          https://creativecommons.org/publicdomain/mark/1.0/
+         </code>
+        </a>
+       </p>
+       <div class="is-responsive">
+        <table class="table is-bordered is-striped">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Language
+           </th>
+           <th colspan="1">
+            Legal Tools
+           </th>
+          </tr>
+          <tr>
+           <th>
+            <code>
+             mark
+            </code>
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td data-label="Language">
+            English
+           </td>
+           <td data-label="mark">
+            <a href="mark/1.0/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="mark/1.0/legalcode.en">
+             Lizenzvertrag
+            </a>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+      <div class="columns margin-top-normal margin-bottom-normal">
+       <div class="menu padding-vertical-normal column is-half padding-right-large">
+        <ul class="menu-list">
+         <li>
+          <p class="body-big has-text-black">
+           Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+          </p>
+          <ul>
+           <li>
+            <span class="body-bigger padding-right-normal padding-top-small">
+             •
+            </span>
+            <a class="is-inline body-big" href="https://creativecommons.org/about/" style="font-weight: bold;">
+             Learn more about our work
+            </a>
+           </li>
+           <li>
+            <span class="body-bigger padding-right-normal padding-top-small">
+             •
+            </span>
+            <a class="is-inline body-big" href="https://creativecommons.org/about/cclicenses/" style="font-weight: bold;">
+             Learn more about CC Licensing
+            </a>
+           </li>
+           <li>
+            <span class="body-bigger padding-right-normal padding-top-small">
+             •
+            </span>
+            <a class="is-inline body-big" href="https://creativecommons.org/donate/" style="font-weight: bold;">
+             Support our work
+            </a>
+           </li>
+           <li>
+            <span class="body-bigger padding-right-normal padding-top-small">
+             •
+            </span>
+            <a class="is-inline body-big" href="https://chooser-beta.creativecommons.org/" style="font-weight: bold;">
+             Use the license for your own material.
+             <i class="icon external-link padding-bottom-small caption">
+             </i>
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <div id="column is-full margin-top-bigger" style="width: 100%;">
+        <div class="card entry-post">
+         <div class="card-content">
+          <h4>
+           Get The Latest Updates
+          </h4>
+          <p class="body-big">
+           Subscribe to our monthly newsletter.
+          </p>
+          <form class="margin-top-normal">
+           <div class="field has-addons">
+            <label class="is-sr-only" for="email">
+             Email address
+            </label>
+            <input class="input is-medium" id="email" placeholder="Email Address" type="text"/>
+            <button class="button is-primary" type="submit">
+             Join
+            </button>
+           </div>
+          </form>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner">
+   </cc-global-footer>
+  </div>
+  <script>
+   /* Import and use the Explore CC component */
+    const cc_explore = Vue.createApp({});
+    cc_explore.use(CcGlobals);
+    cc_explore.mount("#explore-cc");
+
+    /* Import and use the CC Global Header component */
+    const cc_header = Vue.createApp({});
+    cc_header.use(CcGlobals);
+    cc_header.mount("#header-cc");
+
+    /* Import and use the CC Global Footer component */
+    const cc_footer = Vue.createApp({});
+    cc_footer.use(CcGlobals);
+    cc_footer.mount("#footer-cc");
+  </script>
+ </body>
+</html>
