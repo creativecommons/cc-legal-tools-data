@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-01 16:07:32+00:00\n"
+"PO-Revision-Date: 2021-12-22 00:16:37+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/hu/\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -18,25 +18,325 @@ msgstr ""
 "Language-Django: hu\n"
 "Language-Transifex: hu\n"
 
-#: templates/404.html:4
-msgid "Page Not Found"
+#: i18n/__init__.py:122
+msgid "Unported"
 msgstr ""
 
-#: templates/base.html:34
+#: i18n/__init__.py:123
+msgid "Generic (unported)"
+msgstr ""
+
+#: i18n/__init__.py:124
+msgid "International (unported)"
+msgstr ""
+
+#: i18n/__init__.py:125
+msgid "International"
+msgstr "Nemzetközi"
+
+#: i18n/__init__.py:126
+msgid "Universal"
+msgstr "Univerzális"
+
+#: i18n/__init__.py:127
+msgid "Armenia"
+msgstr ""
+
+#: i18n/__init__.py:128
+msgid "Argentina"
+msgstr "Argentína"
+
+#: i18n/__init__.py:129
+msgid "Austria"
+msgstr "Ausztria"
+
+#: i18n/__init__.py:130
+msgid "Australia"
+msgstr "Ausztrália"
+
+#: i18n/__init__.py:131
+msgid "Azerbaijan"
+msgstr ""
+
+#: i18n/__init__.py:132
+msgid "Belgium"
+msgstr "Belgium"
+
+#: i18n/__init__.py:133
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+#: i18n/__init__.py:134
+msgid "Brazil"
+msgstr "Brazília"
+
+#: i18n/__init__.py:135
+msgid "Canada"
+msgstr "Kanada"
+
+#: i18n/__init__.py:136
+msgid "Switzerland"
+msgstr "Svájc"
+
+#: i18n/__init__.py:137
+msgid "Chile"
+msgstr "Chile"
+
+#: i18n/__init__.py:138
+msgid "China Mainland"
+msgstr "Kína"
+
+#: i18n/__init__.py:139
+msgid "Colombia"
+msgstr "Kolumbia"
+
+#: i18n/__init__.py:140
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: i18n/__init__.py:141
+msgid "Czech Republic"
+msgstr "Cseh Köztársaság"
+
+#: i18n/__init__.py:142
+msgid "Germany"
+msgstr "Németország"
+
+#: i18n/__init__.py:143
+msgid "Denmark"
+msgstr "Dánia"
+
+#: i18n/__init__.py:144
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: i18n/__init__.py:145
+msgid "Estonia"
+msgstr "Észtország"
+
+#: i18n/__init__.py:146
+msgid "Egypt"
+msgstr "Egyiptom"
+
+#: i18n/__init__.py:147
+msgid "Spain"
+msgstr "Spanyolország"
+
+#: i18n/__init__.py:148
+msgid "Finland"
+msgstr "Finnország"
+
+#: i18n/__init__.py:149
+msgid "France"
+msgstr "Franciaország"
+
+#: i18n/__init__.py:150
+msgid "Georgia"
+msgstr ""
+
+#: i18n/__init__.py:151
+msgid "Greece"
+msgstr "Görögország"
+
+#: i18n/__init__.py:152
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: i18n/__init__.py:153
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: i18n/__init__.py:154
+msgid "Croatia"
+msgstr "Horvátország"
+
+#: i18n/__init__.py:155
+msgid "Hungary"
+msgstr "Magyarország"
+
+#: i18n/__init__.py:156
+msgid "Ireland"
+msgstr "Írország"
+
+#: i18n/__init__.py:157
+msgid "Intergovernmental Organization"
+msgstr ""
+
+#: i18n/__init__.py:158
+msgid "Israel"
+msgstr "Izrael"
+
+#: i18n/__init__.py:159
+msgid "India"
+msgstr "India"
+
+#: i18n/__init__.py:160
+msgid "Italy"
+msgstr "Olaszország"
+
+#: i18n/__init__.py:161
+msgid "Jordan"
+msgstr "Jordánia"
+
+#: i18n/__init__.py:162
+msgid "Japan"
+msgstr "Japán"
+
+#: i18n/__init__.py:163
+msgid "Korea"
+msgstr "Korea"
+
+#: i18n/__init__.py:164
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: i18n/__init__.py:165
+msgid "Macedonia"
+msgstr "Macedónia"
+
+#: i18n/__init__.py:166
+msgid "Malta"
+msgstr "Málta"
+
+#: i18n/__init__.py:167
+msgid "Mexico"
+msgstr "Mexikó"
+
+#: i18n/__init__.py:168
+msgid "Malaysia"
+msgstr "Malajzia"
+
+#: i18n/__init__.py:169
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: i18n/__init__.py:170
+msgid "Netherlands"
+msgstr "Hollandia"
+
+#: i18n/__init__.py:171
+msgid "Norway"
+msgstr "Norvégia"
+
+#: i18n/__init__.py:172
+msgid "New Zealand"
+msgstr "Új-Zéland"
+
+#: i18n/__init__.py:173
+msgid "Peru"
+msgstr "Peru"
+
+#: i18n/__init__.py:174
+msgid "Philippines"
+msgstr "Fülöp-szigetek"
+
+#: i18n/__init__.py:175
+msgid "Poland"
+msgstr "Lengyelország"
+
+#: i18n/__init__.py:176
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: i18n/__init__.py:177
+msgid "Portugal"
+msgstr "Portugália"
+
+#: i18n/__init__.py:178
+msgid "Romania"
+msgstr "Románia"
+
+#: i18n/__init__.py:179
+msgid "Serbia"
+msgstr "Szerbia"
+
+#: i18n/__init__.py:180
+msgid "UK: Scotland"
+msgstr "UK: Skócia"
+
+#: i18n/__init__.py:181
+msgid "Sweden"
+msgstr "Svédország"
+
+#: i18n/__init__.py:182
+msgid "Singapore"
+msgstr "Szingapúr"
+
+#: i18n/__init__.py:183
+msgid "Slovenia"
+msgstr "Szlovénia"
+
+#: i18n/__init__.py:184
+msgid "Thailand"
+msgstr "Thaiföld"
+
+#: i18n/__init__.py:185
+msgid "Taiwan"
+msgstr "Tajvan"
+
+#: i18n/__init__.py:186
+msgid "Ukraine"
+msgstr "Ukrajna"
+
+#: i18n/__init__.py:187
+msgid "Uganda"
+msgstr "Uganda"
+
+#: i18n/__init__.py:188
+msgid "UK: England & Wales"
+msgstr "UK: Anglia és Wales"
+
+#: i18n/__init__.py:189
+msgid "United States"
+msgstr "Egyesült Államok"
+
+#: i18n/__init__.py:190
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: i18n/__init__.py:191
+msgid "Vietnam"
+msgstr "Vietnám"
+
+#: i18n/__init__.py:192
+msgid "South Africa"
+msgstr "Dél-Afrika"
+
+#: legal_tools/views.py:49
+msgid "Public Domain"
+msgstr "Közkincs"
+
+#: legal_tools/views.py:51
+msgid "Licenses"
+msgstr ""
+
+#: legal_tools/views.py:315
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:320
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:80
+msgid "Skip to content"
+msgstr ""
+
+#: templates/base.html:83
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:8 templates/dev/home.html:16
+#: templates/deed.html:34 templates/list.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:15
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr ""
 
-#: templates/dev/home.html:17 templates/legalcode.html:6
-msgid "Legal Code"
-msgstr "Jogi szöveg"
+#: templates/dev/404.html:4
+msgid "Page Not Found"
+msgstr ""
 
 #: templates/includes/about_cc.html:10
 msgid ""
@@ -119,7 +419,7 @@ msgid "Use &#038; remix"
 msgstr ""
 
 #: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29 templates/includes/footer.html:40
+#: templates/includes/cc_site_header.html:29
 msgid "What we do"
 msgstr "Mivel foglalkozunk"
 
@@ -462,12 +762,12 @@ msgid ""
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:50
+#: templates/legalcode.html:88
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:50
+#: templates/legalcode.html:88
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -597,14 +897,14 @@ msgstr "Mennyiség"
 msgid "Donate Now"
 msgstr "Támogass bennünket most"
 
-#: templates/includes/deprecated.html:7
-#: templates/includes/disclaimer_40.html:9
-#: templates/includes/disclaimer_certification.html:9
+#: templates/includes/deprecated.html:3
+#: templates/includes/disclaimer_40.html:3
+#: templates/includes/disclaimer_certification.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "Figyelmeztetés"
 
-#: templates/includes/deprecated.html:9
+#: templates/includes/deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -614,7 +914,7 @@ msgstr ""
 "href=\"http://creativecommons.org/retiredlicenses\">visszavonta ezt a jogi "
 "eszközt</a>, és nem javasolja a használatát."
 
-#: templates/includes/disclaimer_40.html:11
+#: templates/includes/disclaimer_40.html:5
 msgid ""
 "This deed highlights only some of the key features and terms of the actual "
 "license. It is not a license and has no legal value. You should carefully "
@@ -626,7 +926,7 @@ msgstr ""
 "licenccel érintett mű használata előtt gondosan tanulmányozd a teljes "
 "licenc-szöveg tartalmát."
 
-#: templates/includes/disclaimer_40.html:18
+#: templates/includes/disclaimer_40.html:13
 msgid ""
 "Creative Commons is not a law firm and does not provide legal services. "
 "Distributing, displaying, or linking to this deed or the license that it "
@@ -637,7 +937,7 @@ msgstr ""
 " arra való hivatkozás nem keletkeztet ügyvéd-kliens vagy bármilyen egyéb "
 "kapcsolatot."
 
-#: templates/includes/disclaimer_certification.html:10
+#: templates/includes/disclaimer_certification.html:4
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -647,7 +947,7 @@ msgstr ""
 "alkalmazható az Egyesült Államokon kívül. Új alkotások közkinccsé "
 "nyilvánításához a <a href=\"/choose/zero/\">CC0</a>-t ajánljuk."
 
-#: templates/includes/disclaimer_zero.html:11
+#: templates/includes/disclaimer_zero.html:10
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -662,53 +962,13 @@ msgid ""
 "uses of any work. </p>"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:15
+#: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
 "Ez a <a href=\"./legalcode\">Legal Code (Jogi változat, vagyis a teljes "
 "licenc)</a> szövegének közérthető nyelven megfogalmazott kivonata."
-
-#: templates/includes/footer.html:39
-msgid "Who We Are"
-msgstr ""
-
-#: templates/includes/footer.html:41
-msgid "Our Impact"
-msgstr ""
-
-#: templates/includes/footer.html:42
-msgid "News"
-msgstr ""
-
-#: templates/includes/footer.html:50
-msgid "Subscribe to our newsletter"
-msgstr ""
-
-#: templates/includes/footer.html:58
-msgid ""
-"Except where otherwise <a "
-"href=\"https://creativecommons.org/policies#license\" target=\"_blank\" "
-"rel=\"noopener\">noted</a>, content on this site is licensed under a <a "
-"href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" "
-"rel=\"noopener\">Creative Commons Attribution 4.0 International license</a>."
-" <a href=\"https://creativecommons.org/website-icons\" target=\"_blank\" "
-"rel=\"noopener\">Icons</a> by <a href=\"https://fontawesome.com/\" "
-"target=\"_blank\" rel=\"noopener\">Font Awesome</a>."
-msgstr ""
-
-#: templates/includes/footer.html:76
-msgid "Our work relies on you!"
-msgstr ""
-
-#: templates/includes/footer.html:77
-msgid "Help us keep the internet free and open."
-msgstr ""
-
-#: templates/includes/footer.html:80
-msgid "Donate now"
-msgstr ""
 
 #: templates/includes/language_selector.html:5
 #: templates/includes/translations.html:4
@@ -723,48 +983,34 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: templates/includes/related_links.html:10
-msgid "Related Links"
-msgstr ""
-
-#: templates/includes/related_links.html:14
+#: templates/includes/related_links.html:9
 msgid ""
-"Creative Commons is the nonprofit behind the open licenses that allow "
-"creators to share their work. Our licenses and legal tools are free to use."
-msgstr ""
-
-#: templates/includes/related_links.html:23
-msgid ""
-"We're glad you're here! Creative Commons is the nonprofit behind the open "
-"licenses that allow creators to share their work. Our licenses are free to "
+"Creative Commons is the nonprofit behind the open licenses and other legal "
+"tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:32
+#: templates/includes/related_links.html:17
 msgid "Learn more about our work"
 msgstr ""
 
-#: templates/includes/related_links.html:34
+#: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: templates/includes/related_links.html:35
+#: templates/includes/related_links.html:20
 msgid "Support our work"
 msgstr ""
 
-#: templates/includes/related_links.html:37
+#: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
 msgstr ""
 
-#: templates/includes/skiplink.html:4
-msgid "Skip to content"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:5
+#: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:7
+#: templates/includes/use_of_licenses.html:10
 msgid ""
 "Creative Commons public licenses provide a standard set of terms and "
 "conditions that creators and other rights holders may use to share original "
@@ -774,15 +1020,15 @@ msgid ""
 "do not form part of our licenses."
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:16
+#: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:16 templates/legalcode.html:92
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:18
+#: templates/includes/use_of_licenses.html:23
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -797,15 +1043,15 @@ msgid ""
 " considerations for licensors.</a>"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:30
+#: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:30 templates/legalcode.html:94
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
 msgid "Show Considerations for the Public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:32
+#: templates/includes/use_of_licenses.html:42
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -822,16 +1068,32 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:21
+#: templates/legalcode.html:46 templates/list.html:12
+msgid "Legal Code"
+msgstr "Jogi szöveg"
+
+#: templates/legalcode.html:61
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:88
+#: templates/legalcode.html:115
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:90
+#: templates/legalcode.html:117
 msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/list.html:13
+msgid "Canonical URL"
+msgstr ""
+
+#: templates/list.html:56 templates/list.html:72
+msgid "Language"
+msgstr ""
+
+#: templates/list.html:58
+msgid "Legal Tools"
 msgstr ""
 
 #: templates/redirect.html:5
