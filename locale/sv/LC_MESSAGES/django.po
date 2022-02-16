@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-22 01:03:47+00:00\n"
+"PO-Revision-Date: 2022-01-11 08:22:53+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -308,11 +308,11 @@ msgstr "Public Domain"
 
 #: legal_tools/views.py:51
 msgid "Licenses"
-msgstr ""
+msgstr "Licenser"
 
 #: legal_tools/views.py:315
 msgid "Licenses List"
-msgstr ""
+msgstr "Licenslista"
 
 #: legal_tools/views.py:320
 msgid "Public Domain List"
@@ -324,7 +324,7 @@ msgstr "Hoppa över till innehåll"
 
 #: templates/base.html:83
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #: templates/deed.html:34 templates/list.html:11
 msgid "Deed"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Sida hittades inte"
 
 #: templates/includes/about_cc.html:10
 msgid ""
@@ -364,7 +364,7 @@ msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "Om licensen och Creative Commons"
 
 #: templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -439,11 +439,11 @@ msgstr "Sök i Commons"
 
 #: templates/includes/cc_site_header.html:36
 msgid "Search for CC images"
-msgstr ""
+msgstr "Sök efter CC-bilder"
 
 #: templates/includes/cc_site_header.html:38
 msgid "Newsletters"
-msgstr ""
+msgstr "Nyhetsbrev"
 
 #: templates/includes/cc_site_header.html:39
 msgid "Store"
@@ -1023,7 +1023,7 @@ msgstr "Denna sida finns tillgänglig på följande språk:"
 
 #: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
-msgstr ""
+msgstr "Språk tillgängliga"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
@@ -1050,7 +1050,7 @@ msgstr ""
 
 #: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Använd licensen för ditt eget material."
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1136,7 +1136,7 @@ msgstr ""
 
 #: templates/list.html:56 templates/list.html:72
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: templates/list.html:58
 msgid "Legal Tools"
@@ -1144,4 +1144,4 @@ msgstr ""
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Omdirigera till:"
