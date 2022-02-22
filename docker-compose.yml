@@ -1,0 +1,24 @@
+# Also see:
+#   .env
+#   Dockerfile
+#
+# https://docs.docker.com/compose/compose-file/compose-file-v3/
+
+version: "3.6"
+
+services:
+
+  static:
+    build: ${RELPATH_DATA}
+    command: sh -c "
+      echo 'Starting static webserver at http://127.0.0.1:${PORT_STATIC}/'
+      && httpd-foreground
+      "
+    environment:
+      - PORT_STATIC
+    ports:
+      - "${PORT_STATIC}:80"
+    restart: always
+    volumes:
+      - ${RELPATH_DATA}/config:/usr/local/apache2/conf/config:ro
+      - ${RELPATH_DATA}/docs:/usr/local/apache2/htdocs:ro
