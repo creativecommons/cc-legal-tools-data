@@ -4,12 +4,13 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   저작자표시-비영리 4.0 국제 Deed — Creative Commons
+   CC BY-NC 4.0 Deed — Attribution-NonCommercial 4.0 국제 — Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/4.0/deed.ko" rel="canonical"/>
-  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
   <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
   <!-- Import Vue JS via CDN -->
   <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
   </script>
@@ -19,63 +20,7 @@
   <!-- Import the Component Library via CDN -->
   <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
   </script>
-  <style>
-   body {
-      background-color: rgb(245, 245, 245);
-    }
-    html[dir="rtl"] nav.breadcrumb>ul li+li:before {
-      transform: scaleX(-1);
-    }
-    html[dir="rtl"] .breadcrumb li:first-child a {
-      padding-right: 0;
-      padding-left: .5rem;
-    }
-    a.skip-link {
-      left:-999px;
-      position:absolute;
-      top:auto;
-      width:1px;
-      height:1px;
-      overflow:hidden;
-      z-index:-999;
-    }
-    a.skip-link:focus, a.skip-link:active {
-      color: black;
-      font-weight: bolder;
-      left: auto;
-      top: auto;
-      width: 30%;
-      height: auto;
-      overflow:auto;
-      margin: 10px 35%;
-      padding:5px;
-      background-color: rgb(255, 255, 255);
-      border-top: 10px solid rgb(60, 92, 153);
-      border-bottom: 5px solid rgb(176, 176, 176);
-      border-left: 5px solid rgb(176, 176, 176);
-      border-right: 5px solid rgb(176, 176, 176);
-      text-align:center;
-      font-size:1.2em;
-      z-index:999;
-    }
-  </style>
-  <style>
-   #deed-body {
-    background-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(60, 92, 153);
-    border-bottom: 5px solid rgb(176, 176, 176);
-    border-left: 5px solid rgb(176, 176, 176);
-    border-right: 5px solid rgb(176, 176, 176);
-  }
-  /* Used by multiple includes */
-  #disclaimer-info-section {
-    color: #000 !important;
-  }
-  #disclaimer-info-section p:nth-child(n+1) {
-    /* padding for all but first paragraph */
-    padding-top: 1rem !important;
-  }
-  </style>
+  <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
  </head>
  <body about="https://creativecommons.org/licenses/by-nc/4.0/" typeof="cc:License">
   <!-- Div element used to mount the Explore CC component-->
@@ -256,14 +201,7 @@
       </div>
      </div>
     </div>
-    <script>
-     const select = document.getElementById("languages-dropdown")
-
-  select.addEventListener("input", function () {
-    const language_code = select.value
-    const option = document.getElementById("option-" + language_code)
-    window.location.href = option.dataset.link
-  })
+    <script src="/cc-legal-tools/language-dropdown.js">
     </script>
    </div>
    <section class="padding-horizontal-larger" id="content">
@@ -330,10 +268,10 @@
        CC BY-NC 4.0
       </h4>
       <h2 class="margin-bottom-larger b-header is-hidden-touch">
-       저작자표시-비영리 4.0 국제
+       Attribution-NonCommercial 4.0 국제
       </h2>
       <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
-       저작자표시-비영리 4.0 국제
+       Attribution-NonCommercial 4.0 국제
       </h3>
       <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
        이용자는 다음의 권리를 갖습니다:
@@ -486,8 +424,6 @@
            </span>
            <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
             Use the license for your own material.
-            <i class="icon external-link padding-bottom-small caption">
-            </i>
            </a>
           </li>
          </ul>
@@ -526,21 +462,7 @@
    <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
    </cc-global-footer>
   </div>
-  <script>
-   /* Import and use the Explore CC component */
-    const cc_explore = Vue.createApp({});
-    cc_explore.use(CcGlobals);
-    cc_explore.mount("#explore-cc");
-
-    /* Import and use the CC Global Header component */
-    const cc_header = Vue.createApp({});
-    cc_header.use(CcGlobals);
-    cc_header.mount("#header-cc");
-
-    /* Import and use the CC Global Footer component */
-    const cc_footer = Vue.createApp({});
-    cc_footer.use(CcGlobals);
-    cc_footer.mount("#footer-cc");
+  <script src="/cc-legal-tools/load_components.js">
   </script>
  </body>
 </html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="id">
+ <head about="https://creativecommons.org/publicdomain/zero/1.0/">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CC0 1.0 Deed — CC0 1.0 Universal — Creative Commons
+  </title>
+  <link href="https://creativecommons.org/publicdomain/zero/1.0/deed.id" rel="canonical"/>
+  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
+  </script>
+  <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
+ </head>
+ <body about="https://creativecommons.org/publicdomain/zero/1.0/" typeof="cc:License">
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
+   </cc-global-header>
+  </div>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Skip to content
+    </a>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Beranda
+       </a>
+      </li>
+      <li>
+       <a href="/publicdomain/">
+        Domain Publik
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/publicdomain/zero/1.0/deed.id">
+        CC0 1.0 Deed
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.an" id="option-an" value="an">
+         aragonés
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ca" id="option-ca" value="ca">
+         català
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.da" id="option-da" value="da">
+         dansk
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.de" id="option-de" value="de">
+         Deutsch
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.et" id="option-et" value="et">
+         eesti
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.en" id="option-en" value="en">
+         English
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.eo" id="option-eo" value="eo">
+         esperanto
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.eu" id="option-eu" value="eu">
+         euskara
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.fr" id="option-fr" value="fr">
+         français
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.gl" id="option-gl" value="gl">
+         galego
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.hr" id="option-hr" value="hr">
+         hrvatski
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.id" id="option-id" selected="" value="id">
+         Indonesia
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.it" id="option-it" value="it">
+         italiano
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.lv" id="option-lv" value="lv">
+         latviešu
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.lt" id="option-lt" value="lt">
+         lietuvių
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.hu" id="option-hu" value="hu">
+         magyar
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ms" id="option-ms" value="ms">
+         Melayu
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.nl" id="option-nl" value="nl">
+         Nederlands
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.no" id="option-no" value="no">
+         norsk bokmål (Norge)
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.pl" id="option-pl" value="pl">
+         polski
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.pt" id="option-pt" value="pt">
+         português
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.pt-br" id="option-pt-br" value="pt-br">
+         português (Brasil)
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ro" id="option-ro" value="ro">
+         română
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.sl" id="option-sl" value="sl">
+         slovenščina
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.sr-latn" id="option-sr-latn" value="sr-latn">
+         srpski (latinica)
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.fi" id="option-fi" value="fi">
+         suomi
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.sv" id="option-sv" value="sv">
+         svenska
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.tr" id="option-tr" value="tr">
+         Türkçe
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.is" id="option-is" value="is">
+         íslenska
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.cs" id="option-cs" value="cs">
+         čeština
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.el" id="option-el" value="el">
+         Ελληνικά
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.be" id="option-be" value="be">
+         беларуская
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.bg" id="option-bg" value="bg">
+         български
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ru" id="option-ru" value="ru">
+         русский
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.uk" id="option-uk" value="uk">
+         українська
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ar" id="option-ar" value="ar">
+         العربية
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.fa" id="option-fa" value="fa">
+         فارسی
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.bn" id="option-bn" value="bn">
+         বাংলা
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.zh-hans" id="option-zh-hans" value="zh-hans">
+         中文 (简体)
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.zh-hant" id="option-zh-hant" value="zh-hant">
+         中文 (繁體)
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ja" id="option-ja" value="ja">
+         日本語
+        </option>
+        <option data-link="/publicdomain/zero/1.0/deed.ko" id="option-ko" value="ko">
+         한국어
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script src="/cc-legal-tools/language-dropdown.js">
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="level container">
+     <div class="level-item level-right">
+      <a class="button tiny is-pulled-right" href="legalcode.en" id="next-btn">
+       See the legal code
+      </a>
+     </div>
+    </div>
+    <div class="container">
+     <div class="margin-vertical-bigger padding-xxl has-text-black" id="deed-body">
+      <h3 class="is-hidden-touch">
+       <span class="padding-right-bigger">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC0 1.0
+      </h3>
+      <h3 class="is-hidden-desktop is-hidden-mobile">
+       <span class="padding-right-big">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC0 1.0
+      </h3>
+      <h3 class="is-hidden-tablet">
+       <span>
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+       </span>
+      </h3>
+      <h4 class="has-text-centered is-hidden-tablet padding-left-normal">
+       CC0 1.0
+      </h4>
+      <h2 class="margin-bottom-larger b-header is-hidden-touch">
+       CC0 1.0 Universal
+      </h2>
+      <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
+       CC0 1.0 Universal
+      </h3>
+      <h3 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Tanpa Hak Cipta
+      </h3>
+      <div class="columns is-multiline">
+       <div class="column is-1">
+        <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch padding-top-normal">
+        </i>
+        <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop padding-top-normal">
+        </i>
+       </div>
+       <div class="column is-11">
+        <p class="body-big padding-bottom-normal">
+         Setiap orang yang menghubungkan sebuah ciptaan dengan ketentuan ini telah
+         <b>
+          mendedikasikan
+         </b>
+         ciptaan tersebut sebagai domain publik dan mengabaikan semua hak-haknya atas ciptaan tersebut di seluruh dunia di bawah hukum hak cipta, termasuk semua hak terkait, sejauh yang ditentukan hukum yang berlaku.
+        </p>
+        <p class="body-big padding-bottom-normal">
+         Anda dapat menyalin, memodifikasi, menyebarluaskan, dan menampilkan ciptaan tersebut, bahkan untuk tujuan komersial, secara keseluruhan tanpa meminta izin. Lihat
+         <b>
+          Informasi Lainnya
+         </b>
+         di bawah ini.
+        </p>
+       </div>
+      </div>
+      <h3 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Informasi Lain
+      </h3>
+      <div class="columns is-multiline">
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <ul>
+         <li>
+          <p class="body-big padding-bottom-normal">
+           In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as
+           <a class="helpLink" href="https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights">
+            publicity or privacy
+           </a>
+           rights.
+          </p>
+         </li>
+         <li>
+          <p class="body-big padding-bottom-normal">
+           Kecuali dinyatakan lain, setiap orang yang mengasosiasikan ciptaan dengan lisensi ini tidak menjamin ciptaan tersebut, dan tidak bertanggung jawab terhadap penggunaan ciptaan, sesuai dengan yang diatur oleh hukum yang berlaku.
+          </p>
+         </li>
+         <li>
+          <p class="body-big padding-bottom-normal">
+           Dalam menggunakan atau mengutip ciptaan tersebut, sebaiknya Anda tidak menyiratkan
+           <a class="helpLink" href="" id="endorsement">
+            dukungan
+           </a>
+           dari pencipta atau Pelepas Hak.
+          </p>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <h4 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Hak Cipta Lain
+      </h4>
+      <div>
+       <p>
+        Penggunaan sebuah ciptaan yang bebas dari batasan hak cipta yang berlaku dapat sebaliknya diatur atau dibatasi. Ciptaan atau penggunaan ciptaan dapat tunduk pada hukum perlindungan data atau hak atas potret yang memungkinkan seseorang untuk mengendalikan bagaimana suara, gambar atau rupa mereka seharusnya digunakan, atau pembatasan lain menurut hukum yang berlaku.
+       </p>
+       <p>
+        <a href="https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F">
+         Pelajari lebih lanjut
+        </a>
+        .
+       </p>
+      </div>
+      <h4 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Dukungan
+      </h4>
+      <div>
+       <p>
+        Pada beberapa yurisdiksi, membuat pernyataan palsu bahwa seorang pencipta, penerbit atau setiap orang lain mendukung penggunaan Anda terhadap sebuah ciptaan merupakan tindakan melanggar hukum.
+       </p>
+       <p>
+        <a href="https://wiki.creativecommons.org/Frequently_Asked_Questions#Do_I_need_to_be_aware_of_anything_else_when_providing_attribution_or_credit.3F">
+         Pelajari lebih lanjut
+        </a>
+        .
+       </p>
+      </div>
+      <h4 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Rujukan
+      </h4>
+      <div>
+       <p>
+        Salin dan tempel kode HTML yang disediakan ke halaman web Anda untuk mempermudah pengutipan ciptaan ini.
+       </p>
+       <p>
+        <a href="https://wiki.creativecommons.org/CC0_FAQ#Do_I_have_to_attribute_the_person_who_applied_CC0_to_their_work.3F">
+         Pelajari lebih lanjut
+        </a>
+       </p>
+      </div>
+      <h4 class="b-header padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Siapa yang dimaksud sebagai Pembuat Pernyataan?
+      </h4>
+      <div>
+       <p>
+        Pembuat Pernyataan adalah seseorang yang melepaskan hak-haknya di seluruh dunia atas sebuah ciptaan dengan menggunakan CC0, sejauh yang ditentukan hukum yang berlaku. Pembuat Pernyataan dapat merupakan pencipta asli dari sebuah ciptaan atau orang lain yang mungkin memiliki sebagian hak cipta atau hak terkait pada sebuah ciptaan.
+       </p>
+      </div>
+     </div>
+     <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
+      <h4 class="padding-bottom-normal is-vcentered b-header">
+       <i class="info icon padding-right-normal">
+       </i>
+       Penyangkalan
+      </h4>
+      <p>
+       Lisensi Ringkas bukan sebuah instrumen hukum. Lisensi Ringkas hanya merupakan panduan singkat untuk memahami Lisensi Lengkap CC0, yang menyebutkan persyaratan utama yang penting. Ini merupakan tampilan ramah pengguna dari Lisensi Lengkap CC0. Teks Lisensi ini tidak memiliki kekuatan hukum, dan isinya tidak muncul pada CC0.
+      </p>
+      <p>
+       Creative Commons bukanlah suatu firma hukum dan tidak memberikan layanan hukum. Menyebarluaskan, memperlihatkan, atau mengaitkan Lisensi Ringkas ini tidak menyebabkan munculnya suatu hubungan pengacara-klien.
+      </p>
+      <p>
+       Creative Commons tidak melakukan verifikasi status hak cipta dari ciptaan yang dilekatkan CC0. CC tidak memberikan jaminan apapun terhadap setiap ciptaan atau status hak ciptanya pada yurisdiksi manapun, dan tidak bertanggung jawab atas penggunaan apapun dari setiap ciptaan.
+      </p>
+      <p>
+       Lisensi ini adalah lisensi ringkas dari
+       <a href="./legalcode">
+        Lisensi Lengkap (baca teks lengkap)
+       </a>
+       .
+      </p>
+     </div>
+     <div class="columns margin-top-normal is-vcentered">
+      <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <p class="body-big has-text-black">
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+         </p>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
+            Learn more about our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
+            Use the license for your own material.
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <div id="column is-full margin-top-bigger" style="width: 100%;">
+       <div class="card entry-post">
+        <div class="card-content">
+         <h4>
+          Get The Latest Updates
+         </h4>
+         <p class="body-big">
+          Subscribe to our monthly newsletter.
+         </p>
+         <form class="margin-top-normal">
+          <div class="field has-addons">
+           <label class="is-sr-only" for="email">
+            Email address
+           </label>
+           <input class="input is-medium" id="email" placeholder="Email Address" type="text"/>
+           <button class="button is-primary" type="submit">
+            Join
+           </button>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-global-footer>
+  </div>
+  <script src="/cc-legal-tools/load_components.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="sl">
+ <head about="https://creativecommons.org/licenses/by-nc/3.0/nz/">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CC BY-NC 3.0 NZ Deed — Attribution-NonCommercial 3.0 Nova Zelandija — Creative Commons
+  </title>
+  <link href="https://creativecommons.org/licenses/by-nc/3.0/nz/deed.sl" rel="canonical"/>
+  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
+  </script>
+  <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
+ </head>
+ <body about="https://creativecommons.org/licenses/by-nc/3.0/nz/" typeof="cc:License">
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
+   </cc-global-header>
+  </div>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Preskoči na vsebino
+    </a>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Domov
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/">
+        Licenses
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/by-nc/3.0/nz/deed.sl">
+        CC BY-NC 3.0 NZ Deed
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.an" id="option-an" value="an">
+         aragonés
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ca" id="option-ca" value="ca">
+         català
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.da" id="option-da" value="da">
+         dansk
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.de" id="option-de" value="de">
+         Deutsch
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.et" id="option-et" value="et">
+         eesti
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.en" id="option-en" value="en">
+         English
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.eo" id="option-eo" value="eo">
+         esperanto
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.eu" id="option-eu" value="eu">
+         euskara
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.fr" id="option-fr" value="fr">
+         français
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.gl" id="option-gl" value="gl">
+         galego
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.hr" id="option-hr" value="hr">
+         hrvatski
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.id" id="option-id" value="id">
+         Indonesia
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.it" id="option-it" value="it">
+         italiano
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.lv" id="option-lv" value="lv">
+         latviešu
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.lt" id="option-lt" value="lt">
+         lietuvių
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.hu" id="option-hu" value="hu">
+         magyar
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ms" id="option-ms" value="ms">
+         Melayu
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.nl" id="option-nl" value="nl">
+         Nederlands
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.no" id="option-no" value="no">
+         norsk bokmål (Norge)
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.pl" id="option-pl" value="pl">
+         polski
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.pt" id="option-pt" value="pt">
+         português
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.pt-br" id="option-pt-br" value="pt-br">
+         português (Brasil)
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ro" id="option-ro" value="ro">
+         română
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.sl" id="option-sl" selected="" value="sl">
+         slovenščina
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.sr-latn" id="option-sr-latn" value="sr-latn">
+         srpski (latinica)
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.fi" id="option-fi" value="fi">
+         suomi
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.sv" id="option-sv" value="sv">
+         svenska
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.tr" id="option-tr" value="tr">
+         Türkçe
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.is" id="option-is" value="is">
+         íslenska
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.cs" id="option-cs" value="cs">
+         čeština
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.el" id="option-el" value="el">
+         Ελληνικά
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.be" id="option-be" value="be">
+         беларуская
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.bg" id="option-bg" value="bg">
+         български
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ru" id="option-ru" value="ru">
+         русский
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.uk" id="option-uk" value="uk">
+         українська
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ar" id="option-ar" value="ar">
+         العربية
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.fa" id="option-fa" value="fa">
+         فارسی
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.bn" id="option-bn" value="bn">
+         বাংলা
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.zh-hans" id="option-zh-hans" value="zh-hans">
+         中文 (简体)
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.zh-hant" id="option-zh-hant" value="zh-hant">
+         中文 (繁體)
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ja" id="option-ja" value="ja">
+         日本語
+        </option>
+        <option data-link="/licenses/by-nc/3.0/nz/deed.ko" id="option-ko" value="ko">
+         한국어
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script src="/cc-legal-tools/language-dropdown.js">
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="level container">
+     <div class="level-item level-right">
+      <a class="button tiny is-pulled-right" href="legalcode.en" id="next-btn">
+       See the legal code
+      </a>
+     </div>
+    </div>
+    <div class="container">
+     <div class="margin-vertical-bigger padding-xxl" id="deed-body">
+      <h3 class="is-hidden-touch">
+       <span class="padding-right-bigger">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC BY-NC 3.0 NZ
+      </h3>
+      <h3 class="is-hidden-desktop is-hidden-mobile">
+       <span class="padding-right-big">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC BY-NC 3.0 NZ
+      </h3>
+      <h3 class="is-hidden-tablet">
+       <span>
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+       </span>
+      </h3>
+      <h4 class="has-text-centered is-hidden-tablet padding-left-normal">
+       CC BY-NC 3.0 NZ
+      </h4>
+      <h2 class="margin-bottom-larger b-header is-hidden-touch">
+       Attribution-NonCommercial 3.0 Nova Zelandija
+      </h2>
+      <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
+       Attribution-NonCommercial 3.0 Nova Zelandija
+      </h3>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Dovoljeno vam je:
+      </h3>
+      <p class="has-text-black body-big padding-bottom-normal">
+       <strong>
+        Deljenje
+       </strong>
+       — kopiranje in razširjanje vsebin v kakršnemkoli mediju in obliki
+      </p>
+      <p class="has-text-black body-big padding-bottom-small">
+       <strong>
+        Predelovanje
+       </strong>
+       — remixanje, urejanje, predelava in vključevanje vsebine v lastna dela
+      </p>
+      <p class="has-text-black body-big padding-bottom-small">
+       Dajalec licence vam ne more odreči teh pravic, dokler upoštevate pogoje licence.
+      </p>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Pod sledečimi pogoji:
+      </h3>
+      <div class="columns is-multiline">
+       <div class="column is-1">
+        <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
+        </i>
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         <span style="font-weight: bold;">
+          Priznanje avtorstva
+         </span>
+         -
+         <a class="helpLink" href="#" id="appropriate_credit_popup">
+          Primerno morate navesti avtorja
+         </a>
+         , povezavo do licence in
+         <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+          <a class="helpLink" href="#" id="indicate_changes_popup">
+           označiti spremembe, če so kakšne nastale
+          </a>
+         </span>
+         . To lahko storite na kakršenkoli razumen način, vendar ne na način, ki bi namigoval na to, da dajalec licence podpira vas ali vašo uporabo dela.
+        </p>
+       </div>
+       <div class="column is-1">
+        <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
+        </i>
+        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
+        </i>
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         <span style="font-weight: bold;">
+          Nekomercialno
+         </span>
+         -
+        Te vsebine ne smete uporabiti v
+         <a class="helpLink" href="#" id="commercial_purposes_popup">
+          komercialne namene
+         </a>
+         .
+        </p>
+       </div>
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         <span style="font-weight: bold;">
+          Brez dodatnih omejitev
+         </span>
+         - Ne smete uporabiti pravnih določil ali
+         <a class="helpLink" href="#" id="technological_measures_popup">
+          tehničnih ukrepov
+         </a>
+         , ki bi pravno omejili ali onemogočilo druge, da bi storili karkoli, kar licenca dovoli.
+        </p>
+       </div>
+      </div>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       Opombe:
+      </h3>
+      <p class="has-text-black body-big padding-bottom-normal">
+       Ni se vam treba držati licence za elemente vsebine, ki so v javni domeni, ali kjer vašo uporabo dovoljujejo
+       <a class="helpLink" href="#" id="exception_or_limitation_popup">
+        zakonske izjeme in omejitve
+       </a>
+       .
+      </p>
+      <p class="has-text-black body-big padding-bottom-normal">
+       Podana niso nobene jamstva. Možno je, da vam licenca ne daje vseh pravic za vam želeno uporabo. Na primer, druge pravice, kot
+       <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
+        osebnostne pravice, pravice zasebnosti in moralne pravice
+       </a>
+       , lahko omejujejo kako smete uporabiti vsebino.
+      </p>
+     </div>
+     <div class="columns margin-top-normal is-vcentered">
+      <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <p class="body-big has-text-black">
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+         </p>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
+            Learn more about our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
+            Use the license for your own material.
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <div id="column is-full margin-top-bigger" style="width: 100%;">
+       <div class="card entry-post">
+        <div class="card-content">
+         <h4>
+          Get The Latest Updates
+         </h4>
+         <p class="body-big">
+          Subscribe to our monthly newsletter.
+         </p>
+         <form class="margin-top-normal">
+          <div class="field has-addons">
+           <label class="is-sr-only" for="email">
+            Email address
+           </label>
+           <input class="input is-medium" id="email" placeholder="Email Address" type="text"/>
+           <button class="button is-primary" type="submit">
+            Join
+           </button>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-global-footer>
+  </div>
+  <script src="/cc-legal-tools/load_components.js">
+  </script>
+ </body>
+</html>
