@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ko">
+ <head about="https://creativecommons.org/licenses/sampling/1.0/br/">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CC SAMPLING 1.0 BR Deed — Sampling 1.0 브라질 — Creative Commons
+  </title>
+  <link href="https://creativecommons.org/licenses/sampling/1.0/br/deed.ko" rel="canonical"/>
+  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
+  </script>
+  <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
+ </head>
+ <body about="https://creativecommons.org/licenses/sampling/1.0/br/" typeof="cc:License">
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
+   </cc-global-header>
+  </div>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Skip to content
+    </a>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        홈
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/">
+        Licenses
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/sampling/1.0/br/deed.ko">
+        CC SAMPLING 1.0 BR Deed
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.an" id="option-an" value="an">
+         aragonés
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ca" id="option-ca" value="ca">
+         català
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.da" id="option-da" value="da">
+         dansk
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.de" id="option-de" value="de">
+         Deutsch
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.et" id="option-et" value="et">
+         eesti
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.en" id="option-en" value="en">
+         English
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.eo" id="option-eo" value="eo">
+         esperanto
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.eu" id="option-eu" value="eu">
+         euskara
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.fr" id="option-fr" value="fr">
+         français
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.gl" id="option-gl" value="gl">
+         galego
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.hr" id="option-hr" value="hr">
+         hrvatski
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.id" id="option-id" value="id">
+         Indonesia
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.it" id="option-it" value="it">
+         italiano
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.lv" id="option-lv" value="lv">
+         latviešu
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.lt" id="option-lt" value="lt">
+         lietuvių
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.hu" id="option-hu" value="hu">
+         magyar
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ms" id="option-ms" value="ms">
+         Melayu
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.nl" id="option-nl" value="nl">
+         Nederlands
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.no" id="option-no" value="no">
+         norsk bokmål (Norge)
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.pl" id="option-pl" value="pl">
+         polski
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.pt" id="option-pt" value="pt">
+         português
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.pt-br" id="option-pt-br" value="pt-br">
+         português (Brasil)
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ro" id="option-ro" value="ro">
+         română
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.sl" id="option-sl" value="sl">
+         slovenščina
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.sr-latn" id="option-sr-latn" value="sr-latn">
+         srpski (latinica)
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.fi" id="option-fi" value="fi">
+         suomi
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.sv" id="option-sv" value="sv">
+         svenska
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.tr" id="option-tr" value="tr">
+         Türkçe
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.is" id="option-is" value="is">
+         íslenska
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.cs" id="option-cs" value="cs">
+         čeština
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.el" id="option-el" value="el">
+         Ελληνικά
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.be" id="option-be" value="be">
+         беларуская
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.bg" id="option-bg" value="bg">
+         български
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ru" id="option-ru" value="ru">
+         русский
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.uk" id="option-uk" value="uk">
+         українська
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ar" id="option-ar" value="ar">
+         العربية
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.fa" id="option-fa" value="fa">
+         فارسی
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.bn" id="option-bn" value="bn">
+         বাংলা
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.zh-hans" id="option-zh-hans" value="zh-hans">
+         中文 (简体)
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.zh-hant" id="option-zh-hant" value="zh-hant">
+         中文 (繁體)
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ja" id="option-ja" value="ja">
+         日本語
+        </option>
+        <option data-link="/licenses/sampling/1.0/br/deed.ko" id="option-ko" selected="" value="ko">
+         한국어
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script src="/cc-legal-tools/language-dropdown.js">
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="level container">
+     <div class="level-item level-right">
+      <a class="button tiny is-pulled-right" href="legalcode.pt-br" id="next-btn">
+       See the legal code
+      </a>
+     </div>
+    </div>
+    <div class="container">
+     <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
+      <h4 class="padding-bottom-normal is-vcentered b-header">
+       <i class="info icon padding-right-normal">
+       </i>
+       면책조항
+      </h4>
+      <p class="has-text-black padding-left-big">
+       2007년 6월 4일:
+       <a href="http://creativecommons.org/retiredlicenses">
+        폐기된 라이선스
+       </a>
+       입니다. 더 이상 사용하지 마세요.
+      </p>
+     </div>
+     <div class="margin-vertical-bigger padding-xxl" id="deed-body">
+      <h3 class="is-hidden-touch">
+       <span class="padding-right-bigger">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC SAMPLING 1.0 BR
+      </h3>
+      <h3 class="is-hidden-desktop is-hidden-mobile">
+       <span class="padding-right-big">
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+        </i>
+       </span>
+       CC SAMPLING 1.0 BR
+      </h3>
+      <h3 class="is-hidden-tablet">
+       <span>
+        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+        </i>
+       </span>
+      </h3>
+      <h4 class="has-text-centered is-hidden-tablet padding-left-normal">
+       CC SAMPLING 1.0 BR
+      </h4>
+      <h2 class="margin-bottom-larger b-header is-hidden-touch">
+       Sampling 1.0 브라질
+      </h2>
+      <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
+       Sampling 1.0 브라질
+      </h3>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       이용자는 다음의 권리를 갖습니다:
+      </h3>
+      <p class="has-text-black body-big padding-bottom-normal">
+       영리 또는 비영리 목적으로 이 저작물을 샘플링 또는 매쉬업하거나 그 밖의 창의적인 방식으로 변경할 수 있습니다.
+      </p>
+      <p class="has-text-black body-big padding-bottom-small">
+       아래 조건을 준수하는 한 이 라이선스는 취소되거나 실효되지 않습니다.
+      </p>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       다음과 같은 조건을 따라야 합니다:
+      </h3>
+      <div class="columns is-multiline">
+       <div class="column is-1">
+        <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
+        </i>
+        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
+        </i>
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         <span style="font-weight: bold;">
+          저작자표시
+         </span>
+         -
+         <a class="helpLink" href="#" id="appropriate_credit_popup">
+          적절한 출처
+         </a>
+         와, 해당 라이센스 링크를 표시하고,
+         <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+          <a class="helpLink" href="#" id="indicate_changes_popup">
+           변경이 있는 경우 공지
+          </a>
+         </span>
+         해야 합니다. 합리적인 방식으로 이렇게 하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 안 됩니다.
+        </p>
+       </div>
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         이 저작물을 2차적 저작물 이외의 다른 것의 광고 또는 홍보 목적으로 이용할 수 없습니다.
+        </p>
+       </div>
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         재사용 또는 배포하는 경우, 타인에게 해당 저작물의 라이선스 조건을 명시해야 합니다. 가장 좋은 방법은 본 웹 페이지의 링크를 제공하는 것입니다.
+        </p>
+       </div>
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         어떠한 목적으로도 이 저작물 전체를 배포, 전시, 공연 및 공중송신할 수 없습니다.
+        </p>
+       </div>
+       <div class="column is-1">
+       </div>
+       <div class="column is-11">
+        <p class="has-text-black body-big padding-bottom-normal">
+         <span style="font-weight: bold;">
+          추가제한금지
+         </span>
+         - 이용자는 이 라이선스로 허용된 행위를 제한하는 법적 조건이나
+         <a class="helpLink" href="#" id="technological_measures_popup">
+          기술적 조치
+         </a>
+         를
+         <br/>
+         부가해서는 안 됩니다.
+        </p>
+       </div>
+      </div>
+      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+       주의:
+      </h3>
+      <p class="has-text-black body-big padding-bottom-normal">
+       퍼블릭 도메인에 해당하는 저작물의 이용 또는
+       <a class="helpLink" href="#" id="exception_or_limitation_popup">
+        저작재산권의 제한사유
+       </a>
+       에 해당하는 이용의 경우에는 이 라이선스를 따르지 않아도 됩니다.
+      </p>
+      <p class="has-text-black body-big padding-bottom-normal">
+       이 라이선스는 아무런 보증을 하지 않습니다. 또한 저작물의 이용에 필요한 모든 허락이 포함되어 있지 않을 수도 있습니다. 예를 들어
+       <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
+        퍼블리시티권, 프라이버시, 인격권
+       </a>
+       등 다른 권리에 따른 제한이 있을 수 있습니다.
+      </p>
+     </div>
+     <div class="columns margin-top-normal is-vcentered">
+      <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <p class="body-big has-text-black">
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+         </p>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <div id="column is-full margin-top-bigger" style="width: 100%;">
+       <div class="card entry-post">
+        <div class="card-content">
+         <h4>
+          Get The Latest Updates
+         </h4>
+         <p class="body-big">
+          Subscribe to our monthly newsletter.
+         </p>
+         <form class="margin-top-normal">
+          <div class="field has-addons">
+           <label class="is-sr-only" for="email">
+            Email address
+           </label>
+           <input class="input is-medium" id="email" placeholder="Email Address" type="text"/>
+           <button class="button is-primary" type="submit">
+            Join
+           </button>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-global-footer>
+  </div>
+  <script src="/cc-legal-tools/load_components.js">
+  </script>
+ </body>
+</html>
