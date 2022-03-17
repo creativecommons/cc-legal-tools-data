@@ -31,8 +31,10 @@
       top: 0px;
     }
     .ballot {
-      font-size: 150%;
-      padding-left: 0.5em;
+      font-size: 25px;
+    }
+    .count-list > code {
+      font-size: 110%;
     }
     .font-smaller {
       font-size: smaller;
@@ -62,7 +64,7 @@
     }
     .percent {
       font-family: monospace;
-      font-size: 105%;
+      font-size: 110%;
       text-align: right;
     }
     .status-empty {
@@ -72,10 +74,8 @@
       color: chocolate;
     }
     .status-displayed {
-      color: darkgreen;
-    }
-    .status-displayed {
       background-color: white;
+      color: darkgreen;
     }
   </style>
  </head>
@@ -139,8 +139,8 @@
   <h1 id="translation">
    Translation
   </h1>
-  <h2 id="translation-deed-ux">
-   Deed &amp; UX Translation Status
+  <h2 id="translation-deeds-ux">
+   Deeds &amp; UX Translation Status
   </h2>
   <table>
    <thead>
@@ -2777,28 +2777,50 @@
     <strong class="monospace">
      60%
     </strong>
-    (
-    <span class="status-empty" style="padding-left: 0.25em;">
-     <code>
-      = 0%
-     </code>
-     ☐
-    </span>
-    ,
-    <span class="status-hidden" style="padding-left: 0.25em;">
-     <code>
-      &lt; 60%
-     </code>
-     ☐
-    </span>
-    ,
-    <span class="status-displayed" style="padding-left: 0.25em;">
-     <code>
-      ≥ 60%
-     </code>
-     ☑
-    </span>
-    )
+    <ul>
+     <li>
+      <span class="status-displayed count-list">
+       <code>
+        42
+       </code>
+       languages
+       <code>
+        ≥ 60%
+       </code>
+       <span class="ballot">
+        ☑
+       </span>
+      </span>
+     </li>
+     <li>
+      <span class="status-hidden count-list">
+       <code>
+        39
+       </code>
+       languages
+       <code>
+        &lt; 60%
+       </code>
+       <span class="ballot">
+        ☐
+       </span>
+      </span>
+     </li>
+     <li>
+      <span class="status-empty count-list">
+       <code>
+        00
+       </code>
+       languages
+       <code>
+        = 00%
+       </code>
+       <span class="ballot">
+        ☐
+       </span>
+      </span>
+     </li>
+    </ul>
    </li>
   </ul>
  </body>
