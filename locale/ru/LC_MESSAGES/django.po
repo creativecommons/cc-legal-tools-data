@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-22 00:55:02+00:00\n"
+"PO-Revision-Date: 2022-03-22 15:02:21+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ru/\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -19,288 +19,368 @@ msgstr ""
 "Language-Transifex: ru\n"
 
 #: i18n/__init__.py:122
+msgid "Generic"
+msgstr "Generic"
+
+#: i18n/__init__.py:123
 msgid "Unported"
 msgstr "Непортированная"
 
-#: i18n/__init__.py:123
-msgid "Generic (unported)"
-msgstr ""
-
 #: i18n/__init__.py:124
-msgid "International (unported)"
-msgstr ""
-
-#: i18n/__init__.py:125
 msgid "International"
 msgstr "Всемирная"
 
-#: i18n/__init__.py:126
+#: i18n/__init__.py:125
 msgid "Universal"
 msgstr "Универсальная"
 
-#: i18n/__init__.py:127
+#: i18n/__init__.py:126
 msgid "Armenia"
 msgstr ""
 
-#: i18n/__init__.py:128
+#: i18n/__init__.py:127
 msgid "Argentina"
 msgstr "Аргентина"
 
-#: i18n/__init__.py:129
+#: i18n/__init__.py:128
 msgid "Austria"
 msgstr "Австрия"
 
-#: i18n/__init__.py:130
+#: i18n/__init__.py:129
 msgid "Australia"
 msgstr "Австралия"
 
-#: i18n/__init__.py:131
+#: i18n/__init__.py:130
 msgid "Azerbaijan"
 msgstr ""
 
-#: i18n/__init__.py:132
+#: i18n/__init__.py:131
 msgid "Belgium"
 msgstr "Бельгия"
 
-#: i18n/__init__.py:133
+#: i18n/__init__.py:132
 msgid "Bulgaria"
 msgstr "Болгария"
 
-#: i18n/__init__.py:134
+#: i18n/__init__.py:133
 msgid "Brazil"
 msgstr "Бразилия"
 
-#: i18n/__init__.py:135
+#: i18n/__init__.py:134
 msgid "Canada"
 msgstr "Канада"
 
-#: i18n/__init__.py:136
+#: i18n/__init__.py:135
 msgid "Switzerland"
 msgstr "Швейцария"
 
-#: i18n/__init__.py:137
+#: i18n/__init__.py:136
 msgid "Chile"
 msgstr "Чили"
 
-#: i18n/__init__.py:138
+#: i18n/__init__.py:137
 msgid "China Mainland"
 msgstr "Континентальный Китай (КНР)"
 
-#: i18n/__init__.py:139
+#: i18n/__init__.py:138
 msgid "Colombia"
 msgstr "Колумбия"
 
-#: i18n/__init__.py:140
+#: i18n/__init__.py:139
 msgid "Costa Rica"
 msgstr "Коста-Рика"
 
-#: i18n/__init__.py:141
+#: i18n/__init__.py:140
 msgid "Czech Republic"
 msgstr "Чехия"
 
-#: i18n/__init__.py:142
+#: i18n/__init__.py:141
 msgid "Germany"
 msgstr "Германия"
 
-#: i18n/__init__.py:143
+#: i18n/__init__.py:142
 msgid "Denmark"
 msgstr "Дания"
 
-#: i18n/__init__.py:144
+#: i18n/__init__.py:143
 msgid "Ecuador"
 msgstr "Эквадор"
 
-#: i18n/__init__.py:145
+#: i18n/__init__.py:144
 msgid "Estonia"
 msgstr "Эстония"
 
-#: i18n/__init__.py:146
+#: i18n/__init__.py:145
 msgid "Egypt"
 msgstr "Египет"
 
-#: i18n/__init__.py:147
+#: i18n/__init__.py:146
 msgid "Spain"
 msgstr "Испания"
 
-#: i18n/__init__.py:148
+#: i18n/__init__.py:147
 msgid "Finland"
 msgstr "Финляндия"
 
-#: i18n/__init__.py:149
+#: i18n/__init__.py:148
 msgid "France"
 msgstr "Франция"
 
-#: i18n/__init__.py:150
+#: i18n/__init__.py:149
 msgid "Georgia"
 msgstr ""
 
-#: i18n/__init__.py:151
+#: i18n/__init__.py:150
 msgid "Greece"
 msgstr "Греция"
 
-#: i18n/__init__.py:152
+#: i18n/__init__.py:151
 msgid "Guatemala"
 msgstr "Гватемала"
 
-#: i18n/__init__.py:153
+#: i18n/__init__.py:152
 msgid "Hong Kong"
 msgstr "Гонконг"
 
-#: i18n/__init__.py:154
+#: i18n/__init__.py:153
 msgid "Croatia"
 msgstr "Хорватия"
 
-#: i18n/__init__.py:155
+#: i18n/__init__.py:154
 msgid "Hungary"
 msgstr "Венгрия"
 
-#: i18n/__init__.py:156
+#: i18n/__init__.py:155
 msgid "Ireland"
 msgstr "Ирландия"
 
-#: i18n/__init__.py:157
+#: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
 msgstr ""
 
-#: i18n/__init__.py:158
+#: i18n/__init__.py:157
 msgid "Israel"
 msgstr "Израиль"
 
-#: i18n/__init__.py:159
+#: i18n/__init__.py:158
 msgid "India"
 msgstr "Индия"
 
-#: i18n/__init__.py:160
+#: i18n/__init__.py:159
 msgid "Italy"
 msgstr "Италия"
 
-#: i18n/__init__.py:161
+#: i18n/__init__.py:160
 msgid "Jordan"
 msgstr "Иордания"
 
-#: i18n/__init__.py:162
+#: i18n/__init__.py:161
 msgid "Japan"
 msgstr "Япония"
 
-#: i18n/__init__.py:163
+#: i18n/__init__.py:162
 msgid "Korea"
 msgstr "Корея"
 
-#: i18n/__init__.py:164
+#: i18n/__init__.py:163
 msgid "Luxembourg"
 msgstr "Люксембург"
 
-#: i18n/__init__.py:165
+#: i18n/__init__.py:164
 msgid "Macedonia"
 msgstr "Македония"
 
-#: i18n/__init__.py:166
+#: i18n/__init__.py:165
 msgid "Malta"
 msgstr "Мальта"
 
-#: i18n/__init__.py:167
+#: i18n/__init__.py:166
 msgid "Mexico"
 msgstr "Мексика"
 
-#: i18n/__init__.py:168
+#: i18n/__init__.py:167
 msgid "Malaysia"
 msgstr "Малайзия"
 
-#: i18n/__init__.py:169
+#: i18n/__init__.py:168
 msgid "Nigeria"
 msgstr "Нигерия"
 
-#: i18n/__init__.py:170
+#: i18n/__init__.py:169
 msgid "Netherlands"
 msgstr "Нидерланды"
 
-#: i18n/__init__.py:171
+#: i18n/__init__.py:170
 msgid "Norway"
 msgstr "Норвегия"
 
-#: i18n/__init__.py:172
+#: i18n/__init__.py:171
 msgid "New Zealand"
 msgstr "Новая Зеландия"
 
-#: i18n/__init__.py:173
+#: i18n/__init__.py:172
 msgid "Peru"
 msgstr "Перу"
 
-#: i18n/__init__.py:174
+#: i18n/__init__.py:173
 msgid "Philippines"
 msgstr "Филиппины"
 
-#: i18n/__init__.py:175
+#: i18n/__init__.py:174
 msgid "Poland"
 msgstr "Польша"
 
-#: i18n/__init__.py:176
+#: i18n/__init__.py:175
 msgid "Puerto Rico"
 msgstr "Пуэрто-Рико"
 
-#: i18n/__init__.py:177
+#: i18n/__init__.py:176
 msgid "Portugal"
 msgstr "Португалия"
 
-#: i18n/__init__.py:178
+#: i18n/__init__.py:177
 msgid "Romania"
 msgstr "Румыния"
 
-#: i18n/__init__.py:179
+#: i18n/__init__.py:178
 msgid "Serbia"
 msgstr "Сербия"
 
-#: i18n/__init__.py:180
+#: i18n/__init__.py:179
 msgid "UK: Scotland"
 msgstr "Великобритания: Шотландия"
 
-#: i18n/__init__.py:181
+#: i18n/__init__.py:180
 msgid "Sweden"
 msgstr "Швеция"
 
-#: i18n/__init__.py:182
+#: i18n/__init__.py:181
 msgid "Singapore"
 msgstr "Сингапур"
 
-#: i18n/__init__.py:183
+#: i18n/__init__.py:182
 msgid "Slovenia"
 msgstr "Словения"
 
-#: i18n/__init__.py:184
+#: i18n/__init__.py:183
 msgid "Thailand"
 msgstr "Таиланд"
 
-#: i18n/__init__.py:185
+#: i18n/__init__.py:184
 msgid "Taiwan"
 msgstr "Тайвань"
 
-#: i18n/__init__.py:186
+#: i18n/__init__.py:185
 msgid "Ukraine"
 msgstr "Украина"
 
-#: i18n/__init__.py:187
+#: i18n/__init__.py:186
 msgid "Uganda"
 msgstr "Уганда"
 
-#: i18n/__init__.py:188
+#: i18n/__init__.py:187
 msgid "UK: England & Wales"
 msgstr "Великобритания: Англия и Уэльс"
 
-#: i18n/__init__.py:189
+#: i18n/__init__.py:188
 msgid "United States"
 msgstr "США"
 
-#: i18n/__init__.py:190
+#: i18n/__init__.py:189
 msgid "Venezuela"
 msgstr "Венесуэла"
 
-#: i18n/__init__.py:191
+#: i18n/__init__.py:190
 msgid "Vietnam"
 msgstr "Вьетнам"
 
-#: i18n/__init__.py:192
+#: i18n/__init__.py:191
 msgid "South Africa"
 msgstr "ЮАР"
+
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+msgid "Attribution"
+msgstr "«Attribution» («Атрибуция»)"
+
+#: i18n/__init__.py:195
+msgid "Attribution-NonCommercial"
+msgstr "«Attribution-NonCommercial» («Атрибуция-Некоммерчески»)"
+
+#: i18n/__init__.py:196
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr ""
+"«Attribution-NonCommercial-NoDerivs» («Атрибуция-Некоммерчески-"
+"БезПроизводных»)"
+
+#: i18n/__init__.py:197
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr ""
+"«Attribution-NonCommercial-ShareAlike» («Атрибуция-Некоммерчески-"
+"СохранениеУсловий»)"
+
+#: i18n/__init__.py:198
+msgid "Attribution-NoDerivs"
+msgstr "«Attribution-NoDerivs» («Атрибуция-БезПроизводных»)"
+
+#: i18n/__init__.py:199
+msgid "Attribution-NoDerivs-NonCommercial"
+msgstr ""
+"«Attribution-NoDerivs-NonCommercial» («Атрибуция-БезПроизводных-"
+"Некоммерчески»)"
+
+#: i18n/__init__.py:200
+msgid "Attribution-ShareAlike"
+msgstr "«Attribution-ShareAlike» («Атрибуция-СохранениеУсловий»)"
+
+#: i18n/__init__.py:202
+msgid ""
+"Copyright-Only Dedication (based on United States law) or Public Domain "
+"Certification"
+msgstr ""
+"Передача только прав, связанных с авторскими, (на основе законов США) \n"
+"или Акт передачи в общественное достояние"
+
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+msgid "Developing Nations"
+msgstr "«Developing Nations» («Развивающиеся страны»)"
+
+#: i18n/__init__.py:206
+msgid "Public Domain Mark"
+msgstr "Public Domain Mark"
+
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+msgid "NonCommercial"
+msgstr "«NonCommercial» («Некоммерчески»)"
+
+#: i18n/__init__.py:208
+msgid "NonCommercial-ShareAlike"
+msgstr "«NonCommercial-ShareAlike» («Некоммерчески-СохранениеУсловий»)"
+
+#: i18n/__init__.py:209
+msgid "NonCommercial Sampling Plus"
+msgstr ""
+"«NonCommercial Sampling Plus» («Некоммерческое расширенное использование "
+"частей произведения»)"
+
+#: i18n/__init__.py:210
+msgid "NoDerivs"
+msgstr "«NoDerivs» («БезПроизводных»)"
+
+#: i18n/__init__.py:211
+msgid "NoDerivs-NonCommercial"
+msgstr "«NoDerivs-NonCommercial» («БезПроизводных-Некоммерчески»)"
+
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+msgid "ShareAlike"
+msgstr "«ShareAlike» («СохранениеУсловий»)"
+
+#: i18n/__init__.py:213
+msgid "Sampling"
+msgstr "«Sampling» («Использование частей произведения»)"
+
+#: i18n/__init__.py:214
+msgid "Sampling Plus"
+msgstr "«Sampling Plus» («Расширенное использование частей произведения»)"
 
 #: legal_tools/views.py:49
 msgid "Public Domain"
@@ -310,27 +390,28 @@ msgstr "Общественное достояние (Public Domain)"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:315
+#: legal_tools/views.py:381
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:320
+#: legal_tools/views.py:383
 msgid "Public Domain List"
 msgstr ""
 
-#: templates/base.html:80
+#: templates/base.html:41
 msgid "Skip to content"
 msgstr "Перейти к контенту"
 
-#: templates/base.html:83
+#: templates/base.html:44
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:34 templates/list.html:11
+#: templates/deed.html:5 templates/deed.html:14
+#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:41
+#: templates/deed.html:21
 msgid "See the legal code"
 msgstr ""
 
@@ -344,22 +425,22 @@ msgid ""
 "Creative Commons may elect to apply one of its public licenses to material "
 "it publishes and in those instances will be considered the \"Licensor.\" The"
 " text of the Creative Commons public licenses is dedicated to the public "
-"domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
-"the limited purpose of indicating that material is shared under a Creative "
-"Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"Creative Commons without its prior written consent including, without "
-"limitation, in connection with any unauthorized modifications to any of its "
-"public licenses or any other arrangements, understandings, or agreements "
-"concerning use of licensed material. For the avoidance of doubt, this "
-"paragraph does not form part of the public licenses."
+"domain under the <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Except for the limited purpose of indicating that material "
+"is shared under a Creative Commons public license or as otherwise permitted "
+"by the Creative Commons policies published at <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, Creative Commons "
+"without its prior written consent including, without limitation, in "
+"connection with any unauthorized modifications to any of its public licenses"
+" or any other arrangements, understandings, or agreements concerning use of "
+"licensed material. For the avoidance of doubt, this paragraph does not form "
+"part of the public licenses."
 msgstr ""
 
-#: templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:28
 msgid ""
 "Creative Commons may be contacted at <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"href=\"//creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
@@ -378,90 +459,6 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
-
-#: templates/includes/cc_site_footer.html:25
-#: templates/includes/cc_site_header.html:40
-msgid "Contact"
-msgstr "Информация для связи"
-
-#: templates/includes/cc_site_footer.html:26
-msgid "Privacy"
-msgstr "Конфиденциальность"
-
-#: templates/includes/cc_site_footer.html:27
-msgid "Policies"
-msgstr "Правила"
-
-#: templates/includes/cc_site_footer.html:28
-msgid "Terms"
-msgstr "Условия"
-
-#: templates/includes/cc_site_footer.html:35
-msgid "We'd love to hear from you!"
-msgstr "Мы будем рады услышать ваше мнение!"
-
-#: templates/includes/cc_site_footer.html:44
-msgid "Frequently Asked Questions"
-msgstr ""
-"<a href=\"https://wiki.creativecommons.org/wiki/Ru:FFAQ\">Часто задаваемые "
-"вопросы (по-русски)</a>"
-
-#: templates/includes/cc_site_header.html:11
-msgid "Menu"
-msgstr "Меню"
-
-#: templates/includes/cc_site_header.html:16
-#: templates/includes/cc_site_header.html:27
-msgid "Share your work"
-msgstr "Делитесь"
-
-#: templates/includes/cc_site_header.html:17
-#: templates/includes/cc_site_header.html:28
-msgid "Use &#038; remix"
-msgstr "Пользуйтесь"
-
-#: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29
-msgid "What we do"
-msgstr "О нас"
-
-#: templates/includes/cc_site_header.html:19
-#: templates/includes/cc_site_header.html:30
-msgid "Blog"
-msgstr "Блог"
-
-#: templates/includes/cc_site_header.html:20
-#: templates/includes/cc_site_header.html:37
-msgid "Global Network"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:21
-msgid "Search the Commons"
-msgstr "Поиск по сайту"
-
-#: templates/includes/cc_site_header.html:36
-msgid "Search for CC images"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:38
-msgid "Newsletters"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:39
-msgid "Store"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:46
-msgid "Facebook"
-msgstr "Facebook"
-
-#: templates/includes/cc_site_header.html:47
-msgid "Twitter"
-msgstr "Twitter"
-
-#: templates/includes/cc_site_header.html:48
-msgid "Mail"
-msgstr "Эл. почта"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -565,17 +562,9 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr "При обязательном соблюдении следующих условий:"
 
-#: templates/includes/deed_body_licenses.html:60
-msgid "Developing Nations"
-msgstr "«Developing Nations» («Развивающиеся страны»)"
-
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
-
-#: templates/includes/deed_body_licenses.html:72
-msgid "Attribution"
-msgstr "«Attribution» («Атрибуция»)"
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -596,10 +585,6 @@ msgstr ""
 "способом, но не таким, который подразумевал бы, что лицензиар одобряет вас "
 "или ваш способ использования произведения."
 
-#: templates/includes/deed_body_licenses.html:84
-msgid "NonCommercial"
-msgstr "«NonCommercial» («Некоммерчески»)"
-
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
@@ -607,10 +592,6 @@ msgid ""
 msgstr ""
 "Вы не вправе использовать этот материал в <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">коммерческих целях</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid "ShareAlike"
-msgstr "«ShareAlike» («СохранениеУсловий»)"
 
 #: templates/includes/deed_body_licenses.html:96
 msgid ""
@@ -795,12 +776,12 @@ msgstr ""
 "автор или лицо, идентифицирующее произведение."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1095,7 +1076,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1118,7 +1099,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1139,31 +1120,29 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:46 templates/list.html:12
+#: templates/legalcode.html:4 templates/legalcode.html:10
+#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
 msgid "Legal Code"
 msgstr "юридический текст"
 
-#: templates/legalcode.html:61
+#: templates/legalcode.html:25
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:115
+#: templates/legalcode.html:79
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:117
+#: templates/legalcode.html:81
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list.html:13
-msgid "Canonical URL"
-msgstr ""
-
-#: templates/list.html:56 templates/list.html:72
+#: templates/list-licenses.html:54 templates/list-licenses.html:70
+#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
 msgstr ""
 
-#: templates/list.html:58
+#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-22 01:13:55+00:00\n"
+"PO-Revision-Date: 2022-03-22 15:02:21+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hans/\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -19,288 +19,360 @@ msgstr ""
 "Language-Transifex: zh-Hans\n"
 
 #: i18n/__init__.py:122
+msgid "Generic"
+msgstr "通用"
+
+#: i18n/__init__.py:123
 msgid "Unported"
 msgstr "未本地化版本"
 
-#: i18n/__init__.py:123
-msgid "Generic (unported)"
-msgstr ""
-
 #: i18n/__init__.py:124
-msgid "International (unported)"
-msgstr ""
-
-#: i18n/__init__.py:125
 msgid "International"
 msgstr "国际"
 
-#: i18n/__init__.py:126
+#: i18n/__init__.py:125
 msgid "Universal"
 msgstr "通用"
 
-#: i18n/__init__.py:127
+#: i18n/__init__.py:126
 msgid "Armenia"
 msgstr ""
 
-#: i18n/__init__.py:128
+#: i18n/__init__.py:127
 msgid "Argentina"
 msgstr "阿根廷"
 
-#: i18n/__init__.py:129
+#: i18n/__init__.py:128
 msgid "Austria"
 msgstr "奥地利"
 
-#: i18n/__init__.py:130
+#: i18n/__init__.py:129
 msgid "Australia"
 msgstr "澳大利亚"
 
-#: i18n/__init__.py:131
+#: i18n/__init__.py:130
 msgid "Azerbaijan"
 msgstr ""
 
-#: i18n/__init__.py:132
+#: i18n/__init__.py:131
 msgid "Belgium"
 msgstr "比利时"
 
-#: i18n/__init__.py:133
+#: i18n/__init__.py:132
 msgid "Bulgaria"
 msgstr "保加利亚"
 
-#: i18n/__init__.py:134
+#: i18n/__init__.py:133
 msgid "Brazil"
 msgstr "巴西"
 
-#: i18n/__init__.py:135
+#: i18n/__init__.py:134
 msgid "Canada"
 msgstr "加拿大"
 
-#: i18n/__init__.py:136
+#: i18n/__init__.py:135
 msgid "Switzerland"
 msgstr "瑞士"
 
-#: i18n/__init__.py:137
+#: i18n/__init__.py:136
 msgid "Chile"
 msgstr "智利"
 
-#: i18n/__init__.py:138
+#: i18n/__init__.py:137
 msgid "China Mainland"
 msgstr "中国大陆"
 
-#: i18n/__init__.py:139
+#: i18n/__init__.py:138
 msgid "Colombia"
 msgstr "哥伦比亚"
 
-#: i18n/__init__.py:140
+#: i18n/__init__.py:139
 msgid "Costa Rica"
 msgstr "哥斯达黎加"
 
-#: i18n/__init__.py:141
+#: i18n/__init__.py:140
 msgid "Czech Republic"
 msgstr "捷克共和国"
 
-#: i18n/__init__.py:142
+#: i18n/__init__.py:141
 msgid "Germany"
 msgstr "德国"
 
-#: i18n/__init__.py:143
+#: i18n/__init__.py:142
 msgid "Denmark"
 msgstr "丹麦"
 
-#: i18n/__init__.py:144
+#: i18n/__init__.py:143
 msgid "Ecuador"
 msgstr "厄瓜多尔"
 
-#: i18n/__init__.py:145
+#: i18n/__init__.py:144
 msgid "Estonia"
 msgstr "爱沙尼亚"
 
-#: i18n/__init__.py:146
+#: i18n/__init__.py:145
 msgid "Egypt"
 msgstr "埃及"
 
-#: i18n/__init__.py:147
+#: i18n/__init__.py:146
 msgid "Spain"
 msgstr "西班牙"
 
-#: i18n/__init__.py:148
+#: i18n/__init__.py:147
 msgid "Finland"
 msgstr "芬兰"
 
-#: i18n/__init__.py:149
+#: i18n/__init__.py:148
 msgid "France"
 msgstr "法国"
 
-#: i18n/__init__.py:150
+#: i18n/__init__.py:149
 msgid "Georgia"
 msgstr ""
 
-#: i18n/__init__.py:151
+#: i18n/__init__.py:150
 msgid "Greece"
 msgstr "希腊"
 
-#: i18n/__init__.py:152
+#: i18n/__init__.py:151
 msgid "Guatemala"
 msgstr "危地马拉"
 
-#: i18n/__init__.py:153
+#: i18n/__init__.py:152
 msgid "Hong Kong"
 msgstr "香港"
 
-#: i18n/__init__.py:154
+#: i18n/__init__.py:153
 msgid "Croatia"
 msgstr "克罗地亚"
 
-#: i18n/__init__.py:155
+#: i18n/__init__.py:154
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: i18n/__init__.py:156
+#: i18n/__init__.py:155
 msgid "Ireland"
 msgstr "爱尔兰"
 
-#: i18n/__init__.py:157
+#: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
 msgstr ""
 
-#: i18n/__init__.py:158
+#: i18n/__init__.py:157
 msgid "Israel"
 msgstr "以色列"
 
-#: i18n/__init__.py:159
+#: i18n/__init__.py:158
 msgid "India"
 msgstr "印度"
 
-#: i18n/__init__.py:160
+#: i18n/__init__.py:159
 msgid "Italy"
 msgstr "意大利"
 
-#: i18n/__init__.py:161
+#: i18n/__init__.py:160
 msgid "Jordan"
 msgstr "约旦"
 
-#: i18n/__init__.py:162
+#: i18n/__init__.py:161
 msgid "Japan"
 msgstr "日本"
 
-#: i18n/__init__.py:163
+#: i18n/__init__.py:162
 msgid "Korea"
 msgstr "韩国"
 
-#: i18n/__init__.py:164
+#: i18n/__init__.py:163
 msgid "Luxembourg"
 msgstr "卢森堡"
 
-#: i18n/__init__.py:165
+#: i18n/__init__.py:164
 msgid "Macedonia"
 msgstr "马其顿"
 
-#: i18n/__init__.py:166
+#: i18n/__init__.py:165
 msgid "Malta"
 msgstr "马耳他"
 
-#: i18n/__init__.py:167
+#: i18n/__init__.py:166
 msgid "Mexico"
 msgstr "墨西哥"
 
-#: i18n/__init__.py:168
+#: i18n/__init__.py:167
 msgid "Malaysia"
 msgstr "马来西亚"
 
-#: i18n/__init__.py:169
+#: i18n/__init__.py:168
 msgid "Nigeria"
 msgstr "尼日利亚"
 
-#: i18n/__init__.py:170
+#: i18n/__init__.py:169
 msgid "Netherlands"
 msgstr "荷兰"
 
-#: i18n/__init__.py:171
+#: i18n/__init__.py:170
 msgid "Norway"
 msgstr "挪威"
 
-#: i18n/__init__.py:172
+#: i18n/__init__.py:171
 msgid "New Zealand"
 msgstr "新西兰"
 
-#: i18n/__init__.py:173
+#: i18n/__init__.py:172
 msgid "Peru"
 msgstr "秘鲁"
 
-#: i18n/__init__.py:174
+#: i18n/__init__.py:173
 msgid "Philippines"
 msgstr "菲律宾"
 
-#: i18n/__init__.py:175
+#: i18n/__init__.py:174
 msgid "Poland"
 msgstr "波兰"
 
-#: i18n/__init__.py:176
+#: i18n/__init__.py:175
 msgid "Puerto Rico"
 msgstr "波多黎各"
 
-#: i18n/__init__.py:177
+#: i18n/__init__.py:176
 msgid "Portugal"
 msgstr "葡萄牙"
 
-#: i18n/__init__.py:178
+#: i18n/__init__.py:177
 msgid "Romania"
 msgstr "罗马尼亚"
 
-#: i18n/__init__.py:179
+#: i18n/__init__.py:178
 msgid "Serbia"
 msgstr "塞尔维亚"
 
-#: i18n/__init__.py:180
+#: i18n/__init__.py:179
 msgid "UK: Scotland"
 msgstr "英国：苏格兰"
 
-#: i18n/__init__.py:181
+#: i18n/__init__.py:180
 msgid "Sweden"
 msgstr "瑞典"
 
-#: i18n/__init__.py:182
+#: i18n/__init__.py:181
 msgid "Singapore"
 msgstr "新加坡"
 
-#: i18n/__init__.py:183
+#: i18n/__init__.py:182
 msgid "Slovenia"
 msgstr "斯洛文尼亚"
 
-#: i18n/__init__.py:184
+#: i18n/__init__.py:183
 msgid "Thailand"
 msgstr "泰国"
 
-#: i18n/__init__.py:185
+#: i18n/__init__.py:184
 msgid "Taiwan"
 msgstr "台湾"
 
-#: i18n/__init__.py:186
+#: i18n/__init__.py:185
 msgid "Ukraine"
 msgstr "乌克兰"
 
-#: i18n/__init__.py:187
+#: i18n/__init__.py:186
 msgid "Uganda"
 msgstr "乌干达"
 
-#: i18n/__init__.py:188
+#: i18n/__init__.py:187
 msgid "UK: England & Wales"
 msgstr "英国：英格兰和威尔士"
 
-#: i18n/__init__.py:189
+#: i18n/__init__.py:188
 msgid "United States"
 msgstr "美国"
 
-#: i18n/__init__.py:190
+#: i18n/__init__.py:189
 msgid "Venezuela"
 msgstr "委内瑞拉"
 
-#: i18n/__init__.py:191
+#: i18n/__init__.py:190
 msgid "Vietnam"
 msgstr "越南"
 
-#: i18n/__init__.py:192
+#: i18n/__init__.py:191
 msgid "South Africa"
 msgstr "南非"
+
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+msgid "Attribution"
+msgstr "署名"
+
+#: i18n/__init__.py:195
+msgid "Attribution-NonCommercial"
+msgstr "署名-非商业性使用"
+
+#: i18n/__init__.py:196
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr "署名-非商业性使用-禁止演绎"
+
+#: i18n/__init__.py:197
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr "署名-非商业性使用-相同方式共享"
+
+#: i18n/__init__.py:198
+msgid "Attribution-NoDerivs"
+msgstr "署名-禁止演绎"
+
+#: i18n/__init__.py:199
+msgid "Attribution-NoDerivs-NonCommercial"
+msgstr "署名-禁止演绎-非商业性使用"
+
+#: i18n/__init__.py:200
+msgid "Attribution-ShareAlike"
+msgstr "署名-相同方式共享"
+
+#: i18n/__init__.py:202
+msgid ""
+"Copyright-Only Dedication (based on United States law) or Public Domain "
+"Certification"
+msgstr ""
+"仅限于版权贡献 (基于美国法律)\n"
+"或公共领域认证"
+
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+msgid "Developing Nations"
+msgstr "发展中国家"
+
+#: i18n/__init__.py:206
+msgid "Public Domain Mark"
+msgstr "公共领域标识"
+
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+msgid "NonCommercial"
+msgstr "非商业性使用"
+
+#: i18n/__init__.py:208
+msgid "NonCommercial-ShareAlike"
+msgstr "非商业性使用-相同方式共享"
+
+#: i18n/__init__.py:209
+msgid "NonCommercial Sampling Plus"
+msgstr "非商业性取样使用加强版"
+
+#: i18n/__init__.py:210
+msgid "NoDerivs"
+msgstr "禁止演绎"
+
+#: i18n/__init__.py:211
+msgid "NoDerivs-NonCommercial"
+msgstr "禁止演绎-非商业性使用"
+
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+msgid "ShareAlike"
+msgstr "相同方式共享"
+
+#: i18n/__init__.py:213
+msgid "Sampling"
+msgstr "取样使用"
+
+#: i18n/__init__.py:214
+msgid "Sampling Plus"
+msgstr "取样使用加强版"
 
 #: legal_tools/views.py:49
 msgid "Public Domain"
@@ -310,27 +382,28 @@ msgstr "公共领域"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:315
+#: legal_tools/views.py:381
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:320
+#: legal_tools/views.py:383
 msgid "Public Domain List"
 msgstr ""
 
-#: templates/base.html:80
+#: templates/base.html:41
 msgid "Skip to content"
 msgstr "跳转至主内容"
 
-#: templates/base.html:83
+#: templates/base.html:44
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:34 templates/list.html:11
+#: templates/deed.html:5 templates/deed.html:14
+#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:41
+#: templates/deed.html:21
 msgid "See the legal code"
 msgstr ""
 
@@ -344,22 +417,22 @@ msgid ""
 "Creative Commons may elect to apply one of its public licenses to material "
 "it publishes and in those instances will be considered the \"Licensor.\" The"
 " text of the Creative Commons public licenses is dedicated to the public "
-"domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
-"the limited purpose of indicating that material is shared under a Creative "
-"Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"Creative Commons without its prior written consent including, without "
-"limitation, in connection with any unauthorized modifications to any of its "
-"public licenses or any other arrangements, understandings, or agreements "
-"concerning use of licensed material. For the avoidance of doubt, this "
-"paragraph does not form part of the public licenses."
+"domain under the <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Except for the limited purpose of indicating that material "
+"is shared under a Creative Commons public license or as otherwise permitted "
+"by the Creative Commons policies published at <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, Creative Commons "
+"without its prior written consent including, without limitation, in "
+"connection with any unauthorized modifications to any of its public licenses"
+" or any other arrangements, understandings, or agreements concerning use of "
+"licensed material. For the avoidance of doubt, this paragraph does not form "
+"part of the public licenses."
 msgstr ""
 
-#: templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:28
 msgid ""
 "Creative Commons may be contacted at <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"href=\"//creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
@@ -378,88 +451,6 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
-
-#: templates/includes/cc_site_footer.html:25
-#: templates/includes/cc_site_header.html:40
-msgid "Contact"
-msgstr "联系方式"
-
-#: templates/includes/cc_site_footer.html:26
-msgid "Privacy"
-msgstr "隐私"
-
-#: templates/includes/cc_site_footer.html:27
-msgid "Policies"
-msgstr "政策"
-
-#: templates/includes/cc_site_footer.html:28
-msgid "Terms"
-msgstr "条款"
-
-#: templates/includes/cc_site_footer.html:35
-msgid "We'd love to hear from you!"
-msgstr "盼复！"
-
-#: templates/includes/cc_site_footer.html:44
-msgid "Frequently Asked Questions"
-msgstr "常见问题"
-
-#: templates/includes/cc_site_header.html:11
-msgid "Menu"
-msgstr "菜单"
-
-#: templates/includes/cc_site_header.html:16
-#: templates/includes/cc_site_header.html:27
-msgid "Share your work"
-msgstr "分享你的作品"
-
-#: templates/includes/cc_site_header.html:17
-#: templates/includes/cc_site_header.html:28
-msgid "Use &#038; remix"
-msgstr "使用与混合"
-
-#: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29
-msgid "What we do"
-msgstr "我们的做法"
-
-#: templates/includes/cc_site_header.html:19
-#: templates/includes/cc_site_header.html:30
-msgid "Blog"
-msgstr "博客"
-
-#: templates/includes/cc_site_header.html:20
-#: templates/includes/cc_site_header.html:37
-msgid "Global Network"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:21
-msgid "Search the Commons"
-msgstr "寻求共享"
-
-#: templates/includes/cc_site_header.html:36
-msgid "Search for CC images"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:38
-msgid "Newsletters"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:39
-msgid "Store"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:46
-msgid "Facebook"
-msgstr "脸书"
-
-#: templates/includes/cc_site_header.html:47
-msgid "Twitter"
-msgstr "推特"
-
-#: templates/includes/cc_site_header.html:48
-msgid "Mail"
-msgstr "信件"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -545,17 +536,9 @@ msgstr "只要你遵守许可协议条款，许可人就无法收回你的这些
 msgid "Under the following terms:"
 msgstr "惟须遵守下列条件："
 
-#: templates/includes/deed_body_licenses.html:60
-msgid "Developing Nations"
-msgstr "发展中国家"
-
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
-
-#: templates/includes/deed_body_licenses.html:72
-msgid "Attribution"
-msgstr "署名"
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -573,10 +556,6 @@ msgstr ""
 "id=\"indicate_changes_popup\" "
 "class=\"helpLink\">标明是否（对原始作品）作了修改</a></span>。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。"
 
-#: templates/includes/deed_body_licenses.html:84
-msgid "NonCommercial"
-msgstr "非商业性使用"
-
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
@@ -584,10 +563,6 @@ msgid ""
 msgstr ""
 "您不得将本作品用于<a href=\"#\" id=\"commercial_purposes_popup\" "
 "class=\"helpLink\">商业目的</a>。"
-
-#: templates/includes/deed_body_licenses.html:96
-msgid "ShareAlike"
-msgstr "相同方式共享"
 
 #: templates/includes/deed_body_licenses.html:96
 msgid ""
@@ -737,12 +712,12 @@ msgstr ""
 "id=\"endorsement\">作者或识别该作品的人认可你的使用</a> 。"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -982,7 +957,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1005,7 +980,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1026,31 +1001,29 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:46 templates/list.html:12
+#: templates/legalcode.html:4 templates/legalcode.html:10
+#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
 msgid "Legal Code"
 msgstr "法律文本"
 
-#: templates/legalcode.html:61
+#: templates/legalcode.html:25
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:115
+#: templates/legalcode.html:79
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:117
+#: templates/legalcode.html:81
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list.html:13
-msgid "Canonical URL"
-msgstr ""
-
-#: templates/list.html:56 templates/list.html:72
+#: templates/list-licenses.html:54 templates/list-licenses.html:70
+#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
 msgstr ""
 
-#: templates/list.html:58
+#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
 msgstr ""
 
