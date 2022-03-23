@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-01 08:09:52+00:00\n"
+"PO-Revision-Date: 2022-03-22 18:31:21+00:00\n"
 "Last-Translator: Hendrik Maryns <hendrik@hendrikmaryns.name>, 2022\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/nl/\n"
 "Language: nl\n"
@@ -25,288 +25,360 @@ msgstr ""
 "Language-Transifex: nl\n"
 
 #: i18n/__init__.py:122
-msgid "Unported"
+msgid "Generic"
 msgstr "Unported"
 
 #: i18n/__init__.py:123
-msgid "Generic (unported)"
-msgstr "Generiek (unported)"
+msgid "Unported"
+msgstr "Unported"
 
 #: i18n/__init__.py:124
-msgid "International (unported)"
-msgstr "Internationaal (unported)"
-
-#: i18n/__init__.py:125
 msgid "International"
 msgstr "Internationaal"
 
-#: i18n/__init__.py:126
+#: i18n/__init__.py:125
 msgid "Universal"
 msgstr "Universeel"
 
-#: i18n/__init__.py:127
+#: i18n/__init__.py:126
 msgid "Armenia"
 msgstr "Armenië"
 
-#: i18n/__init__.py:128
+#: i18n/__init__.py:127
 msgid "Argentina"
 msgstr "Argentinië"
 
-#: i18n/__init__.py:129
+#: i18n/__init__.py:128
 msgid "Austria"
 msgstr "Oostenrijk"
 
-#: i18n/__init__.py:130
+#: i18n/__init__.py:129
 msgid "Australia"
 msgstr "Australië"
 
-#: i18n/__init__.py:131
+#: i18n/__init__.py:130
 msgid "Azerbaijan"
 msgstr "Azerbeidzjan"
 
-#: i18n/__init__.py:132
+#: i18n/__init__.py:131
 msgid "Belgium"
 msgstr "België"
 
-#: i18n/__init__.py:133
+#: i18n/__init__.py:132
 msgid "Bulgaria"
 msgstr "Bulgarije"
 
-#: i18n/__init__.py:134
+#: i18n/__init__.py:133
 msgid "Brazil"
 msgstr "Brazilië"
 
-#: i18n/__init__.py:135
+#: i18n/__init__.py:134
 msgid "Canada"
 msgstr "Canada"
 
-#: i18n/__init__.py:136
+#: i18n/__init__.py:135
 msgid "Switzerland"
 msgstr "Zwitserland"
 
-#: i18n/__init__.py:137
+#: i18n/__init__.py:136
 msgid "Chile"
 msgstr "Chili"
 
-#: i18n/__init__.py:138
+#: i18n/__init__.py:137
 msgid "China Mainland"
 msgstr "China (vasteland)"
 
-#: i18n/__init__.py:139
+#: i18n/__init__.py:138
 msgid "Colombia"
 msgstr "Colombia"
 
-#: i18n/__init__.py:140
+#: i18n/__init__.py:139
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: i18n/__init__.py:141
+#: i18n/__init__.py:140
 msgid "Czech Republic"
 msgstr "Tjechië"
 
-#: i18n/__init__.py:142
+#: i18n/__init__.py:141
 msgid "Germany"
 msgstr "Duitsland"
 
-#: i18n/__init__.py:143
+#: i18n/__init__.py:142
 msgid "Denmark"
 msgstr "Denemarken"
 
-#: i18n/__init__.py:144
+#: i18n/__init__.py:143
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: i18n/__init__.py:145
+#: i18n/__init__.py:144
 msgid "Estonia"
 msgstr "Estland"
 
-#: i18n/__init__.py:146
+#: i18n/__init__.py:145
 msgid "Egypt"
 msgstr "Egypte"
 
-#: i18n/__init__.py:147
+#: i18n/__init__.py:146
 msgid "Spain"
 msgstr "Spanje"
 
-#: i18n/__init__.py:148
+#: i18n/__init__.py:147
 msgid "Finland"
 msgstr "Finland"
 
-#: i18n/__init__.py:149
+#: i18n/__init__.py:148
 msgid "France"
 msgstr "Frankrijk"
 
-#: i18n/__init__.py:150
+#: i18n/__init__.py:149
 msgid "Georgia"
 msgstr "Georgië"
 
-#: i18n/__init__.py:151
+#: i18n/__init__.py:150
 msgid "Greece"
 msgstr "Griekenland"
 
-#: i18n/__init__.py:152
+#: i18n/__init__.py:151
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: i18n/__init__.py:153
+#: i18n/__init__.py:152
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: i18n/__init__.py:154
+#: i18n/__init__.py:153
 msgid "Croatia"
 msgstr "Kroatië"
 
-#: i18n/__init__.py:155
+#: i18n/__init__.py:154
 msgid "Hungary"
 msgstr "Hongarije"
 
-#: i18n/__init__.py:156
+#: i18n/__init__.py:155
 msgid "Ireland"
 msgstr "Ierland"
 
-#: i18n/__init__.py:157
+#: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
 msgstr "Intergouvernementele organisatie"
 
-#: i18n/__init__.py:158
+#: i18n/__init__.py:157
 msgid "Israel"
 msgstr "Israël"
 
-#: i18n/__init__.py:159
+#: i18n/__init__.py:158
 msgid "India"
 msgstr "India"
 
-#: i18n/__init__.py:160
+#: i18n/__init__.py:159
 msgid "Italy"
 msgstr "Italië"
 
-#: i18n/__init__.py:161
+#: i18n/__init__.py:160
 msgid "Jordan"
 msgstr "Jordanië"
 
-#: i18n/__init__.py:162
+#: i18n/__init__.py:161
 msgid "Japan"
 msgstr "Japan"
 
-#: i18n/__init__.py:163
+#: i18n/__init__.py:162
 msgid "Korea"
 msgstr "Korea"
 
-#: i18n/__init__.py:164
+#: i18n/__init__.py:163
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#: i18n/__init__.py:165
+#: i18n/__init__.py:164
 msgid "Macedonia"
 msgstr "Macedonië"
 
-#: i18n/__init__.py:166
+#: i18n/__init__.py:165
 msgid "Malta"
 msgstr "Malta"
 
-#: i18n/__init__.py:167
+#: i18n/__init__.py:166
 msgid "Mexico"
 msgstr "Mexico"
 
-#: i18n/__init__.py:168
+#: i18n/__init__.py:167
 msgid "Malaysia"
 msgstr "Maleisië"
 
-#: i18n/__init__.py:169
+#: i18n/__init__.py:168
 msgid "Nigeria"
 msgstr "Nigeria"
 
-#: i18n/__init__.py:170
+#: i18n/__init__.py:169
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: i18n/__init__.py:171
+#: i18n/__init__.py:170
 msgid "Norway"
 msgstr "Noorwegen"
 
-#: i18n/__init__.py:172
+#: i18n/__init__.py:171
 msgid "New Zealand"
 msgstr "Nieuw-Zeeland"
 
-#: i18n/__init__.py:173
+#: i18n/__init__.py:172
 msgid "Peru"
 msgstr "Peru"
 
-#: i18n/__init__.py:174
+#: i18n/__init__.py:173
 msgid "Philippines"
 msgstr "Filipijnen"
 
-#: i18n/__init__.py:175
+#: i18n/__init__.py:174
 msgid "Poland"
 msgstr "Polen"
 
-#: i18n/__init__.py:176
+#: i18n/__init__.py:175
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
-#: i18n/__init__.py:177
+#: i18n/__init__.py:176
 msgid "Portugal"
 msgstr "Portugal"
 
-#: i18n/__init__.py:178
+#: i18n/__init__.py:177
 msgid "Romania"
 msgstr "Roemenië"
 
-#: i18n/__init__.py:179
+#: i18n/__init__.py:178
 msgid "Serbia"
 msgstr "Servië"
 
-#: i18n/__init__.py:180
+#: i18n/__init__.py:179
 msgid "UK: Scotland"
 msgstr "Schotland"
 
-#: i18n/__init__.py:181
+#: i18n/__init__.py:180
 msgid "Sweden"
 msgstr "Zweden"
 
-#: i18n/__init__.py:182
+#: i18n/__init__.py:181
 msgid "Singapore"
 msgstr "Singapore"
 
-#: i18n/__init__.py:183
+#: i18n/__init__.py:182
 msgid "Slovenia"
 msgstr "Slovenië"
 
-#: i18n/__init__.py:184
+#: i18n/__init__.py:183
 msgid "Thailand"
 msgstr "Thailand"
 
-#: i18n/__init__.py:185
+#: i18n/__init__.py:184
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: i18n/__init__.py:186
+#: i18n/__init__.py:185
 msgid "Ukraine"
 msgstr "Oekraïne"
 
-#: i18n/__init__.py:187
+#: i18n/__init__.py:186
 msgid "Uganda"
 msgstr "Oeganda"
 
-#: i18n/__init__.py:188
+#: i18n/__init__.py:187
 msgid "UK: England & Wales"
 msgstr "Engeland & Wales"
 
-#: i18n/__init__.py:189
+#: i18n/__init__.py:188
 msgid "United States"
 msgstr "Verenigde Staten"
 
-#: i18n/__init__.py:190
+#: i18n/__init__.py:189
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: i18n/__init__.py:191
+#: i18n/__init__.py:190
 msgid "Vietnam"
 msgstr "Vietnam"
 
-#: i18n/__init__.py:192
+#: i18n/__init__.py:191
 msgid "South Africa"
 msgstr "Zuid-Afrika"
+
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+msgid "Attribution"
+msgstr "Naamsvermelding"
+
+#: i18n/__init__.py:195
+msgid "Attribution-NonCommercial"
+msgstr "Naamsvermelding-NietCommercieel"
+
+#: i18n/__init__.py:196
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr "Naamsvermelding-NietCommercieel-GeenAfgeleideWerken"
+
+#: i18n/__init__.py:197
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr "Naamsvermelding-NietCommercieel-GelijkDelen"
+
+#: i18n/__init__.py:198
+msgid "Attribution-NoDerivs"
+msgstr "Naamsvermelding-GeenAfgeleideWerken"
+
+#: i18n/__init__.py:199
+msgid "Attribution-NoDerivs-NonCommercial"
+msgstr "Naamsvermelding-GeenAfgeleideWerken-NietCommercieel"
+
+#: i18n/__init__.py:200
+msgid "Attribution-ShareAlike"
+msgstr "Naamsvermelding-GelijkDelen"
+
+#: i18n/__init__.py:202
+msgid ""
+"Copyright-Only Dedication (based on United States law) or Public Domain "
+"Certification"
+msgstr ""
+"Copyright-Only Dedication (gebaseerd op de wetgeving in de Verenigde Staten)"
+" of Public Domain Certificering"
+
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+msgid "Developing Nations"
+msgstr "Ontwikkelingslanden"
+
+#: i18n/__init__.py:206
+msgid "Public Domain Mark"
+msgstr "Public Domain Mark"
+
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+msgid "NonCommercial"
+msgstr "NietCommercieel"
+
+#: i18n/__init__.py:208
+msgid "NonCommercial-ShareAlike"
+msgstr "NietCommercieel-GelijkDelen"
+
+#: i18n/__init__.py:209
+msgid "NonCommercial Sampling Plus"
+msgstr "NietCommercieel Sampling Plus"
+
+#: i18n/__init__.py:210
+msgid "NoDerivs"
+msgstr "GeenAfgeleideWerken"
+
+#: i18n/__init__.py:211
+msgid "NoDerivs-NonCommercial"
+msgstr "GeenAfgeleideWerken-NietCommercieel"
+
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+msgid "ShareAlike"
+msgstr "GelijkDelen"
+
+#: i18n/__init__.py:213
+msgid "Sampling"
+msgstr "Sampling"
+
+#: i18n/__init__.py:214
+msgid "Sampling Plus"
+msgstr "Sampling Plus"
 
 #: legal_tools/views.py:49
 msgid "Public Domain"
@@ -316,27 +388,28 @@ msgstr "Publiek domein"
 msgid "Licenses"
 msgstr "Licenties"
 
-#: legal_tools/views.py:315
+#: legal_tools/views.py:381
 msgid "Licenses List"
 msgstr "Lijst met licenties"
 
-#: legal_tools/views.py:320
+#: legal_tools/views.py:383
 msgid "Public Domain List"
 msgstr "Publieke-domeinlijst"
 
-#: templates/base.html:80
+#: templates/base.html:41
 msgid "Skip to content"
 msgstr "Naar de inhoud springen"
 
-#: templates/base.html:83
+#: templates/base.html:44
 msgid "Home"
 msgstr "Thuispagina"
 
-#: templates/deed.html:34 templates/list.html:11
+#: templates/deed.html:5 templates/deed.html:14
+#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
 msgstr "Akte"
 
-#: templates/deed.html:41
+#: templates/deed.html:21
 msgid "See the legal code"
 msgstr "Juridische tekst inzien"
 
@@ -350,41 +423,41 @@ msgid ""
 "Creative Commons may elect to apply one of its public licenses to material "
 "it publishes and in those instances will be considered the \"Licensor.\" The"
 " text of the Creative Commons public licenses is dedicated to the public "
-"domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
-"the limited purpose of indicating that material is shared under a Creative "
-"Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"Creative Commons without its prior written consent including, without "
-"limitation, in connection with any unauthorized modifications to any of its "
-"public licenses or any other arrangements, understandings, or agreements "
-"concerning use of licensed material. For the avoidance of doubt, this "
-"paragraph does not form part of the public licenses."
+"domain under the <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Except for the limited purpose of indicating that material "
+"is shared under a Creative Commons public license or as otherwise permitted "
+"by the Creative Commons policies published at <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, Creative Commons "
+"without its prior written consent including, without limitation, in "
+"connection with any unauthorized modifications to any of its public licenses"
+" or any other arrangements, understandings, or agreements concerning use of "
+"licensed material. For the avoidance of doubt, this paragraph does not form "
+"part of the public licenses."
 msgstr ""
 "Creative Commons is geen partij van zijn licenties.  Desalniettemin kan "
 "Creative Commons ervoor kiezen om één van zijn publieke licenties toe te "
 "passen op materiaal dat het publiceert en zal in deze instanties als de "
 "“licentiegever” beschouwd worden.  De tekst van de publieke licenties van "
 "Creative Commons is vrijgegeven in het publieke domein onder de <a "
-"href=\"#\">CC0 Publiek-Domein-Vrijgave</a>.  Behalve voor het beperkte doel "
-"dat materiaal gedeeld wordt onder een publieke licentie van Creative Commons"
-" of zoals anderszins toegestaan door het beleid van Creative Commons, zoals "
-"gepubliceerd op <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"mogen de licenties van Creative Commons niet worden gewijzigd zonder "
-"voorafgaande geschreven toestemming, waaronder begrepen, zonder beperking, "
-"ongeautoriseerde wijzigingen aan één van zijn publieke licenties of andere "
-"regelingen, schikkingen of overeenkomsten over het gebruik van gelicentieerd"
-" materiaal.  Ter vermijding van twijfel, is deze paragraaf geen deel van de "
-"publieke licenties."
+"href=\"/publicdomain/zero/1.0/\">CC0 Publiek-Domein-Vrijgave</a>.  Behalve "
+"voor het beperkte doel dat materiaal gedeeld wordt onder een publieke "
+"licentie van Creative Commons of zoals anderszins toegestaan door het beleid"
+" van Creative Commons, zoals gepubliceerd op <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, mogen de licenties van"
+" Creative Commons niet worden gewijzigd zonder voorafgaande geschreven "
+"toestemming, waaronder begrepen, zonder beperking, ongeautoriseerde "
+"wijzigingen aan één van zijn publieke licenties of andere regelingen, "
+"schikkingen of overeenkomsten over het gebruik van gelicentieerd materiaal."
+"  Ter vermijding van twijfel, is deze paragraaf geen deel van de publieke "
+"licenties."
 
-#: templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:28
 msgid ""
 "Creative Commons may be contacted at <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"href=\"//creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 "Creative Commons kan gecontacteerd worden op <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"href=\"//creativecommons.org\">creativecommons.org</a>."
 
 #: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
@@ -410,88 +483,6 @@ msgstr ""
 "materiaal dat onder de voorwaarden van zijn licenties valt of enige "
 "gerelateerde informatie.  Creative Commons verwerpt alle aansprakelijkheid "
 "in de breedste zin voor schade als gevolg van hun gebruik."
-
-#: templates/includes/cc_site_footer.html:25
-#: templates/includes/cc_site_header.html:40
-msgid "Contact"
-msgstr "Contact"
-
-#: templates/includes/cc_site_footer.html:26
-msgid "Privacy"
-msgstr "Privacy"
-
-#: templates/includes/cc_site_footer.html:27
-msgid "Policies"
-msgstr "Beleid"
-
-#: templates/includes/cc_site_footer.html:28
-msgid "Terms"
-msgstr "Voorwaarden"
-
-#: templates/includes/cc_site_footer.html:35
-msgid "We'd love to hear from you!"
-msgstr "We horen graag van je!"
-
-#: templates/includes/cc_site_footer.html:44
-msgid "Frequently Asked Questions"
-msgstr "Veelgestelde vragen (FAQ)"
-
-#: templates/includes/cc_site_header.html:11
-msgid "Menu"
-msgstr "Menu"
-
-#: templates/includes/cc_site_header.html:16
-#: templates/includes/cc_site_header.html:27
-msgid "Share your work"
-msgstr "Deel je werk"
-
-#: templates/includes/cc_site_header.html:17
-#: templates/includes/cc_site_header.html:28
-msgid "Use &#038; remix"
-msgstr "Gebruik &amp; remix"
-
-#: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29
-msgid "What we do"
-msgstr "Wat wij doen"
-
-#: templates/includes/cc_site_header.html:19
-#: templates/includes/cc_site_header.html:30
-msgid "Blog"
-msgstr "Blog"
-
-#: templates/includes/cc_site_header.html:20
-#: templates/includes/cc_site_header.html:37
-msgid "Global Network"
-msgstr "Globaal netwerk"
-
-#: templates/includes/cc_site_header.html:21
-msgid "Search the Commons"
-msgstr "De Commons doorzoeken"
-
-#: templates/includes/cc_site_header.html:36
-msgid "Search for CC images"
-msgstr "Naar CC-afbeeldingen zoeken"
-
-#: templates/includes/cc_site_header.html:38
-msgid "Newsletters"
-msgstr "Nieuwsbrieven"
-
-#: templates/includes/cc_site_header.html:39
-msgid "Store"
-msgstr "Winkel"
-
-#: templates/includes/cc_site_header.html:46
-msgid "Facebook"
-msgstr "Facebook"
-
-#: templates/includes/cc_site_header.html:47
-msgid "Twitter"
-msgstr "Twitter"
-
-#: templates/includes/cc_site_header.html:48
-msgid "Mail"
-msgstr "Mail"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -618,18 +609,10 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr "Onder de volgende voorwaarden:"
 
-#: templates/includes/deed_body_licenses.html:60
-msgid "Developing Nations"
-msgstr "Ontwikkelingslanden"
-
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
 "Je mag de bovenstaande rechten alleen uitoefenen in ontwikkelingslanden."
-
-#: templates/includes/deed_body_licenses.html:72
-msgid "Attribution"
-msgstr "Naamsvermelding"
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -650,10 +633,6 @@ msgstr ""
 "de indruk gewekt wordt dat de licentiegever instemt met je werk of je "
 "gebruik van het werk."
 
-#: templates/includes/deed_body_licenses.html:84
-msgid "NonCommercial"
-msgstr "NietCommercieel"
-
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
@@ -662,10 +641,6 @@ msgstr ""
 "Je mag het werk niet gebruiken voor <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">commerciële "
 "doeleinden</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid "ShareAlike"
-msgstr "GelijkDelen"
 
 #: templates/includes/deed_body_licenses.html:96
 msgid ""
@@ -848,12 +823,12 @@ msgstr ""
 "auteur of persoon die dit werk geidentificeerd heeft."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid "Unimplemented"
 msgstr "Niet geïmplementeerd"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1160,7 +1135,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr "Overwegingen voor licentiegevers"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers tonen"
 
@@ -1196,7 +1171,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr "Overwegingen voor het publiek"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
 msgstr "Overwegingen voor het publiek tonen"
 
@@ -1232,31 +1207,29 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Meer"
 " overwegingen voor het publiek.</a>"
 
-#: templates/legalcode.html:46 templates/list.html:12
+#: templates/legalcode.html:4 templates/legalcode.html:10
+#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
 msgid "Legal Code"
 msgstr "Juridische tekst"
 
-#: templates/legalcode.html:61
+#: templates/legalcode.html:25
 msgid "See the deed"
 msgstr "Zie de akte"
 
-#: templates/legalcode.html:115
+#: templates/legalcode.html:79
 msgid "Hide Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers verbergen"
 
-#: templates/legalcode.html:117
+#: templates/legalcode.html:81
 msgid "Hide Considerations for the Public"
 msgstr "Overwegingen voor het publiek verbergen"
 
-#: templates/list.html:13
-msgid "Canonical URL"
-msgstr "Canonieke URL"
-
-#: templates/list.html:56 templates/list.html:72
+#: templates/list-licenses.html:54 templates/list-licenses.html:70
+#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
 msgstr "Taal"
 
-#: templates/list.html:58
+#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
 msgstr "Juridische tools"
 

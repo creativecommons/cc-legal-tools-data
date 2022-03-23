@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2021-12-21 23:52:47+00:00\n"
+"PO-Revision-Date: 2022-03-22 17:17:22+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/eo/\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -19,288 +19,360 @@ msgstr ""
 "Language-Transifex: eo\n"
 
 #: i18n/__init__.py:122
+msgid "Generic"
+msgstr "Ĝenerala"
+
+#: i18n/__init__.py:123
 msgid "Unported"
 msgstr "Neadaptita"
 
-#: i18n/__init__.py:123
-msgid "Generic (unported)"
-msgstr ""
-
 #: i18n/__init__.py:124
-msgid "International (unported)"
-msgstr ""
-
-#: i18n/__init__.py:125
 msgid "International"
 msgstr "Tutmonda"
 
-#: i18n/__init__.py:126
+#: i18n/__init__.py:125
 msgid "Universal"
 msgstr "Universala"
 
-#: i18n/__init__.py:127
+#: i18n/__init__.py:126
 msgid "Armenia"
 msgstr ""
 
-#: i18n/__init__.py:128
+#: i18n/__init__.py:127
 msgid "Argentina"
 msgstr "Argentino"
 
-#: i18n/__init__.py:129
+#: i18n/__init__.py:128
 msgid "Austria"
 msgstr "Aŭstrujo"
 
-#: i18n/__init__.py:130
+#: i18n/__init__.py:129
 msgid "Australia"
 msgstr "Aŭstralio"
 
-#: i18n/__init__.py:131
+#: i18n/__init__.py:130
 msgid "Azerbaijan"
 msgstr ""
 
-#: i18n/__init__.py:132
+#: i18n/__init__.py:131
 msgid "Belgium"
 msgstr "Belgujo"
 
-#: i18n/__init__.py:133
+#: i18n/__init__.py:132
 msgid "Bulgaria"
 msgstr "Bulgarujo"
 
-#: i18n/__init__.py:134
+#: i18n/__init__.py:133
 msgid "Brazil"
 msgstr "Brazilo"
 
-#: i18n/__init__.py:135
+#: i18n/__init__.py:134
 msgid "Canada"
 msgstr "Kanado"
 
-#: i18n/__init__.py:136
+#: i18n/__init__.py:135
 msgid "Switzerland"
 msgstr "Svisujo"
 
-#: i18n/__init__.py:137
+#: i18n/__init__.py:136
 msgid "Chile"
 msgstr "Ĉilio"
 
-#: i18n/__init__.py:138
+#: i18n/__init__.py:137
 msgid "China Mainland"
 msgstr "Ĉinujo"
 
-#: i18n/__init__.py:139
+#: i18n/__init__.py:138
 msgid "Colombia"
 msgstr "Kolombio"
 
-#: i18n/__init__.py:140
+#: i18n/__init__.py:139
 msgid "Costa Rica"
 msgstr "Kostariko"
 
-#: i18n/__init__.py:141
+#: i18n/__init__.py:140
 msgid "Czech Republic"
 msgstr "Ĉeĥujo"
 
-#: i18n/__init__.py:142
+#: i18n/__init__.py:141
 msgid "Germany"
 msgstr "Germanujo"
 
-#: i18n/__init__.py:143
+#: i18n/__init__.py:142
 msgid "Denmark"
 msgstr "Danujo"
 
-#: i18n/__init__.py:144
+#: i18n/__init__.py:143
 msgid "Ecuador"
 msgstr "Ekvadoro"
 
-#: i18n/__init__.py:145
+#: i18n/__init__.py:144
 msgid "Estonia"
 msgstr "Estonujo"
 
-#: i18n/__init__.py:146
+#: i18n/__init__.py:145
 msgid "Egypt"
 msgstr "Egiptujo"
 
-#: i18n/__init__.py:147
+#: i18n/__init__.py:146
 msgid "Spain"
 msgstr "Hispanujo"
 
-#: i18n/__init__.py:148
+#: i18n/__init__.py:147
 msgid "Finland"
 msgstr "Suomujo"
 
-#: i18n/__init__.py:149
+#: i18n/__init__.py:148
 msgid "France"
 msgstr "Francujo"
 
-#: i18n/__init__.py:150
+#: i18n/__init__.py:149
 msgid "Georgia"
 msgstr ""
 
-#: i18n/__init__.py:151
+#: i18n/__init__.py:150
 msgid "Greece"
 msgstr "Grekujo"
 
-#: i18n/__init__.py:152
+#: i18n/__init__.py:151
 msgid "Guatemala"
 msgstr "Gvatemalo"
 
-#: i18n/__init__.py:153
+#: i18n/__init__.py:152
 msgid "Hong Kong"
 msgstr "Honkongo"
 
-#: i18n/__init__.py:154
+#: i18n/__init__.py:153
 msgid "Croatia"
 msgstr "Kroatujo"
 
-#: i18n/__init__.py:155
+#: i18n/__init__.py:154
 msgid "Hungary"
 msgstr "Hungarujo"
 
-#: i18n/__init__.py:156
+#: i18n/__init__.py:155
 msgid "Ireland"
 msgstr "Irlando"
 
-#: i18n/__init__.py:157
+#: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
 msgstr ""
 
-#: i18n/__init__.py:158
+#: i18n/__init__.py:157
 msgid "Israel"
 msgstr "Israelo"
 
-#: i18n/__init__.py:159
+#: i18n/__init__.py:158
 msgid "India"
 msgstr "Barato"
 
-#: i18n/__init__.py:160
+#: i18n/__init__.py:159
 msgid "Italy"
 msgstr "Italujo"
 
-#: i18n/__init__.py:161
+#: i18n/__init__.py:160
 msgid "Jordan"
 msgstr "Jordanio"
 
-#: i18n/__init__.py:162
+#: i18n/__init__.py:161
 msgid "Japan"
 msgstr "Japanujo"
 
-#: i18n/__init__.py:163
+#: i18n/__init__.py:162
 msgid "Korea"
 msgstr "Koreujo"
 
-#: i18n/__init__.py:164
+#: i18n/__init__.py:163
 msgid "Luxembourg"
 msgstr "Luksemburgo"
 
-#: i18n/__init__.py:165
+#: i18n/__init__.py:164
 msgid "Macedonia"
 msgstr "Makedonujo"
 
-#: i18n/__init__.py:166
+#: i18n/__init__.py:165
 msgid "Malta"
 msgstr "Malto"
 
-#: i18n/__init__.py:167
+#: i18n/__init__.py:166
 msgid "Mexico"
 msgstr "Meksiko"
 
-#: i18n/__init__.py:168
+#: i18n/__init__.py:167
 msgid "Malaysia"
 msgstr "Malajzio"
 
-#: i18n/__init__.py:169
+#: i18n/__init__.py:168
 msgid "Nigeria"
 msgstr "Niĝerio"
 
-#: i18n/__init__.py:170
+#: i18n/__init__.py:169
 msgid "Netherlands"
 msgstr "Nederlando"
 
-#: i18n/__init__.py:171
+#: i18n/__init__.py:170
 msgid "Norway"
 msgstr "Norvegujo"
 
-#: i18n/__init__.py:172
+#: i18n/__init__.py:171
 msgid "New Zealand"
 msgstr "Nov-Zelando"
 
-#: i18n/__init__.py:173
+#: i18n/__init__.py:172
 msgid "Peru"
 msgstr "Peruo"
 
-#: i18n/__init__.py:174
+#: i18n/__init__.py:173
 msgid "Philippines"
 msgstr "Filipinoj"
 
-#: i18n/__init__.py:175
+#: i18n/__init__.py:174
 msgid "Poland"
 msgstr "Polujo"
 
-#: i18n/__init__.py:176
+#: i18n/__init__.py:175
 msgid "Puerto Rico"
 msgstr "Puertoriko"
 
-#: i18n/__init__.py:177
+#: i18n/__init__.py:176
 msgid "Portugal"
 msgstr "Portugalujo"
 
-#: i18n/__init__.py:178
+#: i18n/__init__.py:177
 msgid "Romania"
 msgstr "Rumanujo"
 
-#: i18n/__init__.py:179
+#: i18n/__init__.py:178
 msgid "Serbia"
 msgstr "Serbujo"
 
-#: i18n/__init__.py:180
+#: i18n/__init__.py:179
 msgid "UK: Scotland"
 msgstr "Britujo: Skotujo"
 
-#: i18n/__init__.py:181
+#: i18n/__init__.py:180
 msgid "Sweden"
 msgstr "Svedujo"
 
-#: i18n/__init__.py:182
+#: i18n/__init__.py:181
 msgid "Singapore"
 msgstr "Singapuro"
 
-#: i18n/__init__.py:183
+#: i18n/__init__.py:182
 msgid "Slovenia"
 msgstr "Slovenujo"
 
-#: i18n/__init__.py:184
+#: i18n/__init__.py:183
 msgid "Thailand"
 msgstr "Tajujo"
 
-#: i18n/__init__.py:185
+#: i18n/__init__.py:184
 msgid "Taiwan"
 msgstr "Tajvano"
 
-#: i18n/__init__.py:186
+#: i18n/__init__.py:185
 msgid "Ukraine"
 msgstr "Ukrainujo"
 
-#: i18n/__init__.py:187
+#: i18n/__init__.py:186
 msgid "Uganda"
 msgstr "Ugando"
 
-#: i18n/__init__.py:188
+#: i18n/__init__.py:187
 msgid "UK: England & Wales"
 msgstr "Britujo: Anglujo & Kimrujo"
 
-#: i18n/__init__.py:189
+#: i18n/__init__.py:188
 msgid "United States"
 msgstr "Usono"
 
-#: i18n/__init__.py:190
+#: i18n/__init__.py:189
 msgid "Venezuela"
 msgstr "Venezuelo"
 
-#: i18n/__init__.py:191
+#: i18n/__init__.py:190
 msgid "Vietnam"
 msgstr "Vjetnamujo"
 
-#: i18n/__init__.py:192
+#: i18n/__init__.py:191
 msgid "South Africa"
 msgstr "Sud-Afriko"
+
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+msgid "Attribution"
+msgstr "Atribuite"
+
+#: i18n/__init__.py:195
+msgid "Attribution-NonCommercial"
+msgstr "Atribuite-Nekomerce"
+
+#: i18n/__init__.py:196
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr "Atribuite-Nekomerce-Nemodifite"
+
+#: i18n/__init__.py:197
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr "Atribuite-Nekomerce-Samkondiĉe"
+
+#: i18n/__init__.py:198
+msgid "Attribution-NoDerivs"
+msgstr "Atribuite-Nemodifite"
+
+#: i18n/__init__.py:199
+msgid "Attribution-NoDerivs-NonCommercial"
+msgstr "Atribuite-Nemodifite-Nekomerce"
+
+#: i18n/__init__.py:200
+msgid "Attribution-ShareAlike"
+msgstr "Atribuite-Samkondiĉe"
+
+#: i18n/__init__.py:202
+msgid ""
+"Copyright-Only Dedication (based on United States law) or Public Domain "
+"Certification"
+msgstr ""
+"Nuraŭtorrajta Dediĉo (bazita sur la Usona juro) \n"
+"aŭ Publikaĵa Deklaro"
+
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+msgid "Developing Nations"
+msgstr "Evolulandoj"
+
+#: i18n/__init__.py:206
+msgid "Public Domain Mark"
+msgstr "Publikaĵa Marko"
+
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+msgid "NonCommercial"
+msgstr "Nekomerce"
+
+#: i18n/__init__.py:208
+msgid "NonCommercial-ShareAlike"
+msgstr "Nekomerce-Samkondiĉe"
+
+#: i18n/__init__.py:209
+msgid "NonCommercial Sampling Plus"
+msgstr "Nekomerca Specimeno Plus"
+
+#: i18n/__init__.py:210
+msgid "NoDerivs"
+msgstr "Nemodifite"
+
+#: i18n/__init__.py:211
+msgid "NoDerivs-NonCommercial"
+msgstr "Nemodifite-Nekomerce"
+
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+msgid "ShareAlike"
+msgstr "Samkondiĉe"
+
+#: i18n/__init__.py:213
+msgid "Sampling"
+msgstr "Specimeno"
+
+#: i18n/__init__.py:214
+msgid "Sampling Plus"
+msgstr "Specimeno Plus"
 
 #: legal_tools/views.py:49
 msgid "Public Domain"
@@ -310,27 +382,28 @@ msgstr "Publikaĵo"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:315
+#: legal_tools/views.py:381
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:320
+#: legal_tools/views.py:383
 msgid "Public Domain List"
 msgstr ""
 
-#: templates/base.html:80
+#: templates/base.html:41
 msgid "Skip to content"
 msgstr "Transiri al enhavo"
 
-#: templates/base.html:83
+#: templates/base.html:44
 msgid "Home"
 msgstr ""
 
-#: templates/deed.html:34 templates/list.html:11
+#: templates/deed.html:5 templates/deed.html:14
+#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:41
+#: templates/deed.html:21
 msgid "See the legal code"
 msgstr ""
 
@@ -344,22 +417,22 @@ msgid ""
 "Creative Commons may elect to apply one of its public licenses to material "
 "it publishes and in those instances will be considered the \"Licensor.\" The"
 " text of the Creative Commons public licenses is dedicated to the public "
-"domain under the <a href=\"#\">CC0 Public Domain Dedication</a>. Except for "
-"the limited purpose of indicating that material is shared under a Creative "
-"Commons public license or as otherwise permitted by the Creative Commons "
-"policies published at <a "
-"href=\"creativecommons.org/policies\">creativecommons.org/policies</a>, "
-"Creative Commons without its prior written consent including, without "
-"limitation, in connection with any unauthorized modifications to any of its "
-"public licenses or any other arrangements, understandings, or agreements "
-"concerning use of licensed material. For the avoidance of doubt, this "
-"paragraph does not form part of the public licenses."
+"domain under the <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Except for the limited purpose of indicating that material "
+"is shared under a Creative Commons public license or as otherwise permitted "
+"by the Creative Commons policies published at <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, Creative Commons "
+"without its prior written consent including, without limitation, in "
+"connection with any unauthorized modifications to any of its public licenses"
+" or any other arrangements, understandings, or agreements concerning use of "
+"licensed material. For the avoidance of doubt, this paragraph does not form "
+"part of the public licenses."
 msgstr ""
 
-#: templates/includes/about_cc.html:22
+#: templates/includes/about_cc.html:28
 msgid ""
 "Creative Commons may be contacted at <a "
-"href=\"creativecommons.org\">creativecommons.org</a>."
+"href=\"//creativecommons.org\">creativecommons.org</a>."
 msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
@@ -378,88 +451,6 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
-
-#: templates/includes/cc_site_footer.html:25
-#: templates/includes/cc_site_header.html:40
-msgid "Contact"
-msgstr "Kontakto"
-
-#: templates/includes/cc_site_footer.html:26
-msgid "Privacy"
-msgstr "Privateco"
-
-#: templates/includes/cc_site_footer.html:27
-msgid "Policies"
-msgstr "Politiko"
-
-#: templates/includes/cc_site_footer.html:28
-msgid "Terms"
-msgstr "Kondiĉoj"
-
-#: templates/includes/cc_site_footer.html:35
-msgid "We'd love to hear from you!"
-msgstr "Estos por ni plezuro aŭdi pri vi!"
-
-#: templates/includes/cc_site_footer.html:44
-msgid "Frequently Asked Questions"
-msgstr "Respondaro"
-
-#: templates/includes/cc_site_header.html:11
-msgid "Menu"
-msgstr "Menuo"
-
-#: templates/includes/cc_site_header.html:16
-#: templates/includes/cc_site_header.html:27
-msgid "Share your work"
-msgstr "Kunhavigi vian verkon"
-
-#: templates/includes/cc_site_header.html:17
-#: templates/includes/cc_site_header.html:28
-msgid "Use &#038; remix"
-msgstr "Uzi &#038; aliigi"
-
-#: templates/includes/cc_site_header.html:18
-#: templates/includes/cc_site_header.html:29
-msgid "What we do"
-msgstr "Kion ni faras"
-
-#: templates/includes/cc_site_header.html:19
-#: templates/includes/cc_site_header.html:30
-msgid "Blog"
-msgstr "Blogo"
-
-#: templates/includes/cc_site_header.html:20
-#: templates/includes/cc_site_header.html:37
-msgid "Global Network"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:21
-msgid "Search the Commons"
-msgstr "Serĉi disponeblajn verkojn"
-
-#: templates/includes/cc_site_header.html:36
-msgid "Search for CC images"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:38
-msgid "Newsletters"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:39
-msgid "Store"
-msgstr ""
-
-#: templates/includes/cc_site_header.html:46
-msgid "Facebook"
-msgstr "Vizaĝlibro"
-
-#: templates/includes/cc_site_header.html:47
-msgid "Twitter"
-msgstr "Tvitero"
-
-#: templates/includes/cc_site_header.html:48
-msgid "Mail"
-msgstr "Poŝto"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -558,17 +549,9 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr "Laŭ la jenaj kondiĉoj:"
 
-#: templates/includes/deed_body_licenses.html:60
-msgid "Developing Nations"
-msgstr "Evolulandoj"
-
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
-
-#: templates/includes/deed_body_licenses.html:72
-msgid "Attribution"
-msgstr "Atribuite"
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -588,10 +571,6 @@ msgstr ""
 "modifoj</a></span>. Vi rajtas tion fari en iu ajn racia maniero, sed ne en "
 "kielo supoziganta, ke la permesinto subtenas vin aŭ vian uzon."
 
-#: templates/includes/deed_body_licenses.html:84
-msgid "NonCommercial"
-msgstr "Nekomerce"
-
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
 "You may not use the material for <a href=\"#\" "
@@ -599,10 +578,6 @@ msgid ""
 msgstr ""
 "Vi ne rajtas uzi la materialon por <a href=\"#\" "
 "id=\"commercial_purposes_popup\" class=\"helpLink\">komercaj celoj</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid "ShareAlike"
-msgstr "Samkondiĉe"
 
 #: templates/includes/deed_body_licenses.html:96
 msgid ""
@@ -778,12 +753,12 @@ msgstr ""
 "identiginto."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:88
+#: templates/legalcode.html:52
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1066,7 +1041,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:119
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1089,7 +1064,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:121
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1110,31 +1085,29 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:46 templates/list.html:12
+#: templates/legalcode.html:4 templates/legalcode.html:10
+#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
 msgid "Legal Code"
 msgstr "Jura Teksto"
 
-#: templates/legalcode.html:61
+#: templates/legalcode.html:25
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:115
+#: templates/legalcode.html:79
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:117
+#: templates/legalcode.html:81
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list.html:13
-msgid "Canonical URL"
-msgstr ""
-
-#: templates/list.html:56 templates/list.html:72
+#: templates/list-licenses.html:54 templates/list-licenses.html:70
+#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
 msgstr ""
 
-#: templates/list.html:58
+#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
 msgstr ""
 
