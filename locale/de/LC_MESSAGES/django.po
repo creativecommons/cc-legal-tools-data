@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:13:51+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/de/\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -897,34 +897,6 @@ msgstr ""
 " der Urheber des Werks sein oder eine andere Person, die Urheberrechte oder "
 "andere verwandte Schutzrechte an dem Werk gehabt hat."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Dieser Inhalt ist durch Creative-Commons, einer Non-Profit-Organisation, die"
-" auf Spenden angewiesen ist, unter einfachen rechtlichen Regeln verfügbar. "
-"Wenn Sie diesen Inhalt mögen und mögen, dass er frei für jeden ist, erwägen "
-"Sie eine Spende, um unsere Arbeit zu unterstützen."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Wenn Sie teilen, gewinnt jeder."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Noch heute zu Creative Commons beitragen"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Betrag"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Jetzt spenden"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1050,7 +1022,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Verwendung der Creative Commons Public Licenses"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1061,10 +1033,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons Public Licenses sind standardisierte Zusammenstellungen "
+"rechtlicher Bedingungen, die Urheber und andere Rechteinhaber verwenden "
+"können, um ihre selbst geschaffenen Werke und andere Materialien, die "
+"urheberrechtlich oder durch bestimmte andere Rechte geschützt sind, die "
+"unten in der Public License genauer benannt werden, zur Nutzung freizugeben."
+" Die folgenden Überlegungen haben lediglich informativen Charakter, sind "
+"keineswegs vollständig und nicht Teil unserer Lizenzen."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Überlegungen für Lizenzgeber"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1087,7 +1066,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Überlegungen für die Allgemeinheit"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

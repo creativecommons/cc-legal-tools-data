@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:36:37+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -827,33 +827,6 @@ msgstr ""
 "공표자는 CC0를 사용하여 법이 허용하는 한도 내에서 전세계에서 해당 저작물에 대한 모든 권리를 포기한 사람입니다. 공표자는 저작물의 "
 "원저작자, 저작물에 대한 일부 저작권 또는 저작인접권을 갖는 자가 될 수 있습니다."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"이 콘텐츠는 기부로 운영되는 비영리 단체인 크리에이티브 커먼즈로 인해 만들어진 간단한 법적 조건에 따라 자유롭게 이용할 수 있습니다. 이"
-" 콘텐츠가 마음에 드신다면, 그리고 이 콘텐츠를 누구나 자유롭게 이용할 수 있다는 점이 마음에 드신다면, 기부를 통해 크리에이티브 "
-"커먼즈의 활동에 지지를 보내주세요."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "지금 기부하세요"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -963,7 +936,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "크리에이티브 커먼즈 공중 라이선스의 사용"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -974,10 +947,13 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"크리에이티브 커먼즈 공중 라이선스는 창작자와 그 밖의 권리자가 아래의 공중 라이선스에 명시된 저작권과 그 밖의 특정 권리들에 의하여 "
+"보호되는 독창적인 창작물 및 그 밖의 저작물을 공유하기 위하여 사용할 수 있는 일련의 표준 약관을 제공합니다. 아래의 유의사항은 정보 "
+"제공 목적으로 제공되는 것일 뿐 그에 한정되지 않으며, 라이선스의 내용이 되는 것도 아닙니다."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "이용허락자 유의사항"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1000,7 +976,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "이용시 유의사항"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

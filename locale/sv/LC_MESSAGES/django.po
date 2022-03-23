@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:52:07+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -882,35 +882,6 @@ msgstr ""
 "ursprunglige skaparen av verket eller en annan person som hade upphovsrätt "
 "eller någon närstående rättighet till verket."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Detta innehåll är fritt tillgängligt under enkla juridiska termer eftersom "
-"Creative Commons är en ideell förening som är beroende av donationer. Om du "
-"tycker om  detta innehåll, och tycker om att det är gratis för alla, då "
-"tycker vi att du ska fundera på att bidra med en donation till stöd för vårt"
-" arbete."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "När du delar med dig så vinner alla."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Bidrag idag till Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Summa"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Donera nu!"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1029,7 +1000,7 @@ msgstr "Använd licensen för ditt eget material."
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Att använda Creative Commons Publika Licenser"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1040,10 +1011,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons publika licenser tillhandahåller en standarduppsättning "
+"villkor som skapare och andra rättighetsinnehavare kan använda för att dela "
+"originalverk och annat material som omfattas av upphovsrätt och vissa andra "
+"rättigheter som anges i den publika licensen nedan. Följande överväganden "
+"sker endast i informationssyfte, är inte uttömmande och utgör inte en del av"
+" våra licenser."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Överväganden för licensgivare"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1066,7 +1043,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Överväganden för allmänheten"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

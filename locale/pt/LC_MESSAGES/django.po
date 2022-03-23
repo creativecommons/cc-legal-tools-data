@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:45:15+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/pt/\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -889,30 +889,6 @@ msgstr ""
 "titular de alguns dos direitos de autor ou dos direitos conexos sobre o "
 "trabalho. "
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Quando partilha, toda a gente ganha."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Contribua hoje para o Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Valor"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Doar Agora"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1029,7 +1005,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Utilizando as Licenças Públicas Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1040,10 +1016,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"As licenças públicas Creative Commons oferecem um conjunto padrão de termos "
+"e condições que criadores e outros detentores de direitos podem utilizar "
+"para compartilhar obras originais de autor, outros materiais sujeitos a "
+"direito de autor e direitos conexos, e certos outros direitos especificados "
+"na licença pública abaixo. As considerações a seguir são apenas para fins de"
+" informação, não são exaustivas e não fazem parte de nossas licenças."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Considerações para licenciantes"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1066,7 +1048,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Considerações para o público"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

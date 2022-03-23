@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:05:24+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/af/\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
@@ -791,30 +791,6 @@ msgid ""
 "using CC0, to the extent allowable by law. It may be the original author of "
 "the work or another person who may have had some copyright or related or "
 "neighboring legal rights in the work."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
 msgstr ""
 
 #: templates/includes/deprecated.html:3

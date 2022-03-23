@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:49:22+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sl/\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -877,34 +877,6 @@ msgstr ""
 "dela ali pa druga oseba, ki je lahko imela nekaj avtorskih ali sorodnih "
 "pravic na delu."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Ta vsebina je prosto na voljo pod enostavnimi pravnimi pogoji zaradi "
-"Creative Commons, ki je neprofitna organizacija, ki uspe preživeti zaradi "
-"donacij. Če vam je ta vsebina všeč, in vam je všeč, da je prosto na voljo "
-"vsem, razmislite o donaciji, ki bi podprla naše delo."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Ko delite, vsi pridobijo."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Prispevajte danes k Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Znesek"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Darujte danes"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1026,7 +998,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Uporaba Creative Commons licenc"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1037,10 +1009,15 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons licence vsebujejo splošne pogoje, pod katerimi lahko "
+"ustvarjalci in drugi imetniki pravic delijo izvirna avtorska dela in druge "
+"predmete varstva avtorskih in določenih drugih pravic, kot so opredeljene v "
+"spodnji licenci. Sledeča pojasnila so namenjena zgolj informiranju, niso "
+"izčrpna in niso del licenc."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Pojasnila za dajalce licence"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1063,7 +1040,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Pojasnila za javnost"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

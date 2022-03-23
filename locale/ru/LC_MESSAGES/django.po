@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:47:56+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ru/\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -905,35 +905,6 @@ msgstr ""
 "может быть непосредственный автор произведения, либо другое лицо, имеющее "
 "авторские или смежные права на это произведение. "
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Вы перешли по ссылке, чтобы узнать лицензию произведения? Оно стало "
-"доступным для бесплатного использования на простых юридических условиях "
-"благодаря работе некоммерческой организации Creative Commons. Пожалуйста, "
-"поддержите нас пожертвованием, если вам нравится этот контент и его "
-"доступность самой широкой аудитории."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Вы поделились материалами - выиграли все!"
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Внесите свой вклад в Creative Commons сегодня"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Количество"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Пожертвовать"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1060,7 +1031,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Использование Публичных Лицензий Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1071,10 +1042,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Публичные лицензии Creative Commons представляют собой стандартный набор "
+"условий, которые создатели и иные правообладатели могут использовать для "
+"предоставления оригинальных авторских произведений и других материалов, "
+"которые охраняются авторским правом и некоторыми другими правами, указанными"
+" в тексте нижеизложенной публичной лицензии. Приведенные ниже соображения "
+"следует рассматривать исключительно в информационных целях; они не являются "
+"исчерпывающими, а также не являются составной частью наших лицензий."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Информация для лицензиаров"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1097,7 +1075,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Информация для неограниченного круга лиц"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

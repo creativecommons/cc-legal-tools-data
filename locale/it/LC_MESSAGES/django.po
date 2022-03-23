@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:33:13+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/it/\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -891,35 +891,6 @@ msgstr ""
 "l'autore originale dell'opera o un'altra persona che può avere avuto qualche"
 " diritto d'autore o diritti legali correlati o vicini nell'Opera."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Questo contenuto è distribuito liberamente sotto una licenza semplice e "
-"chiara grazie a Creative Commons, un'organizzazione senza scopo di lucro che"
-" si finanzia solamente tramite donazioni. Se trovi utile questo contenuto e "
-"pensi che anche altri possano trovarlo utile come te, potresti fare una "
-"donazione per aiutare Creative Commons a continuare la propria attività."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Quando condividi, vincono tutti."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Contribuisci oggi a Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Importo"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Fai una donazione"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1044,7 +1015,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Utilizzare le Licenze Pubbliche Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1055,10 +1026,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Le licenze pubbliche Creative Commons forniscono un modello di termini e "
+"condizioni che i creatori e altri detentori dei diritti possono utilizzare "
+"per condividere opere dell'ingegno originali ed altri materiali oggetto di "
+"diritti d'autore e di altri diritti specificati dalla licenza pubblica di "
+"seguito. Le seguenti considerazioni hanno una finalità esclusivamente "
+"informativa, non sono esaustive e non costituiscono parte delle nostre "
+"licenze."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Considerazioni per i licenzianti"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1081,7 +1059,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Considerazioni per il pubblico"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"

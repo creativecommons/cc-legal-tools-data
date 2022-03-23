@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:10:03+00:00\n"
+"PO-Revision-Date: 2022-03-23 23:20:29+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/bn/\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -835,34 +835,6 @@ msgid ""
 "the work or another person who may have had some copyright or related or "
 "neighboring legal rights in the work."
 msgstr ""
-
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"ক্রিয়েটিভ কমন্সের কারণে এই সামগ্রীটি সহজ আইনি শর্তাবলীতে বিনামূল্যে উপলব্ধ।"
-" ক্রিয়েটিভ কমন্স, একটি অলাভজনক যা অনুদানের উপর নির্ভর করে। আপনি যদি এই "
-"সামগ্রী ভালবাসেন, এবং ভালবাসেন যে এটি প্রত্যেকের জন্য বিনামূল্যে, তাহলে "
-"আমাদের কাজ সমর্থন করার জন্য দান করতে বিবেচনা করুন।"
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "যখন আপনি ভাগ করেন, সবাই জয়লাভ করে।"
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "ক্রিয়েটিভ কমন্সে আজই অবদান রাখুন"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "পরিমাণ"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "অনুদান দিন"
 
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
