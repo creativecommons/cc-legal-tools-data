@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-23 23:39:17+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:20:58+00:00\n"
 "Last-Translator: Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
@@ -454,6 +454,7 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"クリエイティブ・コモンズ・コーポレーション（「クリエイティブ・コモンズ」）は法律事務所ではなく、法律業務または法的な助言を提供するものではありません。クリエイティブ・コモンズ・パブリック・ライセンスの配布は、法律家と依頼者または他の関係性を形成するものではありません。クリエイティブ・コモンズは、ライセンスや関連する情報を現状有姿の状態で提供します。クリエイティブ・コモンズは、クリエイティブ・コモンズのライセンス自体、それらの条項のもとでライセンスされた一切のマテリアルまたは関連する情報に関し、いかなる保証も行いません。クリエイティブ・コモンズは、最大限可能な範囲で、本ライセンスの利用の結果生じた損害に関するいかなる責任も負いません。"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -970,6 +971,9 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"クリエイティブ・コモンズのパブリック・ライセンスは、著作権その他一定の権利により制限されている方法によるマテリアルの利用を公衆に対して許諾する権限を持つ方によって使われることを意図しています。クリエイティブ・コモンズのライセンスは取消すことができません。ライセンスする方は、自分が選択するライセンスを適用する前に、その条項を読み、理解するべきです。また、ライセンスする方は、公衆が期待通りにマテリアルを再利用できるようにするために、本ライセンスを適用する前に、必要となる一切の権利を取得・処理するべきです。ライセンスする方は、本ライセンスの対象とならないマテリアルを明示するべきです。これはクリエイティブ・コモンズ・ライセンスが付与された他のマテリアル、または著作権法上の例外や権利制限に基づいて利用されているマテリアルも含みます。"
+" <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">ライセンスする方のためのより詳細な留意事項はこちらをご覧ください。</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
@@ -995,6 +999,9 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"クリエイティブ・コモンズのパブリック・ライセンスの1つを利用することにより、ライセンスする方は、公衆に対し、指定された条項の下で、ライセンスされたマテリアルの利用を許諾します。たとえば、著作権法上の例外や権利制限が適用されるなど、いかなる理由であれ、ライセンスする方の許諾が必要ではない場合、その利用はライセンスにより制限されません。クリエイティブ・コモンズのライセンスは、ライセンスする方が許諾する権限を有している著作権その他一定の権利下におけるライセンスだけを付与します。ライセンスされたマテリアルは、そのマテリアルに関し第三者が著作権またはその他の権利を有しているなどの理由から、利用が制限される可能性があります。ライセンスする方は、すべての変更を表示または記述することをリクエストするなど、特別なリクエストをすることができます。クリエイティブ・コモンズ・ライセンスにより必要とされるものではありませんが、あなたは、合理的な範囲でこれらのリクエストを尊重することが奨励されます。"
+" <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">公衆のためのより詳細な留意事項はこちらをご覧ください。</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12
