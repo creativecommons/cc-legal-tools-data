@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:15:08+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:30:11+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/el/\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,17 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Το νομικό πρόσωπο Creative Commons Corporation (Creative Commons) δεν είναι "
+"συνεταιρισμός ή εταιρία δικηγόρων ούτε παρέχει νομικές υπηρεσίες. Η "
+"παραχώρηση/χορήγηση δημόσιων αδειών του Creative Commons δεν δημιουργεί "
+"κάποια σχέση δικηγόρου-πελάτη ή οποιαδήποτε άλλη σχέση. Το νομικό πρόσωπο "
+"Creative Commons διαθέτει τις άδειες του και οποιαδήποτε σχετική πληροφορία "
+"στη βάση του \"ως έχει\". Το νομικό πρόσωπο Creative Commons δεν παρέχει "
+"εγγυήσεις σε ότι αφορά τις άδειες του, για οποιοδήποτε αντικείμενο που "
+"αδειοδοτήθηκε σύμφωνα με τους δικούς του όρους και προϋποθέσεις, ή "
+"οποιαδήποτε άλλη σχετική πληροφορία. Το νομικό πρόσωπο Creative Commons "
+"αποποιείται κάθε ευθύνης για ζημιές οι οποίες προκύπτουν από τη χρήση τους "
+"στο μέγιστο δυνατό βαθμό."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -894,36 +905,6 @@ msgstr ""
 "άλλο πρόσωπο που είχε κάποιο δικαίωμα πνευματικής ιδιοκτησίας ή συγγενικό "
 "δικαίωμα επί του έργου. "
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Οι εν λόγω άδειες και τα εργαλεία προσφέρονται ελεύθερα στο κοινό με "
-"απλοποιημένους νομικούς όρους, εξαιτίας του μη κερδοσκοπικού χαρακτήρα τoυ "
-"οργανισμού Creative Commons, ο οποίος συντηρείται με δωρεές. Εάν σας αρέσουν"
-" οι παρεχόμενες από εμάς άδειες και τα εργαλεία και υποστηρίζετε την "
-"ελεύθερη διάθεσή τους σε όλους, συμβάλετε κι εσείς και υποστηρίξτε τη δράση "
-"μας με μία δωρεά."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Όταν μοιράζεσαι, όλοι βγαίνουν κερδισμένοι."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Συμβάλλετε σήμερα στον οργανισμό Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Ποσό"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Κάντε μια δωρεά τώρα"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1051,7 +1032,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Χρήση των Δημόσιων Αδειών Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1062,10 +1043,18 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Οι δημόσιες άδειες Creative Commons παρέχουν ένα συγκεκριμένο σύνολο όρων "
+"και προϋποθέσεων που μπορούν να χρησιμοποιηθούν από τους/τις δημιουργούς και"
+" από τους/τις άλλους/-ες δικαιούχους για να διανέμουν τα πρωτότυπα έργα "
+"του/της δημιουργού και άλλο υλικό το οποίο προστατεύεται με πνευματική "
+"ιδιοκτησία, καθώς και με άλλα δικαιώματα τα οποία καθορίζονται στη δημόσια "
+"άδεια πιο κάτω. Οι ακόλουθες συστάσεις είναι μόνο πληροφοριακής φύσεως, "
+"είναι ενδεικτικές κι όχι περιοριστικές και δεν αποτελούν μέρος των αδειών "
+"μας."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1085,10 +1074,26 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Οι δημόσιες άδειές μας παρέχονται για χρήση από εκείνους/-ες οι οποίοι/-ες "
+"έχουν την εξουσία να χορηγούν άδεια στο κοινό να χρησιμοποιεί το "
+"αδειοδοτούμενο έργο ή άλλο αντικείμενο με τρόπους που διαφορετικά θα "
+"περιορίζονταν από την πνευματική ιδιοκτησία και από άλλα παρόμοια "
+"δικαιώματα. Οι άδειες μας είναι μη ανακλητές. Οι χορηγούντες/-ούσες την "
+"άδεια οφείλουν να διαβάζουν και να κατανοούν τους όρους και τις προϋποθέσεις"
+" της άδειας που επιλέγουν πριν την εφαρμόσουν. Οι χορηγούντες/-ούσες την "
+"άδεια θα πρέπει επίσης να εξασφαλίσουν όλα τα αναγκαία δικαιώματα πριν "
+"εφαρμόσουν την άδεια μας έτσι ώστε το κοινό να μπορεί να επαναχρησιμοποιήσει"
+" το υλικό όπως προβλέπεται. Οι χορηγούντες/-ούσες την άδεια πρέπει να "
+"σημειώνουν καθαρά οποιοδήποτε υλικό το οποίο δεν υπόκειται στην άδεια. Αυτό "
+"περιλαμβάνει και άλλα αντικείμενα που έχουν αδειοδοτηθεί με άδεια CC ή υλικό"
+" το οποίο χρησιμοποιείται κάτω από μια εξαίρεση ή περιορισμό του δικαιώματος"
+" πνευματικής ιδιοκτησίας. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Περισσότερες"
+" συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Συστάσεις για το κοινό"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1110,6 +1115,24 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Χρησιμοποιώντας μία από τις δημόσιες άδειες μας, ο/η χορηγών/-ούσα την άδεια"
+" παραχωρεί στο κοινό την άδεια να χρησιμοποιεί το αντικείμενο της "
+"αδειοδότησης κάτω από συγκεκριμένους όρους και προϋποθέσεις. Αν η παραχώρηση"
+" άδειας δεν είναι αναγκαία για κάποιο λόγο– για παράδειγμα, επειδή "
+"εφαρμόζεται κάποια εξαίρεση ή περιορισμός στο δικαίωμα πνευματικής "
+"ιδιοκτησίας – τότε ή χρήση αυτή δεν ρυθμίζεται από την άδεια. Με τις άδειές "
+"μας ο/η Χορηγών/-ούσα την Άδεια παραχωρεί εκείνες μόνο τις εξουσίες που "
+"δικαιούται να παραχωρεί, σύμφωνα με το δίκαιο της πνευματικής ιδιοκτησίας "
+"και την προστασία άλλων παρόμοιων δικαιωμάτων. Η χρήση του αντικειμένου της "
+"αδειοδότησης μπορεί ακόμη να υπόκειται σε περιορισμούς για άλλους λόγους, "
+"περιλαμβανομένων των δικαιωμάτων πνευματικής ιδιοκτησίας ή άλλων δικαιωμάτων"
+" που τρίτοι απολαμβάνουν πάνω στο αντικείμενο της αδειοδότησης. Ο/Η "
+"χορηγών/-ούσα την άδεια έχει τη δυνατότητα να συμπεριλάβει ειδικά αιτήματα, "
+"όπως το να ζητά ότι όλες οι αλλαγές θα σημειώνονται ή θα περιγράφονται. Αν "
+"και δεν απαιτείται από τις άδειες μας, προτρέπεστε να σέβεστε τέτοια "
+"αιτήματα όταν είναι εύλογα. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Περισσότερες"
+" συστάσεις για το κοινό.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

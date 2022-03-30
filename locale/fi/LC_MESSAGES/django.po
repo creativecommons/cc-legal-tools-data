@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:23:13+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:33:34+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fi/\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (\"Creative Commons\") ei ole asianajo- tai "
+"lakiasiaintoimisto, eikä se tarjoa oikeudellisia palveluja tai neuvoja. "
+"Creative Commonsin julkisten lisenssien levittäminen ei luo toimeksianto- "
+"eikä muutakaan suhdetta. Creative Commons tarjoaa lisenssinsä ja niihin "
+"liittyvät tiedot \"sellaisena kuin ne ovat\". Creative Commons ei anna "
+"mitään takuita liittyen lisensseihinsä tai niillä julkaistuihin aineistoihin"
+" taikka muihin liitännäisiin tietoihin eikä ota mitään vastuuta vahingoista,"
+" jotka aiheutuvat niiden käytöstä, siinä määrin kuin laki tällaisen "
+"määräyksen sallii."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -890,35 +899,6 @@ msgstr ""
 "teokseen tekjänoikeus taikka lähioikeus tai muu tekijänoikeuteen liittyvä "
 "oikeus."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Tämä sisältö on Creative Commonsin ansiosta vapaasti käytettävissä "
-"yksinkertaisin käyttöehdoin. Creative Commons on voittoa tavoittelematon "
-"organisaatio, joka toimii lahjoitusten varassa. Jos arvostat tätä sisältöä "
-"ja sitä, että se on kaikkien vapaasti käytettävissä, pyydämme, että "
-"harkitset työmme tukemista lahjoituksella."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Lahjoita nyt"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1032,7 +1012,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Creative Commonsin Julkisten Lisenssien käyttö"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1043,10 +1023,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commonsin julkiset lisenssit tarjoavat vakioidut ehdot, joita "
+"teosten luojat ja muut oikeudenhaltijat voivat käyttää jakaakseen "
+"luomistyönsä itsenäisiä ja omaperäisiä tuloksia sekä muita tekijänoikeuden "
+"ja tiettyjen muiden alla olevassa julkisessa lisenssissä määriteltyjen "
+"oikeuksien alaisia sisältöjä ja aineistoja. Seuraavat huomiot on tarkoitettu"
+" vain tiedoksi, eivätkä ne ole tyhjentäviä eivätkä muodosta osaa "
+"lisensseistämme."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Huomioita lisenssinantajille"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1066,10 +1053,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Julkiset lisenssimme on tarkoitettu sellaisten tahojen käyttöön, joilla on "
+"oikeus antaa yleisölle lupa käyttää aineistoa tavoilla, joita muuten "
+"rajoittaisivat tekijänoikeus ja tietyt muut oikeudet. Lisenssejämme ei voi "
+"peruuttaa. Lisenssinantajien tulisi lukea ja ymmärtää valitsemansa lisenssin"
+" ehdot ennen lisenssin käyttämistä. Lisenssinantajien tulisi myös hankkia "
+"kaikki tarvittavat oikeudet ennen lisenssiemme käyttöä, jotta yleisö voi "
+"käyttää aineistoa uudelleen odotetulla tavalla. Lisenssinantajien tulisi "
+"selvästi merkitä kaikki aineisto, jota lisenssi ei koske. Tällaiseen "
+"aineistoon kuuluu muilla CC-lisensseillä lisensoitu aineisto sekä aineisto, "
+"jota on käytetty tekijänoikeutta koskevan poikkeuksen tai rajoituksen "
+"nojalla. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Lisää"
+" huomioita lisenssinantajille.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Huomioita yleisölle"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1091,6 +1091,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Käyttäessään jotakin julkisista lisensseistämme lisenssinantaja antaa "
+"yleisölle luvan käyttää lisensoitua aineistoa määriteltyjen ehtojen "
+"mukaisesti. Jos lisenssinantajan lupa ei jostain syystä ole tarpeen – "
+"esimerkiksi siksi, että tekijänoikeuteen soveltuu jokin poikkeus tai "
+"rajoitus – lisenssi ei rajoita tällaista käyttöä. Lisensseillämme annetaan "
+"vain sellaiset tekijänoikeuden ja tiettyjen muiden oikeuksien alaiset luvat,"
+" jotka lisenssinantaja on oikeutettu antamaan. Lisensoidun aineiston käyttö "
+"voi edelleen olla rajoitettua muista syistä, esimerkiksi siksi, että "
+"jollakulla muulla on aineistoon tekijänoikeus tai muita oikeuksia. "
+"Lisenssinantaja voi esittää erityisiä pyyntöjä, esimerkiksi pyynnön merkitä "
+"tai kuvailla kaikki aineistoon tehdyt muutokset. Vaikka lisenssi ei sitä "
+"edellytä, kannustamme sinua kunnioittamaan näitä pyyntöjä silloin, kun se on"
+" kohtuullista. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Lisää"
+" huomioita yleisölle.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

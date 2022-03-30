@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:31:56+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:37:38+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/id/\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -452,6 +452,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (\"Creative Commons\") bukanlah suatu firma "
+"hukum dan tidak memberikan layanan hukum. Distribusi lisensi publik Creative"
+" Commons tidak mengisyaratkan hubungan layaknya pengacara-klien maupun jenis"
+" hubungan lainnya. Creative Commons menyediakan lisensi dan informasi "
+"terkait berdasarkan ketentuan \"apa adanya (<em>as-is</em>)\". Creative "
+"Commons tidak memberikan jaminan atas lisensi ini, setiap materi berlisensi "
+"di bawah syarat dan ketentuan lisensi, atau setiap informasi yang terkait. "
+"Creative Commons menolak semua tanggung jawab atas kerugian yang muncul "
+"karena penggunaannya."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -883,34 +892,6 @@ msgstr ""
 "sebuah ciptaan atau orang lain yang mungkin memiliki sebagian hak cipta atau"
 " hak terkait pada sebuah ciptaan."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Konten ini tersedia secara bebas di bawah kondisi legal yang singkat berkat "
-"Creative Commons, sebuah organisasi non-profit yang bersumber dari "
-"sumbangan. Apabila Anda menyukai konten ini, dan ingin konten ini tetap "
-"tersedia secara bebas, berikan sumbangan untuk mendukung kinerja kami."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Banyaknya"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Sumbang Sekarang"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1036,7 +1017,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Menggunakan Lisensi Publik Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1047,10 +1028,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Lisensi publik Creative Commons memberikan rangkaian syarat dan ketentuan "
+"standar yang dapat digunakan oleh pencipta dan pemegang Hak-hak Serupa untuk"
+" menyebarluaskan ciptaan asli dan materi berhak cipta lainnya serta Hak-hak "
+"Serupa lainnya yang ditentukan dalam lisensi publik di bawah ini. Bagian "
+"pertimbangan di bawah ini hanya merupakan tambahan informasi, tidak "
+"mengikat, dan tidak menjadi bagian dari lisensi kami."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Pertimbangan untuk pemberi lisensi"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1070,10 +1057,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Lisensi publik Creative Commons ditujukan untuk digunakan oleh setiap orang "
+"yang berhak memberikan izin kepada pengguna untuk menggunakan materi berhak "
+"cipta dengan cara-cara yang dibatasi oleh hak cipta dan Hak-hak Serupa. "
+"Lisensi kami tidak dapat dibatalkan. Pemberi lisensi wajib membaca dan "
+"memahami syarat dan ketentuan lisensi yang dipilih sebelum menggunakannya. "
+"Pemberi lisensi juga wajib memiliki izin penggunaan Hak-hak Serupa sebelum "
+"menggunakan lisensi kami sehingga pengguna dapat menggunakan kembali materi "
+"ini sebagaimana seharusnya. Pemberi lisensi wajib menandai setiap materi "
+"yang tidak menggunakan lisensi ini. Hal ini termasuk materi yang menggunakan"
+" lisensi Creative Commons lainnya, atau materi yang digunakan di bawah "
+"pengecualian atau pembatasan hak cipta. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Pertimbangan"
+" lebih lanjut untuk pemberi lisensi.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Pertimbangan untuk pengguna"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1095,6 +1095,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Dengan menggunakan salah satu lisensi kami, pemberi lisensi memberikan izin "
+"kepada pengguna untuk menggunakan materi berlisensi di bawah syarat dan "
+"ketentuan tertentu. Apabila izin pemberi lisensi tidak diperlukan karena "
+"adanya alasan tertentu--sebagai contoh, penggunaan di bawah pengecualian "
+"atau pembatasan hak cipta--maka penggunaan tersebut tidak tunduk pada aturan"
+" lisensi ini. Lisensi kami hanya memberikan izin di bawah hak cipta dan Hak-"
+"hak Serupa yang dipegang oleh pemberi lisensi. Penggunaan materi berlisensi "
+"dapat dibatasi oleh ketentuan lain, seperti dalam hal pihak lain memiliki "
+"hak cipta atau Hak-hak Serupa atas materi tersebut. Pemberi lisensi dapat "
+"membuat permintaan tertentu, seperti meminta pengguna untuk menandai dan "
+"mendeskripsikan perubahan yang dibuat. Walau tidak ditentukan di bawah "
+"lisensi kami, Anda diharapkan untuk menghargai permintaan tersebut jika "
+"sesuai. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Pertimbangan"
+" lebih lanjut untuk pengguna.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

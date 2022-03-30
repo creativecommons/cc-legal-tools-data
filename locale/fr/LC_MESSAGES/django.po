@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:23:52+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:34:01+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fr/\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -453,6 +453,16 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (« Creative Commons ») n'est pas un cabinet "
+"d'avocats et ne donne ni services ni conseils juridiques. La mise à "
+"disposition des licences publiques Creative Commons ne crée pas de rapport "
+"analogue à celui d’un client avec son conseil­ ni aucun autre type de "
+"relation juridique. Creative Commons propose ses licences et les "
+"informations qui y sont associées telles quelles, sans aucune garantie "
+"relative à ses licences, aux œuvres mises à disposition conformément aux "
+"termes et conditions d’utilisation de ses licences, ou à toute autre "
+"information afférente. Creative Commons décline formellement toute "
+"responsabilité quant aux préjudices pouvant résulter de leur utilisation."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -895,35 +905,6 @@ msgstr ""
 "l’auteur original de l’œuvre ou une autre personne qui a pu détenir certains"
 " droits d’auteur ou des droits voisins sur l’œuvre."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Ce contenu est librement disponible, sous des termes juridiques simples, en "
-"raison l'utilisation de la licence Creative Common, un modèle à but non "
-"lucratif qui survit grâce aux dons. Si vous aimez ce contenu, et aimez qu'il"
-" soit accessible gratuitement pour tout le monde, veuillez s'il vous plaît "
-"faire un don pour soutenir notre travail."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Quand vous partagez, tout le monde est gagnant."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Contribuez dès aujourd'hui à Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Montant"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Faites un don Maintenant"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1048,7 +1029,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Utilisation des licences publiques Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1059,10 +1040,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Les licences publiques Creative Commons proposent des termes et conditions "
+"d’utilisation standardisés que les auteurs et autres titulaires de droits "
+"peuvent utiliser pour partager une œuvre originale ou toute autre œuvre "
+"protégée par le droit d'auteur et certains autres droits précisés dans la "
+"licence publique ci-dessous. Les avertissements suivants sont indiqués à "
+"titre informatif uniquement ; ils ne sont pas exhaustifs et ne font pas "
+"partie de nos licences."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Avertissements à l’attention des donneurs de licence"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1082,10 +1070,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Nos licences publiques sont conçues pour être utilisées par les auteurs et "
+"titulaires de droits dans la limite des lois et règlements en vigueur. Nos "
+"licences sont irrévocables. Les donneurs de licence doivent lire et "
+"comprendre les termes et conditions de la licence qu'ils choisissent avant "
+"de l’utiliser. Les donneurs de licence doivent également obtenir tous les "
+"droits nécessaires avant d'utiliser nos licences de façon à ce que le public"
+" puisse utiliser l’œuvre comme prévu. Les donneurs de licence doivent "
+"clairement indiquer quelle œuvre n'est pas soumise à la licence. Cela "
+"comprend les œuvres soumises à d’autres licences Creative Commons et les "
+"œuvres utilisées aux termes d'une exception ou d'une limitation du droit "
+"d'auteur. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Autres"
+" avertissements à l’attention des donneurs de licence.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Avertissements à l’attention du public"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1107,6 +1108,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Le donneur de licence qui utilise l'une de nos licences publiques accorde au"
+" public l’autorisation d’utiliser l’œuvre aux termes et conditions précisés "
+"dans la licence. Si l’autorisation du donneur de licence n'est pas "
+"nécessaire pour quelque raison que ce soit (en raison, par exemple, d’une "
+"exception ou d’une limitation applicable au droit d'auteur), cette "
+"utilisation n'est pas soumise aux termes et conditions d’utilisation de la "
+"licence. Nos licences accordent uniquement des autorisations en vertu du "
+"droit d'auteur et de certains autres droits qu'un donneur de licence a le "
+"droit d’accorder. L’utilisation de l’œuvre peut néanmoins être restreint "
+"pour d'autres raisons, par exemple, si d'autres personnes détiennent un "
+"droit d'auteur ou d'autres droits sur l’œuvre. Un donneur de licence peut "
+"formuler des demandes particulières, comme notamment que toute modification "
+"soit indiquée ou décrite. Même si cela n'est pas rendu obligatoire par nos "
+"licences, nous vous invitons à honorer ces demandes dans la mesure du "
+"possible. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Autres"
+" avertissements à l’attention du public.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

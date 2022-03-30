@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:42:35+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:44:14+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/no/\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
@@ -450,6 +450,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation («Creative Commons») er ikke et advokatfirma og"
+" tilbyr ikke juridiske tjenester eller juridisk rådgivning. Distribusjon av "
+"Creative Commons’ offentlige lisenser skaper ikke et advokat-klientforhold "
+"eller noe annet forhold. Creative Commons gjør sine lisenser og tilhørende "
+"informasjon tilgjengelig «som de er». Creative Commons gir ingen garantier "
+"for sine lisenser, materiale som er lisensiert under de vilkår og "
+"betingelser som framgår av lisensene, eller tilhørende informasjon. Creative"
+" Commons frasier seg, så langt som det er mulig, alt ansvar for skade som "
+"følger av bruken."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -877,30 +886,6 @@ msgstr ""
 "person som kan ha hatt noen opphavsrettigheter eller nærstående rettigheter "
 "i verket."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr ""
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1019,7 +1004,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Bruk av Creative Commons offentlige lisenser"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1030,10 +1015,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons offentlige lisenser tilbyr et sett av et standard sett av "
+"vilkår og betingelser som opphavspersoner og andre rettighetshavere kan "
+"bruke til å dele originale verk og annet materiale underlagt opphavsrett og "
+"visse andre rettigheter, som spesifisert i den offentlige lisensen nedenfor."
+" De påfølgende hensyn er kun til informasjon, er ikke uttømmende, og utgjør "
+"ikke en del av våre lisenser."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Hensyn for lisensgivere"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1053,10 +1044,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Hensyn for lisensgivere: Våre offentlige lisenser er ment å bli brukt av de "
+"som har rett til å gi allmennheten tillatelse til å benytte materiale på "
+"måter som ellers ville vært begrenset av opphavsrett og visse andre "
+"rettigheter. Våre lisenser er ugjenkallelige. Lisensgivere bør lese og "
+"forstå vilkårene og betingelsene i lisensen før de velger å anvende den. "
+"Lisensgivere bør også sikre alle nødvendige rettigheter før lisensen "
+"anvendes, slik at allmennheten kan gjenbruke materialet som forventet. "
+"Lisensgivere bør identifisere tydelig ethvert materiale som ikke er "
+"gjenstand for den spesifikke lisensen. Dette inkluderer materiale underlagt "
+"andre CC-lisenser, eller materiale brukt med hjemmel i et unntak eller en "
+"begrensning i lov om opphavsrett."
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Hensyn for allmennheten"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1078,6 +1080,19 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Hensyn for allmennheten: Ved å bruke en av våre offentlige lisenser, gir "
+"lisensgiveren allmennheten tillatelse til å benytte det lisensierte "
+"materialet underlagt spesifikke betingelser og vilkår. Hvis lisensgiverens "
+"tillatelse ikke er nødvendig av en eller annen grunn - for eksempel, på "
+"grunn av et gjeldende unntak eller begrensning i opphavsrett - da vil denne "
+"bruken ikke være regulert av lisensen. Våre lisenser gir bare tillatelse til"
+" opphavsrett og visse andre rettigheter som en lisensgiver har hjemmel til å"
+" gi. Bruk av det lisensierte materialet kan fremdeles være begrenset av "
+"andre årsaker, inklusive at andre har opphavsrett eller andre rettigheter i "
+"materialet. En lisensgiver kan komme med spesielle anmodninger, slik som å "
+"be om at alle endringer blir markert eller beskrevet. Selv om det ikke er "
+"påkrevd av våre lisenser, er du oppfordret til å etterleve disse "
+"anmodningene dersom de er rimelige."
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:38:27+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:42:24+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/mi/\n"
 "Language: mi\n"
 "MIME-Version: 1.0\n"
@@ -448,6 +448,16 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Ehara te Kaporeihana Creative Commons (\"Creative Commons\") i te umanga "
+"ture, kāore hoki e whakarato ana i ngā ratonga ture, ngā tohutohu ture "
+"rānei. Kāore e waihangatia ana e te tohatohanga o ngā raihana tūmatanui "
+"Creative Commons tētahi whanaungatanga rōia-kiritaki, tētahi atu "
+"whanaungatanga rānei. E whakawātea ana a Creative Commons i ōna raihana me "
+"ngā mōhiohio whai pānga i runga i \"tāu e kite ana, koia\". Kāore a Creative"
+" Commons e whakarato pūtāhui ana e pā ana ki ōna raihana, ki ngā rawa e "
+"raihanatia ana i raro i ōna ture me ōna here, me ētahi atu mōhiohio whai "
+"pānga rānei. E tino karohia rawa atu ana e Creative Commons ngā taunaha "
+"katoa mō ngā rarunga ka puta i te whakamahinga o ēnei raihana."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -813,30 +823,6 @@ msgid ""
 "neighboring legal rights in the work."
 msgstr ""
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr ""
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -942,7 +928,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Te Whakamahi Raihana Tūmatanui Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -953,10 +939,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"E whakarato ana ngā raihana tūmatanui Creative Commons i te huinga noa o ngā"
+" ture me ngā herenga ka āhei ngā kaihanga me ērā atu kaipupuri motika te "
+"whakamahi pea ki te tiritiri i ngā rawa taketake me ētahi atu rawa kei raro "
+"i te manatārua, me ētahi atu motika e tautuhia ana i te raihana tūmatanui i "
+"raro. He mea whakamōhiohio anake ngā whakaarohanga e whai ake ana, ehara i "
+"te ngaio, kāore hoki e whai wāhi ki ā mātou raihana."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Ngā whakaarohanga mō ngā kaituku raihana"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -976,10 +968,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Kua hoahoatia ā mātou raihana mā te hunga kua whakamanahia ki te tuku "
+"whakaaetanga tūmatanui mō te whakamahi rawa mā nga tikanga e rāhui kētia ana"
+" e te manatārua, e ētahi atu motika rānei. Kāore e taea te whakakore i ā "
+"mātou raihana. Me panui, me mārama anō hoki ngā kaituku raihana ki ngā ture "
+"me ngā herenga o te raihana e kōwhiri ana rātou i mua i te whakamahi. Me "
+"whakananawe ngā kaituku raihana i ngā motika katoa e hiahiatia ana i mua i "
+"te whakahāngai i ō mātou raihana kia taea ai e te iwi whānui te whakamahi "
+"anō ngā rawa mā ngā ara e tūmanakohia ana. Me tautohu mārika ngā kaituku "
+"raihana i ngā rawa kāore e herea e te raihana. Kei roto i ēnei ērā atu rawa "
+"kua raihanatia mā Creative Commons, ngā rawa rānei e whakamahia ana i runga "
+"anō i te aweretanga, herenga rānei ki te manatārua. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Ētahi"
+" whakaarohanga anō mō ngā kaituku raihana.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Ngā whakaarohanga mō te iwi whānui"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1001,6 +1006,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Mā te whakamahi i tētahi o ā mātou raihana tūmatanui ka tuku whakaaetanga te"
+" kaituku raihana ki te iwi whānui ki te whakamahi i ngā rawa kua raihanatia "
+"i raro i ngā ture me ngā herenga kua tautuhia. Mēnā kāore e hiahiatia te "
+"whakaaetanga a te kaituku raihana ahakoa te take – hei tauira, nā tētahi "
+"aweretanga, herenga rānei ki te manatārua – kāore i te tauherea taua "
+"whakamahinga e te raihana. Ka tuku anake ā mātou raihana i ngā whakaaetanga "
+"i raro i te manatārua, me ētahi atu motika kei te kaituku raihana te mana "
+"tuku. Tērā pea ka herea tonutia te whakamahinga o ngā rawa kua raihanatia nā"
+" ētahi atu pūtake, tae atu ki te mea he manatārua, he motika atu anō ō ētahi"
+" atu tāngata ki ngā rawa. Ka waihanga pea te kaituku raihana i ētahi tono "
+"motuhake, hei tauira, te tono kia tohua, kia whakaahuatia rānei ngā panoni "
+"katoa. Ahakoa kāore i te hiahiatia e ō mātou raihana, ka whakatītinatia koe "
+"ki te whakaute i aua tono ina tika tēnā. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Ētahi"
+" whakaarohanga anō mō te iwi whānui.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

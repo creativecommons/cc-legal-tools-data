@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:57:07+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:52:17+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hant/\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,11 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"本組織 Creative Commons (\"Creative Commons\") "
+"不是法律事務所，亦不提供法律服務或法律建議。散布「CC公眾授權條款」 (Creative Commons public licenses) "
+"不產生律師和客戶或其他的關係。Creative Commons 在現狀的基礎上提供其授權條款及相關資訊。Creative Commons "
+"對於其授權條款、任何依據其條款及條件所授權的素材或其他相關資訊不負保證責任。Creative Commons "
+"在最大可能範圍內免責於他人的使用所產生的損害。"
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -811,32 +816,6 @@ msgstr ""
 "宣告者 (affirmer) "
 "是在法律適用的最大範圍內，使用CC0全球性拋棄其著作權利之人。其可能是著作之原始作者，或其他對該著作擁有著作權或相關鄰接權利之人。"
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"本內容得以簡要法律文字進行自由提供，歸功於Creative "
-"Commons，這是一個依靠捐款來運作的非營利組織。如果您認同此內容，並認同每一個人都可自由地使用它，請考慮透過捐款來支持我們的工作。"
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "一人分享、眾人得利。"
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "今天開始就貢獻到創用 CC 吧"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "數量"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "現在捐款"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -938,7 +917,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "使用CC公眾授權條款"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -949,10 +928,11 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"CC公眾授權條款提供一套標準的條款及條件，供創作者以及其他權利人使用，以便他們分享原始創作及其他受著作權法及在以下公眾授權條款中指明的其他權利所保護的素材。下列約因僅供資訊參考之目的，非完整、亦不構成我們授權條款的一部份。"
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "授權人之考量："
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -972,10 +952,13 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"我們的公眾授權條款在供那些有權給予公眾許可的人使用，讓公眾得以著作權及某些其他權利所限制的方式來使用素材。我們的授權條款是不可撤回的。在適用授權條款前，授權人應閱讀及瞭解其選擇的授權條款之條款及條件。授權人亦應確保其擁有欲授與公眾的所有權利，以使公眾能依其所期再利用該等素材。授權人應清楚地標記不受本授權條款拘束的素材。這包含其他採用CC授權的素材，或依據著作權保護的限制或例外來使用的素材。"
+" <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">更多授權人之考量</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "公眾之考量："
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -997,6 +980,9 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"透過使用我們公眾授權條款的其中一種，授權人授與公眾許可得依據載明之條款及條件來使用授權素材。若授權人的許可因為任何理由而非必須，例如，因為任何對著作權保護的例外或限制，則該等使用不受本授權條款的規範。我們的授權條款只授與依據著作權及某些其他權利，授權人有權為此授權的許可。使用授權素材可能仍會因其他原因而受限制，包含因為其他人對此素材有著作權或其他權利。授權人得提出特別要求，如要求需標記或描述所有修改過的部分。雖然我們的授權條款沒有這樣要求，仍鼓勵您尊重那些要求中合理者。"
+" <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">更多公眾之考量</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:12:34+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:28:50+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/cs/\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (\"Creative Commons\") není advokátní kancelář "
+"ani neposkytuje právní služby nebo právní poradenství. Šířením textů "
+"veřejných licencí Creative Commons nevzniká vztah příkazního typu nebo jiný "
+"takový obdobný vztah. Creative Commons Corporation poskytuje texty veřejných"
+" licencí a související informace tak, jak jsou. Creative Commons Corporation"
+" neodpovídá za texty veřejných licencí ani za obsah licencovaný za těchto "
+"licenčních podmínek ani za související informace. Creative Commons "
+"Corporation v maximální možné míře vylučuje veškerou odpovědnost za újmu, "
+"která vznikne v důsledku jejich použití."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -885,34 +894,6 @@ msgstr ""
 "původního díla, držitele autorských práv nebo práv s autorským právem "
 "souvisejících."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Tento obsah je volně dostupný díky jednoduchým právním podmínkám organizace "
-"Creative Commons, neziskové organizaci, která může existovat pouze díky "
-"příspěvkům dárců. Pokud se Vám tato iniciativa líbí a líbí se Vám, že je pro"
-" všechny zdarma, zvažte prosím, že podpoříte tuto činnost svým příspěvkem."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Když sdílíte, každý vyhrává."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Přispějte Creative Commons"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Množství"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Přispět nyní"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1035,7 +1016,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Používání Veřejných licencí Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1046,10 +1027,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Texty veřejných licencí Creative Commons představují standardizovaný soubor "
+"licenčních podmínek, které mohou autoři nebo další nositelé práv použít pro "
+"sdílení chráněných autorských děl a dalšího obsahu podléhajícímu autorským "
+"právům a dalším právům uvedeným níže v této veřejné licenci. Následující "
+"upozornění slouží pouze pro informační účely, nejsou vyčerpávající a nejsou "
+"součástí těchto licencí."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Upozornění pro poskytovatele licence"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1069,10 +1056,22 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Tyto veřejné licence jsou určeny osobám oprávněným poskytovat veřejnosti "
+"oprávnění k užití obsahu způsobem, který je jinak vyhrazen vykonavatelům "
+"autorských a některých dalších práv. Tyto licence jsou neodvolatelné. "
+"Poskytovatelé by si měli licenční podmínky řádně prostudovat tak, aby jim "
+"porozuměli dříve, než se je rozhodnou použít. Poskytovatelé by si také před "
+"použitím těchto licencí měli zajistit veškerá potřebná práva tak, aby mohla "
+"veřejnost dílo užít předpokládaným způsobem. Poskytovatelé by měli "
+"jednoznačně označit veškerý obsah, na který se licence nevztahují, a to "
+"včetně dalších děl poskytnutých pod licencemi CC nebo materiály užité na "
+"základě výjimky či omezení autorských práv. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Další"
+" upozornění pro poskytovatele.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Upozornění pro veřejnost"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1094,6 +1093,20 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Použitím některé z těchto veřejných licencí poskytuje poskytovatel "
+"veřejnosti oprávnění k užití licencovaného obsahu za stanovených licenčních "
+"podmínek. Pokud z nějakého důvodu není souhlas poskytovatele nutný, "
+"například z důvodu uplatnění některé výjimky nebo omezení autorského práva, "
+"potom se na dané užití tato licence nevztahuje. Na základě těchto licencí "
+"jsou poskytována pouze oprávnění k výkonu autorských a některých dalších "
+"práv, která je poskytovatel oprávněn poskytovat. Užití licencovaného obsahu "
+"může být přesto omezeno z dalších důvodů, například proto, že nositelem "
+"autorských, či dalších práv k němu se vztahujících, je někdo jiný. "
+"Poskytovatel může vznést zvláštní požadavky, například požádat o to, aby "
+"byly označeny nebo popsány veškeré změny. Ačkoli to tyto licence nevyžadují,"
+" nabádáme Vás, abyste tyto požadavky respektovali, pokud jsou přiměřené. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Další"
+" upozornění pro veřejnost.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

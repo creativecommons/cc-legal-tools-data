@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:28:33+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:36:26+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/hr/\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Pravni subjekt Creative Commons (\"Creative Commons\") nije odvjetnički ured"
+" i ne pruža pravne usluge ili savjete. Distribuiranje ove Creative Commons "
+"licence ne uspostavlja odnos pravnog zastupanja ili bilo kakav drugi odnos. "
+"Creative Commons stavlja na raspolaganje svoje licence i pripadajuće "
+"informacije \"takve kakve jesu\". Creative Commons ne daje nikakva jamstva u"
+" pogledu tih licenci, u pogledu materijala koji su ponuđeni pod njihovim "
+"odredbama i uvjetima, niti u pogledu pripadajućih informacija. U najvećoj "
+"mjeri u kojoj je to zakonski moguće, Creative Commons ne preuzima "
+"odgovornost za bilo kakvu štetu koja bi mogla nastati njihovim korištenjem."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -879,34 +888,6 @@ msgstr ""
 " mjeri u kojoj to zakon dopušta. Riječ je o izvornom autoru djela ili nekoj "
 "drugoj osobi koja je možda imala neko autorsko ili srodna prava u djelu."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Ovaj sadržaj je slobodno dostupan pod jednostavnim pravnim uvjetima zbog "
-"Creative Commonsa, neprofitne organizacije čije djelovanje ovisi o "
-"donacijama. Ako Vam se sviđa ovaj sadržaj, i ako Vam se sviđa da je slobodan"
-" za sve, razmotrite da donacijom podržite naš rad."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr ""
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Iznos"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Donirajte"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1029,7 +1010,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Korištenje Creative Commons javnih licenci"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1040,10 +1021,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons javne licence nude standardizirani skup odredbi i uvjeta "
+"koje autori i drugi nositelji prava mogu koristiti kako bi podijelili "
+"originalna autorska djela i druge materijale koji su predmet zaštite "
+"temeljem autorskog prava i određenih drugih prava koja su niže navedena u "
+"ovoj javnoj licenci. Napomene koje slijede imaju informativnu funkciju, nisu"
+" sveobuhvatne i nisu dio naših licenci."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Što davatelji licence trebaju imati na umu"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1063,10 +1050,23 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Naše javne licence namijenjene su onima koji imaju zakonsko pravo dati "
+"dopuštenje da se materijal koristi na načine koji su inače ograničeni "
+"autorskim pravom i određenim drugim pravima. Naše licence su neopozive. "
+"Davatelji licence trebaju pročitati i razumjeti odredbe i uvjete licence "
+"prije nego što se odluče primijeniti licencu. Davatelji licence bi, također,"
+" prije nego što primijene neku od naših licenci, trebali osigurati sva prava"
+" koja su potrebna kako bi javnost mogla dalje koristiti materijal u skladu s"
+" očekivanjima. Davatelji licence trebaju jasno naznačiti svaki materijal "
+"koji nije predmet licence. To uključuje druge materijale pod CC licencama, "
+"kao i materijale koji se koriste temeljem iznimki ili ograničenja autorskog "
+"prava. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Daljnje"
+" napomene za davatelje licenci.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Što javnost treba imati na umu"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1088,6 +1088,20 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Upotrebom neke od naših licenci davatelj licence javnosti daje dopuštenje da"
+" koristi licencirani materijal pod navedenim odredbama i uvjetima. Ako "
+"dopuštenje davatelja licence iz bilo kojeg razloga nije potrebno – "
+"primjerice, zbog iznimki ili ograničenja autorskog prava – onda takvo "
+"korištenje materijala licenca ne regulira. Naše licence daju dopuštenja samo"
+" temeljem autorskog prava i određenih drugih prava koje davatelj licence ima"
+" pravne osnove dati. Međutim, korištenje licenciranog materijala može i "
+"dalje biti ograničeno iz drugih razloga, uključujući i to da drugi polažu "
+"autorsko pravo ili druga prava na materijal. Davatelj licence može "
+"postavljati posebne zahtjeve – primjerice tražiti da se sve izmjene naznače "
+"i opišu. Iako to naše licence ne zahtijevaju, savjetujemo Vam da poštujete "
+"te zahtjeve tamo gdje je to razumno izvedivo. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Daljnje"
+" napomene za javnost.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12

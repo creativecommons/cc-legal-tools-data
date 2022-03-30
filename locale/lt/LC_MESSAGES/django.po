@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:37:16+00:00\n"
+"PO-Revision-Date: 2022-03-24 00:40:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/lt/\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -451,6 +451,17 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation („Creative Commons\") nėra teisines paslaugas "
+"teikianti įmonė ir neteikia teisinių paslaugų ar konsultacijų. Viešųjų "
+"Creative Commons licencijų platinimas nesukuria santykio tarp teisines "
+"paslaugas teikiančio asmens ir kliento, nei jokio kito teisinio santykio. "
+"Creative Commons savo licencijas ir su jomis susijusią informaciją "
+"vartotojams pateikia naudoti tokias, kokios jos yra jų pateikimo metu savo "
+"(vartotojų) rizika. Creative Commons neteikia jokių garantijų savo "
+"licencijoms, bet kokiems pagal jų sąlygas licencijuojamiems objektams ar bet"
+" kuriai susijusiai informacijai. Creative Commons maksimalia įmanoma "
+"apimtimi neprisiima atsakomybės dėl žalos ir nuostolių, kylančių dėl jų "
+"panaudojimo."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -881,34 +892,6 @@ msgstr ""
 "objektą naudodamas CC0. Tai gali būti jo autorius ar kitas asmuo, kuris "
 "turėjo dalį autorių teisių ar susijusių, ar gretutinių teisių į objektą."
 
-#: templates/includes/deed_donate_slide.html:7
-msgid ""
-"This content is freely available under simple legal terms because of "
-"Creative Commons, a non-profit that survives on donations. If you love this "
-"content, and love that it's free for everyone, please consider a donation to"
-" support our work."
-msgstr ""
-"Šis turinys yra laisvai prieinamas vadovaujantis paprastomis teisinėmis "
-"taisyklėmis dėl Creative Commons, ne pelno siekiančios organizacijos, "
-"veikiančios dėl aukojamų lėšų. Jei Jums patinka šis turinys, ir patinka tai,"
-" kad jis laisvai prieinamas visiems, apsvarstykite paramą mūsų darbui."
-
-#: templates/includes/deed_donate_slide.html:8
-msgid "When you share, everyone wins."
-msgstr "Kai dalijatės, laimi visi."
-
-#: templates/includes/deed_donate_slide.html:14
-msgid "Contribute today to Creative Commons"
-msgstr "Prisidėkite prie Creative Commons šiandien"
-
-#: templates/includes/deed_donate_slide.html:35
-msgid "Amount"
-msgstr "Suma"
-
-#: templates/includes/deed_donate_slide.html:42
-msgid "Donate Now"
-msgstr "Paaukokite dabar"
-
 #: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
@@ -1033,7 +1016,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Viešųjų Creative Commons licencijų naudojimas"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1044,10 +1027,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Viešosiose Creative Commons licencijose pateikiamas standartinių sąlygų "
+"rinkinys, kurį kūrėjai bei kiti teisių turėtojai gali naudoti dalijimuisi "
+"originaliais autoriniais darbais bei kitais objektais, kuriems galioja "
+"autorinės ir kitos teisės, nurodytos žemiau licencijos tekste. Žemiau "
+"išvardintos aplinkybės yra nurodytos informavimo tikslais, nėra išsamios ir "
+"nėra mūsų licencijų sudėtine dalimi."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Licenciarams (licencijos davėjams) svarbios aplinkybės"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
 msgid "Show Considerations for Licensors"
@@ -1067,10 +1056,22 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Mūsų Viešosios licencijos skirtos naudoti tiems asmenims, kurie turi teisę "
+"leisti naudoti tam tikrus objektus tokiais būdais, kuriais teisė juos "
+"naudoti be tokio leidimo draudžia. Mūsų licencijos neatšaukiamos. Prieš "
+"licenciją panaudojant Licenciarams rekomenduojame perskaityti ir suprasti "
+"pasirinktos licencijos sąlygas. Licenciarai, prieš panaudodami mūsų "
+"licencijas, turi užtikrinti visas reikalingas teises tam, kad visuomenė "
+"galėtų naudotis objektais taip, kaip numatyta (tikimasi). Ta pateikiamų "
+"objektų dalis, kuriai licencija nėra taikoma, turėtų būti licenciarų aiškiai"
+" pažymėta, įskaitant objektus, kurie nėra licencijuojami CC licencijomis bei"
+" objektus, kuriems taikomos autorių teisių išimtys ar apribojimai. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Daugiau"
+" licenciarams svarbių aplinkybių.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Visuomenei svarbios aplinkybės"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
 msgid "Show Considerations for the Public"
@@ -1092,6 +1093,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Panaudodamas kurią nors iš mūsų viešai prieinamų licencijų, licenciaras "
+"(licencijos davėjas) suteikia viešą leidimą naudoti licencijuojamą objektą "
+"pagal aiškiai apibrėžtas sąlygas. Jei dėl bet kokios priežasties licenciaro "
+"sutikimas nėra reikalingas – pavyzdžiui, dėl bet kokio taikytino autoriaus "
+"teisių apribojimo ar išimties – tokiu atveju atitinkamam naudojimo būdui "
+"licencija netaikytina. Mūsų licencijos suteikia tik tokias autorių ir kai "
+"kurias kitas teises, kurias suteikti turi teisę licenciaras. Licencijuojamų "
+"Objektų naudojimas vis tiek gali būti ribojamas dėl kitų priežasčių, "
+"įskaitant ir dėl to, kad kiti asmenys gali turėti autorines ar kitas teises "
+"į atitinkamus objektus. Licenciaras gali nustatyti tam tikrus specifinius "
+"reikalavimus, pavyzdžiui, kad visi atliekami pakeitimai būtų pažymėti arba "
+"aprašyti. Nors mūsų licencijos to nereikalauja, mes skatiname į tokius "
+"reikalavimus, kai jie pagrįsti, atsižvelgti. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Daugiau"
+" licenciatams (licencijų gavėjams) svarbių aplinkybių.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12
