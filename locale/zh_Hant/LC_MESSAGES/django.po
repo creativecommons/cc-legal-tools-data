@@ -382,11 +382,11 @@ msgstr "公眾領域"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:381
+#: legal_tools/views.py:421
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:383
+#: legal_tools/views.py:423
 msgid "Public Domain List"
 msgstr ""
 
@@ -726,12 +726,12 @@ msgid ""
 msgstr "當使用或引用該著作時，不得暗喻作者或指認該著作之人，為你的行為背書。"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -829,21 +829,13 @@ msgstr ""
 "宣告者 (affirmer) "
 "是在法律適用的最大範圍內，使用CC0全球性拋棄其著作權利之人。其可能是著作之原始作者，或其他對該著作擁有著作權或相關鄰接權利之人。"
 
-#: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
+#: templates/includes/disclaimer_deprecated.html:3
+#: templates/includes/disclaimer_newer_license.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "免責聲明"
-
-#: templates/includes/deprecated.html:5
-msgid ""
-"Creative Commons has <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
-"tool</a> and does not recommend that it be applied to works."
-msgstr ""
-"創用CC已 <a href=\"http://creativecommons.org/retiredlicenses\">棄用這個授權工具</a> "
-"，並且不建議你在新作品中使用它。"
 
 #: templates/includes/disclaimer_40.html:5
 msgid ""
@@ -868,6 +860,24 @@ msgid ""
 "the US. For dedicating new works to the public domain, we recommend <a "
 "href=\"/choose/zero/\">CC0</a>."
 msgstr "此工具基於美國法，可能不適用於美國以外。若要貢獻新作品於公眾領域，我們建議<a href=\"/choose/zero/\">CC0</a> 。"
+
+#: templates/includes/disclaimer_deprecated.html:5
+msgid ""
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
+msgstr ""
+"創用CC已 <a href=\"http://creativecommons.org/retiredlicenses\">棄用這個授權工具</a> "
+"，並且不建議你在新作品中使用它。"
+
+#: templates/includes/disclaimer_newer_license.html:5
+msgid ""
+"This is an older version of this license. Compared to previous versions, the"
+" 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
+"friendly and more internationally robust</a>. If you are <a "
+"href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
+"use of the 4.0 license instead:"
+msgstr ""
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -947,7 +957,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr "授權人之考量："
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -973,7 +983,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr "公眾之考量："
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1006,11 +1016,11 @@ msgstr "法律條款"
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:79
+#: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:81
+#: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
 msgstr ""
 
