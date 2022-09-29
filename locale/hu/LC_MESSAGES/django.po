@@ -380,11 +380,11 @@ msgstr "Közkincs"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:381
+#: legal_tools/views.py:421
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:383
+#: legal_tools/views.py:423
 msgid "Public Domain List"
 msgstr ""
 
@@ -737,12 +737,12 @@ msgid ""
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -848,22 +848,13 @@ msgstr ""
 "volt valamiféle szerzői joga,  kapcsolódó vagy szomszédos joga az alkotásra "
 "vonatkozólag."
 
-#: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
+#: templates/includes/disclaimer_deprecated.html:3
+#: templates/includes/disclaimer_newer_license.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "Figyelmeztetés"
-
-#: templates/includes/deprecated.html:5
-msgid ""
-"Creative Commons has <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
-"tool</a> and does not recommend that it be applied to works."
-msgstr ""
-"A Creative Commons <a "
-"href=\"http://creativecommons.org/retiredlicenses\">visszavonta ezt a jogi "
-"eszközt</a>, és nem javasolja a használatát."
 
 #: templates/includes/disclaimer_40.html:5
 msgid ""
@@ -897,6 +888,25 @@ msgstr ""
 "Ez az eszköz az Amerikai Egyesült Államok törvényein alapszik, és nem "
 "alkalmazható az Egyesült Államokon kívül. Új alkotások közkinccsé "
 "nyilvánításához a <a href=\"/choose/zero/\">CC0</a>-t ajánljuk."
+
+#: templates/includes/disclaimer_deprecated.html:5
+msgid ""
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
+msgstr ""
+"A Creative Commons <a "
+"href=\"http://creativecommons.org/retiredlicenses\">visszavonta ezt a jogi "
+"eszközt</a>, és nem javasolja a használatát."
+
+#: templates/includes/disclaimer_newer_license.html:5
+msgid ""
+"This is an older version of this license. Compared to previous versions, the"
+" 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
+"friendly and more internationally robust</a>. If you are <a "
+"href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
+"use of the 4.0 license instead:"
+msgstr ""
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -975,7 +985,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -998,7 +1008,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr ""
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1028,11 +1038,11 @@ msgstr "Jogi szöveg"
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:79
+#: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:81
+#: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
 msgstr ""
 

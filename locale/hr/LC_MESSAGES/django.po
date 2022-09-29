@@ -382,11 +382,11 @@ msgstr "Javno dobro"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:381
+#: legal_tools/views.py:421
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:383
+#: legal_tools/views.py:423
 msgid "Public Domain List"
 msgstr ""
 
@@ -785,12 +785,12 @@ msgstr ""
 "id=\"endorsement\">izravno podržavaju</a>."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -908,22 +908,13 @@ msgstr ""
 " mjeri u kojoj to zakon dopušta. Riječ je o izvornom autoru djela ili nekoj "
 "drugoj osobi koja je možda imala neko autorsko ili srodna prava u djelu."
 
-#: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
+#: templates/includes/disclaimer_deprecated.html:3
+#: templates/includes/disclaimer_newer_license.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "Upozorenje"
-
-#: templates/includes/deprecated.html:5
-msgid ""
-"Creative Commons has <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
-"tool</a> and does not recommend that it be applied to works."
-msgstr ""
-"Creative Commons je <a "
-"href=\"http://creativecommons.org/retiredlicenses\">upokojio taj pravni "
-"instrument</a> i ne preporuča da ga se koristi za djela."
 
 #: templates/includes/disclaimer_40.html:5
 msgid ""
@@ -956,6 +947,25 @@ msgstr ""
 "Ovaj pravni instrument se temelji na pravnom sustavu Sjedinjenih Američkih "
 "Država i može ne se koristiti u drugim zemljama. Za prenošenje novih djela u"
 " javno dobro preporučamo <a href=\"/choose/zero/\">CC0</a>."
+
+#: templates/includes/disclaimer_deprecated.html:5
+msgid ""
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
+msgstr ""
+"Creative Commons je <a "
+"href=\"http://creativecommons.org/retiredlicenses\">upokojio taj pravni "
+"instrument</a> i ne preporuča da ga se koristi za djela."
+
+#: templates/includes/disclaimer_newer_license.html:5
+msgid ""
+"This is an older version of this license. Compared to previous versions, the"
+" 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
+"friendly and more internationally robust</a>. If you are <a "
+"href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
+"use of the 4.0 license instead:"
+msgstr ""
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -1052,7 +1062,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr "Što davatelji licence trebaju imati na umu"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1088,7 +1098,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr "Što javnost treba imati na umu"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1132,11 +1142,11 @@ msgstr "Pravni tekst licence"
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:79
+#: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:81
+#: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
 msgstr ""
 

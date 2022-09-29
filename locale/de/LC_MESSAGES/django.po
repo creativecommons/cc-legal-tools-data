@@ -383,11 +383,11 @@ msgstr "Public Domain (gemeinfreie oder nicht-schützbare Inhalte)"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:381
+#: legal_tools/views.py:421
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:383
+#: legal_tools/views.py:423
 msgid "Public Domain List"
 msgstr ""
 
@@ -802,12 +802,12 @@ msgstr ""
 "stillschweigend angedeutet werden."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:52
+#: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -928,22 +928,13 @@ msgstr ""
 " der Urheber des Werks sein oder eine andere Person, die Urheberrechte oder "
 "andere verwandte Schutzrechte an dem Werk gehabt hat."
 
-#: templates/includes/deprecated.html:3
 #: templates/includes/disclaimer_40.html:3
 #: templates/includes/disclaimer_certification.html:3
+#: templates/includes/disclaimer_deprecated.html:3
+#: templates/includes/disclaimer_newer_license.html:3
 #: templates/includes/disclaimer_zero.html:9
 msgid "Disclaimer"
 msgstr "Haftungsbeschränkung"
-
-#: templates/includes/deprecated.html:5
-msgid ""
-"Creative Commons has <a "
-"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
-"tool</a> and does not recommend that it be applied to works."
-msgstr ""
-"Creative Commons hat dieses <a "
-"href=\"http://creativecommons.org/retiredlicenses\">rechtliche Werkzeug "
-"zurückgezogen</a> und empfiehlt nicht, es weiter für Werke zu verwenden."
 
 #: templates/includes/disclaimer_40.html:5
 msgid ""
@@ -977,6 +968,25 @@ msgstr ""
 "Diese Werkzeug basiert auf US-amerikanischem Recht und könnte außerhalb der "
 "USA wirkungslos sein. Um Werke in die Gemeinfreiheit bzw. die Public Domain "
 "zu entlassen, empfehlen wird <a href=\"/choose/zero/\">CC0</a>."
+
+#: templates/includes/disclaimer_deprecated.html:5
+msgid ""
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
+msgstr ""
+"Creative Commons hat dieses <a "
+"href=\"http://creativecommons.org/retiredlicenses\">rechtliche Werkzeug "
+"zurückgezogen</a> und empfiehlt nicht, es weiter für Werke zu verwenden."
+
+#: templates/includes/disclaimer_newer_license.html:5
+msgid ""
+"This is an older version of this license. Compared to previous versions, the"
+" 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
+"friendly and more internationally robust</a>. If you are <a "
+"href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
+"use of the 4.0 license instead:"
+msgstr ""
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -1076,7 +1086,7 @@ msgstr ""
 msgid "Considerations for licensors"
 msgstr "Überlegungen für Lizenzgeber"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:83
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
 msgstr ""
 
@@ -1114,7 +1124,7 @@ msgstr ""
 msgid "Considerations for the public"
 msgstr "Überlegungen für die Allgemeinheit"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:85
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
 msgstr ""
 
@@ -1161,11 +1171,11 @@ msgstr "Lizenzvertrag"
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:79
+#: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:81
+#: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
 msgstr ""
 
