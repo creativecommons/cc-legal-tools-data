@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2022
+# Konstantinos Stampoulis, 2022
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-30 22:06:49+00:00\n"
+"PO-Revision-Date: 2022-10-15 18:41:02+00:00\n"
+"Last-Translator: Konstantinos Stampoulis, 2022\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/el/\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +41,7 @@ msgstr "Παγκόσμια"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Αρμενία"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -128,7 +133,7 @@ msgstr "Γαλλία"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Γεωργία"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -188,7 +193,7 @@ msgstr "Λουξεμβούργο"
 
 #: i18n/__init__.py:164
 msgid "Macedonia"
-msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+msgstr "Βόρεια Μακεδονία"
 
 #: i18n/__init__.py:165
 msgid "Malta"
@@ -332,7 +337,7 @@ msgid ""
 "Certification"
 msgstr ""
 "Πνευματικά δικαιώματα-Μόνο εκχώρηση (βασισμένο στο νόμο των ΗΠΑ) ή "
-"πιστοποίηση δημόσιου τομέα"
+"πιστοποίηση κοινού κτήματος"
 
 #: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
 msgid "Developing Nations"
@@ -340,7 +345,7 @@ msgstr "Αναπτυσσόμενα Έθνη"
 
 #: i18n/__init__.py:206
 msgid "Public Domain Mark"
-msgstr "Σήμα Δημόσιου Τομέα"
+msgstr "Σήμα Κοινού Κτήματος"
 
 #: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"

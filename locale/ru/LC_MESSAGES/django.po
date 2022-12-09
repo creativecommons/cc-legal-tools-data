@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-07-11 12:46:41+00:00\n"
+"PO-Revision-Date: 2022-10-13 21:31:15+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ru/\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "Ирландия"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Межправительственная организация"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -396,7 +396,7 @@ msgstr "Список лицензий"
 
 #: legal_tools/views.py:423
 msgid "Public Domain List"
-msgstr ""
+msgstr "Список публичных доменов"
 
 #: templates/base.html:41
 msgid "Skip to content"
@@ -404,16 +404,16 @@ msgstr "Перейти к контенту"
 
 #: templates/base.html:44
 msgid "Home"
-msgstr ""
+msgstr "Главная страница"
 
 #: templates/deed.html:5 templates/deed.html:14
 #: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
-msgstr ""
+msgstr "Краткое описание"
 
 #: templates/deed.html:21
 msgid "See the legal code"
-msgstr ""
+msgstr "См. юридический текст"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -467,7 +467,7 @@ msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "О лицензии и Creative Commons"
 
 #: templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -518,6 +518,31 @@ msgid ""
 "commercial, and in any way, including by methods that have not yet been "
 "invented or conceived.</p>"
 msgstr ""
+"<p>Лицо или лица, связавшие работу с этим документом (\"Посвятитель\" или "
+"\"Заверяющий\"), настоящим либо (a) удостоверяет, что, насколько ему "
+"известно, указанное авторское произведение является общественным достоянием "
+"страны, в которой публикуется работа, либо (b) настоящим передает все "
+"авторские права на авторское произведение, указанное ниже "
+"(\"Произведение\"), в общественное достояние. Кроме того, удостоверяющий "
+"передаёт любые авторские права, которые он может иметь на соответствующее "
+"произведение, и для этих целей ниже описывается как \"посвящающий\".</p> "
+"<p>Удостоверяющий предпринял разумные шаги для проверки авторского статуса "
+"этого произведения. Сертифицирующий признаёт, что его добросовестные усилия "
+"не могут защитить его от ответственности, если на самом деле "
+"сертифицированная работа не является общественным достоянием.</p> "
+"<p>Посвящающий делает это посвящение на благо широкой общественности и в "
+"ущерб наследникам и преемникам Посвящающего. Посвящающий намеревается, что "
+"это посвящение является открытым актом отказа на вечные времена от всех "
+"настоящих и будущих прав по закону об авторском праве, как наделённых, так и"
+" условных, на произведение. Посвящающий понимает, что такой отказ от всех "
+"прав включает в себя отказ от всех прав на принудительное исполнение (в "
+"судебном порядке или иным образом) авторских прав на произведение.</p> "
+"<p>Посвящающий признаёт, что после перехода в общественное достояние "
+"произведение может свободно воспроизводиться, распространяться, "
+"передаваться, использоваться, изменяться, создаваться на основе или иным "
+"образом эксплуатироваться любым лицом в любых целях, коммерческих или "
+"некоммерческих, и любым способом, включая методы, которые ещё не были "
+"изобретены или придуманы.</p>"
 
 #: templates/includes/deed_body_licenses.html:7
 msgid "You are free to:"
@@ -597,6 +622,8 @@ msgstr "При обязательном соблюдении следующих 
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
+"Вы можете пользоваться вышеуказанными свободами только в развивающихся "
+"странах. "
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -810,13 +837,15 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
 msgid "Unimplemented"
-msgstr ""
+msgstr "Неосуществленное"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"данный правовой инструмент не имеет действующего шаблона. Пожалуйста, "
+"сообщите об этой проблеме:"
 
 #: templates/includes/deed_body_zero.html:12
 msgid ""
@@ -849,6 +878,12 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
+"CC0 никоим образом не затрагивает патентные права или права на товарный знак"
+" любого лица, а также права, которые другие лица могут иметь на произведение"
+" или на то, как это произведение используется, например, права на <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">публичность или "
+"конфиденциальность</a>."
 
 #: templates/includes/deed_body_zero.html:26
 msgid ""
@@ -997,6 +1032,11 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"Это более старая версия данной лицензии. По сравнению с предыдущими "
+"версиями, версии 4.0 всех лицензий CC стали <a href=\"/version4/\">более "
+"удобными для пользователя и более надёжными с международной точки "
+"зрения</a>. Если вы <a href=\"/choose/\"> лицензируете своё собственное "
+"произведение</a>, мы настоятельно рекомендуем использовать лицензию 4.0:"
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -1046,7 +1086,7 @@ msgstr "Доступные языки"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: templates/includes/related_links.html:9
 msgid ""
@@ -1054,22 +1094,26 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"Creative Commons - это некоммерческая организация, стоящая за открытыми "
+"лицензиями и другими правовыми инструментами, которые позволяют авторам "
+"делиться своими произведениями. Наши правовые инструменты бесплатны для "
+"использования."
 
 #: templates/includes/related_links.html:17
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Узнайте больше о нашей деятельности"
 
 #: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Узнайте больше о лицензиях CC"
 
 #: templates/includes/related_links.html:20
 msgid "Support our work"
-msgstr ""
+msgstr "Поддержите нашу деятельность"
 
 #: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Используйте лицензию для своих собственных материалов."
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1098,7 +1142,7 @@ msgstr "Информация для лицензиаров"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "Показать рекомендации для лицензирующих"
 
 #: templates/includes/use_of_licenses.html:23
 msgid ""
@@ -1136,7 +1180,7 @@ msgstr "Информация для неограниченного круга л
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "Показать рекомендации для общественности"
 
 #: templates/includes/use_of_licenses.html:42
 msgid ""
@@ -1178,25 +1222,25 @@ msgstr "юридический текст"
 
 #: templates/legalcode.html:25
 msgid "See the deed"
-msgstr ""
+msgstr "Ознакомиться с кратким описанием"
 
 #: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Скрыть рекомендации для лицензирующих"
 
 #: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "Скрыть рекомендации для общественности"
 
 #: templates/list-licenses.html:54 templates/list-licenses.html:70
 #: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
-msgstr ""
+msgstr "Правовые инструменты"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Перенаправление на:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-23 23:23:52+00:00\n"
+"PO-Revision-Date: 2022-12-06 17:02:24+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/da/\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Universel"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Armenien"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -52,7 +52,7 @@ msgstr "Australien"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaijan"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -128,7 +128,7 @@ msgstr "Frankrig"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Georgien"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -156,7 +156,7 @@ msgstr "Irland"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Mellemstatslig organisation"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -380,15 +380,15 @@ msgstr "Public domain"
 
 #: legal_tools/views.py:51
 msgid "Licenses"
-msgstr ""
+msgstr "Licenser"
 
 #: legal_tools/views.py:421
 msgid "Licenses List"
-msgstr ""
+msgstr "Licensliste"
 
 #: legal_tools/views.py:423
 msgid "Public Domain List"
-msgstr ""
+msgstr "Public domain liste"
 
 #: templates/base.html:41
 msgid "Skip to content"
@@ -396,7 +396,7 @@ msgstr "Spring til indholdet"
 
 #: templates/base.html:44
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: templates/deed.html:5 templates/deed.html:14
 #: templates/list-licenses.html:11 templates/list-publicdomain.html:11
@@ -405,11 +405,11 @@ msgstr ""
 
 #: templates/deed.html:21
 msgid "See the legal code"
-msgstr ""
+msgstr "Se den juridiske tekst"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Side ikke fundet"
 
 #: templates/includes/about_cc.html:10
 msgid ""
@@ -430,16 +430,35 @@ msgid ""
 "avoidance of doubt, this paragraph does not form part of the public "
 "licenses."
 msgstr ""
+"Creative Commons er ikke part i dets offentlige licenser. Ikke desto mindre "
+"kan Creative Commons vælge at anvende en af ​​sine offentlige licenser til "
+"materiale, det udgiver, og vil i disse tilfælde blive betragtet som "
+"\"Licensgiver\". Teksten til de offentlige Creative Commons-licenser er "
+"dedikeret til det offentlige domæne under <a "
+"href=\"/publicdomain/zero/1.0/\">CC0 Public Domain Dedication</a>. Bortset "
+"fra det begrænsede formål at angive, at materiale er delt under en Creative "
+"Commons-offentlig licens eller som på anden måde tilladt i Creative Commons-"
+"politikkerne offentliggjort på <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, tillader Creative "
+"Commons ikke brugen af ​​varemærket \"Creative Commons\" eller noget andet "
+"varemærke eller logo tilhørende Creative Commons uden dets forudgående "
+"skriftlige samtykke, herunder, uden begrænsning, i forbindelse med "
+"eventuelle uautoriserede ændringer af nogen af ​​dets offentlige licenser "
+"eller andre arrangementer, forståelser eller aftaler vedrørende brug af "
+"licenseret materiale. For at undgå tvivl er dette afsnit ikke en del af de "
+"offentlige licenser."
 
 #: templates/includes/about_cc.html:30
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 msgstr ""
+"Creative Commons kan kontaktes på <a "
+"href=\"//creativecommons.org/\">creativecommons.org</a>."
 
 #: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "Om licensen og Creative Commons"
 
 #: templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -453,6 +472,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons organisationen (\"Creative Commons\") er ikke et "
+"advokatfirma og yder ikke juridiske tjenester eller juridisk rådgivning. "
+"Distribution af Creative Commons' offentlige licenser skaber ikke en "
+"advokat-klient eller anden relation. Creative Commons stiller sine licenser "
+"og relaterede oplysninger til rådighed på \"som de er\"-basis. Creative "
+"Commons giver ingen garantier vedrørende dets licenser, materiale, der er "
+"licenseret i henhold til deres vilkår og betingelser, eller relaterede "
+"oplysninger. Creative Commons fraskriver sig ethvert ansvar for skader som "
+"følge af deres brug i videst muligt omfang."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -553,7 +581,7 @@ msgstr "Under følgende vilkår:"
 
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
+msgstr "Du må kun gøre brug af disse friheder i udviklingslande."
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -759,7 +787,7 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
 msgid "Unimplemented"
-msgstr ""
+msgstr "Ikke implementeret"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
@@ -985,11 +1013,11 @@ msgstr "Siden er tilgængelig på følgende sprog:"
 
 #: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
-msgstr ""
+msgstr "Tilgængelige sprog"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
-msgstr ""
+msgstr "Vælg"
 
 #: templates/includes/related_links.html:9
 msgid ""
@@ -1000,19 +1028,19 @@ msgstr ""
 
 #: templates/includes/related_links.html:17
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Lær mere om vores arbejde"
 
 #: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Lær mere om CC-licenserne"
 
 #: templates/includes/related_links.html:20
 msgid "Support our work"
-msgstr ""
+msgstr "Støt vores arbejde"
 
 #: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Benyt licensen på dit eget materiale."
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1096,7 +1124,7 @@ msgstr ""
 #: templates/list-licenses.html:54 templates/list-licenses.html:70
 #: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
-msgstr ""
+msgstr "Sprog"
 
 #: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
@@ -1104,4 +1132,4 @@ msgstr ""
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Omdirigér til: "
