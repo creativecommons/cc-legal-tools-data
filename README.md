@@ -29,6 +29,9 @@ application.
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+See [`generated_files_review.md`](generated_files_review.md) for instructions
+on viewing the generated files (`docs/`) locally. This may be helpful to review the changes for prohibitively large pull requests.
+
 
 ## Data
 
