@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC 2.0 Deed — «Attribution-NonCommercial» («Атрибуция-Некоммерчески») 2.0 Generic — Creative Commons
+   CC BY-NC 2.0 Краткое описание — «Attribution-NonCommercial» («Атрибуция-Некоммерчески») 2.0 Generic — Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/2.0/deed.ru" rel="canonical"/>
   <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
@@ -30,8 +30,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -42,7 +63,7 @@
      <ul>
       <li>
        <a href="/">
-        Начало
+        Главная страница
        </a>
       </li>
       <li>
@@ -52,7 +73,7 @@
       </li>
       <li class="is-active">
        <a aria-current="page displayed" href="/licenses/by-nc/2.0/deed.ru">
-        CC BY-NC 2.0 Deed
+        CC BY-NC 2.0 Краткое описание
        </a>
       </li>
      </ul>
@@ -63,7 +84,7 @@
       <div class="select">
        <select id="languages-dropdown">
         <option disabled="">
-         Select
+         Выбрать
         </option>
         <option data-link="/licenses/by-nc/2.0/deed.an" id="option-an" value="an">
          aragonés
@@ -211,7 +232,7 @@
     <div class="level container">
      <div class="level-item level-right">
       <a class="button tiny is-pulled-right" href="legalcode.en" id="next-btn">
-       See the legal code
+       См. юридический текст
       </a>
      </div>
     </div>
@@ -223,15 +244,15 @@
        Оговорка (disclaimer)
       </h4>
       <p class="has-text-black padding-left-big">
-       This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+       Это более старая версия данной лицензии. По сравнению с предыдущими версиями, версии 4.0 всех лицензий CC стали
        <a href="/version4/">
-        more user-friendly and more internationally robust
+        более удобными для пользователя и более надёжными с международной точки зрения
        </a>
-       . If you are
+       . Если вы
        <a href="/choose/">
-        licensing your own work
+        лицензируете своё собственное произведение
        </a>
-       , we strongly recommend the use of the 4.0 license instead:
+       , мы настоятельно рекомендуем использовать лицензию 4.0:
        <a href="../4.0/deed.ru">
         С указанием авторства-Некоммерческая версии 4.0 Международная
        </a>
@@ -397,11 +418,11 @@
       </p>
      </div>
      <div class="columns margin-top-normal is-vcentered">
-      <div class="menu padding-vertical-normal column is-half padding-right-large">
+      <div class="menu padding-vertical-normal column padding-right-large">
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+          Creative Commons - это некоммерческая организация, стоящая за открытыми лицензиями и другими правовыми инструментами, которые позволяют авторам делиться своими произведениями. Наши правовые инструменты бесплатны для использования.
          </p>
          <ul>
           <li>
@@ -409,7 +430,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
+            Узнайте больше о нашей деятельности
            </a>
           </li>
           <li>
@@ -417,7 +438,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
+            Узнайте больше о лицензиях CC
            </a>
           </li>
           <li>
@@ -425,7 +446,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
+            Поддержите нашу деятельность
            </a>
           </li>
           <li>
@@ -433,35 +454,12 @@
             •
            </span>
            <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
+            Используйте лицензию для своих собственных материалов.
            </a>
           </li>
          </ul>
         </li>
        </ul>
-      </div>
-      <div id="column is-full margin-top-bigger" style="width: 100%;">
-       <div class="card entry-post">
-        <div class="card-content">
-         <h4>
-          Get The Latest Updates
-         </h4>
-         <p class="body-big">
-          Subscribe to our monthly newsletter.
-         </p>
-         <form class="margin-top-normal">
-          <div class="field has-addons">
-           <label class="is-sr-only" for="email">
-            Email address
-           </label>
-           <input class="input is-medium" id="email" placeholder="Email Address" type="email"/>
-           <button class="button is-primary has-text-centered" type="submit">
-            Join
-           </button>
-          </div>
-         </form>
-        </div>
-       </div>
       </div>
      </div>
     </div>

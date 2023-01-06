@@ -30,8 +30,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -319,7 +340,7 @@
       </div>
      </div>
      <div class="columns margin-top-normal is-vcentered">
-      <div class="menu padding-vertical-normal column is-half padding-right-large">
+      <div class="menu padding-vertical-normal column padding-right-large">
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
@@ -361,29 +382,6 @@
          </ul>
         </li>
        </ul>
-      </div>
-      <div id="column is-full margin-top-bigger" style="width: 100%;">
-       <div class="card entry-post">
-        <div class="card-content">
-         <h4>
-          Get The Latest Updates
-         </h4>
-         <p class="body-big">
-          Subscribe to our monthly newsletter.
-         </p>
-         <form class="margin-top-normal">
-          <div class="field has-addons">
-           <label class="is-sr-only" for="email">
-            Email address
-           </label>
-           <input class="input is-medium" id="email" placeholder="Email Address" type="email"/>
-           <button class="button is-primary has-text-centered" type="submit">
-            Join
-           </button>
-          </div>
-         </form>
-        </div>
-       </div>
       </div>
      </div>
     </div>
