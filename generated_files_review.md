@@ -65,13 +65,10 @@ You can use Docker to locally view the files of a specific branch or pull
 request. Note that CC Staff do not use Windows for development and additional
 steps may be required on that platform.
 
-1. Install Docker
-   - ([Install Docker Engine | Docker Documentation][installdockerlinux]) for
-     Linux
-   - ([Install Docker Engine | Docker Documentation][installdockermacOS]) for
-     macOS
-   - ([Install Docker Engine | Docker Documentation][installdockerwindows]) for
-     Windows
+1. Install Docker Desktop
+   - [Install on Linux | Docker Documentation][installdockerlinux]
+   - [Install on Mac | Docker Documentation][installdockermac]
+   - [Install on Windows | Docker Documentation][installdockerwindows]
 3. Ensure you are the top level of directory of this repository (where the
    `docker-compose.yml` file is)
 4. Build the containers
@@ -85,6 +82,6 @@ steps may be required on that platform.
    - **static** ([127.0.0.1:8007](http://127.0.0.1:8007/)): a static web
      server serving the `docs/` directory
 
-[installdockerlinux]: https://docs.docker.com/engine/install/
-[installdockermacOS]: https://docs.docker.com/desktop/install/mac-install/
+[installdockerlinux]: https://docs.docker.com/desktop/install/linux-install/
+[installdockermac]: https://docs.docker.com/desktop/install/mac-install/
 [installdockerwindows]: https://docs.docker.com/desktop/install/windows-install/
