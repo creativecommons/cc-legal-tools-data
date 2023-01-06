@@ -33,28 +33,28 @@ Django views of the [creativecommons/cc-legal-tools-app][cc-legal-tools-app].
 The URLs below assume you are running the Docker services, documented below,
 for this repository:
 
-| Emblematic Files                 |                                                           |
-| -------------------------------- | --------------------------------------------------------- |
-| **Tool List**                    |                                                           |
-| Licenses                         | https://127.0.0.1:8007/licenses/list                      |
-| Public Domain                    | https://127.0.0.1:8007/publicdomain/list                  |
-| **Deed**                         |                                                           |
-| CC BY 4.0 English                | https://127.0.0.1:8007/licenses/by/4.0/deed.en            |
-| CC BY-NC-ND 4.0 Arabic (RTL)     | https://127.0.0.1:8007/licenses/by-nc-nd/4.0/deed.ar      |
-| CC Sampling+ 1.0 Dutch (retired) | https://127.0.0.1:8007/licenses/sampling+/1.0/deed.nl     |
-| PDM 1.0 English (no legal code)  | https://127.0.0.1:8007/publicdomain/mark/1.0/deed.en      |
-| **Legal Code (Translated)**      |                                                           |
-| CC BY 4.0 English                | https://127.0.0.1:8007/licenses/by/4.0/legalcode.en       |
-| CC BY-NC-ND 4.0 Arabic (RTL)     | https://127.0.0.1:8007/licenses/by-nc-nd/4.0/legalcode.ar |
-| **Legal Code (Hardcoded)**       |                                                           |
-| CC BY 3.0 Unported English       | https://127.0.0.1:8007/licenses/by/3.0/legalcode.en       |
-| **Legal Code (Import)**          |                                                           |
-| CC BY 3.0 CA English             | https://127.0.0.1:8007/licenses/by/3.0/ca/legalcode.en    |
-| CC BY 3.0 CA French              | https://127.0.0.1:8007/licenses/by/3.0/ca/legalcode.fr    |
-| CC BY-ND 3.0 EG Arabic (RTL)     | https://127.0.0.1:8007/licenses/by-nd/3.0/eg/legalcode.ar |
-| CC BY-NC 2.5 Generic English     | https://127.0.0.1:8007/licenses/by-nc/2.5/legalcode.en    |
-| CC BY-NC-ND 2.0 Generic English  | https://127.0.0.1:8007/licenses/by-nc-nd/2.0/legalcode.en |
-| CC BY-SA 1.0 Generic English     | https://127.0.0.1:8007/licenses/by-sa/1.0/legalcode.en    |
+| Emblematic Files                           |                                                           |
+| ------------------------------------------ | --------------------------------------------------------- |
+| **Tool List**                              |                                                           |
+| Licenses                                   | https://127.0.0.1:8007/licenses/list                      |
+| Public Domain                              | https://127.0.0.1:8007/publicdomain/list                  |
+| **Deed**                                   |                                                           |
+| CC BY 4.0 English                          | https://127.0.0.1:8007/licenses/by/4.0/deed.en            |
+| CC BY-NC-ND 4.0 Arabic (RTL)               | https://127.0.0.1:8007/licenses/by-nc-nd/4.0/deed.ar      |
+| CC Sampling+ 1.0 Dutch (retired)           | https://127.0.0.1:8007/licenses/sampling+/1.0/deed.nl     |
+| PDM 1.0 English (no legal code)            | https://127.0.0.1:8007/publicdomain/mark/1.0/deed.en      |
+| **Legal Code (Translated)**                |                                                           |
+| CC BY 4.0 English                          | https://127.0.0.1:8007/licenses/by/4.0/legalcode.en       |
+| CC BY-NC-ND 4.0 Arabic (RTL)               | https://127.0.0.1:8007/licenses/by-nc-nd/4.0/legalcode.ar |
+| **Legal Code (Hardcoded)**                 |                                                           |
+| CC BY 3.0 Unported English                 | https://127.0.0.1:8007/licenses/by/3.0/legalcode.en       |
+| **Legal Code (Import)**                    |                                                           |
+| CC BY 3.0 CA English                       | https://127.0.0.1:8007/licenses/by/3.0/ca/legalcode.en    |
+| CC BY 3.0 CA French                        | https://127.0.0.1:8007/licenses/by/3.0/ca/legalcode.fr    |
+| CC BY-ND 3.0 EG Arabic (RTL)               | https://127.0.0.1:8007/licenses/by-nd/3.0/eg/legalcode.ar |
+| CC BY-NC 2.5 Generic (Unported) English    | https://127.0.0.1:8007/licenses/by-nc/2.5/legalcode.en    |
+| CC BY-NC-ND 2.0 Generic (Unported) English | https://127.0.0.1:8007/licenses/by-nc-nd/2.0/legalcode.en |
+| CC BY-SA 1.0 Generic (Unported) English    | https://127.0.0.1:8007/licenses/by-sa/1.0/legalcode.en    |
 
 [cc-legal-tools-app]: https://github.com/creativecommons/cc-legal-tools-app
 
