@@ -33,8 +33,9 @@ Django views of the [creativecommons/cc-legal-tools-app][cc-legal-tools-app].
 The URLs below assume you are running the Docker services, documented below,
 for this repository:
 
-| **Tool List**                    |                                                           |
+| Emblematic Files                 |                                                           |
 | -------------------------------- | --------------------------------------------------------- |
+| **Tool List**                    |                                                           |
 | Licenses                         | https://127.0.0.1:8007/licenses/list                      |
 | Public Domain                    | https://127.0.0.1:8007/publicdomain/list                  |
 | **Deed**                         |                                                           |
