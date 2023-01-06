@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Deed — CC0 1.0 Универсальная — Creative Commons
+   CC0 1.0 Краткое описание — CC0 1.0 Универсальная — Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/deed.ru" rel="canonical"/>
   <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
@@ -30,8 +30,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -42,7 +63,7 @@
      <ul>
       <li>
        <a href="/">
-        Начало
+        Главная страница
        </a>
       </li>
       <li>
@@ -52,7 +73,7 @@
       </li>
       <li class="is-active">
        <a aria-current="page displayed" href="/publicdomain/zero/1.0/deed.ru">
-        CC0 1.0 Deed
+        CC0 1.0 Краткое описание
        </a>
       </li>
      </ul>
@@ -63,7 +84,7 @@
       <div class="select">
        <select id="languages-dropdown">
         <option disabled="">
-         Select
+         Выбрать
         </option>
         <option data-link="/publicdomain/zero/1.0/deed.an" id="option-an" value="an">
          aragonés
@@ -211,7 +232,7 @@
     <div class="level container">
      <div class="level-item level-right">
       <a class="button tiny is-pulled-right" href="legalcode.en" id="next-btn">
-       See the legal code
+       См. юридический текст
       </a>
      </div>
     </div>
@@ -305,11 +326,11 @@
         <ul>
          <li>
           <p class="body-big padding-bottom-normal">
-           In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as
+           CC0 никоим образом не затрагивает патентные права или права на товарный знак любого лица, а также права, которые другие лица могут иметь на произведение или на то, как это произведение используется, например, права на
            <a class="helpLink" href="https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F" id="publicity_rights">
-            publicity or privacy
+            публичность или конфиденциальность
            </a>
-           rights.
+           .
           </p>
          </li>
          <li>
@@ -415,11 +436,11 @@
       </p>
      </div>
      <div class="columns margin-top-normal is-vcentered">
-      <div class="menu padding-vertical-normal column is-half padding-right-large">
+      <div class="menu padding-vertical-normal column padding-right-large">
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+          Creative Commons - это некоммерческая организация, стоящая за открытыми лицензиями и другими правовыми инструментами, которые позволяют авторам делиться своими произведениями. Наши правовые инструменты бесплатны для использования.
          </p>
          <ul>
           <li>
@@ -427,7 +448,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
+            Узнайте больше о нашей деятельности
            </a>
           </li>
           <li>
@@ -435,7 +456,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
+            Узнайте больше о лицензиях CC
            </a>
           </li>
           <li>
@@ -443,7 +464,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
+            Поддержите нашу деятельность
            </a>
           </li>
           <li>
@@ -451,35 +472,12 @@
             •
            </span>
            <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
+            Используйте лицензию для своих собственных материалов.
            </a>
           </li>
          </ul>
         </li>
        </ul>
-      </div>
-      <div id="column is-full margin-top-bigger" style="width: 100%;">
-       <div class="card entry-post">
-        <div class="card-content">
-         <h4>
-          Get The Latest Updates
-         </h4>
-         <p class="body-big">
-          Subscribe to our monthly newsletter.
-         </p>
-         <form class="margin-top-normal">
-          <div class="field has-addons">
-           <label class="is-sr-only" for="email">
-            Email address
-           </label>
-           <input class="input is-medium" id="email" placeholder="Email Address" type="email"/>
-           <button class="button is-primary has-text-centered" type="submit">
-            Join
-           </button>
-          </div>
-         </form>
-        </div>
-       </div>
       </div>
      </div>
     </div>

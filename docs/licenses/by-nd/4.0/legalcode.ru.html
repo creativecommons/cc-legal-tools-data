@@ -30,8 +30,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -42,7 +63,7 @@
      <ul>
       <li>
        <a href="/">
-        Начало
+        Главная страница
        </a>
       </li>
       <li>
@@ -63,7 +84,7 @@
       <div class="select">
        <select id="languages-dropdown">
         <option disabled="">
-         Select
+         Выбрать
         </option>
         <option data-link="legalcode.de" id="option-de" value="de">
          Deutsch
@@ -177,7 +198,7 @@
       </div>
       <div class="column">
        <a class="button tiny is-pulled-right" href="deed.ru" id="next-btn">
-        See the deed
+        Ознакомиться с кратким описанием
        </a>
       </div>
      </div>
@@ -314,7 +335,7 @@
        <h4 class="padding-bottom-normal is-vcentered b-header">
         <i class="info icon padding-right-normal">
         </i>
-        About the license and Creative Commons
+        О лицензии и Creative Commons
        </h4>
        <p class="has-text-black padding-left-big">
         Корпорация Creative Commons ("Creative Commons") не является юридической фирмой, не оказывает юридических услуг или консультаций. Распространение публичных лицензий Creative Commons не порождает отношений, аналогичных отношениям между юристом и клиентом, или каких-либо иных отношений. Creative Commons предоставляет доступ к своим лицензиям и всей сопутствующей информации на основе принципа "как есть". Creative Commons не предоставляет каких-либо гарантий в отношении лицензий, любого материала, предоставляемого на условиях таких лицензий, или любой сопутствующей информации. Creative Commons, насколько это возможно, не будет нести никакой ответственности за ущерб, возникший в результате их применения.
@@ -334,7 +355,7 @@
          <span class="level-right">
           <i class="angle-down icon" data-consideration="1" data-direction="down">
            <span class="is-sr-only">
-            Show Considerations for Licensors
+            Показать рекомендации для лицензирующих
            </span>
           </i>
          </span>
@@ -353,7 +374,7 @@
          <span class="level-right">
           <i class="angle-down icon" data-consideration="2" data-direction="down">
            <span class="is-sr-only">
-            Show Considerations for the Public
+            Показать рекомендации для общественности
            </span>
           </i>
          </span>
@@ -830,11 +851,11 @@
         .
        </p>
       </div>
-      <div class="menu padding-vertical-normal column is-half padding-right-large">
+      <div class="menu padding-vertical-normal column padding-right-large">
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+          Creative Commons - это некоммерческая организация, стоящая за открытыми лицензиями и другими правовыми инструментами, которые позволяют авторам делиться своими произведениями. Наши правовые инструменты бесплатны для использования.
          </p>
          <ul>
           <li>
@@ -842,7 +863,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
+            Узнайте больше о нашей деятельности
            </a>
           </li>
           <li>
@@ -850,7 +871,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
+            Узнайте больше о лицензиях CC
            </a>
           </li>
           <li>
@@ -858,7 +879,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
+            Поддержите нашу деятельность
            </a>
           </li>
           <li>
@@ -866,7 +887,7 @@
             •
            </span>
            <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
+            Используйте лицензию для своих собственных материалов.
            </a>
           </li>
          </ul>
@@ -896,13 +917,13 @@
     function handleArrowClicked() {
       // Toggle consideration section's screen reader announcement text (inside of icon)
       if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+        this.firstChild.innerHTML = "Скрыть рекомендации для лицензирующих"
       } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for the Public"
+        this.firstChild.innerHTML = "Скрыть рекомендации для общественности"
       } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Show Considerations for Licensors"
+        this.firstChild.innerHTML = "Показать рекомендации для лицензирующих"
       } else {
-        this.firstChild.innerHTML = "Show Considerations for the Public"
+        this.firstChild.innerHTML = "Показать рекомендации для общественности"
       }
       // Toggle icon between up and down
       if (this.dataset.direction === "down") {

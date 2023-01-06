@@ -30,8 +30,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -1355,7 +1376,7 @@
         </div>
        </div>
       </div>
-      <div class="menu padding-vertical-normal column is-half padding-right-large">
+      <div class="menu padding-vertical-normal column padding-right-large">
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">

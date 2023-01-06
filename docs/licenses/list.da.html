@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Licenses List
+   Licensliste
   </title>
   <link href="https://creativecommons.org/licenses/list.da" rel="canonical"/>
   <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
@@ -29,8 +29,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -46,23 +67,23 @@
       </li>
       <li>
        <a href="/licenses/">
-        Licenses
+        Licenser
        </a>
       </li>
       <li class="is-active">
        <a aria-current="page displayed" href="/licenses/list">
-        Licenses List
+        Licensliste
        </a>
       </li>
      </ul>
     </nav>
     <div class="locale level-right level-item has-text-black">
-     Languages available
+     Tilgængelige sprog
      <div class="control margin-left-small">
       <div class="select">
        <select id="languages-dropdown">
         <option disabled="">
-         Select
+         Vælg
         </option>
         <option data-link="/licenses/list.an" id="option-an" value="an">
          aragonés
@@ -213,7 +234,7 @@
        <ul class="menu-list">
         <li>
          <a class="link" href="#licenses-40">
-          4.0 Licenses
+          4.0 Licenser
          </a>
          <ul>
           <li>
@@ -227,7 +248,7 @@
         </li>
         <li>
          <a class="link" href="#licenses-30">
-          3.0 Licenses
+          3.0 Licenser
          </a>
          <ul>
           <li>
@@ -238,10 +259,10 @@
            </a>
           </li>
           <li>
-           <a class="link" href="#armenia-30">
+           <a class="link" href="#armenien-30">
             <i class="icon circle-filled">
             </i>
-            3.0 Armenia
+            3.0 Armenien
            </a>
           </li>
           <li>
@@ -322,10 +343,10 @@
            </a>
           </li>
           <li>
-           <a class="link" href="#georgia-30">
+           <a class="link" href="#georgien-30">
             <i class="icon circle-filled">
             </i>
-            3.0 Georgia
+            3.0 Georgien
            </a>
           </li>
           <li>
@@ -354,13 +375,6 @@
             <i class="icon circle-filled">
             </i>
             3.0 Hong Kong
-           </a>
-          </li>
-          <li>
-           <a class="link" href="#intergovernmental-organization-30">
-            <i class="icon circle-filled">
-            </i>
-            3.0 Intergovernmental Organization
            </a>
           </li>
           <li>
@@ -396,6 +410,13 @@
             <i class="icon circle-filled">
             </i>
             3.0 Luxembourg
+           </a>
+          </li>
+          <li>
+           <a class="link" href="#mellemstatslig-organisation-30">
+            <i class="icon circle-filled">
+            </i>
+            3.0 Mellemstatslig organisation
            </a>
           </li>
           <li>
@@ -542,7 +563,7 @@
         </li>
         <li>
          <a class="link" href="#licenses-25">
-          2.5 Licenses
+          2.5 Licenser
          </a>
          <ul>
           <li>
@@ -752,7 +773,7 @@
         </li>
         <li>
          <a class="link" href="#licenses-21">
-          2.1 Licenses
+          2.1 Licenser
          </a>
          <ul>
           <li>
@@ -787,7 +808,7 @@
         </li>
         <li>
          <a class="link" href="#licenses-20">
-          2.0 Licenses
+          2.0 Licenser
          </a>
          <ul>
           <li>
@@ -927,7 +948,7 @@
         </li>
         <li>
          <a class="link" href="#licenses-10">
-          1.0 Licenses
+          1.0 Licenser
          </a>
          <ul>
           <li>
@@ -986,7 +1007,7 @@
      </div>
      <div class="column is-three-quarters">
       <h3 class="b-header" id="licenses-40">
-       4.0 Licenses
+       4.0 Licenser
       </h3>
       <h4 class="b-header" id="international-40">
        4.0 International
@@ -997,7 +1018,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -1038,7 +1059,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -1097,7 +1118,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -1156,7 +1177,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -1215,7 +1236,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             euskara
            </td>
            <td data-label="by">
@@ -1274,7 +1295,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -1333,7 +1354,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             hrvatski
            </td>
            <td data-label="by">
@@ -1392,7 +1413,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Indonesia
            </td>
            <td data-label="by">
@@ -1451,7 +1472,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             italiano
            </td>
            <td data-label="by">
@@ -1510,7 +1531,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             latviešu
            </td>
            <td data-label="by">
@@ -1569,7 +1590,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             lietuvių
            </td>
            <td data-label="by">
@@ -1628,7 +1649,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -1687,7 +1708,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             norsk
            </td>
            <td data-label="by">
@@ -1746,7 +1767,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             polski
            </td>
            <td data-label="by">
@@ -1805,7 +1826,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português
            </td>
            <td data-label="by">
@@ -1864,7 +1885,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             română
            </td>
            <td data-label="by">
@@ -1923,7 +1944,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             slovenščina
            </td>
            <td data-label="by">
@@ -1982,7 +2003,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             suomi
            </td>
            <td data-label="by">
@@ -2041,7 +2062,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             svenska
            </td>
            <td data-label="by">
@@ -2100,7 +2121,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             te reo Māori
            </td>
            <td data-label="by">
@@ -2159,7 +2180,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Türkçe
            </td>
            <td data-label="by">
@@ -2218,7 +2239,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             čeština
            </td>
            <td data-label="by">
@@ -2277,7 +2298,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Ελληνικά
            </td>
            <td data-label="by">
@@ -2336,7 +2357,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             русский
            </td>
            <td data-label="by">
@@ -2395,7 +2416,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             українська
            </td>
            <td data-label="by">
@@ -2454,7 +2475,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             العربية
            </td>
            <td data-label="by">
@@ -2513,7 +2534,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (简体)
            </td>
            <td data-label="by">
@@ -2572,7 +2593,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (繁體)
            </td>
            <td data-label="by">
@@ -2631,7 +2652,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             日本語
            </td>
            <td data-label="by">
@@ -2690,7 +2711,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             한국어
            </td>
            <td data-label="by">
@@ -2753,7 +2774,7 @@
        </div>
       </div>
       <h3 class="b-header" id="licenses-30">
-       3.0 Licenses
+       3.0 Licenser
       </h3>
       <h4 class="b-header" id="ikke-porteret-30">
        3.0 Ikke porteret
@@ -2764,7 +2785,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -2805,7 +2826,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -2867,8 +2888,8 @@
         </table>
        </div>
       </div>
-      <h4 class="b-header" id="armenia-30">
-       3.0 Armenia
+      <h4 class="b-header" id="armenien-30">
+       3.0 Armenien
       </h4>
       <div class="padding-bottom-big">
        <div class="is-responsive">
@@ -2876,7 +2897,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -2917,7 +2938,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             հայերեն
            </td>
            <td data-label="by">
@@ -2988,7 +3009,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3029,7 +3050,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -3100,7 +3121,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3141,7 +3162,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             azərbaycan
            </td>
            <td data-label="by">
@@ -3212,7 +3233,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3253,7 +3274,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português (Brasil)
            </td>
            <td data-label="by">
@@ -3324,7 +3345,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3365,7 +3386,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -3424,7 +3445,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -3495,7 +3516,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3536,7 +3557,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -3607,7 +3628,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3648,7 +3669,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -3719,7 +3740,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3760,7 +3781,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -3831,7 +3852,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3872,7 +3893,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             العربية
            </td>
            <td data-label="by">
@@ -3943,7 +3964,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -3984,7 +4005,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             eesti
            </td>
            <td data-label="by">
@@ -4055,7 +4076,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4096,7 +4117,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -4167,7 +4188,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4208,7 +4229,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -4270,8 +4291,8 @@
         </table>
        </div>
       </div>
-      <h4 class="b-header" id="georgia-30">
-       3.0 Georgia
+      <h4 class="b-header" id="georgien-30">
+       3.0 Georgien
       </h4>
       <div class="padding-bottom-big">
        <div class="is-responsive">
@@ -4279,7 +4300,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4320,7 +4341,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             ქართული
            </td>
            <td data-label="by">
@@ -4391,7 +4412,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4432,7 +4453,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Ελληνικά
            </td>
            <td data-label="by">
@@ -4503,7 +4524,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4544,7 +4565,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -4615,7 +4636,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4656,7 +4677,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -4727,7 +4748,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -4768,7 +4789,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -4830,236 +4851,6 @@
         </table>
        </div>
       </div>
-      <h4 class="b-header" id="intergovernmental-organization-30">
-       3.0 Intergovernmental Organization
-      </h4>
-      <div class="padding-bottom-big">
-       <div class="is-responsive">
-        <table class="table is-bordered is-striped">
-         <thead>
-          <tr>
-           <th rowspan="2">
-            Language
-           </th>
-           <th colspan="6">
-            Legal Tools
-           </th>
-          </tr>
-          <tr>
-           <th>
-            <code>
-             by
-            </code>
-           </th>
-           <th>
-            <code>
-             by-nc
-            </code>
-           </th>
-           <th>
-            <code>
-             by-nc-nd
-            </code>
-           </th>
-           <th>
-            <code>
-             by-nc-sa
-            </code>
-           </th>
-           <th>
-            <code>
-             by-nd
-            </code>
-           </th>
-           <th>
-            <code>
-             by-sa
-            </code>
-           </th>
-          </tr>
-         </thead>
-         <tbody>
-          <tr>
-           <td data-label="Language">
-            English
-           </td>
-           <td data-label="by">
-            <a href="by/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc">
-            <a href="by-nc/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-nd">
-            <a href="by-nc-nd/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-nd/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-sa">
-            <a href="by-nc-sa/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-sa/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nd">
-            <a href="by-nd/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nd/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-sa">
-            <a href="by-sa/3.0/igo/deed.en">
-             Deed
-            </a>
-            <br/>
-            <a href="by-sa/3.0/igo/legalcode.en">
-             Juridisk tekst
-            </a>
-           </td>
-          </tr>
-          <tr>
-           <td data-label="Language">
-            français
-           </td>
-           <td data-label="by">
-            <a href="by/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc">
-            <a href="by-nc/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-nd">
-            <a href="by-nc-nd/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-nd/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-sa">
-            <a href="by-nc-sa/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-sa/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nd">
-            <a href="by-nd/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nd/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-sa">
-            <a href="by-sa/3.0/igo/deed.fr">
-             Deed
-            </a>
-            <br/>
-            <a href="by-sa/3.0/igo/legalcode.fr">
-             Juridisk tekst
-            </a>
-           </td>
-          </tr>
-          <tr>
-           <td data-label="Language">
-            العربية
-           </td>
-           <td data-label="by">
-            <a href="by/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc">
-            <a href="by-nc/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-nd">
-            <a href="by-nc-nd/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-nd/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nc-sa">
-            <a href="by-nc-sa/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nc-sa/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-nd">
-            <a href="by-nd/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by-nd/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-           <td data-label="by-sa">
-            <a href="by-sa/3.0/igo/deed.ar">
-             Deed
-            </a>
-            <br/>
-            <a href="by-sa/3.0/igo/legalcode.ar">
-             Juridisk tekst
-            </a>
-           </td>
-          </tr>
-         </tbody>
-        </table>
-       </div>
-      </div>
       <h4 class="b-header" id="irland-30">
        3.0 Irland
       </h4>
@@ -5069,7 +4860,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5110,7 +4901,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -5181,7 +4972,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5222,7 +5013,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             italiano
            </td>
            <td data-label="by">
@@ -5293,7 +5084,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5334,7 +5125,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (简体)
            </td>
            <td data-label="by">
@@ -5405,7 +5196,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5446,7 +5237,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             hrvatski
            </td>
            <td data-label="by">
@@ -5517,7 +5308,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5558,7 +5349,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -5620,8 +5411,8 @@
         </table>
        </div>
       </div>
-      <h4 class="b-header" id="new-zealand-30">
-       3.0 New Zealand
+      <h4 class="b-header" id="mellemstatslig-organisation-30">
+       3.0 Mellemstatslig organisation
       </h4>
       <div class="padding-bottom-big">
        <div class="is-responsive">
@@ -5629,7 +5420,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5670,7 +5461,237 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
+            English
+           </td>
+           <td data-label="by">
+            <a href="by/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc">
+            <a href="by-nc/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-nd">
+            <a href="by-nc-nd/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-nd/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-sa">
+            <a href="by-nc-sa/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-sa/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nd">
+            <a href="by-nd/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nd/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-sa">
+            <a href="by-sa/3.0/igo/deed.en">
+             Deed
+            </a>
+            <br/>
+            <a href="by-sa/3.0/igo/legalcode.en">
+             Juridisk tekst
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Sprog">
+            français
+           </td>
+           <td data-label="by">
+            <a href="by/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc">
+            <a href="by-nc/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-nd">
+            <a href="by-nc-nd/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-nd/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-sa">
+            <a href="by-nc-sa/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-sa/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nd">
+            <a href="by-nd/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nd/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-sa">
+            <a href="by-sa/3.0/igo/deed.fr">
+             Deed
+            </a>
+            <br/>
+            <a href="by-sa/3.0/igo/legalcode.fr">
+             Juridisk tekst
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td data-label="Sprog">
+            العربية
+           </td>
+           <td data-label="by">
+            <a href="by/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc">
+            <a href="by-nc/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-nd">
+            <a href="by-nc-nd/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-nd/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nc-sa">
+            <a href="by-nc-sa/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nc-sa/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-nd">
+            <a href="by-nd/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by-nd/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+           <td data-label="by-sa">
+            <a href="by-sa/3.0/igo/deed.ar">
+             Deed
+            </a>
+            <br/>
+            <a href="by-sa/3.0/igo/legalcode.ar">
+             Juridisk tekst
+            </a>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+      <h4 class="b-header" id="new-zealand-30">
+       3.0 New Zealand
+      </h4>
+      <div class="padding-bottom-big">
+       <div class="is-responsive">
+        <table class="table is-bordered is-striped">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Sprog
+           </th>
+           <th colspan="6">
+            Legal Tools
+           </th>
+          </tr>
+          <tr>
+           <th>
+            <code>
+             by
+            </code>
+           </th>
+           <th>
+            <code>
+             by-nc
+            </code>
+           </th>
+           <th>
+            <code>
+             by-nc-nd
+            </code>
+           </th>
+           <th>
+            <code>
+             by-nc-sa
+            </code>
+           </th>
+           <th>
+            <code>
+             by-nd
+            </code>
+           </th>
+           <th>
+            <code>
+             by-sa
+            </code>
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -5741,7 +5762,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5782,7 +5803,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             norsk
            </td>
            <td data-label="by">
@@ -5853,7 +5874,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -5894,7 +5915,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             polski
            </td>
            <td data-label="by">
@@ -5965,7 +5986,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6006,7 +6027,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português
            </td>
            <td data-label="by">
@@ -6077,7 +6098,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6118,7 +6139,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -6189,7 +6210,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6230,7 +6251,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             română
            </td>
            <td data-label="by">
@@ -6301,7 +6322,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6342,7 +6363,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -6401,7 +6422,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -6472,7 +6493,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6513,7 +6534,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             srpski (latinica)
            </td>
            <td data-label="by">
@@ -6572,7 +6593,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             српски
            </td>
            <td data-label="by">
@@ -6643,7 +6664,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6684,7 +6705,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -6755,7 +6776,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -6796,7 +6817,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             aranés
            </td>
            <td data-label="by">
@@ -6855,7 +6876,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             asturianu
            </td>
            <td data-label="by">
@@ -6914,7 +6935,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             català
            </td>
            <td data-label="by">
@@ -6973,7 +6994,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -7032,7 +7053,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             euskara
            </td>
            <td data-label="by">
@@ -7091,7 +7112,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             galego
            </td>
            <td data-label="by">
@@ -7162,7 +7183,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7203,7 +7224,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -7274,7 +7295,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7315,7 +7336,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (繁體)
            </td>
            <td data-label="by">
@@ -7386,7 +7407,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7427,7 +7448,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             ไทย
            </td>
            <td data-label="by">
@@ -7498,7 +7519,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7539,7 +7560,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             čeština
            </td>
            <td data-label="by">
@@ -7610,7 +7631,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7651,7 +7672,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -7722,7 +7743,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7763,7 +7784,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -7834,7 +7855,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7875,7 +7896,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -7946,7 +7967,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -7987,7 +8008,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -8058,7 +8079,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8099,7 +8120,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Tiếng Việt
            </td>
            <td data-label="by">
@@ -8170,7 +8191,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8211,7 +8232,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -8274,7 +8295,7 @@
        </div>
       </div>
       <h3 class="b-header" id="licenses-25">
-       2.5 Licenses
+       2.5 Licenser
       </h3>
       <h4 class="b-header" id="generisk-25">
        2.5 Generisk
@@ -8285,7 +8306,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8326,7 +8347,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -8397,7 +8418,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8438,7 +8459,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -8509,7 +8530,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8550,7 +8571,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -8621,7 +8642,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8662,7 +8683,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português (Brasil)
            </td>
            <td data-label="by">
@@ -8733,7 +8754,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8774,7 +8795,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             български
            </td>
            <td data-label="by">
@@ -8845,7 +8866,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -8886,7 +8907,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -8945,7 +8966,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -9016,7 +9037,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9057,7 +9078,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -9128,7 +9149,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9169,7 +9190,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             dansk
            </td>
            <td data-label="by">
@@ -9240,7 +9261,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9281,7 +9302,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -9352,7 +9373,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9393,7 +9414,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -9464,7 +9485,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9505,7 +9526,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             עברית
            </td>
            <td data-label="by">
@@ -9576,7 +9597,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9617,7 +9638,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             italiano
            </td>
            <td data-label="by">
@@ -9688,7 +9709,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9729,7 +9750,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (简体)
            </td>
            <td data-label="by">
@@ -9800,7 +9821,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9841,7 +9862,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             hrvatski
            </td>
            <td data-label="by">
@@ -9912,7 +9933,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -9953,7 +9974,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             македонски
            </td>
            <td data-label="by">
@@ -10024,7 +10045,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10065,7 +10086,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Melayu
            </td>
            <td data-label="by">
@@ -10136,7 +10157,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10177,7 +10198,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -10248,7 +10269,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10289,7 +10310,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -10360,7 +10381,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10401,7 +10422,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -10472,7 +10493,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10513,7 +10534,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             polski
            </td>
            <td data-label="by">
@@ -10584,7 +10605,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10625,7 +10646,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português
            </td>
            <td data-label="by">
@@ -10696,7 +10717,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10737,7 +10758,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -10808,7 +10829,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10849,7 +10870,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -10920,7 +10941,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -10961,7 +10982,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             slovenščina
            </td>
            <td data-label="by">
@@ -11032,7 +11053,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11073,7 +11094,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             català
            </td>
            <td data-label="by">
@@ -11132,7 +11153,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -11191,7 +11212,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             euskara
            </td>
            <td data-label="by">
@@ -11250,7 +11271,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             galego
            </td>
            <td data-label="by">
@@ -11321,7 +11342,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11362,7 +11383,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             svenska
            </td>
            <td data-label="by">
@@ -11433,7 +11454,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11474,7 +11495,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -11545,7 +11566,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11586,7 +11607,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (繁體)
            </td>
            <td data-label="by">
@@ -11657,7 +11678,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11698,7 +11719,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             magyar
            </td>
            <td data-label="by">
@@ -11761,7 +11782,7 @@
        </div>
       </div>
       <h3 class="b-header" id="licenses-21">
-       2.1 Licenses
+       2.1 Licenser
       </h3>
       <h4 class="b-header" id="australien-21">
        2.1 Australien
@@ -11772,7 +11793,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11813,7 +11834,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -11884,7 +11905,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -11925,7 +11946,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -11984,7 +12005,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -12055,7 +12076,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12096,7 +12117,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             日本語
            </td>
            <td data-label="by">
@@ -12167,7 +12188,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12208,7 +12229,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             català
            </td>
            <td data-label="by">
@@ -12267,7 +12288,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -12330,7 +12351,7 @@
        </div>
       </div>
       <h3 class="b-header" id="licenses-20">
-       2.0 Licenses
+       2.0 Licenser
       </h3>
       <h4 class="b-header" id="generisk-20">
        2.0 Generisk
@@ -12341,7 +12362,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="7">
             Legal Tools
@@ -12387,7 +12408,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -12467,7 +12488,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12508,7 +12529,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -12579,7 +12600,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12620,7 +12641,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -12679,7 +12700,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -12750,7 +12771,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12791,7 +12812,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português (Brasil)
            </td>
            <td data-label="by">
@@ -12862,7 +12883,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -12903,7 +12924,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -12962,7 +12983,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -13033,7 +13054,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13074,7 +13095,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -13145,7 +13166,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13186,7 +13207,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -13257,7 +13278,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13298,7 +13319,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             français
            </td>
            <td data-label="by">
@@ -13369,7 +13390,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13410,7 +13431,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -13481,7 +13502,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13522,7 +13543,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             italiano
            </td>
            <td data-label="by">
@@ -13593,7 +13614,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="11">
             Legal Tools
@@ -13659,7 +13680,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             日本語
            </td>
            <td data-label="by">
@@ -13775,7 +13796,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13816,7 +13837,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             한국어
            </td>
            <td data-label="by">
@@ -13887,7 +13908,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -13928,7 +13949,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             hrvatski
            </td>
            <td data-label="by">
@@ -13999,7 +14020,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14040,7 +14061,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             polski
            </td>
            <td data-label="by">
@@ -14111,7 +14132,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14152,7 +14173,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             català
            </td>
            <td data-label="by">
@@ -14211,7 +14232,7 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             español
            </td>
            <td data-label="by">
@@ -14282,7 +14303,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14323,7 +14344,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English (United Kingdom)
            </td>
            <td data-label="by">
@@ -14394,7 +14415,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14435,7 +14456,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (繁體)
            </td>
            <td data-label="by">
@@ -14506,7 +14527,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14547,7 +14568,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -14618,7 +14639,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -14659,7 +14680,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="by">
@@ -14722,7 +14743,7 @@
        </div>
       </div>
       <h3 class="b-header" id="licenses-10">
-       1.0 Licenses
+       1.0 Licenser
       </h3>
       <h4 class="b-header" id="generisk-10">
        1.0 Generisk
@@ -14733,7 +14754,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="14">
             Legal Tools
@@ -14814,7 +14835,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             English
            </td>
            <td data-label="by">
@@ -14957,7 +14978,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="2">
             Legal Tools
@@ -14978,7 +14999,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             português (Brasil)
            </td>
            <td data-label="sampling">
@@ -15013,7 +15034,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="11">
             Legal Tools
@@ -15079,7 +15100,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             suomi
            </td>
            <td data-label="by">
@@ -15195,7 +15216,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="11">
             Legal Tools
@@ -15261,7 +15282,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Nederlands
            </td>
            <td data-label="by">
@@ -15377,7 +15398,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="6">
             Legal Tools
@@ -15418,7 +15439,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             עברית
            </td>
            <td data-label="by">
@@ -15489,7 +15510,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="3">
             Legal Tools
@@ -15515,7 +15536,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             中文 (繁體)
            </td>
            <td data-label="nc-sampling+">
@@ -15559,7 +15580,7 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Sprog
            </th>
            <th colspan="1">
             Legal Tools
@@ -15575,7 +15596,7 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Sprog">
             Deutsch
            </td>
            <td data-label="sampling+">
@@ -15593,7 +15614,7 @@
        </div>
       </div>
       <div class="columns margin-top-normal margin-bottom-normal">
-       <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <div class="menu padding-vertical-normal column padding-right-large">
         <ul class="menu-list">
          <li>
           <p class="body-big has-text-black">
@@ -15605,7 +15626,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-             Learn more about our work
+             Lær mere om vores arbejde
             </a>
            </li>
            <li>
@@ -15613,7 +15634,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-             Learn more about CC Licensing
+             Lær mere om CC-licenserne
             </a>
            </li>
            <li>
@@ -15621,7 +15642,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-             Support our work
+             Støt vores arbejde
             </a>
            </li>
            <li>
@@ -15629,35 +15650,12 @@
              •
             </span>
             <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-             Use the license for your own material.
+             Benyt licensen på dit eget materiale.
             </a>
            </li>
           </ul>
          </li>
         </ul>
-       </div>
-       <div id="column is-full margin-top-bigger" style="width: 100%;">
-        <div class="card entry-post">
-         <div class="card-content">
-          <h4>
-           Get The Latest Updates
-          </h4>
-          <p class="body-big">
-           Subscribe to our monthly newsletter.
-          </p>
-          <form class="margin-top-normal">
-           <div class="field has-addons">
-            <label class="is-sr-only" for="email">
-             Email address
-            </label>
-            <input class="input is-medium" id="email" placeholder="Email Address" type="email"/>
-            <button class="button is-primary has-text-centered" type="submit">
-             Join
-            </button>
-           </div>
-          </form>
-         </div>
-        </div>
        </div>
       </div>
      </div>

@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Public Domain List
+   Список публичных доменов
   </title>
   <link href="https://creativecommons.org/publicdomain/list.ru" rel="canonical"/>
   <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
@@ -29,8 +29,29 @@
   </div>
   <!-- Div element used to mount the Global Header component-->
   <div id="header-cc">
-   <cc-global-header base-url="" donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg">
-   </cc-global-header>
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
   </div>
   <main>
    <div class="level padding-left-big padding-right-large padding-vertical-normal">
@@ -41,7 +62,7 @@
      <ul>
       <li>
        <a href="/">
-        Начало
+        Главная страница
        </a>
       </li>
       <li>
@@ -51,7 +72,7 @@
       </li>
       <li class="is-active">
        <a aria-current="page displayed" href="/licenses/list">
-        Public Domain List
+        Список публичных доменов
        </a>
       </li>
      </ul>
@@ -62,7 +83,7 @@
       <div class="select">
        <select id="languages-dropdown">
         <option disabled="">
-         Select
+         Выбрать
         </option>
         <option data-link="/publicdomain/list.an" id="option-an" value="an">
          aragonés
@@ -242,10 +263,10 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Язык
            </th>
            <th colspan="1">
-            Legal Tools
+            Правовые инструменты
            </th>
           </tr>
           <tr>
@@ -258,12 +279,12 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             English
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.en">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.en">
@@ -272,12 +293,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             español
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.es">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.es">
@@ -286,12 +307,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             euskara
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.eu">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.eu">
@@ -300,12 +321,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             français
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.fr">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.fr">
@@ -314,12 +335,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             hrvatski
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.hr">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.hr">
@@ -328,12 +349,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             italiano
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.it">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.it">
@@ -342,12 +363,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             latviešu
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.lv">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.lv">
@@ -356,12 +377,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             lietuvių
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.lt">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.lt">
@@ -370,12 +391,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             Nederlands
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.nl">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.nl">
@@ -384,12 +405,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             polski
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.pl">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.pl">
@@ -398,12 +419,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             română
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.ro">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.ro">
@@ -412,12 +433,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             slovenščina
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.sl">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.sl">
@@ -426,12 +447,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             suomi
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.fi">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.fi">
@@ -440,12 +461,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             svenska
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.sv">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.sv">
@@ -454,12 +475,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             Ελληνικά
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.el">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.el">
@@ -468,12 +489,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             中文 (简体)
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.zh-hans">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.zh-hans">
@@ -482,12 +503,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             中文 (繁體)
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.zh-hant">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.zh-hant">
@@ -496,12 +517,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             日本語
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.ja">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.ja">
@@ -510,12 +531,12 @@
            </td>
           </tr>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             한국어
            </td>
            <td data-label="zero">
             <a href="zero/1.0/deed.ko">
-             Deed
+             Краткое описание
             </a>
             <br/>
             <a href="zero/1.0/legalcode.ko">
@@ -539,10 +560,10 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Язык
            </th>
            <th colspan="1">
-            Legal Tools
+            Правовые инструменты
            </th>
           </tr>
           <tr>
@@ -555,12 +576,12 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             English
            </td>
            <td data-label="certification">
             <a href="certification/1.0/us/deed.en">
-             Deed
+             Краткое описание
             </a>
            </td>
           </tr>
@@ -580,10 +601,10 @@
          <thead>
           <tr>
            <th rowspan="2">
-            Language
+            Язык
            </th>
            <th colspan="1">
-            Legal Tools
+            Правовые инструменты
            </th>
           </tr>
           <tr>
@@ -596,12 +617,12 @@
          </thead>
          <tbody>
           <tr>
-           <td data-label="Language">
+           <td data-label="Язык">
             English
            </td>
            <td data-label="mark">
             <a href="mark/1.0/deed.en">
-             Deed
+             Краткое описание
             </a>
            </td>
           </tr>
@@ -610,11 +631,11 @@
        </div>
       </div>
       <div class="columns margin-top-normal margin-bottom-normal">
-       <div class="menu padding-vertical-normal column is-half padding-right-large">
+       <div class="menu padding-vertical-normal column padding-right-large">
         <ul class="menu-list">
          <li>
           <p class="body-big has-text-black">
-           Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+           Creative Commons - это некоммерческая организация, стоящая за открытыми лицензиями и другими правовыми инструментами, которые позволяют авторам делиться своими произведениями. Наши правовые инструменты бесплатны для использования.
           </p>
           <ul>
            <li>
@@ -622,7 +643,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-             Learn more about our work
+             Узнайте больше о нашей деятельности
             </a>
            </li>
            <li>
@@ -630,7 +651,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-             Learn more about CC Licensing
+             Узнайте больше о лицензиях CC
             </a>
            </li>
            <li>
@@ -638,7 +659,7 @@
              •
             </span>
             <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-             Support our work
+             Поддержите нашу деятельность
             </a>
            </li>
            <li>
@@ -646,35 +667,12 @@
              •
             </span>
             <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-             Use the license for your own material.
+             Используйте лицензию для своих собственных материалов.
             </a>
            </li>
           </ul>
          </li>
         </ul>
-       </div>
-       <div id="column is-full margin-top-bigger" style="width: 100%;">
-        <div class="card entry-post">
-         <div class="card-content">
-          <h4>
-           Get The Latest Updates
-          </h4>
-          <p class="body-big">
-           Subscribe to our monthly newsletter.
-          </p>
-          <form class="margin-top-normal">
-           <div class="field has-addons">
-            <label class="is-sr-only" for="email">
-             Email address
-            </label>
-            <input class="input is-medium" id="email" placeholder="Email Address" type="email"/>
-            <button class="button is-primary has-text-centered" type="submit">
-             Join
-            </button>
-           </div>
-          </form>
-         </div>
-        </div>
        </div>
       </div>
      </div>
