@@ -94,7 +94,7 @@
       </div>
       <div class="column">
        <a class="button tiny is-pulled-right" href="deed.da" id="next-btn">
-        See the deed
+        Læs dokumentationen
        </a>
       </div>
      </div>
@@ -152,15 +152,15 @@
         Ansvarsfraskrivelse
        </h4>
        <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+        Dette er en ældre version af denne licens. Sammenlignet med tidligere versioner er 4.0-versionerne af alle CC-licenser
         <a href="/version4/">
-         more user-friendly and more internationally robust
+         mere brugervenlige og mere internationalt robuste
         </a>
-        . If you are
+        . Hvis du
         <a href="/choose/">
-         licensing your own work
+         licenserer dit eget værk
         </a>
-        , we strongly recommend the use of the 4.0 license instead:
+        , vi anbefaler kraftigt brugen af ​​4.0-licensen i stedet for:
         <a href="../../4.0/legalcode.en">
          Attribution 4.0 International
         </a>
@@ -382,7 +382,7 @@ viser Værket, Samleværket eller det Bearbejdede værk offentligt, fremfører V
        <ul class="menu-list">
         <li>
          <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+          Creative Commons er nonprofit organisationen bag de åbne licenser og andre juridiske værktøjer, som giver skabere muligheder for at dele deres værk. Vore juridiske værktøjer er frie at bruge.
          </p>
          <ul>
           <li>
@@ -444,13 +444,13 @@ viser Værket, Samleværket eller det Bearbejdede værk offentligt, fremfører V
     function handleArrowClicked() {
       // Toggle consideration section's screen reader announcement text (inside of icon)
       if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+        this.firstChild.innerHTML = "Skjul betragtninger for Licensgivere."
       } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for the Public"
+        this.firstChild.innerHTML = "Skjul betragtninger for Offentligheden"
       } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Show Considerations for Licensors"
+        this.firstChild.innerHTML = "Vis betragtninger for Licensgivere"
       } else {
-        this.firstChild.innerHTML = "Show Considerations for the Public"
+        this.firstChild.innerHTML = "Vis betragtninger for Offentligheden"
       }
       // Toggle icon between up and down
       if (this.dataset.direction === "down") {
