@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2022
+# Peter Leth <peter@pluk.dk>, 2022
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-12-06 17:02:24+00:00\n"
+"PO-Revision-Date: 2022-12-23 07:16:08+00:00\n"
+"Last-Translator: Peter Leth <peter@pluk.dk>, 2022\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/da/\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -304,27 +309,27 @@ msgstr "Kreditering"
 
 #: i18n/__init__.py:195
 msgid "Attribution-NonCommercial"
-msgstr "Kreditering-Ikkekommerciel"
+msgstr "Kreditering-IkkeKommerciel"
 
 #: i18n/__init__.py:196
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr "Kreditering-Ikkekommerciel-Ingen afledninger"
+msgstr "Kreditering-IkkeKommerciel-IngenBearbejdelse"
 
 #: i18n/__init__.py:197
 msgid "Attribution-NonCommercial-ShareAlike"
-msgstr "Kreditering-Ikkekommerciel-Deling på samme vilkår"
+msgstr "Kreditering-IkkeKommerciel-DelPåSammeVilkår"
 
 #: i18n/__init__.py:198
 msgid "Attribution-NoDerivs"
-msgstr "Kreditering-Ingen afledninger"
+msgstr "Kreditering-IngenBearbejdelse"
 
 #: i18n/__init__.py:199
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "Kreditering-Ingen afledninger-Ikkekommerciel"
+msgstr "Kreditering-IkkeKommerciel-IngenBearbejdelse"
 
 #: i18n/__init__.py:200
 msgid "Attribution-ShareAlike"
-msgstr "Kreditering-Deling på samme vilkår"
+msgstr "Kreditering-DelPåSammeVilkår"
 
 #: i18n/__init__.py:202
 msgid ""
@@ -344,27 +349,27 @@ msgstr "Public domain-mærke"
 
 #: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
 msgid "NonCommercial"
-msgstr "Ikkekommerciel"
+msgstr "IkkeKommerciel"
 
 #: i18n/__init__.py:208
 msgid "NonCommercial-ShareAlike"
-msgstr "Ikkekommerciel-Deling på samme vilkår"
+msgstr "IkkeKommerciel-DelPåSammeVilkår"
 
 #: i18n/__init__.py:209
 msgid "NonCommercial Sampling Plus"
-msgstr "Ikkekommerciel Sampling Plus"
+msgstr "IkkeKommerciel Sampling Plus"
 
 #: i18n/__init__.py:210
 msgid "NoDerivs"
-msgstr "Ingen afledninger"
+msgstr "IngenBearbejdelse"
 
 #: i18n/__init__.py:211
 msgid "NoDerivs-NonCommercial"
-msgstr "Ingen afledninger-Ikkekommerciel"
+msgstr "IkkeKommerciel - IngenBearbejdelse"
 
 #: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
 msgid "ShareAlike"
-msgstr "Deling på samme vilkår"
+msgstr "DelPåSammeVilkår"
 
 #: i18n/__init__.py:213
 msgid "Sampling"
@@ -401,7 +406,7 @@ msgstr "Hjem"
 #: templates/deed.html:5 templates/deed.html:14
 #: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
-msgstr ""
+msgstr "Dokumentation"
 
 #: templates/deed.html:21
 msgid "See the legal code"
@@ -472,15 +477,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
-"Creative Commons organisationen (\"Creative Commons\") er ikke et "
-"advokatfirma og yder ikke juridiske tjenester eller juridisk rådgivning. "
-"Distribution af Creative Commons' offentlige licenser skaber ikke en "
-"advokat-klient eller anden relation. Creative Commons stiller sine licenser "
-"og relaterede oplysninger til rådighed på \"som de er\"-basis. Creative "
-"Commons giver ingen garantier vedrørende dets licenser, materiale, der er "
-"licenseret i henhold til deres vilkår og betingelser, eller relaterede "
-"oplysninger. Creative Commons fraskriver sig ethvert ansvar for skader som "
-"følge af deres brug i videst muligt omfang."
+"Creative Commons Corporation (\"Creative Commons\") er ikke et advokatfirma "
+"og yder ikke juridiske tjenester eller juridisk rådgivning. Distribution af "
+"Creative Commons' offentlige licenser skaber ikke en advokat-klient eller "
+"anden relation. Creative Commons stiller sine licenser og relaterede "
+"oplysninger til rådighed på \"som de er\"-basis. Creative Commons giver "
+"ingen garantier vedrørende dets licenser, materiale, der er licenseret i "
+"henhold til deres vilkår og betingelser, eller relaterede oplysninger. "
+"Creative Commons fraskriver sig ethvert ansvar for skader som følge af deres"
+" brug i videst muligt omfang."
 
 #: templates/includes/deed_body_certification.html:6
 msgid ""
@@ -508,6 +513,8 @@ msgid ""
 "commercial, and in any way, including by methods that have not yet been "
 "invented or conceived.</p>"
 msgstr ""
+"<p>Personen eller personerne som har associeret deres værk med dette dokument (\"Den dedikerende\" eller \"Certificereren\") (a) certificerer hermed, ud fra dennes bedste overbevisninger, at nævnte værk befinder sig i Public Domain i landet, hvor værket er publiceret, eller (b) dedikerer hvilken som helst ophavsret Den dedikerende oppebærer i værket nævnt nedenfor (\"Værket\") til Public Domain. En Certificerer dedikerer herudover enhver ophavsretslig interesse denne kunne have i dette værk og er af denne årsag beskrevet som \"den dedikerende\" nedenfor.</p>  <p>En certificerer har udført passende tiltag for at verificere den ophavsretsmæssige status af dette værk. Certificereren anerkender at dennes velmenende anstrengelser muligvis ikke beskytter denne mod ansvar såfremt det certificerede værk ikke er i Public Domain.</p>  <p>Den dedikerende tilfører denne dedikation til gavn for offentligheden generelt, og til tab for Den dedikerendes arvinger og efterkommere. Den dedikerende ønsker at denne dedikation er en overlagt handling af opgivelse i al evighed af alle nuværende og fremtidige rettigheder under ophavsretten, uanset om de er optjente eller afhængige af andre, for dette værk. \n"
+"Den dedikerende forstår at sådan opgivelse af alle rettigheder inkluderer opgivelsen af alle rettigheder til at håndhæve (igennem en retssag eller på andre måder) disse ophavsretslige rettigheder til Værket.</p>  <p>Den dedikerende anerkender at Værket, når først det er placeret i Public Domain, frit må reproduceres, distribueres, transmitteres, anvendes, modificeres, bygges videre på eller på anden måde udnyttes af enhver til ethvert formål, kommercielt eller ikke-kommercielt og på enhver måde herunder via metoder som endnu ikke er opfundet eller forestillet.</p>"
 
 #: templates/includes/deed_body_licenses.html:7
 msgid "You are free to:"
@@ -521,14 +528,14 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>at Remixe</strong> &mdash; at tilpasse værket"
+msgstr "<strong>Remixe</strong> &mdash; tilpasse værket"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
 msgstr ""
-"At sample, mash-up'e eller på anden måde kreativt omarbejde dette værk til "
+"At sample, mixe eller på anden måde kreativt omarbejde dette værk til "
 "ikkekommercielle formål."
 
 #: templates/includes/deed_body_licenses.html:19
@@ -536,7 +543,7 @@ msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
 msgstr ""
-"At sample, mash-up'e eller på anden måde kreativt omarbejde dette værk til "
+"At sample, mixe eller på anden måde kreativt omarbejde dette værk til "
 "kommercielle eller ikkekommercielle formål."
 
 #: templates/includes/deed_body_licenses.html:23
@@ -564,7 +571,7 @@ msgstr "til alle formål, også kommercielle."
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
-"<strong>Tilpasse</strong> &mdash; remixe, omarbejde og bygge videre på "
+"<strong>Tilpasse</strong> &mdash; remixe, ændre og bygge videre på "
 "materialet"
 
 #: templates/includes/deed_body_licenses.html:44
@@ -599,7 +606,7 @@ msgstr ""
 "resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
 "id=\"indicate_changes_popup\" class=\"helpLink\">oplyse om der er foretaget "
 "ændringer</a></span>. Du må gøre det på enhver fornuftig måde, men ikke på "
-"en måde der antyder at licensgiveren godkender dig eller din anvendelse."
+"en måde der antyder, at licensgiveren godkender dig eller din anvendelse."
 
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
@@ -621,7 +628,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:107
 msgid "NoDerivatives"
-msgstr "Ingen afledninger"
+msgstr "IngenBearbejdelse"
 
 #: templates/includes/deed_body_licenses.html:107
 msgid ""
@@ -646,8 +653,9 @@ msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr ""
-"I forbindelse med al viderebrug og distribuering skal du gøre "
-"licensvilkårene for dette værk klart for andre."
+"I forbindelse med enhver viderebrug og distribuering skal du gøre "
+"licensvilkårene for dette værk klart for andre. Den bedste måde at gøre "
+"dette er med et link til denne hjemmeside."
 
 #: templates/includes/deed_body_licenses.html:140
 msgid ""
@@ -670,7 +678,7 @@ msgid ""
 msgstr ""
 "Du må ikke tilføje juridiske vilkår eller <a href=\"#\" "
 "id=\"technological_measures_popup\" class=\"helpLink\">teknologiske "
-"tiltag</a> som juridisk begrænser andre i at gøre hvad licensen tillader."
+"tiltag</a>, som juridisk begrænser andre i at gøre, hvad licensen tillader."
 
 #: templates/includes/deed_body_licenses.html:157
 msgid "Notices:"
@@ -700,7 +708,7 @@ msgstr ""
 "tilladelser, der er nødvendige for din ønskede anvendelse. F.eks. kan andre "
 "rettigheder såsom <a href=\"#\" "
 "id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">offentliggørende, privatlivs eller moralske "
+"class=\"helpLink\">offentliggørelse, privatlivs eller moralske "
 "rettigheder</a> begrænse måden hvorpå du bruger materialet."
 
 #: templates/includes/deed_body_mark.html:7
@@ -717,7 +725,7 @@ msgid ""
 "permission. See <b>Other Information</b> below. </p>"
 msgstr ""
 "<p id=\"nolaw-text\"> Dette værk er blevet <b>identificeret</b> som værende "
-"fri af kendte begrænsninger under ophavsrettighedsmæssig lov, herunder alle "
+"fri af kendte begrænsninger under loven om ophavsret, herunder alle "
 "relaterede og sideløbende rettigheder. </p> <p> <br /> Du kan kopiere, "
 "ændre, distribuere eller fremføre værket, selv til kommercielle fomål, uden "
 "at bede om tilladelse. Se <b>Anden information</b> nedenfor. </p>"
@@ -732,8 +740,8 @@ msgid ""
 "The work may not be free of known copyright restrictions in all <a href=\"\""
 " class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
 msgstr ""
-"Dette værk er måske ikke fri for kendte begrænsninger af ophavsretten i alle"
-" <a href=\"\" class=\"helpLink\" "
+"Dette værk er muligvis ikke fri for kendte begrænsninger af ophavsretten i "
+"alle <a href=\"\" class=\"helpLink\" "
 "id=\"all_jurisdictions\">jurisdiktioner</a>."
 
 #: templates/includes/deed_body_mark.html:30
@@ -761,7 +769,7 @@ msgstr ""
 "I nogle jurisdiktioner kan skaberens <a href=\"\" class=\"helpLink\" "
 "id=\"moral_rights\">moralske rettigheder</a> forblive længere end varigheden"
 " af ophavsrettigheden. Disse rettigheder kan inkludere retten til at blive "
-"identificeret som skaber og retten til at gøre indsigelse mod nedladende "
+"identificeret som skaber og retten til at gøre indsigelse mod nedsættende "
 "behandlinger."
 
 #: templates/includes/deed_body_mark.html:34
@@ -794,6 +802,8 @@ msgstr "Ikke implementeret"
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"dette juridiske værktøj har ikke en gyldig skabelon. Rapportér venligst "
+"dette problem:"
 
 #: templates/includes/deed_body_zero.html:12
 msgid ""
@@ -802,10 +812,11 @@ msgid ""
 "worldwide under copyright law, including all related and neighboring rights,"
 " to the extent allowed by law."
 msgstr ""
-"Personen, der har tilknyttet et værk med dette deed har <b>dedikeret</b> "
-"værket til public domain ved at give afkald på alle hans eller hendes "
-"rettigheder til værket verden over. under lov om ophavsret, herunder alle "
-"relaterede og beslægtede rettigheder i det omfang, loven tillader."
+"Personen, der har tilknyttet et værk til denne dokumentation har "
+"<b>dedikeret</b> værket til public domain ved at give afkald på alle hans "
+"eller hendes rettigheder til værket, over hele verden, under lov om "
+"ophavsret, herunder alle relaterede og beslægtede rettigheder i det omfang, "
+"loven tillader."
 
 #: templates/includes/deed_body_zero.html:13
 msgid ""
@@ -824,6 +835,12 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
 " class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
 msgstr ""
+"På ingen måde er nogen persons patent- eller varemærkerettigheder påvirket "
+"af CC0, og heller ikke de rettigheder, som andre personer måtte have til "
+"værket eller til, hvordan værket bruges, såsom <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">offentligheds- eller "
+"privatlivsrettigheder.</a> "
 
 #: templates/includes/deed_body_zero.html:26
 msgid ""
@@ -831,10 +848,10 @@ msgid ""
 "this deed makes no warranties about the work, and disclaims liability for "
 "all uses of the work, to the fullest extent permitted by applicable law."
 msgstr ""
-"Med mindre andet er eksplicit angivet, giver personen der tilknyttede et "
-"værk til dette dokument ingen garantier om værket, og frasiger sig i størst "
-"mulig grad ansvaret for al brug af værket, i det fulde omfang det er tilladt"
-" af gældende lov."
+"Med mindre andet er eksplicit angivet, giver personen, der tilknyttede et "
+"værk til denne dokumentation, ingen garantier om værket, og frasiger sig i "
+"størst mulig grad ansvaret for al brug af værket, i det fulde omfang det er "
+"tilladt af gældende lov."
 
 #: templates/includes/deed_body_zero.html:27
 msgid ""
@@ -861,8 +878,8 @@ msgstr ""
 "Anvendelse af værket udenfor kendte ophavsrettighedsmæssige beskyttelser kan"
 " være reguleret eller begrænset. Værket eller dets anvendelse kan være "
 "underlagt personlige databeskyttelseslove, offentlighedsgørelsesrettigheder,"
-" imagerettigheder eller privatlivsrettigheder, der tilegner en person "
-"kontrol over hvordan deres stemme, fremtoning eller lighed anvendes, eller "
+" afbildningsrettigheder eller privatlivsrettigheder, der tilegner en person "
+"kontrol over hvordan deres stemme, fremtoning eller portræt anvendes, eller "
 "andre restriktioner eller begrænsninger under relevant lovgivning."
 
 #: templates/includes/deed_body_zero.html:35
@@ -891,8 +908,8 @@ msgstr "Citation"
 msgid ""
 "Copy and paste the HTML provided into your webpage to easily cite this work."
 msgstr ""
-"Kopier og indsæt denne lille HTML-kode ind på din webside for nemt at citere"
-" dette værk."
+"Kopier og indsæt denne lille HTML-kode på din webside for nemt at citere "
+"dette værk."
 
 #: templates/includes/deed_body_zero.html:55
 msgid "Who is the affirmer?"
@@ -926,10 +943,10 @@ msgid ""
 "review all of the terms and conditions of the actual license before using "
 "the licensed material."
 msgstr ""
-"Dokumentet fremhæver kun nogle af de centrale egenskaber og vilkår i den "
-"egentlige licens. Det er ikke en licens og har ikke nogen juridisk værdi. Du"
-" bør gennemse alle vilkårene og betingelserne grundigt i den egentlige "
-"licens inden det licenserede materiale bruges."
+"Denne dokumentation fremhæver kun nogle af de centrale egenskaber og vilkår "
+"i den egentlige licens. Det er ikke en licens og har ikke nogen juridisk "
+"værdi. Du bør gennemse alle vilkårene og betingelserne grundigt i den "
+"egentlige licens inden det licenserede materiale bruges."
 
 #: templates/includes/disclaimer_40.html:13
 msgid ""
@@ -949,7 +966,7 @@ msgid ""
 "href=\"/choose/zero/\">CC0</a>."
 msgstr ""
 "Dette værktøj er baseret på lovgivning fra USA og er måske ikke anvendeligt "
-"i andre lande. For at dedikere værker til public domain anbefaler vi <a "
+"i andre lande. For at dedikere nye værker til public domain anbefaler vi <a "
 "href=\"/choose/zero/\">CC0</a>."
 
 #: templates/includes/disclaimer_deprecated.html:5
@@ -960,7 +977,7 @@ msgid ""
 msgstr ""
 "Creative Commons har <a "
 "href=\"http://creativecommons.org/retiredlicenses\">udfaset dette juridiske "
-"instrument</a> , og anbefaler ikke at det knyttes til værker."
+"værktøj</a> , og anbefaler at det ikke knyttes til værker."
 
 #: templates/includes/disclaimer_newer_license.html:5
 msgid ""
@@ -970,6 +987,11 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"Dette er en ældre version af denne licens. Sammenlignet med tidligere "
+"versioner er 4.0-versionerne af alle CC-licenser <a href=\"/version4/\">mere"
+" brugervenlige og mere internationalt robuste</a>. Hvis du <a "
+"href=\"/choose/\"> licenserer dit eget værk</a>, vi anbefaler kraftigt "
+"brugen af ​​4.0-licensen i stedet for:"
 
 #: templates/includes/disclaimer_zero.html:10
 msgid ""
@@ -985,31 +1007,31 @@ msgid ""
 "copyright status in any jurisdiction, and disclaims all liability for all "
 "uses of any work. </p>"
 msgstr ""
-"<p> Commons Deed er ikke et juridisk instrument. Det er ganske simpelt en "
-"kortfattet forklaring til at forstå den juridiske tekst af CC0, et "
-"menneskelæsbart udtryk for nogle af licensaftalens nøglebegreber. Tænk på "
-"det som brugervenlig grænseflade til den juridiske tekst for CC0. Tænk på "
-"det som ikke havende nogen juridisk værdi - dets indhold vises ikke i CC0. "
+"<p> Commons Dokumentationen er ikke et juridisk instrument. Det er ganske "
+"simpelt en kortfattet forklaring til at forstå den juridiske tekst af CC0, "
+"et menneske-læsbart udtryk for nogle af licensaftalens nøglebegreber. Tænk "
+"på det som brugervenlig grænseflade til den juridiske tekst for CC0. Tænk på"
+" det som ikke havende nogen juridisk værdi - dets indhold vises ikke i CC0. "
 "</p><p> Creative Commons er ikke et advokatfirma og giver ikke juridisk "
-"rådgivning. Distribution, visning eller linkning til denne Commons Deed "
-"skaber ikke et advokat-klient forhold. </p><p> Creative Commons har ikke "
-"verificeret om værket har en anden ophavsretslig status forud for at en "
-"person anvender CC0. CC giver ingen garantier om noget værk eller dets "
-"ophavsretsstatus i nogen jurisdiktion, og fralægger sig ethvert ansvar for "
-"al brug af ethvert værk. </p>"
+"rådgivning. Distribution, visning eller linkning til denne Commons "
+"Dokumentation skaber ikke et advokat-klient forhold. </p><p> Creative "
+"Commons har ikke verificeret om værket har en anden ophavsretslig status "
+"forud for at en person anvender CC0. CC giver ingen garantier om noget værk "
+"eller dets ophavsretsstatus i nogen jurisdiktion, og fralægger sig ethvert "
+"ansvar for al brug af ethvert værk. </p>"
 
 #: templates/includes/disclaimer_zero.html:24
 msgid ""
 "This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
 "(read the full text)</a>."
 msgstr ""
-"Dette er en menneskelæsbar opsummering af <a href=\"./legalcode\">den "
+"Dette er en menneske-læsbar opsummering af <a href=\"./legalcode\">den "
 "juridiske tekst (læs hele teksten)</a>."
 
 #: templates/includes/language_selector.html:5
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
-msgstr "Siden er tilgængelig på følgende sprog:"
+msgstr "Denne side er tilgængelig på følgende sprog:"
 
 #: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
@@ -1025,6 +1047,9 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"Creative Commons er nonprofit organisationen bag de åbne licenser og andre "
+"juridiske værktøjer, som giver skabere muligheder for at dele deres værk. "
+"Vore juridiske værktøjer er frie at bruge."
 
 #: templates/includes/related_links.html:17
 msgid "Learn more about our work"
@@ -1044,7 +1069,7 @@ msgstr "Benyt licensen på dit eget materiale."
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Brug af Creative Commons Offentlige Licenser"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1055,14 +1080,20 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons' Offentlige Licenser indeholder et standardiseret sæt "
+"vilkår og betingelser, som ophavsmænd og andre rettighedshavere kan anvende "
+"til at Dele originale værker og andet materiale omfattet af ophavsretten og "
+"visse andre rettigheder, der er anført i den Offentlige Licens nedenfor. "
+"Følgende betragtninger er kun til orientering, er ikke udtømmende og udgør "
+"ikke en del af vores licenser."
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Betragtninger for Licensgivere"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "Vis betragtninger for Licensgivere"
 
 #: templates/includes/use_of_licenses.html:23
 msgid ""
@@ -1078,14 +1109,26 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Vores offentlige licenser er beregnet til brug af dem, der er autoriseret "
+"til at give offentligheden tilladelse til at bruge materiale på måder, der "
+"ellers er begrænset af ophavsret og visse andre rettigheder. Vores licenser "
+"er uigenkaldelige. Licensgivere bør læse og forstå vilkårene og "
+"betingelserne for den licens, de vælger, før de anvender den. Licensgivere "
+"bør også sikre sig alle nødvendige rettigheder, før de anvender vores "
+"licenser, så offentligheden kan genbruge materialet som forventet. "
+"Licensgivere bør tydeligt markere alt materiale, der ikke er underlagt "
+"licensen. Dette omfatter andet CC-licenseret materiale eller materiale, der "
+"anvendes under en undtagelse eller begrænsning af ophavsret.  <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Flere"
+" hensyn til licensgivere.</a>"
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Betragtninger for offentligheden"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "Vis betragtninger for Offentligheden"
 
 #: templates/includes/use_of_licenses.html:42
 msgid ""
@@ -1103,6 +1146,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Ved at bruge en af ​​vores offentlige licenser, giver en licensgiver "
+"offentligheden tilladelse til at bruge det licenserede materiale under "
+"specificerede vilkår og betingelser. Hvis licensgiverens tilladelse ikke er "
+"nødvendig af en eller anden grund – for eksempel på grund af enhver gældende"
+" undtagelse eller begrænsning af ophavsret – så er denne brug ikke reguleret"
+" af licensen. Vores licenser giver kun tilladelser under ophavsret og visse "
+"andre rettigheder, som en licensgiver har bemyndigelse til at give. Brug af "
+"det licenserede materiale kan stadig være begrænset af andre årsager, "
+"herunder fordi andre har ophavsret eller andre rettigheder til materialet. "
+"En licensgiver kan fremsætte særlige anmodninger, såsom at bede om, at alle "
+"ændringer markeres eller beskrives. Selvom det ikke kræves af vores "
+"licenser, opfordres du til at respektere disse anmodninger, hvor det er "
+"rimeligt.<a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Flere"
+" hensyn til offentligheden.</a>"
 
 #: templates/legalcode.html:4 templates/legalcode.html:10
 #: templates/list-licenses.html:12 templates/list-publicdomain.html:12
@@ -1111,15 +1169,15 @@ msgstr "Juridisk tekst"
 
 #: templates/legalcode.html:25
 msgid "See the deed"
-msgstr ""
+msgstr "Læs dokumentationen"
 
 #: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Skjul betragtninger for Licensgivere."
 
 #: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "Skjul betragtninger for Offentligheden"
 
 #: templates/list-licenses.html:54 templates/list-licenses.html:70
 #: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
@@ -1128,7 +1186,7 @@ msgstr "Sprog"
 
 #: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
-msgstr ""
+msgstr "Juridiske Værktøjer"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
