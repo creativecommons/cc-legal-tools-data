@@ -1,0 +1,994 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deeds_ux\n"
+"POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
+"PO-Revision-Date: 2023-02-07 16:06:56+00:00\n"
+"Language-Team: https://www.transifex.com/creativecommons/teams/11342/fy/\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Django: fy\n"
+"Language-Transifex: fy\n"
+
+#: i18n/__init__.py:122
+msgid "Generic"
+msgstr "Generyk"
+
+#: i18n/__init__.py:123
+msgid "Unported"
+msgstr "Unpoarte"
+
+#: i18n/__init__.py:124
+msgid "International"
+msgstr "Ynternasjonaal"
+
+#: i18n/__init__.py:125
+msgid "Universal"
+msgstr "Algemien"
+
+#: i18n/__init__.py:126
+msgid "Armenia"
+msgstr ""
+
+#: i18n/__init__.py:127
+msgid "Argentina"
+msgstr "Argentynje"
+
+#: i18n/__init__.py:128
+msgid "Austria"
+msgstr "Eastenryk"
+
+#: i18n/__init__.py:129
+msgid "Australia"
+msgstr "Austraalje"
+
+#: i18n/__init__.py:130
+msgid "Azerbaijan"
+msgstr ""
+
+#: i18n/__init__.py:131
+msgid "Belgium"
+msgstr "Belgje"
+
+#: i18n/__init__.py:132
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: i18n/__init__.py:133
+msgid "Brazil"
+msgstr "Brazylje"
+
+#: i18n/__init__.py:134
+msgid "Canada"
+msgstr "Kanada"
+
+#: i18n/__init__.py:135
+msgid "Switzerland"
+msgstr "Switserlân"
+
+#: i18n/__init__.py:136
+msgid "Chile"
+msgstr "Sily"
+
+#: i18n/__init__.py:137
+msgid "China Mainland"
+msgstr "Sina Fêstelân"
+
+#: i18n/__init__.py:138
+msgid "Colombia"
+msgstr "Kolombia"
+
+#: i18n/__init__.py:139
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+#: i18n/__init__.py:140
+msgid "Czech Republic"
+msgstr "Tsjechyske Republyk"
+
+#: i18n/__init__.py:141
+msgid "Germany"
+msgstr "Dútslân"
+
+#: i18n/__init__.py:142
+msgid "Denmark"
+msgstr "Denemark"
+
+#: i18n/__init__.py:143
+msgid "Ecuador"
+msgstr "Ekwador"
+
+#: i18n/__init__.py:144
+msgid "Estonia"
+msgstr "Estlân"
+
+#: i18n/__init__.py:145
+msgid "Egypt"
+msgstr "Egypte"
+
+#: i18n/__init__.py:146
+msgid "Spain"
+msgstr "Spanje"
+
+#: i18n/__init__.py:147
+msgid "Finland"
+msgstr "Finlân"
+
+#: i18n/__init__.py:148
+msgid "France"
+msgstr "Frankryk"
+
+#: i18n/__init__.py:149
+msgid "Georgia"
+msgstr ""
+
+#: i18n/__init__.py:150
+msgid "Greece"
+msgstr "Grikelân"
+
+#: i18n/__init__.py:151
+msgid "Guatemala"
+msgstr "Gûatemala"
+
+#: i18n/__init__.py:152
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#: i18n/__init__.py:153
+msgid "Croatia"
+msgstr "Kroaasje"
+
+#: i18n/__init__.py:154
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: i18n/__init__.py:155
+msgid "Ireland"
+msgstr "Ierlân"
+
+#: i18n/__init__.py:156
+msgid "Intergovernmental Organization"
+msgstr ""
+
+#: i18n/__init__.py:157
+msgid "Israel"
+msgstr "Israel"
+
+#: i18n/__init__.py:158
+msgid "India"
+msgstr "Yndia"
+
+#: i18n/__init__.py:159
+msgid "Italy"
+msgstr "Itaalje"
+
+#: i18n/__init__.py:160
+msgid "Jordan"
+msgstr "Jordaanje"
+
+#: i18n/__init__.py:161
+msgid "Japan"
+msgstr "Japan"
+
+#: i18n/__init__.py:162
+msgid "Korea"
+msgstr "Korea"
+
+#: i18n/__init__.py:163
+msgid "Luxembourg"
+msgstr "Lúksemboarch"
+
+#: i18n/__init__.py:164
+msgid "Macedonia"
+msgstr "Masedoanje"
+
+#: i18n/__init__.py:165
+msgid "Malta"
+msgstr "Malta"
+
+#: i18n/__init__.py:166
+msgid "Mexico"
+msgstr "Meksiko"
+
+#: i18n/__init__.py:167
+msgid "Malaysia"
+msgstr "Maleizje"
+
+#: i18n/__init__.py:168
+msgid "Nigeria"
+msgstr "Nigearia"
+
+#: i18n/__init__.py:169
+msgid "Netherlands"
+msgstr "Nederlân"
+
+#: i18n/__init__.py:170
+msgid "Norway"
+msgstr "Noarwegen"
+
+#: i18n/__init__.py:171
+msgid "New Zealand"
+msgstr "Nij-Seelân"
+
+#: i18n/__init__.py:172
+msgid "Peru"
+msgstr "Perû"
+
+#: i18n/__init__.py:173
+msgid "Philippines"
+msgstr "Filipinen"
+
+#: i18n/__init__.py:174
+msgid "Poland"
+msgstr "Poalen"
+
+#: i18n/__init__.py:175
+msgid "Puerto Rico"
+msgstr "Porto Riko"
+
+#: i18n/__init__.py:176
+msgid "Portugal"
+msgstr "Portegal"
+
+#: i18n/__init__.py:177
+msgid "Romania"
+msgstr "Roemeenje"
+
+#: i18n/__init__.py:178
+msgid "Serbia"
+msgstr "Servje"
+
+#: i18n/__init__.py:179
+msgid "UK: Scotland"
+msgstr "FK: Skotlân"
+
+#: i18n/__init__.py:180
+msgid "Sweden"
+msgstr "Sweden"
+
+#: i18n/__init__.py:181
+msgid "Singapore"
+msgstr "Singapoer"
+
+#: i18n/__init__.py:182
+msgid "Slovenia"
+msgstr "Sloveenje"
+
+#: i18n/__init__.py:183
+msgid "Thailand"
+msgstr "Tailân"
+
+#: i18n/__init__.py:184
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: i18n/__init__.py:185
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+#: i18n/__init__.py:186
+msgid "Uganda"
+msgstr "Uganda"
+
+#: i18n/__init__.py:187
+msgid "UK: England & Wales"
+msgstr "FK: Ingelân & Wales"
+
+#: i18n/__init__.py:188
+msgid "United States"
+msgstr "Feriene Steaten"
+
+#: i18n/__init__.py:189
+msgid "Venezuela"
+msgstr "Fenezuëla"
+
+#: i18n/__init__.py:190
+msgid "Vietnam"
+msgstr "Fjetnam"
+
+#: i18n/__init__.py:191
+msgid "South Africa"
+msgstr "Súd-Afrika"
+
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+msgid "Attribution"
+msgstr "Nammeneamen"
+
+#: i18n/__init__.py:195
+msgid "Attribution-NonCommercial"
+msgstr "Nammeneamen-NetKommersjeel"
+
+#: i18n/__init__.py:196
+msgid "Attribution-NonCommercial-NoDerivs"
+msgstr "Nammeneamen-NetKommersjeel-GjinOflaatWurk"
+
+#: i18n/__init__.py:197
+msgid "Attribution-NonCommercial-ShareAlike"
+msgstr "Nammeneamen-NetKommersjeel-AllykDiele"
+
+#: i18n/__init__.py:198
+msgid "Attribution-NoDerivs"
+msgstr "Nammeneamen-GjinOflaatWurk"
+
+#: i18n/__init__.py:199
+msgid "Attribution-NoDerivs-NonCommercial"
+msgstr "Nammeneamen-GjinOflaatWurk-NetKommersjeel"
+
+#: i18n/__init__.py:200
+msgid "Attribution-ShareAlike"
+msgstr "Nammeneamen-AllykDiele"
+
+#: i18n/__init__.py:202
+msgid ""
+"Copyright-Only Dedication (based on United States law) or Public Domain "
+"Certification"
+msgstr ""
+"Inkeld-Auteursjocht-Tawizing (grûne op Feriene Steaten wetjouwing)\n"
+"of Publyk Domeinsertifikaat"
+
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+msgid "Developing Nations"
+msgstr "Untwikkelingslannen"
+
+#: i18n/__init__.py:206
+msgid "Public Domain Mark"
+msgstr "Publyk Domein Merk"
+
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+msgid "NonCommercial"
+msgstr "NetKommersjeel"
+
+#: i18n/__init__.py:208
+msgid "NonCommercial-ShareAlike"
+msgstr "NetKommersjeel-AllykDiele"
+
+#: i18n/__init__.py:209
+msgid "NonCommercial Sampling Plus"
+msgstr "NetKommersjeel Sampling Plus"
+
+#: i18n/__init__.py:210
+msgid "NoDerivs"
+msgstr "GjinOflaatWurk"
+
+#: i18n/__init__.py:211
+msgid "NoDerivs-NonCommercial"
+msgstr "GjinOflaatWurk-NetKommersjeel"
+
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+msgid "ShareAlike"
+msgstr "AllykDiele"
+
+#: i18n/__init__.py:213
+msgid "Sampling"
+msgstr "Sampling"
+
+#: i18n/__init__.py:214
+msgid "Sampling Plus"
+msgstr "Sampling Plus"
+
+#: legal_tools/views.py:49
+msgid "Public Domain"
+msgstr "Publyk Domein"
+
+#: legal_tools/views.py:51
+msgid "Licenses"
+msgstr ""
+
+#: legal_tools/views.py:421
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:423
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:41
+msgid "Skip to content"
+msgstr ""
+
+#: templates/base.html:44
+msgid "Home"
+msgstr ""
+
+#: templates/deed.html:5 templates/deed.html:14
+#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+msgid "Deed"
+msgstr ""
+
+#: templates/deed.html:21
+msgid "See the legal code"
+msgstr ""
+
+#: templates/dev/404.html:4
+msgid "Page Not Found"
+msgstr ""
+
+#: templates/includes/about_cc.html:10
+msgid ""
+"Creative Commons is not a party to its public licenses. Notwithstanding, "
+"Creative Commons may elect to apply one of its public licenses to material "
+"it publishes and in those instances will be considered the \"Licensor.\" The"
+" text of the Creative Commons public licenses is dedicated to the public "
+"domain under the <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Except for the limited purpose of indicating that material "
+"is shared under a Creative Commons public license or as otherwise permitted "
+"by the Creative Commons policies published at <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, Creative Commons does "
+"not authorize the use of the trademark \"Creative Commons\" or any other "
+"trademark or logo of Creative Commons without its prior written consent "
+"including, without limitation, in connection with any unauthorized "
+"modifications to any of its public licenses or any other arrangements, "
+"understandings, or agreements concerning use of licensed material. For the "
+"avoidance of doubt, this paragraph does not form part of the public "
+"licenses."
+msgstr ""
+
+#: templates/includes/about_cc.html:30
+msgid ""
+"Creative Commons may be contacted at <a "
+"href=\"//creativecommons.org/\">creativecommons.org</a>."
+msgstr ""
+
+#: templates/includes/about_cc_and_license.html:6
+msgid "About the license and Creative Commons"
+msgstr ""
+
+#: templates/includes/about_cc_and_license.html:8
+msgid ""
+"Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
+"does not provide legal services or legal advice. Distribution of Creative "
+"Commons public licenses does not create a lawyer-client or other "
+"relationship. Creative Commons makes its licenses and related information "
+"available on an \"as-is\" basis. Creative Commons gives no warranties "
+"regarding its licenses, any material licensed under their terms and "
+"conditions, or any related information. Creative Commons disclaims all "
+"liability for damages resulting from their use to the fullest extent "
+"possible."
+msgstr ""
+
+#: templates/includes/deed_body_certification.html:6
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:7
+msgid "You are free to:"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:19
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:23
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:29
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:30
+#: templates/includes/deed_body_licenses.html:37
+msgid "for any purpose, even commercially."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:36
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:44
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:50
+msgid "Under the following terms:"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:61
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:73
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:85
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:96
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:107
+msgid "NoDerivatives"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:118
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"Jo meie dit wurk allinnich mar brûke om it wurk dat jo derfan skeppe, en "
+"neat oars, oan te priizgjen of der reklame foar te meitsjen."
+
+#: templates/includes/deed_body_licenses.html:129
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:140
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"Jo meie dit hiele wurk net útfiere, sjen litte, of kopyen derfan ferspriede "
+"foar hokfoar doel ek."
+
+#: templates/includes/deed_body_licenses.html:150
+msgid "No additional restrictions"
+msgstr "Gjin oanfoljende beheiningen"
+
+#: templates/includes/deed_body_licenses.html:150
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:157
+msgid "Notices:"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:160
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:163
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:7
+#: templates/includes/deed_body_zero.html:6
+msgid "No Copyright"
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:14
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\">Dit wurk is <b>merkt</b> as wurk dêr’t gjin bekende "
+"auteursrjochtlike beheiningen op rêste, en dêrby alle besibbe en "
+"oanbuorjende rjochten. </p><p><br /> Jo meie it wurk kopiearje, bewurkje en "
+"útfiere, ek foar kommersjele doelen, en altyd sûnder tastimming te freegjen."
+" Sjoch <b>Oare ynformaasje</b> hjirûnder. </p>"
+
+#: templates/includes/deed_body_mark.html:22
+#: templates/includes/deed_body_zero.html:19
+msgid "Other Information"
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:28
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"It is mooglik dat it wurk net frij is fan auteursrjochtbeheiningen yn alle "
+"<a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">wetjouwingen</a>."
+
+#: templates/includes/deed_body_mark.html:30
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:32
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:34
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:36
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:57
+msgid "Unimplemented"
+msgstr ""
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:57
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:12
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:13
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:24
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:26
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:27
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:32
+msgid "Other Rights"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:34
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"It brûken fan in wurk dêr’t gjin bekende auteursrjochtbeheingen op rêste kin"
+" oars regulearre of beheind wêze. It wurk of it brûken derfan kin "
+"ûnderwurpen wêze oan wetten foar beskerming fan persoansgegevens of "
+"publisiteits-, portret- en privacyrjochten, dy’t in persoan by steat stelle "
+"om te bepalen hoe’t syn stim, byltnis of likenis brûkt wurdt, of oare "
+"beheiningen of begrinzgingen ûnder tapaslik rjocht."
+
+#: templates/includes/deed_body_zero.html:35
+#: templates/includes/deed_body_zero.html:42
+#: templates/includes/deed_body_zero.html:51
+msgid "Learn more"
+msgstr "Untdek mear"
+
+#: templates/includes/deed_body_zero.html:39
+msgid "Endorsement"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:41
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:45
+msgid "Citation"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:48
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:55
+msgid "Who is the affirmer?"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:58
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+
+#: templates/includes/disclaimer_40.html:3
+#: templates/includes/disclaimer_certification.html:3
+#: templates/includes/disclaimer_deprecated.html:3
+#: templates/includes/disclaimer_newer_license.html:3
+#: templates/includes/disclaimer_zero.html:9
+msgid "Disclaimer"
+msgstr ""
+
+#: templates/includes/disclaimer_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+
+#: templates/includes/disclaimer_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+
+#: templates/includes/disclaimer_certification.html:4
+msgid ""
+"This tool is based on United States law and may not be applicable outside "
+"the US. For dedicating new works to the public domain, we recommend <a "
+"href=\"/choose/zero/\">CC0</a>."
+msgstr ""
+
+#: templates/includes/disclaimer_deprecated.html:5
+msgid ""
+"Creative Commons has <a "
+"href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
+"tool</a> and does not recommend that it be applied to works."
+msgstr ""
+
+#: templates/includes/disclaimer_newer_license.html:5
+msgid ""
+"This is an older version of this license. Compared to previous versions, the"
+" 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
+"friendly and more internationally robust</a>. If you are <a "
+"href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
+"use of the 4.0 license instead:"
+msgstr ""
+
+#: templates/includes/disclaimer_zero.html:10
+msgid ""
+"<p> The Commons Deed is not a legal instrument. It is simply a handy "
+"reference for understanding the CC0 Legal Code, a human-readable expression "
+"of some of its key terms. Think of it as the user-friendly interface to the "
+"CC0 Legal Code beneath. This Deed itself has no legal value, and its "
+"contents do not appear in CC0. </p> <p> Creative Commons is not a law firm "
+"and does not provide legal services. Distributing, displaying, or linking to"
+" this Commons Deed does not create an attorney-client relationship. </p> <p>"
+" Creative Commons has not verified the copyright status of any work to which"
+" CC0 has been applied. CC makes no warranties about any work or its "
+"copyright status in any jurisdiction, and disclaims all liability for all "
+"uses of any work. </p>"
+msgstr ""
+
+#: templates/includes/disclaimer_zero.html:24
+msgid ""
+"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
+"(read the full text)</a>."
+msgstr ""
+
+#: templates/includes/language_selector.html:5
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr ""
+
+#: templates/includes/languages_dropdown.html:4
+msgid "Languages available"
+msgstr ""
+
+#: templates/includes/languages_dropdown.html:9
+msgid "Select"
+msgstr ""
+
+#: templates/includes/related_links.html:9
+msgid ""
+"Creative Commons is the nonprofit behind the open licenses and other legal "
+"tools that allow creators to share their work. Our legal tools are free to "
+"use."
+msgstr ""
+
+#: templates/includes/related_links.html:17
+msgid "Learn more about our work"
+msgstr ""
+
+#: templates/includes/related_links.html:19
+msgid "Learn more about CC Licensing"
+msgstr ""
+
+#: templates/includes/related_links.html:20
+msgid "Support our work"
+msgstr ""
+
+#: templates/includes/related_links.html:22
+msgid "Use the license for your own material."
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:8
+msgid "Using Creative Commons Public Licenses"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:10
+msgid ""
+"Creative Commons public licenses provide a standard set of terms and "
+"conditions that creators and other rights holders may use to share original "
+"works of authorship and other material subject to copyright and certain "
+"other rights specified in the public license below. The following "
+"considerations are for informational purposes only, are not exhaustive, and "
+"do not form part of our licenses."
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:21
+msgid "Considerations for licensors"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
+msgid "Show Considerations for Licensors"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:23
+msgid ""
+"Our public licenses are intended for use by those authorized to give the "
+"public permission to use material in ways otherwise restricted by copyright "
+"and certain other rights. Our licenses are irrevocable. Licensors should "
+"read and understand the terms and conditions of the license they choose "
+"before applying it. Licensors should also secure all rights necessary before"
+" applying our licenses so that the public can reuse the material as "
+"expected. Licensors should clearly mark any material not subject to the "
+"license. This includes other CC-licensed material, or material used under an"
+" exception or limitation to copyright. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
+" considerations for licensors.</a>"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:40
+msgid "Considerations for the public"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
+msgid "Show Considerations for the Public"
+msgstr ""
+
+#: templates/includes/use_of_licenses.html:42
+msgid ""
+"By using one of our public licenses, a licensor grants the public permission"
+" to use the licensed material under specified terms and conditions. If the "
+"licensor’s permission is not necessary for any reason–for example, because "
+"of any applicable exception or limitation to copyright–then that use is not "
+"regulated by the license. Our licenses grant only permissions under "
+"copyright and certain other rights that a licensor has authority to grant. "
+"Use of the licensed material may still be restricted for other reasons, "
+"including because others have copyright or other rights in the material. A "
+"licensor may make special requests, such as asking that all changes be "
+"marked or described. Although not required by our licenses, you are "
+"encouraged to respect those requests where reasonable. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
+" considerations for the public.</a>"
+msgstr ""
+
+#: templates/legalcode.html:4 templates/legalcode.html:10
+#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
+msgid "Legal Code"
+msgstr "Juridysk Skrift"
+
+#: templates/legalcode.html:25
+msgid "See the deed"
+msgstr ""
+
+#: templates/legalcode.html:84
+msgid "Hide Considerations for Licensors"
+msgstr ""
+
+#: templates/legalcode.html:86
+msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/list-licenses.html:54 templates/list-licenses.html:70
+#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+msgid "Language"
+msgstr ""
+
+#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+msgid "Legal Tools"
+msgstr ""
+
+#: templates/redirect.html:5
+msgid "Redirect to:"
+msgstr ""
