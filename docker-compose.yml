@@ -2,23 +2,25 @@
 #   .env
 #   Dockerfile
 #
-# https://docs.docker.com/compose/compose-file/compose-file-v3/
+# https://docs.docker.com/compose/compose-file/compose-file-v2/
 
-version: "3.6"
+version: "2.4"
 
 services:
 
   static:
     build: ${RELPATH_DATA}
-    command: sh -c "
+    command: /bin/bash -c "
       echo 'Starting static webserver at http://127.0.0.1:${PORT_STATIC}/'
-      && httpd-foreground
+      && /usr/local/bin/httpd-foreground
       "
     environment:
       - PORT_STATIC
     ports:
       - "${PORT_STATIC}:80"
-    restart: always
+    restart: on-failure
     volumes:
+      # Mount site configuration directory
       - ${RELPATH_DATA}/config:/usr/local/apache2/conf/config:ro
+      # Mount website directory
       - ${RELPATH_DATA}/docs:/usr/local/apache2/htdocs:ro
