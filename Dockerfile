@@ -1,8 +1,7 @@
 # https://docs.docker.com/engine/reference/builder/
 
 # https://hub.docker.com/_/httpd
-FROM httpd:2.4-alpine
-
+FROM httpd:2.4
 
 # Update Apache2 configuration
 
