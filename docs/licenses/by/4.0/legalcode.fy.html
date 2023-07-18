@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fy">
+ <head about="">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CC BY 4.0 Legal Code — Attribution 4.0 International — Creative Commons
+  </title>
+  <link href="https://creativecommons.org/licenses/by/4.0/legalcode.fy" rel="canonical"/>
+  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
+  <!-- Import Vue JS via CDN -->
+  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
+  </script>
+  <!-- Import Axios via CDN. Needed for the Global Header Component -->
+  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
+  </script>
+  <!-- Import the Component Library via CDN -->
+  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
+  </script>
+  <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
+ </head>
+ <body about="" typeof="">
+  <!-- Div element used to mount the Explore CC component-->
+  <div id="explore-cc">
+   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-explore>
+  </div>
+  <!-- Div element used to mount the Global Header component-->
+  <div id="header-cc">
+   <header class="vocab header">
+    <div class="is-flex is-justify-content-flex-end">
+     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
+      <i class="icon heart">
+      </i>
+      Donate
+     </a>
+    </div>
+    <nav aria-label="Main" class="navbar">
+     <div class="navbar-brand">
+      <a class="main-logo navbar-item" href="/" target="_blank">
+       <div class="has-text-black">
+        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
+       </div>
+      </a>
+     </div>
+     <div>
+      <p>
+       (development instance: no site menu)
+      </p>
+     </div>
+    </nav>
+   </header>
+  </div>
+  <main>
+   <div class="level padding-left-big padding-right-large padding-vertical-normal">
+    <a class="skip-link" href="#content">
+     Skip to content
+    </a>
+    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+     <ul>
+      <li>
+       <a href="/">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/">
+        Licenses
+       </a>
+      </li>
+      <li class="is-active">
+       <a aria-current="page displayed" href="/licenses/by/4.0/legalcode.fy">
+        CC BY 4.0 Legal Code
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="locale level-right level-item has-text-black">
+     Languages available
+     <div class="control margin-left-small">
+      <div class="select">
+       <select id="languages-dropdown">
+        <option disabled="">
+         Select
+        </option>
+        <option data-link="legalcode.id" id="option-id" value="id">
+         Bahasa Indonesia
+        </option>
+        <option data-link="legalcode.eu" id="option-eu" value="eu">
+         Basque
+        </option>
+        <option data-link="legalcode.da" id="option-da" value="da">
+         dansk
+        </option>
+        <option data-link="legalcode.de" id="option-de" value="de">
+         Deutsch
+        </option>
+        <option data-link="legalcode.en" id="option-en" value="en">
+         English
+        </option>
+        <option data-link="legalcode.es" id="option-es" value="es">
+         español
+        </option>
+        <option data-link="legalcode.fr" id="option-fr" value="fr">
+         français
+        </option>
+        <option data-link="legalcode.fy" id="option-fy" selected="" value="fy">
+         frysk
+        </option>
+        <option data-link="legalcode.hr" id="option-hr" value="hr">
+         Hrvatski
+        </option>
+        <option data-link="legalcode.it" id="option-it" value="it">
+         italiano
+        </option>
+        <option data-link="legalcode.lv" id="option-lv" value="lv">
+         latviešu
+        </option>
+        <option data-link="legalcode.lt" id="option-lt" value="lt">
+         Lietuviškai
+        </option>
+        <option data-link="legalcode.mi" id="option-mi" value="mi">
+         Māori
+        </option>
+        <option data-link="legalcode.nl" id="option-nl" value="nl">
+         Nederlands
+        </option>
+        <option data-link="legalcode.no" id="option-no" value="no">
+         norsk
+        </option>
+        <option data-link="legalcode.pl" id="option-pl" value="pl">
+         polski
+        </option>
+        <option data-link="legalcode.pt" id="option-pt" value="pt">
+         Português
+        </option>
+        <option data-link="legalcode.ro" id="option-ro" value="ro">
+         Română
+        </option>
+        <option data-link="legalcode.sl" id="option-sl" value="sl">
+         Slovenščina
+        </option>
+        <option data-link="legalcode.fi" id="option-fi" value="fi">
+         suomi
+        </option>
+        <option data-link="legalcode.sv" id="option-sv" value="sv">
+         svenska
+        </option>
+        <option data-link="legalcode.tr" id="option-tr" value="tr">
+         Türkçe
+        </option>
+        <option data-link="legalcode.cs" id="option-cs" value="cs">
+         česky
+        </option>
+        <option data-link="legalcode.el" id="option-el" value="el">
+         Ελληνικά
+        </option>
+        <option data-link="legalcode.ru" id="option-ru" value="ru">
+         Русский
+        </option>
+        <option data-link="legalcode.uk" id="option-uk" value="uk">
+         Українська
+        </option>
+        <option data-link="legalcode.ar" id="option-ar" value="ar">
+         العربيّة
+        </option>
+        <option data-link="legalcode.ja" id="option-ja" value="ja">
+         日本語
+        </option>
+        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+         简体中文
+        </option>
+        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+         繁體中文
+        </option>
+        <option data-link="legalcode.ko" id="option-ko" value="ko">
+         한국어
+        </option>
+       </select>
+      </div>
+      <div class="icon is-small is-left">
+       <!-- TODO Add icons here -->
+      </div>
+     </div>
+    </div>
+    <script src="/cc-legal-tools/language-dropdown.js">
+    </script>
+   </div>
+   <section class="padding-horizontal-larger" id="content">
+    <div class="columns">
+     <div class="column is-one-quarter">
+     </div>
+     <div class="column columns padding-vertical-normal">
+      <div class="column is-three-quarters padding-top-normal">
+       Version 4.0 •
+      See the
+       <a href="/legal-code-errata/">
+        errata page
+       </a>
+       for any corrections and the date of change
+      </div>
+      <div class="column">
+       <a class="button tiny is-pulled-right" href="deed.en" id="next-btn">
+        See the deed
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="columns">
+     <div class="column is-one-quarter sidebar-container">
+      <aside class="menu sidebar-menu">
+       <ul class="menu-list">
+        <li>
+         <ul>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s1">
+            Kêst 1 – Definysjes.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s2">
+            Kêst 2 – Gruttens.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s3">
+            Kêst 3 – Lisinsjebetingsten.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s4">
+            Kêst 4 – Sui Generis Databankerjochten.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s5">
+            Kêst 5 – Utsluting fan garânsjes en beheining fan oanspraaklikheid.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s6">
+            Kêst 6 – Termyn en beëinigjen.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s7">
+            Kêst 7 – Oare betingsten en kondysjes.
+           </a>
+          </li>
+          <li class="columns">
+           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
+            •
+           </div>
+           <a class="is-block column" href="#s8">
+            Kêst 8 – Utlizzing.
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </aside>
+     </div>
+     <div class="column">
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
+       <h2 class="is-vcentered">
+        <span class="padding-right-bigger">
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
+         </i>
+        </span>
+        CC BY 4.0
+       </h2>
+       <h1 class="b-header">
+        Nammeneamen 4.0 Ynternasjonaal
+       </h1>
+      </div>
+      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
+       <h2 class="has-text-centered">
+        <span>
+         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
+         </i>
+        </span>
+       </h2>
+       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
+        CC BY 4.0
+       </h2>
+       <h3 class="has-text-centered is-hidden-touch">
+        CC BY 4.0
+       </h3>
+       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
+        CC BY 4.0
+       </h4>
+       <h2 class="b-header has-text-centered">
+        Nammeneamen 4.0 Ynternasjonaal
+       </h2>
+      </div>
+      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
+       <h4 class="padding-bottom-normal is-vcentered b-header">
+        <i class="info icon padding-right-normal">
+        </i>
+        About the license and Creative Commons
+       </h4>
+       <p class="has-text-black padding-left-big">
+        Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+       </p>
+      </div>
+      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
+       <h4 class="level is-vcentered b-header">
+        Using Creative Commons Public Licenses
+       </h4>
+       <p class="has-text-black body-big">
+        Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.
+       </p>
+       <hr class="divider"/>
+       <div>
+        <h4 class="level is-vcentered b-header">
+         Considerations for licensors
+         <span class="level-right">
+          <i class="angle-down icon" data-consideration="1" data-direction="down">
+           <span class="is-sr-only">
+            Show Considerations for Licensors
+           </span>
+          </i>
+         </span>
+        </h4>
+        <p class="has-text-black body-big is-hidden">
+         Our public licenses are intended for use by those authorized to give the public permission to use material in ways otherwise restricted by copyright and certain other rights. Our licenses are irrevocable. Licensors should read and understand the terms and conditions of the license they choose before applying it. Licensors should also secure all rights necessary before applying our licenses so that the public can reuse the material as expected. Licensors should clearly mark any material not subject to the license. This includes other CC-licensed material, or material used under an exception or limitation to copyright.
+         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+          More considerations for licensors.
+         </a>
+        </p>
+       </div>
+       <hr class="divider"/>
+       <div>
+        <h4 class="level is-vcentered b-header">
+         Considerations for the public
+         <span class="level-right">
+          <i class="angle-down icon" data-consideration="2" data-direction="down">
+           <span class="is-sr-only">
+            Show Considerations for the Public
+           </span>
+          </i>
+         </span>
+        </h4>
+        <p class="has-text-black body-big is-hidden">
+         By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable.
+         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+          More considerations for the public.
+         </a>
+        </p>
+       </div>
+      </div>
+      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
+       <div id="plain-text-marker">
+        <h3 class="padding-bottom-normal b-header">
+         Nammeneamen 4.0 Ynternasjonaal
+        </h3>
+        <p class="body-big padding-bottom-larger">
+         Troch it útoefenjen fan de Lisinsearre Rjochten (lykas hjirûnder bepaald), gean Jo akkoart mei de betingsten en kondysjes fan dizze Creative Commons Nammeneamen 4.0 Ynternasjonale Publike Lisinsje (“Publike Lisinsje”). Foarsafier’t dizze Publike Lisinsje útlein wurde kin as in kontrakt, wurde Jo de Lisinsearre Rjochten jûn mei it achtslaan fan Jo oanfurdiging fan dizze betingsten en kondysjes, en de Lisinsjejouwer jout Jo dizze rjochten mei it achtslaan fan de foardielen dy’t de Lisinsjejouwer krijt troch it beskikber stellen fan it Lisinsearre Materiaal ûnder dizze betingsten en kondysjes.
+        </p>
+        <!-- Section 1. Definitions. -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s1">
+          <strong>
+           Kêst 1 – Definysjes.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-bottom-normal" id="s1a_adapted_material">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Oflaat Materiaal
+            </span>
+            betsjut materiaal dat is beskerme troch Auteursrjocht en Besibbe Rjochten, dat Oflaat is fan of basearre op it Lisinsearre Materiaal en dêr’t it Lisinsearre Materiaal yn oerset, feroare, arranzjearre, omfoarme of oars oanpast is op in manier dy’t tastimming easket op grûn fan it Auteursrjocht en Besibbe Rjochten fan de Lisinsjejouwer. Foar de tapassing fan dizze Publike Lisinsje wurdt, wannear’t it Lisinsearre Materiaal in muzykwurk, útfiering of lûdsopnimming is, der altyd Oflaat Materiaal produsearre dêr’t it giet om Lisinsjearre Materiaal dat yn tiidopnommen ferbân syngronisearre wurdt mei in bewegend byld.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1b_adapters_license">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Ofliederslisinsje
+            </span>
+            betsjut de lisinsje dy’t Jo tapasse op Jo Auteursrjocht en Besibbe Rjochten yn Jo bydrage oan it Oflaat Materiaal mei it achtslaan fan de hjirboppe neamde betingsten en kondysjes fan dizze Publike Lisinsje.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1c_copyright_and_similar_rights">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Auteursrjocht en Besibbe Rjochten
+            </span>
+            binne it auteursrjocht en rjochten dy’t nau besibbe binne oan it auteursrjocht, en dêrûnder mar net beheind ta, útfieringen, útstjoering, lûdsopnimming en Sui Generis Databankerjocht, likefolle de manier sa’t de rjochten beneamd of kategorisearre binne. Foar de doelen fan dizze Publike Lisinsje falle de rjochten omskreaun ûnder Kêst
+            <a href="#s2b">
+             2(b)(1)-(2)
+            </a>
+            net ûnder Auteursrjocht en Besibbe Rjochten.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1d_effective_technological_measures">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Effektive Technologyske Maatregels
+            </span>
+            betsjutte maatregels dy’t, by it ûntbrekken fan it krekte foech, net omsyld wurde meie, om wetten ta ymplemintaasje fan de ferplichtingen fan Kêst 11 fan it WIPO Auteursrjochtferdrach oannommen op 20 desimber 1996, en/of soartgelikense ynternasjonale oerienkomsten.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1e_exceptions_and_limitations">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Utsûnderingen en Beheiningen
+            </span>
+            betsjut ‘fair use’, ‘fair dealing’, en/of watfoar oare útsûndering of beheining dan ek fan it Auteursrjocht en Besibbe Rjochten dy’t fan tapassing binne op Jo brûken fan it Lisinsearre Materiaal.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1f_licensed_material">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Lisinsearre Materiaal
+            </span>
+            betsjut it artistike of literêre wurk, databank, of oar materiaal dêr’t de Lisinsjejouwer dizze Publike Lisinsje op tapast.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1g_licensed_rights">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Lisinsearre Rjochten
+            </span>
+            betsjut de oan Jo jûne rjochten, beheind troch de betingsten en kondysjes fan dizze Publike Lisinsje, dy’t har beheine ta alle Auteursrjocht en de Besibbe Rjochten dy’t fan tapassing binne op Jo brûken fan it Lisinsearre Materiaal en dêr’t de Lisinsjejouwer it foech fan hat om dy te lisinsearjen.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1h_licensor">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Lisinsjejouwer
+            </span>
+            betsjut de persoan/persoanen of entiteit(en) dy’t rjochten jouwe ûnder dizze Publike Lisinsje.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1i_share">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Utwikseljen
+            </span>
+            betsjut it oanbieden fan materiaal oan it publyk troch alle middels of wurkwizen dy’t tastimming fereaskje ûnder de Lisinsearre Rjochten, lykas reproduksje, iepenbier sjen litten, iepenbiere útfiering, distribúsje, fersprieding, kommunikaasje of ynfier, en it beskikber meitsjen oan it publyk op sa’n manier dat leden fan it publyk dêrta op in troch har yndividueel keazen plak en tiid tagong ta hawwe. Utwikselje hat in gelike betsjutting.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1j_sui_generis_database_rights">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Sui Generis Databankerjocht
+            </span>
+            betsjut rjochten oars as it auteursrjocht as gefolch fan Rjochtline 96/9/EC fan it Europeesk Parlemint en de Europeeske Ried fan 11 maart 1996 oangeande de rjochtsbeskerming fan databanken, lykas wizige en/of opfolge, likegoed as oare yn haadsaak lykweardige rjochten oeral op ’e wrâld.
+           </div>
+          </li>
+          <li class="padding-bottom-normal" id="s1k_you">
+           <div class="padding-left-normal">
+            <span style="text-decoration: underline;">
+             Jo
+            </span>
+            stiet foar de persoan of entiteit dy’t de Lisinsearre Rjochten útoefenet ûnder dizze Publike Lisinsje.
+           </div>
+          </li>
+         </ol>
+        </div>
+        <!-- Section 2. Scope. -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s2">
+          <strong>
+           Kêst 2 – Gruttens.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal" id="s2a">
+           <strong>
+            Lisinsjejaan.
+           </strong>
+           .
+           <ol class="padding-left-normal padding-vertical-normal">
+            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
+             Mei it achtslaan fan de betingsten en kondysjes fan dizze Publike Lisinsje jout de Lisinsjejouwer hjirby oan Jo in wrâldwide, royalty-frije, net-eksklusive, net-ynlûkbere lisinsje dy’t net yn sublisinsje te jaan is, om de Lisinsearre Rjochten oangeande it Lisinsearre Materiaal út te oefenjen:
+             <ol class="padding-left-normal padding-vertical-normal" type="A">
+              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
+               it reprodusearjen en Utwikseljen fan it Lisinsearre Materiaal, hielendal of foar in part, allinnich foar NetKommersjele doelen; en
+              </li>
+              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
+               it produsearjen, reprodusearjen, en Utwikskeljen fan Oflaat Materiaal.
+              </li>
+             </ol>
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
+             <strong>
+              Utsûnderingen en beheiningen
+             </strong>
+             . Foar alle dúdlikheid: as der Utsûnderingen en Beheiningen fan tapassing binne op Jo brûken is dizze Publike Lisinsje net fan tapassing en Jo hoege dan net te foldwaan oan de betingsten en kondysjes derfan.
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
+             <strong>
+              Termyn
+             </strong>
+             . De termyn fan dizze Publike Lisinsje wurdt fêstlein yn Kêst
+             <a href="#s6a">
+              6(a)
+             </a>
+             .
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
+             <strong>
+              Media en formaten; technyske wizigingen tastien
+             </strong>
+             . De Lisinsjejouwer jout Jo it foech om de Lisinsearre Rjochten op alle media en formaten, al besteande likegoed as takomstige, út te oefenjen, en om de nedige technyske wizigingen oan te bringen om dat te dwaan. De Lisinsjejouwer docht ôfstân en/of giet dermei akkoart om ôfstân te dwaan fan elk rjocht of al it foech dat Jo ferbiedt om technyske wizigingen troch te fieren, dy’t needsaaklik binne om de Lisinsearre Rjochten út te oefenjen, en dêrby de technyske wizigingen dy’t needsaaklik binne om Effektive Technologyske Maatregels te omsilen. Foar de tapassing fan dizze Publike Lisinsje smyt it ienfâldich wizigjen lykas tastien yn Kêst
+             <a href="#s2a4">
+              2(a)(4)
+             </a>
+             nea Oflaat Materiaal op.
+            </li>
+            <li class="padding-left-normal padding-bottom-small" id="s2a5">
+             <span style="text-decoration: underline;">
+              Ofnimmende ûntfangers.
+             </span>
+             .
+             <div class="para">
+              <ol class="padding-left-normal padding-vertical-normal" type="A">
+               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
+                <span style="text-decoration: underline;">
+                 Oanbod fan de Lisinsjejouwer – Lisinsearre Materiaal
+                </span>
+                . Elke ûntfanger fan it Lisinsearre Materiaal krijt automatysk in oanbod fan de Lisinsjejouwer om de Lisinsearre Rjochten út te oefenjen neffens de betingsten en kondysjes fan dizze Publike Lisinsje.
+               </li>
+               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
+                <span style="text-decoration: underline;">
+                 Gjin ôfnimmersbeheiningen
+                </span>
+                . Jo meie it Lisinsearre Materiaal gjin oanfoljende of ôfwikende betingsten of kondysjes oanbiede of oplizze, en der gjin inkelde Effektive Technologyske Maatregel op tapasse, as dêrmei it útoefenjen fan de Lisinsearre Rjochten troch hokfoar ûntfanger fan it Lisinsearre Materiaal ek beheind wurdt.
+               </li>
+              </ol>
+             </div>
+            </li>
+            <li class="padding-left-normal padding-bottom-small" id="s2a6">
+             <span style="text-decoration: underline;">
+              Gjin goedkarring
+             </span>
+             . . Neat yn dizze Publike Lisinsje foarmet of mei útlein wurde as de tastimming om út te hâlden of te ûnderstellen dat Jo of Jo brûken fan it Lisinsearre Materiaal bûn of finansiere binne of is, of goedkard of in offisjele status krigen ha of hat troch de Lisinsjejouwer of oare dêrta oanwiisde persoanen om Nammeneamen te krijen lykas bedoeld yn Kêst
+             <a href="#s3a1Ai">
+              3(a)(1)(A)(i)
+             </a>
+             .
+            </li>
+           </ol>
+          </li>
+          <li class="padding-left-normal" id="s2b">
+           <strong>
+            Oare rjochten.
+           </strong>
+           .
+           <ol class="padding-left-normal padding-vertical-normal">
+            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
+             Morele rjochten, lykas it rjocht op yntegriteit, binne net lisinsearre ûnder dizze Publike Lisinsje, likemin as publisiteit, privacy en/of oare soartgelikense persoanlikheidsrjochten; lykwols, foarsafier mooglik docht de Lisinsjejouwer ôfstân en/of giet akkoart mei it net ynroppen fan watfoar fan sokke rjochten holden troch de Lisinsjejouwer dan ek, ta de hichte dat dat needsaaklik is om Jo de Lisinsearre Rjochten útoefenje kinne te litten, mar op gjin oare manier.
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
+             Oktroai- en merkerjocht falle net ûnder dizze Publike Lisinsje.
+            </li>
+            <li class="padding-left-normal padding-bottom-small" id="s2b3">
+             Foarsafier mooglik docht de Lisinsjejouwer ôfstân fan watfoar rjocht dan ek op royaltys fan Jo foar it útoefenjen fan de Lisinsearre Rjochten, itsij streekrjocht ynbard, itsij troch in kollektive behearsorganisaasje op grûn fan in frijwillige of foar ôfstân fetber wetlik- of twanglisinsjestelsel. Yn alle oare gefallen behâldt de Lisinsjejouwer mei klam it rjocht om royaltys yn te barren, en dêrby as it Lisinsearre Materiaal brûkt is foar oare as NetKommersjele doelen.
+            </li>
+           </ol>
+          </li>
+         </ol>
+        </div>
+        <!-- Section 3. License Conditions. -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s3">
+          <strong>
+           Kêst 3 – Lisinsjebetingsten.
+          </strong>
+         </p>
+         <p class="body-big padding-bottom-normal">
+          Jo uitoefening fan de Lisinsearre Rjochten is mei klam ûnderwurpen oan de neikommende betingsten.
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s3a">
+           <p>
+            <strong>
+             Nammeneamen.
+            </strong>
+            .
+           </p>
+           <ol class="padding-left-normal padding-vertical-normal" type="1">
+            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
+             <p>
+              As Jo it Lisinsearre Materiaal Utwikselje (en dêrby yn oanpaste foarm), binne Jo ferplicht:
+             </p>
+             <ol class="padding-left-normal padding-vertical-normal" type="A">
+              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
+               it neikommende te behâlden as it troch de Lisinsjejouwer by it Lisinsearre Materiaal oanlevere wurdt:
+               <ol class="padding-left-normal padding-vertical-normal" type="i">
+                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
+                 identifikaasje fan de makker(s) fan it Lisinsearre Materiaal en hokker oar ek dy’t oanwiisd is ta it krijen fan Nammeneamen, op elke ridlike manier frege troch de Lisinsjejouwer (en dêrby by wize fan pseudonym as dy oanwiisd is);
+                </li>
+                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
+                 in auteursrjochtneaming;
+                </li>
+                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
+                 in ferwizing nei dizze Publike Lisinsje;
+                </li>
+                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
+                 in ferwizing nei de útsluting fan garânsjes;
+                </li>
+                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
+                 in URI of hyperlink nei it Lisinsearre Materiaal foarsafier’t dat ridlikerwize útfierber is;
+                </li>
+               </ol>
+              </li>
+              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
+               oan te jaan oft Jo it Lisinsearre Materiaal oanpast ha, en in yndikaasje fan alle eardere oanpassingen te behâlden; en
+              </li>
+              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
+               oan te jaan dat it Lisinsearre Materiaal ûnder dizze Publike Lisinsje stiet, en de tekst taheakje fan, of de URI of hyperlink nei, dizze Publike Lisinsje.
+              </li>
+             </ol>
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
+             Jo kinne oan de betingsten yn Kêst
+             <a href="#s3a1">
+              3(a)(1)
+             </a>
+             foldwaan op elke ridlike manier mei it achtslaan fan it medium, de middels en de kontekst dêr’t Jo it Lisinsearre Materiaal yn Utwikselje. It kin bygelyks ridlik wêze om oan de betingsten te foldwaan troch in URI of hyperlink te pleatsen nei in boarne dy’t de fereaske ynformaasje befettet.
+            </li>
+            <li class="padding-left-normal padding-bottom-normal" id="s3a3">
+             As de Lisinsjejouwer derom freget, binne Jo ferplicht om alle ynformaasje neamd yn Kêst
+             <a href="#s3a1A">
+              3(a)(1)(A)
+             </a>
+             wei te heljen foarsafier’t dat ridlikerwize útfierber is.
+            </li>
+            <li class="padding-left-normal padding-bottom-small" id="s3a4">
+             As Jo Oflaat Materiaal Utwikselje, dat Jo produsearre hawwe, mei de Ofliederslisinsje dy’t Jo tapasse de ûntfangers fan it Oflaat Materiaal net keare om te foldwaan oan dizze Publike Lisinsje.
+            </li>
+           </ol>
+          </li>
+         </ol>
+        </div>
+        <!-- Section 4. Sui Generis Database Rights. -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s4">
+          <strong>
+           Kêst 4 – Sui Generis Databankerjochten.
+          </strong>
+         </p>
+         <p class="body-big padding-bottom-normal">
+          Wannear’t de Lisinsearre Rjochten, Sui Generis Databankerjochten omfetsje dy’t fan tapassing binne op Jo brûken fan it Lisinsearre Materiaal:
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s4a">
+           foar alle dúdlikheid: Kêst
+           <a href="#s2a1">
+            2(a)(1)
+           </a>
+           jout Jo it rjocht ta opfreegjen, opnij brûken, reprodusearjen en Utwikseljen fan alle ynhâld fan de databank of in wêzentlik oanpart dêrfan;
+          </li>
+          <li class="padding-left-normal padding-bottom-normal" id="s4b">
+           as Jo alle ynhâld fan de databank of in wêzentlik oanpart dêrfan gearfoegje ta in databank dêr’t Jo it Sui Generis Databankerjocht op hawwe, dan is de databank dêr’t Jo dat Sui Generis Databankerjocht op hawwe (mar net de aparte ûnderdielen derfan) Oflaat Materiaal; en
+          </li>
+          <li class="padding-left-normal padding-bottom-small" id="s4c">
+           Jo moatte foldwaan oan de betingsten steld yn Kêst
+           <a href="#s3a">
+            3(a)
+           </a>
+           by it Utwikseljen fan alle ynhâld fan de databank of in wêzentlik oanpart dêrfan.
+          </li>
+         </ol>
+         <span class="body-big">
+          Foar alle dúdlikheid: Kêst
+          <a href="#s4">
+           4
+          </a>
+          tsjinnet ta oanfolling en net ta ferfanging fan Jo ferplichtingen ûnder dizze Publike Lisinsje, wannear’t de Lisinsearre Rjochten ek oare Auteursrjochten en Besibbe Rjochten omfetsje.
+         </span>
+        </div>
+        <!-- Section 5. Disclaimer -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s5">
+          <strong>
+           Kêst 5 – Utsluting fan garânsjes en beheining fan oanspraaklikheid.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s5a">
+           <strong>
+            Mits net op in oare manier apart útfierd troch de Lisinsjejouwer en foarsafier mooglik, biedt de Lisinsjejouwer it Lisinsearre Materiaal oan ‘sûnder garânsje’ en ‘yn ’e steat dêr’t it no yn is’, en jout dêrfoar gjin ferklearringen of garânsjes fan hokker aard dan ek oangeande it Lisinsearre Materiaal, net eksplisyt, noch ymplisyt, statutêr of oars. Dat omfettet, sûnder beheining, garânsjes fan titel, ferkeapberens, gaadlikheid foar in beskaat doel, net-ynbrek, ôfwêzigens fan latinte of oare tekoarten, krektens of de oanwêzigens of ôfwêzigens fan flaters, al of net bekend of te finen. As útslutingen garânsjes hielendal of foar in part net tastien binne, is dizze útsluting net op Jo fan tapassing.
+           </strong>
+          </li>
+          <li class="padding-left-normal padding-bottom-small" id="s5b">
+           <strong>
+            Foarsafier mooglik, is de Lisinsjejouwer yn gjin gefal oanspraaklik foar Jo, of op watfoar juridyske grûnslach (en dêrby, sûnder beheining, fersom) of oars foar watfoar direkte, bysûndere, yndirekte, ynsidintele, punitive, eksimplaryske of oare ferliezen, kosten, lêsten of skea dan ek dy’t folgje út dizze Publike Lisinsje, of by it brûken fan it Lisinsearre Materiaal, sels as de Lisinsjejouwer op de hichte steld is fan it risiko op sokke ferliezen, kosten, of lêsten of skea. Dêr’t in beheining fan oanspraaklikheid hielendal of foar in part net tastien is, is dizze beheining net op Jo fan tapassing.
+           </strong>
+          </li>
+         </ol>
+         <ol class="body-big padding-left-normal" start="3" type="a">
+          <li class="padding-left-normal padding-bottom-small" id="s5c">
+           De útsluting fan garânsje en beheining fan oanspraaklikheid lykas hjirboppe neamd, sil útlein wurde op in manier dy’t, foarsafier mooglik, it tichtst by in absolút frijwarjen en ferklearring fan ôfstân fan alle oanspraaklikheid komt.
+          </li>
+         </ol>
+        </div>
+        <!-- Section 6. Term and Termination -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s6">
+          <strong>
+           Kêst 6 – Termyn en beëinigjen.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s6a">
+           Dizze Publike Lisinsje jildt foar de beskermingstermyn fan it Auteursrjocht en Besibbe Rjochten dy’t hjir lisinsearre wurde. Lykwols, as Jo net foldogge oan de betingsten fan dizze Publike Lisinsje, dan einigje Jo rjochten op grûn fan dizze Publike Lisinsje fan rjochtswegen.
+          </li>
+          <li class="padding-left-normal padding-bottom-normal" id="s6b">
+           <p class="body-big padding-bottom-normal">
+            As Jo rjocht om it Lisinsearre Materiaal te brûken as gefolch fan Kêst 6(a) einige is, wurdt dit werombrocht:
+           </p>
+           <ol class="body-big padding-left-normal">
+            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
+             automatysk mei yngong fan de datum dêr’t it oertrêdzjen op rjochtset is, mits it rjochtset is binnen 30 dagen nei Jo ûntdekking fan it oertrêdzjen; of
+            </li>
+            <li class="padding-left-normal padding-bottom-small" id="s6b2">
+             nei útdruklik werombringen troch de Lisinsjejouwer.
+            </li>
+           </ol>
+           Foar alle dúdlikheid: Kêst 6(b) docht gjin inkelde ôfbrek oan it rjocht fan de Lisinsjejouwer om rjochtsmiddels te brûken foar Jo oertrêdzjen fan dizze Publike Lisinsje.
+          </li>
+          <li class="padding-left-normal padding-bottom-normal" id="s6c">
+           Foar alle dúdlikheid: de Lisinsjejouwer kin op elk stuit dat er wol it Lisinsearre Materiaal ûnder aparte betingsten of kondysjes oanbiede, of ophâlde mei de distribúsje fan it Lisinsearre Materiaal; dêrtroch sil dizze Publike Lisinsje lykwols net beëinige wurde.
+          </li>
+          <li class="padding-left-normal padding-bottom-small" id="s6d">
+           Kêst
+           <a href="#s1">
+            1
+           </a>
+           ,
+           <a href="#s5">
+            5
+           </a>
+           ,
+           <a href="#s6">
+            6
+           </a>
+           ,
+           <a href="#s7">
+            7
+           </a>
+           , en
+           <a href="#s8">
+            8
+           </a>
+           bliuwe jildich nei beëinigjen fan dizze Publike Lisinsje.
+          </li>
+         </ol>
+        </div>
+        <!-- Section 7. Other terms and conditions -->
+        <div class="padding-bottom-larger">
+         <p class="body-bigger padding-bottom-normal" id="s7">
+          <strong>
+           Kêst 7 – Oare betingsten en kondysjes.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s7a">
+           De Lisinsjejouwer is net bûn oan watfoar oanfoljende of oare betingsten of kondysjes dan ek dy’t Jo te witten dien hawwe, of it moast wêze dat dat mei klam oerienkommen is.
+          </li>
+          <li class="padding-left-normal padding-bottom-small" id="s7b">
+           Alle mooglike ôfspraken of oerienkomsten oangeande it Lisinsearre Materiaal dy’t hjiryn net neamd binne, binne ûnôfhinklik en stean los fan de betingsten en kondysjes fan dizze Publike Lisinsje.
+          </li>
+         </ol>
+        </div>
+        <!-- Section 8. Interpretation -->
+        <div class="padding-bottom-normal">
+         <p class="body-bigger padding-bottom-normal" id="s8">
+          <strong>
+           Kêst 8 – Utlizzing.
+          </strong>
+         </p>
+         <ol class="body-big padding-left-normal" type="a">
+          <li class="padding-left-normal padding-bottom-normal" id="s8a">
+           Foar alle dúdlikheid, dizze Publike Lisinsje wurdt net en kin ek net opfette wurde ta ferminderjen, beheinen of begrinzgjen fan, of as betingsten stellend oan, elk brûken fan it Lisinsearre Materiaal dat hoe dan ek rjochtmjittich sûnder tastimming syn beslach krije kin ûnder dizze Publike Lisinsje.
+          </li>
+          <li class="padding-left-normal padding-bottom-normal" id="s8b">
+           Foarsafier mooglik, as in bepaling fan dizze Publike Lisinsje ûnôftwingber achte wurdt, sil de bepaling automatysk opbettere wurde ta it needsaaklike minimum om dy wol ôftwingber te meitsjen. As de bepaling net opbettere wurde kin, sil dy skaat wurde fan dizze Publike Lisinsje, sûnder dat de ôftwingberens fan de oare betingsten en kondysjes oantaast wurdt.
+          </li>
+          <li class="padding-left-normal padding-bottom-normal" id="s8c">
+           Fan gjin inkelde betingst of kondysje fan dizze Publike Lisinsje wurdt ôfstân dien en gjin tekoart oan neilibjen wurdt tastien, of it moast wêze dat dat eksplisyt mei de Lisinsjejouwer oerienkommen is.
+          </li>
+          <li class="padding-left-normal" id="s8d">
+           Neat yn dizze Publike Lisinsje betsjut, of kin útlein wurde as, in beheining op, of as ôfstânsferklearring fan, watfoar foarrjochten en ymmuniteiten dan ek dy’t jilde foar de Lisinsjejouwer of foar Jo, en dêrby fan de juridyske prosessen fan watfoar rjochtsmêd of watfoar autoriteit dan ek.
+          </li>
+         </ol>
+        </div>
+       </div>
+      </div>
+      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
+       <h4 class="padding-bottom-normal is-vcentered b-header">
+        <i class="info icon padding-right-normal">
+        </i>
+        About Creative Commons
+       </h4>
+       <p class="has-text-black padding-left-big">
+        Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the
+        <a href="/publicdomain/zero/1.0/">
+         CC0 Public Domain Dedication
+        </a>
+        . Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at
+        <a href="/policies/">
+         creativecommons.org/policies
+        </a>
+        , Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+       </p>
+       <p class="has-text-black padding-left-big padding-top-normal">
+        Creative Commons may be contacted at
+        <a href="//creativecommons.org/">
+         creativecommons.org
+        </a>
+        .
+       </p>
+      </div>
+      <div class="menu padding-vertical-normal column padding-right-large">
+       <ul class="menu-list">
+        <li>
+         <p class="body-big has-text-black">
+          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+         </p>
+         <ul>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
+            Learn more about our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
+            Learn more about CC Licensing
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
+            Support our work
+           </a>
+          </li>
+          <li>
+           <span class="body-bigger padding-right-normal padding-top-small">
+            •
+           </span>
+           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
+            Use the license for your own material.
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Div element used to mount the Global Footer component-->
+  <div id="footer-cc">
+   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
+   </cc-global-footer>
+  </div>
+  <script src="/cc-legal-tools/load_components.js">
+  </script>
+  <script>
+   /*
+      Show/Hide Functionality for expand/collapse sections in use_of_licenses.html
+    */
+    let arrowArray = Array.from(document.getElementsByClassName("angle-down"))
+    arrowArray.forEach(function(arrow) {
+      arrow.addEventListener("click", handleArrowClicked);
+    });
+
+    function handleArrowClicked() {
+      // Toggle consideration section's screen reader announcement text (inside of icon)
+      if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+      } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
+        this.firstChild.innerHTML = "Hide Considerations for the Public"
+      } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
+        this.firstChild.innerHTML = "Show Considerations for Licensors"
+      } else {
+        this.firstChild.innerHTML = "Show Considerations for the Public"
+      }
+      // Toggle icon between up and down
+      if (this.dataset.direction === "down") {
+        // toggle icon to up arrow icon
+        this.classList.remove("angle-down")
+        this.classList.add("angle-up")
+        this.dataset.direction = "up"
+        // show <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.remove("is-hidden");
+      } else {
+        // toggle icon to up arrow icon
+        this.classList.add("angle-down")
+        this.classList.remove("angle-up")
+        this.dataset.direction = "down"
+        // hide <p> tag
+        this.parentNode.parentNode.nextSibling.nextSibling.classList.add("is-hidden");
+      }
+    };
+  </script>
+ </body>
+</html>
