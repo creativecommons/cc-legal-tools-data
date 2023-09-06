@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/">
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr"/>
+    <cc:legalcode xml:lang="de">http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de</cc:legalcode>
+    <cc:legalcode xml:lang="fr">http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr</cc:legalcode>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
@@ -11,102 +11,18 @@
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dcterms:Jurisdiction rdf:datatype="http://purl.org/dc/terms/ISO3166">ch</dcterms:Jurisdiction>
+    <dcterms:LicenseDocument xml:lang="de">https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="fr">https://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr</dcterms:LicenseDocument>
     <dcterms:creator rdf:resource="http://creativecommons.org"/>
     <dcterms:hasVersion>3.0</dcterms:hasVersion>
     <dcterms:identifier>by-nc</dcterms:identifier>
-    <dcterms:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <dcterms:title xml:lang="af">Erkenning-NieKommersieel 3.0 Switserland</dcterms:title>
-    <dcterms:title xml:lang="ar">نسب - غير تجاري 3.0 سويسرا</dcterms:title>
-    <dcterms:title xml:lang="as">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ast">Reconocimientu-NonComercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ast-es">Reconocimientu-NonComercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="az">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="be">Attribution-NonCommercial 3.0 Швейцарыя</dcterms:title>
-    <dcterms:title xml:lang="bg">Признание-Некомерсиално 3.0 Швейцария</dcterms:title>
-    <dcterms:title xml:lang="bn">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ca">Reconeixement-NoComercial 3.0 Suïssa</dcterms:title>
-    <dcterms:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 3.0 Švýcarsko</dcterms:title>
-    <dcterms:title xml:lang="da">Navngivelse-IkkeKommerciel 3.0 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de">Namensnennung-Nicht-kommerziell 3.0 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de-at">Namensnennung-NichtKommerziell 3.0 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de-ch">Namensnennung-Nicht-kommerziell 3.0 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="el">Αναφορά Δημιουργού-Μη Εμπορική Χρήση 3.0 Ελβετία</dcterms:title>
-    <dcterms:title xml:lang="en">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-ca">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-gb">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-hk">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-sg">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-us">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="eo">Atribuite-Nekomerce 3.0 Svisujo</dcterms:title>
-    <dcterms:title xml:lang="es">Atribución-NoComercial 3.0 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-ar">Atribución-NoComercial 3.0 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-es">Reconocimiento-NoComercial 3.0 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-pe">Reconocimiento-NoComercial 3.0 Suiza</dcterms:title>
-    <dcterms:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk 3.0 Šveits</dcterms:title>
-    <dcterms:title xml:lang="eu">Aitortu-EzKomertziala 3.0 Suitza</dcterms:title>
-    <dcterms:title xml:lang="fa">Attribution-NonCommercial 3.0 سویس</dcterms:title>
-    <dcterms:title xml:lang="fi">Nimeä-Epäkaupallinen 3.0 Sveitsi</dcterms:title>
-    <dcterms:title xml:lang="fr">Paternité - Pas d'Utilisation Commerciale 3.0 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale 3.0 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-ch">Paternité - Pas d'Utilisation Commerciale 3.0 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-lu">Paternité - Pas d'Utilisation Commerciale 3.0 Suisse</dcterms:title>
-    <dcterms:title xml:lang="ga">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="gl">Recoñecemento-NonComercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="he">ייחוס-שימוש לא מסחרי 3.0 שוויץ</dcterms:title>
-    <dcterms:title xml:lang="hi">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="hr">Imenovanje-Nekomercijalno 3.0 Švicarska</dcterms:title>
-    <dcterms:title xml:lang="hu">Nevezd meg! - Ne add el! 3.0 Svájc</dcterms:title>
-    <dcterms:title xml:lang="hy">Հղում - Ոչ-առևտրային օգտագործում 3.0 Շվեյցարիա</dcterms:title>
-    <dcterms:title xml:lang="id">Attribusi-NonKomersial 3.0 Swiss</dcterms:title>
-    <dcterms:title xml:lang="is">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="it">Attribuzione - Non commerciale 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="it-ch">Attribuzione - Non commerciale 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ja">表示 - 非営利 3.0 スイス</dcterms:title>
-    <dcterms:title xml:lang="ka">ავტორობის მითითებით არაკომერციული გამოყენებისათვის 3.0 შვეიცარია</dcterms:title>
-    <dcterms:title xml:lang="kk">Коммерциялық емес 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ko">저작자표시-비영리 3.0 스위스</dcterms:title>
-    <dcterms:title xml:lang="lt">Attribution-NonCommercial 3.0 Šveicarija</dcterms:title>
-    <dcterms:title xml:lang="lv">Atsaucoties-Nekomerciāli 3.0 Šveice</dcterms:title>
-    <dcterms:title xml:lang="mk">НаведиИзвор-Некомерцијално 3.0 Швајцарија</dcterms:title>
-    <dcterms:title xml:lang="ml">Attribution-NonCommercial 3.0 സ്വിറ്റ്സർലാന്റ്</dcterms:title>
-    <dcterms:title xml:lang="mn">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ms">Pengiktirafan-BukanKomersial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="nl">Naamsvermelding-NietCommercieel 3.0 Zwitserland</dcterms:title>
-    <dcterms:title xml:lang="no">Navngivelse-Ikkekommersiell 3.0 Sveits</dcterms:title>
-    <dcterms:title xml:lang="nso">Tsebagatšo- E sego ya kgwebo 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="oci-es">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne 3.0 Szwajcaria</dcterms:title>
-    <dcterms:title xml:lang="pt">Atribuição - NãoComercial 3.0 Suíça</dcterms:title>
-    <dcterms:title xml:lang="pt-br">Atribuição-NãoComercial 3.0 Suíça</dcterms:title>
-    <dcterms:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ro">Atribuire-NeComercial 3.0 Elveţia</dcterms:title>
-    <dcterms:title xml:lang="ru">Attribution-NonCommercial (Атрибуция — Некоммерческое использование) 3.0 Швейцария</dcterms:title>
-    <dcterms:title xml:lang="si-lk">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno 3.0 Švica</dcterms:title>
-    <dcterms:title xml:lang="sq">Attribution-NonCommercial 3.0 Zvicër</dcterms:title>
-    <dcterms:title xml:lang="sr">Ауторство-Некомерцијално 3.0 Швајцарска</dcterms:title>
-    <dcterms:title xml:lang="sr-Latn">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="sr-latn">Autorstvo-Nekomercijalno 3.0 Švajcarska</dcterms:title>
-    <dcterms:title xml:lang="sv">Erkännande-IckeKommersiell 3.0 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="ta">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="te">Attribution-NonCommercial 3.0 స్విట్జర్లాండ్</dcterms:title>
-    <dcterms:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า 3.0 สวิสเซอร์แลนด์</dcterms:title>
-    <dcterms:title xml:lang="tr">Alıntı-Gayriticari 3.0 İsviçre</dcterms:title>
-    <dcterms:title xml:lang="uk">Із зазначенням авторства - Некомерційна 3.0 Швейцарія</dcterms:title>
-    <dcterms:title xml:lang="ur">Attribution-NonCommercial 3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="vi">Ghi nhận công của tác giả - Phi thương mại  3.0 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="x-i18n">${Attribution-NonCommercial} 3.0 ${Switzerland}</dcterms:title>
-    <dcterms:title xml:lang="zh">署名-非商业性使用 3.0 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zh-hk">姓名標示-非商業性 3.0 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zh-tw">姓名標示-非商業性 3.0 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano 3.0 ESwitzerland</dcterms:title>
+    <dcterms:isReplacedBy>http://creativecommons.org/licenses/by-nc/4.0/</dcterms:isReplacedBy>
+    <dcterms:source>http://creativecommons.org/licenses/by-nc/3.0/</dcterms:source>
+    <dcterms:title xml:lang="de">Namensnennung – Nicht-kommerziell (by-nc) 3.0 Schweiz</dcterms:title>
+    <dcterms:title xml:lang="fr">Paternité – Pas d’Utilisation Commerciale (by-nc) 3.0 Suisse</dcterms:title>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc/3.0/ch/80x15.png"/>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc/3.0/ch/88x31.png"/>
+    <owl:sameAs rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ch/"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.de">
-    <dcterms:language>de</dcterms:language>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ch/legalcode.fr">
-    <dcterms:language>fr</dcterms:language>
-  </rdf:Description>
 </rdf:RDF>

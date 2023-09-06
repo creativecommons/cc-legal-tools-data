@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <cc:License rdf:about="http://creativecommons.org/licenses/by-nc/3.0/ee/">
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ee/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/ee/legalcode"/>
+    <cc:legalcode xml:lang="et">http://creativecommons.org/licenses/by-nc/3.0/ee/legalcode.et</cc:legalcode>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
@@ -10,98 +10,16 @@
     <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dcterms:Jurisdiction rdf:datatype="http://purl.org/dc/terms/ISO3166">ee</dcterms:Jurisdiction>
+    <dcterms:LicenseDocument xml:lang="et">https://creativecommons.org/licenses/by-nc/3.0/ee/legalcode.et</dcterms:LicenseDocument>
     <dcterms:creator rdf:resource="http://creativecommons.org"/>
     <dcterms:hasVersion>3.0</dcterms:hasVersion>
     <dcterms:identifier>by-nc</dcterms:identifier>
-    <dcterms:source rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <dcterms:title xml:lang="af">Erkenning-NieKommersieel 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ar">نسب - غير تجاري 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="as">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ast">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ast-es">Attribution-NonCommercial 3.0 country.ee</dcterms:title>
-    <dcterms:title xml:lang="az">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="be">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="bg">Признание-Некомерсиално 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="bn">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ca">Reconeixement-NoComercial 3.0 Estònia</dcterms:title>
-    <dcterms:title xml:lang="cs">Uveďte autora-Neužívejte komerčně 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="da">Navngivelse-IkkeKommerciel 3.0 estisk</dcterms:title>
-    <dcterms:title xml:lang="de">Namensnennung-Nicht-kommerziell 3.0 Estland</dcterms:title>
-    <dcterms:title xml:lang="de-at">Namensnennung-NichtKommerziell 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="de-ch">Namensnennung-NichtKommerziell 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="el">Αναφορά Δημιουργού-Μη Εμπορική Χρήση 3.0 Εσθονία</dcterms:title>
-    <dcterms:title xml:lang="en">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="en-ca">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="en-gb">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="en-hk">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="en-sg">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="en-us">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="eo">Atribuite-Nekomerce 3.0 Estonujo</dcterms:title>
-    <dcterms:title xml:lang="es">Atribución-NoComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="es-ar">Atribución-NoComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="es-es">Reconocimiento-NoComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="es-pe">Reconocimiento-NoComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk 3.0 Eesti</dcterms:title>
-    <dcterms:title xml:lang="eu">Aitortu-EzKomertziala 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="fa">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="fi">Nimeä-Epäkaupallinen 3.0 Viro</dcterms:title>
-    <dcterms:title xml:lang="fr">Paternité - Pas d'Utilisation Commerciale 3.0 Estonie</dcterms:title>
-    <dcterms:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="fr-ch">Paternité - Pas d'Utilisation Commerciale 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="fr-lu">Paternité - Pas d'Utilisation Commerciale 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ga">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="gl">Recoñecemento-NonComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="he">ייחוס-שימוש לא מסחרי 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="hi">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="hr">Imenovanje-Nekomercijalno 3.0 Estonija</dcterms:title>
-    <dcterms:title xml:lang="hu">Nevezd meg! - Ne add el! 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="hy">Հղում - Ոչ-առևտրային օգտագործում 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="id">Attribusi-NonKomersial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="is">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="it">Attribuzione - Non commerciale 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="it-ch">Attribuzione - Non commerciale 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ja">表示 - 非営利 3.0 エストニア</dcterms:title>
-    <dcterms:title xml:lang="ka">ავტორობის მითითებით არაკომერციული გამოყენებისათვის 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="kk">Коммерциялық емес 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ko">저작자표시-비영리 3.0 에스토니아</dcterms:title>
-    <dcterms:title xml:lang="lt">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="lv">Atsaucoties-Nekomerciāli 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="mk">НаведиИзвор-Некомерцијално 3.0 Естонија</dcterms:title>
-    <dcterms:title xml:lang="ml">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="mn">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ms">Pengiktirafan-BukanKomersial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="nl">Naamsvermelding-NietCommercieel 3.0 Estland</dcterms:title>
-    <dcterms:title xml:lang="no">Navngivelse-Ikkekommersiell 3.0 Estland</dcterms:title>
-    <dcterms:title xml:lang="nso">Tsebagatšo- E sego ya kgwebo 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="oci-es">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="pt">Atribuição - NãoComercial 3.0 Estónia</dcterms:title>
-    <dcterms:title xml:lang="pt-br">Atribuição-Uso não-comercial 3.0 Estônia</dcterms:title>
-    <dcterms:title xml:lang="pt-br">Atribuição-Uso não-comercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ro">Atribuire-NeComercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ru">Attribution-NonCommercial (Атрибуция — Некоммерческое использование) 3.0 Эстония</dcterms:title>
-    <dcterms:title xml:lang="si-lk">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="sq">Attribution-NonCommercial 3.0 Estoni</dcterms:title>
-    <dcterms:title xml:lang="sr">Ауторство-Некомерцијално 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno 3.0 country.ee</dcterms:title>
-    <dcterms:title xml:lang="sr-latn">Autorstvo-Nekomercijalno 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="sv">Erkännande-IckeKommersiell 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ta">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="te">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="tr">Alıntı-Gayriticari 3.0 Estonya</dcterms:title>
-    <dcterms:title xml:lang="uk">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="ur">Attribution-NonCommercial 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="vi">Ghi nhận công của tác giả - Phi thương mại  3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="x-i18n">${Attribution-NonCommercial} 3.0 ${Estonia}</dcterms:title>
-    <dcterms:title xml:lang="zh">署名-非商业性使用 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="zh-hk">姓名標示-非商業性 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="zh-tw">姓名標示-非商業性 3.0 愛沙尼亞</dcterms:title>
-    <dcterms:title xml:lang="zh-tw">姓名標示-非商業性 3.0 Estonia</dcterms:title>
-    <dcterms:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano 3.0 Estonia</dcterms:title>
+    <dcterms:isReplacedBy>http://creativecommons.org/licenses/by-nc/4.0/</dcterms:isReplacedBy>
+    <dcterms:source>http://creativecommons.org/licenses/by-nc/3.0/</dcterms:source>
+    <dcterms:title xml:lang="et">Autorile viitamine-Mitteäriline eesmärk 3.0 Eesti</dcterms:title>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc/3.0/ee/80x15.png"/>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc/3.0/ee/88x31.png"/>
+    <owl:sameAs rdf:resource="https://creativecommons.org/licenses/by-nc/3.0/ee/"/>
   </cc:License>
 </rdf:RDF>

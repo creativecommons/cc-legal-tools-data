@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/">
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/ch/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de"/>
+    <cc:legalcode xml:lang="de">http://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de</cc:legalcode>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
@@ -11,106 +11,16 @@
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+    <dcterms:Jurisdiction rdf:datatype="http://purl.org/dc/terms/ISO3166">ch</dcterms:Jurisdiction>
+    <dcterms:LicenseDocument xml:lang="de">https://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de</dcterms:LicenseDocument>
     <dcterms:creator rdf:resource="http://creativecommons.org"/>
     <dcterms:hasVersion>2.5</dcterms:hasVersion>
     <dcterms:identifier>by-nc-sa</dcterms:identifier>
-    <dcterms:source rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
-    <dcterms:title xml:lang="af">Erkenning-Niekommersieel-InsgelyksDeel 2.5 Switserland</dcterms:title>
-    <dcterms:title xml:lang="ar">المشاركة على قدم المساواة-غير تجاري-نسب العمل 2.5 سوسرا</dcterms:title>
-    <dcterms:title xml:lang="as">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ast">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ast-es">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="az">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="be">Attribution-NonCommercial-ShareAlike 2.5 Швейцарыя</dcterms:title>
-    <dcterms:title xml:lang="bg">Признание-Некомерсиално-Споделяне на споделеното 2.5 Швейцария</dcterms:title>
-    <dcterms:title xml:lang="bn">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ca">Reconeixement-NoComercial-CompartirIgual 2.5 Suïssa</dcterms:title>
-    <dcterms:title xml:lang="cs">Uveďte autora-Nevyužívejte dílo komerčně-Zachovejte licenci 2.5 Švýcarsko</dcterms:title>
-    <dcterms:title xml:lang="da">Navngivelse-IkkeKommerciel–DelPåSammeVilkår 2.5 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de">Namensnennung-Nicht-kommerziell-Weitergabe unter gleichen Bedingungen 2.5 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de-at">Namensnennung-NichtKommerziell-Weitergabe unter gleichen Bedingungen 2.5 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="de-ch">Namensnennung-NichtKommerziell-Weitergabe unter gleichen Bedingungen 2.5 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="el">Αναφορά Δημιουργού - Μη Εμπορική Χρήση - Παρόμοια Διανομή 2.5 Ελβετία</dcterms:title>
-    <dcterms:title xml:lang="en">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-ca">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-gb">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-hk">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-sg">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="en-us">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="eo">Atribuite-Nekomerce-Samkondiĉe 2.5 Svisujo</dcterms:title>
-    <dcterms:title xml:lang="es">Atribución-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-ar">Atribución-NoComercial-CompartirDerivadasIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-cl">Atribución-NoComercial-LicenciarIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-co">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-ec">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-es">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-gt">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-mx">Atribución-No Comercial-Licenciamiento Recíproco 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-pe">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="es-pr">Reconocimiento-NoComercial-CompartirIgual 2.5 Suiza</dcterms:title>
-    <dcterms:title xml:lang="et">Autorile viitamine + Mitteäriline eesmärk + Jagamine samadel tingimustel 2.5 Šveits</dcterms:title>
-    <dcterms:title xml:lang="eu">Aitortu-EzKomertziala-PartekatuBerdin 2.5 Suitza</dcterms:title>
-    <dcterms:title xml:lang="fa">Attribution-NonCommercial-ShareAlike 2.5 سویس</dcterms:title>
-    <dcterms:title xml:lang="fi">Nimeä-Epäkaupallinen-Tarttuva 2.5 Sveitsi</dcterms:title>
-    <dcterms:title xml:lang="fr">Attribution - Pas d'Utilisation Commerciale - Partage à l'Identique 2.5 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-ca">Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 2.5 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-ch">Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 2.5 Suisse</dcterms:title>
-    <dcterms:title xml:lang="fr-lu">Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 2.5 Suisse</dcterms:title>
-    <dcterms:title xml:lang="ga">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="gl">Recoñecemento-NonComercial-CompartirIgual 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="he">ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 שוויץ</dcterms:title>
-    <dcterms:title xml:lang="hi">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="hr">Imenovanje-Nekomercijalno-Dijeli pod istim uvjetima 2.5 Švicarska</dcterms:title>
-    <dcterms:title xml:lang="hu">Nevezd meg! - Ne add el! - Így add tovább! 2.5 Svájc</dcterms:title>
-    <dcterms:title xml:lang="hy">Հղում - ոչ-առևտրային օգտագործում - համանման տարածում 2.5 Շվեյցարիա</dcterms:title>
-    <dcterms:title xml:lang="id">Atribusi-NonKomersial-BerbagiSerupa 2.5 Swiss</dcterms:title>
-    <dcterms:title xml:lang="is">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="it">Attribuzione - Non commerciale - Condividi allo stesso modo 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="it-ch">Attribuzione - Non commerciale - Condividi allo stesso modo 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ja">表示 - 非営利 - 継承 2.5 スイス</dcterms:title>
-    <dcterms:title xml:lang="ka">ავტორობის მითითებით–არაკომერციული გამოყენებისთვის–გამოყენება იგივე პირობებით 2.5 შვეიცარია</dcterms:title>
-    <dcterms:title xml:lang="kk">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ko">저작자표시-비영리-동일조건변경허락 2.5 스위스</dcterms:title>
-    <dcterms:title xml:lang="lt">Attribution-NonCommercial-ShareAlike 2.5 Šveicarija</dcterms:title>
-    <dcterms:title xml:lang="lv">Atsaucoties-Nekomerciāls-Nemainot licenci 2.5 Šveice</dcterms:title>
-    <dcterms:title xml:lang="mk">НаведиИзвор-Некомерцијално-СподелиПодИстиУслови 2.5 Швајцарија</dcterms:title>
-    <dcterms:title xml:lang="ml">Attribution-NonCommercial-ShareAlike 2.5 സ്വിറ്റ്സർലാന്റ്</dcterms:title>
-    <dcterms:title xml:lang="mn">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ms">Pengiktirafan-BukanKomersial-PerkongsianSerupa 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="nl">Naamsvermelding-NietCommercieel-GelijkDelen 2.5 Zwitserland</dcterms:title>
-    <dcterms:title xml:lang="no">Navngivelse-Ikkekommersiell-DelPåSammeVilkår 2.5 Sveits</dcterms:title>
-    <dcterms:title xml:lang="nso">Tsebagatšo - E sego ya Kgwebo - Mohlakanelwa 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="oci-es">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="pl">Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach 2.5 Szwajcaria</dcterms:title>
-    <dcterms:title xml:lang="pt">Atribuição - NãoComercial - CompartilhaIgual 2.5 Suíça</dcterms:title>
-    <dcterms:title xml:lang="pt-br">Atribuição-Uso não-comercial-Compartilhamento pela mesma licença 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="pt-pt">Atribuição-Uso Não-Comercial-Partilha nos termos da mesma licença 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ro">Atribuire-Necomercial-FărăModificări 2.5 Elveţia</dcterms:title>
-    <dcterms:title xml:lang="ru">Attribution-NonCommercial-ShareAlike (Атрибуция — Некоммерческое использование — С сохранением условий) 2.5 Швейцария</dcterms:title>
-    <dcterms:title xml:lang="si-lk">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 2.5 Švica</dcterms:title>
-    <dcterms:title xml:lang="sq">Attribution-NonCommercial-ShareAlike 2.5 Zvicër</dcterms:title>
-    <dcterms:title xml:lang="sr">Ауторство-Некомерцијално-Делити под истим условима 2.5 Швајцарска</dcterms:title>
-    <dcterms:title xml:lang="sr-Latn">Autorstvo-Nekomercijalno-Deliti pod istim uslovima 2.5 Švajcarska</dcterms:title>
-    <dcterms:title xml:lang="sr-latn">Autorstvo-Nekomercijalno-Deliti pod istim uslovima 2.5 Švajcarska</dcterms:title>
-    <dcterms:title xml:lang="st">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="sv">Erkännande-IckeKommersiell-DelaLika 2.5 Schweiz</dcterms:title>
-    <dcterms:title xml:lang="ta">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="te">Attribution-NonCommercial-ShareAlike 2.5 స్విట్జర్లాండ్</dcterms:title>
-    <dcterms:title xml:lang="th">แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 2.5 สวิสเซอร์แลนด์</dcterms:title>
-    <dcterms:title xml:lang="tr">Attribution-Gayriticari-ShareAlike 2.5 İsviçre</dcterms:title>
-    <dcterms:title xml:lang="uk">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="ur">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="vi">Attribution-NonCommercial-ShareAlike 2.5 Switzerland</dcterms:title>
-    <dcterms:title xml:lang="x-i18n">${Attribution-NonCommercial-ShareAlike} 2.5 ${Switzerland}</dcterms:title>
-    <dcterms:title xml:lang="zh">署名-非商业性使用-相同方式共享 2.5 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zh-hk">姓名標示-非商業性-相同方式分享 2.5 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zh-tw">姓名標示-非商業性-相同方式分享 2.5 瑞士</dcterms:title>
-    <dcterms:title xml:lang="zu">Qaphela Umnikazi-Ungayisebenziseli Ezentengiselwano-Yihlanganyeleni 2.5 ESwitzerland</dcterms:title>
+    <dcterms:isReplacedBy>http://creativecommons.org/licenses/by-nc-sa/4.0/</dcterms:isReplacedBy>
+    <dcterms:source>http://creativecommons.org/licenses/by-nc-sa/2.5/</dcterms:source>
+    <dcterms:title xml:lang="de">Namensnennung – Nicht-kommerziell – Weitergabe-unter-gleichen-Bedingungen 2.5 Schweiz</dcterms:title>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc-sa/2.5/ch/80x15.png"/>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nc-sa/2.5/ch/88x31.png"/>
+    <owl:sameAs rdf:resource="https://creativecommons.org/licenses/by-nc-sa/2.5/ch/"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/ch/legalcode.de">
-    <dcterms:language>de</dcterms:language>
-  </rdf:Description>
 </rdf:RDF>

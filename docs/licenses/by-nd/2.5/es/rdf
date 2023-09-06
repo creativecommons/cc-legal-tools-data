@@ -1,125 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/es/">
     <cc:jurisdiction rdf:resource="http://creativecommons.org/international/es/"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.ca"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.es"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.eu"/>
-    <cc:legalcode rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.gl"/>
+    <cc:legalcode xml:lang="ca">http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.ca</cc:legalcode>
+    <cc:legalcode xml:lang="es">http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.es</cc:legalcode>
+    <cc:legalcode xml:lang="eu">http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.eu</cc:legalcode>
+    <cc:legalcode xml:lang="gl">http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.gl</cc:legalcode>
     <cc:licenseClass rdf:resource="http://creativecommons.org/license/"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <dcterms:Jurisdiction rdf:datatype="http://purl.org/dc/terms/ISO3166">es</dcterms:Jurisdiction>
+    <dcterms:LicenseDocument xml:lang="ca">https://creativecommons.org/licenses/by-nd/2.5/es/legalcode.ca</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="es">https://creativecommons.org/licenses/by-nd/2.5/es/legalcode.es</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="eu">https://creativecommons.org/licenses/by-nd/2.5/es/legalcode.eu</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="gl">https://creativecommons.org/licenses/by-nd/2.5/es/legalcode.gl</dcterms:LicenseDocument>
     <dcterms:creator rdf:resource="http://creativecommons.org"/>
     <dcterms:hasVersion>2.5</dcterms:hasVersion>
     <dcterms:identifier>by-nd</dcterms:identifier>
-    <dcterms:source rdf:resource="http://creativecommons.org/licenses/by-nd/2.5/"/>
-    <dcterms:title xml:lang="af">Erkenning-GeenAfleidings 2.5 Spanje</dcterms:title>
-    <dcterms:title xml:lang="ar">نسب- غير مشتق 2.5 اسبانيا</dcterms:title>
-    <dcterms:title xml:lang="as">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="ast">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="ast-es">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="az">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="be">Attribution-NoDerivs 2.5 Іспанія</dcterms:title>
-    <dcterms:title xml:lang="bg">Признание-Без производни 2.5 Испания</dcterms:title>
-    <dcterms:title xml:lang="bn">Attribution-NoDerivs 2.5 Spain</dcterms:title>
+    <dcterms:isReplacedBy>http://creativecommons.org/licenses/by-nd/4.0/</dcterms:isReplacedBy>
+    <dcterms:source>http://creativecommons.org/licenses/by-nd/2.5/</dcterms:source>
     <dcterms:title xml:lang="ca">Reconeixement-SenseObraDerivada 2.5 Espanya</dcterms:title>
-    <dcterms:title xml:lang="cs">Uveďte autora-Nezasahujte do díla 2.5 Španělsko</dcterms:title>
-    <dcterms:title xml:lang="da">Navngivelse-IngenBearbejdelse 2.5 Spanien</dcterms:title>
-    <dcterms:title xml:lang="de">Namensnennung-Keine Bearbeitung 2.5 Spanien</dcterms:title>
-    <dcterms:title xml:lang="de-at">Namensnennung-KeineBearbeitung 2.5 Spanien</dcterms:title>
-    <dcterms:title xml:lang="de-ch">Namensnennung-KeineBearbeitung 2.5 Spanien</dcterms:title>
-    <dcterms:title xml:lang="el">Αναφορά Δημιουργού-Όχι Παράγωγα Έργα 2.5 Ισπανία</dcterms:title>
-    <dcterms:title xml:lang="en">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="en-ca">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="en-gb">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="en-hk">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="en-sg">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="en-us">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="eo">Atribuite-Nemodifite 2.5 Hispanujo</dcterms:title>
-    <dcterms:title xml:lang="es">Atribución-SinDerivadas 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-ar">Atribución-SinDerivadas 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-cl">Atribución-SinDerivadas 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-co">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-ec">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-es">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-gt">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-mx">Atribución-No Derivadas 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-pe">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="es-pr">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="et">Autorile viitamine + Tuletatud teoste keeld 2.5 Hispaania</dcterms:title>
+    <dcterms:title xml:lang="es">Reconocimiento-SinObraDerivada 2.5 España</dcterms:title>
     <dcterms:title xml:lang="eu">Aitortu-LanEratorririkGabe 2.5 Espainia</dcterms:title>
-    <dcterms:title xml:lang="fa">Attribution-NoDerivs 2.5 اسپانیا</dcterms:title>
-    <dcterms:title xml:lang="fi">Nimeä-Ei muutoksia 2.5 Espanja</dcterms:title>
-    <dcterms:title xml:lang="fr">Paternité - Pas de Modification 2.5 Espagne</dcterms:title>
-    <dcterms:title xml:lang="fr-ca">Paternité - Pas de Modification 2.5 Espagne</dcterms:title>
-    <dcterms:title xml:lang="fr-ch">Paternité - Pas de Modification 2.5 Espagne</dcterms:title>
-    <dcterms:title xml:lang="fr-lu">Paternité - Pas de Modification 2.5 Espagne</dcterms:title>
-    <dcterms:title xml:lang="ga">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="gl">Recoñecemento-SenObraDerivada 2.5 España</dcterms:title>
-    <dcterms:title xml:lang="he">ייחוס-איסור יצירות נגזרות 2.5 ספרד</dcterms:title>
-    <dcterms:title xml:lang="hi">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="hr">Imenovanje-Bez prerada 2.5 Španjolska</dcterms:title>
-    <dcterms:title xml:lang="hu">Nevezd meg! - Ne változtasd! 2.5 Spanyolország</dcterms:title>
-    <dcterms:title xml:lang="hy">Հղում - Օգտագործում առանց վերափոխումների 2.5 Իսպանիա</dcterms:title>
-    <dcterms:title xml:lang="id">Atribusi-TanpaTurunan 2.5 Spanyol</dcterms:title>
-    <dcterms:title xml:lang="is">Attribution-NoDerivs 2.5 Spánn</dcterms:title>
-    <dcterms:title xml:lang="it">Attribuzione - Non opere derivate 2.5 Spagna</dcterms:title>
-    <dcterms:title xml:lang="it-ch">Attribuzione - Non opere derivate 2.5 Spagna</dcterms:title>
-    <dcterms:title xml:lang="ja">表示 - 改変禁止 2.5 スペイン</dcterms:title>
-    <dcterms:title xml:lang="ka">ავტორობის მითითებით გადამუშავების გარეშე 2.5 ესპანეთი</dcterms:title>
-    <dcterms:title xml:lang="kk">Туынды жасамау 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="ko">저작자표시-변경금지 2.5 스페인</dcterms:title>
-    <dcterms:title xml:lang="lt">Attribution-NoDerivs 2.5 Ispanų</dcterms:title>
-    <dcterms:title xml:lang="lv">Atsaucoties-Neatvasinot 2.5 Spānija</dcterms:title>
-    <dcterms:title xml:lang="mk">НаведиИзвор-БезИзведениДела 2.5 Шпанија</dcterms:title>
-    <dcterms:title xml:lang="ml">Attribution-NoDerivs 2.5 സ്പെയിൻ</dcterms:title>
-    <dcterms:title xml:lang="mn">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="ms">Pengiktirafan-TiadaTerbitan 2.5 Sepanyol</dcterms:title>
-    <dcterms:title xml:lang="nl">Naamsvermelding-GeenAfgeleideWerken 2.5 Spanje</dcterms:title>
-    <dcterms:title xml:lang="no">Navngivelse-IngenBearbeidelse 2.5 Spania</dcterms:title>
-    <dcterms:title xml:lang="nso">Tsebagatšo - Tše sa Fetolwego 2.5 Sepania</dcterms:title>
-    <dcterms:title xml:lang="oci-es">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="pl">Uznanie autorstwa-Bez utworów zależnych 2.5 Hiszpania</dcterms:title>
-    <dcterms:title xml:lang="pt">Atribuição - SemDerivados 2.5 Espanha</dcterms:title>
-    <dcterms:title xml:lang="pt-br">Atribuição-Vedada a criação de obras derivativas 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="pt-pt">Atribuição-Proibição de realização de Obras Derivadas 2.5 Espanha</dcterms:title>
-    <dcterms:title xml:lang="ro">Atribuire-FărăModificări 2.5 Spania</dcterms:title>
-    <dcterms:title xml:lang="ru">Attribution-NoDerivs (Атрибуция — Без производных произведений) 2.5 Испания</dcterms:title>
-    <dcterms:title xml:lang="si-lk">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="sl">Priznanje avtorstva-Brez predelav 2.5 Španija</dcterms:title>
-    <dcterms:title xml:lang="sq">Attribution-NoDerivs 2.5 Spanjë</dcterms:title>
-    <dcterms:title xml:lang="sr">Ауторство-Без прерада 2.5 Шпанија</dcterms:title>
-    <dcterms:title xml:lang="sr-Latn">Autorstvo-Bez prerada 2.5 Španija</dcterms:title>
-    <dcterms:title xml:lang="sr-latn">Autorstvo-Bez prerada 2.5 Španija</dcterms:title>
-    <dcterms:title xml:lang="st">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="sv">Erkännande-IngaBearbetningar 2.5 Spanien</dcterms:title>
-    <dcterms:title xml:lang="ta">Attribution-NoDerivs 2.5 ஸ்பெயின்</dcterms:title>
-    <dcterms:title xml:lang="te">Attribution-NoDerivs 2.5 స్పెయిన్</dcterms:title>
-    <dcterms:title xml:lang="th">แสดงที่มา-ไม่ดัดแปลง 2.5 สเปน</dcterms:title>
-    <dcterms:title xml:lang="tr">Alıntı-Türetilemez 2.5 İspanya</dcterms:title>
-    <dcterms:title xml:lang="uk">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="ur">Attribution-NoDerivs 2.5 Spain</dcterms:title>
-    <dcterms:title xml:lang="vi">Ghi nhận công của tác giả - Không phái sinh 2.5 Nước Tây Ban Nha</dcterms:title>
-    <dcterms:title xml:lang="x-i18n">${Attribution-NoDerivs} 2.5 ${Spain}</dcterms:title>
-    <dcterms:title xml:lang="zh">署名-禁止演绎 2.5 西班牙</dcterms:title>
-    <dcterms:title xml:lang="zh-hk">姓名標示-禁止改作 2.5 西班牙</dcterms:title>
-    <dcterms:title xml:lang="zh-tw">姓名標示-禁止改作 2.5 西班牙</dcterms:title>
-    <dcterms:title xml:lang="zu">Qaphela Umnikazi-Ungasuseli lutho kulokhu 2.5 Espain</dcterms:title>
+    <dcterms:title xml:lang="gl">Recoñecemento- SenObraDerivada  2.5 España</dcterms:title>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nd/2.5/es/80x15.png"/>
     <foaf:logo rdf:resource="http://licensebuttons.net/l/by-nd/2.5/es/88x31.png"/>
+    <owl:sameAs rdf:resource="https://creativecommons.org/licenses/by-nd/2.5/es/"/>
   </cc:License>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.ca">
-    <dcterms:language>ca</dcterms:language>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.es">
-    <dcterms:language>es</dcterms:language>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.eu">
-    <dcterms:language>eu</dcterms:language>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://creativecommons.org/licenses/by-nd/2.5/es/legalcode.gl">
-    <dcterms:language>gl</dcterms:language>
-  </rdf:Description>
 </rdf:RDF>
