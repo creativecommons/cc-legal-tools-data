@@ -4,257 +4,276 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-ND 2.0 CL Código legal — Atribución-SinDerivadas 2.0 Chile — Creative Commons
+   CC BY-ND 2.0 CL Código legal | Atribución-SinDerivadas 2.0 Chile
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nd/2.0/cl/legalcode.es" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Saltar al contenido
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Saltar al contenido
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Inicio
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nd/2.0/cl/legalcode.es">
-        CC BY-ND 2.0 CL Código legal
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 2.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.es" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-ND 2.0 CL
-       </h2>
-       <h1 class="b-header">
-        Atribución-SinDerivadas 2.0 (Chile)
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-ND 2.0 CL
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-ND 2.0 CL
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-ND 2.0 CL
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Atribución-SinDerivadas 2.0 (Chile)
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Advertencia
-       </h4>
-       <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.es">
-         Atribución/Reconocimiento-SinDerivados 4.0 Internacional
-        </a>
+       <p>
+        Join a  global community working to strengthen the Commons
        </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Atribución-SinDerivadas 2.0 (Chile)
-        </h3>
-        <div id="deed">
-         <div class="text">
-          <div class="fineprint" style="background: transparent none repeat scroll 0%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">
-           <p>
-            CREATIVE COMMONS CORPORATION NO ES UN ESTUDIO DE ABOGADOS, NI OFRECE
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nd">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-ND 2.0 CL Código legal
+    </h1>
+    <h2>
+     Atribución-SinDerivadas 2.0 Chile
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.es">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Versión 2.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.es">
+       CC BY-ND 4.0 Código legal | Atribución-SinDerivadas 4.0 Internacional
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       Atribución-SinDerivadas 2.0 (Chile)
+       <div id="deed">
+        <div class="text">
+         <div class="fineprint" style="background: transparent none repeat scroll 0%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">
+          <p>
+           CREATIVE COMMONS CORPORATION NO ES UN ESTUDIO DE ABOGADOS, NI OFRECE
         SERVICIOS LEGALES. LA DISTRIBUCIÓN DE ESTA LICENCIA NO GENERA UNA
         RELACIÓN ABOGADO-CLIENTE. CREATIVE COMMONS PROPORCIONA ESTA INFORMACIÓN
         TAL CUAL. CREATIVE COMMONS NO OFRECE GARANTÍAS SOBRE LA INFORMACIÓN
         SUMINISTRADA, NI ASUME RESPONSABILIDAD ALGUNA POR LOS DAÑOS QUE
         PUEDAN DERIVAR DE SU USO.
-           </p>
-          </div>
-          <p>
-           <em>
-            Licencia
-           </em>
           </p>
-          <p>
-           LA OBRA (TAL Y COMO SE DEFINE MÁS ADELANTE) SE OTORGA BAJO ESTA
+         </div>
+         <p>
+          <em>
+           Licencia
+          </em>
+         </p>
+         <p>
+          LA OBRA (TAL Y COMO SE DEFINE MÁS ADELANTE) SE OTORGA BAJO ESTA
       LICENCIA PÚBLICA DE CREATIVE COMMONS (“LPCC” O “LICENCIA”).
       LA OBRA ESTÁ PROTEGIDA POR DERECHOS DE AUTOR Y/U OTRAS LEYES APLICABLES.
       QUEDA PROHIBIDO CUALQUIER USO QUE SE HAGA DE LA OBRA QUE NO CUENTE CON LA
       AUTORIZACIÓN PERTINENTE DE CONFORMIDAD CON LOS TÉRMINOS DE
       ESTA LICENCIA Y DE LA LEY DE PROPIEDAD INTELECTUAL.
-          </p>
-          <p>
-           MEDIANTE EL EJERCICIO DE CUALQUIERA DE LOS DERECHOS QUE SE OTORGAN EN ESTA
+         </p>
+         <p>
+          MEDIANTE EL EJERCICIO DE CUALQUIERA DE LOS DERECHOS QUE SE OTORGAN EN ESTA
       LICENCIA, USTED ACEPTA Y CONSIENTE VERSE OBLIGADO EN LOS TERMINOS QUE SE
       SEÑALAN EN ELLA. EL LICENCIANTE CONCEDE A USTED LOS DERECHOS CONTENIDOS
       EN ESTA LICENCIA CONDICIONADOS A LA ACEPTACIÓN DE SUS TERMINOS Y
       CONDICIONES.
-          </p>
-          <p>
+         </p>
+         <p>
+          <strong>
+           1. Definiciones
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
            <strong>
-            1. Definiciones
+            “Obra Individual”
            </strong>
-          </p>
-          <ol type="a">
-           <li>
-            <strong>
-             “Obra Individual”
-            </strong>
-            es aquella producida
+           es aquella producida
         por una sola persona.
-           </li>
-           <li>
-            <strong>
-             "Obra Colectiva"
-            </strong>
-            es aquella producida por
+          </li>
+          <li>
+           <strong>
+            "Obra Colectiva"
+           </strong>
+           es aquella producida por
         un grupo de autores, en que la Obra se encuentra sin modificaciones, junto
         con una cierta cantidad de otras contribuciones, que constituyen en sí
         mismos trabajos separados e independientes, que son integrados al todo
         colectivo, tales como publicaciones periódicas, antologías
         o enciclopedias.
-           </li>
-           <li>
-            <strong>
-             "Obra en Colaboración"
-            </strong>
-            es aquella
+          </li>
+          <li>
+           <strong>
+            "Obra en Colaboración"
+           </strong>
+           es aquella
         producida, conjuntamente, por dos o más personas naturales cuyos
         aportes no puedan ser separados.
-           </li>
-           <li>
-            <strong>
-             "Obra Originaria"
-            </strong>
-            aquella que es primogénitamente
+          </li>
+          <li>
+           <strong>
+            "Obra Originaria"
+           </strong>
+           aquella que es primogénitamente
         creada.
-           </li>
-           <li>
-            <strong>
-             “Obra Derivada”
-            </strong>
-            es aquella obra basada
+          </li>
+          <li>
+           <strong>
+            “Obra Derivada”
+           </strong>
+           es aquella obra basada
         en una Obra originaria o en ésta y otras obras preexistentes, en
         que la Obra originaria es refundida, transformada, o adaptada, como por
         ejemplo una traducción, arreglo musical, dramatización,
@@ -264,74 +283,74 @@
         musical o una grabación sonora, a efectos de esta Licencia la sincronización
         temporal de la Obra con una imagen en movimiento se considerará
         una Obra Derivada.
-           </li>
-           <li>
-            <strong>
-             "Licenciante”
-            </strong>
-            es el individuo o la entidad
+          </li>
+          <li>
+           <strong>
+            "Licenciante”
+           </strong>
+           es el individuo o la entidad
         que ofrece la Obra en conformidad con las condiciones de esta Licencia.
-           </li>
-           <li>
-            <strong>
-             “Autor”
-            </strong>
-            es el individuo o entidad que
+          </li>
+          <li>
+           <strong>
+            “Autor”
+           </strong>
+           es el individuo o entidad que
         creó la Obra.
-           </li>
-           <li>
-            <strong>
-             “Obra”
-            </strong>
-            es aquella creación derivada
+          </li>
+          <li>
+           <strong>
+            “Obra”
+           </strong>
+           es aquella creación derivada
         de la inteligencia en los dominios literarios, artísticos y científicos,
         cualquiera sea su forma de expresión, susceptible de protección
         vía derecho de autor, ofrecida bajo las condiciones de esta Licencia.
-           </li>
-           <li>
-            <strong>
-             “Usted”
-            </strong>
-            es el individuo o la entidad que
+          </li>
+          <li>
+           <strong>
+            “Usted”
+           </strong>
+           es el individuo o la entidad que
         ejercita los derechos otorgados al amparo de esta Licencia y que con anterioridad
         no ha violado las condiciones de la misma respecto a la Obra, o que haya
         obtenido autorización expresa por parte del Licenciante para ejercer
         los derechos al amparo de esta Licencia pese a una violación anterior.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            2. Usos legítimos.
-           </strong>
-           Nada en esta Licencia podrá
+          </li>
+         </ol>
+         <p>
+          <strong>
+           2. Usos legítimos.
+          </strong>
+          Nada en esta Licencia podrá
       ser interpretado como una disminución, limitación o restricción
       de los derechos derivados del uso legítimo, del agotamiento u otras
       limitaciones o excepciones a los derechos del titular de los derechos de
       autor que le reconozcan las leyes.
-          </p>
-          <p>
-           <strong>
-            3. Otorgamiento de la Licencia.
-           </strong>
-           Bajo los términos
+         </p>
+         <p>
+          <strong>
+           3. Otorgamiento de la Licencia.
+          </strong>
+          Bajo los términos
       y condiciones de esta Licencia, el Licenciante otorga a Usted una licencia
       mundial, gratuita, no exclusiva y permanente (durante todo el período
       de vigencia de los derechos de autor) para ejercer estos derechos sobre
       la Obra tal y como se indica a continuación:
-          </p>
-          <ol type="a">
-           <li>
-            Reproducir la Obra, incorporar la Obra en una o más Obras Colectivas,
+         </p>
+         <ol type="a">
+          <li>
+           Reproducir la Obra, incorporar la Obra en una o más Obras Colectivas,
         y reproducir la Obra incorporada en las Obras Colectivas;
-           </li>
-           <li>
-            Distribuir copias de las Obras, exhibirlas públicamente, ejecutarlas
+          </li>
+          <li>
+           Distribuir copias de las Obras, exhibirlas públicamente, ejecutarlas
         públicamente y/o ponerlas a disposición pública,
         incluyéndolas como incorporadas en Obras Colectivas, según
         corresponda.
-           </li>
-           <li>
-            Cuando la Obra es una composición o interpretación musical
+          </li>
+          <li>
+           Cuando la Obra es una composición o interpretación musical
         el Licenciante renuncia expresamente al derecho exclusivo de percibir,
         ya sea individualmente o a través de una sociedad de gestión
         de derechos (p. ej. SCD u otras), los derechos por ejecución pública
@@ -339,31 +358,31 @@
         si dicha ejecución está básicamente intencionada
         o dirigida a obtener un provecho comercial o una compensación monetaria
         privada.
-           </li>
-          </ol>
-          <p>
-           Los derechos mencionados anteriormente pueden ser ejercidos en todos los
+          </li>
+         </ol>
+         <p>
+          Los derechos mencionados anteriormente pueden ser ejercidos en todos los
       medios y formatos, actualmente conocidos o que se inventen en el futuro.
       Los derechos antes mencionados incluyen el derecho a realizar dichas modificaciones
       en la medida que sean técnicamente necesarias para ejercer los derechos
       en otro medio o formatos, pero de otra forma usted no tiene derecho para
       hacer obras derivadas. Todos los derechos no otorgados expresamente por
       el Licenciante quedan por este medio reservados.
-          </p>
-          <p>
-           <strong>
-            4.
-           </strong>
-           <strong>
-            Restricciones
-           </strong>
-           . La licencia otorgada
+         </p>
+         <p>
+          <strong>
+           4.
+          </strong>
+          <strong>
+           Restricciones
+          </strong>
+          . La licencia otorgada
       en la anterior Sección 3 está expresamente sujeta y limitada
       por las siguientes restricciones:
-          </p>
-          <ol type="a">
-           <li>
-            Usted puede distribuir, exhibir públicamente, ejecutar públicamente,
+         </p>
+         <ol type="a">
+          <li>
+           Usted puede distribuir, exhibir públicamente, ejecutar públicamente,
         o poner a disposición pública la Obra sólo bajo las
         condiciones de esta Licencia, y Usted debe incluir una copia de ésta
         o del Identificador Universal de Recursos con cada copia de la Obra que
@@ -384,9 +403,9 @@
         previo aviso a cualquier Licenciante debe, en la medida de lo posible,
         eliminar de la Obra Colectiva cualquier referencia a dicho Licenciante
         o al Autor Original, según lo solicitado.
-           </li>
-           <li>
-            Si Usted distribuye, exhibe y/o ejecuta públicamente, o pone
+          </li>
+          <li>
+           Si Usted distribuye, exhibe y/o ejecuta públicamente, o pone
         a disposición pública la Obra u Obra Colectiva, debe mantener
         intactos todos los avisos relativos a derechos de autor para la Obra y
         dar al Autor Original razonable crédito por los medios o métodos
@@ -401,15 +420,15 @@
         dicho crédito aparecerá donde se incluya cualquier otro
         crédito de un autor comparable y de una forma que sea al menos
         tan destacable como el otro crédito de autor.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            5. Garantía.
-           </strong>
-          </p>
-          <p>
-           A MENOS QUE LAS PARTES LO CONVINIERAN DE OTRA FORMA POR ESCRITO, EL LICENCIANTE
+          </li>
+         </ol>
+         <p>
+          <strong>
+           5. Garantía.
+          </strong>
+         </p>
+         <p>
+          A MENOS QUE LAS PARTES LO CONVINIERAN DE OTRA FORMA POR ESCRITO, EL LICENCIANTE
       OFRECE LA OBRA “TAL CUAL”, SIN BRINDAR GARANTÍAS DE CLASE
       ALGUNA RESPECTO DE LA OBRA, YA SEA EXPRESA, IMPLÍCITA, LEGAL O CUALQUIERA
       OTRA, INCLUYENDO, SIN LIMITACIÓN, GARANTÍAS DE TITULARIDAD,
@@ -418,17 +437,17 @@
       SEAN O NO DESCUBRIBLES. ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSIÓN
       DE GARANTÍAS IMPLÍCITAS, EN CUYO CASO ESTA EXCLUSIÓN
       PUEDE NO APLICARSE A USTED.
-          </p>
-          <p>
-           <strong>
-            6.
-           </strong>
-           <strong>
-            Limitación de responsabilidad.
-           </strong>
-          </p>
-          <p>
-           A MENOS QUE LO EXIJA EXPRESAMENTE LA LEY APLICABLE, EL LICENCIANTE NO SERÁ
+         </p>
+         <p>
+          <strong>
+           6.
+          </strong>
+          <strong>
+           Limitación de responsabilidad.
+          </strong>
+         </p>
+         <p>
+          A MENOS QUE LO EXIJA EXPRESAMENTE LA LEY APLICABLE, EL LICENCIANTE NO SERÁ
       RESPONSABLE ANTE USTED POR DAÑO ALGUNO, SEA POR RESPONSABILIDAD EXTRACONTRACTUAL
       O CONTRACTUAL, OBJETIVAS O SUBJETIVAS, SE TRATE DE DAÑOS MORALES
       O PATRIMONIALES, DIRECTOS O INDIRECTOS, PREVISTOS O IMPREVISTOS PRODUCIDOS
@@ -436,15 +455,15 @@
       SIDO ADVERTIDO DE LA POSIBILIDAD DE DICHOS DAÑOS. ALGUNAS LEYES NO
       PERMITEN LA EXCLUSIÓN DE CIERTA RESPONSABILIDAD, EN CUYO CASO ESTA
       EXCLUSIÓN PUEDE NO APLICARSE A USTED.
-          </p>
-          <p>
-           <strong>
-            7. Finalización
-           </strong>
-          </p>
-          <ol type="a">
-           <li>
-            Esta Licencia y los derechos otorgados en virtud de ella terminarán
+         </p>
+         <p>
+          <strong>
+           7. Finalización
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           Esta Licencia y los derechos otorgados en virtud de ella terminarán
         automáticamente si Usted infringe alguna condición establecida
         en ella. Sin embargo, los individuos o entidades que han recibido Obras
         Derivadas o Colectivas de Usted de conformidad con esta Licencia, no verán
@@ -452,9 +471,9 @@
         cumpliendo íntegramente las condiciones de estas licencias. Las
         Secciones 1, 2, 5, 6, 7, y 8 subsistirán a cualquier terminación
         de esta Licencia.
-           </li>
-           <li>
-            Sujeta a las condiciones y términos anteriores, la licencia
+          </li>
+          <li>
+           Sujeta a las condiciones y términos anteriores, la licencia
         otorgada aquí es permanente (durante el período de vigencia
         de los derechos de autor de la obra). No obstante lo anterior, el Licenciante
         se reserva el derecho a publicar y/o estrenar la Obra bajo condiciones
@@ -465,48 +484,48 @@
         haya sido exigida, bajo los términos de ésta). La Licencia
         revocada continuará siendo plenamente vigente y efectiva si no
         se le da término en las condiciones indicadas anteriormente.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            8. Varios
-           </strong>
-          </p>
-          <ol type="a">
-           <li>
-            Cada vez que Usted distribuya o ponga a disposición pública
+          </li>
+         </ol>
+         <p>
+          <strong>
+           8. Varios
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           Cada vez que Usted distribuya o ponga a disposición pública
         la Obra o una Obra Colectiva, el Licenciante ofrecerá al destinatario
         una licencia en los mismos términos y condiciones que la licencia
         otorgada a Usted bajo esta Licencia.
-           </li>
-           <li>
-            Si alguna disposición de esta Licencia resulta invalidada o
+          </li>
+          <li>
+           Si alguna disposición de esta Licencia resulta invalidada o
         no exigible, según la legislación vigente, esto no afectará
         ni la validez ni la aplicabilidad del resto de condiciones de esta Licencia
         y, sin acción adicional por parte de los sujetos de este acuerdo,
         aquélla se entenderá reformada lo mínimo necesario
         para hacer que dicha disposición sea válida y exigible.
-           </li>
-           <li>
-            Ningún término o disposición de esta Licencia se
+          </li>
+          <li>
+           Ningún término o disposición de esta Licencia se
         estimará renunciada y ninguna violación de ella será
         consentida a menos que esa renuncia o consentimiento sea otorgado por
         escrito y firmado por la parte que renuncie o consienta.
-           </li>
-           <li>
-            Esta Licencia refleja el acuerdo pleno entre las partes respecto a
+          </li>
+          <li>
+           Esta Licencia refleja el acuerdo pleno entre las partes respecto a
         la Obra aquí licenciada. No hay arreglos, acuerdos o declaraciones
         respecto a la Obra que no estén especificados en este documento.
         El Licenciante no se verá limitado por ninguna disposición
         adicional que pueda surgir en alguna comunicación emanada de Usted.
         Esta Licencia no puede ser modificada sin el consentimiento mutuo por
         escrito del Licenciante y Usted.
-           </li>
-          </ol>
-          <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
-          <div class="fineprint">
-           <p>
-            Creative Commons no es parte de esta Licencia y no ofrece ninguna garantía
+          </li>
+         </ol>
+         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+         <div class="fineprint">
+          <p>
+           Creative Commons no es parte de esta Licencia y no ofrece ninguna garantía
         en relación con la Obra. Creative Commons no será responsable
         frente a Usted o frente a cualquier otra parte respecto a reclamación
         alguna por daños, incluyendo, sin limitaciones, responsabilidad
@@ -516,9 +535,9 @@
         si Creative Commons se ha identificado expresamente a sí mismo
         como Licenciante, tendrá los mismos derechos y obligaciones correspondientes
         a todo Licenciante.
-           </p>
-           <p>
-            Salvo con el propósito limitado de indicar al público
+          </p>
+          <p>
+           Salvo con el propósito limitado de indicar al público
         que la Obra está licenciada bajo la Licencia Creative Commons,
         ninguna de las partes hará uso de la marca registrada “Creative
         Commons” o cualquier otra marca registrada relacionada con ella
@@ -528,78 +547,214 @@
         vigentes en ese momento, tal como se encuentren publicadas en su sitio
         web o que por otra forma se hayan puesto a disposición por petición
         expresa.
-           </p>
-           <p>
-            Creative Commons puede ser contactada en
-            <a href="https://creativecommons.org/">
-             https://creativecommons.org/
-            </a>
-           </p>
-          </div>
-          <!-- END CC NOTICE -->
+          </p>
+          <p>
+           Creative Commons puede ser contactada en
+           <a href="https://creativecommons.org/">
+            https://creativecommons.org/
+           </a>
+          </p>
          </div>
-         <div align="right" style="margin-bottom: 10px;">
-          <a class="fulltext" href="https://creativecommons.org/licenses/by-nd/2.0/cl/">
-           Volver
+         <!-- END CC NOTICE -->
+        </div>
+        <div align="right" style="margin-bottom: 10px;">
+         <a class="fulltext" href="https://creativecommons.org/licenses/by-nd/2.0/cl/">
+          Volver
     al Commons Deed
-          </a>
-         </div>
+         </a>
         </div>
        </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
+      </h2>
      </div>
     </div>
-   </section>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons no es una parte en sus licencias públicas. No obstante, Creative Commons puede optar por aplicar una de sus licencias públicas al material que publica y en estos casos debe ser considerado como el "Licenciante". El texto de las licencias públicas de Creative Commons está dedicado al dominio público bajo una licencia
+      <a href="/publicdomain/zero/1.0/legalcode.es">
+       CC0 de Dedicación al Dominio Público
+      </a>
+      . Excepto con el propósito limitado de indicar que el material se comparte bajo una licencia pública de Creative Commons o según lo permitido por las políticas de Creative Commons publicadas en
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons no autoriza el uso de la marca "Creative Commons" o cualquier otra marca o logotipo de Creative Commons sin su consentimiento previo por escrito, incluso, de manera enunciativa y no taxativa, en relación con modificaciones no autorizadas de cualquiera de sus licencias públicas o de cualquier otro acuerdo, arreglo o convenio relativos al uso de Material Licenciado. Para evitar cualquier duda, este párrafo no forma parte de las licencias públicas.
+     </p>
+     <p>
+      Puede contactarse con Creative Commons en
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

@@ -4,216 +4,237 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY 3.0 DE Lizenzvertrag — Namensnennung 3.0 Deutschland — Creative Commons
+   CC BY 3.0 DE Lizenzvertrag | Namensnennung 3.0 Deutschland
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by/3.0/de/legalcode.de" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Zum Inhalt überspringen
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Zum Inhalt überspringen
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Start
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by/3.0/de/legalcode.de">
-        CC BY 3.0 DE Lizenzvertrag
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 3.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.de" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY 3.0 DE
-       </h2>
-       <h1 class="b-header">
-        Namensnennung 3.0 Deutschland
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY 3.0 DE
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY 3.0 DE
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY 3.0 DE
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Namensnennung 3.0 Deutschland
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Haftungsbeschränkung
-       </h4>
-       <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.de">
-         Namensnennung 4.0 International
-        </a>
+       <p>
+        Join a  global community working to strengthen the Commons
        </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Namensnennung 3.0 Deutschland
-        </h3>
-        <div id="deed-main-content">
-         <img alt="" src="https://creativecommons.org/images/international/de.png"/>
-         <blockquote>
-          CREATIVE COMMONS IST KEINE RECHTSANWALTSKANZLEI UND
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY 3.0 DE Lizenzvertrag
+    </h1>
+    <h2>
+     Namensnennung 3.0 Deutschland
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.de">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 3.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.de">
+       CC BY 4.0 Lizenzvertrag | Namensnennung 4.0 International
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       Namensnennung 3.0 Deutschland
+       <div id="deed-main-content">
+        <img alt="" src="https://creativecommons.org/images/international/de.png"/>
+        <blockquote>
+         CREATIVE COMMONS IST KEINE RECHTSANWALTSKANZLEI UND
 LEISTET KEINE RECHTSBERATUNG. DIE BEREITSTELLUNG DIESER LIZENZ FÜHRT ZU
 KEINEM MANDATSVERHÄLTNIS. CREATIVE COMMONS STELLT DIESE INFORMATIONEN
 OHNE GEWÄHR ZUR VERFÜGUNG. CREATIVE COMMONS ÜBERNIMMT KEINE
 GEWÄHRLEISTUNG FÜR DIE GELIEFERTEN INFORMATIONEN UND SCHLIEßT DIE
 HAFTUNG FÜR SCHÄDEN AUS, DIE SICH AUS DEREN GEBRAUCH ERGEBEN.
-         </blockquote>
-         <h3>
-          <em>
-           Lizenz
-          </em>
-         </h3>
-         <p>
-          DER GEGENSTAND DIESER LIZENZ (WIE UNTER "SCHUTZGEGENSTAND"
+        </blockquote>
+        <h3>
+         <em>
+          Lizenz
+         </em>
+        </h3>
+        <p>
+         DER GEGENSTAND DIESER LIZENZ (WIE UNTER "SCHUTZGEGENSTAND"
 DEFINIERT) WIRD UNTER DEN BEDINGUNGEN DIESER CREATIVE COMMONS PUBLIC
 LICENSE ("CCPL", "LIZENZ" ODER "LIZENZVERTRAG") ZUR VERFÜGUNG GESTELLT.
 DER SCHUTZGEGENSTAND IST DURCH DAS URHEBERRECHT UND/ODER ANDERE GESETZE
 GESCHÜTZT. JEDE FORM DER NUTZUNG DES SCHUTZGEGENSTANDES, DIE NICHT
 AUFGRUND DIESER LIZENZ ODER DURCH GESETZE GESTATTET IST, IST UNZULÄSSIG.
-         </p>
-         <p>
-          DURCH DIE AUSÜBUNG EINES DURCH DIESE LIZENZ GEWÄHRTEN RECHTS AN DEM
+        </p>
+        <p>
+         DURCH DIE AUSÜBUNG EINES DURCH DIESE LIZENZ GEWÄHRTEN RECHTS AN DEM
 SCHUTZGEGENSTAND ERKLÄREN SIE SICH MIT DEN LIZENZBEDINGUNGEN
 RECHTSVERBINDLICH EINVERSTANDEN. SOWEIT DIESE LIZENZ ALS LIZENZVERTRAG
 ANZUSEHEN IST, GEWÄHRT IHNEN DER LIZENZGEBER DIE IN DER LIZENZ
 GENANNTEN RECHTE UNENTGELTLICH UND IM AUSTAUSCH DAFÜR, DASS SIE DAS
 GEBUNDENSEIN AN DIE LIZENZBEDINGUNGEN AKZEPTIEREN.
-         </p>
-         <p>
+        </p>
+        <p>
+         <strong>
+          1. Definitionen
+         </strong>
+        </p>
+        <ol type="a">
+         <li>
+          Der Begriff "
           <strong>
-           1. Definitionen
+           Abwandlung
           </strong>
-         </p>
-         <ol type="a">
-          <li>
-           Der Begriff "
-           <strong>
-            Abwandlung
-           </strong>
-           " im Sinne dieser Lizenz
+          " im Sinne dieser Lizenz
 bezeichnet das Ergebnis jeglicher Art von Veränderung des
 Schutzgegenstandes, solange die eigenpersönlichen Züge des
 Schutzgegenstandes darin nicht verblassen und daran eigene Schutzrechte
@@ -223,58 +244,58 @@ Schutzgegenstandes zur Vertonung von Laufbildern sein. Nicht als
 Abwandlung des Schutzgegenstandes gelten seine Aufnahme in eine
 Sammlung oder ein Sammelwerk und die freie Benutzung des
 Schutzgegenstandes.
-          </li>
-          <li>
-           Der Begriff "
-           <strong>
-            Sammelwerk
-           </strong>
-           " im Sinne dieser Lizenz
+         </li>
+         <li>
+          Der Begriff "
+          <strong>
+           Sammelwerk
+          </strong>
+          " im Sinne dieser Lizenz
 meint eine Zusammenstellung von literarischen, künstlerischen oder
 wissenschaftlichen Inhalten, sofern diese Zusammenstellung aufgrund von
 Auswahl und Anordnung der darin enthaltenen selbständigen Elemente eine
 geistige Schöpfung darstellt, unabhängig davon, ob die Elemente
 systematisch oder methodisch angelegt und dadurch einzeln zugänglich
 sind oder nicht.
-          </li>
-          <li>
-           "
-           <strong>
-            Verbreiten
-           </strong>
-           " im Sinne dieser Lizenz bedeutet,
+         </li>
+         <li>
+          "
+          <strong>
+           Verbreiten
+          </strong>
+          " im Sinne dieser Lizenz bedeutet,
 den Schutzgegenstand oder Abwandlungen im Original oder in Form von
 Vervielfältigungsstücken, mithin in körperlich fixierter Form der
 Öffentlichkeit anzubieten oder in Verkehr zu bringen.
-          </li>
-          <li>
-           Der "
-           <strong>
-            Lizenzgeber
-           </strong>
-           " im Sinne dieser Lizenz ist
+         </li>
+         <li>
+          Der "
+          <strong>
+           Lizenzgeber
+          </strong>
+          " im Sinne dieser Lizenz ist
 diejenige natürliche oder juristische Person oder Gruppe, die den
 Schutzgegenstand unter den Bedingungen dieser Lizenz anbietet und
 insoweit als Rechteinhaberin auftritt.
-          </li>
-          <li>
-           "
-           <strong>
-            Rechteinhaber
-           </strong>
-           " im Sinne dieser Lizenz ist der
+         </li>
+         <li>
+          "
+          <strong>
+           Rechteinhaber
+          </strong>
+          " im Sinne dieser Lizenz ist der
 Urheber des Schutzgegenstandes oder jede andere natürliche oder
 juristische Person oder Gruppe von Personen, die am Schutzgegenstand
 ein Immaterialgüterrecht erlangt hat, welches die in Abschnitt 3
 genannten Handlungen erfasst und bei dem eine Einräumung von
 Nutzungsrechten oder eine Weiterübertragung an Dritte möglich ist.
-          </li>
-          <li>
-           Der Begriff "
-           <strong>
-            Schutzgegenstand
-           </strong>
-           " bezeichnet in
+         </li>
+         <li>
+          Der Begriff "
+          <strong>
+           Schutzgegenstand
+          </strong>
+          " bezeichnet in
 dieser Lizenz den literarischen, künstlerischen oder wissenschaftlichen
 Inhalt, der unter den Bedingungen dieser Lizenz angeboten wird. Das
 kann insbesondere eine persönliche geistige Schöpfung jeglicher Art,
@@ -286,30 +307,30 @@ analoger oder digitaler Form. Soweit Datenbanken oder
 Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz
 eigener Art genießen, unterfallen auch sie dem Begriff
 "Schutzgegenstand" im Sinne dieser Lizenz.
-          </li>
-          <li>
-           Mit "
-           <strong>
-            Sie
-           </strong>
-           " bzw. "
-           <strong>
-            Ihnen
-           </strong>
-           " ist die
+         </li>
+         <li>
+          Mit "
+          <strong>
+           Sie
+          </strong>
+          " bzw. "
+          <strong>
+           Ihnen
+          </strong>
+          " ist die
 natürliche oder juristische Person gemeint, die in dieser Lizenz im
 Abschnitt 3 genannte Nutzungen des Schutzgegenstandes vornimmt und
 zuvor in Hinblick auf den Schutzgegenstand nicht gegen Bedingungen
 dieser Lizenz verstoßen oder aber die ausdrückliche Erlaubnis des
 Lizenzgebers erhalten hat, die durch diese Lizenz gewährten
 Nutzungsrechte trotz eines vorherigen Verstoßes auszuüben.
-          </li>
-          <li>
-           Unter "
-           <strong>
-            Öffentlich Zeigen
-           </strong>
-           " im Sinne dieser Lizenz
+         </li>
+         <li>
+          Unter "
+          <strong>
+           Öffentlich Zeigen
+          </strong>
+          " im Sinne dieser Lizenz
 sind Veröffentlichungen und Präsentationen des Schutzgegenstandes zu
 verstehen, die für eine Mehrzahl von Mitgliedern der Öffentlichkeit
 bestimmt sind und in unkörperlicher Form mittels öffentlicher
@@ -319,13 +340,13 @@ oder in körperlicher Form mittels Ausstellung erfolgen, unabhängig von
 bestimmten Veranstaltungen und unabhängig von den zum Einsatz kommenden
 Techniken und Verfahren, einschließlich drahtgebundener oder drahtloser
 Mittel und Einstellen in das Internet.
-          </li>
-          <li>
-           "
-           <strong>
-            Vervielfältigen
-           </strong>
-           " im Sinne dieser Lizenz
+         </li>
+         <li>
+          "
+          <strong>
+           Vervielfältigen
+          </strong>
+          " im Sinne dieser Lizenz
 bedeutet, mittels beliebiger Verfahren Vervielfältigungsstücke des
 Schutzgegenstandes herzustellen, insbesondere durch Ton- oder
 Bildaufzeichnungen, und umfasst auch den Vorgang, erstmals körperliche
@@ -333,93 +354,93 @@ Fixierungen des Schutzgegenstandes sowie Vervielfältigungsstücke dieser
 Fixierungen anzufertigen, sowie die Übertragung des Schutzgegenstandes
 auf einen Bild- oder Tonträger oder auf ein anderes elektronisches
 Medium, gleichviel ob in digitaler oder analoger Form.
-          </li>
-         </ol>
-         <p>
-          <strong>
-           2. Schranken des Immaterialgüterrechts
-          </strong>
-         </p>
-         <p>
-          Diese Lizenz ist in keiner Weise darauf gerichtet, Befugnisse zur
+         </li>
+        </ol>
+        <p>
+         <strong>
+          2. Schranken des Immaterialgüterrechts
+         </strong>
+        </p>
+        <p>
+         Diese Lizenz ist in keiner Weise darauf gerichtet, Befugnisse zur
 Nutzung des Schutzgegenstandes zu vermindern, zu beschränken oder zu
 vereiteln, die Ihnen aufgrund der Schranken des Urheberrechts oder anderer
 Rechtsnormen bereits ohne Weiteres zustehen oder sich aus dem
 Fehlen eines immaterialgüterrechtlichen Schutzes ergeben.
-         </p>
-         <p>
-          <strong>
-           3. Einräumung von Nutzungsrechten
-          </strong>
-         </p>
-         <p>
-          Unter den Bedingungen dieser Lizenz räumt Ihnen der Lizenzgeber
+        </p>
+        <p>
+         <strong>
+          3. Einräumung von Nutzungsrechten
+         </strong>
+        </p>
+        <p>
+         Unter den Bedingungen dieser Lizenz räumt Ihnen der Lizenzgeber
 - unbeschadet unverzichtbarer Rechte und vorbehaltlich des Abschnitts 3.e)
 - das vergütungsfreie, räumlich und zeitlich (für die Dauer des Schutzrechts
 am Schutzgegenstand) unbeschränkte einfache Recht ein, den Schutzgegenstand
 auf die folgenden Arten und Weisen zu nutzen ("unentgeltlich eingeräumtes
 einfaches Nutzungsrecht für jedermann"):
-         </p>
-         <ol type="a">
-          <li>
-           Den Schutzgegenstand in beliebiger Form und Menge zu
+        </p>
+        <ol type="a">
+         <li>
+          Den Schutzgegenstand in beliebiger Form und Menge zu
 vervielfältigen, ihn in Sammelwerke zu integrieren und ihn als Teil
 solcher Sammelwerke zu vervielfältigen;
-          </li>
-          <li>
-           Abwandlungen des Schutzgegenstandes anzufertigen, einschließlich
+         </li>
+         <li>
+          Abwandlungen des Schutzgegenstandes anzufertigen, einschließlich
 Übersetzungen unter Nutzung jedweder Medien, sofern deutlich erkennbar
 gemacht wird, dass es sich um Abwandlungen handelt;
-          </li>
-          <li>
-           den Schutzgegenstand, allein oder in Sammelwerke aufgenommen,
+         </li>
+         <li>
+          den Schutzgegenstand, allein oder in Sammelwerke aufgenommen,
 öffentlich zu zeigen und zu verbreiten;
-          </li>
-          <li>
-           Abwandlungen des Schutzgegenstandes zu veröffentlichen,
+         </li>
+         <li>
+          Abwandlungen des Schutzgegenstandes zu veröffentlichen,
 öffentlich zu zeigen und zu verbreiten.
-          </li>
-          <li>
-           <p>
-            Bezüglich Vergütung für die Nutzung des Schutzgegenstandes gilt
+         </li>
+         <li>
+          <p>
+           Bezüglich Vergütung für die Nutzung des Schutzgegenstandes gilt
 Folgendes:
-           </p>
-           <ol type="i">
-            <li>
-             <strong>
-              Unverzichtbare gesetzliche Vergütungsansprüche:
-             </strong>
-             Soweit unverzichtbare Vergütungsansprüche im Gegenzug für gesetzliche
+          </p>
+          <ol type="i">
+           <li>
+            <strong>
+             Unverzichtbare gesetzliche Vergütungsansprüche:
+            </strong>
+            Soweit unverzichtbare Vergütungsansprüche im Gegenzug für gesetzliche
 Lizenzen vorgesehen oder Pauschalabgabensysteme (zum Beispiel für
 Leermedien) vorhanden sind, behält sich der Lizenzgeber das
 ausschließliche Recht vor, die entsprechende Vergütung einzuziehen für
 jede Ausübung eines Rechts aus dieser Lizenz durch Sie.
-            </li>
-            <li>
-             <strong>
-              Vergütung bei Zwangslizenzen
-             </strong>
-             : Sofern
+           </li>
+           <li>
+            <strong>
+             Vergütung bei Zwangslizenzen
+            </strong>
+            : Sofern
 Zwangslizenzen außerhalb dieser Lizenz vorgesehen sind und zustande
 kommen, verzichtet der Lizenzgeber für alle Fälle einer lizenzgerechten
 Nutzung des Schutzgegenstandes durch Sie auf jegliche Vergütung.
-            </li>
-            <li>
-             <strong>
-              Vergütung in sonstigen Fällen
-             </strong>
-             : Bezüglich
+           </li>
+           <li>
+            <strong>
+             Vergütung in sonstigen Fällen
+            </strong>
+            : Bezüglich
 lizenzgerechter Nutzung des Schutzgegenstandes durch Sie, die nicht
 unter die beiden vorherigen Abschnitte (i) und (ii) fällt, verzichtet
 der Lizenzgeber auf jegliche Vergütung, unabhängig davon, ob eine
 Einziehung der Vergütung durch ihn selbst oder nur durch eine
 Verwertungsgesellschaft möglich wäre.
-            </li>
-           </ol>
-          </li>
-         </ol>
-         <p>
-          Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle
+           </li>
+          </ol>
+         </li>
+        </ol>
+        <p>
+         Das vorgenannte Nutzungsrecht wird für alle bekannten sowie für alle
 noch nicht bekannten Nutzungsarten eingeräumt. Es beinhaltet auch das
 Recht, solche Änderungen am Schutzgegenstand vorzunehmen, die für bestimmte
 nach dieser Lizenz zulässige Nutzungen technisch erforderlich sind. Alle sonstigen
@@ -429,19 +450,19 @@ Soweit Datenbanken oder Zusammenstellungen von Daten Schutzgegenstand
 dieser Lizenz oder Teil dessen sind und einen immaterialgüterrechtlichen
 Schutz eigener Art genießen, verzichtet der Lizenzgeber auf sämtliche
 aus diesem Schutz resultierenden Rechte.
-         </p>
-         <p>
-          <strong>
-           4. Bedingungen
-          </strong>
-         </p>
-         <p>
-          Die Einräumung des Nutzungsrechts gemäß Abschnitt 3 dieser Lizenz
+        </p>
+        <p>
+         <strong>
+          4. Bedingungen
+         </strong>
+        </p>
+        <p>
+         Die Einräumung des Nutzungsrechts gemäß Abschnitt 3 dieser Lizenz
 erfolgt ausdrücklich nur unter den folgenden Bedingungen:
-         </p>
-         <ol type="a">
-          <li>
-           Sie dürfen den Schutzgegenstand ausschließlich unter den
+        </p>
+        <ol type="a">
+         <li>
+          Sie dürfen den Schutzgegenstand ausschließlich unter den
 Bedingungen dieser Lizenz verbreiten oder öffentlich zeigen. Sie müssen
 dabei stets eine Kopie dieser Lizenz oder deren vollständige
 Internetadresse in Form des Uniform-Resource-Identifier (URI) beifügen.
@@ -462,44 +483,44 @@ Sammelwerk erstellen, müssen Sie auf die Mitteilung eines Lizenzgebers hin aus 
 Abschnitt 4.b) aufgezählten Hinweise entfernen. Wenn Sie eine
 Abwandlung vornehmen, müssen Sie auf die Mitteilung eines Lizenzgebers hin von der Abwandlung die in Abschnitt
 4.b) aufgezählten Hinweise entfernen.
-          </li>
-          <li>
-           Die Verbreitung und das öffentliche Zeigen des Schutzgegenstandes
+         </li>
+         <li>
+          Die Verbreitung und das öffentliche Zeigen des Schutzgegenstandes
 oder auf ihm aufbauender Abwandlungen oder ihn enthaltender Sammelwerke
 ist Ihnen nur unter der Bedingung gestattet, dass Sie, vorbehaltlich
 etwaiger Mitteilungen im Sinne von Abschnitt 4.a), alle dazu gehörenden
 Rechtevermerke unberührt lassen. Sie sind verpflichtet, die
 Rechteinhaberschaft in einer der Nutzung entsprechenden, angemessenen
 Form anzuerkennen, indem Sie - soweit bekannt - Folgendes angeben:
-           <br/>
-           <br/>
-           <ol type="i">
-            <li>
-             Den Namen (oder das Pseudonym, falls ein solches verwendet
+          <br/>
+          <br/>
+          <ol type="i">
+           <li>
+            Den Namen (oder das Pseudonym, falls ein solches verwendet
 wird) des Rechteinhabers und / oder, falls der Lizenzgeber im
 Rechtevermerk, in den Nutzungsbedingungen oder auf andere angemessene
 Weise eine Zuschreibung an Dritte vorgenommen hat (z.B. an eine
 Stiftung, ein Verlagshaus oder eine Zeitung)
 ("Zuschreibungsempfänger"), Namen bzw. Bezeichnung dieses oder dieser
 Dritten;
-            </li>
-            <li>
-             den Titel des Inhaltes;
-            </li>
-            <li>
-             in einer praktikablen Form den Uniform-Resource-Identifier
+           </li>
+           <li>
+            den Titel des Inhaltes;
+           </li>
+           <li>
+            in einer praktikablen Form den Uniform-Resource-Identifier
 (URI, z.B. Internetadresse), den der Lizenzgeber zum Schutzgegenstand
 angegeben hat, es sei denn, dieser URI verweist nicht auf den
 Rechtevermerk oder die Lizenzinformationen zum Schutzgegenstand;
-            </li>
-            <li>
-             und im Falle einer Abwandlung des Schutzgegenstandes in
+           </li>
+           <li>
+            und im Falle einer Abwandlung des Schutzgegenstandes in
 Übereinstimmung mit Abschnitt 3.b) einen Hinweis darauf, dass es sich
 um eine Abwandlung handelt.
-            </li>
-           </ol>
-           <p>
-            Die nach diesem Abschnitt 4.b) erforderlichen Angaben können in
+           </li>
+          </ol>
+          <p>
+           Die nach diesem Abschnitt 4.b) erforderlichen Angaben können in
 jeder angemessenen Form gemacht werden; im Falle einer Abwandlung des
 Schutzgegenstandes oder eines Sammelwerkes müssen diese Angaben das
 Minimum darstellen und bei gemeinsamer Nennung mehrerer Rechteinhaber
@@ -512,27 +533,27 @@ schriftlich vorliegende Zustimmung des Lizenzgebers und / oder des
 Zuschreibungsempfängers weder explizit noch implizit irgendeine
 Verbindung zum Lizenzgeber oder Zuschreibungsempfänger und ebenso wenig
 eine Unterstützung oder Billigung durch ihn andeuten.
-           </p>
-          </li>
-          <li>
-           Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht
+          </p>
+         </li>
+         <li>
+          Die oben unter 4.a) und b) genannten Einschränkungen gelten nicht
 für solche Teile des Schutzgegenstandes, die allein deshalb unter den
 Schutzgegenstandsbegriff fallen, weil sie als Datenbanken oder
 Zusammenstellungen von Daten einen immaterialgüterrechtlichen Schutz
 eigener Art genießen.
-          </li>
-          <li>
-           Persönlichkeitsrechte bleiben - soweit sie bestehen - von dieser
+         </li>
+         <li>
+          Persönlichkeitsrechte bleiben - soweit sie bestehen - von dieser
 Lizenz unberührt.
-          </li>
-         </ol>
-         <p>
-          <strong>
-           5. Gewährleistung
-          </strong>
-         </p>
-         <p>
-          SOFERN KEINE ANDERS LAUTENDE, SCHRIFTLICHE VEREINBARUNG ZWISCHEN DEM
+         </li>
+        </ol>
+        <p>
+         <strong>
+          5. Gewährleistung
+         </strong>
+        </p>
+        <p>
+         SOFERN KEINE ANDERS LAUTENDE, SCHRIFTLICHE VEREINBARUNG ZWISCHEN DEM
 LIZENZGEBER UND IHNEN GESCHLOSSEN WURDE UND SOWEIT MÄNGEL NICHT
 ARGLISTIG VERSCHWIEGEN WURDEN, BIETET DER LIZENZGEBER DEN
 SCHUTZGEGENSTAND UND DIE EINRÄUMUNG VON RECHTEN UNTER AUSSCHLUSS
@@ -545,27 +566,27 @@ SOWIE DIE KORREKTHEIT VON BESCHREIBUNGEN. DIESE GEWÄHRLEISTUNGSBESCHRÄNKUNG
 GILT NICHT, SOWEIT MÄNGEL ZU SCHÄDEN DER IN ABSCHNITT 6 BEZEICHNETEN ART
 FÜHREN UND AUF SEITEN DES LIZENZGEBERS DAS JEWEILS GENANNTE VERSCHULDEN BZW.
 VERTRETENMÜSSEN EBENFALLS VORLIEGT.
-         </p>
-         <p>
-          <strong>
-           6. Haftungsbeschränkung
-          </strong>
-         </p>
-         <p>
-          DER LIZENZGEBER HAFTET IHNEN GEGENÜBER IN BEZUG AUF SCHÄDEN AUS DER
+        </p>
+        <p>
+         <strong>
+          6. Haftungsbeschränkung
+         </strong>
+        </p>
+        <p>
+         DER LIZENZGEBER HAFTET IHNEN GEGENÜBER IN BEZUG AUF SCHÄDEN AUS DER
 VERLETZUNG DES LEBENS, DES KÖRPERS ODER DER GESUNDHEIT NUR, SOFERN IHM
 WENIGSTENS FAHRLÄSSIGKEIT VORZUWERFEN IST, FÜR SONSTIGE SCHÄDEN NUR BEI
 GROBER FAHRLÄSSIGKEIT ODER VORSATZ, UND ÜBERNIMMT DARÜBER HINAUS
 KEINERLEI FREIWILLIGE HAFTUNG.
-         </p>
-         <p>
-          <strong>
-           7. Erlöschen
-          </strong>
-         </p>
-         <ol type="a">
-          <li>
-           Diese Lizenz und die durch sie eingeräumten Nutzungsrechte
+        </p>
+        <p>
+         <strong>
+          7. Erlöschen
+         </strong>
+        </p>
+        <ol type="a">
+         <li>
+          Diese Lizenz und die durch sie eingeräumten Nutzungsrechte
 erlöschen mit Wirkung für die Zukunft im Falle eines Verstoßes gegen
 die Lizenzbedingungen durch Sie, ohne dass es dazu der Kenntnis des
 Lizenzgebers vom Verstoß oder einer weiteren Handlung einer der
@@ -576,9 +597,9 @@ haben, bestehen nachträglich entstandene Lizenzbeziehungen jedoch
 solange weiter, wie die genannten Personen sich ihrerseits an sämtliche
 Lizenzbedingungen halten. Darüber hinaus gelten die Ziffern 1, 2, 5, 6,
 7, und 8 auch nach einem Erlöschen dieser Lizenz fort.
-          </li>
-          <li>
-           Vorbehaltlich der oben genannten Bedingungen gilt diese Lizenz
+         </li>
+         <li>
+          Vorbehaltlich der oben genannten Bedingungen gilt diese Lizenz
 unbefristet bis der rechtliche Schutz für den Schutzgegenstand
 ausläuft. Davon abgesehen behält der Lizenzgeber das Recht, den
 Schutzgegenstand unter anderen Lizenzbedingungen anzubieten oder die
@@ -588,37 +609,37 @@ Widerruf dieser Lizenz (oder irgendeiner Weiterlizenzierung, die auf
 Grundlage dieser Lizenz bereits erfolgt ist bzw. zukünftig noch
 erfolgen muss) dient und diese Lizenz unter Berücksichtigung der oben
 zum Erlöschen genannten Bedingungen vollumfänglich wirksam bleibt.
-          </li>
-         </ol>
-         <p>
-          <strong>
-           8. Sonstige Bestimmungen
-          </strong>
-         </p>
-         <ol type="a">
-          <li>
-           Jedes Mal, wenn Sie den Schutzgegenstand für sich genommen oder
+         </li>
+        </ol>
+        <p>
+         <strong>
+          8. Sonstige Bestimmungen
+         </strong>
+        </p>
+        <ol type="a">
+         <li>
+          Jedes Mal, wenn Sie den Schutzgegenstand für sich genommen oder
 als Teil eines Sammelwerkes verbreiten oder öffentlich zeigen, bietet der
 Lizenzgeber dem Empfänger eine Lizenz zu den gleichen Bedingungen und
 im gleichen Umfang an, wie Ihnen in Form dieser Lizenz.
-          </li>
-          <li>
-           Jedes Mal, wenn Sie eine Abwandlung des Schutzgegenstandes
+         </li>
+         <li>
+          Jedes Mal, wenn Sie eine Abwandlung des Schutzgegenstandes
 verbreiten oder öffentlich zeigen, bietet der Lizenzgeber dem Empfänger
 eine Lizenz am ursprünglichen Schutzgegenstand zu den gleichen
 Bedingungen und im gleichen Umfang an, wie Ihnen in Form dieser Lizenz.
-          </li>
-          <li>
-           Sollte eine Bestimmung dieser Lizenz unwirksam sein, so bleibt
+         </li>
+         <li>
+          Sollte eine Bestimmung dieser Lizenz unwirksam sein, so bleibt
 davon die Wirksamkeit der Lizenz im Übrigen davon unberührt.
-          </li>
-          <li>
-           Keine Bestimmung dieser Lizenz soll als abbedungen und kein
+         </li>
+         <li>
+          Keine Bestimmung dieser Lizenz soll als abbedungen und kein
 Verstoß gegen sie als zulässig gelten, solange die von dem Verzicht
 oder von dem Verstoß betroffene Seite nicht schriftlich zugestimmt hat.
-          </li>
-          <li>
-           Diese Lizenz (zusammen mit in ihr ausdrücklich vorgesehenen
+         </li>
+         <li>
+          Diese Lizenz (zusammen mit in ihr ausdrücklich vorgesehenen
 Erlaubnissen, Mitteilungen und Zustimmungen, soweit diese tatsächlich
 vorliegen) stellt die vollständige Vereinbarung zwischen dem
 Lizenzgeber und Ihnen in Bezug auf den Schutzgegenstand dar. Es
@@ -632,21 +653,21 @@ durch schriftliche Vereinbarung zwischen Ihnen und dem Lizenzgeber
 modifiziert werden. Derlei Modifikationen wirken ausschließlich
 zwischen dem Lizenzgeber und Ihnen und wirken sich nicht auf die
 Dritten gemäß Ziffern 8.a) und b) angebotenen Lizenzen aus.
-          </li>
-          <li>
-           Sofern zwischen Ihnen und dem Lizenzgeber keine anderweitige
+         </li>
+         <li>
+          Sofern zwischen Ihnen und dem Lizenzgeber keine anderweitige
 Vereinbarung getroffen wurde und soweit Wahlfreiheit besteht, findet
 auf diesen Lizenzvertrag das Recht der Bundesrepublik Deutschland
 Anwendung.
-          </li>
-         </ol>
-         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
-         <blockquote>
-          <h3>
-           Creative Commons Notice
-          </h3>
-          <p>
-           Creative Commons ist nicht Partei dieser Lizenz und übernimmt
+         </li>
+        </ol>
+        <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+        <blockquote>
+         <h3>
+          Creative Commons Notice
+         </h3>
+         <p>
+          Creative Commons ist nicht Partei dieser Lizenz und übernimmt
 keinerlei Gewähr oder dergleichen in Bezug auf den Schutzgegenstand.
 Creative Commons haftet Ihnen oder einer anderen Partei unter keinem
 rechtlichen Gesichtspunkt für irgendwelche Schäden, die - abstrakt oder
@@ -654,9 +675,9 @@ konkret, zufällig oder vorhersehbar - im Zusammenhang mit dieser Lizenz
 entstehen. Unbeschadet der vorangegangen beiden Sätze, hat Creative
 Commons alle Rechte und Pflichten eines Lizenzgebers, wenn es sich
 ausdrücklich als Lizenzgeber im Sinne dieser Lizenz bezeichnet.
-          </p>
-          <p>
-           Creative Commons gewährt den Parteien nur insoweit das Recht, das
+         </p>
+         <p>
+          Creative Commons gewährt den Parteien nur insoweit das Recht, das
 Logo und die Marke "Creative Commons" zu nutzen, als dies notwendig
 ist, um der Öffentlichkeit gegenüber kenntlich zu machen, dass der
 Schutzgegenstand unter einer CCPL steht. Ein darüber hinaus gehender
@@ -668,72 +689,208 @@ Fassung, die von Zeit zu Zeit auf der Website veröffentlicht oder auf
 andere Weise auf Anfrage zugänglich gemacht wird. Zur Klarstellung: Die
 genannten Einschränkungen der Markennutzung sind nicht Bestandteil
 dieser Lizenz.
-          </p>
-          <p>
-           Creative Commons kann kontaktiert werden über
-           <a href="https://creativecommons.org/">
-            https://creativecommons.org/
-           </a>
-           .
-          </p>
-         </blockquote>
-         <!-- END CC NOTICE -->
-        </div>
-       </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
          </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
+         <p>
+          Creative Commons kann kontaktiert werden über
+          <a href="https://creativecommons.org/">
+           https://creativecommons.org/
+          </a>
+          .
+         </p>
+        </blockquote>
+        <!-- END CC NOTICE -->
+       </div>
+      </h2>
      </div>
     </div>
-   </section>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons ist keine Vertragspartei seiner Public Licenses. Dennoch kann Creative Commons sich dazu entscheiden, eine seiner Public Licenses für selbst publiziertes Material zu verwenden, und ist in diesen Fällen als „Lizenzgeber" zu betrachten. Der Text der Creative Commons Public Licenses selbst wird mittels der
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Verzichtserklärung
+      </a>
+      der Gemeinfreiheit überantwortet. Abgesehen vom begrenzten Zweck, darauf hinzuweisen, dass Material unter einer Creative Commons Public License freigegeben ist, und falls es nicht anderweitig erlaubt wird durch die Creative-Commons-Policies, die unter
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      veröffentlicht sind, erlaubt Creative Commons es nicht, dass die Marke "Creative Commons" oder eine andere Marke oder ein anderes Logo von Creative Commons ohne vorherige schriftliche Zustimmung genutzt werden, insbesondere in Verbindung mit nicht autorisierten Veränderungen seiner Public Licenses oder sonstigen Regelungen, Übereinkünften oder Vereinbarungen in Bezug auf die Nutzung lizenzierten Materials. Es sei klargestellt, dass dieser Absatz nicht Teil der Public Licenses ist.
+     </p>
+     <p>
+      Creative Commons kann kontaktiert werden unter
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

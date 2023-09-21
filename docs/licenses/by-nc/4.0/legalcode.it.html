@@ -4,947 +4,970 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC 4.0 Codice Legale — Attribuzione - Non commerciale 4.0 Internazionale — Creative Commons
+   CC BY-NC 4.0 Codice Legale | Attribuzione - Non commerciale 4.0 Internazionale
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.it" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Vai ai contenuti
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Vai ai contenuti
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Pagina iniziale
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc/4.0/legalcode.it">
-        CC BY-NC 4.0 Codice Legale
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" selected="" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" selected="" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.it" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC 4.0 Codice Legale
+    </h1>
+    <h2>
+     Attribuzione - Non commerciale 4.0 Internazionale
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Attribuzione-NonCommerciale 4.0 Internazionale
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            Articolo 1 – Definizioni.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            Articolo 2 – Ambito di Applicazione.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            Articolo 3 – Condizioni della Licenza.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            Articolo 4 – Diritto Sui Generis sulle Banche Dati.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            Articolo 5 – Esclusione di Garanzie e Limitazione di Responsabilità.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            Articolo 6 – Durata e Risoluzione.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            Articolo 7 – Altri Termini e Condizioni.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            Articolo 8 – Interpretazione.
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          Articolo 1 – Definizioni.
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          Articolo 2 – Ambito di Applicazione.
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          Articolo 3 – Condizioni della Licenza.
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          Articolo 4 – Diritto Sui Generis sulle Banche Dati.
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          Articolo 5 – Esclusione di Garanzie e Limitazione di Responsabilità.
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          Articolo 6 – Durata e Risoluzione.
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          Articolo 7 – Altri Termini e Condizioni.
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          Articolo 8 – Interpretazione.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC 4.0
-       </h2>
-       <h1 class="b-header">
-        Attribuzione-NonCommerciale 4.0 Internazionale
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Attribuzione-NonCommerciale 4.0 Internazionale
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        L'Associazione Creative Commons ("Creative Commons") non è uno studio legale e non fornisce servizi legali né consulenze legali. La distribuzione di licenze pubbliche Creative Commons non instaura un rapporto avvocato-cliente né rapporti di altro tipo. I modelli di licenza e tutte le relative informazioni fornite da Creative Commons sono da considerarsi "così come sono". Creative Commons non presta alcuna garanzia per i suoi modelli di licenza, per qualsiasi materiale concesso in licenza secondo i termini e le condizioni dei modelli di licenza, né per le relative informazioni. Creative Commons si esime nei più ampi limiti possibili da ogni responsabilità per i danni derivanti dall'utilizzo degli stessi.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Utilizzare le Licenze Pubbliche Creative Commons
-       </h4>
-       <p class="has-text-black body-big">
-        Le licenze pubbliche Creative Commons forniscono un modello di termini e condizioni che i creatori e altri detentori dei diritti possono utilizzare per condividere opere dell'ingegno originali ed altri materiali oggetto di diritti d'autore e di altri diritti specificati dalla licenza pubblica di seguito. Le seguenti considerazioni hanno una finalità esclusivamente informativa, non sono esaustive e non costituiscono parte delle nostre licenze.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Considerazioni per i licenzianti
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Le nostre licenze pubbliche sono destinate all'uso da parte di coloro che sono autorizzati a dare al pubblico il permesso di utilizzare il materiale secondo modalità altrimenti limitate dal diritto d'autore e da altri diritti. Le nostre licenze sono irrevocabili. I licenzianti devono leggere e comprendere i termini e le condizioni della licenza che scelgono prima di utilizzarla. I licenzianti devono inoltre assicurarsi di detenere tutti i diritti necessari prima di utilizzare le nostre licenze in modo che il pubblico possa riutilizzare il materiale come previsto. I licenzianti devono contrassegnare in maniera chiara tutti i materiali che non sono soggetti alla licenza. Questo include altri materiali rilasciati con licenza Creative Commons oppure materiali utilizzati in forza di eccezioni o limitazioni al diritto d'autore.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Ulteriori considerazioni per i licenzianti.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Considerazioni per il pubblico
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Utilizzando una delle nostre licenze pubbliche, il licenziante concede al pubblico il permesso di utilizzare il materiale oggetto della licenza secondo determinati termini e condizioni. Se l'autorizzazione del licenziante non è necessaria per una qualsiasi ragione - ad esempio nei casi in cui trovano applicazione eccezioni o limitazioni al diritto d'autore - in quel caso l'utilizzo del materiale non è regolato dalla licenza. Le nostre licenze concedono unicamente quelle autorizzazioni relative al diritto d'autore e certi altri diritti che un licenziante ha facoltà di concedere. L'utilizzo del materiale rilasciato potrebbe essere limitato per altri motivi, inclusi i casi in cui terze parti detengano diritti d'autore o altri diritti sul materiale. Un licenziante può avanzare richieste specifiche, come ad esempio chiedere che ogni modifica al materiale venga contrassegnata o descritta. Sebbene non sia richiesto dalle nostre licenze, sei incoraggiato a rispettare queste richieste, ove ragionevole.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Ulteriori considerazioni per il pubblico.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Attribuzione-NonCommerciale 4.0 Internazionale
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Con l'esercizio di uno qualunque dei Diritti Concessi in Licenza (sotto definiti), Tu accetti e Ti obblighi a rispettare integralmente i termini e le condizioni della presente Licenza Pubblica Creative Commons Attribuzione-NonCommerciale 4.0 Internazionale ("Licenza Pubblica"). Laddove la presente Licenza Pubblica possa essere qualificata come un contratto, Ti sono attribuiti i Diritti Concessi in Licenza a fronte della Tua accettazione di questi termini e condizioni, e il Licenziante Ti attribuisce tali diritti a fronte dei benefici che egli riceve rendendo il Materiale Concesso in Licenza disponibile secondo questi termini e condizioni.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           Articolo 1 – Definizioni.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Materiale Elaborato
-            </span>
-            significa materiale oggetto di Diritti d'Autore e Simili, che derivi o sia basato sul Materiale Concesso in Licenza nel quale il Materiale Concesso in Licenza sia tradotto, alterato, arrangiato, trasformato o altrimenti modificato, in una maniera che richieda il permesso ai sensi dei Diritti d'Autore e Simili detenuti dal Licenziante. Ai fini della presente Licenza Pubblica, laddove il Materiale Concesso in Licenza sia una composizione musicale, un'esecuzione musicale o una registrazione di suoni, la sincronizzazione del Materiale Concesso in Licenza con un'immagine in movimento costituisce sempre Materiale Elaborato.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licenza dell'Elaboratore
-            </span>
-            significa la licenza che Tu concedi per i tuoi Diritti d'Autore e Simili sui Tuoi contributi al Materiale Elaborato, conformemente ai termini e alle condizioni della presente Licenza Pubblica.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Diritti d'Autore e Simili
-            </span>
-            significa diritti d'autore e/o diritti simili strettamente connessi al diritto d'autore, inclusi, fra gli altri, l'esecuzione, la diffusione, la registrazione di suoni e il Diritto Sui Generis sulle Banche Dati, comunque denominati o classificati. Ai fini della presente Licenza Pubblica, i diritti specificati all'interno degli Artt.
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            non sono Diritti d'Autore e Simili.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Misure Tecnologiche Efficaci
-            </span>
-            significa quelle misure che, in assenza di una specifica autorizzazione, non possono essere aggirate secondo le norme che recepiscono gli obblighi previsti dall'art. 11 del Trattato OMPI sul diritto d'autore adottato il 20 dicembre 1996 e/o simili accordi internazionali.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Eccezioni e Limitazioni
-            </span>
-            significa qualunque eccezione e/o limitazione ai Diritti D'Autore e Simili, inclusi "fair use" e "fair dealing", che si applichi al Tuo utilizzo del Materiale Concesso in Licenza.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Materiale Concesso in Licenza
-            </span>
-            significa qualsiasi opera artistica o letteraria, banca dati, o altro materiale al quale il Licenziante abbia applicato la presente Licenza Pubblica.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Diritti Concessi in Licenza
-            </span>
-            significa tutti i diritti che sono concessi a Te nel rispetto dei termini e delle condizioni della presente Licenza Pubblica, limitatamente ai Diritti d'Autore e Simili che si applicano al Tuo utilizzo del Materiale Concesso in Licenza e che il Licenziante ha facoltà di licenziare.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licenziante
-            </span>
-            significa l'individuo, gli individui, l'ente o gli enti che concede o concedono diritti secondo la presente Licenza Pubblica.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_noncommercial">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             NonCommerciale
-            </span>
-            significa in una maniera tale che non sia prevalentemente intesa o diretta al perseguimento di un vantaggio commerciale o di un compenso monetario. Ai fini della presente Licenza Pubblica, lo scambio del Materiale Concesso in Licenza con altri materiali protetti dal Diritto d'Autore e Simili per mezzo della condivisione digitale di file (c.d. filesharing) o simili modalità è considerato NonCommerciale, a patto che non ci sia pagamento di alcun compenso monetario in connessione allo scambio.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Condividi/Condividere
-            </span>
-            significa fornire materiale al pubblico con ogni mezzo di comunicazione o formato che richieda l'autorizzazione rispetto ai Diritti Concessi in Licenza, come la riproduzione, l'esposizione ed esecuzione in pubblico, la distribuzione, la divulgazione, la comunicazione al pubblico, l'importazione e la messa a disposizione del pubblico del materiale, anche con modalità che consentano di accedere al materiale da un luogo e in un momento scelti individualmente dal pubblico.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Diritto Sui Generis sulle Banche Dati
-            </span>
-            significa quei diritti ulteriori rispetto al diritto d'autore individuati dalla Direttiva 96/9/CE del Parlamento europeo e del Consiglio, dell'11 marzo 1996 e successive modificazioni, relativa alla tutela giuridica delle banche di dati, nonché altri diritti sostanzialmente equivalenti previsti ovunque nel mondo.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Tu
-            </span>
-            significa l'individuo o l'ente che esercita i Diritti Concessi in Licenza secondo la presente Licenza Pubblica.
-            <strong>
-             Te
-            </strong>
-            /
-            <strong>
-             Tuo
-            </strong>
-            /
-            <strong>
-             Tua
-            </strong>
-            /
-            <strong>
-             Tuoi
-            </strong>
-            /
-            <strong>
-             Ti
-            </strong>
-            hanno un significato analogo.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           Articolo 2 – Ambito di Applicazione.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Concessione della Licenza
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             Nel rispetto dei termini e delle condizioni contenute nella presente Licenza Pubblica, il Licenziante concede a Te una licenza per tutto il mondo, gratuita, non sub-licenziabile, non esclusiva e irrevocabile che Ti autorizza ad esercitare i Diritti Concessi in Licenza sul Materiale Concesso in Licenza per:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               riprodurre e Condividere il Materiale Concesso in Licenza, in tutto o in parte, esclusivamente per scopi di tipo NonCommerciale; e
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               produrre, riprodurre e Condividere Materiale Elaborato esclusivamente per scopi di tipo NonCommerciale.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Eccezioni e Limitazioni
-             </strong>
-             . Al fine di evitare dubbi, quando si applicano delle Eccezioni o Limitazioni al Tuo utilizzo, la presente Licenza Pubblica non si applica a Te e Tu non devi rispettarne i termini e le condizioni.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Durata
-             </strong>
-             . La durata della presente Licenza Pubblica è specificata all'interno dell'Art.
-             <a href="#s6a">
-              6(a)
-             </a>
-             .
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Mezzi di comunicazione, supporti e formati; modifiche tecniche consentite
-             </strong>
-             . Il Licenziante Ti autorizza a esercitare i Diritti Concessi in Licenza con ogni mezzo di comunicazione, su ogni supporto e in tutti i formati esistenti e sviluppati in futuro, e ad apportare le modifiche che si rendessero tecnicamente necessarie a tale scopo. Il Licenziante rinuncia o si impegna a non far valere alcun diritto o autorità per proibire a Te di effettuare le modifiche che si rendessero tecnicamente necessarie per l'esercizio dei Diritti Concessi in Licenza, incluse le modifiche tecnicamente necessarie per aggirare Misure Tecnologiche Efficaci. Ai fini della presente Licenza Pubblica, apportare le modifiche autorizzate dal presente Art.
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             non costituisce in alcun caso Materiale Elaborato.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Destinatari a valle
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Offerta dal Licenziante - Materiale Concesso in Licenza
-                </span>
-                . Ogni destinatario del Materiale Concesso in Licenza riceve automaticamente un'offerta dal Licenziante ad esercitare i Diritti Concessi in Licenza secondo i termini e le condizioni della presente Licenza Pubblica.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Divieto di restrizioni a valle
-                </span>
-                . Tu non puoi offrire o imporre termini e condizioni aggiuntive o differenti al, né applicare Misure Tecnologiche Efficaci sul, Materiale Concesso in Licenza che abbiano per effetto di restringere l'esercizio dei Diritti Concessi in Licenza da parte di qualsiasi destinatario del Materiale Concesso in Licenza.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Assenza di avallo
-             </span>
-             . . La presente Licenza Pubblica non concede né può essere interpretata in modo da concedere un'autorizzazione ad affermare o fare intendere che Tu o il Tuo utilizzo del Materiale Concesso in Licenza siate connessi, sponsorizzati, avallati o riconosciuti come ufficiali dal Licenziante o da altre parti designate a vedersi riconosciuta l'attribuzione in accordo con quanto previsto all'interno dell'Art.
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             .
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Altri Diritti
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             I diritti morali, come il diritto all'integrità, non sono oggetto della presente Licenza Pubblica, né lo sono il diritto all'immagine, il diritto alla riservatezza e/o altri simili diritti della personalità; in ogni caso, per quanto possibile, il Licenziante rinuncia o si impegna a non far valere alcuno dei diritti sopraccitati detenuti dal Licenziante, unicamente nei limiti della misura che sia indispensabile per consentire a Te di esercitare i Diritti Concessi in Licenza.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             I diritti su brevetti e marchi non sono oggetto della presente Licenza Pubblica.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Per quanto possibile, il Licenziante rinuncia al diritto esclusivo di riscuotere da Te i compensi per l'esercizio dei Diritti Concessi in Licenza, personalmente o per tramite di un ente di gestione collettiva, relativi a qualsiasi sistema di licenza volontario o rinunciabile per legge o obbligatorio. In tutti gli altri casi, il Licenziante si riserva espressamente il diritto esclusivo a riscuotere tali compensi, incluso il caso in cui il Materiale Concesso in Licenza sia utilizzato per scopi diversi da quelli di tipo NonCommerciale.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           Articolo 3 – Condizioni della Licenza.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Il Tuo esercizio dei Diritti Concessi in Licenza è espressamente soggetto alle seguenti condizioni.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Attribuzione
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              Se Tu Condividi il Materiale Concesso in Licenza (anche in forma modificata), Tu sei tenuto a:
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               riportare, se fornito dal Licenziante assieme al Materiale Concesso in Licenza, ciò che segue:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 l'identificazione del creatore o dei creatori del Materiale Concesso in Licenza e delle terze parti designate a ricevere l'attribuzione, in qualsiasi maniera ragionevole che sia richiesta dal Licenziante (incluso lo pseudonimo, se designato);
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 l'informativa sul diritto d'autore;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 l'informativa che si riferisce alla presente Licenza Pubblica;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 l'informativa contenente esclusioni o limitazioni di responsabilità;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 l'Uniform Resource Identifier (URI) o il collegamento ipertestuale alla presente Licenza Pubblica nella misura in cui sia ragionevolmente possibile;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               indicare se Tu hai modificato il Materiale Concesso in Licenza e, nel caso, conservare un'indicazione di ogni modifica precedente; e
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               indicare che il Materiale Concesso in Licenza è rilasciato secondo i termini e le condizioni della presente Licenza Pubblica, e includere il testo della, oppure l'URI o il collegamento ipertestuale alla, presente Licenza Pubblica.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Tu puoi adempiere alle condizioni dell'Art.
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             in qualsiasi maniera ragionevole, rispetto al mezzo di comunicazione, al supporto, agli strumenti e al contesto all'interno del quale Tu Condividi il Materiale Concesso in Licenza. Ad esempio, può essere ragionevole soddisfare le condizioni fornendo l'URI o il collegamento ipertestuale a una risorsa che includa le informazioni richieste.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a3">
-             Su richiesta del Licenziante, nella misura in cui ciò sia ragionevolmente praticabile, Tu devi rimuovere ognuna delle informazioni richieste dall'Art.
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             .
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a4">
-             Se Tu Condividi Materiale Elaborato da Te prodotto, la Licenza dell'Elaboratore da Te applicata non deve impedire ai destinatari del Materiale Elaborato di adempiere ai termini e alle condizioni della presente Licenza Pubblica.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           Articolo 4 – Diritto Sui Generis sulle Banche Dati.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Laddove i Diritti Concessi in Licenza dovessero includere il Diritto Sui Generis sulle Banche Dati che si applichi al Tuo utilizzo del Materiale Concesso in Licenza:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           al fine di evitare dubbi, l'Art.
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           Ti concede il diritto di estrarre, riutilizzare, riprodurre e Condividere tutti i contenuti della banca dati o una loro parte sostanziale esclusivamente per scopi di tipo NonCommerciale;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           se Tu estrai tutti i contenuti della banca dati o una loro parte sostanziale e li incorpori in una banca dati sulla quale Tu detieni il Diritto Sui Generis sulle Banche Dati, allora la banca dati sulla quale Tu detieni il Diritto Sui Generis sulle Banche Dati (ma non i suoi singoli contenuti) costituisce Materiale Elaborato; e
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Tu devi adempiere le condizioni dell'Art.
-           <a href="#s3a">
-            3(a)
-           </a>
-           se Tu Condividi tutti i contenuti della banca dati o una loro parte sostanziale.
-          </li>
-         </ol>
-         <span class="body-big">
-          Al fine di evitare dubbi, il presente Art.
-          <a href="#s4">
-           4
-          </a>
-          si aggiunge ai, e non sostituisce i, Tuoi obblighi ai sensi della presente Licenza Pubblica, laddove i Diritti Concessi in Licenza dovessero includere Diritti d'Autore e Simili.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           Articolo 5 – Esclusione di Garanzie e Limitazione di Responsabilità.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Laddove il Licenziante non si sia separatamente impegnato altrimenti, per quanto possibile il Licenziante offre il Materiale Concesso in Licenza "così com'è" e "come disponibile", e non fornisce alcuna dichiarazione o garanzia di qualsiasi tipo con riguardo al Materiale Concesso in Licenza, sia essa espressa o implicita, di fonte legale o di altro tipo. Questo comprende, tra le altre, le garanzie relative al titolo, alla commerciabilità, all'idoneità per un fine specifico, alla non violazione di diritti di terzi, alla mancanza di difetti latenti o di altro tipo, all'esattezza o alla presenza o assenza di errori, siano o meno conosciuti o conoscibili. Laddove l'esclusione di garanzie non sia consentita in tutto o in parte, questa esclusione può non essere applicabile a Te.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Per quanto possibile, il Licenziante non sarà in alcun caso responsabile nei Tuoi confronti ad alcun titolo (incluso, tra gli altri, la negligenza) o altrimenti per qualunque danno diretto, speciale, indiretto, incidentale, consequenziale, punitivo, esemplare, o altra perdita, costo, spesa o danno derivante dalla presente Licenza Pubblica o dall'utilizzo del Materiale Concesso in Licenza, anche nel caso in cui il Licenziante sia stato edotto sulla possibilità di tali perdite, costi, spese o danni. Laddove una limitazione di responsabilità non sia consentita in tutto o in parte, questa limitazione può non essere applicabile a Te.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           L'esclusione di garanzie e la limitazione di responsabilità di cui sopra deve essere interpretata in maniera che, nei limiti consentiti dalla legge applicabile, possa avvicinarsi quanto più possibile ad una esclusione totale e a uno scarico di ogni responsabilità.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           Articolo 6 – Durata e Risoluzione.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           La presente Licenza Pubblica è valida per tutta la durata dei Diritti d'Autore e Simili oggetto della presente Licenza Pubblica. Tuttavia, in caso di Tuo mancato adempimento dei termini e delle condizioni della presente Licenza Pubblica, i diritti che Ti sono concessi dalla presente Licenza Pubblica cesseranno automaticamente.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Quando il Tuo diritto ad utilizzare il Materiale Concesso in Licenza sia cessato secondo quanto previsto dall'Art. 6(a), tale diritto è reintegrato:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             automaticamente a partire dal momento in cui il mancato adempimento è sanato, purché ciò si verifichi entro trenta giorni dal momento in cui Tu sei venuto a conoscenza del mancato adempimento; oppure
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             su espressa reintegrazione da parte del Licenziante.
-            </li>
-           </ol>
-           Al fine di evitare dubbi, il presente Art.
-           <a href="#s6b">
-            6(b)
-           </a>
-           non pregiudica alcun diritto di cui il Licenziante sia titolare al fine di ottenere rimedi a fronte della violazione da parte Tua della presente Licenza Pubblica.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Al fine di evitare dubbi, il Licenziante si riserva il diritto di rilasciare il Materiale Concesso in Licenza sulla base di termini e condizioni separati da quelli della presente Licenza Pubblica o di cessare la distribuzione del Materiale Concesso in Licenza in qualsiasi momento; in ogni caso, tali decisioni non comporteranno la risoluzione della presente Licenza Pubblica.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           Gli Artt.
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           e
-           <a href="#s8">
-            8
-           </a>
-           rimangono validi in caso di risoluzione della presente Licenza.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           Articolo 7 – Altri Termini e Condizioni.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Il Licenziante non sarà vincolato ad alcun altro termine o condizione aggiuntivo o differente che provenga da Te, salvo che ciò venga espressamente consentito.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Ogni intesa, patto o accordo aggiuntivo riguardo al Materiale Concesso in Licenza non contenuto nella presente è da considerarsi separato ed indipendente dai termini e dalle condizioni della presente Licenza Pubblica.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           Articolo 8 – Interpretazione.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Al fine di evitare dubbi, la presente Licenza Pubblica non intende, né deve essere interpretata in modo da ridurre, limitare, restringere o condizionare alcun utilizzo del Materiale Concesso in Licenza che sia lecito anche in assenza di autorizzazione ai sensi della presente Licenza Pubblica.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Nei limiti consentiti dalla legge applicabile, qualora una o più disposizioni della presente Licenza Pubblica siano giudicate invalide o inefficaci, saranno da intendersi rettificate nei limiti della misura che sia indispensabile per renderle valide ed efficaci. Se una o più disposizioni non possono essere rettificate, dovranno essere eliminate dalla presente Licenza Pubblica senza comportare l'invalidità o l'inefficacia dei restanti termini e condizioni.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           In nessun caso i termini e le condizioni di cui alla presente Licenza Pubblica possono essere rinunciati né alcun mancato adempimento può essere consentito, salvo che tale rinuncia o consenso venga espressamente autorizzato dal Licenziante.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Nessuna parte della presente Licenza Pubblica può in alcun modo costituire o essere interpretata come una limitazione o una rinuncia a qualsiasi privilegio o immunità che possa applicarsi al Licenziante o a Te, inclusi quelli derivanti dai procedimenti giudiziari di qualsivoglia giurisdizione o autorità.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons non è una delle parti rispetto alle sue licenze pubbliche. Ciò nonostante, Creative Commons può decidere di applicare una delle sue licenze pubbliche a materiale di sua pubblicazione, nel qual caso sarà considerata, relativamente ad esso, il "Licenziante". Il testo delle licenze pubbliche Creative Commons è dedicato al pubblico dominio secondo i termini della
-        <a href="/publicdomain/zero/1.0/legalcode.it">
-         Donazione al Pubblico Dominio CC0
-        </a>
-        . Salvo che per il solo scopo di indicare che il materiale è rilasciato secondo i termini e le condizioni di una licenza pubblica Creative Commons o come altrimenti consentito dalle policy di Creative Commons consultabili all'indirizzo
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons non autorizza l'utilizzo del marchio "Creative Commons" o di qualsiasi altro marchio o logo di Creative Commons senza il suo preventivo consenso scritto, incluso, fra gli altri, quello in connessione con qualsiasi modifica non autorizzata alle sue licenze pubbliche o con qualsiasi altra intesa, patto o accordo circa l'utilizzo del materiale concesso in licenza. Al fine di evitare dubbi, è inteso che questo paragrafo non fa parte delle licenze pubbliche.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons può essere contattata al sito
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.it">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Versione 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Utilizzare le Licenze Pubbliche Creative Commons
+     </h2>
+     <p>
+      Le licenze pubbliche Creative Commons forniscono un modello di termini e condizioni che i creatori e altri detentori dei diritti possono utilizzare per condividere opere dell'ingegno originali ed altri materiali oggetto di diritti d'autore e di altri diritti specificati dalla licenza pubblica di seguito. Le seguenti considerazioni hanno una finalità esclusivamente informativa, non sono esaustive e non costituiscono parte delle nostre licenze.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Considerazioni per i licenzianti
+     </h3>
+     <p>
+      Le nostre licenze pubbliche sono destinate all'uso da parte di coloro che sono autorizzati a dare al pubblico il permesso di utilizzare il materiale secondo modalità altrimenti limitate dal diritto d'autore e da altri diritti. Le nostre licenze sono irrevocabili. I licenzianti devono leggere e comprendere i termini e le condizioni della licenza che scelgono prima di utilizzarla. I licenzianti devono inoltre assicurarsi di detenere tutti i diritti necessari prima di utilizzare le nostre licenze in modo che il pubblico possa riutilizzare il materiale come previsto. I licenzianti devono contrassegnare in maniera chiara tutti i materiali che non sono soggetti alla licenza. Questo include altri materiali rilasciati con licenza Creative Commons oppure materiali utilizzati in forza di eccezioni o limitazioni al diritto d'autore.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Ulteriori considerazioni per i licenzianti.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Considerazioni per il pubblico
+     </h3>
+     <p>
+      Utilizzando una delle nostre licenze pubbliche, il licenziante concede al pubblico il permesso di utilizzare il materiale oggetto della licenza secondo determinati termini e condizioni. Se l'autorizzazione del licenziante non è necessaria per una qualsiasi ragione - ad esempio nei casi in cui trovano applicazione eccezioni o limitazioni al diritto d'autore - in quel caso l'utilizzo del materiale non è regolato dalla licenza. Le nostre licenze concedono unicamente quelle autorizzazioni relative al diritto d'autore e certi altri diritti che un licenziante ha facoltà di concedere. L'utilizzo del materiale rilasciato potrebbe essere limitato per altri motivi, inclusi i casi in cui terze parti detengano diritti d'autore o altri diritti sul materiale. Un licenziante può avanzare richieste specifiche, come ad esempio chiedere che ogni modifica al materiale venga contrassegnata o descritta. Sebbene non sia richiesto dalle nostre licenze, sei incoraggiato a rispettare queste richieste, ove ragionevole.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Ulteriori considerazioni per il pubblico.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Attribuzione-NonCommerciale 4.0 Internazionale
+     </h2>
+     <p>
+      Con l'esercizio di uno qualunque dei Diritti Concessi in Licenza (sotto definiti), Tu accetti e Ti obblighi a rispettare integralmente i termini e le condizioni della presente Licenza Pubblica Creative Commons Attribuzione-NonCommerciale 4.0 Internazionale ("Licenza Pubblica"). Laddove la presente Licenza Pubblica possa essere qualificata come un contratto, Ti sono attribuiti i Diritti Concessi in Licenza a fronte della Tua accettazione di questi termini e condizioni, e il Licenziante Ti attribuisce tali diritti a fronte dei benefici che egli riceve rendendo il Materiale Concesso in Licenza disponibile secondo questi termini e condizioni.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      Articolo 1 – Definizioni.
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Materiale Elaborato
+       </span>
+       significa materiale oggetto di Diritti d'Autore e Simili, che derivi o sia basato sul Materiale Concesso in Licenza nel quale il Materiale Concesso in Licenza sia tradotto, alterato, arrangiato, trasformato o altrimenti modificato, in una maniera che richieda il permesso ai sensi dei Diritti d'Autore e Simili detenuti dal Licenziante. Ai fini della presente Licenza Pubblica, laddove il Materiale Concesso in Licenza sia una composizione musicale, un'esecuzione musicale o una registrazione di suoni, la sincronizzazione del Materiale Concesso in Licenza con un'immagine in movimento costituisce sempre Materiale Elaborato.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Licenza dell'Elaboratore
+       </span>
+       significa la licenza che Tu concedi per i tuoi Diritti d'Autore e Simili sui Tuoi contributi al Materiale Elaborato, conformemente ai termini e alle condizioni della presente Licenza Pubblica.
+      </li>
+      <li id="s1c_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Diritti d'Autore e Simili
+       </span>
+       significa diritti d'autore e/o diritti simili strettamente connessi al diritto d'autore, inclusi, fra gli altri, l'esecuzione, la diffusione, la registrazione di suoni e il Diritto Sui Generis sulle Banche Dati, comunque denominati o classificati. Ai fini della presente Licenza Pubblica, i diritti specificati all'interno degli Artt.
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       non sono Diritti d'Autore e Simili.
+      </li>
+      <li id="s1d_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Misure Tecnologiche Efficaci
+       </span>
+       significa quelle misure che, in assenza di una specifica autorizzazione, non possono essere aggirate secondo le norme che recepiscono gli obblighi previsti dall'art. 11 del Trattato OMPI sul diritto d'autore adottato il 20 dicembre 1996 e/o simili accordi internazionali.
+      </li>
+      <li id="s1e_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Eccezioni e Limitazioni
+       </span>
+       significa qualunque eccezione e/o limitazione ai Diritti D'Autore e Simili, inclusi "fair use" e "fair dealing", che si applichi al Tuo utilizzo del Materiale Concesso in Licenza.
+      </li>
+      <li id="s1f_licensed_material">
+       <span style="text-decoration: underline;">
+        Materiale Concesso in Licenza
+       </span>
+       significa qualsiasi opera artistica o letteraria, banca dati, o altro materiale al quale il Licenziante abbia applicato la presente Licenza Pubblica.
+      </li>
+      <li id="s1g_licensed_rights">
+       <span style="text-decoration: underline;">
+        Diritti Concessi in Licenza
+       </span>
+       significa tutti i diritti che sono concessi a Te nel rispetto dei termini e delle condizioni della presente Licenza Pubblica, limitatamente ai Diritti d'Autore e Simili che si applicano al Tuo utilizzo del Materiale Concesso in Licenza e che il Licenziante ha facoltà di licenziare.
+      </li>
+      <li id="s1h_licensor">
+       <span style="text-decoration: underline;">
+        Licenziante
+       </span>
+       significa l'individuo, gli individui, l'ente o gli enti che concede o concedono diritti secondo la presente Licenza Pubblica.
+      </li>
+      <li id="s1i_noncommercial">
+       <span style="text-decoration: underline;">
+        NonCommerciale
+       </span>
+       significa in una maniera tale che non sia prevalentemente intesa o diretta al perseguimento di un vantaggio commerciale o di un compenso monetario. Ai fini della presente Licenza Pubblica, lo scambio del Materiale Concesso in Licenza con altri materiali protetti dal Diritto d'Autore e Simili per mezzo della condivisione digitale di file (c.d. filesharing) o simili modalità è considerato NonCommerciale, a patto che non ci sia pagamento di alcun compenso monetario in connessione allo scambio.
+      </li>
+      <li id="s1j_share">
+       <span style="text-decoration: underline;">
+        Condividi/Condividere
+       </span>
+       significa fornire materiale al pubblico con ogni mezzo di comunicazione o formato che richieda l'autorizzazione rispetto ai Diritti Concessi in Licenza, come la riproduzione, l'esposizione ed esecuzione in pubblico, la distribuzione, la divulgazione, la comunicazione al pubblico, l'importazione e la messa a disposizione del pubblico del materiale, anche con modalità che consentano di accedere al materiale da un luogo e in un momento scelti individualmente dal pubblico.
+      </li>
+      <li id="s1k_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Diritto Sui Generis sulle Banche Dati
+       </span>
+       significa quei diritti ulteriori rispetto al diritto d'autore individuati dalla Direttiva 96/9/CE del Parlamento europeo e del Consiglio, dell'11 marzo 1996 e successive modificazioni, relativa alla tutela giuridica delle banche di dati, nonché altri diritti sostanzialmente equivalenti previsti ovunque nel mondo.
+      </li>
+      <li id="s1l_you">
+       <span style="text-decoration: underline;">
+        Tu
+       </span>
+       significa l'individuo o l'ente che esercita i Diritti Concessi in Licenza secondo la presente Licenza Pubblica.
+       <strong>
+        Te
+       </strong>
+       /
+       <strong>
+        Tuo
+       </strong>
+       /
+       <strong>
+        Tua
+       </strong>
+       /
+       <strong>
+        Tuoi
+       </strong>
+       /
+       <strong>
+        Ti
+       </strong>
+       hanno un significato analogo.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      Articolo 2 – Ambito di Applicazione.
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Concessione della Licenza
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         Nel rispetto dei termini e delle condizioni contenute nella presente Licenza Pubblica, il Licenziante concede a Te una licenza per tutto il mondo, gratuita, non sub-licenziabile, non esclusiva e irrevocabile che Ti autorizza ad esercitare i Diritti Concessi in Licenza sul Materiale Concesso in Licenza per:
+         <ol type="A">
+          <li id="s2a1A">
+           riprodurre e Condividere il Materiale Concesso in Licenza, in tutto o in parte, esclusivamente per scopi di tipo NonCommerciale; e
+          </li>
+          <li id="s2a1B">
+           produrre, riprodurre e Condividere Materiale Elaborato esclusivamente per scopi di tipo NonCommerciale.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Eccezioni e Limitazioni
+         </strong>
+         . Al fine di evitare dubbi, quando si applicano delle Eccezioni o Limitazioni al Tuo utilizzo, la presente Licenza Pubblica non si applica a Te e Tu non devi rispettarne i termini e le condizioni.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Durata
+         </strong>
+         . La durata della presente Licenza Pubblica è specificata all'interno dell'Art.
+         <a href="#s6a">
+          6(a)
+         </a>
+         .
+        </li>
+        <li id="s2a4">
+         <strong>
+          Mezzi di comunicazione, supporti e formati; modifiche tecniche consentite
+         </strong>
+         . Il Licenziante Ti autorizza a esercitare i Diritti Concessi in Licenza con ogni mezzo di comunicazione, su ogni supporto e in tutti i formati esistenti e sviluppati in futuro, e ad apportare le modifiche che si rendessero tecnicamente necessarie a tale scopo. Il Licenziante rinuncia o si impegna a non far valere alcun diritto o autorità per proibire a Te di effettuare le modifiche che si rendessero tecnicamente necessarie per l'esercizio dei Diritti Concessi in Licenza, incluse le modifiche tecnicamente necessarie per aggirare Misure Tecnologiche Efficaci. Ai fini della presente Licenza Pubblica, apportare le modifiche autorizzate dal presente Art.
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         non costituisce in alcun caso Materiale Elaborato.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Destinatari a valle
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Offerta dal Licenziante - Materiale Concesso in Licenza
+           </span>
+           . Ogni destinatario del Materiale Concesso in Licenza riceve automaticamente un'offerta dal Licenziante ad esercitare i Diritti Concessi in Licenza secondo i termini e le condizioni della presente Licenza Pubblica.
+          </li>
+          <li id="s2a5B_no_restrictions">
+           <span style="text-decoration: underline;">
+            Divieto di restrizioni a valle
+           </span>
+           . Tu non puoi offrire o imporre termini e condizioni aggiuntive o differenti al, né applicare Misure Tecnologiche Efficaci sul, Materiale Concesso in Licenza che abbiano per effetto di restringere l'esercizio dei Diritti Concessi in Licenza da parte di qualsiasi destinatario del Materiale Concesso in Licenza.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Assenza di avallo
+         </span>
+         . La presente Licenza Pubblica non concede né può essere interpretata in modo da concedere un'autorizzazione ad affermare o fare intendere che Tu o il Tuo utilizzo del Materiale Concesso in Licenza siate connessi, sponsorizzati, avallati o riconosciuti come ufficiali dal Licenziante o da altre parti designate a vedersi riconosciuta l'attribuzione in accordo con quanto previsto all'interno dell'Art.
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         .
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Altri Diritti
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         I diritti morali, come il diritto all'integrità, non sono oggetto della presente Licenza Pubblica, né lo sono il diritto all'immagine, il diritto alla riservatezza e/o altri simili diritti della personalità; in ogni caso, per quanto possibile, il Licenziante rinuncia o si impegna a non far valere alcuno dei diritti sopraccitati detenuti dal Licenziante, unicamente nei limiti della misura che sia indispensabile per consentire a Te di esercitare i Diritti Concessi in Licenza.
+        </li>
+        <li id="s2b2">
+         I diritti su brevetti e marchi non sono oggetto della presente Licenza Pubblica.
+        </li>
+        <li id="s2b3">
+         Per quanto possibile, il Licenziante rinuncia al diritto esclusivo di riscuotere da Te i compensi per l'esercizio dei Diritti Concessi in Licenza, personalmente o per tramite di un ente di gestione collettiva, relativi a qualsiasi sistema di licenza volontario o rinunciabile per legge o obbligatorio. In tutti gli altri casi, il Licenziante si riserva espressamente il diritto esclusivo a riscuotere tali compensi, incluso il caso in cui il Materiale Concesso in Licenza sia utilizzato per scopi diversi da quelli di tipo NonCommerciale.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      Articolo 3 – Condizioni della Licenza.
+     </h3>
+     <p>
+      Il Tuo esercizio dei Diritti Concessi in Licenza è espressamente soggetto alle seguenti condizioni.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Attribuzione
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          Se Tu Condividi il Materiale Concesso in Licenza (anche in forma modificata), Tu sei tenuto a:
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           riportare, se fornito dal Licenziante assieme al Materiale Concesso in Licenza, ciò che segue:
+           <ol type="i">
+            <li id="s3a1Ai">
+             l'identificazione del creatore o dei creatori del Materiale Concesso in Licenza e delle terze parti designate a ricevere l'attribuzione, in qualsiasi maniera ragionevole che sia richiesta dal Licenziante (incluso lo pseudonimo, se designato);
+            </li>
+            <li id="s3a1Aii">
+             l'informativa sul diritto d'autore;
+            </li>
+            <li id="s3a1Aiii">
+             l'informativa che si riferisce alla presente Licenza Pubblica;
+            </li>
+            <li id="s3a1Aiv">
+             l'informativa contenente esclusioni o limitazioni di responsabilità;
+            </li>
+            <li id="s3a1Av">
+             l'Uniform Resource Identifier (URI) o il collegamento ipertestuale alla presente Licenza Pubblica nella misura in cui sia ragionevolmente possibile;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           indicare se Tu hai modificato il Materiale Concesso in Licenza e, nel caso, conservare un'indicazione di ogni modifica precedente; e
+          </li>
+          <li id="s3a1C">
+           indicare che il Materiale Concesso in Licenza è rilasciato secondo i termini e le condizioni della presente Licenza Pubblica, e includere il testo della, oppure l'URI o il collegamento ipertestuale alla, presente Licenza Pubblica.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Tu puoi adempiere alle condizioni dell'Art.
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         in qualsiasi maniera ragionevole, rispetto al mezzo di comunicazione, al supporto, agli strumenti e al contesto all'interno del quale Tu Condividi il Materiale Concesso in Licenza. Ad esempio, può essere ragionevole soddisfare le condizioni fornendo l'URI o il collegamento ipertestuale a una risorsa che includa le informazioni richieste.
+        </li>
+        <li id="s3a3">
+         Su richiesta del Licenziante, nella misura in cui ciò sia ragionevolmente praticabile, Tu devi rimuovere ognuna delle informazioni richieste dall'Art.
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         .
+        </li>
+        <li id="s3a4">
+         Se Tu Condividi Materiale Elaborato da Te prodotto, la Licenza dell'Elaboratore da Te applicata non deve impedire ai destinatari del Materiale Elaborato di adempiere ai termini e alle condizioni della presente Licenza Pubblica.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      Articolo 4 – Diritto Sui Generis sulle Banche Dati.
+     </h3>
+     <p>
+      Laddove i Diritti Concessi in Licenza dovessero includere il Diritto Sui Generis sulle Banche Dati che si applichi al Tuo utilizzo del Materiale Concesso in Licenza:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       al fine di evitare dubbi, l'Art.
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       Ti concede il diritto di estrarre, riutilizzare, riprodurre e Condividere tutti i contenuti della banca dati o una loro parte sostanziale esclusivamente per scopi di tipo NonCommerciale;
+      </li>
+      <li id="s4b">
+       se Tu estrai tutti i contenuti della banca dati o una loro parte sostanziale e li incorpori in una banca dati sulla quale Tu detieni il Diritto Sui Generis sulle Banche Dati, allora la banca dati sulla quale Tu detieni il Diritto Sui Generis sulle Banche Dati (ma non i suoi singoli contenuti) costituisce Materiale Elaborato; e
+      </li>
+      <li id="s4c">
+       Tu devi adempiere le condizioni dell'Art.
+       <a href="#s3a">
+        3(a)
+       </a>
+       se Tu Condividi tutti i contenuti della banca dati o una loro parte sostanziale.
+      </li>
+     </ol>
+     <p>
+      Al fine di evitare dubbi, il presente Art.
+      <a href="#s4">
+       4
+      </a>
+      si aggiunge ai, e non sostituisce i, Tuoi obblighi ai sensi della presente Licenza Pubblica, laddove i Diritti Concessi in Licenza dovessero includere Diritti d'Autore e Simili.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      Articolo 5 – Esclusione di Garanzie e Limitazione di Responsabilità.
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Laddove il Licenziante non si sia separatamente impegnato altrimenti, per quanto possibile il Licenziante offre il Materiale Concesso in Licenza "così com'è" e "come disponibile", e non fornisce alcuna dichiarazione o garanzia di qualsiasi tipo con riguardo al Materiale Concesso in Licenza, sia essa espressa o implicita, di fonte legale o di altro tipo. Questo comprende, tra le altre, le garanzie relative al titolo, alla commerciabilità, all'idoneità per un fine specifico, alla non violazione di diritti di terzi, alla mancanza di difetti latenti o di altro tipo, all'esattezza o alla presenza o assenza di errori, siano o meno conosciuti o conoscibili. Laddove l'esclusione di garanzie non sia consentita in tutto o in parte, questa esclusione può non essere applicabile a Te.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Per quanto possibile, il Licenziante non sarà in alcun caso responsabile nei Tuoi confronti ad alcun titolo (incluso, tra gli altri, la negligenza) o altrimenti per qualunque danno diretto, speciale, indiretto, incidentale, consequenziale, punitivo, esemplare, o altra perdita, costo, spesa o danno derivante dalla presente Licenza Pubblica o dall'utilizzo del Materiale Concesso in Licenza, anche nel caso in cui il Licenziante sia stato edotto sulla possibilità di tali perdite, costi, spese o danni. Laddove una limitazione di responsabilità non sia consentita in tutto o in parte, questa limitazione può non essere applicabile a Te.
+       </strong>
+      </li>
+      <li id="s5c">
+       L'esclusione di garanzie e la limitazione di responsabilità di cui sopra deve essere interpretata in maniera che, nei limiti consentiti dalla legge applicabile, possa avvicinarsi quanto più possibile ad una esclusione totale e a uno scarico di ogni responsabilità.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      Articolo 6 – Durata e Risoluzione.
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       La presente Licenza Pubblica è valida per tutta la durata dei Diritti d'Autore e Simili oggetto della presente Licenza Pubblica. Tuttavia, in caso di Tuo mancato adempimento dei termini e delle condizioni della presente Licenza Pubblica, i diritti che Ti sono concessi dalla presente Licenza Pubblica cesseranno automaticamente.
+      </li>
+      <li id="s6b">
+       <p>
+        Quando il Tuo diritto ad utilizzare il Materiale Concesso in Licenza sia cessato secondo quanto previsto dall'Art. 6(a), tale diritto è reintegrato:
+       </p>
+       <ol>
+        <li id="s6b1">
+         automaticamente a partire dal momento in cui il mancato adempimento è sanato, purché ciò si verifichi entro trenta giorni dal momento in cui Tu sei venuto a conoscenza del mancato adempimento; oppure
+        </li>
+        <li id="s6b2">
+         su espressa reintegrazione da parte del Licenziante.
+        </li>
+       </ol>
+       <p>
+        Al fine di evitare dubbi, il presente Art.
+        <a href="#s6b">
+         6(b)
+        </a>
+        non pregiudica alcun diritto di cui il Licenziante sia titolare al fine di ottenere rimedi a fronte della violazione da parte Tua della presente Licenza Pubblica.
+       </p>
+      </li>
+      <li id="s6c">
+       Al fine di evitare dubbi, il Licenziante si riserva il diritto di rilasciare il Materiale Concesso in Licenza sulla base di termini e condizioni separati da quelli della presente Licenza Pubblica o di cessare la distribuzione del Materiale Concesso in Licenza in qualsiasi momento; in ogni caso, tali decisioni non comporteranno la risoluzione della presente Licenza Pubblica.
+      </li>
+      <li id="s6d">
+       Gli Artt.
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       e
+       <a href="#s8">
+        8
+       </a>
+       rimangono validi in caso di risoluzione della presente Licenza.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      Articolo 7 – Altri Termini e Condizioni.
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Il Licenziante non sarà vincolato ad alcun altro termine o condizione aggiuntivo o differente che provenga da Te, salvo che ciò venga espressamente consentito.
+      </li>
+      <li id="s7b">
+       Ogni intesa, patto o accordo aggiuntivo riguardo al Materiale Concesso in Licenza non contenuto nella presente è da considerarsi separato ed indipendente dai termini e dalle condizioni della presente Licenza Pubblica.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      Articolo 8 – Interpretazione.
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Al fine di evitare dubbi, la presente Licenza Pubblica non intende, né deve essere interpretata in modo da ridurre, limitare, restringere o condizionare alcun utilizzo del Materiale Concesso in Licenza che sia lecito anche in assenza di autorizzazione ai sensi della presente Licenza Pubblica.
+      </li>
+      <li id="s8b">
+       Nei limiti consentiti dalla legge applicabile, qualora una o più disposizioni della presente Licenza Pubblica siano giudicate invalide o inefficaci, saranno da intendersi rettificate nei limiti della misura che sia indispensabile per renderle valide ed efficaci. Se una o più disposizioni non possono essere rettificate, dovranno essere eliminate dalla presente Licenza Pubblica senza comportare l'invalidità o l'inefficacia dei restanti termini e condizioni.
+      </li>
+      <li id="s8c">
+       In nessun caso i termini e le condizioni di cui alla presente Licenza Pubblica possono essere rinunciati né alcun mancato adempimento può essere consentito, salvo che tale rinuncia o consenso venga espressamente autorizzato dal Licenziante.
+      </li>
+      <li id="s8d">
+       Nessuna parte della presente Licenza Pubblica può in alcun modo costituire o essere interpretata come una limitazione o una rinuncia a qualsiasi privilegio o immunità che possa applicarsi al Licenziante o a Te, inclusi quelli derivanti dai procedimenti giudiziari di qualsivoglia giurisdizione o autorità.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons non è una delle parti rispetto alle sue licenze pubbliche. Ciò nonostante, Creative Commons può decidere di applicare una delle sue licenze pubbliche a materiale di sua pubblicazione, nel qual caso sarà considerata, relativamente ad esso, il "Licenziante". Il testo delle licenze pubbliche Creative Commons è dedicato al pubblico dominio secondo i termini della
+      <a href="/publicdomain/zero/1.0/legalcode.it">
+       Donazione al Pubblico Dominio CC0
+      </a>
+      . Salvo che per il solo scopo di indicare che il materiale è rilasciato secondo i termini e le condizioni di una licenza pubblica Creative Commons o come altrimenti consentito dalle policy di Creative Commons consultabili all'indirizzo
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons non autorizza l'utilizzo del marchio "Creative Commons" o di qualsiasi altro marchio o logo di Creative Commons senza il suo preventivo consenso scritto, incluso, fra gli altri, quello in connessione con qualsiasi modifica non autorizzata alle sue licenze pubbliche o con qualsiasi altra intesa, patto o accordo circa l'utilizzo del materiale concesso in licenza. Al fine di evitare dubbi, è inteso che questo paragrafo non fa parte delle licenze pubbliche.
+     </p>
+     <p>
+      Creative Commons può essere contattata al sito
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

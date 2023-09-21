@@ -4,517 +4,581 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Teisinių sąlygų sąvadas — CC0 1.0 Universali — Creative Commons
+   CC0 1.0 Teisinių sąlygų sąvadas | CC0 1.0 Universali
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.lt" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Praleisti, eiti į turinį
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Praleisti, eiti į turinį
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Pradinis
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Viešoji sritis
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.lt">
-        CC0 1.0 Teisinių sąlygų sąvadas
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" selected="" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" selected="" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.lt" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Teisinių sąlygų sąvadas
+    </h1>
+    <h2>
+     CC0 1.0 Universali
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0  Universali
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Pareiškimas dėl Tikslo
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Autorių ir Gretutinės Teisės.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Teisių Atsisakymas.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Viešoji licencija negaliojimo atveju.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Apribojimai ir garantijų išlygos.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Pareiškimas dėl Tikslo
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Autorių ir Gretutinės Teisės.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Teisių Atsisakymas.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Viešoji licencija negaliojimo atveju.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Apribojimai ir garantijų išlygos.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0  Universali
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0  Universali
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation („Creative Commons") nėra teisines paslaugas teikianti įmonė ir neteikia teisinių paslaugų ar konsultacijų. Viešųjų Creative Commons licencijų platinimas nesukuria santykio tarp teisines paslaugas teikiančio asmens ir kliento, nei jokio kito teisinio santykio. Creative Commons savo licencijas ir su jomis susijusią informaciją vartotojams pateikia naudoti tokias, kokios jos yra jų pateikimo metu savo (vartotojų) rizika. Creative Commons neteikia jokių garantijų savo licencijoms, bet kokiems pagal jų sąlygas licencijuojamiems objektams ar bet kuriai susijusiai informacijai. Creative Commons maksimalia įmanoma apimtimi neprisiima atsakomybės dėl žalos ir nuostolių, kylančių dėl jų panaudojimo.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Viešųjų Creative Commons licencijų naudojimas
-       </h4>
-       <p class="has-text-black body-big">
-        Viešosiose Creative Commons licencijose pateikiamas standartinių sąlygų rinkinys, kurį kūrėjai bei kiti teisių turėtojai gali naudoti dalijimuisi originaliais autoriniais darbais bei kitais objektais, kuriems galioja autorinės ir kitos teisės, nurodytos žemiau licencijos tekste. Žemiau išvardintos aplinkybės yra nurodytos informavimo tikslais, nėra išsamios ir nėra mūsų licencijų sudėtine dalimi.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Licenciarams (licencijos davėjams) svarbios aplinkybės
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Mūsų Viešosios licencijos skirtos naudoti tiems asmenims, kurie turi teisę leisti naudoti tam tikrus objektus tokiais būdais, kuriais teisė juos naudoti be tokio leidimo draudžia. Mūsų licencijos neatšaukiamos. Prieš licenciją panaudojant Licenciarams rekomenduojame perskaityti ir suprasti pasirinktos licencijos sąlygas. Licenciarai, prieš panaudodami mūsų licencijas, turi užtikrinti visas reikalingas teises tam, kad visuomenė galėtų naudotis objektais taip, kaip numatyta (tikimasi). Ta pateikiamų objektų dalis, kuriai licencija nėra taikoma, turėtų būti licenciarų aiškiai pažymėta, įskaitant objektus, kurie nėra licencijuojami CC licencijomis bei objektus, kuriems taikomos autorių teisių išimtys ar apribojimai.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Daugiau licenciarams svarbių aplinkybių.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Visuomenei svarbios aplinkybės
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Panaudodamas kurią nors iš mūsų viešai prieinamų licencijų, licenciaras (licencijos davėjas) suteikia viešą leidimą naudoti licencijuojamą objektą pagal aiškiai apibrėžtas sąlygas. Jei dėl bet kokios priežasties licenciaro sutikimas nėra reikalingas – pavyzdžiui, dėl bet kokio taikytino autoriaus teisių apribojimo ar išimties – tokiu atveju atitinkamam naudojimo būdui licencija netaikytina. Mūsų licencijos suteikia tik tokias autorių ir kai kurias kitas teises, kurias suteikti turi teisę licenciaras. Licencijuojamų Objektų naudojimas vis tiek gali būti ribojamas dėl kitų priežasčių, įskaitant ir dėl to, kad kiti asmenys gali turėti autorines ar kitas teises į atitinkamus objektus. Licenciaras gali nustatyti tam tikrus specifinius reikalavimus, pavyzdžiui, kad visi atliekami pakeitimai būtų pažymėti arba aprašyti. Nors mūsų licencijos to nereikalauja, mes skatiname į tokius reikalavimus, kai jie pagrįsti, atsižvelgti.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Daugiau licenciatams (licencijų gavėjams) svarbių aplinkybių.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0  Universali
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          CREATIVE COMMONS CORPORATION NĖRA TEISINES PASLAUGAS TEIKIANTI ĮMONĖ IR NETEIKIA TEISINIŲ PASLAUGŲ AR KONSULTACIJŲ. ŠIO DOKUMENTO PLATINIMAS NESUKURIA SANTYKIO TARP TEISINES PASLAUGAS TEIKIANČIO ASMENS IR KLIENTO. CREATIVE COMMONS ŠIĄ INFORMACIJĄ VARTOTOJAMS PATEIKIA NAUDOTI TOKIĄ, KOKIA JI YRA SAVO (VARTOTOJŲ) RIZIKA. CREATIVE COMMONS NETEIKIA JOKIŲ GARANTIJŲ DĖL ŠIO DOKUMENTO NAUDOJIMO, AR DĖL INFORMACIJOS AR OBJEKTŲ, KURIE PATEIKIAMI PAGAL ŠĮ DOKUMENTĄ, NAUDOJIMO, TAIP PAT NEPRISIIMA ATSAKOMYBĖS DĖL ŽALOS IR NUOSTOLIŲ, GALINČIŲ ATSIRASTI DĖL ŠIO DOKUMENTO PANAUDOJIMO, AR INFORMACIJOS IR OBJEKTŲ, PATEIKIAMŲ PAGAL ŠĮ DOKUMENTĄ, PANAUDOJIMO.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Pareiškimas dėl Tikslo
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Daugelyje pasaulio jurisdikcijų galiojantys teisės aktai kūrėjui ir jo teisių turėtojams (toliau, kartu ar atskirai, vadinami „teisių turėtojais“) automatiškai suteikia išimtines Autorių ir Gretutines Teises (jų apibrėžimai pateikti žemiau) į originalų autorinį darbą ir/ar duomenų bazę (toliau kiekvienas atskirai vadinami „Kūriniu“).
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Kai kurie teisių turėtojai pageidauja visam laikui atsisakyti tokių teisių į Kūrinį tam, kad prisidėtų prie bendros meno, kultūros ir mokslo darbų visumos sukūrimo, kad visuomenės nariai galėtų, patikimai ir be nuogąstavimų dėl galimų pretenzijų dėl teisių pažeidimo, Kūriniais remtis, juos modifikuoti, įtraukti į kitus kūrinius, pakartotinai naudoti ir pakartotinai platinti, kaip tik įmanoma laisvai bet kokia forma ir bet kokiais tikslais, įskaitant ir komercinius. Tokie teisių turėtojai gali prisidėti prie kūrimo tam, kad remtų laisvai prieinamos kultūros idealą ir tolimesnį meno, kultūros ir mokslo darbų kūrimą, arba, per kitų asmenų naudojimąsi ir pastangas, siekti didesnės savo Kūrinio sklaidos ir žinomumo įgijimo. per kitų asmenų naudojimą ir pastangas.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Dėl nurodytų ir/ar kitų tikslų ir motyvų, nesitikėdamas jokio papildomo atlyginimo ar kompensacijų, Kūrinį su CC0 susiejęs asmuo („Pareiškėjas“), tiek, kiek asmuo yra Autorių ir Gretutinių Teisių į Kūrinį turėtojas, laisva valia, būdamas pilnai informuotas apie savo Autorių ir Gretutines Teises į Kūrinį ir CC0 pritaikymo reikšmę bei teisines pasekmes šioms teisėms, pasirinko Kūriniui taikyti CC0 ir viešai platinti Kūrinį pagal CC0 sąlygas.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Autorių ir Gretutinės Teisės.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Pagal CC0 platinamas Kūrinys gali būti saugomas autorių ir gretutinių teisių („Autorių ir Gretutinės Teisės“). Autorių ir Gretutinės Teisės apima, bet neapsiriboja, šias teises:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           teisę atgaminti, adaptuoti, platinti, atlikti, rodyti, skelbti ir išversti Kūrinį;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           neturtinės teisės neperduodamos kitiems asmenims;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           viešumo ir privatumo teises, , susijusias su Kūrinyje naudojamo žmogaus atvaizdu ar panašumu į jį;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           nuo nesąžiningos konkurencijos saugančias teises, kiek tai susiję su Kūriniu, atsižvelgiant į žemiau esančiame skyriuje 4(a) nurodytus apribojimus;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           teises, saugančias Kūrinyje panaudotų duomenų gavimą, platinimą, naudojimą ir pakartotinį naudojimą;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           teises į duomenų bazes (tokias, kaip teisės, kylančios pagal Europos Parlamento ir Tarybos direktyvą 96/9/EB dėl duomenų bazių teisinės apsaugos ir bet kokius ją įgyvendinančius nacionalinius teisės aktus, įskaitant visus šios direktyvos pakeitimus ar vėlesnes versijas); ir
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           kitas panašias, analogiškas ar atitinkamas teises visame pasaulyje, kylančias iš taikytinos teisės ar tarptautinės sutarties, ir bet kokių jas įgyvendinančių nacionalinių teisės aktų.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Teisių Atsisakymas.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Didžiausia taikytinos teisės leidžiama apimtimi, tačiau jai neprieštaraujant, Pareiškėjas atvirai, visa apimtimi, neatšaukiamai ir besąlygiškai atsisako ir nustoja taikyti bei nebereikalauja laikytis visų Pareiškėjo Autorių ir Gretutinių Teisių ir susijusių pretenzijų bei ieškininių reikalavimų, žinomų ar nežinomų (įskaitant egzistuojančias bei ateityje galinčias kilti pretenzijas bei ieškininius reikalavimus) į Kūrinį (i) bet kokiose teritorijose pasaulio mastu, (ii) maksimaliam taikytinos teisės ar tarptautinės sutarties nustatytam laikotarpiui (įskaitant teisių galiojimo pratęsimus ateityje), (iii) bet kokioje egzistuojančioje ar ateityje atsirasiančioje laikmenoje ir bet kokiam kopijų skaičiui, ir (iv) bet kokiems tikslams, įskaitant, bet neapsiribojant, komerciniams, reklamos ar rėmimo (toliau vadinama „Teisių Atsisakymas“). Pareiškėjas Teisių Atsisako kiekvieno plačiosios visuomenės nario naudai ir Pareiškėjo įpėdinių bei teisių perėmėjų nenaudai, visa apimtimi siekdamas, kad toks Teisių Atsisakymas negalėtų būti atšauktas, panaikintas, anuliuotas, nutrauktas ir jokiais teisiniais pagrindais nebūtų reiškiami reikalavimai, nukreipti prieš netrukdomą visuomenės naudojimąsi Kūriniu, kaip tai nustatyta Pareiškėjo tiesioginiame Pareiškime dėl Tikslo.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Viešoji licencija negaliojimo atveju.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Jei dėl bet kokių priežasčių bet kuri Teisių Atsisakymo dalis būtų pripažinta teisiškai negaliojančia ar netaikytina pagal taikytiną teisę, Teisių Atsisakymas išliks galiojančiu maksimalia leistina apimtimi, atsižvelgiant į Pareiškėjo tiesioginį Pareiškimą dėl Tikslo. Be to, tokia apimtimi, kiek Teisių Atsisakymas būtų pripažintas negaliojančiu, Pareiškėjas šiuo suteikia kiekvienam susijusiam asmeniui neatlygintinę, neperleidžiamą, nesublicencijuojamą, neišimtinę, neatšaukiamą ir besąlyginę licenciją įgyvendinti Pareiškėjo Autorių ir Gretutines Teises į Kūrinį (i) bet kokiose teritorijose pasaulio mastu, (ii) maksimaliam taikytinos teisės ar tarptautinės sutarties nustatytam laikotarpiui (įskaitant teisių galiojimo pratęsimus ateityje), (iii) bet kokioje egzistuojančioje ar ateityje atsirasiančioje laikmenoje ir bet kokiam kopijų skaičiui, ir (iv) bet kokiems tikslams, įskaitant, bet neapsiribojant, komerciniams, reklamos ar rėmimo (toliau vadinama „Licencija“). Licencija bus laikoma galiojančia nuo tos dienos, kai Pareiškėjas pritaikė Kūriniui CC0. Jei bet kokia Licencijos dalis dėl bet kokių priežasčių būtų pripažinta teisiškai negaliojančia ar netaikytina pagal taikytiną teisę, toks dalinis negaliojimas ar netaikymas nedaro likusios Licencijos negaliojančia, ir tokiu atveju Pareiškėjas šiuo patvirtina, kad jis (i) neįgyvendins likusių savo Autorių ir Gretutinių Teisių į Kūrinį ir (ii) nereikš jokių susijusių pretenzijų ar ieškinių dėl Kūrinio, prieštaraudamas Pareiškėjo tiesioginiam Pareiškimui dėl Tikslo.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Apribojimai ir garantijų išlygos.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Šiuo dokumentu neatsisakoma, nėra atšaukiamos, nėra perduodamos, nėra licencijuojamos nei niekaip kitaip įtakojamos Pareiškėjo turimos teisės į prekių ženklus ar patentus.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Pareiškėjas siūlo Kūrinį naudoti tokį koks jis yra pačių Vartotojų rizika, neteikdamas jokių garantijų dėl Kūrinio – nei tiesioginių, nei netiesioginių, nustatytų teisės aktuose ir kt., įskaitant, bet neapsiribojant, dėl nuosavybės teisės, paklausumo, tinkamumo naudoti konkrečiam tikslui, pažeidimų, paslėptų ar kitokių trūkumų , tikslumo, klaidų buvimo ar nebuvimo – tiek žinomų ir įmanomų nustatyti, tiek ir nežinomų ir neįmanomų nustatyti, maksimalia taikytinos teisės leidžiama apimtimi.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Pareiškėjas neprisiima atsakomybės dėl kitų asmenų teisių, kurios gali būti taikytinos Kūriniui ar bet kokiam jo panaudojimui, perėmimo, įskaitant, bet neapsiribojant, bet kokių asmenų Autorių ir Gretutinių Teisių į Kūrinį. Taip pat Pareiškėjas neprisiima atsakomybės dėl bet kokių sutikimų, leidimų ar kitų teisių, reikalingų bet kokiam Kūrinio panaudojimui, gavimo.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Pareiškėjas supranta ir patvirtina, kad Creative Commons nėra šio dokumento šalimi ir neturi jokios pareigos ar prievolės, susijusios su šiuo CC0 taikymu ar Kūrinio panaudojimu.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons nėra savo Viešųjų licencijų šalimi. Tačiau Creative Commons gali pasirinkti taikyti kurią nors iš savo Viešųjų licencijų savo skelbiamiems objektams, ir tokiu atveju Creative Commons bus laikoma „Licenciaru". Išskyrus ribotą tikslą – nurodyti visuomenei, kad objektas yra licencijuojamas Creative Commons Viešąja licencija ar kitu Creative Commons veiklos strategijoje nustatytu būdu, skelbiamu
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons draudžia naudoti prekių ženklą „Creative Commons" ar bet kokį kitą Creative Commons prekių ženklą ar logotipą be išankstinio Creative Commons rašytinio sutikimo, įskaitant, tačiau neapsiribojant, susietą su bet kokiais Viešųjų licencijų pakeitimais, kuriems nėra duotas sutikimas, ir bet kokiems kitiems susižinojimams, susitarimams ar sutartims dėl licencijuojamų objektų naudojimo. Aiškumo sumetimais, ši pastraipa nėra Viešosios licencijos dalis.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Su Creative Commons galite susisiekti adresu
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.lt">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Viešųjų Creative Commons licencijų naudojimas
+     </h2>
+     <p>
+      Viešosiose Creative Commons licencijose pateikiamas standartinių sąlygų rinkinys, kurį kūrėjai bei kiti teisių turėtojai gali naudoti dalijimuisi originaliais autoriniais darbais bei kitais objektais, kuriems galioja autorinės ir kitos teisės, nurodytos žemiau licencijos tekste. Žemiau išvardintos aplinkybės yra nurodytos informavimo tikslais, nėra išsamios ir nėra mūsų licencijų sudėtine dalimi.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Licenciarams (licencijos davėjams) svarbios aplinkybės
+     </h3>
+     <p>
+      Mūsų Viešosios licencijos skirtos naudoti tiems asmenims, kurie turi teisę leisti naudoti tam tikrus objektus tokiais būdais, kuriais teisė juos naudoti be tokio leidimo draudžia. Mūsų licencijos neatšaukiamos. Prieš licenciją panaudojant Licenciarams rekomenduojame perskaityti ir suprasti pasirinktos licencijos sąlygas. Licenciarai, prieš panaudodami mūsų licencijas, turi užtikrinti visas reikalingas teises tam, kad visuomenė galėtų naudotis objektais taip, kaip numatyta (tikimasi). Ta pateikiamų objektų dalis, kuriai licencija nėra taikoma, turėtų būti licenciarų aiškiai pažymėta, įskaitant objektus, kurie nėra licencijuojami CC licencijomis bei objektus, kuriems taikomos autorių teisių išimtys ar apribojimai.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Daugiau licenciarams svarbių aplinkybių.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Visuomenei svarbios aplinkybės
+     </h3>
+     <p>
+      Panaudodamas kurią nors iš mūsų viešai prieinamų licencijų, licenciaras (licencijos davėjas) suteikia viešą leidimą naudoti licencijuojamą objektą pagal aiškiai apibrėžtas sąlygas. Jei dėl bet kokios priežasties licenciaro sutikimas nėra reikalingas – pavyzdžiui, dėl bet kokio taikytino autoriaus teisių apribojimo ar išimties – tokiu atveju atitinkamam naudojimo būdui licencija netaikytina. Mūsų licencijos suteikia tik tokias autorių ir kai kurias kitas teises, kurias suteikti turi teisę licenciaras. Licencijuojamų Objektų naudojimas vis tiek gali būti ribojamas dėl kitų priežasčių, įskaitant ir dėl to, kad kiti asmenys gali turėti autorines ar kitas teises į atitinkamus objektus. Licenciaras gali nustatyti tam tikrus specifinius reikalavimus, pavyzdžiui, kad visi atliekami pakeitimai būtų pažymėti arba aprašyti. Nors mūsų licencijos to nereikalauja, mes skatiname į tokius reikalavimus, kai jie pagrįsti, atsižvelgti.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Daugiau licenciatams (licencijų gavėjams) svarbių aplinkybių.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0  Universali
+     </h2>
+     <p>
+      CREATIVE COMMONS CORPORATION NĖRA TEISINES PASLAUGAS TEIKIANTI ĮMONĖ IR NETEIKIA TEISINIŲ PASLAUGŲ AR KONSULTACIJŲ. ŠIO DOKUMENTO PLATINIMAS NESUKURIA SANTYKIO TARP TEISINES PASLAUGAS TEIKIANČIO ASMENS IR KLIENTO. CREATIVE COMMONS ŠIĄ INFORMACIJĄ VARTOTOJAMS PATEIKIA NAUDOTI TOKIĄ, KOKIA JI YRA SAVO (VARTOTOJŲ) RIZIKA. CREATIVE COMMONS NETEIKIA JOKIŲ GARANTIJŲ DĖL ŠIO DOKUMENTO NAUDOJIMO, AR DĖL INFORMACIJOS AR OBJEKTŲ, KURIE PATEIKIAMI PAGAL ŠĮ DOKUMENTĄ, NAUDOJIMO, TAIP PAT NEPRISIIMA ATSAKOMYBĖS DĖL ŽALOS IR NUOSTOLIŲ, GALINČIŲ ATSIRASTI DĖL ŠIO DOKUMENTO PANAUDOJIMO, AR INFORMACIJOS IR OBJEKTŲ, PATEIKIAMŲ PAGAL ŠĮ DOKUMENTĄ, PANAUDOJIMO.
+     </p>
+     <h3 id="sop">
+      Pareiškimas dėl Tikslo
+     </h3>
+     <p>
+      Daugelyje pasaulio jurisdikcijų galiojantys teisės aktai kūrėjui ir jo teisių turėtojams (toliau, kartu ar atskirai, vadinami „teisių turėtojais“) automatiškai suteikia išimtines Autorių ir Gretutines Teises (jų apibrėžimai pateikti žemiau) į originalų autorinį darbą ir/ar duomenų bazę (toliau kiekvienas atskirai vadinami „Kūriniu“).
+     </p>
+     <p>
+      Kai kurie teisių turėtojai pageidauja visam laikui atsisakyti tokių teisių į Kūrinį tam, kad prisidėtų prie bendros meno, kultūros ir mokslo darbų visumos sukūrimo, kad visuomenės nariai galėtų, patikimai ir be nuogąstavimų dėl galimų pretenzijų dėl teisių pažeidimo, Kūriniais remtis, juos modifikuoti, įtraukti į kitus kūrinius, pakartotinai naudoti ir pakartotinai platinti, kaip tik įmanoma laisvai bet kokia forma ir bet kokiais tikslais, įskaitant ir komercinius. Tokie teisių turėtojai gali prisidėti prie kūrimo tam, kad remtų laisvai prieinamos kultūros idealą ir tolimesnį meno, kultūros ir mokslo darbų kūrimą, arba, per kitų asmenų naudojimąsi ir pastangas, siekti didesnės savo Kūrinio sklaidos ir žinomumo įgijimo. per kitų asmenų naudojimą ir pastangas.
+     </p>
+     <p>
+      Dėl nurodytų ir/ar kitų tikslų ir motyvų, nesitikėdamas jokio papildomo atlyginimo ar kompensacijų, Kūrinį su CC0 susiejęs asmuo („Pareiškėjas“), tiek, kiek asmuo yra Autorių ir Gretutinių Teisių į Kūrinį turėtojas, laisva valia, būdamas pilnai informuotas apie savo Autorių ir Gretutines Teises į Kūrinį ir CC0 pritaikymo reikšmę bei teisines pasekmes šioms teisėms, pasirinko Kūriniui taikyti CC0 ir viešai platinti Kūrinį pagal CC0 sąlygas.
+     </p>
+     <h3 id="copyright">
+      1. Autorių ir Gretutinės Teisės.
+     </h3>
+     <p>
+      Pagal CC0 platinamas Kūrinys gali būti saugomas autorių ir gretutinių teisių („Autorių ir Gretutinės Teisės“). Autorių ir Gretutinės Teisės apima, bet neapsiriboja, šias teises:
+     </p>
+     <ol type="i">
+      <li>
+       teisę atgaminti, adaptuoti, platinti, atlikti, rodyti, skelbti ir išversti Kūrinį;
+      </li>
+      <li>
+       neturtinės teisės neperduodamos kitiems asmenims;
+      </li>
+      <li>
+       viešumo ir privatumo teises, , susijusias su Kūrinyje naudojamo žmogaus atvaizdu ar panašumu į jį;
+      </li>
+      <li>
+       nuo nesąžiningos konkurencijos saugančias teises, kiek tai susiję su Kūriniu, atsižvelgiant į žemiau esančiame skyriuje 4(a) nurodytus apribojimus;
+      </li>
+      <li>
+       teises, saugančias Kūrinyje panaudotų duomenų gavimą, platinimą, naudojimą ir pakartotinį naudojimą;
+      </li>
+      <li>
+       teises į duomenų bazes (tokias, kaip teisės, kylančios pagal Europos Parlamento ir Tarybos direktyvą 96/9/EB dėl duomenų bazių teisinės apsaugos ir bet kokius ją įgyvendinančius nacionalinius teisės aktus, įskaitant visus šios direktyvos pakeitimus ar vėlesnes versijas); ir
+      </li>
+      <li>
+       kitas panašias, analogiškas ar atitinkamas teises visame pasaulyje, kylančias iš taikytinos teisės ar tarptautinės sutarties, ir bet kokių jas įgyvendinančių nacionalinių teisės aktų.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Teisių Atsisakymas.
+     </h3>
+     <p>
+      Didžiausia taikytinos teisės leidžiama apimtimi, tačiau jai neprieštaraujant, Pareiškėjas atvirai, visa apimtimi, neatšaukiamai ir besąlygiškai atsisako ir nustoja taikyti bei nebereikalauja laikytis visų Pareiškėjo Autorių ir Gretutinių Teisių ir susijusių pretenzijų bei ieškininių reikalavimų, žinomų ar nežinomų (įskaitant egzistuojančias bei ateityje galinčias kilti pretenzijas bei ieškininius reikalavimus) į Kūrinį (i) bet kokiose teritorijose pasaulio mastu, (ii) maksimaliam taikytinos teisės ar tarptautinės sutarties nustatytam laikotarpiui (įskaitant teisių galiojimo pratęsimus ateityje), (iii) bet kokioje egzistuojančioje ar ateityje atsirasiančioje laikmenoje ir bet kokiam kopijų skaičiui, ir (iv) bet kokiems tikslams, įskaitant, bet neapsiribojant, komerciniams, reklamos ar rėmimo (toliau vadinama „Teisių Atsisakymas“). Pareiškėjas Teisių Atsisako kiekvieno plačiosios visuomenės nario naudai ir Pareiškėjo įpėdinių bei teisių perėmėjų nenaudai, visa apimtimi siekdamas, kad toks Teisių Atsisakymas negalėtų būti atšauktas, panaikintas, anuliuotas, nutrauktas ir jokiais teisiniais pagrindais nebūtų reiškiami reikalavimai, nukreipti prieš netrukdomą visuomenės naudojimąsi Kūriniu, kaip tai nustatyta Pareiškėjo tiesioginiame Pareiškime dėl Tikslo.
+     </p>
+     <h3 id="fallback">
+      3. Viešoji licencija negaliojimo atveju.
+     </h3>
+     <p>
+      Jei dėl bet kokių priežasčių bet kuri Teisių Atsisakymo dalis būtų pripažinta teisiškai negaliojančia ar netaikytina pagal taikytiną teisę, Teisių Atsisakymas išliks galiojančiu maksimalia leistina apimtimi, atsižvelgiant į Pareiškėjo tiesioginį Pareiškimą dėl Tikslo. Be to, tokia apimtimi, kiek Teisių Atsisakymas būtų pripažintas negaliojančiu, Pareiškėjas šiuo suteikia kiekvienam susijusiam asmeniui neatlygintinę, neperleidžiamą, nesublicencijuojamą, neišimtinę, neatšaukiamą ir besąlyginę licenciją įgyvendinti Pareiškėjo Autorių ir Gretutines Teises į Kūrinį (i) bet kokiose teritorijose pasaulio mastu, (ii) maksimaliam taikytinos teisės ar tarptautinės sutarties nustatytam laikotarpiui (įskaitant teisių galiojimo pratęsimus ateityje), (iii) bet kokioje egzistuojančioje ar ateityje atsirasiančioje laikmenoje ir bet kokiam kopijų skaičiui, ir (iv) bet kokiems tikslams, įskaitant, bet neapsiribojant, komerciniams, reklamos ar rėmimo (toliau vadinama „Licencija“). Licencija bus laikoma galiojančia nuo tos dienos, kai Pareiškėjas pritaikė Kūriniui CC0. Jei bet kokia Licencijos dalis dėl bet kokių priežasčių būtų pripažinta teisiškai negaliojančia ar netaikytina pagal taikytiną teisę, toks dalinis negaliojimas ar netaikymas nedaro likusios Licencijos negaliojančia, ir tokiu atveju Pareiškėjas šiuo patvirtina, kad jis (i) neįgyvendins likusių savo Autorių ir Gretutinių Teisių į Kūrinį ir (ii) nereikš jokių susijusių pretenzijų ar ieškinių dėl Kūrinio, prieštaraudamas Pareiškėjo tiesioginiam Pareiškimui dėl Tikslo.
+     </p>
+     <h3 id="limitations">
+      4. Apribojimai ir garantijų išlygos.
+     </h3>
+     <ol type="a">
+      <li>
+       Šiuo dokumentu neatsisakoma, nėra atšaukiamos, nėra perduodamos, nėra licencijuojamos nei niekaip kitaip įtakojamos Pareiškėjo turimos teisės į prekių ženklus ar patentus.
+      </li>
+      <li>
+       Pareiškėjas siūlo Kūrinį naudoti tokį koks jis yra pačių Vartotojų rizika, neteikdamas jokių garantijų dėl Kūrinio – nei tiesioginių, nei netiesioginių, nustatytų teisės aktuose ir kt., įskaitant, bet neapsiribojant, dėl nuosavybės teisės, paklausumo, tinkamumo naudoti konkrečiam tikslui, pažeidimų, paslėptų ar kitokių trūkumų , tikslumo, klaidų buvimo ar nebuvimo – tiek žinomų ir įmanomų nustatyti, tiek ir nežinomų ir neįmanomų nustatyti, maksimalia taikytinos teisės leidžiama apimtimi.
+      </li>
+      <li>
+       Pareiškėjas neprisiima atsakomybės dėl kitų asmenų teisių, kurios gali būti taikytinos Kūriniui ar bet kokiam jo panaudojimui, perėmimo, įskaitant, bet neapsiribojant, bet kokių asmenų Autorių ir Gretutinių Teisių į Kūrinį. Taip pat Pareiškėjas neprisiima atsakomybės dėl bet kokių sutikimų, leidimų ar kitų teisių, reikalingų bet kokiam Kūrinio panaudojimui, gavimo.
+      </li>
+      <li>
+       Pareiškėjas supranta ir patvirtina, kad Creative Commons nėra šio dokumento šalimi ir neturi jokios pareigos ar prievolės, susijusios su šiuo CC0 taikymu ar Kūrinio panaudojimu.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons nėra savo Viešųjų licencijų šalimi. Tačiau Creative Commons gali pasirinkti taikyti kurią nors iš savo Viešųjų licencijų savo skelbiamiems objektams, ir tokiu atveju Creative Commons bus laikoma „Licenciaru". Išskyrus ribotą tikslą – nurodyti visuomenei, kad objektas yra licencijuojamas Creative Commons Viešąja licencija ar kitu Creative Commons veiklos strategijoje nustatytu būdu, skelbiamu
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons draudžia naudoti prekių ženklą „Creative Commons" ar bet kokį kitą Creative Commons prekių ženklą ar logotipą be išankstinio Creative Commons rašytinio sutikimo, įskaitant, tačiau neapsiribojant, susietą su bet kokiais Viešųjų licencijų pakeitimais, kuriems nėra duotas sutikimas, ir bet kokiems kitiems susižinojimams, susitarimams ar sutartims dėl licencijuojamų objektų naudojimo. Aiškumo sumetimais, ši pastraipa nėra Viešosios licencijos dalis.
+     </p>
+     <p>
+      Su Creative Commons galite susisiekti adresu
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

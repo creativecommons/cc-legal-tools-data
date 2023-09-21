@@ -4,484 +4,641 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY 3.0 AM Legal Code — Attribution 3.0 Armenia — Creative Commons
+   CC BY 3.0 AM Legal Code | Attribution 3.0 Armenia
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by/3.0/am/legalcode.hy" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Home
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by/3.0/am/legalcode.hy">
-        CC BY 3.0 AM Legal Code
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
+       </a>
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY 3.0 AM Legal Code
+    </h1>
+    <h2>
+     Attribution 3.0 Armenia
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.en">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 3.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.en">
+       CC BY 4.0 Legal Code | Attribution 4.0 International
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       Հղում 3.0 Հայաստան
+       <div id="deed-main-content">
+        <img alt="" src="https://creativecommons.org/images/international/am.png"/>
+        <blockquote>
+         Creative Commons կորպորացիան իրավաբանական ընկերություն չէ և իրավաբանական ծառայություններ չի մատուցում։ Սույն Լիցենզիայի տարածումը Կողմերի և Creative Commons-ի միջև իրավական հարաբերություններ չի ստեղծում։    Creative Commons-ը տրամադրված ինֆորմացիայի և բովանդակության հետ կապված որևէ երաշխիք չի տալիս և նրա օգտագործումից առաջացած վնասների համար պատասխանատվություն չի կրում։
+        </blockquote>
+        <h3>
+         <em>
+          Ոչ-բացառիկ լիցենզային պայմանագիր (Լիցենզիա)
+         </em>
+        </h3>
+        <p>
+         Ներքոհիշյալ ստեղծագործության (Ստեղծագործություն) նկատմամբ օգտագործման իրավունքները տրամադրվում են ըստ Creative Commons հանրային լիցենզիայի պայմանների («CCPL” կամ Լիցենզիա)։ Ստեղծագործության նկատմամբ Լիցենզատուի իրավունքները պաշտպանվում են «Հեղինակային իրավունքի և հարակից իրավունքների մասին» Հայաստանի Հանրապետության Օրենքով և/կամ այլ կիրառելի օրենսդրությամբ (այսուհետ՝ Օրենք)։  Ստեղծագործության օգտագործումը այլ կերպ, քան լիազորված է սույն Լիցենզիայով կամ Օրենքով արգելվում է։
+        </p>
+        <p>
+         Սույնով տրամադրվող Ստեղծագործության նկատմամբ ցանկացած իրավունքի օգտագործմամբ Լիցենզառուն ընդունում և համաձայնում է պարտավորված լինել սույն Լիցենզիայի պայմաններով։  Սույն Լիցենզիայի համաձայն, Լիցենզատուն Լիցենզառուին է տրամադրում Լիցենզիայում ամրագրված ոչ-բացառիկ իրավունքները պայմանով, որ Լիցենզառուն ընդունում է Լիցենզիայի պայմանները։
+        </p>
+        <p>
+         <strong>
+          1. Սահմանումներ
+         </strong>
+        </p>
+        <ol style="list-style:none">
+         <li>
+          <strong>
+           ա. Ածանցյալ ստեղծագործություններ
+          </strong>
+          ինքնուրույն ստեղծագործություններ, որոնց հիմքում ընկած է Ստեղծագործությունը կամ Ստեղծագործությունը և այլ այնպիսի նախօրոք գոյություն ունեցող ստեղծագործություններ, ինչպիսիք են՝ - թարգմանությունները, ադապտացիաները, փոխադրումները, դաշնավորումներն ու վերադաշնավորումները, մշակումներն ու վերամշակումները, բեմականացումները, տեսալսողական և կինեմատոգրաֆիկական ստեղծագործությունների վերափոխումները և գրականության, գիտության, արվեստի ստեղծագործությունների այլ վերափոխումները, որոնք գրականության, գիտության և արվեստի բնագավառներում հեղինակի ինքնուրույն կամ այլ հեղինակների հետ իրականացրած ստեղծագործական աշխատանքի յուրօրինակ արդյունք են, որն արտահայտված է բանավոր, գրավոր կամ այլ օբյեկտիվ ձևով, ներառյալ` մշտապես կամ ժամանակավոր պահպանվող էլեկտրոնային ձևը, անկախ ստեղծագործության ծավալից, նշանակությունից, արժանիքներից ու ստեղծման նպատակից (այսուհետ՝ Վերափոխում): Սույն Լիցենզիայի նպատակներով իրենից Վերափոխում ներկայացնող ստեղծագործությունը չի համարվում Կազմածո ստեղծագործություն (տես վարը)։ Հստակության նպատակով, համաձայն սույն Լիցենզիայի, Ստեղծագործության ժամանակային հարմարեցումը («սինխրոնիզացիան») շարժվող պատկերի հետ կհամարվի Վերափոխում, եթե Ստեղծագործությունը երաժշտական է, կատարում է կամ հնչյունագիր.
+         </li>
+         <li>
+          - ստեղծագործությունների ժողովածուները (հանրագիտարանները, անթոլոգիաները), տվյալների բազաները և այլ կազմածո ստեղծագործությունները, բացառությամբ սույն Բաժնի «զ» կետում նշված ստեղծագործությունների, որոնք ըստ իրենց պարունակության ընտրության և/կամ տեղաբաշխման, իրենցից ներկայացնում են մտավոր ստեղծագործական աշխատանքներ (այսուհետ՝ Կազմածո ստեղծագործություն): Կազմածո ստեղծագործություններում ընդգրկված ստեղծագործությունները ներառված են ամբողջական և անփոփոխ տեսքով, մեկ կամ մի քանի բաղկացուցիչ ընդգրկումների միջոցով, որոնցից յուրաքանչյուրը հանդիսանում է առանձին և անկախ ստեղծագործություն, և որոնք միասին կազմում են հավաքական ամբողջություն։  Սույն Լիցենզիայի նպատակներով իրենից Կազմածո ստեղծագործություն ներկայացնող ստեղծագործությունը չի համարվում Վերափոխում (տես վերը)։
+         </li>
+         <li>
+          <strong>
+           բ. Տարածում՝
+          </strong>
+          Ստեղծագործության կամ Վերափոխման բնօրինակը կամ օրինակները շրջանառության մեջ դնելը, մատչելի դարձնելը հանրության համար ՝ համապատասխանորեն վաճառքի կամ սեփականության իրավունքի փոխանցման այլ միջոցներով, ինչպես նաև դրանց ներմուծումը։
+         </li>
+         <li>
+          <strong>
+           գ. Լիցենզատու՝
+          </strong>
+          Ստեղծագործության նկատմամբ գույքային իրավունքներ ունեցող ֆիզիկական կամ իրավաբանական անձ(ինք), որն առաջարկում է Ստեղծագործության օգտագործման իրավունքներ՝ սույն Լիցենզիայի պայմաններին համապատասխան։
+         </li>
+         <li>
+          <strong>
+           դ. Հեղինակ՝
+          </strong>
+          այն ֆիզիկական անձը(ինք) (համահեղինակները, անկախ ստեղծագործության կառուցվածքից, եթե այլ բան նախատեսված չէ նրանց միջև կնքված պայմանագրով), ով ստեղծել է Ստեղծագործությունը։ Եթե հնարավոր չէ բացահայտել հեղինակի ինքնությունը կամ կեղծանունով լույսընծայման դեպքում, լույս ընծայող անձը, այլ ապացույցների բացակայության դեպքում, համարվում է հեղինակի ներկայացուցիչ և իրավասու է պաշտպանելու հեղինակի իրավունքներն ու ապահովելու դրանց իրականացումը: ե. Հարակից իրավունքների իրավատեր է՝  (1) կատարման դեպքում, դերասանը, երգիչը, երաժիշտը, պարողը, դիրիժորը, խմբավարը և այլ անձինք, ովքեր դերակատարում, երգում, ասմունքում, արտասանում, նվագում, ձայնակցում, մեկնաբանում կամ որևէ այլ կերպ կատարում են (այսուհետ՝ Կատարող) գրական կամ գեղարվեստական ստեղծագործություններ, կրկեսային, տիկնիկային, էստրադային և համանման այլ ներկայացումներ, ինչպես նաև ժողովրդական բանահյուսության և արվեստի ստեղծագործություններ. (2) Ֆոնոգրամի կամ ֆիլմի դեպքում, հնչյունագիր արտադրողը (պրոդյուսեր)՝ կատարման կամ այլ հնչյունները առաջինը ամրագրած ֆիզիկական կամ իրավաբանական անձը.  (3) հեռարձակվող հաղորդման դեպքում, տվյալ հեռարձակումն իրականացնող կազմակերպությունը, և . (4) տվյալների բազայի դեպքում, տվյալների բազա պատրաստողը. (5) հրատարակությունների հրատարակչական ձևավորումների դեպքում, հրատարակիչը։
+         </li>
+         <li>
+          <strong>
+           զ. Ստեղծագործություն՝
+          </strong>
+          հեղինակային իրավունքի օբյեկտ հանդիսացող ստեղծագործություն, որի իրավունքներն առաջարկված են սույն Լիցենզիայի պայմաններին համապատասխան, և որը գիտության և արվեստի բնագավառներում հեղինակի ինքնուրույն կամ այլ հեղինակների հետ իրականացրած ստեղծագործական աշխատանքի յուրօրինակ արդյունք է, ներառյալ առանց սահմանափակման, ցանկացած արտադրանք գրականության, գիտության և գեղարվեստի բնագավառում՝ անկախ նրա ձևից կամ արտահայտչամիջոցից, ներառյալ թվային ձևը, ինչպես օրինակ՝  i.    գրական, գիտական ստեղծագործությունները, դրամատիկական և երաժշտադրամատիկական ստեղծագործությունները, սցենարները, սցենարային պլանները, լիբրետոները և բեմական ցուցադրման այլ ստեղծագործությունները.  ii.    պարարվեստի և մնջախաղի ստեղծագործությունները. iii.    տեքստով կամ առանց տեքստի երաժշտական ստեղծագործությունները. iv.    տեսալսողական ստեղծագործությունները (կինո-հեռուստաֆիլմերը, անիմացիոն և մուլտիպլիկացիոն կինոնկարները, կարճ երաժշտական տեսահոլովակները, գովազդային, փաստագրական, փաստավավերագրական և այլ ֆիլմերը). v.    գեղանկարչության, քանդակագործության, գրաֆիկայի, դիզայնի և կերպարվեստի այլ ստեղծագործությունները. vi.    քաղաքաշինական, ճարտարապետական, այգեպուրակային արվեստի ստեղծագործությունները և դրանց լուծումները ինչպես ամբողջությամբ, այնպես էլ առանձին մասերը. vii.    լուսանկարչական և նման եղանակով ստեղծված ստեղծագործությունները, որոնք համապատասխանում են սույն կետի առաջին մասի դրույթներին. viii.    դեկորատիվ-կիրառական արվեստի և բեմական գրաֆիկայի ստեղծագործությունները. ix.    աշխարհագրությանը, տոպոգրաֆիային, երկրաբանությանը, քաղաքաշինությանը, ճարտարապետությանը և այլ գիտություններին վերաբերող քարտեզները, նախագծերը, էսքիզները և պլաստիկ ստեղծագործությունները. x.    ածանցյալ ստեղծագործությունները, այնքանով, որքանով դրանք պաշտպանված են որպես հեղինակային իրավունքի օբյեկտ: Սույն Լիցենզիայի իմաստով, այնքանով որքանով դրանք պաշտպանված են Օրենքով, Ստեղծագործություն են համարվում նաև հեղինակային իրավունքի օբյեկտ չհանդիսացող հարակից իրավունքների օբյեկտները, ինչպիսիք են՝ xi.    կատարումները, հնչյունագրերը, ֆիլմի առաջին ամրագրումները, հեռարձակող կազմակերպության հաղորդումները և տվյալների բազաները։
+         </li>
+         <li>
+          <strong>
+           է. Լիցենզառու՝
+          </strong>
+          սույն Լիցենզիայով տրամադրվող իրավունքներից օգտվող ֆիզիկական կամ իրավաբանական անձ, որը նախկինում չի խախտել Ստեղծագործությանն առնչվող սույն Լիցենզիայի պայմանները, իսկ խախտած լինելու դեպքում՝ ստացել է Լիցենզատուի հատուկ թույլտվությունը՝ օգտվելու սույն Լիցենզիայով տրամադրվող իրավունքներից:
+         </li>
+         <li>
+          <strong>
+           ը. Հանրությանը հաղորդում՝
+          </strong>
+          Ստեղծագործությունը հանրությանը մատչելի դարձնելը ցանկացած ձևով կամ գործընթացի միջոցով, այդ թվում՝ հաղորդալարով կամ առանց հաղորդալարի, կամ հանրային թվային կատարումների միջոցով, ինչպես նաև Ստեղծագործությունները հանրության անդամներին այնպիսի ձևով մատչելի դարձնելը, որ նրանք հասանելի լինեն հանրության անդամներին նրանց կողմից անհատապես ընտրված ցանկացած վայրում, նաև Ստեղծագործության մատուցումը հանրությանը՝ ցանկացած ձևով կամ գործընթացի միջոցով և Ստեղծագործության կատարումները, ներառյալ հանրային թվային կատարումները, հանրությանը հաղորդելը, Ստեղծագործության հեռարձակումն ու վերահեռարձակումը՝ ցանկացած ձևերով, այդ թվում՝ նշանների, հնչյունների կամ պատկերների միջոցով։
+         </li>
+         <li>
+          <strong>
+           թ. Վերարտադրում՝
+          </strong>
+          Ստեղծագործության ուղղակի կամ անուղղակի, ժամանակավոր կամ մշտական ամրագրումը ցանկացած կրիչի վրա, ցանկացած միջոցներով և ձևով, ամբողջությամբ կամ մասնակի:
+         </li>
+        </ol>
+        <p>
+         <strong>
+          2.    Ստեղծագործության ազատ օգտագործումը / Բացառիկ իրավունքների սահմանափակումները
+         </strong>
+         Սույն Լիցենզիայում ոչ մի կետ նպատակաուղղված չէ նվազեցնելու, սահմանափակելու կամ խոչընդոտելու ցանկացած օգտագործում, որն ազատ է հեղինակային և/կամ հարակից իրավունքների կամ այն իրավունքների պաշտպանությունից, որոնք ծագում են Օրենքի համաձայն հեղինակային և հարակից իրավունքների պաշտպանության առնչությամբ նախատեսված սահմանափակումներից և բացառություններից։
+        </p>
+        <p>
+         <strong>
+          3.    Լիցենզիայի տրամադրում
+         </strong>
+         Սույն Լիցենզիայի կետերին և պայմաններին համապատասխան, սույնով Լիցենզատուն Լիցենզառուին տրամադրում է տարածքային սահմանափակում չնախատեսող, անհատույց, ոչ-բացառիկ, մշտական (Լիցենզատուի գույքային իրավունքների տևողությանը համապատասխանող) լիցենզիա՝ իրականացնելու Ստեղծագործությանն առնչվող ստորև նշված իրավունքները՝
+        </p>
+        <ol style="list-style:none">
+         <li>
+          <strong>
+           ա.
+          </strong>
+          վերարտադրել Ստեղծագործությունը, ընդգրկել այն մեկ կամ մի քանի Կազմածո ստեղծագործություններում, ինչպես նաև վերարտադրել Կազմածո ստեղծագործությունների կազմում ընդգրկված Ստեղծագործությունը.
+         </li>
+         <li>
+          <strong>
+           բ.
+          </strong>
+          ստեղծել և վերարտադրել ածանցյալ ստեղծագործություններ, պայմանով, որ նման ցանկացած Ածանցյալ ստեղծագործության, այդ թվում՝ ցանկացած կրիչի վրա արված յուրաքանչյուր թարգմանության համար, ձեռնարկվում են ողջամիտ քայլեր՝ հստակորեն նշելու, սահմանագծելու կամ այլ կերպ հաստատելու այն, որ փոփոխություններ են արվել բնօրինակ Ստեղծագործությունում։  Օրինակ, թարգմանությանում կարող է նշվել, որ «Բնօրինակ Ստեղծագործությունը թարգմանվել է անգլերենից իսպաներեն», կամ ձևափոխությունում՝ «Բնօրինակ Ստեղծագործությունը ձևափոխված է»։
+         </li>
+         <li>
+          <strong>
+           գ.
+          </strong>
+          տարածել և հանրությանը հաղորդել Ստեղծագործությունը, այդ թվում՝ ինչպես ընդգրկված է Կազմածո ստեղծագործությունում։
+         </li>
+         <li>
+          <strong>
+           դ.
+          </strong>
+          տարածել և հանրությանը հաղորդել Վերափոխումներ։
+         </li>
+         <li>
+          <p>
+           Հստակության նպատակով կիրառելի է՝
+          </p>
+          <ol style="list-style:none">
+           <li>
+            <strong>
+             - Կամավոր լիցենզային սխեման.
+            </strong>
+            Լիցենզատուն հրաժարվում է իրավունքից՝ հավաքելու հոնորարներն անձամբ կամ, եթե Լիցենզատուն անդամակցում է Գույքային իրավունքները կոլեկտիվ հիմունքներով կառավարող կազմակերպությանը, այդ ընկերության միջոցով, սույն Լիցենզիայով Լիցենզառուին տրամադրված իրավունքից օգտվելու համար։
+           </li>
+           <li>
+            Եթե Լիցենզատուն, ազգային օրենսդրությանը համապատասխան, տվյալների բազայի «հատուկ» (sui generis) պայմանների իրավատեր է (տվյալների բազա պատրաստողների իրավունքների պաշտպանություն), ապա Լիցենզատուն հրաժարվում է այդ իրավունքներից։
+           </li>
+          </ol>
+         </li>
+        </ol>
+        <p>
+         Վերոհիշյալ իրավունքները կարող են իրականացվել ներկայումս հայտնի կամ հետագայում հայտնագործվելիք բոլոր միջոցներով և ձևաչափերով։ Վերոհիշյալ իրավունքների մեջ է մտնում նաև այնպիսի ձևափոխություններ անելու իրավունքը, որոնք տեխնիկապես անհրաժեշտ են այլ միջոցներով կամ ձևաչափերում իրավունքներն իրականացնելու համար։ Լիցենզատուի կողմից հատուկ չտրամադրված բոլոր իրավունքները սույնով վերապահվում են։
+        </p>
+        <p>
+         <strong>
+          4.    Սահմանափակումներ
+         </strong>
+         Վերոնշյալ 3-րդ Բաժնով տրամադրված Լիցենզիան հատկապես սահմանափակված և ենթակա է հետևյալ սահմանափակումների.
+        </p>
+        <ol style="list-style:none">
+         <li>
+          <strong>
+           ա.
+          </strong>
+          Լիցենզառուն կարող է տարածել կամ հանրությանը հաղորդել Ստեղծագործությունը միայն սույն Լիցենզիայի պայմաններով։ Լիցենզառուի տարածած կամ հանրությանը հաղորդած Ստեղծագործության յուրաքանչյուր օրինակի հետ նա պետք է ներառի սույն Լիցենզիայի մեկ օրինակ կամ վերջինիս Աղբյուրի համընդհանուր բացահայտիչը (Uniform Resource Identifier-URI)։  Լիցենզառուն չի կարող առաջարկել կամ պարտադրել Ստեղծագործությանն առնչվող այնպիսի պայմաններ, որոնք սահմանափակում են սույն Լիցենզիայի կետերը կամ Ստեղծագործությունը ստացողի հնարավորությունը՝ օգտվելու այն իրավունքներից, որոնք իրեն են տրամադրված Լիցենզիայի պայմաններով։ Ստեղծագործությունը Լիցենզառուի կողմից վերալիցենզավորվել չի կարող։ Սույն Լիցենզիայի, ինչպես նաև երաշխիքների տրամադրման վերաբերյալ բոլոր գրառումները պետք է պահպանվեն Լիցենզառուի տարածած կամ հանրությանը հաղորդած Ստեղծագործության յուրաքանչյուր օրինակի հետ միասին։  Ստեղծագործությունը տարածելիս կամ հանրությանը հաղորդելիս՝ Լիցենզառուն չի կարող Ստեղծագործության վրա ազդել այնպիսի տեխնոլոգիական միջոցներով, որոնք կսահմանափակեն Ստեղծագործությունը ստացողի հնարավորությունը՝ իրականացնելու այն իրավունքները, որոնք իրեն տրամադրվել են սույն Լիցենզիայի պայմաններով։ Սույն կետը կիրառվում է Կազմածո ստեղծագործության մաս կազմող Ստեղծագործության նկատմամբ, որը, սակայն, չի պահանջում, որպեսզի Կազմածո ստեղծագործությունն ինքը՝ Ստեղծագործությունից անջատ, ենթակա լինի սույն Լիցենզիայի պայմաններին։ Եթե Լիցենզառուն Կազմածո ստեղծագործություն կազմի, պետք է հնարավորինս, Հեղինակից կամ Հարակից իրավունքների իրավատիրոջից ծանուցում ստանալուն պես, Կազմածո ստեղծագործությունից վերացնի սույն Բաժնի «բ» կետով պահանջվող յուրաքանչյուր հղում։  Եթե Լիցենզառուն ստեղծի Վերափոխում, պետք է հնարավորինս, Հեղինակից կամ Հարակից իրավունքների իրավատիրոջից ծանուցում ստանալուն պես, Վերափոխումից վերացնի սույն Բաժնի «բ» կետով պահանջվող յուրաքանչյուր հղում։
+         </li>
+         <li>
+          <strong>
+           բ.
+          </strong>
+          Եթե Լիցենզառուն տարածում կամ հանրությանը հաղորդում է Ստեղծագործություն կամ որևէ Վերափոխում կամ Կազմածո ստեղծագործություն, նա պետք է, քանի դեռ չի արվել սույն Բաժնի «ա» կետով նախատեսված ծանուցումը, պահպանի Ստեղծագործության հեղինակային և հարակից իրավունքների հետ կապված բոլոր գրառումները և տրամադրի ներքոնշյալը՝ համապատասխան կրիչներով կամ Լիցենզատուի կողմից օգտագործվող այլ միջոցներով. (1) նշված լինելու դեպքում, Հեղինակի կամ հարակից իրավունքների իրավատիրոջ անունը (կամ, եթե կա, կեղծանունը), և/կամ, եթե Լիցենզատուի հեղինակային իրավունքի կամ հարակից իրավունքների գրառումներում, ծառայությունների պայմաններում կամ այլ պատշաճ միջոցով Հեղինակը և/կամ Լիցենզատուն հղումի համար նշանակում է այլ կողմ(եր) (օրինակ՝ հովանավոր հաստատություն, հրատարակիչ ընկերություն, ամսագիր), ապա տվյալ կողմի(երի) անունը/անվանումը, («Հղման ենթակա կողմեր»), (2) նշված լինելու դեպքում, Ստեղծագործության վերնագիրը, (3) այնքանով, որքանով կիրառելի է, Աղբյուրի համընդհանուր բացահայտիչը (URI), եթե կա այդպիսին, որը Լիցենզատուի նշմամբ կապված է Ստեղծագործության հետ, եթե միայն այդպիսի Աղբյուրի համընդհանուր բացահայտիչը (URI) չի վերաբերում հեղինակային կամ հարակից իրավունքներին առնչվող գրառմանը կամ Ստեղծագործության համար լիցենզավորման տեղեկատվությանը, և (4) Վերափոխման դեպքում՝ Ստեղծագործությունը վերափոխված օգտագործված լինելու մասին հղում՝ համաձայն 3-րդ Բաժնի «բ» կետի (օրինակ՝ «Հեղինակի կամ հարակից իրավունքների իրավատիրոջ ստեղծագործության ֆրանսերեն թարգմանությունը» կամ «Սցենար՝ ըստ հեղինակի կամ հարակից իրավունքների իրավատիրոջ Ստեղծագործության բնօրինակի»)։ Սույն կետով պահանջվող հղումը կարող է արվել ցանկացած ողջամիտ եղանակով, սակայն, պայմանով, որ Վերափոխման կամ Կազմածո ստեղծագործության դեպքում նվազագույնս կարվի, եթե արվել է Վերափոխման կամ Կազմածո ստեղծագործության բոլոր հեղինակների կամ հարակից իրավունքների իրավատերերի մասին հղում, այնուհետ նաև կարվի որպես տվյալ հղումների մի մաս և այն եղանակով, որն առնվազն այնքանով աչքի ընկնող կլինի, որքանով մնացած հեղինակների կամ հարակից իրավունքների իրավատերերի մասին հղումները։  Հստակության նպատակով, Լիցենզառուն կարող է օգտագործել միայն սույն Բաժնում պահանջվող հղումը վերը նախատեսված եղանակով հղում անելու համար և, սույն Լիցենզիային համապատախան Լիցենզառուի իրավունքներն իրականացնելիս Լիցենզառուն չի կարող ուղղակիորեն կամ անուղղակիորեն հաստատել կամ ենթադրել հեղինակի կամ հարակից իրավունքների իրավատիրոջ, Լիցենզատուի և/կամ հղման ենթակա կողմերի հետ կապը, նրանց հովանավորությունը կամ աջակցությունը՝ Լիցենզառուի կամ Ստեղծագործությունը Լիցենզառուի կողմից օգտագործված լինելու նկատմամբ, առանց հեղինակի կամ հարակից իրավունքների իրավատիրոջ և/կամ Լիցենզատուի և/կամ Հղման ենթակա կողմերի առանձնակի, նախնական հստակ գրավոր թույլտվության։
+         </li>
+         <li>
+          <strong>
+           գ.
+          </strong>
+          Հստակության նպատակով, սույն Բաժնի վերոնշյալ սահմանափակումները կիրառելի չեն սույն Լիցենցիայով «Ստեղծագործություն» տերմինի տակ ընկնող ստեղծագործության այն մասերի նկատմամբ, որոնք բացառապես, ազգային օրենսդրության համաձայն, բավարարում են տվյալների բազայի «հատուկ» (sui generis) պայմանների չափանիշներին։ դ. Հեղինակի և Կատարողի անձնական ոչ-գույքային իրավունքները պահպանվում են այնքանով, որքանով ճանաչվում և անօտարելի են Օրենքով։
+         </li>
+        </ol>
+        <p>
+         <strong>
+          5.    Հավաստագրեր և երաշխիքներ
+         </strong>
+        </p>
+        <p>
+         Հավաստագրեր և երաշխիքներ Լիցենզատուն հավաստում և երաշխավորում է, որ՝ i.    սույն Լիցենզիայի իրականացումը և կատարումը Լիցենզատուի լիազորությունների մեջ են մտնում և չեն հակասում Օրենքին.  ii.    Լիցենզատուն ամբողջությամբ տիրապետում է լիցենզավորված Ստեղծագործության նկատմամբ սեփականության իրավունքին և, որ լիցենզավորման գործընթացի առնչությամբ Լիցենզատուի համար որևէ իրավական խոչընդոտներ չկան.
+        </p>
+        <p>
+         <strong>
+          6.    Պատասխանատվության սահմանափակումները
+         </strong>
+         Օրենքով նախատեսված պահանջների և 5-րդ Բաժնի երաշխիքների խախտումներից բացի, Լիցենզատուն պատասխանատու է նաև այն վնասների համար, որոնք պատճառվել են դիտավորությամբ՝ անզգուշությամբ տեղ գտած գործողության կամ անգործության հետևանքով։
+        </p>
+        <p>
+         <strong>
+          7.    Դադարեցում
+         </strong>
+        </p>
+        <ol style="list-style:none">
+         <li>
+          <strong>
+           ա.
+          </strong>
+          Սույն Լիցենզիան և սույնով տրամադրված իրավունքներն ինքնաբերաբար դադարեցվում են, եթե Լիցենզառուն խախտել է սույն Լիցենզիայի պայմանները։  Այնուամենայնիվ, սույն Լիցենզիայով Լիցենզառուից Վերափոխումներ կամ Կազմածո ստեղծագործություններ ստացած ֆիզիկական կամ իրավաբանական անձանց Լիցենզիաները չեն դադարեցվի, պայմանով, որ այդ անձինք ամբողջովին գործում են համաձայն այդ Լիցենզիաների։  Սույն Լիցենզիայի գործողության դադարեցումից հետո 1, 2, 5, 6, 7 և 8 Բաժինները ուժի մեջ կմնան։
+         </li>
+         <li>
+          <strong>
+           բ.
+          </strong>
+          Վերոհիշյալ պայմաններին և կետերին համապատասխան տրամադրված Լիցենզիան անժամկետ է (գործում է Լիցենզատուի գույքային իրավունքների տևողության ընթացքում)։  Չնայած վերոհիշյալին՝ Լիցենզատուն իրեն իրավունք է վերապահում տրամադրել Ստեղծագործությունը տարբեր լիցենզային պայմաններով կամ ցանկացած ժամանակ դադարեցնել Ստեղծագործության տարածումը, սակայն միայն պայմանով, որ ցանկացած այդպիսի որոշման արդյունքում սույն Լիցենզիան (կամ ցանկացած այլ լիցենզիա, որը տրամադրվել է կամ պետք է տրամադրվի սույն Լիցենզիայի պայմաններով) հետ չի վերցվի, և սույն Լիցենզիան ամբողջությամբ ուժի մեջ կմնա, քանի դեռ չի դադարեցվել վերոհիշյալին համապատասխան։
+         </li>
+        </ol>
+        <p>
+         <strong>
+          8.    Այլ պայմաններ
+         </strong>
+        </p>
+        <ol style="list-style:none">
+         <li>
+          <strong>
+           ա.
+          </strong>
+          Ամեն անգամ, երբ Լիցենզառուն տարածում կամ հանրությանն է հաղորդում Ստեղծագործությունը կամ Կազմածո ստեղծագործությունը, Լիցենզատուն առաջարկում է ստացողին Ստեղծագործության նկատմամբ լիցենզիա այն նույն պայմաններով, որոնցով Լիցենզառուին է տրամադրվել լիցենզիա՝ սույն Լիցենզիային համապատասխան։
+         </li>
+         <li>
+          <strong>
+           բ.
+          </strong>
+          Ամեն անգամ, երբ Լիցենզառուն տարածում կամ հանրությանն է հաղորդում Վերափոխումը, Լիցենզատուն առաջարկում է ստացողին Ստեղծագործության բնօրինակի նկատմամբ լիցենզիա այն նույն պայմաններով, որոնցով Լիցենզառուին է տրամադրվել լիցենզիա՝ սույն Լիցենզիային համապատասխան։
+         </li>
+         <li>
+          <strong>
+           գ.
+          </strong>
+          Եթե սույն Լիցենզիայի որևէ դրույթ Օրենքով անվավեր կամ ոչ կիրառելի է, դա չի ազդում սույն Լիցենզիայի մյուս պայմանների վավերության կամ կիրառելիության վրա, և եթե կողմերը սույն Լիցենզիայի նկատմամբ հետագա գործողություններ չեն իրականացնում, այդ դրույթը նվազագույն չափով պետք է փոփոխվի, որպեսզի վավեր և կիրառելի դառնա։
+         </li>
+         <li>
+          <strong>
+           դ.
+          </strong>
+          Սույն Լիցենզիայի ոչ մի պայմանից կամ դրույթից չի կարելի հրաժարվել, և ոչ մի խախտում չի թույլատրվում, եթե այդպիսի հրաժարումը կամ թույլատրումը կազմված չէ գրավոր, և եթե այն կողմը, որի վրա այդպիսի հրաժարման կամ թույլատրումի համար պատասխանատվություն է դրված, չի ստորագրել այն։
+         </li>
+         <li>
+          <strong>
+           ե.
+          </strong>
+          Սույն Լիցենզիան հանդիսանում է ամբողջական համաձայնագիր և հաստատում է դրանով լիցենզավորված Ստեղծագործության առնչությամբ կողմերի միջև եղած համաձայնությունը։ Ստեղծագործության առնչությամբ սույն Լիցենզիայում չնշված փոխադարձ համաձայնություն, համաձայնագրեր կամ հավաստագրեր չկան։  Լիցենզատուն չպետք է պարտավորված լինի այլ լրացուցիչ դրույթներով, որոնք կարող են ի հայտ գալ Լիցենզառուի կողմից։  Սույն Լիցենզիան չի կարող փոփոխվել առանց Լիցենզատուի և Լիցենզառուի միջև եղած փոխադարձ գրավոր համաձայնության։
+         </li>
+         <li>
+          <p>
+           <strong>
+            9. Կիրառելի իրավունք և վեճերի կարգավորում
+           </strong>
+          </p>
+          Սույն Լիցենզիայի նկատմամբ կիրառվում է Հայաստանի Հանրապետության օրենսդրությունը այնքանով, որքանով սույն Լիցենզիայի կողմերի (Լիցենզատու և Լիցենզառու) միջև այլ համաձայնություն ձեռք չի բերվել։
+         </li>
+        </ol>
+        <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+        <blockquote>
+         <h3>
+          Creative Commons-ի Ծանուցումը
+         </h3>
+         <p>
+          Creative Commons-ը սույն Լիցենզիայի կողմ չի հանդիսանում և Ստեղծագործության հետ կապված որևէ երաշխիք չի տրամադրում։  Creative Commons-ը ոչ մի դեպքում չպետք է պատասխանատու լինի Լիցենզառուի կամ որևէ այլ կողմի նկատմամբ որևէ իրավական տեսությամբ, հատուկ, պատահական, անուղղակի, պատժիչ կամ տուգանքի ենթակա վնասների համար, որոնք առաջացել են սույն Լիցենզիայից։  Չնայած վերոհիշյալ երկու (2) նախադասություններին՝ եթե Creative Commons-ը որոշակիորեն նույնականացվում է Լիցենզատուի հետ, այն պետք է ունենա Լիցենզատուի բոլոր իրավունքներն ու պարտականությունները։
+         </p>
+         <p>
+          Բացի սահմանափակ նպատակի՝ հանրությանը տեղեկացնելու, որ Ստեղծագործության օգտագործումը լիցենզավորված է Creative Commons-ի հանրային լիցենզիայով, Creative Commons-ը կողմերից ոչ մեկին չի լիազորում «Creative Commons» ապրանքանիշի, ցանկացած հարակից ապրանքանիշի կամ Creative Commons-ի լոգոյի օգտագործումը՝ առանց Creative Commons-ից նախօրոք գրավոր համաձայնություն ստանալու։  Ցանկացած թույլատրվող օգտագործում կհամապատասխանի Creative Commons-ի՝ այդ պահին գործող, ապրանքանիշային ուղեցույցին, ինչպես որ հրապարակված կլինի նրա ինտերնետային կայքում կամ այլ կերպ կտրամադրվի՝ ժամանակ առ ժամանակ կատարված հարցման դեպքում։ Հստակության նպատակով, տվյալ ապրանքանիշի սահմանափակումը սույն Լիցենզիայի մաս չի կազմում։
+         </p>
+         <p>
+          Creative Commons-ի հետ կարելի է կապ հաստատել
+          <a href="https://creativecommons.org/">
+           https://creativecommons.org/
+          </a>
+          ինտերնետային կայքի միջոցով։
+         </p>
+        </blockquote>
+        <!-- END CC NOTICE -->
+       </div>
+      </h2>
+     </div>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Public Domain Dedication
+      </a>
+      . Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+     </p>
+     <p>
+      Creative Commons may be contacted at
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
+  </main>
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
        </a>
       </li>
      </ul>
     </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
      </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 3.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
-       </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.en" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY 3.0 AM
-       </h2>
-       <h1 class="b-header">
-        Հղում 3.0 Հայաստան
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY 3.0 AM
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY 3.0 AM
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY 3.0 AM
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Հղում 3.0 Հայաստան
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Disclaimer
-       </h4>
-       <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.en">
-         Attribution 4.0 International
-        </a>
-       </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Հղում 3.0 Հայաստան
-        </h3>
-        <div id="deed-main-content">
-         <img alt="" src="https://creativecommons.org/images/international/am.png"/>
-         <blockquote>
-          Creative Commons կորպորացիան իրավաբանական ընկերություն չէ և իրավաբանական ծառայություններ չի մատուցում։ Սույն Լիցենզիայի տարածումը Կողմերի և Creative Commons-ի միջև իրավական հարաբերություններ չի ստեղծում։    Creative Commons-ը տրամադրված ինֆորմացիայի և բովանդակության հետ կապված որևէ երաշխիք չի տալիս և նրա օգտագործումից առաջացած վնասների համար պատասխանատվություն չի կրում։
-         </blockquote>
-         <h3>
-          <em>
-           Ոչ-բացառիկ լիցենզային պայմանագիր (Լիցենզիա)
-          </em>
-         </h3>
-         <p>
-          Ներքոհիշյալ ստեղծագործության (Ստեղծագործություն) նկատմամբ օգտագործման իրավունքները տրամադրվում են ըստ Creative Commons հանրային լիցենզիայի պայմանների («CCPL” կամ Լիցենզիա)։ Ստեղծագործության նկատմամբ Լիցենզատուի իրավունքները պաշտպանվում են «Հեղինակային իրավունքի և հարակից իրավունքների մասին» Հայաստանի Հանրապետության Օրենքով և/կամ այլ կիրառելի օրենսդրությամբ (այսուհետ՝ Օրենք)։  Ստեղծագործության օգտագործումը այլ կերպ, քան լիազորված է սույն Լիցենզիայով կամ Օրենքով արգելվում է։
-         </p>
-         <p>
-          Սույնով տրամադրվող Ստեղծագործության նկատմամբ ցանկացած իրավունքի օգտագործմամբ Լիցենզառուն ընդունում և համաձայնում է պարտավորված լինել սույն Լիցենզիայի պայմաններով։  Սույն Լիցենզիայի համաձայն, Լիցենզատուն Լիցենզառուին է տրամադրում Լիցենզիայում ամրագրված ոչ-բացառիկ իրավունքները պայմանով, որ Լիցենզառուն ընդունում է Լիցենզիայի պայմանները։
-         </p>
-         <p>
-          <strong>
-           1. Սահմանումներ
-          </strong>
-         </p>
-         <ol style="list-style:none">
-          <li>
-           <strong>
-            ա. Ածանցյալ ստեղծագործություններ
-           </strong>
-           ինքնուրույն ստեղծագործություններ, որոնց հիմքում ընկած է Ստեղծագործությունը կամ Ստեղծագործությունը և այլ այնպիսի նախօրոք գոյություն ունեցող ստեղծագործություններ, ինչպիսիք են՝ - թարգմանությունները, ադապտացիաները, փոխադրումները, դաշնավորումներն ու վերադաշնավորումները, մշակումներն ու վերամշակումները, բեմականացումները, տեսալսողական և կինեմատոգրաֆիկական ստեղծագործությունների վերափոխումները և գրականության, գիտության, արվեստի ստեղծագործությունների այլ վերափոխումները, որոնք գրականության, գիտության և արվեստի բնագավառներում հեղինակի ինքնուրույն կամ այլ հեղինակների հետ իրականացրած ստեղծագործական աշխատանքի յուրօրինակ արդյունք են, որն արտահայտված է բանավոր, գրավոր կամ այլ օբյեկտիվ ձևով, ներառյալ` մշտապես կամ ժամանակավոր պահպանվող էլեկտրոնային ձևը, անկախ ստեղծագործության ծավալից, նշանակությունից, արժանիքներից ու ստեղծման նպատակից (այսուհետ՝ Վերափոխում): Սույն Լիցենզիայի նպատակներով իրենից Վերափոխում ներկայացնող ստեղծագործությունը չի համարվում Կազմածո ստեղծագործություն (տես վարը)։ Հստակության նպատակով, համաձայն սույն Լիցենզիայի, Ստեղծագործության ժամանակային հարմարեցումը («սինխրոնիզացիան») շարժվող պատկերի հետ կհամարվի Վերափոխում, եթե Ստեղծագործությունը երաժշտական է, կատարում է կամ հնչյունագիր.
-          </li>
-          <li>
-           - ստեղծագործությունների ժողովածուները (հանրագիտարանները, անթոլոգիաները), տվյալների բազաները և այլ կազմածո ստեղծագործությունները, բացառությամբ սույն Բաժնի «զ» կետում նշված ստեղծագործությունների, որոնք ըստ իրենց պարունակության ընտրության և/կամ տեղաբաշխման, իրենցից ներկայացնում են մտավոր ստեղծագործական աշխատանքներ (այսուհետ՝ Կազմածո ստեղծագործություն): Կազմածո ստեղծագործություններում ընդգրկված ստեղծագործությունները ներառված են ամբողջական և անփոփոխ տեսքով, մեկ կամ մի քանի բաղկացուցիչ ընդգրկումների միջոցով, որոնցից յուրաքանչյուրը հանդիսանում է առանձին և անկախ ստեղծագործություն, և որոնք միասին կազմում են հավաքական ամբողջություն։  Սույն Լիցենզիայի նպատակներով իրենից Կազմածո ստեղծագործություն ներկայացնող ստեղծագործությունը չի համարվում Վերափոխում (տես վերը)։
-          </li>
-          <li>
-           <strong>
-            բ. Տարածում՝
-           </strong>
-           Ստեղծագործության կամ Վերափոխման բնօրինակը կամ օրինակները շրջանառության մեջ դնելը, մատչելի դարձնելը հանրության համար ՝ համապատասխանորեն վաճառքի կամ սեփականության իրավունքի փոխանցման այլ միջոցներով, ինչպես նաև դրանց ներմուծումը։
-          </li>
-          <li>
-           <strong>
-            գ. Լիցենզատու՝
-           </strong>
-           Ստեղծագործության նկատմամբ գույքային իրավունքներ ունեցող ֆիզիկական կամ իրավաբանական անձ(ինք), որն առաջարկում է Ստեղծագործության օգտագործման իրավունքներ՝ սույն Լիցենզիայի պայմաններին համապատասխան։
-          </li>
-          <li>
-           <strong>
-            դ. Հեղինակ՝
-           </strong>
-           այն ֆիզիկական անձը(ինք) (համահեղինակները, անկախ ստեղծագործության կառուցվածքից, եթե այլ բան նախատեսված չէ նրանց միջև կնքված պայմանագրով), ով ստեղծել է Ստեղծագործությունը։ Եթե հնարավոր չէ բացահայտել հեղինակի ինքնությունը կամ կեղծանունով լույսընծայման դեպքում, լույս ընծայող անձը, այլ ապացույցների բացակայության դեպքում, համարվում է հեղինակի ներկայացուցիչ և իրավասու է պաշտպանելու հեղինակի իրավունքներն ու ապահովելու դրանց իրականացումը: ե. Հարակից իրավունքների իրավատեր է՝  (1) կատարման դեպքում, դերասանը, երգիչը, երաժիշտը, պարողը, դիրիժորը, խմբավարը և այլ անձինք, ովքեր դերակատարում, երգում, ասմունքում, արտասանում, նվագում, ձայնակցում, մեկնաբանում կամ որևէ այլ կերպ կատարում են (այսուհետ՝ Կատարող) գրական կամ գեղարվեստական ստեղծագործություններ, կրկեսային, տիկնիկային, էստրադային և համանման այլ ներկայացումներ, ինչպես նաև ժողովրդական բանահյուսության և արվեստի ստեղծագործություններ. (2) Ֆոնոգրամի կամ ֆիլմի դեպքում, հնչյունագիր արտադրողը (պրոդյուսեր)՝ կատարման կամ այլ հնչյունները առաջինը ամրագրած ֆիզիկական կամ իրավաբանական անձը.  (3) հեռարձակվող հաղորդման դեպքում, տվյալ հեռարձակումն իրականացնող կազմակերպությունը, և . (4) տվյալների բազայի դեպքում, տվյալների բազա պատրաստողը. (5) հրատարակությունների հրատարակչական ձևավորումների դեպքում, հրատարակիչը։
-          </li>
-          <li>
-           <strong>
-            զ. Ստեղծագործություն՝
-           </strong>
-           հեղինակային իրավունքի օբյեկտ հանդիսացող ստեղծագործություն, որի իրավունքներն առաջարկված են սույն Լիցենզիայի պայմաններին համապատասխան, և որը գիտության և արվեստի բնագավառներում հեղինակի ինքնուրույն կամ այլ հեղինակների հետ իրականացրած ստեղծագործական աշխատանքի յուրօրինակ արդյունք է, ներառյալ առանց սահմանափակման, ցանկացած արտադրանք գրականության, գիտության և գեղարվեստի բնագավառում՝ անկախ նրա ձևից կամ արտահայտչամիջոցից, ներառյալ թվային ձևը, ինչպես օրինակ՝  i.    գրական, գիտական ստեղծագործությունները, դրամատիկական և երաժշտադրամատիկական ստեղծագործությունները, սցենարները, սցենարային պլանները, լիբրետոները և բեմական ցուցադրման այլ ստեղծագործությունները.  ii.    պարարվեստի և մնջախաղի ստեղծագործությունները. iii.    տեքստով կամ առանց տեքստի երաժշտական ստեղծագործությունները. iv.    տեսալսողական ստեղծագործությունները (կինո-հեռուստաֆիլմերը, անիմացիոն և մուլտիպլիկացիոն կինոնկարները, կարճ երաժշտական տեսահոլովակները, գովազդային, փաստագրական, փաստավավերագրական և այլ ֆիլմերը). v.    գեղանկարչության, քանդակագործության, գրաֆիկայի, դիզայնի և կերպարվեստի այլ ստեղծագործությունները. vi.    քաղաքաշինական, ճարտարապետական, այգեպուրակային արվեստի ստեղծագործությունները և դրանց լուծումները ինչպես ամբողջությամբ, այնպես էլ առանձին մասերը. vii.    լուսանկարչական և նման եղանակով ստեղծված ստեղծագործությունները, որոնք համապատասխանում են սույն կետի առաջին մասի դրույթներին. viii.    դեկորատիվ-կիրառական արվեստի և բեմական գրաֆիկայի ստեղծագործությունները. ix.    աշխարհագրությանը, տոպոգրաֆիային, երկրաբանությանը, քաղաքաշինությանը, ճարտարապետությանը և այլ գիտություններին վերաբերող քարտեզները, նախագծերը, էսքիզները և պլաստիկ ստեղծագործությունները. x.    ածանցյալ ստեղծագործությունները, այնքանով, որքանով դրանք պաշտպանված են որպես հեղինակային իրավունքի օբյեկտ: Սույն Լիցենզիայի իմաստով, այնքանով որքանով դրանք պաշտպանված են Օրենքով, Ստեղծագործություն են համարվում նաև հեղինակային իրավունքի օբյեկտ չհանդիսացող հարակից իրավունքների օբյեկտները, ինչպիսիք են՝ xi.    կատարումները, հնչյունագրերը, ֆիլմի առաջին ամրագրումները, հեռարձակող կազմակերպության հաղորդումները և տվյալների բազաները։
-          </li>
-          <li>
-           <strong>
-            է. Լիցենզառու՝
-           </strong>
-           սույն Լիցենզիայով տրամադրվող իրավունքներից օգտվող ֆիզիկական կամ իրավաբանական անձ, որը նախկինում չի խախտել Ստեղծագործությանն առնչվող սույն Լիցենզիայի պայմանները, իսկ խախտած լինելու դեպքում՝ ստացել է Լիցենզատուի հատուկ թույլտվությունը՝ օգտվելու սույն Լիցենզիայով տրամադրվող իրավունքներից:
-          </li>
-          <li>
-           <strong>
-            ը. Հանրությանը հաղորդում՝
-           </strong>
-           Ստեղծագործությունը հանրությանը մատչելի դարձնելը ցանկացած ձևով կամ գործընթացի միջոցով, այդ թվում՝ հաղորդալարով կամ առանց հաղորդալարի, կամ հանրային թվային կատարումների միջոցով, ինչպես նաև Ստեղծագործությունները հանրության անդամներին այնպիսի ձևով մատչելի դարձնելը, որ նրանք հասանելի լինեն հանրության անդամներին նրանց կողմից անհատապես ընտրված ցանկացած վայրում, նաև Ստեղծագործության մատուցումը հանրությանը՝ ցանկացած ձևով կամ գործընթացի միջոցով և Ստեղծագործության կատարումները, ներառյալ հանրային թվային կատարումները, հանրությանը հաղորդելը, Ստեղծագործության հեռարձակումն ու վերահեռարձակումը՝ ցանկացած ձևերով, այդ թվում՝ նշանների, հնչյունների կամ պատկերների միջոցով։
-          </li>
-          <li>
-           <strong>
-            թ. Վերարտադրում՝
-           </strong>
-           Ստեղծագործության ուղղակի կամ անուղղակի, ժամանակավոր կամ մշտական ամրագրումը ցանկացած կրիչի վրա, ցանկացած միջոցներով և ձևով, ամբողջությամբ կամ մասնակի:
-          </li>
-         </ol>
-         <p>
-          <strong>
-           2.    Ստեղծագործության ազատ օգտագործումը / Բացառիկ իրավունքների սահմանափակումները
-          </strong>
-          Սույն Լիցենզիայում ոչ մի կետ նպատակաուղղված չէ նվազեցնելու, սահմանափակելու կամ խոչընդոտելու ցանկացած օգտագործում, որն ազատ է հեղինակային և/կամ հարակից իրավունքների կամ այն իրավունքների պաշտպանությունից, որոնք ծագում են Օրենքի համաձայն հեղինակային և հարակից իրավունքների պաշտպանության առնչությամբ նախատեսված սահմանափակումներից և բացառություններից։
-         </p>
-         <p>
-          <strong>
-           3.    Լիցենզիայի տրամադրում
-          </strong>
-          Սույն Լիցենզիայի կետերին և պայմաններին համապատասխան, սույնով Լիցենզատուն Լիցենզառուին տրամադրում է տարածքային սահմանափակում չնախատեսող, անհատույց, ոչ-բացառիկ, մշտական (Լիցենզատուի գույքային իրավունքների տևողությանը համապատասխանող) լիցենզիա՝ իրականացնելու Ստեղծագործությանն առնչվող ստորև նշված իրավունքները՝
-         </p>
-         <ol style="list-style:none">
-          <li>
-           <strong>
-            ա.
-           </strong>
-           վերարտադրել Ստեղծագործությունը, ընդգրկել այն մեկ կամ մի քանի Կազմածո ստեղծագործություններում, ինչպես նաև վերարտադրել Կազմածո ստեղծագործությունների կազմում ընդգրկված Ստեղծագործությունը.
-          </li>
-          <li>
-           <strong>
-            բ.
-           </strong>
-           ստեղծել և վերարտադրել ածանցյալ ստեղծագործություններ, պայմանով, որ նման ցանկացած Ածանցյալ ստեղծագործության, այդ թվում՝ ցանկացած կրիչի վրա արված յուրաքանչյուր թարգմանության համար, ձեռնարկվում են ողջամիտ քայլեր՝ հստակորեն նշելու, սահմանագծելու կամ այլ կերպ հաստատելու այն, որ փոփոխություններ են արվել բնօրինակ Ստեղծագործությունում։  Օրինակ, թարգմանությանում կարող է նշվել, որ «Բնօրինակ Ստեղծագործությունը թարգմանվել է անգլերենից իսպաներեն», կամ ձևափոխությունում՝ «Բնօրինակ Ստեղծագործությունը ձևափոխված է»։
-          </li>
-          <li>
-           <strong>
-            գ.
-           </strong>
-           տարածել և հանրությանը հաղորդել Ստեղծագործությունը, այդ թվում՝ ինչպես ընդգրկված է Կազմածո ստեղծագործությունում։
-          </li>
-          <li>
-           <strong>
-            դ.
-           </strong>
-           տարածել և հանրությանը հաղորդել Վերափոխումներ։
-          </li>
-          <li>
-           <p>
-            Հստակության նպատակով կիրառելի է՝
-           </p>
-           <ol style="list-style:none">
-            <li>
-             <strong>
-              - Կամավոր լիցենզային սխեման.
-             </strong>
-             Լիցենզատուն հրաժարվում է իրավունքից՝ հավաքելու հոնորարներն անձամբ կամ, եթե Լիցենզատուն անդամակցում է Գույքային իրավունքները կոլեկտիվ հիմունքներով կառավարող կազմակերպությանը, այդ ընկերության միջոցով, սույն Լիցենզիայով Լիցենզառուին տրամադրված իրավունքից օգտվելու համար։
-            </li>
-            <li>
-             Եթե Լիցենզատուն, ազգային օրենսդրությանը համապատասխան, տվյալների բազայի «հատուկ» (sui generis) պայմանների իրավատեր է (տվյալների բազա պատրաստողների իրավունքների պաշտպանություն), ապա Լիցենզատուն հրաժարվում է այդ իրավունքներից։
-            </li>
-           </ol>
-          </li>
-         </ol>
-         <p>
-          Վերոհիշյալ իրավունքները կարող են իրականացվել ներկայումս հայտնի կամ հետագայում հայտնագործվելիք բոլոր միջոցներով և ձևաչափերով։ Վերոհիշյալ իրավունքների մեջ է մտնում նաև այնպիսի ձևափոխություններ անելու իրավունքը, որոնք տեխնիկապես անհրաժեշտ են այլ միջոցներով կամ ձևաչափերում իրավունքներն իրականացնելու համար։ Լիցենզատուի կողմից հատուկ չտրամադրված բոլոր իրավունքները սույնով վերապահվում են։
-         </p>
-         <p>
-          <strong>
-           4.    Սահմանափակումներ
-          </strong>
-          Վերոնշյալ 3-րդ Բաժնով տրամադրված Լիցենզիան հատկապես սահմանափակված և ենթակա է հետևյալ սահմանափակումների.
-         </p>
-         <ol style="list-style:none">
-          <li>
-           <strong>
-            ա.
-           </strong>
-           Լիցենզառուն կարող է տարածել կամ հանրությանը հաղորդել Ստեղծագործությունը միայն սույն Լիցենզիայի պայմաններով։ Լիցենզառուի տարածած կամ հանրությանը հաղորդած Ստեղծագործության յուրաքանչյուր օրինակի հետ նա պետք է ներառի սույն Լիցենզիայի մեկ օրինակ կամ վերջինիս Աղբյուրի համընդհանուր բացահայտիչը (Uniform Resource Identifier-URI)։  Լիցենզառուն չի կարող առաջարկել կամ պարտադրել Ստեղծագործությանն առնչվող այնպիսի պայմաններ, որոնք սահմանափակում են սույն Լիցենզիայի կետերը կամ Ստեղծագործությունը ստացողի հնարավորությունը՝ օգտվելու այն իրավունքներից, որոնք իրեն են տրամադրված Լիցենզիայի պայմաններով։ Ստեղծագործությունը Լիցենզառուի կողմից վերալիցենզավորվել չի կարող։ Սույն Լիցենզիայի, ինչպես նաև երաշխիքների տրամադրման վերաբերյալ բոլոր գրառումները պետք է պահպանվեն Լիցենզառուի տարածած կամ հանրությանը հաղորդած Ստեղծագործության յուրաքանչյուր օրինակի հետ միասին։  Ստեղծագործությունը տարածելիս կամ հանրությանը հաղորդելիս՝ Լիցենզառուն չի կարող Ստեղծագործության վրա ազդել այնպիսի տեխնոլոգիական միջոցներով, որոնք կսահմանափակեն Ստեղծագործությունը ստացողի հնարավորությունը՝ իրականացնելու այն իրավունքները, որոնք իրեն տրամադրվել են սույն Լիցենզիայի պայմաններով։ Սույն կետը կիրառվում է Կազմածո ստեղծագործության մաս կազմող Ստեղծագործության նկատմամբ, որը, սակայն, չի պահանջում, որպեսզի Կազմածո ստեղծագործությունն ինքը՝ Ստեղծագործությունից անջատ, ենթակա լինի սույն Լիցենզիայի պայմաններին։ Եթե Լիցենզառուն Կազմածո ստեղծագործություն կազմի, պետք է հնարավորինս, Հեղինակից կամ Հարակից իրավունքների իրավատիրոջից ծանուցում ստանալուն պես, Կազմածո ստեղծագործությունից վերացնի սույն Բաժնի «բ» կետով պահանջվող յուրաքանչյուր հղում։  Եթե Լիցենզառուն ստեղծի Վերափոխում, պետք է հնարավորինս, Հեղինակից կամ Հարակից իրավունքների իրավատիրոջից ծանուցում ստանալուն պես, Վերափոխումից վերացնի սույն Բաժնի «բ» կետով պահանջվող յուրաքանչյուր հղում։
-          </li>
-          <li>
-           <strong>
-            բ.
-           </strong>
-           Եթե Լիցենզառուն տարածում կամ հանրությանը հաղորդում է Ստեղծագործություն կամ որևէ Վերափոխում կամ Կազմածո ստեղծագործություն, նա պետք է, քանի դեռ չի արվել սույն Բաժնի «ա» կետով նախատեսված ծանուցումը, պահպանի Ստեղծագործության հեղինակային և հարակից իրավունքների հետ կապված բոլոր գրառումները և տրամադրի ներքոնշյալը՝ համապատասխան կրիչներով կամ Լիցենզատուի կողմից օգտագործվող այլ միջոցներով. (1) նշված լինելու դեպքում, Հեղինակի կամ հարակից իրավունքների իրավատիրոջ անունը (կամ, եթե կա, կեղծանունը), և/կամ, եթե Լիցենզատուի հեղինակային իրավունքի կամ հարակից իրավունքների գրառումներում, ծառայությունների պայմաններում կամ այլ պատշաճ միջոցով Հեղինակը և/կամ Լիցենզատուն հղումի համար նշանակում է այլ կողմ(եր) (օրինակ՝ հովանավոր հաստատություն, հրատարակիչ ընկերություն, ամսագիր), ապա տվյալ կողմի(երի) անունը/անվանումը, («Հղման ենթակա կողմեր»), (2) նշված լինելու դեպքում, Ստեղծագործության վերնագիրը, (3) այնքանով, որքանով կիրառելի է, Աղբյուրի համընդհանուր բացահայտիչը (URI), եթե կա այդպիսին, որը Լիցենզատուի նշմամբ կապված է Ստեղծագործության հետ, եթե միայն այդպիսի Աղբյուրի համընդհանուր բացահայտիչը (URI) չի վերաբերում հեղինակային կամ հարակից իրավունքներին առնչվող գրառմանը կամ Ստեղծագործության համար լիցենզավորման տեղեկատվությանը, և (4) Վերափոխման դեպքում՝ Ստեղծագործությունը վերափոխված օգտագործված լինելու մասին հղում՝ համաձայն 3-րդ Բաժնի «բ» կետի (օրինակ՝ «Հեղինակի կամ հարակից իրավունքների իրավատիրոջ ստեղծագործության ֆրանսերեն թարգմանությունը» կամ «Սցենար՝ ըստ հեղինակի կամ հարակից իրավունքների իրավատիրոջ Ստեղծագործության բնօրինակի»)։ Սույն կետով պահանջվող հղումը կարող է արվել ցանկացած ողջամիտ եղանակով, սակայն, պայմանով, որ Վերափոխման կամ Կազմածո ստեղծագործության դեպքում նվազագույնս կարվի, եթե արվել է Վերափոխման կամ Կազմածո ստեղծագործության բոլոր հեղինակների կամ հարակից իրավունքների իրավատերերի մասին հղում, այնուհետ նաև կարվի որպես տվյալ հղումների մի մաս և այն եղանակով, որն առնվազն այնքանով աչքի ընկնող կլինի, որքանով մնացած հեղինակների կամ հարակից իրավունքների իրավատերերի մասին հղումները։  Հստակության նպատակով, Լիցենզառուն կարող է օգտագործել միայն սույն Բաժնում պահանջվող հղումը վերը նախատեսված եղանակով հղում անելու համար և, սույն Լիցենզիային համապատախան Լիցենզառուի իրավունքներն իրականացնելիս Լիցենզառուն չի կարող ուղղակիորեն կամ անուղղակիորեն հաստատել կամ ենթադրել հեղինակի կամ հարակից իրավունքների իրավատիրոջ, Լիցենզատուի և/կամ հղման ենթակա կողմերի հետ կապը, նրանց հովանավորությունը կամ աջակցությունը՝ Լիցենզառուի կամ Ստեղծագործությունը Լիցենզառուի կողմից օգտագործված լինելու նկատմամբ, առանց հեղինակի կամ հարակից իրավունքների իրավատիրոջ և/կամ Լիցենզատուի և/կամ Հղման ենթակա կողմերի առանձնակի, նախնական հստակ գրավոր թույլտվության։
-          </li>
-          <li>
-           <strong>
-            գ.
-           </strong>
-           Հստակության նպատակով, սույն Բաժնի վերոնշյալ սահմանափակումները կիրառելի չեն սույն Լիցենցիայով «Ստեղծագործություն» տերմինի տակ ընկնող ստեղծագործության այն մասերի նկատմամբ, որոնք բացառապես, ազգային օրենսդրության համաձայն, բավարարում են տվյալների բազայի «հատուկ» (sui generis) պայմանների չափանիշներին։ դ. Հեղինակի և Կատարողի անձնական ոչ-գույքային իրավունքները պահպանվում են այնքանով, որքանով ճանաչվում և անօտարելի են Օրենքով։
-          </li>
-         </ol>
-         <p>
-          <strong>
-           5.    Հավաստագրեր և երաշխիքներ
-          </strong>
-         </p>
-         <p>
-          Հավաստագրեր և երաշխիքներ Լիցենզատուն հավաստում և երաշխավորում է, որ՝ i.    սույն Լիցենզիայի իրականացումը և կատարումը Լիցենզատուի լիազորությունների մեջ են մտնում և չեն հակասում Օրենքին.  ii.    Լիցենզատուն ամբողջությամբ տիրապետում է լիցենզավորված Ստեղծագործության նկատմամբ սեփականության իրավունքին և, որ լիցենզավորման գործընթացի առնչությամբ Լիցենզատուի համար որևէ իրավական խոչընդոտներ չկան.
-         </p>
-         <p>
-          <strong>
-           6.    Պատասխանատվության սահմանափակումները
-          </strong>
-          Օրենքով նախատեսված պահանջների և 5-րդ Բաժնի երաշխիքների խախտումներից բացի, Լիցենզատուն պատասխանատու է նաև այն վնասների համար, որոնք պատճառվել են դիտավորությամբ՝ անզգուշությամբ տեղ գտած գործողության կամ անգործության հետևանքով։
-         </p>
-         <p>
-          <strong>
-           7.    Դադարեցում
-          </strong>
-         </p>
-         <ol style="list-style:none">
-          <li>
-           <strong>
-            ա.
-           </strong>
-           Սույն Լիցենզիան և սույնով տրամադրված իրավունքներն ինքնաբերաբար դադարեցվում են, եթե Լիցենզառուն խախտել է սույն Լիցենզիայի պայմանները։  Այնուամենայնիվ, սույն Լիցենզիայով Լիցենզառուից Վերափոխումներ կամ Կազմածո ստեղծագործություններ ստացած ֆիզիկական կամ իրավաբանական անձանց Լիցենզիաները չեն դադարեցվի, պայմանով, որ այդ անձինք ամբողջովին գործում են համաձայն այդ Լիցենզիաների։  Սույն Լիցենզիայի գործողության դադարեցումից հետո 1, 2, 5, 6, 7 և 8 Բաժինները ուժի մեջ կմնան։
-          </li>
-          <li>
-           <strong>
-            բ.
-           </strong>
-           Վերոհիշյալ պայմաններին և կետերին համապատասխան տրամադրված Լիցենզիան անժամկետ է (գործում է Լիցենզատուի գույքային իրավունքների տևողության ընթացքում)։  Չնայած վերոհիշյալին՝ Լիցենզատուն իրեն իրավունք է վերապահում տրամադրել Ստեղծագործությունը տարբեր լիցենզային պայմաններով կամ ցանկացած ժամանակ դադարեցնել Ստեղծագործության տարածումը, սակայն միայն պայմանով, որ ցանկացած այդպիսի որոշման արդյունքում սույն Լիցենզիան (կամ ցանկացած այլ լիցենզիա, որը տրամադրվել է կամ պետք է տրամադրվի սույն Լիցենզիայի պայմաններով) հետ չի վերցվի, և սույն Լիցենզիան ամբողջությամբ ուժի մեջ կմնա, քանի դեռ չի դադարեցվել վերոհիշյալին համապատասխան։
-          </li>
-         </ol>
-         <p>
-          <strong>
-           8.    Այլ պայմաններ
-          </strong>
-         </p>
-         <ol style="list-style:none">
-          <li>
-           <strong>
-            ա.
-           </strong>
-           Ամեն անգամ, երբ Լիցենզառուն տարածում կամ հանրությանն է հաղորդում Ստեղծագործությունը կամ Կազմածո ստեղծագործությունը, Լիցենզատուն առաջարկում է ստացողին Ստեղծագործության նկատմամբ լիցենզիա այն նույն պայմաններով, որոնցով Լիցենզառուին է տրամադրվել լիցենզիա՝ սույն Լիցենզիային համապատասխան։
-          </li>
-          <li>
-           <strong>
-            բ.
-           </strong>
-           Ամեն անգամ, երբ Լիցենզառուն տարածում կամ հանրությանն է հաղորդում Վերափոխումը, Լիցենզատուն առաջարկում է ստացողին Ստեղծագործության բնօրինակի նկատմամբ լիցենզիա այն նույն պայմաններով, որոնցով Լիցենզառուին է տրամադրվել լիցենզիա՝ սույն Լիցենզիային համապատասխան։
-          </li>
-          <li>
-           <strong>
-            գ.
-           </strong>
-           Եթե սույն Լիցենզիայի որևէ դրույթ Օրենքով անվավեր կամ ոչ կիրառելի է, դա չի ազդում սույն Լիցենզիայի մյուս պայմանների վավերության կամ կիրառելիության վրա, և եթե կողմերը սույն Լիցենզիայի նկատմամբ հետագա գործողություններ չեն իրականացնում, այդ դրույթը նվազագույն չափով պետք է փոփոխվի, որպեսզի վավեր և կիրառելի դառնա։
-          </li>
-          <li>
-           <strong>
-            դ.
-           </strong>
-           Սույն Լիցենզիայի ոչ մի պայմանից կամ դրույթից չի կարելի հրաժարվել, և ոչ մի խախտում չի թույլատրվում, եթե այդպիսի հրաժարումը կամ թույլատրումը կազմված չէ գրավոր, և եթե այն կողմը, որի վրա այդպիսի հրաժարման կամ թույլատրումի համար պատասխանատվություն է դրված, չի ստորագրել այն։
-          </li>
-          <li>
-           <strong>
-            ե.
-           </strong>
-           Սույն Լիցենզիան հանդիսանում է ամբողջական համաձայնագիր և հաստատում է դրանով լիցենզավորված Ստեղծագործության առնչությամբ կողմերի միջև եղած համաձայնությունը։ Ստեղծագործության առնչությամբ սույն Լիցենզիայում չնշված փոխադարձ համաձայնություն, համաձայնագրեր կամ հավաստագրեր չկան։  Լիցենզատուն չպետք է պարտավորված լինի այլ լրացուցիչ դրույթներով, որոնք կարող են ի հայտ գալ Լիցենզառուի կողմից։  Սույն Լիցենզիան չի կարող փոփոխվել առանց Լիցենզատուի և Լիցենզառուի միջև եղած փոխադարձ գրավոր համաձայնության։
-          </li>
-          <li>
-           <p>
-            <strong>
-             9. Կիրառելի իրավունք և վեճերի կարգավորում
-            </strong>
-           </p>
-           Սույն Լիցենզիայի նկատմամբ կիրառվում է Հայաստանի Հանրապետության օրենսդրությունը այնքանով, որքանով սույն Լիցենզիայի կողմերի (Լիցենզատու և Լիցենզառու) միջև այլ համաձայնություն ձեռք չի բերվել։
-          </li>
-         </ol>
-         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
-         <blockquote>
-          <h3>
-           Creative Commons-ի Ծանուցումը
-          </h3>
-          <p>
-           Creative Commons-ը սույն Լիցենզիայի կողմ չի հանդիսանում և Ստեղծագործության հետ կապված որևէ երաշխիք չի տրամադրում։  Creative Commons-ը ոչ մի դեպքում չպետք է պատասխանատու լինի Լիցենզառուի կամ որևէ այլ կողմի նկատմամբ որևէ իրավական տեսությամբ, հատուկ, պատահական, անուղղակի, պատժիչ կամ տուգանքի ենթակա վնասների համար, որոնք առաջացել են սույն Լիցենզիայից։  Չնայած վերոհիշյալ երկու (2) նախադասություններին՝ եթե Creative Commons-ը որոշակիորեն նույնականացվում է Լիցենզատուի հետ, այն պետք է ունենա Լիցենզատուի բոլոր իրավունքներն ու պարտականությունները։
-          </p>
-          <p>
-           Բացի սահմանափակ նպատակի՝ հանրությանը տեղեկացնելու, որ Ստեղծագործության օգտագործումը լիցենզավորված է Creative Commons-ի հանրային լիցենզիայով, Creative Commons-ը կողմերից ոչ մեկին չի լիազորում «Creative Commons» ապրանքանիշի, ցանկացած հարակից ապրանքանիշի կամ Creative Commons-ի լոգոյի օգտագործումը՝ առանց Creative Commons-ից նախօրոք գրավոր համաձայնություն ստանալու։  Ցանկացած թույլատրվող օգտագործում կհամապատասխանի Creative Commons-ի՝ այդ պահին գործող, ապրանքանիշային ուղեցույցին, ինչպես որ հրապարակված կլինի նրա ինտերնետային կայքում կամ այլ կերպ կտրամադրվի՝ ժամանակ առ ժամանակ կատարված հարցման դեպքում։ Հստակության նպատակով, տվյալ ապրանքանիշի սահմանափակումը սույն Լիցենզիայի մաս չի կազմում։
-          </p>
-          <p>
-           Creative Commons-ի հետ կարելի է կապ հաստատել
-           <a href="https://creativecommons.org/">
-            https://creativecommons.org/
-           </a>
-           ինտերնետային կայքի միջոցով։
-          </p>
-         </blockquote>
-         <!-- END CC NOTICE -->
-        </div>
-       </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </section>
-  </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

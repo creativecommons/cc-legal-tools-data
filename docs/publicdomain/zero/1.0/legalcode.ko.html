@@ -4,521 +4,585 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 이용허락규약 — CC0 1.0 보편적 — Creative Commons
+   CC0 1.0 이용허락규약 | CC0 1.0 보편적
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.ko" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        홈
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        퍼블릭 도메인
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.ko">
-        CC0 1.0 이용허락규약
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" selected="" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" selected="" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.ko" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 이용허락규약
+    </h1>
+    <h2>
+     CC0 1.0 보편적
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 공통
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            목적
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. 저작권 및 관련 권리.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. 권리 포기.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. 공중 라이선스의 보완.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. 제한 및 책임.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          목적
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. 저작권 및 관련 권리.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. 권리 포기.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. 공중 라이선스의 보완.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. 제한 및 책임.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 공통
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 공통
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        ‘크리에이티브 커먼즈(Creative Commons)’는 법률사무소가 아니며 법률 서비스나 법률 자문을 제공하지 않습니다. 크리에이티브 커먼즈 공중 라이선스의 배포가 법률 서비스를 의미하는 것은 아니며, 단지 라이선스 및 관련 정보를 있는 그대로 제공할 뿐입니다. ‘크리에이티브 커먼즈’는 라이선스, 이용허락된 모든 저작물, 또는 모든 관련 정보에 대하여 어떠한 보증도 하지 않습니다. ‘크리에이티브 커먼즈'는 그 이용으로 인하여 야기되는 손해에 대하여 어떠한 책임도 부담하지 않습니다.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        크리에이티브 커먼즈 공중 라이선스의 사용
-       </h4>
-       <p class="has-text-black body-big">
-        크리에이티브 커먼즈 공중 라이선스는 창작자와 그 밖의 권리자가 아래의 공중 라이선스에 명시된 저작권과 그 밖의 특정 권리들에 의하여 보호되는 독창적인 창작물 및 그 밖의 저작물을 공유하기 위하여 사용할 수 있는 일련의 표준 약관을 제공합니다. 아래의 유의사항은 정보 제공 목적으로 제공되는 것일 뿐 그에 한정되지 않으며, 라이선스의 내용이 되는 것도 아닙니다.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         이용허락자 유의사항
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         크리에이티브 커먼즈 공중 라이선스는 저작권 및 기타 특정 권리의 보호를 받는 저작물을 공중이 이용할 수 있도록 허락할 권한이 있는 자만 적용할 수 있습니다. 크리에이티브 커먼즈 공중 라이선스는 철회가 불가능하므로 적용하기 전에 선택하고자 하는 라이선스의 조건을 꼼꼼히 읽고 이해하여야 합니다. 공중이 해당 저작물을 허락받은 대로 재사용할 수 있도록 이용허락에 필요한 모든 권리를 보유해야 합니다. 다른 CC 라이선스가 적용되었거나 저작권의 제한 또는 예외 조건에 따라 사용되는 저작물 등, 해당 크리에이티브 커먼즈 라이선스가 적용되지 않는 대상을 명확하게 표시하여야 합니다.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          자세한 이용허락자 유의사항 보기.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         이용시 유의사항
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         크리에이티브 커먼즈 공중 라이선스 중 하나를 적용함으로써 이용허락자는 자신의 저작물을 일정한 조건에 따라 누구든지 이용하도록 허락합니다. 만일 저작권의 예외 또는 제한 사유 등에 해당하여 이용허락을 받을 필요가 없는 경우에는 크리에이티브 커먼즈 라이선스가 적용되지 않습니다. 크리에이티브 커먼즈 라이선스는 이용허락자가 허락할 권한을 갖는 저작권 또는 그 밖의 특정 권리에 대해서만 효력이 있습니다. 해당 저작물에 대해 타인이 저작권 또는 그 밖의 권리를 갖는 등의 다른 사유가 있을 경우에는 이용이 제한될 수 있습니다. 이용허락자는 모든 변경 사항의 표시나 기재 등 특별한 요청을 할 수도 있습니다. 크리에이티브 커먼즈 공중 라이선스에 규정된 것이 아니라 하더라도 합리적인 요청일 경우 존중해 주시기 바랍니다.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          자세한 이용자 유의사항 보기.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 공통
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          ‘크리에이티브 커먼즈(Creative Commons)’는 법률사무소가 아니며 법률 서비스나 법률 자문을 제공하지 않습니다. 크리에이티브 커먼즈 공중 라이선스의 배포가 법률 서비스를 의미하는 것은 아니며, 단지 라이선스 및 관련 정보를 있는 그대로 제공할 뿐입니다. ‘크리에이티브 커먼즈’는 라이선스, 이용허락된 모든 창작물, 또는 모든 관련 정보에 대하여 어떠한 보증도 하지 않습니다. ‘크리에이티브 커먼즈’는 그 이용으로 인하여 야기되는 손해에 대하여 어떠한 책임도 부담하지 않습니다.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           목적
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          전 세계 대부분 국가의 법률에서는 저작물 및 데이터베이스(이하 각각 ‘창작물’)의 창작자 및 승계인(이하 ‘권리자’)에게 배타적 저작권 및 관련 권리(아래 정의)를 자동으로 부여합니다.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          공중이 영리적 목적을 포함한 어떠한 목적으로든 권리 침해 소송을 당할 두려움없이 가능한 한 자유롭게 원하는 형태로, 재창작하고, 수정하고, 다른 저작물에 결합하고, 재사용하고, 재배포할 수 있는 창작, 문화, 과학 창작물의 커먼즈(이하 ‘커먼즈’)에 기여할 목적으로, 자신의 창작물에 대한 이러한 권리를 영구적으로 포기하고자 하는 사람들이 있습니다.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          이러한 목적과 동기 또는 그밖의 목적과 동기를 위해 추가적인 대가나 보상을 바라지 않고, 자신이 저작권이나 관련 권리를 갖는 범위 내에서 창작물에 CC0를 적용하는 사람(이하 ‘확약자’)은 창작물에 대한 본인의 저작권 및 관련 권리와 함께 CC0의 의미 및 CC0가 그러한 권리에 미치는 법적 효력을 이해한 상태에서 자발적으로 창작물에 CC0를 적용합니다.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. 저작권 및 관련 권리.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          CC0로 공유되는 창작물은 저작권 및 관련 권리 또는 저작인접권(이하 ‘저작권 및 관련 권리’)에 의해 보호됩니다. 저작권 및 관련 권리는 다음을 포함하나 이에 한정되지 않습니다.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           창작물을 복제, 변경, 배포, 공연, 전시, 공중송신, 번역할 권리
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           원작자 및 공연자가 갖는 저작인격권
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           창작물에 표현된 인물의 이미지나 초상과 관련한 퍼블리시티권과 프라이버시권
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           창작물과 관련하여 불공정 경쟁으로부터 보호받을 권리(단, 아래 4(a)항의 제한사항이 적용됨)
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           창작물의 데이터를 추출, 배포, 사용, 재사용하는 것으로부터 보호받을 권리
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           데이터베이스 권리(예를 들어 1996 년 3 월 11 일 유럽 의회 및 유럽위원회의 데이터베이스의 법적 보호에 관한 96/9/EC 지침과 그러한 지침의 국가 차원의 이행에 따라 발생하는 권리로, 지침의 개정판 및 후속 버전을 포함함)
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           그 밖에 전 세계에서 관련 법 또는 조약에 따라, 또는 그러한 법 또는 조약의 국가 차원의 이행에 따라 발생하는 유사하거나 동일 또는 상응하는 권리.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. 권리 포기.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          해당 법률에 반하지 않고 허용되는 최대한의 범위 내에서, 확약자는 (i) 전 세계 모든 지역에서 (ii) 관련 법 또는 조약에서 정한 최대 기간 동안(미래의 기간 연장 포함) (iii) 현재 및 미래의 어떠한 형태의 매체로든 복제본의 수에 제한없이 (iv) 영리, 광고, 홍보 목적을 포함한 모든 목적으로 창작물에 대한 확약자 본인의 일체의 저작권 및 관련 권리, 현재 알려진 것과 알려지지 않은 관련 청구 및 청구 원인(현재와 미래의 청구 및 청구 원인을 포함)을 명시적으로, 완전히, 영구적으로, 되돌릴 수 없이, 무조건적으로 포기하고 주장하지 않습니다(이하 ‘권리 포기’). 확약자는 공중의 모든 구성원의 이익을 위해 확약자의 상속인 및 승계인에 대한 불이익을 감수하고 권리를 포기하며, 그러한 권리 포기는 철회, 취소, 해지, 종료, 그 밖에 확약자가 ‘목적’에서 명시적으로 나타낸 바와 같은 공중의 창작물 향유를 해치는 어떠한 법적 소송 또는 형평법상의 조치의 대상이 되지 않음을 이로써 분명히 밝힙니다.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. 공중 라이선스의 보완.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          관련 법에 따라 본 권리 포기의 일부분이 어떠한 이유에서든 법적 효력이 없거나 무효인 것으로 판단될 경우, 본 권리 포기는 확약자의 명시적 ‘목적’을 고려하여 허용되는 범위 내에서 최대한 유지되어야 합니다. 또한 본 권리 포기가 그렇게 판단되는 한도 내에서, 확약자는 그러한 결정으로 인해 영향을 받는 모든 사람에게 (i) 전 세계 모든 지역에서 (ii) 관련 법 또는 조약에서 정한 최대 기간 동안(미래의 기간 연장 포함) (iii) 현재 및 미래의 모든 매체 형태로 복제 횟수에 제한없이 (iv) 영리, 광고, 홍보 목적을 포함한 모든 목적에 대해 사용료가 없고, 양도 및 재이용허락이 불가하고, 비배타적이고, 되돌릴 수 없으며 조건 없는 라이선스를 허가합니다(이하 ‘라이선스’). 라이선스는 확약자에 의해 작품에 CC0가 적용된 날로부터 효력이 발생한 것으로 봅니다. 관련 법에 따라 라이선스의 어떤 부분이 어떠한 이유에서든 법적 효력이 없거나 무효인 것으로 판단될 경우, 이와 같이 일부분이 법적 효력이 없거나 무효라는 사실로 인해 라이선스의 나머지 부분도 효력을 잃는 것은 아니며, 그런 경우에 확약자는 (i) 창작물의 나머지 저작권 및 관련 권리를 행사하지도, (ii) 창작물과 관련해 어떠한 관련 청구 및 청구 원인도 주장하지 않을 것임을 이로써 확인합니다.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. 제한 및 책임.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            확약자가 갖는 일체의 상표권 또는 특허권은 포기되거나 이용허락되지 않으며, 그 밖에 이 문서에 의해 영향을 받지 않습니다.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            확약자는 이 창작물을 있는 그대로 제공하며, 창작물과 관련하여 명시적, 묵시적으로든, 법 규정에 의거해서나 그 밖에 다른 방식으로든 일체의 진술 및 보증을 제공하지 않습니다. 여기에는 권원, 상품성, 특정 목적 적합성, 비침해, 또는 잠재적 결함 및 그 밖의 결함의 부재, 정확성, 또는 발견 가능한 것이든 아니든 오류의 유무에 대한 보증이 포함되며, 해당 법에 따라 허용 가능한 최대한의 범위 내에서 가능한 경우가 모두 포함됩니다.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            확약자는 본 창작물에 대한 모든 이의 저작권 및 관련 권리를 포함하여 본 창작물 및 그 이용에 적용되는 타인의 권리를 처리할 책임을 지지 않습니다. 나아가 확약자는 본 창작물의 이용을 위해 필요한 동의, 허락 및 그 밖의 권리를 취득할 책임도 지지 않습니다.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            확약자는 크리에이티브 커먼즈는 이 문서의 당사자가 아니며 이 CC0 또는 창작물의 사용과 관련하여 어떠한 의무나 책임도 지지 않음을 이해하고 동의합니다.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        크리에이티브 커먼즈는 공중 라이선스의 당사자가 아닙니다. 다만 크리에이티브 커먼즈도 자신이 출판한 저작물에 크리에이티브 커먼즈 공중 라이선스 중 하나를 적용할 수 있으며 그런 경우에는 ‘이용허락자’로 취급됩니다. 크리에이티브 커먼즈 공중 라이선스의 텍스트는
-        <a href="/publicdomain/zero/1.0/legalcode.ko">
-         CC0 퍼블릭 도메인 기증
-        </a>
-        에 따라 퍼블릭 도메인에 기증되었습니다. 크리에이티브 커먼즈는, 크리에이티브 커먼즈 공중 라이선스에 따라 저작물이 공유되거나
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        에 공표된 크리에이티브 커먼즈 정책에 의해서 허가되었음을 나타내는 제한된 목적 외에는, 사전에 서면동의를 받지 않는 한, 이용허락된 저작물의 이용에 관한 공중 라이선스 또는 합의, 이해 또는 동의에 대한 임의적인 변경과 관련된 경우를 포함한 모든 경우에 있어서, ‘Creative Commons’ 상표 또는 크리에이티브 커먼즈의 다른 상표나 로고의 이용을 허락하지 않습니다. 본 문구는 공중 라이선스의 일부를 구성하지 않습니다.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        크리에이티브 커먼즈 관련 문의는
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        를 통해 할 수 있습니다.
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.ko">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      크리에이티브 커먼즈 공중 라이선스의 사용
+     </h2>
+     <p>
+      크리에이티브 커먼즈 공중 라이선스는 창작자와 그 밖의 권리자가 아래의 공중 라이선스에 명시된 저작권과 그 밖의 특정 권리들에 의하여 보호되는 독창적인 창작물 및 그 밖의 저작물을 공유하기 위하여 사용할 수 있는 일련의 표준 약관을 제공합니다. 아래의 유의사항은 정보 제공 목적으로 제공되는 것일 뿐 그에 한정되지 않으며, 라이선스의 내용이 되는 것도 아닙니다.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      이용허락자 유의사항
+     </h3>
+     <p>
+      크리에이티브 커먼즈 공중 라이선스는 저작권 및 기타 특정 권리의 보호를 받는 저작물을 공중이 이용할 수 있도록 허락할 권한이 있는 자만 적용할 수 있습니다. 크리에이티브 커먼즈 공중 라이선스는 철회가 불가능하므로 적용하기 전에 선택하고자 하는 라이선스의 조건을 꼼꼼히 읽고 이해하여야 합니다. 공중이 해당 저작물을 허락받은 대로 재사용할 수 있도록 이용허락에 필요한 모든 권리를 보유해야 합니다. 다른 CC 라이선스가 적용되었거나 저작권의 제한 또는 예외 조건에 따라 사용되는 저작물 등, 해당 크리에이티브 커먼즈 라이선스가 적용되지 않는 대상을 명확하게 표시하여야 합니다.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       자세한 이용허락자 유의사항 보기.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      이용시 유의사항
+     </h3>
+     <p>
+      크리에이티브 커먼즈 공중 라이선스 중 하나를 적용함으로써 이용허락자는 자신의 저작물을 일정한 조건에 따라 누구든지 이용하도록 허락합니다. 만일 저작권의 예외 또는 제한 사유 등에 해당하여 이용허락을 받을 필요가 없는 경우에는 크리에이티브 커먼즈 라이선스가 적용되지 않습니다. 크리에이티브 커먼즈 라이선스는 이용허락자가 허락할 권한을 갖는 저작권 또는 그 밖의 특정 권리에 대해서만 효력이 있습니다. 해당 저작물에 대해 타인이 저작권 또는 그 밖의 권리를 갖는 등의 다른 사유가 있을 경우에는 이용이 제한될 수 있습니다. 이용허락자는 모든 변경 사항의 표시나 기재 등 특별한 요청을 할 수도 있습니다. 크리에이티브 커먼즈 공중 라이선스에 규정된 것이 아니라 하더라도 합리적인 요청일 경우 존중해 주시기 바랍니다.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       자세한 이용자 유의사항 보기.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 공통
+     </h2>
+     <p>
+      ‘크리에이티브 커먼즈(Creative Commons)’는 법률사무소가 아니며 법률 서비스나 법률 자문을 제공하지 않습니다. 크리에이티브 커먼즈 공중 라이선스의 배포가 법률 서비스를 의미하는 것은 아니며, 단지 라이선스 및 관련 정보를 있는 그대로 제공할 뿐입니다. ‘크리에이티브 커먼즈’는 라이선스, 이용허락된 모든 창작물, 또는 모든 관련 정보에 대하여 어떠한 보증도 하지 않습니다. ‘크리에이티브 커먼즈’는 그 이용으로 인하여 야기되는 손해에 대하여 어떠한 책임도 부담하지 않습니다.
+     </p>
+     <h3 id="sop">
+      목적
+     </h3>
+     <p>
+      전 세계 대부분 국가의 법률에서는 저작물 및 데이터베이스(이하 각각 ‘창작물’)의 창작자 및 승계인(이하 ‘권리자’)에게 배타적 저작권 및 관련 권리(아래 정의)를 자동으로 부여합니다.
+     </p>
+     <p>
+      공중이 영리적 목적을 포함한 어떠한 목적으로든 권리 침해 소송을 당할 두려움없이 가능한 한 자유롭게 원하는 형태로, 재창작하고, 수정하고, 다른 저작물에 결합하고, 재사용하고, 재배포할 수 있는 창작, 문화, 과학 창작물의 커먼즈(이하 ‘커먼즈’)에 기여할 목적으로, 자신의 창작물에 대한 이러한 권리를 영구적으로 포기하고자 하는 사람들이 있습니다.
+     </p>
+     <p>
+      이러한 목적과 동기 또는 그밖의 목적과 동기를 위해 추가적인 대가나 보상을 바라지 않고, 자신이 저작권이나 관련 권리를 갖는 범위 내에서 창작물에 CC0를 적용하는 사람(이하 ‘확약자’)은 창작물에 대한 본인의 저작권 및 관련 권리와 함께 CC0의 의미 및 CC0가 그러한 권리에 미치는 법적 효력을 이해한 상태에서 자발적으로 창작물에 CC0를 적용합니다.
+     </p>
+     <h3 id="copyright">
+      1. 저작권 및 관련 권리.
+     </h3>
+     <p>
+      CC0로 공유되는 창작물은 저작권 및 관련 권리 또는 저작인접권(이하 ‘저작권 및 관련 권리’)에 의해 보호됩니다. 저작권 및 관련 권리는 다음을 포함하나 이에 한정되지 않습니다.
+     </p>
+     <ol type="i">
+      <li>
+       창작물을 복제, 변경, 배포, 공연, 전시, 공중송신, 번역할 권리
+      </li>
+      <li>
+       원작자 및 공연자가 갖는 저작인격권
+      </li>
+      <li>
+       창작물에 표현된 인물의 이미지나 초상과 관련한 퍼블리시티권과 프라이버시권
+      </li>
+      <li>
+       창작물과 관련하여 불공정 경쟁으로부터 보호받을 권리(단, 아래 4(a)항의 제한사항이 적용됨)
+      </li>
+      <li>
+       창작물의 데이터를 추출, 배포, 사용, 재사용하는 것으로부터 보호받을 권리
+      </li>
+      <li>
+       데이터베이스 권리(예를 들어 1996 년 3 월 11 일 유럽 의회 및 유럽위원회의 데이터베이스의 법적 보호에 관한 96/9/EC 지침과 그러한 지침의 국가 차원의 이행에 따라 발생하는 권리로, 지침의 개정판 및 후속 버전을 포함함)
+      </li>
+      <li>
+       그 밖에 전 세계에서 관련 법 또는 조약에 따라, 또는 그러한 법 또는 조약의 국가 차원의 이행에 따라 발생하는 유사하거나 동일 또는 상응하는 권리.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. 권리 포기.
+     </h3>
+     <p>
+      해당 법률에 반하지 않고 허용되는 최대한의 범위 내에서, 확약자는 (i) 전 세계 모든 지역에서 (ii) 관련 법 또는 조약에서 정한 최대 기간 동안(미래의 기간 연장 포함) (iii) 현재 및 미래의 어떠한 형태의 매체로든 복제본의 수에 제한없이 (iv) 영리, 광고, 홍보 목적을 포함한 모든 목적으로 창작물에 대한 확약자 본인의 일체의 저작권 및 관련 권리, 현재 알려진 것과 알려지지 않은 관련 청구 및 청구 원인(현재와 미래의 청구 및 청구 원인을 포함)을 명시적으로, 완전히, 영구적으로, 되돌릴 수 없이, 무조건적으로 포기하고 주장하지 않습니다(이하 ‘권리 포기’). 확약자는 공중의 모든 구성원의 이익을 위해 확약자의 상속인 및 승계인에 대한 불이익을 감수하고 권리를 포기하며, 그러한 권리 포기는 철회, 취소, 해지, 종료, 그 밖에 확약자가 ‘목적’에서 명시적으로 나타낸 바와 같은 공중의 창작물 향유를 해치는 어떠한 법적 소송 또는 형평법상의 조치의 대상이 되지 않음을 이로써 분명히 밝힙니다.
+     </p>
+     <h3 id="fallback">
+      3. 공중 라이선스의 보완.
+     </h3>
+     <p>
+      관련 법에 따라 본 권리 포기의 일부분이 어떠한 이유에서든 법적 효력이 없거나 무효인 것으로 판단될 경우, 본 권리 포기는 확약자의 명시적 ‘목적’을 고려하여 허용되는 범위 내에서 최대한 유지되어야 합니다. 또한 본 권리 포기가 그렇게 판단되는 한도 내에서, 확약자는 그러한 결정으로 인해 영향을 받는 모든 사람에게 (i) 전 세계 모든 지역에서 (ii) 관련 법 또는 조약에서 정한 최대 기간 동안(미래의 기간 연장 포함) (iii) 현재 및 미래의 모든 매체 형태로 복제 횟수에 제한없이 (iv) 영리, 광고, 홍보 목적을 포함한 모든 목적에 대해 사용료가 없고, 양도 및 재이용허락이 불가하고, 비배타적이고, 되돌릴 수 없으며 조건 없는 라이선스를 허가합니다(이하 ‘라이선스’). 라이선스는 확약자에 의해 작품에 CC0가 적용된 날로부터 효력이 발생한 것으로 봅니다. 관련 법에 따라 라이선스의 어떤 부분이 어떠한 이유에서든 법적 효력이 없거나 무효인 것으로 판단될 경우, 이와 같이 일부분이 법적 효력이 없거나 무효라는 사실로 인해 라이선스의 나머지 부분도 효력을 잃는 것은 아니며, 그런 경우에 확약자는 (i) 창작물의 나머지 저작권 및 관련 권리를 행사하지도, (ii) 창작물과 관련해 어떠한 관련 청구 및 청구 원인도 주장하지 않을 것임을 이로써 확인합니다.
+     </p>
+     <h3 id="limitations">
+      4. 제한 및 책임.
+     </h3>
+     <ol type="a">
+      <li>
+       확약자가 갖는 일체의 상표권 또는 특허권은 포기되거나 이용허락되지 않으며, 그 밖에 이 문서에 의해 영향을 받지 않습니다.
+      </li>
+      <li>
+       확약자는 이 창작물을 있는 그대로 제공하며, 창작물과 관련하여 명시적, 묵시적으로든, 법 규정에 의거해서나 그 밖에 다른 방식으로든 일체의 진술 및 보증을 제공하지 않습니다. 여기에는 권원, 상품성, 특정 목적 적합성, 비침해, 또는 잠재적 결함 및 그 밖의 결함의 부재, 정확성, 또는 발견 가능한 것이든 아니든 오류의 유무에 대한 보증이 포함되며, 해당 법에 따라 허용 가능한 최대한의 범위 내에서 가능한 경우가 모두 포함됩니다.
+      </li>
+      <li>
+       확약자는 본 창작물에 대한 모든 이의 저작권 및 관련 권리를 포함하여 본 창작물 및 그 이용에 적용되는 타인의 권리를 처리할 책임을 지지 않습니다. 나아가 확약자는 본 창작물의 이용을 위해 필요한 동의, 허락 및 그 밖의 권리를 취득할 책임도 지지 않습니다.
+      </li>
+      <li>
+       확약자는 크리에이티브 커먼즈는 이 문서의 당사자가 아니며 이 CC0 또는 창작물의 사용과 관련하여 어떠한 의무나 책임도 지지 않음을 이해하고 동의합니다.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      크리에이티브 커먼즈는 공중 라이선스의 당사자가 아닙니다. 다만 크리에이티브 커먼즈도 자신이 출판한 저작물에 크리에이티브 커먼즈 공중 라이선스 중 하나를 적용할 수 있으며 그런 경우에는 ‘이용허락자’로 취급됩니다. 크리에이티브 커먼즈 공중 라이선스의 텍스트는
+      <a href="/publicdomain/zero/1.0/legalcode.ko">
+       CC0 퍼블릭 도메인 기증
+      </a>
+      에 따라 퍼블릭 도메인에 기증되었습니다. 크리에이티브 커먼즈는, 크리에이티브 커먼즈 공중 라이선스에 따라 저작물이 공유되거나
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      에 공표된 크리에이티브 커먼즈 정책에 의해서 허가되었음을 나타내는 제한된 목적 외에는, 사전에 서면동의를 받지 않는 한, 이용허락된 저작물의 이용에 관한 공중 라이선스 또는 합의, 이해 또는 동의에 대한 임의적인 변경과 관련된 경우를 포함한 모든 경우에 있어서, ‘Creative Commons’ 상표 또는 크리에이티브 커먼즈의 다른 상표나 로고의 이용을 허락하지 않습니다. 본 문구는 공중 라이선스의 일부를 구성하지 않습니다.
+     </p>
+     <p>
+      크리에이티브 커먼즈 관련 문의는
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      를 통해 할 수 있습니다.
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

@@ -4,525 +4,678 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-ND 2.5 SCOTLAND Legal Code — Attribution-NonCommercial-NoDerivs 2.5 UK: Scotland — Creative Commons
+   CC BY-NC-ND 2.5 SCOTLAND Legal Code | Attribution-NonCommercial-NoDerivs 2.5 UK: Scotland
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-nd/2.5/scotland/legalcode.en-gb" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Home
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-nd/2.5/scotland/legalcode.en-gb">
-        CC BY-NC-ND 2.5 SCOTLAND Legal Code
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
+       </a>
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nd">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-ND 2.5 SCOTLAND Legal Code
+    </h1>
+    <h2>
+     Attribution-NonCommercial-NoDerivs 2.5 UK: Scotland
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.en">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 2.5 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.en">
+       CC BY-NC-ND 4.0 Legal Code | Attribution-NonCommercial-NoDerivs 4.0 International
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       Attribution - Non-commercial - No-Derivatives 2.5 Scotland
+       <div id="deed">
+        <div class="text">
+         <div class="fineprint" style="background:none;">
+          CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENCE DOES NOT CREATE AN AGENT-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
+         </div>
+         <p>
+          <em>
+           Licence
+          </em>
+         </p>
+         <p>
+          This Creative Commons Scotland public licence enables You to Use the Work worldwide for non-commercial purposes provided that You keep to the terms of this Licence.
+         </p>
+         <p>
+          <strong>
+           'The Licensor'
+          </strong>
+          (the Person offering the Work under the terms and conditions of this Licence)
+         </p>
+         <p>
+          and
+         </p>
+         <p>
+          <strong>
+           'You'
+          </strong>
+          (the Person acquiring rights under this Licence)
+         </p>
+         <p>
+          agree as follows:
+         </p>
+         <p>
+          <strong>
+           1. Definitions of Capitalised Words
+          </strong>
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           <strong>
+            "Collective Work"
+           </strong>
+           means a work made up of the Work in its entirety in unmodified form, along with other work, assembled into a collective whole.
+          </li>
+          <li>
+           <strong>
+            "Derivative Work"
+           </strong>
+           means a work that Uses the Work (or any substantial part of the Work) in any material form whatsoever (such as a translation, dramatisation, or abridgment), other than (i) as a whole and in unmodified form or (ii) by modifying it as may be technically necessary to Use it in a different mode or format; but a Collective Work is not a Derivative Work for the purpose of this Licence.
+          </li>
+          <li>
+           <strong>
+            "Derogatory Treatment"
+           </strong>
+           means derogatory treatment as defined by section 80 of the Copyright Design and Patents Act 1988, except as allowed by that Act: and it has that meaning wherever that treatment may take place and whoever may carry it out.
+          </li>
+          <li>
+           <strong>
+            "Licence Elements"
+           </strong>
+           means the following licence attributes indicated in the title of this Licence: Attribution, Non-commercial, No-Derivatives.
+          </li>
+          <li>
+           <strong>
+            "Original Author"
+           </strong>
+           means the Person who created the Work.
+          </li>
+          <li>
+           <strong>
+            "Person"
+           </strong>
+           means a natural person or a body of persons corporate or incorporate.
+          </li>
+          <li>
+           <strong>
+            "Use"
+           </strong>
+           , as a verb, means doing any act which is restricted by copyright, whether in the original medium or any other; and includes modifying the Work as may be technically necessary to Use it in a different mode or format.
+          </li>
+          <li>
+           <strong>
+            "Work"
+           </strong>
+           means the work protected by copyright which is offered under the terms of this Licence, and includes the Work as incorporated in any Collective Work.
+          </li>
+          <li>
+           <strong>
+            Words in the singular include the plural and vice versa.
+           </strong>
+          </li>
+         </ol>
+         <p>
+          <strong>
+           2. The Rights Granted
+          </strong>
+         </p>
+         <p>
+          2.1 The Licensor grants to You a worldwide, royalty-free, non-exclusive, licence to Use the Work for the duration of its copyright.
+         </p>
+         <p>
+          So you may, for example:
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           copy the Work, or incorporate it into a Collective Work;
+          </li>
+          <li>
+           copy the Work as incorporated in any Collective Work; and
+          </li>
+          <li>
+           publish, perform or communicate the Work and/or the Work as incorporated in any Collective Work to anyone;
+          </li>
+         </ol>
+         <p>
+          in any medium whether now known or created in the future.
+         </p>
+         <p>
+          2.2 However, this Licence does not allow you to:
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           use the work in any way primarily intended for commercial advantage or payment; but exchange for other copyrighted work without payment (whether by means of digital file-sharing or otherwise) is not to be taken to be so intended;
+          </li>
+          <li>
+           create any Derivative Work;
+          </li>
+          <li>
+           impose any terms or any technological measures on the Work that alter or restrict the terms of this Licence or any rights granted under it or have the effect or intent of restricting the ability of any person to exercise those rights;
+          </li>
+          <li>
+           sublicense the Work; or
+          </li>
+          <li>
+           subject the Work to Derogatory Treatment.
+          </li>
+         </ol>
+         <p>
+          2.3 You must, if you publish or distribute the Work to anyone else in any way, give reasonable credit to the Original Author as follows:
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           by giving the name of the Original Author if that has been supplied; or a pseudonym if that has been supplied instead; and/or the name of any other person if that has been supplied for attribution in place of the Original Author;
+          </li>
+          <li>
+           by giving the title of the Work if that has been supplied;
+          </li>
+          <li>
+           by giving the Uniform Resource Identifier of the Work if that has been supplied, but you need not do so if this does not refer to its copyright terms or to its licensing information;
+          </li>
+          <li>
+           in the case of a Collective Work, placing that credit in the same place, and at least as prominently, as any comparable authorship credit.
+          </li>
+         </ol>
+         <dl>
+          <dd>
+           But, if what you are publishing or distributing is a Collective Work, you must remove any of these credits if you are asked to do so by the Licensor and if it is practicable to do so.
+          </dd>
+         </dl>
+         <p>
+          These are important conditions of this licence and if you fail to do so you will be in material breach of its terms.
+         </p>
+         <p>
+          2.4 The Original Author asserts the right to be identified as the original author of the Work; but only as and when required by clause 2.3 above.
+         </p>
+         <p>
+          2.5 You must also, if you publish or distribute the Work to anyone else in any way:
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           include a copy of this Licence (or its Uniform Resource Identifier) with it; and
+          </li>
+          <li>
+           keep intact any copyright notices for the Work and notices that refer to this Licence.
+          </li>
+         </ol>
+         <p>
+          These are important conditions of this licence and if you fail to do so you will be in material breach of its terms.
+         </p>
+         <p>
+          2.6 Each time You publish the Work to anyone else in any way, the Licensor offers to the recipient a licence to the Work on the same terms and conditions as this Licence.
+         </p>
+         <p>
+          2.7 And:
+         </p>
+         <ol style="list-style-type: lower-alpha;">
+          <li>
+           the right to collect royalties for any commercial use of the Work is reserved;
+          </li>
+          <li>
+           the right to collect payments via a licensing body or collecting society for any commercial use of the Work is reserved;
+          </li>
+          <li>
+           the right to collect payments under the Public Lending Right scheme (or any public scheme that provides payment for public borrowing or use) is reserved;
+          </li>
+          <li>
+           the right to release the Work under different terms, or to stop distributing the Work, is reserved; and
+          </li>
+          <li>
+           all other rights not expressly granted by the Licensor are reserved.
+          </li>
+         </ol>
+         <p>
+          2.8 This Licence does not affect any rights that You or anyone else may independently have under any applicable law (including fair dealing, fair use, or any other legally recognised limitation or exception to copyright infringement) to make any Use of this Work.
+         </p>
+         <p>
+          <strong>
+           3. Warranties and Disclaimer
+          </strong>
+         </p>
+         <p>
+          3.1 The Work is licensed by the Licensor "as is" and without any warranty of any kind, either express or implied, whether of title, of accuracy, of fitness for purpose, or otherwise.
+         </p>
+         <p>
+          <strong>
+           4. Limit of Liability
+          </strong>
+         </p>
+         <p>
+          4.1 Subject to any liability which may not be excluded or limited by law, the Licensor shall not be liable for, and expressly excludes, all liability for loss or damage however and whenever caused to anyone by any Use under this Licence, whether by You or by anyone else, and whether caused by any fault on the part of the Licensor or not. If liability may not be excluded by law, it is limited to actual and direct financial loss to the extent it is caused by proved negligence on the part of the Licensor.
+         </p>
+         <p>
+          <strong>
+           5. Termination
+          </strong>
+         </p>
+         <p>
+          5.1 Any breach by You of the terms of this licence (for example, by distributing the work licensed without attributing authorship as appropriate) entitles the Licensor to terminate this Licence with immediate effect and without notice to you. Persons who have received the Work or Collective Works from You under this Licence, however, will not have their licences terminated provided their use is in full compliance with this Licence or a licence granted under clause 2.6 of this Licence.
+         </p>
+         <p>
+          5.2 If You are not in breach of the terms of this licence, the Licensor may not terminate your rights under it.
+         </p>
+         <p>
+          5.3 Unless terminated under clause 5.1, this Licence is granted to you for the duration of copyright in the Work.
+         </p>
+         <p>
+          <strong>
+           6. General
+          </strong>
+         </p>
+         <p>
+          6.1 If any provision of this Licence is held to be invalid or unenforceable, that shall not affect the validity or enforceability of the remainder of the terms of this Licence.
+         </p>
+         <p>
+          6.2 This Licence is the entire agreement between the parties with respect to the Work licensed here. It replaces any earlier understandings, agreements or representations with respect to the Work not specified here.
+         </p>
+         <p>
+          6.3 If You are in breach of the terms of this Licence (for example, by distributing the work licensed without attributing authorship as appropriate) you will not be entitled to rely on the terms of this Licence or to complain of any breach by the Licensor.
+         </p>
+         <p>
+          6.4 Neither You, nor anyone else, may enforce any provision of this Licence by specific implement or interdict.
+         </p>
+         <p>
+          6.5 This Licence is governed by the law of Scotland and the parties accept the exclusive jurisdiction of the Courts of Scotland to decide any action or claim directed against the Licensor.
+         </p>
+         <p>
+          6.6 If there is any dispute as to the meaning or effect of any provision of this Licence, it must so far as possible be read and given effect in a way that is compatible with the provisions of the Creative Commons generic licence, version 2.5, which has the same Licence Elements.
+         </p>
+         <p>
+          <i>
+           The Notice below is not part of this licence.
+          </i>
+         </p>
+         <!-- BREAKOUT FOR CC NOTICE. NOT A PART OF THE LICENSE -->
+         <div class="fineprint">
+          <p>
+           Creative Commons is not a party to this Licence, and makes no warranty whatsoever in connection with the Work. Creative Commons will not be liable to You or any party on any legal theory for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this licence. Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor.
+          </p>
+          <p>
+           Except for the limited purpose of indicating to the public that the Work is licensed under the Creative Commons Public Licence, neither party will use the trademark "Creative Commons" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.
+          </p>
+          <p>
+           Creative Commons may be contacted at
+           <a href="https://creativecommons.org">
+            https://creativecommons.org/
+           </a>
+           .
+          </p>
+         </div>
+         <!-- END CC NOTICE -->
+        </div>
+       </div>
+      </h2>
+     </div>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Public Domain Dedication
+      </a>
+      . Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+     </p>
+     <p>
+      Creative Commons may be contacted at
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
+  </main>
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
        </a>
       </li>
      </ul>
     </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
      </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 2.5 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
-       </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.en" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC-ND 2.5 SCOTLAND
-       </h2>
-       <h1 class="b-header">
-        Attribution - Non-commercial - No-Derivatives 2.5 Scotland
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC-ND 2.5 SCOTLAND
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC-ND 2.5 SCOTLAND
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC-ND 2.5 SCOTLAND
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Attribution - Non-commercial - No-Derivatives 2.5 Scotland
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Disclaimer
-       </h4>
-       <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.en">
-         Attribution-NonCommercial-NoDerivatives 4.0 International
-        </a>
-       </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Attribution - Non-commercial - No-Derivatives 2.5 Scotland
-        </h3>
-        <div id="deed">
-         <div class="text">
-          <div class="fineprint" style="background:none;">
-           CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENCE DOES NOT CREATE AN AGENT-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
-          </div>
-          <p>
-           <em>
-            Licence
-           </em>
-          </p>
-          <p>
-           This Creative Commons Scotland public licence enables You to Use the Work worldwide for non-commercial purposes provided that You keep to the terms of this Licence.
-          </p>
-          <p>
-           <strong>
-            'The Licensor'
-           </strong>
-           (the Person offering the Work under the terms and conditions of this Licence)
-          </p>
-          <p>
-           and
-          </p>
-          <p>
-           <strong>
-            'You'
-           </strong>
-           (the Person acquiring rights under this Licence)
-          </p>
-          <p>
-           agree as follows:
-          </p>
-          <p>
-           <strong>
-            1. Definitions of Capitalised Words
-           </strong>
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            <strong>
-             "Collective Work"
-            </strong>
-            means a work made up of the Work in its entirety in unmodified form, along with other work, assembled into a collective whole.
-           </li>
-           <li>
-            <strong>
-             "Derivative Work"
-            </strong>
-            means a work that Uses the Work (or any substantial part of the Work) in any material form whatsoever (such as a translation, dramatisation, or abridgment), other than (i) as a whole and in unmodified form or (ii) by modifying it as may be technically necessary to Use it in a different mode or format; but a Collective Work is not a Derivative Work for the purpose of this Licence.
-           </li>
-           <li>
-            <strong>
-             "Derogatory Treatment"
-            </strong>
-            means derogatory treatment as defined by section 80 of the Copyright Design and Patents Act 1988, except as allowed by that Act: and it has that meaning wherever that treatment may take place and whoever may carry it out.
-           </li>
-           <li>
-            <strong>
-             "Licence Elements"
-            </strong>
-            means the following licence attributes indicated in the title of this Licence: Attribution, Non-commercial, No-Derivatives.
-           </li>
-           <li>
-            <strong>
-             "Original Author"
-            </strong>
-            means the Person who created the Work.
-           </li>
-           <li>
-            <strong>
-             "Person"
-            </strong>
-            means a natural person or a body of persons corporate or incorporate.
-           </li>
-           <li>
-            <strong>
-             "Use"
-            </strong>
-            , as a verb, means doing any act which is restricted by copyright, whether in the original medium or any other; and includes modifying the Work as may be technically necessary to Use it in a different mode or format.
-           </li>
-           <li>
-            <strong>
-             "Work"
-            </strong>
-            means the work protected by copyright which is offered under the terms of this Licence, and includes the Work as incorporated in any Collective Work.
-           </li>
-           <li>
-            <strong>
-             Words in the singular include the plural and vice versa.
-            </strong>
-           </li>
-          </ol>
-          <p>
-           <strong>
-            2. The Rights Granted
-           </strong>
-          </p>
-          <p>
-           2.1 The Licensor grants to You a worldwide, royalty-free, non-exclusive, licence to Use the Work for the duration of its copyright.
-          </p>
-          <p>
-           So you may, for example:
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            copy the Work, or incorporate it into a Collective Work;
-           </li>
-           <li>
-            copy the Work as incorporated in any Collective Work; and
-           </li>
-           <li>
-            publish, perform or communicate the Work and/or the Work as incorporated in any Collective Work to anyone;
-           </li>
-          </ol>
-          <p>
-           in any medium whether now known or created in the future.
-          </p>
-          <p>
-           2.2 However, this Licence does not allow you to:
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            use the work in any way primarily intended for commercial advantage or payment; but exchange for other copyrighted work without payment (whether by means of digital file-sharing or otherwise) is not to be taken to be so intended;
-           </li>
-           <li>
-            create any Derivative Work;
-           </li>
-           <li>
-            impose any terms or any technological measures on the Work that alter or restrict the terms of this Licence or any rights granted under it or have the effect or intent of restricting the ability of any person to exercise those rights;
-           </li>
-           <li>
-            sublicense the Work; or
-           </li>
-           <li>
-            subject the Work to Derogatory Treatment.
-           </li>
-          </ol>
-          <p>
-           2.3 You must, if you publish or distribute the Work to anyone else in any way, give reasonable credit to the Original Author as follows:
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            by giving the name of the Original Author if that has been supplied; or a pseudonym if that has been supplied instead; and/or the name of any other person if that has been supplied for attribution in place of the Original Author;
-           </li>
-           <li>
-            by giving the title of the Work if that has been supplied;
-           </li>
-           <li>
-            by giving the Uniform Resource Identifier of the Work if that has been supplied, but you need not do so if this does not refer to its copyright terms or to its licensing information;
-           </li>
-           <li>
-            in the case of a Collective Work, placing that credit in the same place, and at least as prominently, as any comparable authorship credit.
-           </li>
-          </ol>
-          <dl>
-           <dd>
-            But, if what you are publishing or distributing is a Collective Work, you must remove any of these credits if you are asked to do so by the Licensor and if it is practicable to do so.
-           </dd>
-          </dl>
-          <p>
-           These are important conditions of this licence and if you fail to do so you will be in material breach of its terms.
-          </p>
-          <p>
-           2.4 The Original Author asserts the right to be identified as the original author of the Work; but only as and when required by clause 2.3 above.
-          </p>
-          <p>
-           2.5 You must also, if you publish or distribute the Work to anyone else in any way:
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            include a copy of this Licence (or its Uniform Resource Identifier) with it; and
-           </li>
-           <li>
-            keep intact any copyright notices for the Work and notices that refer to this Licence.
-           </li>
-          </ol>
-          <p>
-           These are important conditions of this licence and if you fail to do so you will be in material breach of its terms.
-          </p>
-          <p>
-           2.6 Each time You publish the Work to anyone else in any way, the Licensor offers to the recipient a licence to the Work on the same terms and conditions as this Licence.
-          </p>
-          <p>
-           2.7 And:
-          </p>
-          <ol style="list-style-type: lower-alpha;">
-           <li>
-            the right to collect royalties for any commercial use of the Work is reserved;
-           </li>
-           <li>
-            the right to collect payments via a licensing body or collecting society for any commercial use of the Work is reserved;
-           </li>
-           <li>
-            the right to collect payments under the Public Lending Right scheme (or any public scheme that provides payment for public borrowing or use) is reserved;
-           </li>
-           <li>
-            the right to release the Work under different terms, or to stop distributing the Work, is reserved; and
-           </li>
-           <li>
-            all other rights not expressly granted by the Licensor are reserved.
-           </li>
-          </ol>
-          <p>
-           2.8 This Licence does not affect any rights that You or anyone else may independently have under any applicable law (including fair dealing, fair use, or any other legally recognised limitation or exception to copyright infringement) to make any Use of this Work.
-          </p>
-          <p>
-           <strong>
-            3. Warranties and Disclaimer
-           </strong>
-          </p>
-          <p>
-           3.1 The Work is licensed by the Licensor "as is" and without any warranty of any kind, either express or implied, whether of title, of accuracy, of fitness for purpose, or otherwise.
-          </p>
-          <p>
-           <strong>
-            4. Limit of Liability
-           </strong>
-          </p>
-          <p>
-           4.1 Subject to any liability which may not be excluded or limited by law, the Licensor shall not be liable for, and expressly excludes, all liability for loss or damage however and whenever caused to anyone by any Use under this Licence, whether by You or by anyone else, and whether caused by any fault on the part of the Licensor or not. If liability may not be excluded by law, it is limited to actual and direct financial loss to the extent it is caused by proved negligence on the part of the Licensor.
-          </p>
-          <p>
-           <strong>
-            5. Termination
-           </strong>
-          </p>
-          <p>
-           5.1 Any breach by You of the terms of this licence (for example, by distributing the work licensed without attributing authorship as appropriate) entitles the Licensor to terminate this Licence with immediate effect and without notice to you. Persons who have received the Work or Collective Works from You under this Licence, however, will not have their licences terminated provided their use is in full compliance with this Licence or a licence granted under clause 2.6 of this Licence.
-          </p>
-          <p>
-           5.2 If You are not in breach of the terms of this licence, the Licensor may not terminate your rights under it.
-          </p>
-          <p>
-           5.3 Unless terminated under clause 5.1, this Licence is granted to you for the duration of copyright in the Work.
-          </p>
-          <p>
-           <strong>
-            6. General
-           </strong>
-          </p>
-          <p>
-           6.1 If any provision of this Licence is held to be invalid or unenforceable, that shall not affect the validity or enforceability of the remainder of the terms of this Licence.
-          </p>
-          <p>
-           6.2 This Licence is the entire agreement between the parties with respect to the Work licensed here. It replaces any earlier understandings, agreements or representations with respect to the Work not specified here.
-          </p>
-          <p>
-           6.3 If You are in breach of the terms of this Licence (for example, by distributing the work licensed without attributing authorship as appropriate) you will not be entitled to rely on the terms of this Licence or to complain of any breach by the Licensor.
-          </p>
-          <p>
-           6.4 Neither You, nor anyone else, may enforce any provision of this Licence by specific implement or interdict.
-          </p>
-          <p>
-           6.5 This Licence is governed by the law of Scotland and the parties accept the exclusive jurisdiction of the Courts of Scotland to decide any action or claim directed against the Licensor.
-          </p>
-          <p>
-           6.6 If there is any dispute as to the meaning or effect of any provision of this Licence, it must so far as possible be read and given effect in a way that is compatible with the provisions of the Creative Commons generic licence, version 2.5, which has the same Licence Elements.
-          </p>
-          <p>
-           <i>
-            The Notice below is not part of this licence.
-           </i>
-          </p>
-          <!-- BREAKOUT FOR CC NOTICE. NOT A PART OF THE LICENSE -->
-          <div class="fineprint">
-           <p>
-            Creative Commons is not a party to this Licence, and makes no warranty whatsoever in connection with the Work. Creative Commons will not be liable to You or any party on any legal theory for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this licence. Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor.
-           </p>
-           <p>
-            Except for the limited purpose of indicating to the public that the Work is licensed under the Creative Commons Public Licence, neither party will use the trademark "Creative Commons" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.
-           </p>
-           <p>
-            Creative Commons may be contacted at
-            <a href="https://creativecommons.org">
-             https://creativecommons.org/
-            </a>
-            .
-           </p>
-          </div>
-          <!-- END CC NOTICE -->
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </section>
-  </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

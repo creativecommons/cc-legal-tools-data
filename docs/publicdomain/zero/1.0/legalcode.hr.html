@@ -4,521 +4,585 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Pravni tekst licence — CC0 1.0 Univerzalno — Creative Commons
+   CC0 1.0 Pravni tekst licence | CC0 1.0 Univerzalno
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.hr" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Preskočite na sadržaj
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Preskočite na sadržaj
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Početna
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Javno dobro
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.hr">
-        CC0 1.0 Pravni tekst licence
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" selected="" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" selected="" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.hr" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Pravni tekst licence
+    </h1>
+    <h2>
+     CC0 1.0 Univerzalno
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 Univerzalno
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Izjava o svrsi
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Autorsko pravo i povezana prava.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Odricanje od prava.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Rezervna javna licencija.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Ograničenja i odricanja od odgovornosti.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Izjava o svrsi
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Autorsko pravo i povezana prava.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Odricanje od prava.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Rezervna javna licencija.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Ograničenja i odricanja od odgovornosti.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 Univerzalno
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 Univerzalno
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Pravni subjekt Creative Commons ("Creative Commons") nije odvjetnički ured i ne pruža pravne usluge ili savjete. Distribuiranje ove Creative Commons licence ne uspostavlja odnos pravnog zastupanja ili bilo kakav drugi odnos. Creative Commons stavlja na raspolaganje svoje licence i pripadajuće informacije "takve kakve jesu". Creative Commons ne daje nikakva jamstva u pogledu tih licenci, u pogledu materijala koji su ponuđeni pod njihovim odredbama i uvjetima, niti u pogledu pripadajućih informacija. U najvećoj mjeri u kojoj je to zakonski moguće, Creative Commons ne preuzima odgovornost za bilo kakvu štetu koja bi mogla nastati njihovim korištenjem.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Korištenje Creative Commons javnih licenci
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons javne licence nude standardizirani skup odredbi i uvjeta koje autori i drugi nositelji prava mogu koristiti kako bi podijelili originalna autorska djela i druge materijale koji su predmet zaštite temeljem autorskog prava i određenih drugih prava koja su niže navedena u ovoj javnoj licenci. Napomene koje slijede imaju informativnu funkciju, nisu sveobuhvatne i nisu dio naših licenci.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Što davatelji licence trebaju imati na umu
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Naše javne licence namijenjene su onima koji imaju zakonsko pravo dati dopuštenje da se materijal koristi na načine koji su inače ograničeni autorskim pravom i određenim drugim pravima. Naše licence su neopozive. Davatelji licence trebaju pročitati i razumjeti odredbe i uvjete licence prije nego što se odluče primijeniti licencu. Davatelji licence bi, također, prije nego što primijene neku od naših licenci, trebali osigurati sva prava koja su potrebna kako bi javnost mogla dalje koristiti materijal u skladu s očekivanjima. Davatelji licence trebaju jasno naznačiti svaki materijal koji nije predmet licence. To uključuje druge materijale pod CC licencama, kao i materijale koji se koriste temeljem iznimki ili ograničenja autorskog prava.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Daljnje napomene za davatelje licenci.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Što javnost treba imati na umu
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Upotrebom neke od naših licenci davatelj licence javnosti daje dopuštenje da koristi licencirani materijal pod navedenim odredbama i uvjetima. Ako dopuštenje davatelja licence iz bilo kojeg razloga nije potrebno – primjerice, zbog iznimki ili ograničenja autorskog prava – onda takvo korištenje materijala licenca ne regulira. Naše licence daju dopuštenja samo temeljem autorskog prava i određenih drugih prava koje davatelj licence ima pravne osnove dati. Međutim, korištenje licenciranog materijala može i dalje biti ograničeno iz drugih razloga, uključujući i to da drugi polažu autorsko pravo ili druga prava na materijal. Davatelj licence može postavljati posebne zahtjeve – primjerice tražiti da se sve izmjene naznače i opišu. Iako to naše licence ne zahtijevaju, savjetujemo Vam da poštujete te zahtjeve tamo gdje je to razumno izvedivo.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Daljnje napomene za javnost.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 Univerzalno
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          PRAVNI SUBJEKT CREATIVE COMMONS NIJE ODVJETNIČKI URED I NE PRUŽA PRAVNE USLUGE ILI SAVJETE. STAVLJANJEM NA RASPOLAGANJE OVOG DOKUMENTA NE ZASNIVA SE ODNOS PRAVNOG ZASTUPANJA. CREATIVE COMMONS OVE INFORMACIJE STAVLJA NA RASPOLAGANJE „KAKVE JESU”. CREATIVE COMMONS NE DAJE NIKAKVA JAMSTVA U POGLEDU UPOTREBE OVOG DOKUMENTA ILI OVDJE NAVEDENIH INFORMACIJA ILI DJELA I NE PRIZNAJE ODGOVORNOST ZA ŠTETU NASTALU UPORABOM OVOG DOKUMENTA ILI OVDJE NAVEDENIH INFORMACIJA ILI DJELA.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Izjava o svrsi
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Zakoni u većini jurisdikcija diljem svijeta stvaratelju i naknadnim nositeljima prava (svaki od njih je „nositelj prava”) automatski dodjeljuju isključivo Autorsko pravo i povezana prava (definirano u nastavku) na izvorno autorsko djelo i/ili bazu podataka (svako od njih je „Djelo”).
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Neki nositelji prava žele se trajno odreći tih prava na Djelo u svrhu uvrštavanja u zajednička dobra kreativnih, kulturnih i znanstvenih djela („Zajednička dobra”) koja javnost može pouzdano i bez bojazni od naknadnih zahtjeva zbog povrede prava nadograditi, izmijeniti, uvrstiti u druga djela, ponovno upotrijebiti i dalje distribuirati što slobodnije u bilo kojem obliku i u bilo koju svrhu, uključujući, bez ograničenja, u komercijalne svrhe. Ti nositelji prava mogu doprinijeti Zajedničkim dobrima radi promicanja ideala slobodne kulture i daljnje izrade kreativnih, kulturnih i znanstvenih djela, ili kako bi stekli ugled ili poboljšali distribuciju svojeg Djela, djelomično zahvaljujući uporabi i naporima drugih osoba.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Za te i/ili druge svrhe i motivacije te bez očekivanja dodatne protučinidbe ili naknade, osoba koja povezuje CC0 s Djelom („Potvrditelj”), ako je nositelj Autorskog prava i povezanih prava na Djelo, dobrovoljno odlučuje primjenjivati CC0 na Djelo te javno distribuirati Djelo u skladu s uvjetima CC0, poznavajući svoje Autorsko pravo i povezana prava na Djelo te značenje i predviđeni pravni učinak CC0 na ta prava.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Autorsko pravo i povezana prava.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Djelo stavljeno na raspolaganje pod uvjetima CC0 možda je zaštićeno autorskim pravom i povezanim ili srodnim pravima („Autorsko pravo i povezana prava”). Autorsko pravo i povezana prava uključuju, ali nisu ograničena:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           na pravo na reproduciranje, prilagodbu, distribuciju, izvođenje, prikazivanje, priopćavanje i prevođenje Djela;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na moralna prava koja su zadržali izvorni autori i/ili izvođači;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na prava na publicitet i privatnost koja se odnose na sliku ili prikaz osobe u Djelu;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na prava koja štite od nelojalne konkurencije u pogledu Djela, podložno ograničenjima iz članka 4. stavka (a) u nastavku;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na prava koja štite izvlačenje, diseminiranje, uporabu i ponovnu uporabu podataka iz Djela;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na prava proizvođača baza podataka (poput onih koja proizlaze iz Direktive 96/9/EZ Europskog parlamenta i Vijeća od 11. ožujka 1996. o pravnoj zaštiti baza podataka te u okviru bilo koje provedbe te direktive na nacionalnoj razini, uključujući svaku izmijenjenu ili novu verziju takve direktive); i
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           na ostala slična, istovjetna ili odgovarajuća prava diljem svijeta na temelju mjerodavnog prava ili međunarodnog ugovora te svake provedbe na nacionalnoj razini.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Odricanje od prava.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          U najvećoj mjeri dopuštenoj mjerodavnim pravom, ali ne u suprotnosti s njim, Potvrditelj se otvoreno, u cijelosti, trajno, neopozivo i bezuvjetno odriče, napušta i ustupa svoje Autorsko i povezana prava, te sve povezane zahtjeve i temelje za postupanje, bez obzira na to jesu li poznati ili nepoznati (uključujući postojeće i buduće zahtjeve i temelje za postupanje), na Djelo (i) u cijelom svijetu, (ii) na maksimalno razdoblje predviđeno mjerodavnim pravom ili međunarodnim ugovorom (uključujući buduća produljenja), (iii) na bilo kojem postojećem ili budućem mediju i u bilo kojem broju primjeraka i (iv) za bilo koju svrhu, uključujući, bez ograničenja, u komercijalne, reklamne ili promidžbene svrhe („Odricanje od prava”). Potvrditelj se odriče prava (Odricanje od prava) u korist svakog pojedinca te na štetu svojih nasljednika i pravnih sljednika s namjerom da takvo Odricanje od prava ne bude predmetom opoziva, poništenja, ukidanja, otkazivanja ni ikakve druge pravne ili pravične mjere kojom bi se narušilo neometano uživanje javnosti u Djelu kako je predviđeno Izjavom o svrsi Potvrditelja.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Rezervna javna licencija.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Ako se bilo koji dio Odricanja od prava iz bilo kojeg razloga proglasi pravno nevaljanim ili bez pravnog učinka prema mjerodavnom pravu, Odricanje se mora očuvati u najvećoj dopuštenoj mjeri uzimajući u obzir izričitu Izjavu o svrsi Potvrditelja. Osim toga, u mjeri u kojoj je Odricanje od prava proglašeno nevaljanim ili bez pravnog učinka, Potvrditelj svakoj predmetnoj osobi dodjeljuje besplatnu, neprenosivu, neisključivu, neopozivu i bezuvjetnu licenciju bez prava podlicenciranja za korištenje Autorskog prava i povezanih prava Potvrditelja na Djelo (i) u cijelom svijetu, (ii) na maksimalno razdoblje predviđeno mjerodavnim pravom ili međunarodnim ugovorom (uključujući buduća produljenja), (iii) na bilo kojem postojećem ili budućem mediju i u bilo kojem broju primjeraka i (iv) za bilo koju svrhu, uključujući, bez ograničenja, u komercijalne, reklamne ili promidžbene svrhe („Licencija”). Smatra se da Licencija stupa na snagu na datum na koji Potvrditelj primijeni CC0 na Djelo. Ako se bilo koji dio Licencije iz bilo kojeg razloga proglasi pravno nevaljanim ili bez pravnog učinka prema mjerodavnom pravu, takva djelomična nevaljanost ili neprimjenjivost ne utječe na valjanost ostatka licencije te u tom slučaju Potvrditelj potvrđuje da neće (i) koristiti nijedno preostalo Autorsko pravo i povezana prava na Djelo ni (ii) imati bilo kakve povezane zahtjeve i temelje za postupanje u odnosu na Djelo u suprotnosti s Izjavom o svrsi Potvrditelja.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Ograničenja i odricanja od odgovornosti.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Potvrditelj se ovim dokumentom ne odriče žiga ni patentnog prava te ih ne napušta, ne ustupa i ne licencira niti ovaj dokument na njih ikako utječe.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Potvrditelj nudi Djelo kakvo jest i ne daje nikakve izjave niti jamstva u pogledu Djela, izričito, posredno, na temelju zakona ili na drugi način, uključujući, bez ograničenja, jamstva u pogledu vlasništva, stavljanja na tržište, prikladnosti za određenu svrhu, jamstvo u pogledu nepostojanja kršenja prava ili nepostojanja skrivenih ili drugih nedostataka, točnosti ili u pogledu postojanja ili nepostojanja pogrešaka koje je moguće ili nije moguće otkriti, sve u najvećoj mjeri koja je dopuštena mjerodavnim pravom.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Potvrditelj se odriče odgovornosti za utvrđivanje prava drugih osoba koja možda imaju na Djelu ili na bilo kakvu uporabu Djela, uključujući, bez ograničenja, bilo čije Autorsko pravo i povezana prava na Djelo. Nadalje, Potvrditelj se odriče odgovornosti za dobivanje bilo kakvih potrebnih odobrenja, dozvola ili drugih prava potrebnih za bilo kakvu uporabu Djela.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Potvrditelj razumije i prihvaća da pravni subjekt Creative Commons nije stranka ovog dokumenta i da nema nikakvu dužnost ni obvezu u pogledu ovog dokumenta CC0 ili uporabe Djela.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Organizacija Creative Commons nije stranka u Creative Commons javnim licencama. Međutim, Creative Commons može odlučiti primijeniti neku od svojih javnih licenci na materijal koji objavljuje i u tom slučaju će se smatrati "Davateljem licence". Tekst Creative Commons javnih licenci prenesen je u javno dobro temeljem pravnog instrumenta
-        <a href="/publicdomain/zero/1.0/">
-         CC0 Prenošenje u javno dobro
-        </a>
-        . Osim u ograničene svrhe ukazivanja da je neki materijal podijeljen pod Creative Commons javnom licencom ili u slučajevima koje dopuštaju unutarnja pravila Creative Commonsa koja možete naći na
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons ne daje dopuštenje da se koristi zaštićeni znak "Creative Commons" ili Creative Commons logotip bez prethodnog pismenog pristanka Creative Commonsa, uključujući, ali ne i isključivo u slučajevima bilo kakve nedopuštene izmjene neke od njegovih javnih licenci ili bilo kakvog drugog dogovora, sporazuma ili ugovora koji se tiče licenciranog materijala. Kako ne bi bilo dvojbe, ovaj paragraf ne čini dio javne licence.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons možete kontaktirati na
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.hr">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Korištenje Creative Commons javnih licenci
+     </h2>
+     <p>
+      Creative Commons javne licence nude standardizirani skup odredbi i uvjeta koje autori i drugi nositelji prava mogu koristiti kako bi podijelili originalna autorska djela i druge materijale koji su predmet zaštite temeljem autorskog prava i određenih drugih prava koja su niže navedena u ovoj javnoj licenci. Napomene koje slijede imaju informativnu funkciju, nisu sveobuhvatne i nisu dio naših licenci.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Što davatelji licence trebaju imati na umu
+     </h3>
+     <p>
+      Naše javne licence namijenjene su onima koji imaju zakonsko pravo dati dopuštenje da se materijal koristi na načine koji su inače ograničeni autorskim pravom i određenim drugim pravima. Naše licence su neopozive. Davatelji licence trebaju pročitati i razumjeti odredbe i uvjete licence prije nego što se odluče primijeniti licencu. Davatelji licence bi, također, prije nego što primijene neku od naših licenci, trebali osigurati sva prava koja su potrebna kako bi javnost mogla dalje koristiti materijal u skladu s očekivanjima. Davatelji licence trebaju jasno naznačiti svaki materijal koji nije predmet licence. To uključuje druge materijale pod CC licencama, kao i materijale koji se koriste temeljem iznimki ili ograničenja autorskog prava.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Daljnje napomene za davatelje licenci.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Što javnost treba imati na umu
+     </h3>
+     <p>
+      Upotrebom neke od naših licenci davatelj licence javnosti daje dopuštenje da koristi licencirani materijal pod navedenim odredbama i uvjetima. Ako dopuštenje davatelja licence iz bilo kojeg razloga nije potrebno – primjerice, zbog iznimki ili ograničenja autorskog prava – onda takvo korištenje materijala licenca ne regulira. Naše licence daju dopuštenja samo temeljem autorskog prava i određenih drugih prava koje davatelj licence ima pravne osnove dati. Međutim, korištenje licenciranog materijala može i dalje biti ograničeno iz drugih razloga, uključujući i to da drugi polažu autorsko pravo ili druga prava na materijal. Davatelj licence može postavljati posebne zahtjeve – primjerice tražiti da se sve izmjene naznače i opišu. Iako to naše licence ne zahtijevaju, savjetujemo Vam da poštujete te zahtjeve tamo gdje je to razumno izvedivo.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Daljnje napomene za javnost.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 Univerzalno
+     </h2>
+     <p>
+      PRAVNI SUBJEKT CREATIVE COMMONS NIJE ODVJETNIČKI URED I NE PRUŽA PRAVNE USLUGE ILI SAVJETE. STAVLJANJEM NA RASPOLAGANJE OVOG DOKUMENTA NE ZASNIVA SE ODNOS PRAVNOG ZASTUPANJA. CREATIVE COMMONS OVE INFORMACIJE STAVLJA NA RASPOLAGANJE „KAKVE JESU”. CREATIVE COMMONS NE DAJE NIKAKVA JAMSTVA U POGLEDU UPOTREBE OVOG DOKUMENTA ILI OVDJE NAVEDENIH INFORMACIJA ILI DJELA I NE PRIZNAJE ODGOVORNOST ZA ŠTETU NASTALU UPORABOM OVOG DOKUMENTA ILI OVDJE NAVEDENIH INFORMACIJA ILI DJELA.
+     </p>
+     <h3 id="sop">
+      Izjava o svrsi
+     </h3>
+     <p>
+      Zakoni u većini jurisdikcija diljem svijeta stvaratelju i naknadnim nositeljima prava (svaki od njih je „nositelj prava”) automatski dodjeljuju isključivo Autorsko pravo i povezana prava (definirano u nastavku) na izvorno autorsko djelo i/ili bazu podataka (svako od njih je „Djelo”).
+     </p>
+     <p>
+      Neki nositelji prava žele se trajno odreći tih prava na Djelo u svrhu uvrštavanja u zajednička dobra kreativnih, kulturnih i znanstvenih djela („Zajednička dobra”) koja javnost može pouzdano i bez bojazni od naknadnih zahtjeva zbog povrede prava nadograditi, izmijeniti, uvrstiti u druga djela, ponovno upotrijebiti i dalje distribuirati što slobodnije u bilo kojem obliku i u bilo koju svrhu, uključujući, bez ograničenja, u komercijalne svrhe. Ti nositelji prava mogu doprinijeti Zajedničkim dobrima radi promicanja ideala slobodne kulture i daljnje izrade kreativnih, kulturnih i znanstvenih djela, ili kako bi stekli ugled ili poboljšali distribuciju svojeg Djela, djelomično zahvaljujući uporabi i naporima drugih osoba.
+     </p>
+     <p>
+      Za te i/ili druge svrhe i motivacije te bez očekivanja dodatne protučinidbe ili naknade, osoba koja povezuje CC0 s Djelom („Potvrditelj”), ako je nositelj Autorskog prava i povezanih prava na Djelo, dobrovoljno odlučuje primjenjivati CC0 na Djelo te javno distribuirati Djelo u skladu s uvjetima CC0, poznavajući svoje Autorsko pravo i povezana prava na Djelo te značenje i predviđeni pravni učinak CC0 na ta prava.
+     </p>
+     <h3 id="copyright">
+      1. Autorsko pravo i povezana prava.
+     </h3>
+     <p>
+      Djelo stavljeno na raspolaganje pod uvjetima CC0 možda je zaštićeno autorskim pravom i povezanim ili srodnim pravima („Autorsko pravo i povezana prava”). Autorsko pravo i povezana prava uključuju, ali nisu ograničena:
+     </p>
+     <ol type="i">
+      <li>
+       na pravo na reproduciranje, prilagodbu, distribuciju, izvođenje, prikazivanje, priopćavanje i prevođenje Djela;
+      </li>
+      <li>
+       na moralna prava koja su zadržali izvorni autori i/ili izvođači;
+      </li>
+      <li>
+       na prava na publicitet i privatnost koja se odnose na sliku ili prikaz osobe u Djelu;
+      </li>
+      <li>
+       na prava koja štite od nelojalne konkurencije u pogledu Djela, podložno ograničenjima iz članka 4. stavka (a) u nastavku;
+      </li>
+      <li>
+       na prava koja štite izvlačenje, diseminiranje, uporabu i ponovnu uporabu podataka iz Djela;
+      </li>
+      <li>
+       na prava proizvođača baza podataka (poput onih koja proizlaze iz Direktive 96/9/EZ Europskog parlamenta i Vijeća od 11. ožujka 1996. o pravnoj zaštiti baza podataka te u okviru bilo koje provedbe te direktive na nacionalnoj razini, uključujući svaku izmijenjenu ili novu verziju takve direktive); i
+      </li>
+      <li>
+       na ostala slična, istovjetna ili odgovarajuća prava diljem svijeta na temelju mjerodavnog prava ili međunarodnog ugovora te svake provedbe na nacionalnoj razini.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Odricanje od prava.
+     </h3>
+     <p>
+      U najvećoj mjeri dopuštenoj mjerodavnim pravom, ali ne u suprotnosti s njim, Potvrditelj se otvoreno, u cijelosti, trajno, neopozivo i bezuvjetno odriče, napušta i ustupa svoje Autorsko i povezana prava, te sve povezane zahtjeve i temelje za postupanje, bez obzira na to jesu li poznati ili nepoznati (uključujući postojeće i buduće zahtjeve i temelje za postupanje), na Djelo (i) u cijelom svijetu, (ii) na maksimalno razdoblje predviđeno mjerodavnim pravom ili međunarodnim ugovorom (uključujući buduća produljenja), (iii) na bilo kojem postojećem ili budućem mediju i u bilo kojem broju primjeraka i (iv) za bilo koju svrhu, uključujući, bez ograničenja, u komercijalne, reklamne ili promidžbene svrhe („Odricanje od prava”). Potvrditelj se odriče prava (Odricanje od prava) u korist svakog pojedinca te na štetu svojih nasljednika i pravnih sljednika s namjerom da takvo Odricanje od prava ne bude predmetom opoziva, poništenja, ukidanja, otkazivanja ni ikakve druge pravne ili pravične mjere kojom bi se narušilo neometano uživanje javnosti u Djelu kako je predviđeno Izjavom o svrsi Potvrditelja.
+     </p>
+     <h3 id="fallback">
+      3. Rezervna javna licencija.
+     </h3>
+     <p>
+      Ako se bilo koji dio Odricanja od prava iz bilo kojeg razloga proglasi pravno nevaljanim ili bez pravnog učinka prema mjerodavnom pravu, Odricanje se mora očuvati u najvećoj dopuštenoj mjeri uzimajući u obzir izričitu Izjavu o svrsi Potvrditelja. Osim toga, u mjeri u kojoj je Odricanje od prava proglašeno nevaljanim ili bez pravnog učinka, Potvrditelj svakoj predmetnoj osobi dodjeljuje besplatnu, neprenosivu, neisključivu, neopozivu i bezuvjetnu licenciju bez prava podlicenciranja za korištenje Autorskog prava i povezanih prava Potvrditelja na Djelo (i) u cijelom svijetu, (ii) na maksimalno razdoblje predviđeno mjerodavnim pravom ili međunarodnim ugovorom (uključujući buduća produljenja), (iii) na bilo kojem postojećem ili budućem mediju i u bilo kojem broju primjeraka i (iv) za bilo koju svrhu, uključujući, bez ograničenja, u komercijalne, reklamne ili promidžbene svrhe („Licencija”). Smatra se da Licencija stupa na snagu na datum na koji Potvrditelj primijeni CC0 na Djelo. Ako se bilo koji dio Licencije iz bilo kojeg razloga proglasi pravno nevaljanim ili bez pravnog učinka prema mjerodavnom pravu, takva djelomična nevaljanost ili neprimjenjivost ne utječe na valjanost ostatka licencije te u tom slučaju Potvrditelj potvrđuje da neće (i) koristiti nijedno preostalo Autorsko pravo i povezana prava na Djelo ni (ii) imati bilo kakve povezane zahtjeve i temelje za postupanje u odnosu na Djelo u suprotnosti s Izjavom o svrsi Potvrditelja.
+     </p>
+     <h3 id="limitations">
+      4. Ograničenja i odricanja od odgovornosti.
+     </h3>
+     <ol type="a">
+      <li>
+       Potvrditelj se ovim dokumentom ne odriče žiga ni patentnog prava te ih ne napušta, ne ustupa i ne licencira niti ovaj dokument na njih ikako utječe.
+      </li>
+      <li>
+       Potvrditelj nudi Djelo kakvo jest i ne daje nikakve izjave niti jamstva u pogledu Djela, izričito, posredno, na temelju zakona ili na drugi način, uključujući, bez ograničenja, jamstva u pogledu vlasništva, stavljanja na tržište, prikladnosti za određenu svrhu, jamstvo u pogledu nepostojanja kršenja prava ili nepostojanja skrivenih ili drugih nedostataka, točnosti ili u pogledu postojanja ili nepostojanja pogrešaka koje je moguće ili nije moguće otkriti, sve u najvećoj mjeri koja je dopuštena mjerodavnim pravom.
+      </li>
+      <li>
+       Potvrditelj se odriče odgovornosti za utvrđivanje prava drugih osoba koja možda imaju na Djelu ili na bilo kakvu uporabu Djela, uključujući, bez ograničenja, bilo čije Autorsko pravo i povezana prava na Djelo. Nadalje, Potvrditelj se odriče odgovornosti za dobivanje bilo kakvih potrebnih odobrenja, dozvola ili drugih prava potrebnih za bilo kakvu uporabu Djela.
+      </li>
+      <li>
+       Potvrditelj razumije i prihvaća da pravni subjekt Creative Commons nije stranka ovog dokumenta i da nema nikakvu dužnost ni obvezu u pogledu ovog dokumenta CC0 ili uporabe Djela.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Organizacija Creative Commons nije stranka u Creative Commons javnim licencama. Međutim, Creative Commons može odlučiti primijeniti neku od svojih javnih licenci na materijal koji objavljuje i u tom slučaju će se smatrati "Davateljem licence". Tekst Creative Commons javnih licenci prenesen je u javno dobro temeljem pravnog instrumenta
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Prenošenje u javno dobro
+      </a>
+      . Osim u ograničene svrhe ukazivanja da je neki materijal podijeljen pod Creative Commons javnom licencom ili u slučajevima koje dopuštaju unutarnja pravila Creative Commonsa koja možete naći na
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons ne daje dopuštenje da se koristi zaštićeni znak "Creative Commons" ili Creative Commons logotip bez prethodnog pismenog pristanka Creative Commonsa, uključujući, ali ne i isključivo u slučajevima bilo kakve nedopuštene izmjene neke od njegovih javnih licenci ili bilo kakvog drugog dogovora, sporazuma ili ugovora koji se tiče licenciranog materijala. Kako ne bi bilo dvojbe, ovaj paragraf ne čini dio javne licence.
+     </p>
+     <p>
+      Creative Commons možete kontaktirati na
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

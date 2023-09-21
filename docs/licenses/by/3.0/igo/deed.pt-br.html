@@ -4,444 +4,565 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY 3.0 IGO Deed — Atribuição 3.0 Intergovernmental Organization — Creative Commons
+   CC BY 3.0 IGO Deed | Atribuição 3.0 Intergovernmental Organization
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by/3.0/igo/deed.pt-br" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
  </head>
- <body about="https://creativecommons.org/licenses/by/3.0/igo/" typeof="cc:License">
+ <body about="https://creativecommons.org/licenses/by/3.0/igo/" class="walkthrough-page cc-legal-tools bidi-left" typeof="cc:License">
+  <a class="skip-to-content" href="#main-content-marker">
+   Saltar para o conteúdo
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Saltar para o conteúdo
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Início
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by/3.0/igo/deed.pt-br">
-        CC BY 3.0 IGO Deed
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.an" id="option-an" value="an">
-         aragonés
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ca" id="option-ca" value="ca">
-         català
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.et" id="option-et" value="et">
-         eesti
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.eo" id="option-eo" value="eo">
-         Esperanto
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ga" id="option-ga" value="ga">
-         Gaeilge
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.gl" id="option-gl" value="gl">
-         galego
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.hu" id="option-hu" value="hu">
-         Magyar
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ms" id="option-ms" value="ms">
-         Melayu
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.pt-br" id="option-pt-br" selected="" value="pt-br">
-         Português Brasileiro
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.sr-latn" id="option-sr-latn" value="sr-latn">
-         srpski (latinica)
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.is" id="option-is" value="is">
-         Íslenska
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.be" id="option-be" value="be">
-         беларуская
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.bg" id="option-bg" value="bg">
-         български
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.fa" id="option-fa" value="fa">
-         فارسی
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.bn" id="option-bn" value="bn">
-         বাংলা
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="/licenses/by/3.0/igo/deed.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.an" id="option-an" value="an">
+          aragonés
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ca" id="option-ca" value="ca">
+          català
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.et" id="option-et" value="et">
+          eesti
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.eo" id="option-eo" value="eo">
+          Esperanto
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ga" id="option-ga" value="ga">
+          Gaeilge
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.gl" id="option-gl" value="gl">
+          galego
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.hu" id="option-hu" value="hu">
+          Magyar
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ms" id="option-ms" value="ms">
+          Melayu
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.pt-br" id="option-pt-br" selected="" value="pt-br">
+          Português Brasileiro
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.sr-latn" id="option-sr-latn" value="sr-latn">
+          srpski (latinica)
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.is" id="option-is" value="is">
+          Íslenska
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.be" id="option-be" value="be">
+          беларуская
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.bg" id="option-bg" value="bg">
+          български
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.fa" id="option-fa" value="fa">
+          فارسی
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.bn" id="option-bn" value="bn">
+          বাংলা
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="/licenses/by/3.0/igo/deed.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="level container">
-     <div class="level-item level-right">
-      <a class="button tiny is-pulled-right" href="legalcode.en" id="next-btn">
-       See the legal code
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
+       </a>
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY 3.0 IGO Deed
+    </h1>
+    <h2>
+     Atribuição 3.0 Intergovernmental Organization
+    </h2>
+   </header>
+   <div class="content">
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
       </a>
-     </div>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/deed.en">
+       CC BY 4.0 Deed | Atribuição 4.0 Internacional
+      </a>
+     </p>
     </div>
-    <div class="container">
-     <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-      <h4 class="padding-bottom-normal is-vcentered b-header">
-       <i class="info icon padding-right-normal">
-       </i>
-       Exoneração de Responsabilidade
-      </h4>
-      <p class="has-text-black padding-left-big">
-       This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-       <a href="/version4/">
-        more user-friendly and more internationally robust
-       </a>
-       . If you are
-       <a href="/choose/">
-        licensing your own work
-       </a>
-       , we strongly recommend the use of the 4.0 license instead:
-       <a href="../../4.0/deed.en">
-        Attribution 4.0 International
-       </a>
-      </p>
-     </div>
-     <div class="margin-vertical-bigger padding-xxl" id="deed-body">
-      <h3 class="is-hidden-touch">
-       <span class="padding-right-bigger">
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-       </span>
-       CC BY 3.0 IGO
-      </h3>
-      <h3 class="is-hidden-desktop is-hidden-mobile">
-       <span class="padding-right-big">
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-       </span>
-       CC BY 3.0 IGO
-      </h3>
-      <h3 class="is-hidden-tablet">
-       <span>
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-       </span>
-      </h3>
-      <h4 class="has-text-centered is-hidden-tablet padding-left-normal">
-       CC BY 3.0 IGO
-      </h4>
-      <h2 class="margin-bottom-larger b-header is-hidden-touch">
-       Atribuição 3.0 Intergovernmental Organization
-      </h2>
-      <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
-       Atribuição 3.0 Intergovernmental Organization
-      </h3>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       Você tem o direito de:
-      </h3>
-      <p class="has-text-black body-big padding-bottom-normal">
+    <p class="document-link">
+     <a href="legalcode.en">
+      See the legal code
+     </a>
+    </p>
+    <div id="deed-body">
+     <h2 id="rights">
+      Você tem o direito de:
+     </h2>
+     <ol>
+      <li>
        <strong>
         Compartilhar
        </strong>
        — copiar e redistribuir o material em qualquer suporte ou formato 
         para qualquer fim, mesmo que comercial.
-      </p>
-      <p class="has-text-black body-big padding-bottom-small">
+      </li>
+      <li>
        <strong>
         Adaptar
        </strong>
        — remixar, transformar, e criar a partir do material
-          para qualquer fim, mesmo que comercial.
-      </p>
-      <p class="has-text-black body-big padding-bottom-small">
+        para qualquer fim, mesmo que comercial.
+      </li>
+      <li>
        O licenciante não pode revogar estes direitos desde que você respeite os termos da licença.
-      </p>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       De acordo com os termos seguintes:
-      </h3>
-      <div class="columns is-multiline">
-       <div class="column is-1">
-        <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
-        </i>
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          Atribuição
-         </span>
-         -
-        Você deve dar o
-         <a class="helpLink" href="#" id="appropriate_credit_popup">
-          crédito apropriado
-         </a>
-         , prover um link para a licença e
-         <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-          <a class="helpLink" href="#" id="indicate_changes_popup">
-           indicar se mudanças foram feitas
-          </a>
-         </span>
-         . Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso.
-        </p>
-       </div>
-       <div class="column is-1">
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          Sem restrições adicionais
-         </span>
-         - Você não pode aplicar termos jurídicos ou
-         <a class="helpLink" href="#" id="technological_measures_popup">
-          medidas de caráter tecnológico
-         </a>
-         que restrinjam legalmente outros de fazerem algo que a licença permita.
-        </p>
-       </div>
-      </div>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       Avisos:
-      </h3>
-      <p class="has-text-black body-big padding-bottom-normal">
-       Você não tem de cumprir com os termos da licença relativamente a elementos do material que estejam no domínio público ou cuja utilização seja permitida por uma
-       <a class="helpLink" href="#" id="exception_or_limitation_popup">
-        exceção ou limitação
+      </li>
+     </ol>
+     <h2 id="terms">
+      De acordo com os termos seguintes:
+     </h2>
+     <ol>
+      <li class="cc-by">
+       <strong>
+        Atribuição
+       </strong>
+       -
+      Você deve dar o
+       <a class="helpLink" href="#" id="appropriate_credit_popup">
+        crédito apropriado
        </a>
-       que seja aplicável.
-      </p>
-      <p class="has-text-black body-big padding-bottom-normal">
-       Não são dadas quaisquer garantias. A licença pode não lhe dar todas as autorizações necessárias para o uso pretendido. Por exemplo, outros direitos, tais como
-       <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
-        direitos de imagem, de privacidade ou direitos morais
+       , prover um link para a licença e
+       <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+        <a class="helpLink" href="#" id="indicate_changes_popup">
+         indicar se mudanças foram feitas
+        </a>
+       </span>
+       . Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso.
+      </li>
+      <li>
+       <strong>
+        Sem restrições adicionais
+       </strong>
+       - Você não pode aplicar termos jurídicos ou
+       <a class="helpLink" href="#" id="technological_measures_popup">
+        medidas de caráter tecnológico
        </a>
-       , podem limitar o uso do material.
-      </p>
-     </div>
-     <div class="columns margin-top-normal is-vcentered">
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+       que restrinjam legalmente outros de fazerem algo que a licença permita.
+      </li>
+     </ol>
+     <h2 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+      Avisos:
+     </h2>
+     <p>
+      Você não tem de cumprir com os termos da licença relativamente a elementos do material que estejam no domínio público ou cuja utilização seja permitida por uma
+      <a class="helpLink" href="#" id="exception_or_limitation_popup">
+       exceção ou limitação
+      </a>
+      que seja aplicável.
+     </p>
+     <p>
+      Não são dadas quaisquer garantias. A licença pode não lhe dar todas as autorizações necessárias para o uso pretendido. Por exemplo, outros direitos, tais como
+      <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
+       direitos de imagem, de privacidade ou direitos morais
+      </a>
+      , podem limitar o uso do material.
+     </p>
     </div>
-   </section>
+    <div>
+     <p>
+      Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+     </p>
+     <ul>
+      <li>
+       <a href="/about/">
+        Learn more about our work
+       </a>
+      </li>
+      <li>
+       <a href="/about/cclicenses/">
+        Learn more about CC Licensing
+       </a>
+      </li>
+      <li>
+       <a href="/donate/">
+        Support our work
+       </a>
+      </li>
+      <li>
+       <a href="/choose/">
+        Use the license for your own material.
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/list">
+        Licenses List
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/list">
+        Public Domain List
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
  </body>
 </html>

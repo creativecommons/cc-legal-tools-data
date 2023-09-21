@@ -4,986 +4,1007 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-SA 4.0 Code Juridique — Attribution -  Partage dans les Mêmes Conditions 4.0 International — Creative Commons
+   CC BY-SA 4.0 Code Juridique | Attribution -  Partage dans les Mêmes Conditions 4.0 International
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Aller au contenu
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Aller au contenu
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Accueil
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-sa/4.0/legalcode.fr">
-        CC BY-SA 4.0 Code Juridique
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" selected="" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" selected="" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.fr" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-SA 4.0 Code Juridique
+    </h1>
+    <h2>
+     Attribution -  Partage dans les Mêmes Conditions 4.0 International
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Attribution - Partage dans les mêmes conditions 4.0 International
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            Article 1 - Définitions.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            Article 2 - Champ d’application de la présente Licence publique.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            Article 3 – Conditions d'utilisation de la présente Licence publique.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            Article 4 – Le Droit sui generis des producteurs de bases de données.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            Article 5 – Limitations de garantie et exclusions de responsabilité.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            Article 6 – Durée et fin.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            Article 7 – Autres termes et conditions.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            Article 8 – Interprétation.
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          Article 1 - Définitions.
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          Article 2 - Champ d’application de la présente Licence publique.
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          Article 3 – Conditions d'utilisation de la présente Licence publique.
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          Article 4 – Le Droit sui generis des producteurs de bases de données.
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          Article 5 – Limitations de garantie et exclusions de responsabilité.
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          Article 6 – Durée et fin.
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          Article 7 – Autres termes et conditions.
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          Article 8 – Interprétation.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-SA 4.0
-       </h2>
-       <h1 class="b-header">
-        Attribution - Partage dans les mêmes conditions 4.0 International
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-SA 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-SA 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-SA 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Attribution - Partage dans les mêmes conditions 4.0 International
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation (« Creative Commons ») n'est pas un cabinet d'avocats et ne donne ni services ni conseils juridiques. La mise à disposition des licences publiques Creative Commons ne crée pas de rapport analogue à celui d’un client avec son conseil­ ni aucun autre type de relation juridique. Creative Commons propose ses licences et les informations qui y sont associées telles quelles, sans aucune garantie relative à ses licences, aux œuvres mises à disposition conformément aux termes et conditions d’utilisation de ses licences, ou à toute autre information afférente. Creative Commons décline formellement toute responsabilité quant aux préjudices pouvant résulter de leur utilisation.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Utilisation des licences publiques Creative Commons
-       </h4>
-       <p class="has-text-black body-big">
-        Les licences publiques Creative Commons proposent des termes et conditions d’utilisation standardisés que les auteurs et autres titulaires de droits peuvent utiliser pour partager une œuvre originale ou toute autre œuvre protégée par le droit d'auteur et certains autres droits précisés dans la licence publique ci-dessous. Les avertissements suivants sont indiqués à titre informatif uniquement ; ils ne sont pas exhaustifs et ne font pas partie de nos licences.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Avertissements à l’attention des donneurs de licence
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Nos licences publiques sont conçues pour être utilisées par les auteurs et titulaires de droits dans la limite des lois et règlements en vigueur. Nos licences sont irrévocables. Les donneurs de licence doivent lire et comprendre les termes et conditions de la licence qu'ils choisissent avant de l’utiliser. Les donneurs de licence doivent également obtenir tous les droits nécessaires avant d'utiliser nos licences de façon à ce que le public puisse utiliser l’œuvre comme prévu. Les donneurs de licence doivent clairement indiquer quelle œuvre n'est pas soumise à la licence. Cela comprend les œuvres soumises à d’autres licences Creative Commons et les œuvres utilisées aux termes d'une exception ou d'une limitation du droit d'auteur.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Autres avertissements à l’attention des donneurs de licence.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Avertissements à l’attention du public
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Le donneur de licence qui utilise l'une de nos licences publiques accorde au public l’autorisation d’utiliser l’œuvre aux termes et conditions précisés dans la licence. Si l’autorisation du donneur de licence n'est pas nécessaire pour quelque raison que ce soit (en raison, par exemple, d’une exception ou d’une limitation applicable au droit d'auteur), cette utilisation n'est pas soumise aux termes et conditions d’utilisation de la licence. Nos licences accordent uniquement des autorisations en vertu du droit d'auteur et de certains autres droits qu'un donneur de licence a le droit d’accorder. L’utilisation de l’œuvre peut néanmoins être restreint pour d'autres raisons, par exemple, si d'autres personnes détiennent un droit d'auteur ou d'autres droits sur l’œuvre. Un donneur de licence peut formuler des demandes particulières, comme notamment que toute modification soit indiquée ou décrite. Même si cela n'est pas rendu obligatoire par nos licences, nous vous invitons à honorer ces demandes dans la mesure du possible.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Autres avertissements à l’attention du public.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Attribution - Partage dans les mêmes conditions 4.0 International
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Lorsque Vous exercez les Droits accordés par la licence (définis ci-dessous), Vous acceptez d'être lié par les termes et conditions de la présente Licence publique Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International (la « Licence publique »). Dans la mesure où la présente Licence publique peut être interprétée comme un contrat, Vous bénéficiez des Droits accordés par la licence en contrepartie de Votre acceptation des présents termes et conditions, et le Donneur de licence Vous accorde ces droits en contrepartie des avantages que lui procure le fait de mettre à disposition l’Œuvre sous licence en vertu des présents termes et conditions.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           Article 1 - Définitions.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Œuvre dérivée
-            </span>
-            signifie œuvre protégée par les Droit d’auteur et droits connexes, dérivée ou adaptée de l’Œuvre sous licence et dans laquelle l’Œuvre sous licence est traduite, retouchée, arrangée, transformée, ou modifiée de telle façon que l’autorisation du Donneur de licence est nécessaire, conformément aux dispositions des Droit d’auteur et droits connexes. Dans le cas de la présente Licence publique, lorsque l’Œuvre sous licence est une œuvre musicale, une représentation publique ou un enregistrement sonore, la synchronisation de l'Œuvre sous licence avec une image animée sera considérée comme une Œuvre dérivée aux fins de la présente Licence publique.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licence d’Œuvre dérivée
-            </span>
-            signifie licence par laquelle Vous accordez Vos Droit d'auteur et droits connexes portant sur Vos contributions à l'Œuvre dérivée, selon les termes et conditions de la présente Licence publique.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_by_sa_compatible_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licence compatible BY-SA
-            </span>
-            signifie licence figurant à l'adresse suivante
-            <a href="//creativecommons.org/compatiblelicenses">
-             creativecommons.org/compatiblelicenses
-            </a>
-            , approuvée par Creative Commons comme étant essentiellement équivalente à la présente Licence publique.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Droit d’auteur et droits connexes
-            </span>
-            signifie droit d’auteur et/ou droits connexes incluant, notamment, la représentation, la radio et télédiffusion, l’enregistrement sonore et le Droit sui generis des producteurs de bases de données, quelle que soit la classification ou qualification juridique de ces droits. Dans le cadre de la présente Licence publique, les droits visés à l’Article
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            ne relèvent ni du Droit d’auteur ni de droits connexes.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Mesures techniques efficaces
-            </span>
-            signifie mesures techniques qui, en l’absence d’autorisation expresse, ne peuvent être contournées dans le cadre de lois conformes aux dispositions de l’Article 11 du Traité de l’OMPI sur le droit d’auteur adopté le 20 Décembre 1996 et/ou d’accords internationaux de même objet.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Exceptions et limitations
-            </span>
-            signifie utilisation loyale et équitable (
-            <i>
-             fair use
-            </i>
-            et
-            <i>
-             fair dealing
-            </i>
-            ) et/ou toute autre exception ou limitation applicable à Votre utilisation de l’Œuvre sous licence.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_license_elements_sa">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Eléments de licence
-            </span>
-            signifie les composantes de la licence figurant dans l’intitulé de la Licence publique Creative Commons. Les éléments de la présente Licence publique sont : Attribution et Partage dans les mêmes conditions.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Œuvre sous licence
-            </span>
-            signifie œuvre littéraire ou artistique, base de données ou toute autre œuvre pour laquelle le Donneur de licence a recours à la présente Licence publique.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Droits accordés par la licence
-            </span>
-            signifie droits qui Vous sont accordés selon les termes et conditions d’utilisation définis par la présente Licence publique, limités aux Droit d’auteur et droits connexes applicables à Votre utilisation de l’Œuvre sous licence et que le Donneur de licence a le droit d’accorder.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Donneur de licence
-            </span>
-            signifie un individu ou une entité octroyant la présente Licence publique et les droits accordés par elle.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Partager
-            </span>
-            signifie mettre une œuvre à la disposition du public par tout moyen ou procédé qui requiert l’autorisation découlant des Droits accordés par la licence, tels que les droits de reproduction, de représentation au public, de distribution, de diffusion, de communication ou d’importation, y compris de manière à ce que chacun puisse y avoir accès de l’endroit et au moment qu’il choisit individuellement.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Droit sui generis des producteurs de bases de données
-            </span>
-            signifie droits distincts du droit d'auteur résultant de la Directive 96/9/CE du Parlement européen et du Conseil du 11 mars 1996 sur la protection juridique des bases de données, ainsi que tout autre droit de nature équivalente dans le monde.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1m_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Vous
-            </span>
-            (preneur de licence) se rapporte à tout individu ou entité exerçant les Droits accordés par la licence.
-            <strong>
-             Votre
-            </strong>
-            et
-            <strong>
-             Vos
-            </strong>
-            renvoient également au preneur de licence.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           Article 2 - Champ d’application de la présente Licence publique.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Octroi de la licence
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             Sous réserve du respect des termes et conditions d'utilisation de la présente Licence publique, le Donneur de licence Vous autorise à exercer pour le monde entier, à titre gratuit, non sous-licenciable, non exclusif, irrévocable, les Droits accordés par la licence afin de :
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               reproduire et Partager l’Œuvre sous licence, en tout ou partie ; et
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               produire, reproduire et Partager l’Œuvre dérivée.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Exceptions et limitations
-             </strong>
-             . Afin de lever toute ambiguïté, lorsque les Exceptions et limitations s’appliquent à Votre utilisation, la présente Licence publique ne s’applique pas et Vous n’avez pas à Vous conformer à ses termes et conditions.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Durée
-             </strong>
-             . La durée de la présente Licence publique est définie à l’Article
-             <a href="#s6a">
-              6(a)
-             </a>
-             .
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Supports et formats : modifications techniques autorisées
-             </strong>
-             . Le Donneur de licence Vous autorise à exercer les Droits accordés par la licence sur tous les supports et formats connus ou encore inconnus à ce jour, et à apporter toutes les modifications techniques que ceux-ci requièrent. Le Donneur de licence renonce et/ou accepte de ne pas exercer ses droits qui pourraient être susceptibles de Vous empêcher d’apporter les modifications techniques nécessaires pour exercer les Droits accordés par la licence, y compris celles nécessaires au contournement des Mesures techniques efficaces. Dans le cadre de la présente Licence publique, le fait de ne procéder qu’à de simples modifications techniques autorisées selon les termes du présent Article
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             n’est jamais de nature à créer une Œuvre dérivée.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Utilisateurs en aval.
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Offre du Donneur de licence – Œuvre sous licence
-                </span>
-                . Chaque utilisateur de l’Œuvre sous licence reçoit automatiquement une offre de la part du Donneur de licence lui permettant d’exercer les Droits accordés par la licence selon les termes et conditions de la présente Licence publique.
-               </li>
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5B_adapted_material">
-                <span style="text-decoration: underline;">
-                 Offre additionnelle du Donneur de licence – Œuvre dérivée.
-                </span>
-                Chaque utilisateur d’une Œuvre dérivée reçoit automatiquement une offre du Donneur de licence lui permettant d’exercer les Droits accordés par la licence sur l’Œuvre dérivée selon les termes et conditions de la Licence d’Œuvre dérivée que Vous appliquez.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5C_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Pas de restrictions en aval pour les utilisateurs suivants
-                </span>
-                . Vous ne pouvez proposer ou imposer des termes et conditions supplémentaires ou différents, ou appliquer quelque Mesure technique efficace que ce soit à l’Œuvre sous licence si ceux(celles)-ci sont de nature à restreindre l’exercice des Droits accordés par la licence aux utilisateurs de l’Œuvre sous licence.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Non approbation
-             </span>
-             . . Aucun élément de la présente Licence publique ne peut être interprété comme laissant supposer que le preneur de licence ou que l’utilisation qu’il fait de l’Œuvre sous licence est lié à, parrainé, approuvé, ou doté d'un statut officiel par le Donneur de licence ou par toute autre personne à qui revient l’attribution de l’Œuvre sous licence, comme indiqué à l’Article
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             .
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Autres droits
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Les droits moraux, tel que le droit à l’intégrité de l’œuvre, ne sont pas accordés par la présente Licence publique, ni le droit à l’image, ni le droit au respect de la vie privée, ni aucun autre droit de la personnalité ou apparenté ; cependant, dans la mesure du possible, le Donneur de licence renonce et/ou accepte de ne pas faire valoir les droits qu’il détient de manière à Vous permettre d’exercer les Droits accordés par la licence.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             Le droit des brevets et le droit des marques ne sont pas concernés par la présente Licence publique.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Dans la mesure du possible, le Donneur de licence renonce au droit de collecter des redevances auprès de Vous pour l’exercice des Droits accordés par la licence, directement ou indirectement dans le cadre d’un régime de gestion collective facultative ou obligatoire assorti de possibilités de renonciation quel que soit le type d’accord ou de licence. Dans tous les autres cas, le Donneur de licence se réserve expressément le droit de collecter de telles redevances.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           Article 3 – Conditions d'utilisation de la présente Licence publique.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          L’exercice des Droits accordés par la licence est expressément soumis aux conditions suivantes.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Attribution
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              Si Vous partagez l’Œuvre sous licence (y compris sous une forme modifiée), Vous devez :
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               conserver les informations suivantes lorsqu’elles sont fournies par le Donneur de licence avec l’Œuvre sous licence :
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 identification du(des) auteur(s) de l’Œuvre sous licence et de toute personne à qui revient l’attribution de l’Œuvre sous licence, dans la mesure du possible, conformément à la demande du Donneur de licence (y compris sous la forme d’un pseudonyme s’il est indiqué) ;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 l’indication de l’existence d’un droit d’auteur ;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 une notice faisant référence à la présente Licence publique ;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 une notice faisant référence aux limitations de garantie et exclusions de responsabilité ;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 un URI ou un hyperlien vers l’Œuvre sous licence dans la mesure du possible ;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               Indiquer si Vous avez modifié l’Œuvre sous licence et conserver un suivi des modifications précédentes ; et
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               Indiquer si l’Œuvre sous licence est mise à disposition en vertu de la présente Licence publique en incluant le texte, l’URI ou l’hyperlien correspondant à la présente Licence publique.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Vous pouvez satisfaire aux conditions de l’Article
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             dans toute la mesure du possible, en fonction des supports, moyens et contextes dans lesquels Vous Partagez l’Œuvre sous licence. Par exemple, Vous pouvez satisfaire aux conditions susmentionnées en fournissant l’URI ou l’hyperlien vers la ressource incluant les informations requises.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a3">
-             Bien que requises aux termes de l’Article
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             , certaines informations devront être retirées, dans la mesure du possible, si le Donneur de licence en fait la demande.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s3b">
-           <strong>
-            Partage dans les mêmes conditions
-           </strong>
-           .
-           <p class="padding-top-normal padding-bottom-normal">
-            Outre les conditions indiquées à l’Article
-            <a href="#s3a">
-             3(a)
-            </a>
-            , si Vous Partagez une Œuvre dérivée que Vous avez réalisée, les conditions suivantes s’appliquent aussi.
-           </p>
-           <ol class="padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s3b1">
-             La Licence d’Œuvre dérivée que Vous appliquez doit être une licence Creative Commons avec les mêmes Eléments de licence, qu’il s’agisse de cette version ou d’une version ultérieure, ou une Licence compatible BY-SA.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3b2">
-             Vous devez inclure le texte, l’URI ou l’hyperlien correspondant à la Licence d’Œuvre dérivée que Vous appliquez. Ces conditions peuvent être satisfaites dans la mesure du raisonnable suivant les supports, moyens et contextes via lesquels Vous Partagez l’Œuvre dérivée.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3b3">
-             Vous ne pouvez pas proposer ou imposer des termes ou des conditions supplémentaires ou différents ou appliquer des Mesures techniques efficaces à l’Œuvre dérivée qui seraient de nature à restreindre l’exercice des Droits accordés par la Licence d’Œuvre dérivée que Vous appliquez.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           Article 4 – Le Droit sui generis des producteurs de bases de données.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Lorsque les Droits accordés par la licence incluent le Droit sui generis des producteurs de bases de données applicable à Votre utilisation de l’Œuvre sous licence :
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           afin de lever toute ambiguïté, l’Article
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           Vous accorde le droit d’extraire, réutiliser, reproduire et Partager la totalité ou une partie substantielle du contenu de la base de données ;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           si Vous incluez la totalité ou une partie substantielle du contenu de la base de données dans une base de données pour laquelle Vous détenez un Droit sui generis de producteur de bases de données, la base de données sur laquelle Vous détenez un tel droit (mais pas ses contenus individuels) sera alors considérée comme une Œuvre dérivée, y compris pour l’application de l’Article
-           <a href="#s3b">
-            3(b)
-           </a>
-           ; et
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Vous devez respecter les conditions de l’Article
-           <a href="#s3a">
-            3(a)
-           </a>
-           si Vous Partagez la totalité ou une partie substantielle du contenu des bases de données.
-          </li>
-         </ol>
-         <span class="body-big">
-          Afin de lever toute ambiguïté, le présent Article
-          <a href="#s4">
-           4
-          </a>
-          complète mais ne remplace pas Vos obligations découlant des termes de la présente Licence publique lorsque les Droits accordés par la licence incluent d’autres Droit d’auteur et droits connexes.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           Article 5 – Limitations de garantie et exclusions de responsabilité.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Sauf indication contraire et dans la mesure du possible, le Donneur de licence met à disposition l’Œuvre sous licence telle quelle, et n’offre aucune garantie de quelque sorte que ce soit, notamment expresse, implicite, statutaire ou autre la concernant. Cela inclut, notamment, les garanties liées au titre, à la valeur marchande, à la compatibilité de certaines utilisations particulières, à l’absence de violation, à l’absence de vices cachés ou autres défauts, à l’exactitude, à la présence ou à l’absence d’erreurs connues ou non ou susceptibles d’être découvertes dans l’Œuvre sous licence. Lorsqu’une limitation de garantie n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Dans la mesure du possible, le Donneur de licence ne saurait voir sa responsabilité engagée vis-à-vis de Vous, quel qu’en soit le fondement juridique (y compris, notamment, la négligence), pour tout préjudice direct, spécial, indirect, incident, conséquentiel, punitif, exemplaire, ou pour toutes pertes, coûts, dépenses ou tout dommage découlant de l’utilisation de la présente Licence publique ou de l’utilisation de l’Œuvre sous licence, même si le Donneur de licence avait connaissance de l’éventualité de telles pertes, coûts, dépenses ou dommages. Lorsqu’une exclusion de responsabilité n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Les limitations de garantie et exclusions de responsabilité ci-dessus doivent être interprétées, dans la mesure du possible, comme des limitations et renonciations totales de toute responsabilité.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           Article 6 – Durée et fin.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           La présente Licence publique s’applique pendant toute la durée de validité des Droits accordés par la licence. Cependant, si Vous manquez à Vos obligations prévues par la présente Licence publique, Vos droits accordés par la présente Licence publique seront automatiquement révoqués.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Lorsque les Droits accordés par la licence ont été révoqués selon les termes de l’Article 6(a), ils seront rétablis :
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             automatiquement, à compter du jour où la violation aura cessé, à condition que Vous y remédiiez dans les 30 jours suivant la date à laquelle Vous aurez eu connaissance de la violation ; ou
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             à condition que le Donneur de licence l’autorise expressément.
-            </li>
-           </ol>
-           Afin de lever toute ambiguïté, le présent Article
-           <a href="#s6b">
-            6(b)
-           </a>
-           n’affecte pas le droit du Donneur de licence de demander réparation dans les cas de violation de la présente Licence publique.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Afin de lever toute ambiguïté, le Donneur de licence peut également proposer l’Œuvre sous licence selon d’autres termes et conditions et peut cesser la mise à disposition de l’Œuvre sous licence à tout moment ; une telle cessation n’entraîne pas la fin de la présente Licence publique.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           Les Articles
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           , et
-           <a href="#s8">
-            8
-           </a>
-           continueront à s’appliquer même après la résiliation de la présente Licence publique.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           Article 7 – Autres termes et conditions.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Sauf accord exprès, le Donneur de licence n’est lié par aucune modification des termes de Votre part.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Tous arrangements, ententes ou accords relatifs à l’Œuvre sous licence non mentionnés dans la présente Licence publique sont séparés et indépendants des termes et conditions de la présente Licence publique.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           Article 8 – Interprétation.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Afin de lever toute ambiguïté, la présente Licence publique ne doit en aucun cas être interprétée comme ayant pour effet de réduire, limiter, restreindre ou imposer des conditions plus contraignantes que celles qui sont prévues par les dispositions légales applicables.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Dans la mesure du possible, si une clause de la présente Licence publique est déclarée inapplicable, elle sera automatiquement modifiée a minima afin de la rendre applicable. Dans le cas où la clause ne peut être modifiée, elle sera écartée de la présente Licence publique sans préjudice de l’applicabilité des termes et conditions restants.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Aucun terme ni aucune condition de la présente Licence publique ne sera écarté(e) et aucune violation ne sera admise sans l’accord exprès du Donneur de licence.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Aucun terme ni aucune condition de la présente Licence publique ne constitue ou ne peut être interprété(e) comme une limitation ou une renonciation à un quelconque privilège ou à une immunité s’appliquant au Donneur de licence ou à Vous, y compris lorsque celles-ci émanent d’une procédure légale, quel(le) qu’en soit le système juridique concerné ou l’autorité compétente.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons n’est pas partie prenante de ses licences publiques. Néanmoins, Creative Commons se réserve le droit d'utiliser une de ses licences publiques pour les œuvres qu’elle publie, et dans ce cas sera considérée comme « Donneur de licence ». Le texte des licences publiques Creative Commons est versé au domaine public en vertu de
-        <a href="/publicdomain/zero/1.0/legalcode.fr">
-         CC0 Domaine Public
-        </a>
-        . A l’exception des seuls cas où il est indiqué que l’œuvre est mise à disposition sous licence publique Creative Commons et ceux autorisés par les statuts de Creative Commons disponibles sur
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons n’autorise l’utilisation par aucune partie de la marque "Creative Commons" ou de toute autre marque ou logo de Creative Commons sans le consentement écrit préalable de Creative Commons. Cette restriction relative à l'utilisation des marques ne constitue pas une partie de nos licences publiques.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Vous pouvez joindre Creative Commons via
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.fr">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Utilisation des licences publiques Creative Commons
+     </h2>
+     <p>
+      Les licences publiques Creative Commons proposent des termes et conditions d’utilisation standardisés que les auteurs et autres titulaires de droits peuvent utiliser pour partager une œuvre originale ou toute autre œuvre protégée par le droit d'auteur et certains autres droits précisés dans la licence publique ci-dessous. Les avertissements suivants sont indiqués à titre informatif uniquement ; ils ne sont pas exhaustifs et ne font pas partie de nos licences.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Avertissements à l’attention des donneurs de licence
+     </h3>
+     <p>
+      Nos licences publiques sont conçues pour être utilisées par les auteurs et titulaires de droits dans la limite des lois et règlements en vigueur. Nos licences sont irrévocables. Les donneurs de licence doivent lire et comprendre les termes et conditions de la licence qu'ils choisissent avant de l’utiliser. Les donneurs de licence doivent également obtenir tous les droits nécessaires avant d'utiliser nos licences de façon à ce que le public puisse utiliser l’œuvre comme prévu. Les donneurs de licence doivent clairement indiquer quelle œuvre n'est pas soumise à la licence. Cela comprend les œuvres soumises à d’autres licences Creative Commons et les œuvres utilisées aux termes d'une exception ou d'une limitation du droit d'auteur.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Autres avertissements à l’attention des donneurs de licence.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Avertissements à l’attention du public
+     </h3>
+     <p>
+      Le donneur de licence qui utilise l'une de nos licences publiques accorde au public l’autorisation d’utiliser l’œuvre aux termes et conditions précisés dans la licence. Si l’autorisation du donneur de licence n'est pas nécessaire pour quelque raison que ce soit (en raison, par exemple, d’une exception ou d’une limitation applicable au droit d'auteur), cette utilisation n'est pas soumise aux termes et conditions d’utilisation de la licence. Nos licences accordent uniquement des autorisations en vertu du droit d'auteur et de certains autres droits qu'un donneur de licence a le droit d’accorder. L’utilisation de l’œuvre peut néanmoins être restreint pour d'autres raisons, par exemple, si d'autres personnes détiennent un droit d'auteur ou d'autres droits sur l’œuvre. Un donneur de licence peut formuler des demandes particulières, comme notamment que toute modification soit indiquée ou décrite. Même si cela n'est pas rendu obligatoire par nos licences, nous vous invitons à honorer ces demandes dans la mesure du possible.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Autres avertissements à l’attention du public.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Attribution - Partage dans les mêmes conditions 4.0 International
+     </h2>
+     <p>
+      Lorsque Vous exercez les Droits accordés par la licence (définis ci-dessous), Vous acceptez d'être lié par les termes et conditions de la présente Licence publique Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International (la « Licence publique »). Dans la mesure où la présente Licence publique peut être interprétée comme un contrat, Vous bénéficiez des Droits accordés par la licence en contrepartie de Votre acceptation des présents termes et conditions, et le Donneur de licence Vous accorde ces droits en contrepartie des avantages que lui procure le fait de mettre à disposition l’Œuvre sous licence en vertu des présents termes et conditions.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      Article 1 - Définitions.
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Œuvre dérivée
+       </span>
+       signifie œuvre protégée par les Droit d’auteur et droits connexes, dérivée ou adaptée de l’Œuvre sous licence et dans laquelle l’Œuvre sous licence est traduite, retouchée, arrangée, transformée, ou modifiée de telle façon que l’autorisation du Donneur de licence est nécessaire, conformément aux dispositions des Droit d’auteur et droits connexes. Dans le cas de la présente Licence publique, lorsque l’Œuvre sous licence est une œuvre musicale, une représentation publique ou un enregistrement sonore, la synchronisation de l'Œuvre sous licence avec une image animée sera considérée comme une Œuvre dérivée aux fins de la présente Licence publique.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Licence d’Œuvre dérivée
+       </span>
+       signifie licence par laquelle Vous accordez Vos Droit d'auteur et droits connexes portant sur Vos contributions à l'Œuvre dérivée, selon les termes et conditions de la présente Licence publique.
+      </li>
+      <li id="s1c_by_sa_compatible_license">
+       <span style="text-decoration: underline;">
+        Licence compatible BY-SA
+       </span>
+       signifie licence figurant à l'adresse suivante
+       <a href="//creativecommons.org/compatiblelicenses">
+        creativecommons.org/compatiblelicenses
+       </a>
+       , approuvée par Creative Commons comme étant essentiellement équivalente à la présente Licence publique.
+      </li>
+      <li id="s1d_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Droit d’auteur et droits connexes
+       </span>
+       signifie droit d’auteur et/ou droits connexes incluant, notamment, la représentation, la radio et télédiffusion, l’enregistrement sonore et le Droit sui generis des producteurs de bases de données, quelle que soit la classification ou qualification juridique de ces droits. Dans le cadre de la présente Licence publique, les droits visés à l’Article
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       ne relèvent ni du Droit d’auteur ni de droits connexes.
+      </li>
+      <li id="s1e_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Mesures techniques efficaces
+       </span>
+       signifie mesures techniques qui, en l’absence d’autorisation expresse, ne peuvent être contournées dans le cadre de lois conformes aux dispositions de l’Article 11 du Traité de l’OMPI sur le droit d’auteur adopté le 20 Décembre 1996 et/ou d’accords internationaux de même objet.
+      </li>
+      <li id="s1f_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Exceptions et limitations
+       </span>
+       signifie utilisation loyale et équitable (
+       <i>
+        fair use
+       </i>
+       et
+       <i>
+        fair dealing
+       </i>
+       ) et/ou toute autre exception ou limitation applicable à Votre utilisation de l’Œuvre sous licence.
+      </li>
+      <li id="s1g_license_elements_sa">
+       <span style="text-decoration: underline;">
+        Eléments de licence
+       </span>
+       signifie les composantes de la licence figurant dans l’intitulé de la Licence publique Creative Commons. Les éléments de la présente Licence publique sont : Attribution et Partage dans les mêmes conditions.
+      </li>
+      <li id="s1h_licensed_material">
+       <span style="text-decoration: underline;">
+        Œuvre sous licence
+       </span>
+       signifie œuvre littéraire ou artistique, base de données ou toute autre œuvre pour laquelle le Donneur de licence a recours à la présente Licence publique.
+      </li>
+      <li id="s1i_licensed_rights">
+       <span style="text-decoration: underline;">
+        Droits accordés par la licence
+       </span>
+       signifie droits qui Vous sont accordés selon les termes et conditions d’utilisation définis par la présente Licence publique, limités aux Droit d’auteur et droits connexes applicables à Votre utilisation de l’Œuvre sous licence et que le Donneur de licence a le droit d’accorder.
+      </li>
+      <li id="s1j_licensor">
+       <span style="text-decoration: underline;">
+        Donneur de licence
+       </span>
+       signifie un individu ou une entité octroyant la présente Licence publique et les droits accordés par elle.
+      </li>
+      <li id="s1k_share">
+       <span style="text-decoration: underline;">
+        Partager
+       </span>
+       signifie mettre une œuvre à la disposition du public par tout moyen ou procédé qui requiert l’autorisation découlant des Droits accordés par la licence, tels que les droits de reproduction, de représentation au public, de distribution, de diffusion, de communication ou d’importation, y compris de manière à ce que chacun puisse y avoir accès de l’endroit et au moment qu’il choisit individuellement.
+      </li>
+      <li id="s1l_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Droit sui generis des producteurs de bases de données
+       </span>
+       signifie droits distincts du droit d'auteur résultant de la Directive 96/9/CE du Parlement européen et du Conseil du 11 mars 1996 sur la protection juridique des bases de données, ainsi que tout autre droit de nature équivalente dans le monde.
+      </li>
+      <li id="s1m_you">
+       <span style="text-decoration: underline;">
+        Vous
+       </span>
+       (preneur de licence) se rapporte à tout individu ou entité exerçant les Droits accordés par la licence.
+       <strong>
+        Votre
+       </strong>
+       et
+       <strong>
+        Vos
+       </strong>
+       renvoient également au preneur de licence.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      Article 2 - Champ d’application de la présente Licence publique.
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Octroi de la licence
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         Sous réserve du respect des termes et conditions d'utilisation de la présente Licence publique, le Donneur de licence Vous autorise à exercer pour le monde entier, à titre gratuit, non sous-licenciable, non exclusif, irrévocable, les Droits accordés par la licence afin de :
+         <ol type="A">
+          <li id="s2a1A">
+           reproduire et Partager l’Œuvre sous licence, en tout ou partie ; et
+          </li>
+          <li id="s2a1B">
+           produire, reproduire et Partager l’Œuvre dérivée.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Exceptions et limitations
+         </strong>
+         . Afin de lever toute ambiguïté, lorsque les Exceptions et limitations s’appliquent à Votre utilisation, la présente Licence publique ne s’applique pas et Vous n’avez pas à Vous conformer à ses termes et conditions.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Durée
+         </strong>
+         . La durée de la présente Licence publique est définie à l’Article
+         <a href="#s6a">
+          6(a)
+         </a>
+         .
+        </li>
+        <li id="s2a4">
+         <strong>
+          Supports et formats : modifications techniques autorisées
+         </strong>
+         . Le Donneur de licence Vous autorise à exercer les Droits accordés par la licence sur tous les supports et formats connus ou encore inconnus à ce jour, et à apporter toutes les modifications techniques que ceux-ci requièrent. Le Donneur de licence renonce et/ou accepte de ne pas exercer ses droits qui pourraient être susceptibles de Vous empêcher d’apporter les modifications techniques nécessaires pour exercer les Droits accordés par la licence, y compris celles nécessaires au contournement des Mesures techniques efficaces. Dans le cadre de la présente Licence publique, le fait de ne procéder qu’à de simples modifications techniques autorisées selon les termes du présent Article
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         n’est jamais de nature à créer une Œuvre dérivée.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Utilisateurs en aval.
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Offre du Donneur de licence – Œuvre sous licence
+           </span>
+           . Chaque utilisateur de l’Œuvre sous licence reçoit automatiquement une offre de la part du Donneur de licence lui permettant d’exercer les Droits accordés par la licence selon les termes et conditions de la présente Licence publique.
+          </li>
+          <li id="s2a5B_adapted_material">
+           <span style="text-decoration: underline;">
+            Offre additionnelle du Donneur de licence – Œuvre dérivée.
+           </span>
+           Chaque utilisateur d’une Œuvre dérivée reçoit automatiquement une offre du Donneur de licence lui permettant d’exercer les Droits accordés par la licence sur l’Œuvre dérivée selon les termes et conditions de la Licence d’Œuvre dérivée que Vous appliquez.
+          </li>
+          <li id="s2a5C_no_restrictions">
+           <span style="text-decoration: underline;">
+            Pas de restrictions en aval pour les utilisateurs suivants
+           </span>
+           . Vous ne pouvez proposer ou imposer des termes et conditions supplémentaires ou différents, ou appliquer quelque Mesure technique efficace que ce soit à l’Œuvre sous licence si ceux(celles)-ci sont de nature à restreindre l’exercice des Droits accordés par la licence aux utilisateurs de l’Œuvre sous licence.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Non approbation
+         </span>
+         . Aucun élément de la présente Licence publique ne peut être interprété comme laissant supposer que le preneur de licence ou que l’utilisation qu’il fait de l’Œuvre sous licence est lié à, parrainé, approuvé, ou doté d'un statut officiel par le Donneur de licence ou par toute autre personne à qui revient l’attribution de l’Œuvre sous licence, comme indiqué à l’Article
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         .
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Autres droits
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Les droits moraux, tel que le droit à l’intégrité de l’œuvre, ne sont pas accordés par la présente Licence publique, ni le droit à l’image, ni le droit au respect de la vie privée, ni aucun autre droit de la personnalité ou apparenté ; cependant, dans la mesure du possible, le Donneur de licence renonce et/ou accepte de ne pas faire valoir les droits qu’il détient de manière à Vous permettre d’exercer les Droits accordés par la licence.
+        </li>
+        <li id="s2b2">
+         Le droit des brevets et le droit des marques ne sont pas concernés par la présente Licence publique.
+        </li>
+        <li id="s2b3">
+         Dans la mesure du possible, le Donneur de licence renonce au droit de collecter des redevances auprès de Vous pour l’exercice des Droits accordés par la licence, directement ou indirectement dans le cadre d’un régime de gestion collective facultative ou obligatoire assorti de possibilités de renonciation quel que soit le type d’accord ou de licence. Dans tous les autres cas, le Donneur de licence se réserve expressément le droit de collecter de telles redevances.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      Article 3 – Conditions d'utilisation de la présente Licence publique.
+     </h3>
+     <p>
+      L’exercice des Droits accordés par la licence est expressément soumis aux conditions suivantes.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Attribution
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          Si Vous partagez l’Œuvre sous licence (y compris sous une forme modifiée), Vous devez :
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           conserver les informations suivantes lorsqu’elles sont fournies par le Donneur de licence avec l’Œuvre sous licence :
+           <ol type="i">
+            <li id="s3a1Ai">
+             identification du(des) auteur(s) de l’Œuvre sous licence et de toute personne à qui revient l’attribution de l’Œuvre sous licence, dans la mesure du possible, conformément à la demande du Donneur de licence (y compris sous la forme d’un pseudonyme s’il est indiqué) ;
+            </li>
+            <li id="s3a1Aii">
+             l’indication de l’existence d’un droit d’auteur ;
+            </li>
+            <li id="s3a1Aiii">
+             une notice faisant référence à la présente Licence publique ;
+            </li>
+            <li id="s3a1Aiv">
+             une notice faisant référence aux limitations de garantie et exclusions de responsabilité ;
+            </li>
+            <li id="s3a1Av">
+             un URI ou un hyperlien vers l’Œuvre sous licence dans la mesure du possible ;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           Indiquer si Vous avez modifié l’Œuvre sous licence et conserver un suivi des modifications précédentes ; et
+          </li>
+          <li id="s3a1C">
+           Indiquer si l’Œuvre sous licence est mise à disposition en vertu de la présente Licence publique en incluant le texte, l’URI ou l’hyperlien correspondant à la présente Licence publique.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Vous pouvez satisfaire aux conditions de l’Article
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         dans toute la mesure du possible, en fonction des supports, moyens et contextes dans lesquels Vous Partagez l’Œuvre sous licence. Par exemple, Vous pouvez satisfaire aux conditions susmentionnées en fournissant l’URI ou l’hyperlien vers la ressource incluant les informations requises.
+        </li>
+        <li id="s3a3">
+         Bien que requises aux termes de l’Article
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         , certaines informations devront être retirées, dans la mesure du possible, si le Donneur de licence en fait la demande.
+        </li>
+       </ol>
+      </li>
+      <li id="s3b">
+       <strong>
+        Partage dans les mêmes conditions
+       </strong>
+       .
+       <p>
+        Outre les conditions indiquées à l’Article
+        <a href="#s3a">
+         3(a)
+        </a>
+        , si Vous Partagez une Œuvre dérivée que Vous avez réalisée, les conditions suivantes s’appliquent aussi.
+       </p>
+       <ol>
+        <li id="s3b1">
+         La Licence d’Œuvre dérivée que Vous appliquez doit être une licence Creative Commons avec les mêmes Eléments de licence, qu’il s’agisse de cette version ou d’une version ultérieure, ou une Licence compatible BY-SA.
+        </li>
+        <li id="s3b2">
+         Vous devez inclure le texte, l’URI ou l’hyperlien correspondant à la Licence d’Œuvre dérivée que Vous appliquez. Ces conditions peuvent être satisfaites dans la mesure du raisonnable suivant les supports, moyens et contextes via lesquels Vous Partagez l’Œuvre dérivée.
+        </li>
+        <li id="s3b3">
+         Vous ne pouvez pas proposer ou imposer des termes ou des conditions supplémentaires ou différents ou appliquer des Mesures techniques efficaces à l’Œuvre dérivée qui seraient de nature à restreindre l’exercice des Droits accordés par la Licence d’Œuvre dérivée que Vous appliquez.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      Article 4 – Le Droit sui generis des producteurs de bases de données.
+     </h3>
+     <p>
+      Lorsque les Droits accordés par la licence incluent le Droit sui generis des producteurs de bases de données applicable à Votre utilisation de l’Œuvre sous licence :
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       afin de lever toute ambiguïté, l’Article
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       Vous accorde le droit d’extraire, réutiliser, reproduire et Partager la totalité ou une partie substantielle du contenu de la base de données ;
+      </li>
+      <li id="s4b">
+       si Vous incluez la totalité ou une partie substantielle du contenu de la base de données dans une base de données pour laquelle Vous détenez un Droit sui generis de producteur de bases de données, la base de données sur laquelle Vous détenez un tel droit (mais pas ses contenus individuels) sera alors considérée comme une Œuvre dérivée, y compris pour l’application de l’Article
+       <a href="#s3b">
+        3(b)
+       </a>
+       ; et
+      </li>
+      <li id="s4c">
+       Vous devez respecter les conditions de l’Article
+       <a href="#s3a">
+        3(a)
+       </a>
+       si Vous Partagez la totalité ou une partie substantielle du contenu des bases de données.
+      </li>
+     </ol>
+     <p>
+      Afin de lever toute ambiguïté, le présent Article
+      <a href="#s4">
+       4
+      </a>
+      complète mais ne remplace pas Vos obligations découlant des termes de la présente Licence publique lorsque les Droits accordés par la licence incluent d’autres Droit d’auteur et droits connexes.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      Article 5 – Limitations de garantie et exclusions de responsabilité.
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Sauf indication contraire et dans la mesure du possible, le Donneur de licence met à disposition l’Œuvre sous licence telle quelle, et n’offre aucune garantie de quelque sorte que ce soit, notamment expresse, implicite, statutaire ou autre la concernant. Cela inclut, notamment, les garanties liées au titre, à la valeur marchande, à la compatibilité de certaines utilisations particulières, à l’absence de violation, à l’absence de vices cachés ou autres défauts, à l’exactitude, à la présence ou à l’absence d’erreurs connues ou non ou susceptibles d’être découvertes dans l’Œuvre sous licence. Lorsqu’une limitation de garantie n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Dans la mesure du possible, le Donneur de licence ne saurait voir sa responsabilité engagée vis-à-vis de Vous, quel qu’en soit le fondement juridique (y compris, notamment, la négligence), pour tout préjudice direct, spécial, indirect, incident, conséquentiel, punitif, exemplaire, ou pour toutes pertes, coûts, dépenses ou tout dommage découlant de l’utilisation de la présente Licence publique ou de l’utilisation de l’Œuvre sous licence, même si le Donneur de licence avait connaissance de l’éventualité de telles pertes, coûts, dépenses ou dommages. Lorsqu’une exclusion de responsabilité n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.
+       </strong>
+      </li>
+      <li id="s5c">
+       Les limitations de garantie et exclusions de responsabilité ci-dessus doivent être interprétées, dans la mesure du possible, comme des limitations et renonciations totales de toute responsabilité.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      Article 6 – Durée et fin.
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       La présente Licence publique s’applique pendant toute la durée de validité des Droits accordés par la licence. Cependant, si Vous manquez à Vos obligations prévues par la présente Licence publique, Vos droits accordés par la présente Licence publique seront automatiquement révoqués.
+      </li>
+      <li id="s6b">
+       <p>
+        Lorsque les Droits accordés par la licence ont été révoqués selon les termes de l’Article 6(a), ils seront rétablis :
+       </p>
+       <ol>
+        <li id="s6b1">
+         automatiquement, à compter du jour où la violation aura cessé, à condition que Vous y remédiiez dans les 30 jours suivant la date à laquelle Vous aurez eu connaissance de la violation ; ou
+        </li>
+        <li id="s6b2">
+         à condition que le Donneur de licence l’autorise expressément.
+        </li>
+       </ol>
+       <p>
+        Afin de lever toute ambiguïté, le présent Article
+        <a href="#s6b">
+         6(b)
+        </a>
+        n’affecte pas le droit du Donneur de licence de demander réparation dans les cas de violation de la présente Licence publique.
+       </p>
+      </li>
+      <li id="s6c">
+       Afin de lever toute ambiguïté, le Donneur de licence peut également proposer l’Œuvre sous licence selon d’autres termes et conditions et peut cesser la mise à disposition de l’Œuvre sous licence à tout moment ; une telle cessation n’entraîne pas la fin de la présente Licence publique.
+      </li>
+      <li id="s6d">
+       Les Articles
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       , et
+       <a href="#s8">
+        8
+       </a>
+       continueront à s’appliquer même après la résiliation de la présente Licence publique.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      Article 7 – Autres termes et conditions.
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Sauf accord exprès, le Donneur de licence n’est lié par aucune modification des termes de Votre part.
+      </li>
+      <li id="s7b">
+       Tous arrangements, ententes ou accords relatifs à l’Œuvre sous licence non mentionnés dans la présente Licence publique sont séparés et indépendants des termes et conditions de la présente Licence publique.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      Article 8 – Interprétation.
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Afin de lever toute ambiguïté, la présente Licence publique ne doit en aucun cas être interprétée comme ayant pour effet de réduire, limiter, restreindre ou imposer des conditions plus contraignantes que celles qui sont prévues par les dispositions légales applicables.
+      </li>
+      <li id="s8b">
+       Dans la mesure du possible, si une clause de la présente Licence publique est déclarée inapplicable, elle sera automatiquement modifiée a minima afin de la rendre applicable. Dans le cas où la clause ne peut être modifiée, elle sera écartée de la présente Licence publique sans préjudice de l’applicabilité des termes et conditions restants.
+      </li>
+      <li id="s8c">
+       Aucun terme ni aucune condition de la présente Licence publique ne sera écarté(e) et aucune violation ne sera admise sans l’accord exprès du Donneur de licence.
+      </li>
+      <li id="s8d">
+       Aucun terme ni aucune condition de la présente Licence publique ne constitue ou ne peut être interprété(e) comme une limitation ou une renonciation à un quelconque privilège ou à une immunité s’appliquant au Donneur de licence ou à Vous, y compris lorsque celles-ci émanent d’une procédure légale, quel(le) qu’en soit le système juridique concerné ou l’autorité compétente.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons n’est pas partie prenante de ses licences publiques. Néanmoins, Creative Commons se réserve le droit d'utiliser une de ses licences publiques pour les œuvres qu’elle publie, et dans ce cas sera considérée comme « Donneur de licence ». Le texte des licences publiques Creative Commons est versé au domaine public en vertu de
+      <a href="/publicdomain/zero/1.0/legalcode.fr">
+       CC0 Domaine Public
+      </a>
+      . A l’exception des seuls cas où il est indiqué que l’œuvre est mise à disposition sous licence publique Creative Commons et ceux autorisés par les statuts de Creative Commons disponibles sur
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons n’autorise l’utilisation par aucune partie de la marque "Creative Commons" ou de toute autre marque ou logo de Creative Commons sans le consentement écrit préalable de Creative Commons. Cette restriction relative à l'utilisation des marques ne constitue pas une partie de nos licences publiques.
+     </p>
+     <p>
+      Vous pouvez joindre Creative Commons via
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

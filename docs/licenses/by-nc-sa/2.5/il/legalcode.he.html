@@ -4,321 +4,338 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-SA 2.5 IL Legal Code — Attribution-NonCommercial-ShareAlike 2.5 Israel — Creative Commons
+   CC BY-NC-SA 2.5 IL Legal Code | Attribution-NonCommercial-ShareAlike 2.5 Israel
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-sa/2.5/il/legalcode.he" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-right" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-right-big padding-left-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Home
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-sa/2.5/il/legalcode.he">
-        CC BY-NC-SA 2.5 IL Legal Code
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 2.5 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-left" href="deed.en" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-left-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC-SA 2.5 IL
-       </h2>
-       <h1 class="b-header">
-        ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 ישראל
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-right-normal">
-        CC BY-NC-SA 2.5 IL
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC-SA 2.5 IL
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC-SA 2.5 IL
-       </h4>
-       <h2 class="b-header has-text-centered">
-        ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 ישראל
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-left-normal">
-        </i>
-        Disclaimer
-       </h4>
-       <p class="has-text-black padding-right-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.en">
-         Attribution-NonCommercial-ShareAlike 4.0 International
-        </a>
+       <p>
+        Join a  global community working to strengthen the Commons
        </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 ישראל
-        </h3>
-        <div dir="rtl" id="deed" style="padding:35px">
-         <div align="justify" class="fineprint" dir="rtl" style="background:none">
-          <center>
-           CREATIVE COMMONS CORPORATION אינה משרד עורכי דין ואינה מספקת שירותים משפטיים.
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-SA 2.5 IL Legal Code
+    </h1>
+    <h2>
+     Attribution-NonCommercial-ShareAlike 2.5 Israel
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.en">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 2.5 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.en">
+       CC BY-NC-SA 4.0 Legal Code | Attribution-NonCommercial-ShareAlike 4.0 International
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 ישראל
+       <div dir="rtl" id="deed" style="padding:35px">
+        <div align="justify" class="fineprint" dir="rtl" style="background:none">
+         <center>
+          CREATIVE COMMONS CORPORATION אינה משרד עורכי דין ואינה מספקת שירותים משפטיים.
         אין בהפצת רישיון זה בכדי ליצור יחסי עורך-דין – לקוח.
         CREATIVE COMMONS מספקת מידע זה כמות שהוא
-           <span dir="ltr">
-            .("AS-IS")
-           </span>
-           <br/>
-           CREATIVE COMMONS אינה אחראית למידע המובא ומסירה מעצמה אחריות לנזקים הנובעים משימוש בו.
-          </center>
-         </div>
-         <p align="center" class="text" dir="rtl" style="text-align: center">
-          הרישיון מנוסח בלשון זכר לצורך נוחות בלבד. לשון זכר משמע גם לשון נקבה.
-         </p>
-         <p align="justify" class="text" dir="rtl" style="text-align: justify">
-          <em dir="rtl">
-           רישיון
-          </em>
-         </p>
-         <p align="justify" class="text" dir="rtl" style="text-align: justify">
-          <u>
-           היצירה (כהגדרתה להלן) ניתנת בכפוף לתנאי רישיון ציבורי זה ("הרישיון").  היצירה מוגנת בזכות יוצרים ו/או ע"פ דין אחר.  אין להשתמש ביצירה שבנדון, אלא כמורשה על פי תנאי רישיון זה ודיני זכויות יוצרים.
-          </u>
-         </p>
-         <p align="justify" class="text" dir="rtl" style="text-align: justify">
-          <u>
-           על ידי מימוש זכות מהזכויות ביצירה המוענקות על פי רישיון זה, הנך מקבל את תנאיו ומסכים להם.  נותן הרישיון מעניק לך את הזכויות כמתואר בזאת כנגד הסכמתך לתנאים אלה.
-          </u>
-         </p>
-         <p align="justify" class="text" dir="rtl" style="text-align: right">
-          <strong>
-           א. הגדרות
-          </strong>
-         </p>
-         <div align="justify" class="text" dir="rtl">
-          <ol>
-           <li style="text-align:justify; ">
-            <strong>
-             "יצירה קיבוצית"
-            </strong>
-            היא יצירה, כגון גיליון עתי, אנתולוגיה או אנציקלופדיה, שבה היצירה שבנדון בשלמותה וללא שינוי, וכן מספר עבודות נוספות, המהוות לכשעצמן יצירות נפרדות ועצמאיות, נאספו לידי יחידה קיבוצית.  יצירה המהווה יצירה קיבוצית לא תחשב יצירה נגזרת (כהגדרתה להלן) לצורך רישיון זה.
-           </li>
-           <li style="text-align:justify; ">
-            <strong>
-             "יצירה נגזרת"
-            </strong>
-            היא יצירה המבוססת על היצירה שבנדון או על היצירה שבנדון ועל יצירות קודמות אחרות, כגון תרגום, עיבוד מוזיקלי, דרמטיזציה, הפיכה לרומן, עיבוד קולנועי, טביעה קולית, רפרודוקציה, תמצות, סיכום, או כל צורה אחרת בה ניתן לשכתב, לשנות או להתאים את היצירה שבנדון, ובלבד שיצירה המהווה יצירה קיבוצית לא תחשב יצירה נגזרת לצורך רישיון זה. למען הסר ספק, אם היצירה שבנדון היא יצירה מוזיקלית או טביעה קולית, סינכרוניזציה של היצירה באופן בו-זמני עם תמונות נעות ("synching") תחשב יצירה נגזרת לצורך רישיון זה.
-           </li>
-           <li style="text-align:justify; ">
-            <strong>
-             "נותן הרישיון"
-            </strong>
-            הוא האדם או הישות המציע את היצירה בכפוף לתנאי רישיון זה.
-           </li>
-           <li style="text-align:justify; ">
-            <strong>
-             "המחבר המקורי"
-            </strong>
-            הוא האדם או הישות אשר יצר את היצירה.
-           </li>
-           <li style="text-align:justify; ">
-            <strong>
-             "היצירה"
-            </strong>
-            או
-            <strong>
-             "היצירה שבנדון"
-            </strong>
-            היא היצירה בת-ההגנה בזכות יוצרים המוצעת על פי תנאי רישיון זה.
-           </li>
-           <li style="text-align:justify; ">
-            <strong>
-             "אתה"
-            </strong>
-            הוא אדם או ישות המממש זכויות על פי תנאי רישיון זה ואשר לא הפר לפנים את תנאי רישיון זה ביחס ליצירה שבנדון או אשר קיבל במפורש רשות מנותן הרישיון לממש זכויות על פי רישיון זה למרות הפרה קודמת.
-           </li>
-           <li style="text-align: justify">
-            <strong>
-             "מרכיבי הרישיון"
-            </strong>
-            הם תכונות הרישיון ("High Level Attributes") הבאות
+          <span dir="ltr">
+           .("AS-IS")
+          </span>
+          <br/>
+          CREATIVE COMMONS אינה אחראית למידע המובא ומסירה מעצמה אחריות לנזקים הנובעים משימוש בו.
+         </center>
+        </div>
+        <p align="center" class="text" dir="rtl" style="text-align: center">
+         הרישיון מנוסח בלשון זכר לצורך נוחות בלבד. לשון זכר משמע גם לשון נקבה.
+        </p>
+        <p align="justify" class="text" dir="rtl" style="text-align: justify">
+         <em dir="rtl">
+          רישיון
+         </em>
+        </p>
+        <p align="justify" class="text" dir="rtl" style="text-align: justify">
+         <u>
+          היצירה (כהגדרתה להלן) ניתנת בכפוף לתנאי רישיון ציבורי זה ("הרישיון").  היצירה מוגנת בזכות יוצרים ו/או ע"פ דין אחר.  אין להשתמש ביצירה שבנדון, אלא כמורשה על פי תנאי רישיון זה ודיני זכויות יוצרים.
+         </u>
+        </p>
+        <p align="justify" class="text" dir="rtl" style="text-align: justify">
+         <u>
+          על ידי מימוש זכות מהזכויות ביצירה המוענקות על פי רישיון זה, הנך מקבל את תנאיו ומסכים להם.  נותן הרישיון מעניק לך את הזכויות כמתואר בזאת כנגד הסכמתך לתנאים אלה.
+         </u>
+        </p>
+        <p align="justify" class="text" dir="rtl" style="text-align: right">
+         <strong>
+          א. הגדרות
+         </strong>
+        </p>
+        <div align="justify" class="text" dir="rtl">
+         <ol>
+          <li style="text-align:justify; ">
+           <strong>
+            "יצירה קיבוצית"
+           </strong>
+           היא יצירה, כגון גיליון עתי, אנתולוגיה או אנציקלופדיה, שבה היצירה שבנדון בשלמותה וללא שינוי, וכן מספר עבודות נוספות, המהוות לכשעצמן יצירות נפרדות ועצמאיות, נאספו לידי יחידה קיבוצית.  יצירה המהווה יצירה קיבוצית לא תחשב יצירה נגזרת (כהגדרתה להלן) לצורך רישיון זה.
+          </li>
+          <li style="text-align:justify; ">
+           <strong>
+            "יצירה נגזרת"
+           </strong>
+           היא יצירה המבוססת על היצירה שבנדון או על היצירה שבנדון ועל יצירות קודמות אחרות, כגון תרגום, עיבוד מוזיקלי, דרמטיזציה, הפיכה לרומן, עיבוד קולנועי, טביעה קולית, רפרודוקציה, תמצות, סיכום, או כל צורה אחרת בה ניתן לשכתב, לשנות או להתאים את היצירה שבנדון, ובלבד שיצירה המהווה יצירה קיבוצית לא תחשב יצירה נגזרת לצורך רישיון זה. למען הסר ספק, אם היצירה שבנדון היא יצירה מוזיקלית או טביעה קולית, סינכרוניזציה של היצירה באופן בו-זמני עם תמונות נעות ("synching") תחשב יצירה נגזרת לצורך רישיון זה.
+          </li>
+          <li style="text-align:justify; ">
+           <strong>
+            "נותן הרישיון"
+           </strong>
+           הוא האדם או הישות המציע את היצירה בכפוף לתנאי רישיון זה.
+          </li>
+          <li style="text-align:justify; ">
+           <strong>
+            "המחבר המקורי"
+           </strong>
+           הוא האדם או הישות אשר יצר את היצירה.
+          </li>
+          <li style="text-align:justify; ">
+           <strong>
+            "היצירה"
+           </strong>
+           או
+           <strong>
+            "היצירה שבנדון"
+           </strong>
+           היא היצירה בת-ההגנה בזכות יוצרים המוצעת על פי תנאי רישיון זה.
+          </li>
+          <li style="text-align:justify; ">
+           <strong>
+            "אתה"
+           </strong>
+           הוא אדם או ישות המממש זכויות על פי תנאי רישיון זה ואשר לא הפר לפנים את תנאי רישיון זה ביחס ליצירה שבנדון או אשר קיבל במפורש רשות מנותן הרישיון לממש זכויות על פי רישיון זה למרות הפרה קודמת.
+          </li>
+          <li style="text-align: justify">
+           <strong>
+            "מרכיבי הרישיון"
+           </strong>
+           הם תכונות הרישיון ("High Level Attributes") הבאות
         שנבחרו על-ידי נותן הרישיון והן מופיעות בכותרת רישיון זה: "ייחוס", "שימוש לא מסחרי",
         "שיתוף זהה".
-           </li>
-          </ol>
-         </div>
-         <p align="justify">
-          <strong>
-           ב. היקף הזכויות.
-          </strong>
-          אין ברישיון זה להגביל או לגרוע מכל זכות טיפול הוגן, זכות שימוש פרטי וביתי (ע"פ סעיף 3ג לפקודת זכות יוצרים) או מכל הגבלה אחרת על הזכויות הבלעדיות של בעל זכות יוצרים על פי דיני זכויות יוצרים או על פי כל דין אחר. למען הסר ספק, אין ברישיון זה להגביל אותך מביצוע שימוש ביצירה שאינו מצריך רישיון
-    מבעל הזכויות ביצירה על פי דיני זכויות יוצרים או על פי כל דין אחר.
-         </p>
-         <p align="justify">
-          <strong>
-           ג. הענקת רישיון.
-          </strong>
-          בכפוף לתנאי רישיון זה, נותן הרישיון מעניק לך בזאת רישיון כלל-עולמי, ללא תמלוגים, לא בלעדי, בלתי-מוגבל בזמן (למשך תקופת ההגנה לזכות היוצרים ביצירה שבנדון) לממש את הזכויות ביצירה שבנדון כמפורט להלן:
-         </p>
-         <ol>
-          <li style="text-align:justify; ">
-           להעתיק את היצירה, לשלבה ביצירה קיבוצית, אחת או יותר, ולהעתיק את היצירה כשהיא משולבת ביצירות קיבוציות;
-          </li>
-          <li style="text-align:justify; ">
-           ליצור יצירות נגזרות ולהעתיקן;
-          </li>
-          <li style="text-align:justify; ">
-           להפיץ עותקים או תקליטים של היצירה שבנדון, להציגה בפומבי
-      ולבצעה בפומבי, לרבות במסגרת יצירות קיבוציות;
-          </li>
-          <li style="text-align:justify; ">
-           להפיץ עותקים או תקליטים של יצירות נגזרות, להציגן בפומבי,
-      ולבצען בפומבי;
           </li>
          </ol>
-         <p align="justify">
-          ובלבד שאין בכך משום סילוף, פגימה, שינוי או כל פעולה שיש בה משום הפחתת ערך ביחס ליצירה, העלולים לפגוע בכבודו או בשמו של המחבר המקורי.
-          <br/>
-          <br/>
-          ניתן לממש את הזכויות הנ"ל בכל מדיה או פורמט, בין אם הוא ידוע כיום ובין אם יומצא לאחר מכן.  הזכויות לעיל כוללות את הזכות לבצע שינויים הנדרשים מבחינה טכנית על מנת לממש את הזכויות במדיה או פורמטים אחרים.  נותן הרישיון שומר לעצמו בזאת כל זכות שלא הוענקה במפורש, לרבות, ללא הגבלה, הזכויות על-פי סעיפים ד(5) ו-ד(6).
-         </p>
-         <p align="justify">
-          <strong>
-           ד. הגבלות.
-          </strong>
-          הרישיון על פי סעיף ג' לעיל ניתן במפורש בכפוף להגבלות הבאות:
-         </p>
-         <ol>
-          <li style="text-align:justify; ">
-           אתה רשאי להפיץ את היצירה, להציגה בפומבי או לבצעה בפומבי
+        </div>
+        <p align="justify">
+         <strong>
+          ב. היקף הזכויות.
+         </strong>
+         אין ברישיון זה להגביל או לגרוע מכל זכות טיפול הוגן, זכות שימוש פרטי וביתי (ע"פ סעיף 3ג לפקודת זכות יוצרים) או מכל הגבלה אחרת על הזכויות הבלעדיות של בעל זכות יוצרים על פי דיני זכויות יוצרים או על פי כל דין אחר. למען הסר ספק, אין ברישיון זה להגביל אותך מביצוע שימוש ביצירה שאינו מצריך רישיון
+    מבעל הזכויות ביצירה על פי דיני זכויות יוצרים או על פי כל דין אחר.
+        </p>
+        <p align="justify">
+         <strong>
+          ג. הענקת רישיון.
+         </strong>
+         בכפוף לתנאי רישיון זה, נותן הרישיון מעניק לך בזאת רישיון כלל-עולמי, ללא תמלוגים, לא בלעדי, בלתי-מוגבל בזמן (למשך תקופת ההגנה לזכות היוצרים ביצירה שבנדון) לממש את הזכויות ביצירה שבנדון כמפורט להלן:
+        </p>
+        <ol>
+         <li style="text-align:justify; ">
+          להעתיק את היצירה, לשלבה ביצירה קיבוצית, אחת או יותר, ולהעתיק את היצירה כשהיא משולבת ביצירות קיבוציות;
+         </li>
+         <li style="text-align:justify; ">
+          ליצור יצירות נגזרות ולהעתיקן;
+         </li>
+         <li style="text-align:justify; ">
+          להפיץ עותקים או תקליטים של היצירה שבנדון, להציגה בפומבי
+      ולבצעה בפומבי, לרבות במסגרת יצירות קיבוציות;
+         </li>
+         <li style="text-align:justify; ">
+          להפיץ עותקים או תקליטים של יצירות נגזרות, להציגן בפומבי,
+      ולבצען בפומבי;
+         </li>
+        </ol>
+        <p align="justify">
+         ובלבד שאין בכך משום סילוף, פגימה, שינוי או כל פעולה שיש בה משום הפחתת ערך ביחס ליצירה, העלולים לפגוע בכבודו או בשמו של המחבר המקורי.
+         <br/>
+         <br/>
+         ניתן לממש את הזכויות הנ"ל בכל מדיה או פורמט, בין אם הוא ידוע כיום ובין אם יומצא לאחר מכן.  הזכויות לעיל כוללות את הזכות לבצע שינויים הנדרשים מבחינה טכנית על מנת לממש את הזכויות במדיה או פורמטים אחרים.  נותן הרישיון שומר לעצמו בזאת כל זכות שלא הוענקה במפורש, לרבות, ללא הגבלה, הזכויות על-פי סעיפים ד(5) ו-ד(6).
+        </p>
+        <p align="justify">
+         <strong>
+          ד. הגבלות.
+         </strong>
+         הרישיון על פי סעיף ג' לעיל ניתן במפורש בכפוף להגבלות הבאות:
+        </p>
+        <ol>
+         <li style="text-align:justify; ">
+          אתה רשאי להפיץ את היצירה, להציגה בפומבי או לבצעה בפומבי
       אך ורק בכפוף לרישיון זה. עליך לכלול עותק של רישיון זה או את ה- Uniform Resource Identifier
       של רישיון זה בכל עותק או תקליט של היצירה, אשר אתה מפיץ, מציג בפומבי או מבצע בפומבי.
       אינך רשאי להציע או להציב תנאים ביחס ליצירה שבנדון, אשר משנים או מגבילים את תנאי רישיון זה או את מימוש הזכויות המוענקות על פי רישיון זה על ידי מקבלי היצירה.  אינך רשאי להעניק רישיון-משנה ביצירה שבנדון.  עליך להשאיר כמות שהן את כל ההודעות ביחס לרישיון זה ואת הודעת הסרת האחריות.  אינך רשאי להפיץ את היצירה, להציגה בפומבי או לבצעה בפומבי
@@ -326,206 +343,342 @@
       ככל שניתן מבחינה מעשית, כל ייחוס על-פי סעיף ד(4), כפי שנדרש. היה ויצרת יצירה נגזרת,
       עם קבלת הודעה  מכל נותן רישיון  עליך להסיר  מהיצירה הנגזרת,  ככל
       שניתן מבחינה מעשית,  כל ייחוס על-פי סעיף
-           <br/>
-           ד(4), כפי שנידרש.
-          </li>
-          <li style="text-align:justify; ">
-           הנך רשאי להפיץ יצירה נגזרת, להציגה בפומבי או לבצעה
+          <br/>
+          ד(4), כפי שנידרש.
+         </li>
+         <li style="text-align:justify; ">
+          הנך רשאי להפיץ יצירה נגזרת, להציגה בפומבי או לבצעה
       בפומבי אך ורק בכפוף לתנאי רישיון זה, גרסה מאוחרת יותר של רישיון זה שבה מרכיבי הרישיון
       שברישיון זה, או רישיון מסוג CREATIVE COMMONS iCOMMONS שבו מרכיבי הרישיון שברישיון
       זה (לדוגמא, רישיון "ייחוס-שימוש לא מסחרי-שיתוף זהה 2.5 יפן"). עליך לכלול עותק של
       רישיון זה או את ה- Uniform Resource Identifier של רישיון זה או רישיון אחר כאמור במשפט
       הקודם בכל עותק או תקליט של כל יצירה נגזרת, אשר את מפיץ, מציג בפומבי או מבצע בפומבי.
       אינך רשאי להציע או להציב תנאים ביחס ליצירות הנגזרות, אשר משנים או מגבילים את תנאי רישיון זה או את מימוש הזכויות המוענקות על פי רישיון זה על ידי מקבלי היצירה הנגזרת.  עליך להשאיר כמות שהן את כל ההודעות ביחס לרישיון זה ואת הודעת הסרת האחריות.  אינך רשאי להפיץ את היצירה הנגזרת, להציגה בפומבי או לבצעה בפומבי תוך שימוש באמצעים טכניים אשר שולטים בגישה או בשימוש ביצירה שבנדון באופן שאינו עולה בקנה אחד עם תנאי רישיון זה.  האמור לעיל חל על היצירה הנגזרת כשהיא במסגרת יצירה קיבוצית, אולם אין הדבר מחייב שהיצירה הקיבוצית, לבד מהיצירה הנגזרת עצמה, תהיה כפופה לתנאי רישיון זה.
-          </li>
-          <li style="text-align:justify; ">
-           אינך רשאי לממש זכות מהזכויות המוענקות לך בסעיף ג' לעיל בכל אופן המיועד או מכוון בראש ובראשונה לשם השגת תועלת מסחרית או פיצוי כספי פרטי.  החלפת היצירה בתמורה ליצירות אחרות המוגנות בזכות יוצרים בדרך של שיתוף-קבצים דיגיטאלי או בכל אופן אחר לא תחשב כמיועדת או מכוונת לשם השגת תועלת מסחרית או פיצוי כספי פרטי, ובלבד שלא ניתן כל תשלום או פיצוי כספי בקשר להחלפת היצירות המוגנות בזכות יוצרים.
-          </li>
-          <li style="text-align:justify; ">
-           היה ותפיץ, תציג בפומבי או תבצע בפומבי את היצירה או כל יצירה נגזרת או יצירה קיבוצית, עליך להשאיר כמות שהן את כל הודעות זכות היוצרים ביחס ליצירה שבנדון ולציין בהיקף ובמידה המקובלים בהתאם לתווך או לאמצעים בהם הנך עושה שימוש (א) את השם (או הפסבדונים, לפי המקרה) של המחבר המקורי, אם נמסר ו/או (ב) אם
+         </li>
+         <li style="text-align:justify; ">
+          אינך רשאי לממש זכות מהזכויות המוענקות לך בסעיף ג' לעיל בכל אופן המיועד או מכוון בראש ובראשונה לשם השגת תועלת מסחרית או פיצוי כספי פרטי.  החלפת היצירה בתמורה ליצירות אחרות המוגנות בזכות יוצרים בדרך של שיתוף-קבצים דיגיטאלי או בכל אופן אחר לא תחשב כמיועדת או מכוונת לשם השגת תועלת מסחרית או פיצוי כספי פרטי, ובלבד שלא ניתן כל תשלום או פיצוי כספי בקשר להחלפת היצירות המוגנות בזכות יוצרים.
+         </li>
+         <li style="text-align:justify; ">
+          היה ותפיץ, תציג בפומבי או תבצע בפומבי את היצירה או כל יצירה נגזרת או יצירה קיבוצית, עליך להשאיר כמות שהן את כל הודעות זכות היוצרים ביחס ליצירה שבנדון ולציין בהיקף ובמידה המקובלים בהתאם לתווך או לאמצעים בהם הנך עושה שימוש (א) את השם (או הפסבדונים, לפי המקרה) של המחבר המקורי, אם נמסר ו/או (ב) אם
       המחבר המקורי ו/או נותן הרישיון קבעו, בהודעת זכות היוצרים של נותן הרישיון, בתנאי
       השימוש או באופן סביר אחר, צד או צדדים אחרים (כגון מוסד מממן, מוציא לאור, כתב-עת)
       לעניין ייחוס היצירה, הרי שאת שמו של צד או צדדים אלה; את שם היצירה, אם נמסר; ככל
       שניתן באופן סביר, את ה-Uniform Resource Identifier, שאותו קישר נותן הרישיון עם היצירה,
       אם קיים, אלא אם אותו Uniform Resource Identifier אינו מתייחס להודעת זכות היוצרים
       או למידע בנוגע לרישיון ביצירה שבנדון; ולגבי יצירה נגזרת, תיאור השימוש ביצירה שבנדון במסגרת היצירה הנגזרת (לדוגמא, "תרגום לצרפתית של [שם היצירה] על ידי [המחבר המקורי]", או "תסריט מבוסס על [שם היצירה המקורית] של [המחבר המקורי]").  ייחוס היצירה כאמור עשוי להיות מיושם בכל אופן סביר, ובלבד שלגבי יצירה נגזרת או יצירה קיבוצית, יופיע הייחוס, לכל הפחות, במקום בו מופיע כל ייחוס דומה ובאופן בולט לכל הפחות ככל ייחוס דומה אחר.
-          </li>
-          <li>
-           למען הסר ספק, אם היצירה שבנדון היא יצירה מוזיקלית:
-           <br/>
-           <br/>
-           <ol type="i">
-            <li style="text-align: justify; margin-right:0">
-             <strong>
-              תמלוגים בגין ביצוע בפומבי על פי "רישיונות שמיכה" (רישיונות גורפים או "blanket
+         </li>
+         <li>
+          למען הסר ספק, אם היצירה שבנדון היא יצירה מוזיקלית:
+          <br/>
+          <br/>
+          <ol type="i">
+           <li style="text-align: justify; margin-right:0">
+            <strong>
+             תמלוגים בגין ביצוע בפומבי על פי "רישיונות שמיכה" (רישיונות גורפים או "blanket
         licenses").
-             </strong>
-             נותן הרישיון שומר את הזכות הייחודית לגבות, בעצמו או באמצעות איגוד זכויות
+            </strong>
+            נותן הרישיון שומר את הזכות הייחודית לגבות, בעצמו או באמצעות איגוד זכויות
         יוצרים ומבצעים (כגון אקו"ם, ASCAP, BMI, SESAC), תמלוגים בגין ביצוע בפומבי (לדוגמא webcast) של היצירה
         אם הביצוע בפומבי מיועד או מכוון בראש ובראשונה לשם
         השגת תועלת מסחרית או פיצוי כספי פרטי.
-            </li>
-            <li style="text-align: justify; margin-right:0">
-             <strong>
-              "זכויות מכאניות" ותמלוגים על פי חוק (סטטוטוריים).
-             </strong>
-             נותן הרישיון שומר את הזכות
+           </li>
+           <li style="text-align: justify; margin-right:0">
+            <strong>
+             "זכויות מכאניות" ותמלוגים על פי חוק (סטטוטוריים).
+            </strong>
+            נותן הרישיון שומר את הזכות
         הייחודית לגבות, בעצמו או באמצעות סוכנות זכויות מוזיקליות או סוכן שמונה לצורך העניין
         (כגון הפדרציה הישראלית לתקליטים וקלטות, Harry Fox Agency), תמלוגים בגין כל
         תקליט שתיצור מהיצירה שבנדון ("גרסת כיסוי" - "cover version") ושתפיץ, בכפוף לרישיון
         הכפייה המעוגן בסעיף 19 לחוק זכות יוצרים, 1911 (או על פי הדין המקביל בתחומי שיפוט
         אחרים), אם ההפצה של גרסת כיסוי זו על ידך מיועדת או מכוונת בראש ובראשונה לשם השגת
         תועלת מסחרית או פיצוי כספי פרטי.
-            </li>
-           </ol>
-          </li>
-          <li style="text-align: justify">
-           <strong>
-            זכויות Webcasting ותמלוגים על פי חוק (סטטוטוריים).
-           </strong>
-           למען הסר ספק, אם היצירה שבנדון
+           </li>
+          </ol>
+         </li>
+         <li style="text-align: justify">
+          <strong>
+           זכויות Webcasting ותמלוגים על פי חוק (סטטוטוריים).
+          </strong>
+          למען הסר ספק, אם היצירה שבנדון
         היא טביעה קולית, נותן הרישיון שומר את הזכות הייחודית לגבות, בעצמו או באמצעות איגוד
         זכויות יוצרים ומבצעים (כגון SoundExchange) תמלוגים בגין ביצוע בפומבי באמצעים
         דיגיטאליים (לדוגמא webcast) של היצירה, בכפוף לרישיון הכפייה המעוגן בסעיף
-           <span dir="ltr">
-            17 USC 114
-           </span>
-           לחוק זכויות היוצרים האמריקאי (או על פי הדין המקביל בתחומי שיפוט אחרים), אם הביצוע בפומבי באמצעים דיגיטאליים מיועד או מכוון בראש ובראשונה לשם השגת תועלת מסחרית
+          <span dir="ltr">
+           17 USC 114
+          </span>
+          לחוק זכויות היוצרים האמריקאי (או על פי הדין המקביל בתחומי שיפוט אחרים), אם הביצוע בפומבי באמצעים דיגיטאליים מיועד או מכוון בראש ובראשונה לשם השגת תועלת מסחרית
         או פיצוי כספי פרטי.
-          </li>
-         </ol>
-         <p align="justify">
-          <strong>
-           ה. מצגים, אחריות והסרת אחריות.
-          </strong>
-          <span style="text-decoration: underline">
-           אלא אם  הוסכם אחרת  על ידי הצדדים
+         </li>
+        </ol>
+        <p align="justify">
+         <strong>
+          ה. מצגים, אחריות והסרת אחריות.
+         </strong>
+         <span style="text-decoration: underline">
+          אלא אם  הוסכם אחרת  על ידי הצדדים
     בכתב, היצירה מוצעת על ידי נותן הרישיון  כמות שהיא ("AS IS") ללא כל מצגים וללא
     נטילת אחריות (“warranties") מכל סוג בנוגע ליצירה, מפורשת, משתמעת, על פי חוק או בכל
     אופן אחר, לרבות, ללא הגבלה, נטילת אחריות לגבי בעלות, סחירות, התאמה למטרה מסוימת,
     אי-הפרה, או לגבי העדר פגמים נסתרים או אחרים, דיוק, או לגבי המצאות או העדר טעויות,
     בין אם הן ניתנות לגילוי ובין אם אינן. תחומי שיפוט מסוימים אינם מתירים החרגת אחריות
     משתמעת (“exclusion of implied warranties"), ולכן יתכן שהחרגה כזאת אינה חלה עליך.
+         </span>
+        </p>
+        <p style="text-align:justify; ">
+         <strong>
+          ו. הגבלת אחריות.
+         </strong>
+         <u>
+          למעט כנדרש על פי כל דין, נותן הרישיון לא יהיה אחראי כלפיך בכל מקרה על סמך כל בסיס משפטי לנזקים מיוחדים, נלווים, תוצאתיים, עונשיים או נזקים לדוגמא כתוצאה מרישיון זה או כתוצאה מהשימוש ביצירה שבנדון, גם אם נמסר לנותן הרישיון על אפשרות התרחשות נזקים אלה.
+         </u>
+        </p>
+        <p align="justify">
+         <strong>
+          ז. סיום הרישיון
+         </strong>
+        </p>
+        <ol>
+         <li style="text-align:justify; ">
+          רישיון זה והזכויות המוענקות על פיו יסתיימו באופן אוטומטי עם הפרת תנאי הרישיון על ידך.  עם זאת, לא יסתיימו הרישיונות לבני אדם או ישויות אשר קיבלו יצירה נגזרת או יצירה קיבוצית ממך על פי רישיון זה, ובלבד שימשיכו לקיים את תנאי הרישיונות הללו במלואם.  סעיפים א', ב', ה', ו', ז', ו-ח' יישארו בתוקף לאחר סיום הרישיון.
+         </li>
+         <li style="text-align:justify; ">
+          בכפוף לתנאים לעיל, רישיון זה אינו מוגבל בזמן (למשך תקופת ההגנה לזכות היוצרים ביצירה שבנדון).  למרות האמור לעיל, נותן הרישיון שומר את הזכות להעניק רישיון ביצירה שבנדון בכפוף לתנאי רישיון שונים או להפסיק את הפצת היצירה בכל עת, ובלבד שפעולה מעין זה – לא יהיה בה משום חזרה מרישיון זה (או מכל רישיון אחר אשר הוענק או שיש להעניקו על פי תנאי רישיון זה) ורישיון זה יישאר בתוקפו, אלא אם כן הסתיים כאמור לעיל.
+         </li>
+        </ol>
+        <p align="justify">
+         <strong>
+          ח. שונות
+         </strong>
+        </p>
+        <ol>
+         <li style="text-align:justify; ">
+          בכל פעם שאתה מפיץ או מבצע בפומבי באופן דיגיטאלי את היצירה או יצירה קיבוצית, נותן הרישיון מציע למקבל היצירה רישיון ליצירה שבנדון בתנאים זהים לאלה שניתנים לך על פי רישיון זה.
+         </li>
+         <li style="text-align:justify; ">
+          בכל פעם שאתה מפיץ יצירה נגזרת או מבצע אותה בפומבי באופן דיגיטאלי, נותן הרישיון מציע למקבל היצירה הנגזרת רישיון ליצירה שבנדון בתנאים זהים לאלה שניתנים לך על פי רישיון זה.
+         </li>
+         <li style="text-align:justify; ">
+          היה ותנאי מתנאי רישיון זה אינו תקף או אינו אכיף על פי כל דין, לא יהיה בכך להשפיע על תוקף או אכיפות יתר תנאי הרישיון, ותנאי זה ישונה במידה המועטה ככל שניתן על מנת שיהיה תקף ואכיף, ללא כל פעולה נוספת על ידי הצדדים להסכם זה.
+         </li>
+         <li style="text-align:justify; ">
+          צד לרישיון זה לא יחשב כמי שוויתר על תנאי מתנאי רישיון זה או כמי שהסכים להפרה, אלא אם הוויתור או ההסכמה נעשו בכתב ואותו צד חתם על כך.
+         </li>
+         <li style="text-align:justify; ">
+          רישיון זה מהווה את מלוא ההסכם בין הצדדים בנוגע ליצירה שבנדון.  אין כל הבנות, הסכמים או מצגים בנוגע ליצירה שבנדון, אשר לא פורטו כאן.  נותן הרישיון לא יהיה כפוף לתנאים נוספים, אשר עשויים להופיע בכל מסר ממך.  לא ניתן לשנות רישיון זה ללא הסכם משותף בכתב בין נותן הרישיון לבינך.
+         </li>
+        </ol>
+        <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+        <div class="fineprint">
+         <p>
+          Creative Commons אינה צד לרישיון זה ואינה אחראית בכל אופן ביחס ליצירה שבנדון. Creative Commons לא תימצא אחראית כלפיך או כלפי כל צד על סמך כל בסיס משפטי לגבי כל נזק שהוא, לרבות, ללא הגבלה, נזקים כללים, מיוחדים, נלווים או תוצאתיים הקשורים לרישיון זה.  על אף שני (2) המשפטים הקודמים, היה ו-Creative Commons זיהתה עצמה במפורש כנותנת הרישיון, יחולו עליה זכויות וחובות של נותנת רישיון על פי רישיון זה.
+         </p>
+         <p>
+          צד מהצדדים לרישיון זה לא ישתמש בסימן המסחר "Creative Commons" או בכל סימן מסחר קשור או בלוגו של Creative Commons ללא רשות מראש ובכתב מ-Creative Commons, למעט שימוש הנחוץ לשם הבהרה לציבור שהיצירה שבנדון ניתנת בכפוף לרישיון זה.  כל שימוש מותר יעשה בהתאם להנחיות השימוש בסימן המסחר של Creative Commons אשר יהיו בתוקף באותה העת ואשר יפורסמו באתר של Creative Commons או ימסרו על פי דרישה מפעם לפעם.
+         </p>
+         <p>
+          ניתן ליצור קשר עם Creative Commons ב-
+          <span dir="ltr">
+           <a href="https://creativecommons.org">
+            https://creativecommons.org/
+           </a>
           </span>
+          .
          </p>
-         <p style="text-align:justify; ">
-          <strong>
-           ו. הגבלת אחריות.
-          </strong>
-          <u>
-           למעט כנדרש על פי כל דין, נותן הרישיון לא יהיה אחראי כלפיך בכל מקרה על סמך כל בסיס משפטי לנזקים מיוחדים, נלווים, תוצאתיים, עונשיים או נזקים לדוגמא כתוצאה מרישיון זה או כתוצאה מהשימוש ביצירה שבנדון, גם אם נמסר לנותן הרישיון על אפשרות התרחשות נזקים אלה.
-          </u>
-         </p>
-         <p align="justify">
-          <strong>
-           ז. סיום הרישיון
-          </strong>
-         </p>
-         <ol>
-          <li style="text-align:justify; ">
-           רישיון זה והזכויות המוענקות על פיו יסתיימו באופן אוטומטי עם הפרת תנאי הרישיון על ידך.  עם זאת, לא יסתיימו הרישיונות לבני אדם או ישויות אשר קיבלו יצירה נגזרת או יצירה קיבוצית ממך על פי רישיון זה, ובלבד שימשיכו לקיים את תנאי הרישיונות הללו במלואם.  סעיפים א', ב', ה', ו', ז', ו-ח' יישארו בתוקף לאחר סיום הרישיון.
-          </li>
-          <li style="text-align:justify; ">
-           בכפוף לתנאים לעיל, רישיון זה אינו מוגבל בזמן (למשך תקופת ההגנה לזכות היוצרים ביצירה שבנדון).  למרות האמור לעיל, נותן הרישיון שומר את הזכות להעניק רישיון ביצירה שבנדון בכפוף לתנאי רישיון שונים או להפסיק את הפצת היצירה בכל עת, ובלבד שפעולה מעין זה – לא יהיה בה משום חזרה מרישיון זה (או מכל רישיון אחר אשר הוענק או שיש להעניקו על פי תנאי רישיון זה) ורישיון זה יישאר בתוקפו, אלא אם כן הסתיים כאמור לעיל.
-          </li>
-         </ol>
-         <p align="justify">
-          <strong>
-           ח. שונות
-          </strong>
-         </p>
-         <ol>
-          <li style="text-align:justify; ">
-           בכל פעם שאתה מפיץ או מבצע בפומבי באופן דיגיטאלי את היצירה או יצירה קיבוצית, נותן הרישיון מציע למקבל היצירה רישיון ליצירה שבנדון בתנאים זהים לאלה שניתנים לך על פי רישיון זה.
-          </li>
-          <li style="text-align:justify; ">
-           בכל פעם שאתה מפיץ יצירה נגזרת או מבצע אותה בפומבי באופן דיגיטאלי, נותן הרישיון מציע למקבל היצירה הנגזרת רישיון ליצירה שבנדון בתנאים זהים לאלה שניתנים לך על פי רישיון זה.
-          </li>
-          <li style="text-align:justify; ">
-           היה ותנאי מתנאי רישיון זה אינו תקף או אינו אכיף על פי כל דין, לא יהיה בכך להשפיע על תוקף או אכיפות יתר תנאי הרישיון, ותנאי זה ישונה במידה המועטה ככל שניתן על מנת שיהיה תקף ואכיף, ללא כל פעולה נוספת על ידי הצדדים להסכם זה.
-          </li>
-          <li style="text-align:justify; ">
-           צד לרישיון זה לא יחשב כמי שוויתר על תנאי מתנאי רישיון זה או כמי שהסכים להפרה, אלא אם הוויתור או ההסכמה נעשו בכתב ואותו צד חתם על כך.
-          </li>
-          <li style="text-align:justify; ">
-           רישיון זה מהווה את מלוא ההסכם בין הצדדים בנוגע ליצירה שבנדון.  אין כל הבנות, הסכמים או מצגים בנוגע ליצירה שבנדון, אשר לא פורטו כאן.  נותן הרישיון לא יהיה כפוף לתנאים נוספים, אשר עשויים להופיע בכל מסר ממך.  לא ניתן לשנות רישיון זה ללא הסכם משותף בכתב בין נותן הרישיון לבינך.
-          </li>
-         </ol>
-         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
-         <div class="fineprint">
-          <p>
-           Creative Commons אינה צד לרישיון זה ואינה אחראית בכל אופן ביחס ליצירה שבנדון. Creative Commons לא תימצא אחראית כלפיך או כלפי כל צד על סמך כל בסיס משפטי לגבי כל נזק שהוא, לרבות, ללא הגבלה, נזקים כללים, מיוחדים, נלווים או תוצאתיים הקשורים לרישיון זה.  על אף שני (2) המשפטים הקודמים, היה ו-Creative Commons זיהתה עצמה במפורש כנותנת הרישיון, יחולו עליה זכויות וחובות של נותנת רישיון על פי רישיון זה.
-          </p>
-          <p>
-           צד מהצדדים לרישיון זה לא ישתמש בסימן המסחר "Creative Commons" או בכל סימן מסחר קשור או בלוגו של Creative Commons ללא רשות מראש ובכתב מ-Creative Commons, למעט שימוש הנחוץ לשם הבהרה לציבור שהיצירה שבנדון ניתנת בכפוף לרישיון זה.  כל שימוש מותר יעשה בהתאם להנחיות השימוש בסימן המסחר של Creative Commons אשר יהיו בתוקף באותה העת ואשר יפורסמו באתר של Creative Commons או ימסרו על פי דרישה מפעם לפעם.
-          </p>
-          <p>
-           ניתן ליצור קשר עם Creative Commons ב-
-           <span dir="ltr">
-            <a href="https://creativecommons.org">
-             https://creativecommons.org/
-            </a>
-           </span>
-           .
-          </p>
-         </div>
-         <!-- END CC NOTICE -->
         </div>
+        <!-- END CC NOTICE -->
        </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-left-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
+      </h2>
      </div>
     </div>
-   </section>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Public Domain Dedication
+      </a>
+      . Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
+     </p>
+     <p>
+      Creative Commons may be contacted at
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

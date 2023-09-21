@@ -4,934 +4,957 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-ND 4.0 Lizenzvertrag — Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International — Creative Commons
+   CC BY-NC-ND 4.0 Lizenzvertrag | Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Zum Inhalt überspringen
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Zum Inhalt überspringen
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Start
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-nd/4.0/legalcode.de">
-        CC BY-NC-ND 4.0 Lizenzvertrag
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" selected="" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" selected="" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.de" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nd">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-ND 4.0 Lizenzvertrag
+    </h1>
+    <h2>
+     Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            Abschnitt 1 – Definitionen
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            Abschnitt 2 – Umfang
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            Abschnitt 3 – Lizenzbedingungen
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            Abschnitt 4 – Sui-generis-Datenbankrechte
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            Abschnitt 5 – Gewährleistungsausschluss und Haftungsbeschränkung
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            <strong>
-             Abschnitt 6 – Laufzeit und Beendigung
-            </strong>
-            .
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            Abschnitt 7 – Sonstige Bedingungen
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            Abschnitt 8 – Auslegung
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          Abschnitt 1 – Definitionen
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          Abschnitt 2 – Umfang
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          Abschnitt 3 – Lizenzbedingungen
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          Abschnitt 4 – Sui-generis-Datenbankrechte
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          Abschnitt 5 – Gewährleistungsausschluss und Haftungsbeschränkung
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          <strong>
+           Abschnitt 6 – Laufzeit und Beendigung
+          </strong>
+          .
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          Abschnitt 7 – Sonstige Bedingungen
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          Abschnitt 8 – Auslegung
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC-ND 4.0
-       </h2>
-       <h1 class="b-header">
-        Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nd icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC-ND 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC-ND 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC-ND 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Die Creative Commons Corporation ("Creative Commons") ist keine Rechtsanwaltskanzlei und bietet weder Rechtsdienstleistungen noch Rechtsberatung. Die Verbreitung von Creative Commons Public Licenses führt zu keinem Mandatsverhältnis und keiner sonstigen Rechtsbeziehung. Creative Commons macht seine Lizenzen und die dazugehörigen Informationen so zugänglich, wie sie sind. Creative Commons übernimmt keinerlei Gewährleistung hinsichtlich seiner Lizenzen, jedweder unter deren Bedingungen lizenzierter Materialien oder darauf bezogener Informationen. Creative Commons schließt jegliche Haftung für Schäden, die aus ihrer Verwendung resultieren, so weit wie möglich aus.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Verwendung der Creative Commons Public Licenses
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons Public Licenses sind standardisierte Zusammenstellungen rechtlicher Bedingungen, die Urheber und andere Rechteinhaber verwenden können, um ihre selbst geschaffenen Werke und andere Materialien, die urheberrechtlich oder durch bestimmte andere Rechte geschützt sind, die unten in der Public License genauer benannt werden, zur Nutzung freizugeben. Die folgenden Überlegungen haben lediglich informativen Charakter, sind keineswegs vollständig und nicht Teil unserer Lizenzen.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Überlegungen für Lizenzgeber
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Unsere Public Licenses sind zur Verwendung durch diejenigen gedacht, die rechtlich befugt sind, der Allgemeinheit solche Nutzungen von Material zu erlauben, die sonst durch das Urheberrecht oder bestimmte andere Rechte untersagt wären. Unsere Lizenzen sind unwiderruflich. Lizenzgeber sollten die Bedingungen der Lizenz, die sie auswählen, lesen und verstehen, bevor sie die Lizenz verwenden. Lizenzgeber sollten zudem alle erforderlichen Rechte einholen, die für die Verwendung unserer Lizenzen notwendig sind, damit die Allgemeinheit das lizenzierte Material wie erwartet nutzen kann. Lizenzgeber sollten jegliches Material, für welches die Lizenz nicht gilt, klar kenntlich machen. Das gilt auch für anderes CC-lizenziertes Material und für Material, das gemäß einer urheberrechtlichen Beschränkung oder Ausnahme genutzt wird.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Weitere Überlegungen für Lizenzgeber finden Sie im Creative Commons Wiki (in Englisch).
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Überlegungen für die Allgemeinheit
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Durch die Verwendung einer unserer Public Licenses gibt ein Lizenzgeber der Allgemeinheit die Erlaubnis, das lizenzierte Material unter bestimmten Bedingungen zu nutzen. Falls die Erlaubnis des Lizenzgebers aus irgendwelchen Gründen gar nicht erforderlich ist – beispielsweise wegen einer urheberrechtlichen Ausnahme oder Beschränkung – dann wird die entsprechende Nutzung auch nicht durch die Lizenz geregelt. Die Erlaubnisse in unseren Lizenzen beziehen sich nur auf das Urheberrecht und bestimmte andere Rechte, hinsichtlich derer der Lizenzgeber Erlaubnisse geben kann. Die Nutzung des lizenzierten Materials kann aber dennoch aus anderen Gründen untersagt sein, etwa weil Dritte Urheber- oder andere Rechte am Material haben. Ein Lizenzgeber kann auch besondere Wünsche haben, etwa indem er dazu auffordert, alle Veränderungen zu kennzeichnen oder zu beschreiben. Obwohl dies dann nicht verpflichtend im Sinne unserer Lizenzen ist, sollten Sie sich bemühen, derlei Wünschen nach Möglichkeit nachzukommen.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Weitere Überlegungen für die Allgemeinheit finden Sie im Creative Commons Wiki (in Englisch).
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Durch die Ausübung der lizenzierten Rechte (wie unten definiert) erklären Sie sich rechtsverbindlich mit den Bedingungen dieser Creative Commons Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 International Public License (“Public License”) einverstanden. Soweit die vorliegende Public License als Lizenzvertrag anzusehen ist, gewährt Ihnen der Lizenzgeber die in der Public License genannten lizenzierten Rechte im Gegenzug dafür, dass Sie die Lizenzbedingungen akzeptieren, und gewährt Ihnen die entsprechenden Rechte in Hinblick auf Vorteile, die der Lizenzgeber durch das Verfügbarmachen des lizenzierten Materials unter diesen Bedingungen hat.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           Abschnitt 1 – Definitionen
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Abgewandeltes Material
-            </span>
-            bezeichnet Material, welches durch Urheberrechte oder ähnliche Rechte geschützt ist und vom lizenzierten Material abgeleitet ist oder darauf aufbaut und in welchem das lizenzierte Material übersetzt, verändert, umarrangiert, umgestaltet oder anderweitig modifiziert in einer Weise enthalten ist, die aufgrund des Urheberrechts oder ähnlicher Rechte des Lizenzgebers eine Zustimmung erfordert. Im Sinne der vorliegenden Public License entsteht immer abgewandeltes Material, wenn das lizenzierte Material ein Musikwerk, eine Darbietung oder eine Tonaufnahme ist und zur Vertonung von Bewegtbildern verwendet wird.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Urheberrecht und ähnliche Rechte
-            </span>
-            bezeichnet das Urheberrecht und/oder ähnliche, dem Urheberrecht eng verwandte Rechte, einschließlich insbesondere des Rechts des ausübenden Künstlers, des Rechts zur Sendung, zur Tonaufnahme und des Sui-generis-Datenbankrechts, unabhängig davon, wie diese Rechte genannt oder kategorisiert werden. Im Sinne der vorliegenden Public License werden die in Abschnitt
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            aufgeführten Rechte nicht als Urheberrecht und ähnliche Rechte angesehen.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Wirksame technische Schutzmaßnahmen
-            </span>
-            bezeichnet solche Maßnahmen, die gemäß gesetzlichen Regelungen auf der Basis des Artikels 11 des WIPO Copyright Treaty vom 20. Dezember 1996 und/oder ähnlicher internationaler Vereinbarungen ohne entsprechende Erlaubnis nicht umgangen werden dürfen.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Ausnahmen und Beschränkungen
-            </span>
-            bezeichnet Fair Use, Fair Dealing und/oder jegliche andere Ausnahme oder Beschränkung des Urheberrechts oder ähnlicher Rechte, die auf Ihre Nutzung des lizenzierten Materials Anwendung findet.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lizenziertes Material
-            </span>
-            bezeichnet das Werk der Literatur oder Kunst, die Datenbank oder das sonstige Material, welches der Lizenzgeber unter die vorliegende Public License gestellt hat.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lizenzierte Rechte
-            </span>
-            bezeichnet die Ihnen unter den Bedingungen der vorliegenden Public License gewährten Rechte, welche auf solche Urheberrechte und ähnlichen Rechte beschränkt sind, die Ihre Nutzung des lizenzierten Materials betreffen und die der Lizenzgeber zu lizenzieren berechtigt ist.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lizenzgeber
-            </span>
-            bezeichnet die natürliche(n) oder juristische(n) Person(en), die unter der vorliegenden Public License Rechte gewährt (oder gewähren).
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_noncommercial">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Nicht kommerziell
-            </span>
-            meint nicht vorrangig auf einen geschäftlichen Vorteil oder eine geldwerte Vergütung gerichtet. Der Austausch von lizenziertem Material gegen anderes unter Urheberrecht oder ähnlichen Rechten geschütztes Material durch digitales File-Sharing oder ähnliche Mittel ist nicht kommerziell im Sinne der vorliegenden Public License, sofern in Verbindung damit keine geldwerte Vergütung erfolgt.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Weitergabe
-            </span>
-            meint, Material der Öffentlichkeit bereitzustellen durch beliebige Mittel oder Verfahren, die gemäß der lizenzierten Rechte Zustimmung erfordern, wie zum Beispiel Vervielfältigung, öffentliche Vorführung, öffentliche Darbietung, Vertrieb, Verbreitung, Wiedergabe oder Übernahme und öffentliche Zugänglichmachung bzw. Verfügbarmachung in solcher Weise, dass Mitglieder der Öffentlichkeit auf das Material von Orten und zu Zeiten ihrer Wahl zugreifen können.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Sui-generis Datenbankrechte
-            </span>
-            bezeichnet Rechte, die keine Urheberrechte sind, sondern gegründet sind auf die Richtlinie 96/9/EG des Europäischen Parlaments und des Rates vom 11. März 1996 über den rechtlichen Schutz von Datenbanken in der jeweils gültigen Fassung bzw. deren Nachfolgeregelungen, sowie andere im Wesentlichen funktionsgleiche Rechte anderswo auf der Welt.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Sie
-            </span>
-            bezeichnet die natürliche oder juristische Person, die von lizenzierten Rechten unter der vorliegenden Public License Gebrauch macht.
-            <strong>
-             Ihr bzw. Ihre
-            </strong>
-            hat die entsprechende Bedeutung.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           Abschnitt 2 – Umfang
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Lizenzgewährung
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             Unter den Bedingungen der vorliegenden Public License gewährt der Lizenzgeber Ihnen eine weltweite, vergütungsfreie, nicht unterlizenzierbare, nicht-ausschließliche, unwiderrufliche Lizenz zur Ausübung der lizenzierten Rechte am lizenzierten Material, um:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               das lizenzierte Material ganz oder in Teilen zu vervielfältigen und weiterzugeben, jedoch nur für nicht kommerzielle Zwecke; und
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               produce, reproduce, and Share Adapted Material for NonCommercial purposes only.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Ausnahmen und Beschränkungen
-             </strong>
-             . Es sei klargestellt, dass, wo immer gesetzliche Ausnahmen und Beschränkungen auf Ihre Nutzung Anwendung finden, die vorliegende Public License nicht anwendbar ist und Sie insoweit ihre Bedingungen nicht einhalten müssen.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Laufzeit
-             </strong>
-             . Die Laufzeit der vorliegenden Public License wird in Abschnitt
-             <a href="#s6a">
-              6(a)
-             </a>
-             geregelt.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Medien und Formate; Gestattung technischer Modifikationen
-             </strong>
-             . Der Lizenzgeber erlaubt Ihnen, die lizenzierten Rechte in allen bekannten und zukünftig entstehenden Medien und Formaten auszuüben und die dafür notwendigen technischen Modifikationen vorzunehmen. Der Lizenzgeber verzichtet auf jegliche und/oder versichert die Nichtausübung jeglicher Rechte und Befugnisse, Ihnen zu verbieten, technische Modifikationen vorzunehmen, die notwendig sind, um die lizenzierten Rechte ausüben zu können, einschließlich solcher, die zur Umgehung wirksamer technischer Schutzmaßnahmen erforderlich sind. Im Sinne der vorliegenden Public License entsteht kein abgewandeltes Material, soweit lediglich Modifikationen vorgenommen werden, die nach diesem Abschnitt
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             zulässig sind.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Nachfolgende Empfänger
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Angebot des Lizenzgebers – Lizenziertes Material
-                </span>
-                . Jeder Empfänger des lizenzierten Materials erhält automatisch ein Angebot des Lizenzgebers, die lizenzierten Rechte unter den Bedingungen der vorliegenden Public License auzuüben.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Keine Beschränkungen für nachfolgende Empfänger
-                </span>
-                . Sie dürfen keine zusätzlichen oder abweichenden Bedingungen fordern oder das lizenzierte Material mit solchen belegen oder darauf wirksame technische Maßnahmen anwenden, sofern dadurch die Ausübung der lizenzierten Rechte durch Empfänger des lizenzierten Materials eingeschränkt wird.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Inhaltliche Indifferenz
-             </span>
-             . . Die vorliegende Public License begründet nicht die Erlaubnis, zu behaupten oder den Eindruck zu erwecken, dass Sie oder Ihre Nutzung des lizenzierten Materials mit dem Lizenzgeber oder den Zuschreibungsempfängern gemäß Abschnitt
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             in Verbindung stehen oder durch ihn gefördert, gutgeheißen oder offiziell anerkannt werden.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Sonstige Rechte
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Urheberpersönlichkeitsrechte, wie etwa zum Schutz vor Werkentstellungen, werden durch die vorliegende Public License ebenso wenig mitlizenziert wie das Recht auf Privatheit, auf Datenschutz und/oder ähnliche Persönlichkeitsrechte; gleichwohl verzichtet der Lizenzgeber auf derlei Rechte bzw. ihre Durchsetzung, soweit dies für Ihre Ausübung der lizenzierten Rechte erforderlich und möglich ist, jedoch nicht darüber hinaus.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             Patent- und Kennzeichenrechte werden durch die vorliegende Public License nicht lizenziert.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Soweit wie möglich verzichtet der Lizenzgeber auf Vergütung durch Sie für die Ausübung der lizenzierten Rechte, sowohl direkt als auch durch eine Verwertungsgesellschaft unter welchem freiwilligen oder abdingbaren gesetzlichen oder Pflichtlizenzmechanismus auch immer eingezogen. In allen übrigen Fällen behält sich der Lizenzgeber ausdrücklich jedes Recht vor, Vergütungen zu fordern, einschließlich für Nutzungen des lizenzierten Materials für andere als nicht kommerzielle Zwecke.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           Abschnitt 3 – Lizenzbedingungen
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Ihre Ausübung der lizenzierten Rechte unterliegt ausdrücklich folgenden Bedingungen
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Namensnennung
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              If You Share the Licensed Material (including in modified form), You must:
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               die folgenden Angaben beibehalten, soweit sie vom Lizenzgeber dem lizenzierten Material beigefügt wurden:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 die Bezeichnung der/des Ersteller(s) des lizenzierten Materials und anderer, die für eine Namensnennung vorgesehen sind (auch durch Pseudonym, falls angegeben), in jeder durch den Lizenzgeber verlangten Form, die angemessen ist;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 einen Copyright-Vermerk;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 einen Hinweis auf die vorliegende Public License;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 einen Hinweis auf den Haftungsausschluss;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 soweit vernünftigerweise praktikabel einen URI oder Hyperlink zum lizenzierten Material;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               angeben, falls Sie das lizenzierte Material verändert haben, und alle vorherigen Änderungsangaben beibehalten; und
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               angeben, dass das lizenzierte Material unter der vorliegenden Public License steht, und deren Text oder URI oder einen Hyperlink darauf beifügen.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Sie dürfen die Bedingungen des Abschnitts
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             in jeder angemessenen Form erfüllen, je nach Medium, Mittel und Kontext in bzw. mit dem Sie das lizenzierte Material weitergeben. Es kann zum Beispiel angemessen sein, die Bedingungen durch Angabe eines URI oder Hyperlinks auf eine Quelle zu erfüllen, die die erforderlichen Informationen enthält.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a3">
-             Falls der Lizenzgeber es verlangt, müssen Sie die gemäß Abschnitt
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             erforderlichen Informationen entfernen, soweit dies vernünftigerweise praktikabel ist.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           Abschnitt 4 – Sui-generis-Datenbankrechte
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Soweit die lizenzierten Rechte Sui-generis-Datenbankrechte beinhalten, die auf Ihre Nutzung des lizenzierten Materials Anwendung finden, gilt:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           for the avoidance of doubt, Section
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           sofern Sie alle Inhalte der Datenbank oder wesentliche Teile davon in eine Datenbank aufnehmen, an der Sie Sui-generis-Datenbankrechte haben, dann gilt die Datenbank, an der Sie Sui-generis-Datenbankrechte haben (aber nicht ihre einzelnen Inhalte) als abgewandeltes Material; und
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Sie müssen die Bedingungen des Abschnitts
-           <a href="#s3a">
-            3(a)
-           </a>
-           einhalten, wenn sie alle Datenbankinhalte oder wesentliche Teile davon weitergeben.
-          </li>
-         </ol>
-         <span class="body-big">
-          Es sei ferner klargestellt, dass dieser Abschnitt
-          <a href="#s4">
-           4
-          </a>
-          Ihre Verpflichtungen aus der vorliegenden Public License nur ergänzt und nicht ersetzt, soweit die lizenzierten Rechte andere Urheberrechte oder ähnliche Rechte enthalten.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           Abschnitt 5 – Gewährleistungsausschluss und Haftungsbeschränkung
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Sofern der Lizenzgeber nicht separat anderes erklärt und so weit wie möglich, bietet der Lizenzgeber das lizenzierte Material so wie es ist und verfügbar ist an und sagt in Bezug auf das lizenzierte Material keine bestimmten Eigenschaften zu, weder ausdrücklich noch konkludent oder anderweitig, und schließt jegliche Gewährleistung aus, einschließlich der gesetzlichen. Dies umfasst insbesondere das Freisein von Rechtsmängeln, Verkehrsfähigkeit, Eignung für einen bestimmten Zweck, Wahrung der Rechte Dritter, Freisein von (auch verdeckten) Sachmängeln, Richtigkeit und das Vorliegen oder Nichtvorliegen von Irrtümern, gleichviel ob sie bekannt, unbekannt oder erkennbar sind. Dort, wo Gewährleistungsausschlüsse ganz oder teilweise unzulässig sind, gilt der vorliegende Ausschluss möglicherweise für Sie nicht.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Soweit wie möglich, haftet der Lizenzgeber Ihnen gegenüber nach keinem rechtlichen Konstrukt (einschließlich insbesondere Fahrlässigkeit) oder anderweitig für irgendwelche direkten, speziellen, indirekten, zufälligen, Folge-, Straf- exemplarischen oder anderen Verluste, Kosten, Aufwendungen oder Schäden, die sich aus der vorliegenden Public License oder der Nutzung des lizenzierten Materials ergeben, selbst wenn der Lizenzgeber auf die Möglichkeit solcher Verluste, Kosten, Aufwendungen oder Schäden hingewiesen wurde. Dort, wo Haftungsbeschränkungen ganz oder teilweise unzulässig sind, gilt die vorliegende Beschränkung möglicherweise für Sie nicht.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Der Gewährleistungsausschluss und die Haftungsbeschränkung oben sollen so ausgelegt werden, dass sie soweit wie möglich einem absoluten Haftungs- und Gewährleistungsausschluss nahe kommen.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           <strong>
-            Abschnitt 6 – Laufzeit und Beendigung
-           </strong>
-           .
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           Die vorliegende Public License gilt bis zum Ablauf der Schutzfrist des Urheberrechts und der ähnlichen Rechte, die hiermit lizenziert werden. Gleichwohl erlöschen Ihre Rechte aus dieser Public License automatisch, wenn Sie die Bestimmungen dieser Public License nicht einhalten.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Soweit Ihr Recht, das lizenzierte Material zu nutzen, gemäß Abschnitt 6(a) erloschen ist, lebt es wieder auf:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             automatisch zu dem Zeitpunkt, an welchem die Verletzung abgestellt ist, sofern dies innerhalb von 30 Tagen seit Ihrer Kenntnis der Verletzung geschieht; oder
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             durch ausdrückliche Wiedereinsetzung durch den Lizenzgeber.
-            </li>
-           </ol>
-           Es sei klargestellt, dass dieser Abschnitt
-           <a href="#s6b">
-            6(b)
-           </a>
-           die Rechte des Lizenzgebers, Ausgleich für Ihre Verletzung der vorliegenden Public License zu verlangen, nicht einschränkt.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Es sei klargestellt, dass der Lizenzgeber das lizenzierte Material auch unter anderen Bedingungen anbieten oder den Vertrieb des lizenzierten Materials jederzeit einstellen darf; gleichwohl erlischt dadurch die vorliegende Public License nicht.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           Die Abschnitte
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           und
-           <a href="#s8">
-            8
-           </a>
-           gelten auch nach Erlöschen der vorliegenden Public License fort.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           Abschnitt 7 – Sonstige Bedingungen
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Der Lizenzgeber ist nicht an durch Sie gestellte zusätzliche oder abweichende Bedingungen gebunden, wenn diese nicht ausdrücklich vereinbart wurden.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Jedwede das lizenzierte Material betreffenden und hier nicht genannten Umstände, Annahmen oder Vereinbarungen sind getrennt und unabhängig von den Bedingungen der vorliegenden Public License.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           Abschnitt 8 – Auslegung
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Es sei klargestellt, dass die vorliegende Public License weder besagen noch dahingehend ausgelegt werden soll, dass sie solche Nutzungen des lizenzierten Materials verringert, begrenzt, einschränkt oder mit Bedingungen belegt, die ohne eine Erlaubnis aus dieser Public License zulässig sind.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Soweit wie möglich soll, falls eine Klausel der vorliegenden Public License als nicht durchsetzbar anzusehen ist, diese Klausel automatisch im geringst erforderlichen Maße angepasst werden, um sie durchsetzbar zu machen. Falls die Klausel nicht anpassbar ist, soll sie von der vorliegenden Public License abgeschieden werden, ohne dass die Durchsetzbarkeit der verbleibenden Bedingungen tangiert wird.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Auf keine Bedingung der vorliegenden Public License wird verzichtet und kein Verstoß dagegen soll als hingenommen gelten, außer der Lizenzgeber hat sich damit ausdrücklich einverstanden erklärt.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Nichts in der vorliegenden Public License soll zu einer Beschränkung oder Aufhebung von Privilegien und Immunitäten führen, die dem Lizenzgeber oder Ihnen insbesondere aufgrund rechtlicher Regelungen irgendeiner Rechtsordnung oder Rechtsposition zustehen, oder dahingehend interpretiert werden.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons ist keine Vertragspartei seiner Public Licenses. Dennoch kann Creative Commons sich dazu entscheiden, eine seiner Public Licenses für selbst publiziertes Material zu verwenden, und ist in diesen Fällen als „Lizenzgeber" zu betrachten. Der Text der Creative Commons Public Licenses selbst wird mittels der
-        <a href="/publicdomain/zero/1.0/">
-         CC0 Verzichtserklärung
-        </a>
-        der Gemeinfreiheit überantwortet. Abgesehen vom begrenzten Zweck, darauf hinzuweisen, dass Material unter einer Creative Commons Public License freigegeben ist, und falls es nicht anderweitig erlaubt wird durch die Creative-Commons-Policies, die unter
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        veröffentlicht sind, erlaubt Creative Commons es nicht, dass die Marke "Creative Commons" oder eine andere Marke oder ein anderes Logo von Creative Commons ohne vorherige schriftliche Zustimmung genutzt werden, insbesondere in Verbindung mit nicht autorisierten Veränderungen seiner Public Licenses oder sonstigen Regelungen, Übereinkünften oder Vereinbarungen in Bezug auf die Nutzung lizenzierten Materials. Es sei klargestellt, dass dieser Absatz nicht Teil der Public Licenses ist.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons kann kontaktiert werden unter
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.de">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Verwendung der Creative Commons Public Licenses
+     </h2>
+     <p>
+      Creative Commons Public Licenses sind standardisierte Zusammenstellungen rechtlicher Bedingungen, die Urheber und andere Rechteinhaber verwenden können, um ihre selbst geschaffenen Werke und andere Materialien, die urheberrechtlich oder durch bestimmte andere Rechte geschützt sind, die unten in der Public License genauer benannt werden, zur Nutzung freizugeben. Die folgenden Überlegungen haben lediglich informativen Charakter, sind keineswegs vollständig und nicht Teil unserer Lizenzen.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Überlegungen für Lizenzgeber
+     </h3>
+     <p>
+      Unsere Public Licenses sind zur Verwendung durch diejenigen gedacht, die rechtlich befugt sind, der Allgemeinheit solche Nutzungen von Material zu erlauben, die sonst durch das Urheberrecht oder bestimmte andere Rechte untersagt wären. Unsere Lizenzen sind unwiderruflich. Lizenzgeber sollten die Bedingungen der Lizenz, die sie auswählen, lesen und verstehen, bevor sie die Lizenz verwenden. Lizenzgeber sollten zudem alle erforderlichen Rechte einholen, die für die Verwendung unserer Lizenzen notwendig sind, damit die Allgemeinheit das lizenzierte Material wie erwartet nutzen kann. Lizenzgeber sollten jegliches Material, für welches die Lizenz nicht gilt, klar kenntlich machen. Das gilt auch für anderes CC-lizenziertes Material und für Material, das gemäß einer urheberrechtlichen Beschränkung oder Ausnahme genutzt wird.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Weitere Überlegungen für Lizenzgeber finden Sie im Creative Commons Wiki (in Englisch).
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Überlegungen für die Allgemeinheit
+     </h3>
+     <p>
+      Durch die Verwendung einer unserer Public Licenses gibt ein Lizenzgeber der Allgemeinheit die Erlaubnis, das lizenzierte Material unter bestimmten Bedingungen zu nutzen. Falls die Erlaubnis des Lizenzgebers aus irgendwelchen Gründen gar nicht erforderlich ist – beispielsweise wegen einer urheberrechtlichen Ausnahme oder Beschränkung – dann wird die entsprechende Nutzung auch nicht durch die Lizenz geregelt. Die Erlaubnisse in unseren Lizenzen beziehen sich nur auf das Urheberrecht und bestimmte andere Rechte, hinsichtlich derer der Lizenzgeber Erlaubnisse geben kann. Die Nutzung des lizenzierten Materials kann aber dennoch aus anderen Gründen untersagt sein, etwa weil Dritte Urheber- oder andere Rechte am Material haben. Ein Lizenzgeber kann auch besondere Wünsche haben, etwa indem er dazu auffordert, alle Veränderungen zu kennzeichnen oder zu beschreiben. Obwohl dies dann nicht verpflichtend im Sinne unserer Lizenzen ist, sollten Sie sich bemühen, derlei Wünschen nach Möglichkeit nachzukommen.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Weitere Überlegungen für die Allgemeinheit finden Sie im Creative Commons Wiki (in Englisch).
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
+     </h2>
+     <p>
+      Durch die Ausübung der lizenzierten Rechte (wie unten definiert) erklären Sie sich rechtsverbindlich mit den Bedingungen dieser Creative Commons Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 International Public License (“Public License”) einverstanden. Soweit die vorliegende Public License als Lizenzvertrag anzusehen ist, gewährt Ihnen der Lizenzgeber die in der Public License genannten lizenzierten Rechte im Gegenzug dafür, dass Sie die Lizenzbedingungen akzeptieren, und gewährt Ihnen die entsprechenden Rechte in Hinblick auf Vorteile, die der Lizenzgeber durch das Verfügbarmachen des lizenzierten Materials unter diesen Bedingungen hat.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      Abschnitt 1 – Definitionen
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Abgewandeltes Material
+       </span>
+       bezeichnet Material, welches durch Urheberrechte oder ähnliche Rechte geschützt ist und vom lizenzierten Material abgeleitet ist oder darauf aufbaut und in welchem das lizenzierte Material übersetzt, verändert, umarrangiert, umgestaltet oder anderweitig modifiziert in einer Weise enthalten ist, die aufgrund des Urheberrechts oder ähnlicher Rechte des Lizenzgebers eine Zustimmung erfordert. Im Sinne der vorliegenden Public License entsteht immer abgewandeltes Material, wenn das lizenzierte Material ein Musikwerk, eine Darbietung oder eine Tonaufnahme ist und zur Vertonung von Bewegtbildern verwendet wird.
+      </li>
+      <li id="s1b_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Urheberrecht und ähnliche Rechte
+       </span>
+       bezeichnet das Urheberrecht und/oder ähnliche, dem Urheberrecht eng verwandte Rechte, einschließlich insbesondere des Rechts des ausübenden Künstlers, des Rechts zur Sendung, zur Tonaufnahme und des Sui-generis-Datenbankrechts, unabhängig davon, wie diese Rechte genannt oder kategorisiert werden. Im Sinne der vorliegenden Public License werden die in Abschnitt
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       aufgeführten Rechte nicht als Urheberrecht und ähnliche Rechte angesehen.
+      </li>
+      <li id="s1c_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Wirksame technische Schutzmaßnahmen
+       </span>
+       bezeichnet solche Maßnahmen, die gemäß gesetzlichen Regelungen auf der Basis des Artikels 11 des WIPO Copyright Treaty vom 20. Dezember 1996 und/oder ähnlicher internationaler Vereinbarungen ohne entsprechende Erlaubnis nicht umgangen werden dürfen.
+      </li>
+      <li id="s1d_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Ausnahmen und Beschränkungen
+       </span>
+       bezeichnet Fair Use, Fair Dealing und/oder jegliche andere Ausnahme oder Beschränkung des Urheberrechts oder ähnlicher Rechte, die auf Ihre Nutzung des lizenzierten Materials Anwendung findet.
+      </li>
+      <li id="s1e_licensed_material">
+       <span style="text-decoration: underline;">
+        Lizenziertes Material
+       </span>
+       bezeichnet das Werk der Literatur oder Kunst, die Datenbank oder das sonstige Material, welches der Lizenzgeber unter die vorliegende Public License gestellt hat.
+      </li>
+      <li id="s1f_licensed_rights">
+       <span style="text-decoration: underline;">
+        Lizenzierte Rechte
+       </span>
+       bezeichnet die Ihnen unter den Bedingungen der vorliegenden Public License gewährten Rechte, welche auf solche Urheberrechte und ähnlichen Rechte beschränkt sind, die Ihre Nutzung des lizenzierten Materials betreffen und die der Lizenzgeber zu lizenzieren berechtigt ist.
+      </li>
+      <li id="s1g_licensor">
+       <span style="text-decoration: underline;">
+        Lizenzgeber
+       </span>
+       bezeichnet die natürliche(n) oder juristische(n) Person(en), die unter der vorliegenden Public License Rechte gewährt (oder gewähren).
+      </li>
+      <li id="s1h_noncommercial">
+       <span style="text-decoration: underline;">
+        Nicht kommerziell
+       </span>
+       meint nicht vorrangig auf einen geschäftlichen Vorteil oder eine geldwerte Vergütung gerichtet. Der Austausch von lizenziertem Material gegen anderes unter Urheberrecht oder ähnlichen Rechten geschütztes Material durch digitales File-Sharing oder ähnliche Mittel ist nicht kommerziell im Sinne der vorliegenden Public License, sofern in Verbindung damit keine geldwerte Vergütung erfolgt.
+      </li>
+      <li id="s1i_share">
+       <span style="text-decoration: underline;">
+        Weitergabe
+       </span>
+       meint, Material der Öffentlichkeit bereitzustellen durch beliebige Mittel oder Verfahren, die gemäß der lizenzierten Rechte Zustimmung erfordern, wie zum Beispiel Vervielfältigung, öffentliche Vorführung, öffentliche Darbietung, Vertrieb, Verbreitung, Wiedergabe oder Übernahme und öffentliche Zugänglichmachung bzw. Verfügbarmachung in solcher Weise, dass Mitglieder der Öffentlichkeit auf das Material von Orten und zu Zeiten ihrer Wahl zugreifen können.
+      </li>
+      <li id="s1j_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Sui-generis Datenbankrechte
+       </span>
+       bezeichnet Rechte, die keine Urheberrechte sind, sondern gegründet sind auf die Richtlinie 96/9/EG des Europäischen Parlaments und des Rates vom 11. März 1996 über den rechtlichen Schutz von Datenbanken in der jeweils gültigen Fassung bzw. deren Nachfolgeregelungen, sowie andere im Wesentlichen funktionsgleiche Rechte anderswo auf der Welt.
+      </li>
+      <li id="s1k_you">
+       <span style="text-decoration: underline;">
+        Sie
+       </span>
+       bezeichnet die natürliche oder juristische Person, die von lizenzierten Rechten unter der vorliegenden Public License Gebrauch macht.
+       <strong>
+        Ihr bzw. Ihre
+       </strong>
+       hat die entsprechende Bedeutung.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      Abschnitt 2 – Umfang
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Lizenzgewährung
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         Unter den Bedingungen der vorliegenden Public License gewährt der Lizenzgeber Ihnen eine weltweite, vergütungsfreie, nicht unterlizenzierbare, nicht-ausschließliche, unwiderrufliche Lizenz zur Ausübung der lizenzierten Rechte am lizenzierten Material, um:
+         <ol type="A">
+          <li id="s2a1A">
+           das lizenzierte Material ganz oder in Teilen zu vervielfältigen und weiterzugeben, jedoch nur für nicht kommerzielle Zwecke; und
+          </li>
+          <li id="s2a1B">
+           produce, reproduce, and Share Adapted Material for NonCommercial purposes only.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Ausnahmen und Beschränkungen
+         </strong>
+         . Es sei klargestellt, dass, wo immer gesetzliche Ausnahmen und Beschränkungen auf Ihre Nutzung Anwendung finden, die vorliegende Public License nicht anwendbar ist und Sie insoweit ihre Bedingungen nicht einhalten müssen.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Laufzeit
+         </strong>
+         . Die Laufzeit der vorliegenden Public License wird in Abschnitt
+         <a href="#s6a">
+          6(a)
+         </a>
+         geregelt.
+        </li>
+        <li id="s2a4">
+         <strong>
+          Medien und Formate; Gestattung technischer Modifikationen
+         </strong>
+         . Der Lizenzgeber erlaubt Ihnen, die lizenzierten Rechte in allen bekannten und zukünftig entstehenden Medien und Formaten auszuüben und die dafür notwendigen technischen Modifikationen vorzunehmen. Der Lizenzgeber verzichtet auf jegliche und/oder versichert die Nichtausübung jeglicher Rechte und Befugnisse, Ihnen zu verbieten, technische Modifikationen vorzunehmen, die notwendig sind, um die lizenzierten Rechte ausüben zu können, einschließlich solcher, die zur Umgehung wirksamer technischer Schutzmaßnahmen erforderlich sind. Im Sinne der vorliegenden Public License entsteht kein abgewandeltes Material, soweit lediglich Modifikationen vorgenommen werden, die nach diesem Abschnitt
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         zulässig sind.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Nachfolgende Empfänger
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Angebot des Lizenzgebers – Lizenziertes Material
+           </span>
+           . Jeder Empfänger des lizenzierten Materials erhält automatisch ein Angebot des Lizenzgebers, die lizenzierten Rechte unter den Bedingungen der vorliegenden Public License auzuüben.
+          </li>
+          <li id="s2a5B_no_restrictions">
+           <span style="text-decoration: underline;">
+            Keine Beschränkungen für nachfolgende Empfänger
+           </span>
+           . Sie dürfen keine zusätzlichen oder abweichenden Bedingungen fordern oder das lizenzierte Material mit solchen belegen oder darauf wirksame technische Maßnahmen anwenden, sofern dadurch die Ausübung der lizenzierten Rechte durch Empfänger des lizenzierten Materials eingeschränkt wird.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Inhaltliche Indifferenz
+         </span>
+         . Die vorliegende Public License begründet nicht die Erlaubnis, zu behaupten oder den Eindruck zu erwecken, dass Sie oder Ihre Nutzung des lizenzierten Materials mit dem Lizenzgeber oder den Zuschreibungsempfängern gemäß Abschnitt
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         in Verbindung stehen oder durch ihn gefördert, gutgeheißen oder offiziell anerkannt werden.
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Sonstige Rechte
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Urheberpersönlichkeitsrechte, wie etwa zum Schutz vor Werkentstellungen, werden durch die vorliegende Public License ebenso wenig mitlizenziert wie das Recht auf Privatheit, auf Datenschutz und/oder ähnliche Persönlichkeitsrechte; gleichwohl verzichtet der Lizenzgeber auf derlei Rechte bzw. ihre Durchsetzung, soweit dies für Ihre Ausübung der lizenzierten Rechte erforderlich und möglich ist, jedoch nicht darüber hinaus.
+        </li>
+        <li id="s2b2">
+         Patent- und Kennzeichenrechte werden durch die vorliegende Public License nicht lizenziert.
+        </li>
+        <li id="s2b3">
+         Soweit wie möglich verzichtet der Lizenzgeber auf Vergütung durch Sie für die Ausübung der lizenzierten Rechte, sowohl direkt als auch durch eine Verwertungsgesellschaft unter welchem freiwilligen oder abdingbaren gesetzlichen oder Pflichtlizenzmechanismus auch immer eingezogen. In allen übrigen Fällen behält sich der Lizenzgeber ausdrücklich jedes Recht vor, Vergütungen zu fordern, einschließlich für Nutzungen des lizenzierten Materials für andere als nicht kommerzielle Zwecke.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      Abschnitt 3 – Lizenzbedingungen
+     </h3>
+     <p>
+      Ihre Ausübung der lizenzierten Rechte unterliegt ausdrücklich folgenden Bedingungen
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Namensnennung
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          If You Share the Licensed Material (including in modified form), You must:
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           die folgenden Angaben beibehalten, soweit sie vom Lizenzgeber dem lizenzierten Material beigefügt wurden:
+           <ol type="i">
+            <li id="s3a1Ai">
+             die Bezeichnung der/des Ersteller(s) des lizenzierten Materials und anderer, die für eine Namensnennung vorgesehen sind (auch durch Pseudonym, falls angegeben), in jeder durch den Lizenzgeber verlangten Form, die angemessen ist;
+            </li>
+            <li id="s3a1Aii">
+             einen Copyright-Vermerk;
+            </li>
+            <li id="s3a1Aiii">
+             einen Hinweis auf die vorliegende Public License;
+            </li>
+            <li id="s3a1Aiv">
+             einen Hinweis auf den Haftungsausschluss;
+            </li>
+            <li id="s3a1Av">
+             soweit vernünftigerweise praktikabel einen URI oder Hyperlink zum lizenzierten Material;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           angeben, falls Sie das lizenzierte Material verändert haben, und alle vorherigen Änderungsangaben beibehalten; und
+          </li>
+          <li id="s3a1C">
+           angeben, dass das lizenzierte Material unter der vorliegenden Public License steht, und deren Text oder URI oder einen Hyperlink darauf beifügen.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Sie dürfen die Bedingungen des Abschnitts
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         in jeder angemessenen Form erfüllen, je nach Medium, Mittel und Kontext in bzw. mit dem Sie das lizenzierte Material weitergeben. Es kann zum Beispiel angemessen sein, die Bedingungen durch Angabe eines URI oder Hyperlinks auf eine Quelle zu erfüllen, die die erforderlichen Informationen enthält.
+        </li>
+        <li id="s3a3">
+         Falls der Lizenzgeber es verlangt, müssen Sie die gemäß Abschnitt
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         erforderlichen Informationen entfernen, soweit dies vernünftigerweise praktikabel ist.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      Abschnitt 4 – Sui-generis-Datenbankrechte
+     </h3>
+     <p>
+      Soweit die lizenzierten Rechte Sui-generis-Datenbankrechte beinhalten, die auf Ihre Nutzung des lizenzierten Materials Anwendung finden, gilt:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       for the avoidance of doubt, Section
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for NonCommercial purposes only;
+      </li>
+      <li id="s4b">
+       sofern Sie alle Inhalte der Datenbank oder wesentliche Teile davon in eine Datenbank aufnehmen, an der Sie Sui-generis-Datenbankrechte haben, dann gilt die Datenbank, an der Sie Sui-generis-Datenbankrechte haben (aber nicht ihre einzelnen Inhalte) als abgewandeltes Material; und
+      </li>
+      <li id="s4c">
+       Sie müssen die Bedingungen des Abschnitts
+       <a href="#s3a">
+        3(a)
+       </a>
+       einhalten, wenn sie alle Datenbankinhalte oder wesentliche Teile davon weitergeben.
+      </li>
+     </ol>
+     <p>
+      Es sei ferner klargestellt, dass dieser Abschnitt
+      <a href="#s4">
+       4
+      </a>
+      Ihre Verpflichtungen aus der vorliegenden Public License nur ergänzt und nicht ersetzt, soweit die lizenzierten Rechte andere Urheberrechte oder ähnliche Rechte enthalten.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      Abschnitt 5 – Gewährleistungsausschluss und Haftungsbeschränkung
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Sofern der Lizenzgeber nicht separat anderes erklärt und so weit wie möglich, bietet der Lizenzgeber das lizenzierte Material so wie es ist und verfügbar ist an und sagt in Bezug auf das lizenzierte Material keine bestimmten Eigenschaften zu, weder ausdrücklich noch konkludent oder anderweitig, und schließt jegliche Gewährleistung aus, einschließlich der gesetzlichen. Dies umfasst insbesondere das Freisein von Rechtsmängeln, Verkehrsfähigkeit, Eignung für einen bestimmten Zweck, Wahrung der Rechte Dritter, Freisein von (auch verdeckten) Sachmängeln, Richtigkeit und das Vorliegen oder Nichtvorliegen von Irrtümern, gleichviel ob sie bekannt, unbekannt oder erkennbar sind. Dort, wo Gewährleistungsausschlüsse ganz oder teilweise unzulässig sind, gilt der vorliegende Ausschluss möglicherweise für Sie nicht.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Soweit wie möglich, haftet der Lizenzgeber Ihnen gegenüber nach keinem rechtlichen Konstrukt (einschließlich insbesondere Fahrlässigkeit) oder anderweitig für irgendwelche direkten, speziellen, indirekten, zufälligen, Folge-, Straf- exemplarischen oder anderen Verluste, Kosten, Aufwendungen oder Schäden, die sich aus der vorliegenden Public License oder der Nutzung des lizenzierten Materials ergeben, selbst wenn der Lizenzgeber auf die Möglichkeit solcher Verluste, Kosten, Aufwendungen oder Schäden hingewiesen wurde. Dort, wo Haftungsbeschränkungen ganz oder teilweise unzulässig sind, gilt die vorliegende Beschränkung möglicherweise für Sie nicht.
+       </strong>
+      </li>
+      <li id="s5c">
+       Der Gewährleistungsausschluss und die Haftungsbeschränkung oben sollen so ausgelegt werden, dass sie soweit wie möglich einem absoluten Haftungs- und Gewährleistungsausschluss nahe kommen.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      <strong>
+       Abschnitt 6 – Laufzeit und Beendigung
+      </strong>
+      .
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       Die vorliegende Public License gilt bis zum Ablauf der Schutzfrist des Urheberrechts und der ähnlichen Rechte, die hiermit lizenziert werden. Gleichwohl erlöschen Ihre Rechte aus dieser Public License automatisch, wenn Sie die Bestimmungen dieser Public License nicht einhalten.
+      </li>
+      <li id="s6b">
+       <p>
+        Soweit Ihr Recht, das lizenzierte Material zu nutzen, gemäß Abschnitt 6(a) erloschen ist, lebt es wieder auf:
+       </p>
+       <ol>
+        <li id="s6b1">
+         automatisch zu dem Zeitpunkt, an welchem die Verletzung abgestellt ist, sofern dies innerhalb von 30 Tagen seit Ihrer Kenntnis der Verletzung geschieht; oder
+        </li>
+        <li id="s6b2">
+         durch ausdrückliche Wiedereinsetzung durch den Lizenzgeber.
+        </li>
+       </ol>
+       <p>
+        Es sei klargestellt, dass dieser Abschnitt
+        <a href="#s6b">
+         6(b)
+        </a>
+        die Rechte des Lizenzgebers, Ausgleich für Ihre Verletzung der vorliegenden Public License zu verlangen, nicht einschränkt.
+       </p>
+      </li>
+      <li id="s6c">
+       Es sei klargestellt, dass der Lizenzgeber das lizenzierte Material auch unter anderen Bedingungen anbieten oder den Vertrieb des lizenzierten Materials jederzeit einstellen darf; gleichwohl erlischt dadurch die vorliegende Public License nicht.
+      </li>
+      <li id="s6d">
+       Die Abschnitte
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       und
+       <a href="#s8">
+        8
+       </a>
+       gelten auch nach Erlöschen der vorliegenden Public License fort.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      Abschnitt 7 – Sonstige Bedingungen
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Der Lizenzgeber ist nicht an durch Sie gestellte zusätzliche oder abweichende Bedingungen gebunden, wenn diese nicht ausdrücklich vereinbart wurden.
+      </li>
+      <li id="s7b">
+       Jedwede das lizenzierte Material betreffenden und hier nicht genannten Umstände, Annahmen oder Vereinbarungen sind getrennt und unabhängig von den Bedingungen der vorliegenden Public License.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      Abschnitt 8 – Auslegung
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Es sei klargestellt, dass die vorliegende Public License weder besagen noch dahingehend ausgelegt werden soll, dass sie solche Nutzungen des lizenzierten Materials verringert, begrenzt, einschränkt oder mit Bedingungen belegt, die ohne eine Erlaubnis aus dieser Public License zulässig sind.
+      </li>
+      <li id="s8b">
+       Soweit wie möglich soll, falls eine Klausel der vorliegenden Public License als nicht durchsetzbar anzusehen ist, diese Klausel automatisch im geringst erforderlichen Maße angepasst werden, um sie durchsetzbar zu machen. Falls die Klausel nicht anpassbar ist, soll sie von der vorliegenden Public License abgeschieden werden, ohne dass die Durchsetzbarkeit der verbleibenden Bedingungen tangiert wird.
+      </li>
+      <li id="s8c">
+       Auf keine Bedingung der vorliegenden Public License wird verzichtet und kein Verstoß dagegen soll als hingenommen gelten, außer der Lizenzgeber hat sich damit ausdrücklich einverstanden erklärt.
+      </li>
+      <li id="s8d">
+       Nichts in der vorliegenden Public License soll zu einer Beschränkung oder Aufhebung von Privilegien und Immunitäten führen, die dem Lizenzgeber oder Ihnen insbesondere aufgrund rechtlicher Regelungen irgendeiner Rechtsordnung oder Rechtsposition zustehen, oder dahingehend interpretiert werden.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons ist keine Vertragspartei seiner Public Licenses. Dennoch kann Creative Commons sich dazu entscheiden, eine seiner Public Licenses für selbst publiziertes Material zu verwenden, und ist in diesen Fällen als „Lizenzgeber" zu betrachten. Der Text der Creative Commons Public Licenses selbst wird mittels der
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Verzichtserklärung
+      </a>
+      der Gemeinfreiheit überantwortet. Abgesehen vom begrenzten Zweck, darauf hinzuweisen, dass Material unter einer Creative Commons Public License freigegeben ist, und falls es nicht anderweitig erlaubt wird durch die Creative-Commons-Policies, die unter
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      veröffentlicht sind, erlaubt Creative Commons es nicht, dass die Marke "Creative Commons" oder eine andere Marke oder ein anderes Logo von Creative Commons ohne vorherige schriftliche Zustimmung genutzt werden, insbesondere in Verbindung mit nicht autorisierten Veränderungen seiner Public Licenses oder sonstigen Regelungen, Übereinkünften oder Vereinbarungen in Bezug auf die Nutzung lizenzierten Materials. Es sei klargestellt, dass dieser Absatz nicht Teil der Public Licenses ist.
+     </p>
+     <p>
+      Creative Commons kann kontaktiert werden unter
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

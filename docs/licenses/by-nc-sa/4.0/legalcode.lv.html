@@ -4,989 +4,1006 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-SA 4.0 Juridiskais saturs — Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks — Creative Commons
+   CC BY-NC-SA 4.0 Juridiskais saturs | Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.lv" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Sākums
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-sa/4.0/legalcode.lv">
-        CC BY-NC-SA 4.0 Juridiskais saturs
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" selected="" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" selected="" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.lv" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-SA 4.0 Juridiskais saturs
+    </h1>
+    <h2>
+     Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            1. nodaļa – Definīcijas
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            2. nodaļa – Tvērums
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            3. nodaļa – Licences noteikumi
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            4. nodaļa – Sui generis datubāzu tiesības
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            5. nodaļa – Atteikšanās no garantijām un atbildības ierobežojumi
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            6. nodaļa – Termiņš un darbības izbeigšana
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            7. nodaļa – Citi noteikumi un nosacījumi
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            8. nodaļa – Izskaidrojums
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          1. nodaļa – Definīcijas
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          2. nodaļa – Tvērums
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          3. nodaļa – Licences noteikumi
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          4. nodaļa – Sui generis datubāzu tiesības
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          5. nodaļa – Atteikšanās no garantijām un atbildības ierobežojumi
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          6. nodaļa – Termiņš un darbības izbeigšana
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          7. nodaļa – Citi noteikumi un nosacījumi
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          8. nodaļa – Izskaidrojums
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC-SA 4.0
-       </h2>
-       <h1 class="b-header">
-        Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC-SA 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC-SA 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC-SA 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation ("Creative Commons") nav juridiska firma un nenodrošina juridiskus pakalpojumus vai juridisku palīdzību. Creative Commons publisko licenču izplatīšana nerada pārstāvja-klienta vai cita veida attiecības. Creative Commons nodrošina savu licenču un ar tām saistītas informācijas pieejamību, balstoties uz "tāds, kāds ir" pieņēmumu. Creative Commons nesniedz nekādas garantijas saistībā ar tās licencēm, jebkādu saskaņā ar šo licenču noteikumiem un nosacījumiem licencētu materiālu vai ar to saistītu informāciju. Creative Commons neuzņemas nekādu atbildību par zaudējumiem, kas radušies licenču izmantošanas rezultātā, ciktāl vien tas iespējams.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Creative Commons publisko licenču izmantošana
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons publiskās licences satur standarta noteikumu un nosacījumu kopumu, kuru darbu autori un citi tiesību turētāji var izmantot, lai dalītos ar oriģināliem autordarbiem un citiem materiāliem, kuri pakļauti autortiesībām un citām licencē zemāk aprakstītajām tiesībām. Turpmākie apsvērumi paredzēti tikai informatīviem nolūkiem, tie nav izsmeļoši un nav daļa no mūsu licencēm.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Apsvērumi licenciāriem
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         mūsu publiskās licences ir paredzētas izmantošanai tiem, kuri ir tiesīgi dot publisku atļauju izmantot materiālu, kura izmantošana citos gadījumos ir ierobežota ar autortiesībām un citām tiesībām. Mūsu licences ir neatsaucamas. Licenciāriem ieteicams izlasīt un izprast licences noteikumus un nosacījumus, pirms tiek izdarīta izvēle to izmantot. Licenciāriem pirms mūsu licenču izmantošanas būtu arī jānodrošina visas nepieciešamās tiesības, lai sabiedrība var atkārtoti izmantot materiālu atbilstoši tam, kā tas tika sākotnēji paredzēts. Licenciāriem būtu arī skaidri jānorāda uz jebkādu materiālu, kurš nav pakļauts licences darbībai. Tas attiecināms arī uz citiem Creative Commons licencētiem materiāliem un materiāliem, kuri tiek izmantoti, pamatojoties uz autortiesību izņēmumiem vai ierobežojumiem.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Papildu apsvērumi licenciāriem.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Apsvērumi sabiedrībai
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         izmantojot kādu no mūsu publiskajām licencēm, licenciārs nodod sabiedrībai atļauju izmantot licencēto materiālu saskaņā ar skaidri norādītiem noteikumiem un nosacījumiem. Ja licenciāra atļauja jebkāda iemesla dēļ nav nepieciešama – piemēram, jebkādu piemērojamo autortiesību izņēmumu vai ierobežojumu dēļ – tad šo materiāla izmantošanu licence neregulē. Mūsu licences piešķir tikai atļaujas, kas balstās autortiesībās un citās noteiktās tiesībās, kuras ir pilnvarots piešķirt licenciārs. Licencētā materiāla izmantošana aizvien varētu būt ierobežota citu iemeslu dēļ, tajā skaitā tādēļ, ka arī citām personām pieder autortiesības vai citas ti esības uz materiālu. Licenciārs var lūgt izpildīt īpašus norādījumus, piemēram, iezīmēt vai aprakstīt visas materiālam veiktās izmaiņas. Lai arī mūsu licences to nepieprasa, jūs tiekat aicināti respektēt šos norādījumus, ja tie ir pamatoti.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Papildu apsvērumi sabiedrībai.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Izmantojot Licencē noteiktās tiesības (definētas zemāk), Jūs pieņemat un piekrītat, ka Jūsu darbības ierobežo šīs Creative Commons Attiecinājuma-Nekomerciāls-Dalīties līdzīgi 4.0 starptautiskās publiskās licences (turpmāk – publiskā licence) noteikumi un nosacījumi. Ciktāl šī publiskā licence var tikt interpretēta kā līgums, Jums tiek piešķirtas Licencē noteiktās tiesības saskaņā ar Jūsu piekrišanu šiem noteikumiem un nosacījumiem, un Licenciārs piešķir Jums šīs tiesības, ņemot vērā ieguvumus, kurus Licenciārs saņem no Licencētā materiāla pieejamības nodrošināšanas saskaņā ar šīs Licences noteikumiem un nosacījumiem.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           1. nodaļa – Definīcijas
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Pielāgotais materiāls
-            </span>
-            ir autortiesībām un citām līdzīgām tiesībām pakļauts materiāls, kas ir atvasināts no vai balstīts Licencētajā materiālā, vai arī tulkots, pielāgots, aranžēts, pārvērsts vai citādi modificēts tādā veidā, ka ir nepieciešama atļauja saskaņā ar autortiesībām vai citām līdzīgām tiesībām, kuru turētājs ir Licenciārs. Saskaņā ar Publisko licenci, gadījumos, kad Licencētais materiāls ir muzikāls darbs, uzvedums vai skaņu ieraksts, Pielāgotais materiāls vienmēr tiek radīts no Licencētā materiāla, kurš ir laikā sinhronizēts ar kustīgiem attēliem.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Pielāgotāja licence
-            </span>
-            ir licence, kuru Jūs izmantojat savu autortiesību un līdzīgu tiesību norādīšanai attiecībā uz savu ieguldījumu Pielāgotajā materiālā saskaņā ar publiskās licences noteikumiem un nosacījumiem.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_by_nc_sa_compatible_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             BY-NC-SA Saderīgā Licence
-            </span>
-            ir licence, kas norādīta tīmekļa vietnē
-            <a href="//creativecommons.org/compatiblelicenses">
-             creativecommons.org/compatiblelicenses
-            </a>
-            un ir Creative Commons apstiprināta kā līdzvērtīga Publiskajai licencei.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Autortiesības un līdzīgas tiesības
-            </span>
-            ir autortiesības un/vai citas līdzīgas, autortiesībām radniecīgas tiesības, tajā skaitā arī tiesības bez ierobežojumiem uzstāties, pārraidīt, veikt skaņu ierakstus, kā arī Sui generis datubāzu tiesības, neatkarīgi no veida kādā tiesības ir apzīmētas vai kategorizētas. Saskaņā ar Publisko licenci, tiesības, kas norādītas
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            punktos, nav uzskatāmas par Autortiesībām un līdzīgām tiesībām.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Efektīvi tehnoloģiskie līdzekļi
-            </span>
-            ir nosacījumi, kuri atbilstoša varas avota neesamības apstākļos nevar tikt apieti saskaņā ar tiem normatīvajiem aktiem, kuri īsteno Pasaules intelektuālā īpašuma organizācijas (WIPO) 1996. gada 20. decembra līguma par autortiesībām 11. pantu un/vai līdzīgus starptautiskos līgumus.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Izņēmumi un ierobežojumi
-            </span>
-            ir godprātīga izmantošana, godprātīga rīcība un/vai jebkādi citi Autortiesību un līdzīgu tiesību izņēmumi un ierobežojumi, kuri attiecas uz to, kā Jūs izmantojat Licencēto materiālu.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_license_elements_nc_sa">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licences elementi
-            </span>
-            ir licences rekvizīti, kas minēti Creative Commons publiskās licences nosaukumā. Šīs publiskās licences elementi ir Attiecinājums, Nekomerciāls un Dalīties līdzīgi.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licencētais materiāls
-            </span>
-            ir māksliniecisks vai literārs darbs, datubāze vai cits materiāls, uz kuru Licencētājs attiecina šo Publisko licenci.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licencētās tiesības
-            </span>
-            ir tiesības, kas Jums piešķirtas saskaņā ar publiskās licences noteikumiem un nosacījumiem, kuras ir ierobežotas ar Autortiesībām un līdzīgām tiesībām, un kuras attiecas uz to, kā Jūs izmantojat Licencēto materiālu, kuru Licenciāram ir tiesības licencēt.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licenciārs
-            </span>
-            ir fiziska(-s) vai juridiska(-s) persona(-s), kas saskaņā ar šo Publisko licenci piešķir tiesības.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_noncommercial">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Nekomerciāls
-            </span>
-            nozīmē tāds, kas primāri nav domāts komerciāla labuma vai naudas kompensācijas iegūšanai. Saskaņā ar Publisko Licenci digitāla vai cita veida apmaiņa ar Licencēto materiālu pret citu materiālu, uz kuru attiecināmas Autortiesības un citas līdzīgas tiesības, ir uzskatāma par nekomerciālu, ja saistībā ar apmaiņu netiek izmaksātas naudas kompensācijas.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Dalīšanās
-            </span>
-            ir materiāla nodrošināšana sabiedrībai jebkādā veidā vai procesā, kuram nepieciešama atļauja saskaņā ar Licencētajām tiesībām, piemēram, pavairošana, publiska izstādīšana, publiska uzstāšanās, sadale, izplatīšana, komunikācija vai importēšana, un materiāla pieejamības sabiedrībai nodrošināšana tādos veidos, kuri ļauj sabiedrībai piekļūt materiālam individuāli izvēlētā vietā un laikā.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1m_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Sui generis datubāzu tiesības
-            </span>
-            ir tiesības, kuras nav autortiesības un kuras izriet no Eiropas Parlamenta un Padomes 1996. gada 11. marta Direktīvas 96/9/EC par datubāzu tiesisko aizsardzību, tās grozījumiem un aizstājumiem, kā arī citām pēc būtības līdzvērtīgām tiesībām jebkur citur pasaulē.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1n_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             “Jūs”
-            </span>
-            attiecināms uz fizisku vai juridisku personu, kas izmanto Licencētās tiesības saskaņā ar šo Publisko licenci. Forma “Jūsu” atbilst formai
-            <strong>
-             “Jūs”
-            </strong>
-            .
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           2. nodaļa – Tvērums
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Licences piešķiršana
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             Saskaņā ar šīs publiskās licences noteikumiem un nosacījumiem, ar šo Licenciārs piešķir Jums vispasaules, bezatlīdzības, nesublicencējamu, bezizņēmuma un neatsaucamu licenci Licencētā materiāla Licencēto tiesību izmantošanai:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               reproduce and Share the Licensed Material, in whole or in part; and
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               produce, reproduce, and Share Adapted Material.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Izņēmumi un ierobežojumi
-             </strong>
-             . Gadījumos, kad radušās šaubas vai Izņēmumi un ierobežojumi jāpiemēro Jūsu lietojumam, šī publiskā licences nav jāpiemēro un nav jāpakļaujas tās noteikumiem un nosacījumiem.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Termiņš
-             </strong>
-             . Šīs publiskās licences termiņš ir norādīts
-             <a href="#s6a">
-              6(a)
-             </a>
-             punktā.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Paņēmieni un formāti: atļautas tehniskas modifikācijas
-             </strong>
-             . Licenciārs sniedz Jums tiesības izmantot Licencētās tiesības visos paņēmienos un formātos, ieskaitot gan jau zināmos, gan nākotnē radītos, kā arī veikt tehniskas modifikācijas, lai to paveiktu. Licenciārs atsakās no tiesībām un apņemas neaizstāvēt savas tiesības, kas liegtu Jums veikt tehniskas modifikācijas, kuras nepieciešamas Licencēto tiesību īstenošanai, tajā skaitā arī tehniskas modifikācijas, kuras nepieciešamas, lai apietu Efektīvos tiesiskās aizsardzības līdzekļus. Ciktāl attiecināms uz šo Publisko licenci, vienkāršu modifikāciju veikšana, ko pieļauj
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             punkts, nekad nerada Pielāgotu materiālu.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Pakārtotie saņēmēji
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Piedāvājums no Licenciāra – Licencētais materiāls
-                </span>
-                . Katrs Licencētā materiāla saņēmējs automātiski saņem piedāvājumu no Licenciāra izmantot Licencētās tiesības saskaņā ar publiskās licences noteikumiem un nosacījumiem.
-               </li>
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5B_adapted_material">
-                <span style="text-decoration: underline;">
-                 Papildu piedāvājums no Licenciāra – Pielāgotais materiāls
-                </span>
-                . Katrs no Jūsu pielāgotā materiāla saņēmējiem automātiski saņem piedāvājumu no Licenciāra izmantot Licencētās tiesības Pielāgotajam materiālam saskaņā ar Jūsu izmantotās Pielāgotāja licences nosacījumiem.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5C_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Pakārtojuma ierobežojumu aizliegums
-                </span>
-                . Jūs nedrīkstat piedāvāt vai uzlikt nekādus papildu vai atšķirīgus noteikumus vai nosacījumus vai attiecināt jebkādus Efektīvos tehnoloģiskos līdzekļus Licencētajam materiālam, ja tas ierobežo citu Licencētā materiāla saņēmēju tiesības izmantot Licencētās tiesības.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Apstiprinājuma nepastāvēšana
-             </span>
-             . . Nekas šajā Publiskajā licencē nesniedz pamatu un nevar tikt uzskatīts par atļauju paziņojumam vai pieņēmumam, ka Jūs esat vai ka Jūsu darbības Licencētā materiāla izmantošanā ir saistītas vai tiek apstiprinātas, atbalstītas vai oficiāli atzītas no Licenciāra vai citu personu, kam pienākas materiāla attiecinājums, puses, kā norādīts
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             punktā.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Citas tiesības
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Personiskās tiesības, piemēram, tiesības uz fizisko neaizskaramību, netiek licencētas ar šo Publisko licenci, tāpat kā licencētas netiek publicitātes, privātuma un/vai citas personiskās tiesības; tomēr pēc iespējas Licenciāram jāatsakās un/vai jāpiekrīt neaistāvēt savas personiskās tiesības, ciktāl tas nepieciešams, lai Jūs varētu izmantot Licencētās tiesības, bet ne citādi.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             Šī publiskā licence nelicencē patentu vai prečuzīmju tiesības.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Ciktāl vien iespējams, Licenciārs atsakās no jebkādām tiesībām saņemt no Jums atlīdzību par Licencēto tiesību izmantošanu tieši vai caur autortiesību aģentūru saskaņā ar jebkādu brīvprātīgu vai neatsaucamu likumā noteiktu vai obligātu licencēšanas struktūru. Visos citos gadījumos Licenciārs tieši patur jebkādas tiesības uz atlīdzības saņemšanu, tajā skaitā arī gadījumos, kad Licencētais materiāls tiek izmantots ne tikai Nekomerciāliem, bet arī citiem nolūkiem.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           3. nodaļa – Licences noteikumi
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Jūsu Licencēto tiesību izmantošana ir skaidri regulēta ar šādiem noteikumiem.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Attiecināšana
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              Ja Jūs Dalāties ar Licencēto materiālu, Jums:
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               jāsaglabā šāda informācija, ja Licencētajam materiālam to norādījis Licenciārs:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 licencētā materiāla autora vai citu personu identifikācija, kas norādīta attiecinājuma saņemšanai, jebkādā saprātīgā veidā, ko pieprasa Licenciārs (t.sk. arī ar pseidonīmu, ja to pieprasa Licenciārs);
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 autortiesību norāde;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 norāde uz šo Publisko licenci;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 norāde uz atteikšanos no garantijas tiesībām;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 URI vai hipersaite uz Licencēto materiālu tiktāl, ciktāl tas praktiski ir iespējams.
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               jānorāda, vai esat modificējis Licencēto materiālu un jāsaglabā norādes uz jebkādām iepriekšējām modifikācijām;
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               jānorāda, ka Licencētais materiāls ir licencēts ar šo Publisko licenci un jāiekļauj šīs publiskās licences teksts, URI vai hipersaite uz to.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Jūs varat izpildīt
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             punkta nosacījumus jebkurā piemērotā veidā atkarībā no vides, veida un konteksta, kādā Jūs Dalāties ar Licencēto materiālu. Piemēram, nosacījumi varētu tikt izpildīti, norādot URI vai hipersaiti uz resursu, kurš satur nepieciešamo informāciju.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a3">
-             Pēc Licencētāja pieprasījuma Jums jāizsvītro jebkāda informācija, kas pieprasīta
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             punktā ciktāl tas praktiski ir iespējams.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s3b">
-           <strong>
-            Dalīties līdzīgi
-           </strong>
-           .
-           <p class="padding-top-normal padding-bottom-normal">
-            Papildus nosacījumiem, kas norādīti
-            <a href="#s3a">
-             3(a)
-            </a>
-            punktā, ja Jūs Dalāties ar Jūsu radītu Pielāgoto materiālu, ir attiecināmi arī šie nosacījumi.
-           </p>
-           <ol class="padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s3b1">
-             The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3b2">
-             Jums jāiekļauj teksts vai URI, vai hipersaite uz Pielāgotāja licenci, kuru Jūs izmanojat. Jūs varat izpildīt šo nosacījumu jebkurā piemērotā veidā atkarībā no vides, veida un konteksta, kādā Jūs Dalāties ar Pielāgoto materiālu.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3b3">
-             Jūs nedrīkstat piedāvāt vai uzlikt nekādus papildu vai atšķirīgus noteikumus vai nosacījumus vai attiecināt jebkādus Efektīvos tehnoloģiskos līdzekļus Pielāgotajam materiālam, ja tas ierobežo tiesības, kas piešķirtas ar Jūsu izmantoto Pielāgotāja licenci.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           4. nodaļa – Sui generis datubāzu tiesības
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Gadījumos, kad Licencētās tiesībās iekļauj Sui generis datubāzu tiesības, kas attiecas uz to, kā Jūs izmantojat Licencēto materiālu:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           Lai izvairītos no neskaidrībām,
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           punkts piešķir Jums tiesības izgūt, atkārtoti izmantot, reproducēt un Dalīties ar visu vai ar ievērojamu daļu no datubāzu satura tikai Nekomerciālos nolūkos;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           Ja Jūs iekļaujat visu vai ievērojamu daļu no datubāzes satura tādā datubāzē, uz kuru Jums ir Sui generis datubāzes tiesības, tad datubāze, attiecībā uz kuru Jums ir Sui generis datubāzu tiesības (bet ne atsevišķas tās daļas) ir uzskatāma par Pielāgoto materiālu, t.sk.
-           <a href="#s3b">
-            3(b)
-           </a>
-           punktā minētajos nolūkos; un
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Jums jāievēro
-           <a href="#s3a">
-            3(a)
-           </a>
-           punkta nosacījumi, ja Jūs Dalāties ar visu vai ievērojamu daļu no datubāzes satura.
-          </li>
-         </ol>
-         <span class="body-big">
-          Lai izvairītos no neskaidrībām, šī
-          <a href="#s4">
-           4
-          </a>
-          . nodaļa papildina un neaizvieto Jūsu pienākumus saskaņā ar šo Publisko licenci gadījumos, kad Licencētās tiesības iekļauj citas Autortiesības un līdzīgas tiesības.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           5. nodaļa – Atteikšanās no garantijām un atbildības ierobežojumi
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Ja Licencārs nav apņēmies citādi, tad, ciktāl iespējams, Licencārs Licencēto materiālu piedāvā pēc “tāds, kāds ir” un “tāds, kāds pieejams” principa, un attiecībā uz Licencēto materiālu nesniedz nekāda veida atklātus, noprotamus, likumā noteiktus vai cita veida paziņojumus vai garantijas, tajā skaitā bez jebkādiem ierobežojumiem arī attiecībā uz nosaukumu, piemērotību vai derīgumu konkrētam nolūkam, likumu nepārkāpšanu vai slēptu vai citu defektu neesamību, precizitāti vai atklājamu vai neatklājamu kļūdu esamību vai neesamību. Gadījumos, kad atteikšanās no garantijām pilnībā vai daļēji nav pieļaujamas, šī atruna uz Jums var neattiekties.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Ciktāl iespējams, Licenciārs neatbild Jums par jebkādu saskaņā ar jebkuru juridisko teoriju radušos tiešu, īpašu netiešu, nejaušu, faktisku, soda dēļ radušos vai jebkādu citu zaudējumu, izmaksu, izdevumu vai kaitējumu (tostarp bez izņēmumiem arī neuzmanības dēļ) esamību, kuru cēlonis ir šī publiskā licence vai Licencētā materiāla izmantošana, pat gadījumā, ja Licenciārs ir ticis informēts par šādu zaudējumu, izmaksu, izdevumu vai kaitējumu rašanaš iespējamību. Gadījumos, kad atbildības ierobežošana pilnībā vai daļēji nav pieļaujama, šis ierobežojums uz Jums var netikt attiecināts.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Šī augstākminētā atteikšanās no garantijām un atbildības ierobežojums tādā veidā, ka tas, ciktāl iespējams, vistuvāk atbilst pilnīgam atteikumam no atbildības.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           6. nodaļa – Termiņš un darbības izbeigšana
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           Šī publiskā licence ir attiecināma uz tādu pašu termiņu, kāds ir Autortiesībām un līdzīgām tiesībām, kas piešķirtas saskaņā ar šo Publisko licenci. Gadījumos, kad Jūs neievērojat šīs publiskās licences noteikumus, Jūsu tiesības, kas noteiktas saskaņā ar šo Publisko licenci, automātiski izbeidzas.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Gadījumos, kad Jūsu tiesības izmantot Licencēto materiālu ir beigušās saskaņā ar 6(a) punktu, tā tiek atjaunota:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             automātiski ar datumu, ar kuru pārkāpums tiek novērsts, ja tas ir novērsts 30 dienu laikā no datuma, kurā Jūs atklājāt pārkāpumu, vai
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             pēc paātrinātas atjaunošanas, ko veic Licenciārs.
-            </li>
-           </ol>
-           Lai izvairītos no neskaidrībām,
-           <a href="#s6b">
-            6(b)
-           </a>
-           punkts neietekmē Licenciāra tiesības pieprasīt kādu tiesiskās aizsardzības līdzekļu piemērošanu, lai novērstu Jūsu pieļautus šīs publiskās licences pārkāpumus.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Lai izvairītos no neskaidrībām, Licenciāram ir arī tiesības piedāvāt Licencēto materiālu saskaņā ar īpašiem noteikumiem vai nosacījumiem, vai arī pārstāt izplatīt Licencēto materiālu jebkurā laikā, taču šādas darbības neatceļ šo Publisko licenci.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           , un
-           <a href="#s8">
-            8
-           </a>
-           nodaļas ir spēkā arī pēc šīs publiskās licences darbības izbeigšanās.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           7. nodaļa – Citi noteikumi un nosacījumi
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Licenciārs nav pakļauts nekādiem papildu vai citiem noteikumiem un nosacījumiem, kurus Jūs nosakāt, ja vien par to nepastāv atsevišķa vienošanās.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Jebkādas te neminētas norunas, vienošanās vai līgumi, kas attiecas uz Licencēto materiālu, ir atsevišķas un neatkarīgas no šīs publiskās licences noteikumiem un nosacījumiem.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           8. nodaļa – Izskaidrojums
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Lai izvairītos no neskaidrībām, šī publiskā licence nesamazina, nelimitē, neierobežo vai neuzliek nosacījumus par jebkādu Licencētā materiāla izmantošanu, kas likumīgi var tikt īstenots bez atļaujas saskaņā ar šo Publisko licenci.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Ciktāl iespējams, ja jebkādi šīs publiskās licences nosacījumi tiek atzīti par likumīgi nepiemērojamiem, tiem automātiski jātiek pārveidotiem tādā apmērā, cik tas ir minimāli nepieciešams, lai tie kļūtu par likumīgi piemērojamiem. Ja šāda pārveidošana nevar tikt nodrošināta, konkrētie nosacījumi tiek izslēgti no šīs publiskās licences, neietekmējot pārējo noteikumu un nosacījumu piemērošanu un spēkā esamību.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Neviens no šīs publiskās licences noteikumiem vai nosacījumiem nevar tikt uzskatīts par atceltu un to neizpildīšana nevar tikt pieņemta, ja vien nav saņemta nepārprotama Licenciāra piekrišana.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Nekas šajā Publiskajā licencē netiek un nevar tikt izskaidrots kā jebkādu priekšrocību vai neaizskaramību, kas attiecas uz Licenciāru vai uz Jums, ierobežošana vai atcelšana, tajā skaitā attiecībā uz jebkuru jurisdikciju ierosinātiem tiesas procesiem.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons nav iesaistītā puse tās publiskajās licencēs. Creative Commons ir tiesīga neatkarīgi attiecināt kādu no tās publiskajām licencēm uz tās publicētajiem materiāliem, tādā gadījumā tā ir uzskatāma par Licenciāru. Creative Commons publisko licenču teksts ir publicēts saskaņā ar
-        <a href="/publicdomain/zero/1.0/legalcode.lv">
-         CC0 Veltījumu neaizsargātajiem darbiem
-        </a>
-        . Creative Commons neautorizē preču zīmi "Creative Commons" vai jebkuras citas Creative Commons preču zīmes vai logotipa izmantošanu bez iepriekšējas rakstiskas saskaņošanas, tostarp, bez ierobežojuma, saistībā ar jebkādām nesaskaņotām tās publisko licenču modifikācijām vai citām norunām, vienošanos vai līgumiem, kas attiecas uz licencēto materiālu, izņemot atsevišķus gadījumus, kad šādu darbību mērķis ir norādīt, ka dalīšanās ar materiālu notiek saskaņā ar Creative Commons licenci vai citā veidā, ko pieļauj Creative Commons noteikumi, kas publicēti
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        . Lai izvairītos no neskaidrībām – šī rindkopa nav daļa no publiskās licences.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Ar Creative Commons var sazināties tīmekļa vietnē
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.lv">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Creative Commons publisko licenču izmantošana
+     </h2>
+     <p>
+      Creative Commons publiskās licences satur standarta noteikumu un nosacījumu kopumu, kuru darbu autori un citi tiesību turētāji var izmantot, lai dalītos ar oriģināliem autordarbiem un citiem materiāliem, kuri pakļauti autortiesībām un citām licencē zemāk aprakstītajām tiesībām. Turpmākie apsvērumi paredzēti tikai informatīviem nolūkiem, tie nav izsmeļoši un nav daļa no mūsu licencēm.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Apsvērumi licenciāriem
+     </h3>
+     <p>
+      mūsu publiskās licences ir paredzētas izmantošanai tiem, kuri ir tiesīgi dot publisku atļauju izmantot materiālu, kura izmantošana citos gadījumos ir ierobežota ar autortiesībām un citām tiesībām. Mūsu licences ir neatsaucamas. Licenciāriem ieteicams izlasīt un izprast licences noteikumus un nosacījumus, pirms tiek izdarīta izvēle to izmantot. Licenciāriem pirms mūsu licenču izmantošanas būtu arī jānodrošina visas nepieciešamās tiesības, lai sabiedrība var atkārtoti izmantot materiālu atbilstoši tam, kā tas tika sākotnēji paredzēts. Licenciāriem būtu arī skaidri jānorāda uz jebkādu materiālu, kurš nav pakļauts licences darbībai. Tas attiecināms arī uz citiem Creative Commons licencētiem materiāliem un materiāliem, kuri tiek izmantoti, pamatojoties uz autortiesību izņēmumiem vai ierobežojumiem.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Papildu apsvērumi licenciāriem.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Apsvērumi sabiedrībai
+     </h3>
+     <p>
+      izmantojot kādu no mūsu publiskajām licencēm, licenciārs nodod sabiedrībai atļauju izmantot licencēto materiālu saskaņā ar skaidri norādītiem noteikumiem un nosacījumiem. Ja licenciāra atļauja jebkāda iemesla dēļ nav nepieciešama – piemēram, jebkādu piemērojamo autortiesību izņēmumu vai ierobežojumu dēļ – tad šo materiāla izmantošanu licence neregulē. Mūsu licences piešķir tikai atļaujas, kas balstās autortiesībās un citās noteiktās tiesībās, kuras ir pilnvarots piešķirt licenciārs. Licencētā materiāla izmantošana aizvien varētu būt ierobežota citu iemeslu dēļ, tajā skaitā tādēļ, ka arī citām personām pieder autortiesības vai citas ti esības uz materiālu. Licenciārs var lūgt izpildīt īpašus norādījumus, piemēram, iezīmēt vai aprakstīt visas materiālam veiktās izmaiņas. Lai arī mūsu licences to nepieprasa, jūs tiekat aicināti respektēt šos norādījumus, ja tie ir pamatoti.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Papildu apsvērumi sabiedrībai.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Attiecinājums-Nekomerciāls-Dalīties līdzīgi 4.0 Starptautisks
+     </h2>
+     <p>
+      Izmantojot Licencē noteiktās tiesības (definētas zemāk), Jūs pieņemat un piekrītat, ka Jūsu darbības ierobežo šīs Creative Commons Attiecinājuma-Nekomerciāls-Dalīties līdzīgi 4.0 starptautiskās publiskās licences (turpmāk – publiskā licence) noteikumi un nosacījumi. Ciktāl šī publiskā licence var tikt interpretēta kā līgums, Jums tiek piešķirtas Licencē noteiktās tiesības saskaņā ar Jūsu piekrišanu šiem noteikumiem un nosacījumiem, un Licenciārs piešķir Jums šīs tiesības, ņemot vērā ieguvumus, kurus Licenciārs saņem no Licencētā materiāla pieejamības nodrošināšanas saskaņā ar šīs Licences noteikumiem un nosacījumiem.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      1. nodaļa – Definīcijas
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Pielāgotais materiāls
+       </span>
+       ir autortiesībām un citām līdzīgām tiesībām pakļauts materiāls, kas ir atvasināts no vai balstīts Licencētajā materiālā, vai arī tulkots, pielāgots, aranžēts, pārvērsts vai citādi modificēts tādā veidā, ka ir nepieciešama atļauja saskaņā ar autortiesībām vai citām līdzīgām tiesībām, kuru turētājs ir Licenciārs. Saskaņā ar Publisko licenci, gadījumos, kad Licencētais materiāls ir muzikāls darbs, uzvedums vai skaņu ieraksts, Pielāgotais materiāls vienmēr tiek radīts no Licencētā materiāla, kurš ir laikā sinhronizēts ar kustīgiem attēliem.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Pielāgotāja licence
+       </span>
+       ir licence, kuru Jūs izmantojat savu autortiesību un līdzīgu tiesību norādīšanai attiecībā uz savu ieguldījumu Pielāgotajā materiālā saskaņā ar publiskās licences noteikumiem un nosacījumiem.
+      </li>
+      <li id="s1c_by_nc_sa_compatible_license">
+       <span style="text-decoration: underline;">
+        BY-NC-SA Saderīgā Licence
+       </span>
+       ir licence, kas norādīta tīmekļa vietnē
+       <a href="//creativecommons.org/compatiblelicenses">
+        creativecommons.org/compatiblelicenses
+       </a>
+       un ir Creative Commons apstiprināta kā līdzvērtīga Publiskajai licencei.
+      </li>
+      <li id="s1d_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Autortiesības un līdzīgas tiesības
+       </span>
+       ir autortiesības un/vai citas līdzīgas, autortiesībām radniecīgas tiesības, tajā skaitā arī tiesības bez ierobežojumiem uzstāties, pārraidīt, veikt skaņu ierakstus, kā arī Sui generis datubāzu tiesības, neatkarīgi no veida kādā tiesības ir apzīmētas vai kategorizētas. Saskaņā ar Publisko licenci, tiesības, kas norādītas
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       punktos, nav uzskatāmas par Autortiesībām un līdzīgām tiesībām.
+      </li>
+      <li id="s1e_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Efektīvi tehnoloģiskie līdzekļi
+       </span>
+       ir nosacījumi, kuri atbilstoša varas avota neesamības apstākļos nevar tikt apieti saskaņā ar tiem normatīvajiem aktiem, kuri īsteno Pasaules intelektuālā īpašuma organizācijas (WIPO) 1996. gada 20. decembra līguma par autortiesībām 11. pantu un/vai līdzīgus starptautiskos līgumus.
+      </li>
+      <li id="s1f_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Izņēmumi un ierobežojumi
+       </span>
+       ir godprātīga izmantošana, godprātīga rīcība un/vai jebkādi citi Autortiesību un līdzīgu tiesību izņēmumi un ierobežojumi, kuri attiecas uz to, kā Jūs izmantojat Licencēto materiālu.
+      </li>
+      <li id="s1g_license_elements_nc_sa">
+       <span style="text-decoration: underline;">
+        Licences elementi
+       </span>
+       ir licences rekvizīti, kas minēti Creative Commons publiskās licences nosaukumā. Šīs publiskās licences elementi ir Attiecinājums, Nekomerciāls un Dalīties līdzīgi.
+      </li>
+      <li id="s1h_licensed_material">
+       <span style="text-decoration: underline;">
+        Licencētais materiāls
+       </span>
+       ir māksliniecisks vai literārs darbs, datubāze vai cits materiāls, uz kuru Licencētājs attiecina šo Publisko licenci.
+      </li>
+      <li id="s1i_licensed_rights">
+       <span style="text-decoration: underline;">
+        Licencētās tiesības
+       </span>
+       ir tiesības, kas Jums piešķirtas saskaņā ar publiskās licences noteikumiem un nosacījumiem, kuras ir ierobežotas ar Autortiesībām un līdzīgām tiesībām, un kuras attiecas uz to, kā Jūs izmantojat Licencēto materiālu, kuru Licenciāram ir tiesības licencēt.
+      </li>
+      <li id="s1j_licensor">
+       <span style="text-decoration: underline;">
+        Licenciārs
+       </span>
+       ir fiziska(-s) vai juridiska(-s) persona(-s), kas saskaņā ar šo Publisko licenci piešķir tiesības.
+      </li>
+      <li id="s1k_noncommercial">
+       <span style="text-decoration: underline;">
+        Nekomerciāls
+       </span>
+       nozīmē tāds, kas primāri nav domāts komerciāla labuma vai naudas kompensācijas iegūšanai. Saskaņā ar Publisko Licenci digitāla vai cita veida apmaiņa ar Licencēto materiālu pret citu materiālu, uz kuru attiecināmas Autortiesības un citas līdzīgas tiesības, ir uzskatāma par nekomerciālu, ja saistībā ar apmaiņu netiek izmaksātas naudas kompensācijas.
+      </li>
+      <li id="s1l_share">
+       <span style="text-decoration: underline;">
+        Dalīšanās
+       </span>
+       ir materiāla nodrošināšana sabiedrībai jebkādā veidā vai procesā, kuram nepieciešama atļauja saskaņā ar Licencētajām tiesībām, piemēram, pavairošana, publiska izstādīšana, publiska uzstāšanās, sadale, izplatīšana, komunikācija vai importēšana, un materiāla pieejamības sabiedrībai nodrošināšana tādos veidos, kuri ļauj sabiedrībai piekļūt materiālam individuāli izvēlētā vietā un laikā.
+      </li>
+      <li id="s1m_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Sui generis datubāzu tiesības
+       </span>
+       ir tiesības, kuras nav autortiesības un kuras izriet no Eiropas Parlamenta un Padomes 1996. gada 11. marta Direktīvas 96/9/EC par datubāzu tiesisko aizsardzību, tās grozījumiem un aizstājumiem, kā arī citām pēc būtības līdzvērtīgām tiesībām jebkur citur pasaulē.
+      </li>
+      <li id="s1n_you">
+       <span style="text-decoration: underline;">
+        “Jūs”
+       </span>
+       attiecināms uz fizisku vai juridisku personu, kas izmanto Licencētās tiesības saskaņā ar šo Publisko licenci. Forma “Jūsu” atbilst formai
+       <strong>
+        “Jūs”
+       </strong>
+       .
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      2. nodaļa – Tvērums
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Licences piešķiršana
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         Saskaņā ar šīs publiskās licences noteikumiem un nosacījumiem, ar šo Licenciārs piešķir Jums vispasaules, bezatlīdzības, nesublicencējamu, bezizņēmuma un neatsaucamu licenci Licencētā materiāla Licencēto tiesību izmantošanai:
+         <ol type="A">
+          <li id="s2a1A">
+           reproduce and Share the Licensed Material, in whole or in part; and
+          </li>
+          <li id="s2a1B">
+           produce, reproduce, and Share Adapted Material.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Izņēmumi un ierobežojumi
+         </strong>
+         . Gadījumos, kad radušās šaubas vai Izņēmumi un ierobežojumi jāpiemēro Jūsu lietojumam, šī publiskā licences nav jāpiemēro un nav jāpakļaujas tās noteikumiem un nosacījumiem.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Termiņš
+         </strong>
+         . Šīs publiskās licences termiņš ir norādīts
+         <a href="#s6a">
+          6(a)
+         </a>
+         punktā.
+        </li>
+        <li id="s2a4">
+         <strong>
+          Paņēmieni un formāti: atļautas tehniskas modifikācijas
+         </strong>
+         . Licenciārs sniedz Jums tiesības izmantot Licencētās tiesības visos paņēmienos un formātos, ieskaitot gan jau zināmos, gan nākotnē radītos, kā arī veikt tehniskas modifikācijas, lai to paveiktu. Licenciārs atsakās no tiesībām un apņemas neaizstāvēt savas tiesības, kas liegtu Jums veikt tehniskas modifikācijas, kuras nepieciešamas Licencēto tiesību īstenošanai, tajā skaitā arī tehniskas modifikācijas, kuras nepieciešamas, lai apietu Efektīvos tiesiskās aizsardzības līdzekļus. Ciktāl attiecināms uz šo Publisko licenci, vienkāršu modifikāciju veikšana, ko pieļauj
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         punkts, nekad nerada Pielāgotu materiālu.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Pakārtotie saņēmēji
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Piedāvājums no Licenciāra – Licencētais materiāls
+           </span>
+           . Katrs Licencētā materiāla saņēmējs automātiski saņem piedāvājumu no Licenciāra izmantot Licencētās tiesības saskaņā ar publiskās licences noteikumiem un nosacījumiem.
+          </li>
+          <li id="s2a5B_adapted_material">
+           <span style="text-decoration: underline;">
+            Papildu piedāvājums no Licenciāra – Pielāgotais materiāls
+           </span>
+           . Katrs no Jūsu pielāgotā materiāla saņēmējiem automātiski saņem piedāvājumu no Licenciāra izmantot Licencētās tiesības Pielāgotajam materiālam saskaņā ar Jūsu izmantotās Pielāgotāja licences nosacījumiem.
+          </li>
+          <li id="s2a5C_no_restrictions">
+           <span style="text-decoration: underline;">
+            Pakārtojuma ierobežojumu aizliegums
+           </span>
+           . Jūs nedrīkstat piedāvāt vai uzlikt nekādus papildu vai atšķirīgus noteikumus vai nosacījumus vai attiecināt jebkādus Efektīvos tehnoloģiskos līdzekļus Licencētajam materiālam, ja tas ierobežo citu Licencētā materiāla saņēmēju tiesības izmantot Licencētās tiesības.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Apstiprinājuma nepastāvēšana
+         </span>
+         . Nekas šajā Publiskajā licencē nesniedz pamatu un nevar tikt uzskatīts par atļauju paziņojumam vai pieņēmumam, ka Jūs esat vai ka Jūsu darbības Licencētā materiāla izmantošanā ir saistītas vai tiek apstiprinātas, atbalstītas vai oficiāli atzītas no Licenciāra vai citu personu, kam pienākas materiāla attiecinājums, puses, kā norādīts
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         punktā.
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Citas tiesības
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Personiskās tiesības, piemēram, tiesības uz fizisko neaizskaramību, netiek licencētas ar šo Publisko licenci, tāpat kā licencētas netiek publicitātes, privātuma un/vai citas personiskās tiesības; tomēr pēc iespējas Licenciāram jāatsakās un/vai jāpiekrīt neaistāvēt savas personiskās tiesības, ciktāl tas nepieciešams, lai Jūs varētu izmantot Licencētās tiesības, bet ne citādi.
+        </li>
+        <li id="s2b2">
+         Šī publiskā licence nelicencē patentu vai prečuzīmju tiesības.
+        </li>
+        <li id="s2b3">
+         Ciktāl vien iespējams, Licenciārs atsakās no jebkādām tiesībām saņemt no Jums atlīdzību par Licencēto tiesību izmantošanu tieši vai caur autortiesību aģentūru saskaņā ar jebkādu brīvprātīgu vai neatsaucamu likumā noteiktu vai obligātu licencēšanas struktūru. Visos citos gadījumos Licenciārs tieši patur jebkādas tiesības uz atlīdzības saņemšanu, tajā skaitā arī gadījumos, kad Licencētais materiāls tiek izmantots ne tikai Nekomerciāliem, bet arī citiem nolūkiem.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      3. nodaļa – Licences noteikumi
+     </h3>
+     <p>
+      Jūsu Licencēto tiesību izmantošana ir skaidri regulēta ar šādiem noteikumiem.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Attiecināšana
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          Ja Jūs Dalāties ar Licencēto materiālu, Jums:
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           jāsaglabā šāda informācija, ja Licencētajam materiālam to norādījis Licenciārs:
+           <ol type="i">
+            <li id="s3a1Ai">
+             licencētā materiāla autora vai citu personu identifikācija, kas norādīta attiecinājuma saņemšanai, jebkādā saprātīgā veidā, ko pieprasa Licenciārs (t.sk. arī ar pseidonīmu, ja to pieprasa Licenciārs);
+            </li>
+            <li id="s3a1Aii">
+             autortiesību norāde;
+            </li>
+            <li id="s3a1Aiii">
+             norāde uz šo Publisko licenci;
+            </li>
+            <li id="s3a1Aiv">
+             norāde uz atteikšanos no garantijas tiesībām;
+            </li>
+            <li id="s3a1Av">
+             URI vai hipersaite uz Licencēto materiālu tiktāl, ciktāl tas praktiski ir iespējams.
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           jānorāda, vai esat modificējis Licencēto materiālu un jāsaglabā norādes uz jebkādām iepriekšējām modifikācijām;
+          </li>
+          <li id="s3a1C">
+           jānorāda, ka Licencētais materiāls ir licencēts ar šo Publisko licenci un jāiekļauj šīs publiskās licences teksts, URI vai hipersaite uz to.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Jūs varat izpildīt
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         punkta nosacījumus jebkurā piemērotā veidā atkarībā no vides, veida un konteksta, kādā Jūs Dalāties ar Licencēto materiālu. Piemēram, nosacījumi varētu tikt izpildīti, norādot URI vai hipersaiti uz resursu, kurš satur nepieciešamo informāciju.
+        </li>
+        <li id="s3a3">
+         Pēc Licencētāja pieprasījuma Jums jāizsvītro jebkāda informācija, kas pieprasīta
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         punktā ciktāl tas praktiski ir iespējams.
+        </li>
+       </ol>
+      </li>
+      <li id="s3b">
+       <strong>
+        Dalīties līdzīgi
+       </strong>
+       .
+       <p>
+        Papildus nosacījumiem, kas norādīti
+        <a href="#s3a">
+         3(a)
+        </a>
+        punktā, ja Jūs Dalāties ar Jūsu radītu Pielāgoto materiālu, ir attiecināmi arī šie nosacījumi.
+       </p>
+       <ol>
+        <li id="s3b1">
+         The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.
+        </li>
+        <li id="s3b2">
+         Jums jāiekļauj teksts vai URI, vai hipersaite uz Pielāgotāja licenci, kuru Jūs izmanojat. Jūs varat izpildīt šo nosacījumu jebkurā piemērotā veidā atkarībā no vides, veida un konteksta, kādā Jūs Dalāties ar Pielāgoto materiālu.
+        </li>
+        <li id="s3b3">
+         Jūs nedrīkstat piedāvāt vai uzlikt nekādus papildu vai atšķirīgus noteikumus vai nosacījumus vai attiecināt jebkādus Efektīvos tehnoloģiskos līdzekļus Pielāgotajam materiālam, ja tas ierobežo tiesības, kas piešķirtas ar Jūsu izmantoto Pielāgotāja licenci.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      4. nodaļa – Sui generis datubāzu tiesības
+     </h3>
+     <p>
+      Gadījumos, kad Licencētās tiesībās iekļauj Sui generis datubāzu tiesības, kas attiecas uz to, kā Jūs izmantojat Licencēto materiālu:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       Lai izvairītos no neskaidrībām,
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       punkts piešķir Jums tiesības izgūt, atkārtoti izmantot, reproducēt un Dalīties ar visu vai ar ievērojamu daļu no datubāzu satura tikai Nekomerciālos nolūkos;
+      </li>
+      <li id="s4b">
+       Ja Jūs iekļaujat visu vai ievērojamu daļu no datubāzes satura tādā datubāzē, uz kuru Jums ir Sui generis datubāzes tiesības, tad datubāze, attiecībā uz kuru Jums ir Sui generis datubāzu tiesības (bet ne atsevišķas tās daļas) ir uzskatāma par Pielāgoto materiālu, t.sk.
+       <a href="#s3b">
+        3(b)
+       </a>
+       punktā minētajos nolūkos; un
+      </li>
+      <li id="s4c">
+       Jums jāievēro
+       <a href="#s3a">
+        3(a)
+       </a>
+       punkta nosacījumi, ja Jūs Dalāties ar visu vai ievērojamu daļu no datubāzes satura.
+      </li>
+     </ol>
+     <p>
+      Lai izvairītos no neskaidrībām, šī
+      <a href="#s4">
+       4
+      </a>
+      . nodaļa papildina un neaizvieto Jūsu pienākumus saskaņā ar šo Publisko licenci gadījumos, kad Licencētās tiesības iekļauj citas Autortiesības un līdzīgas tiesības.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      5. nodaļa – Atteikšanās no garantijām un atbildības ierobežojumi
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Ja Licencārs nav apņēmies citādi, tad, ciktāl iespējams, Licencārs Licencēto materiālu piedāvā pēc “tāds, kāds ir” un “tāds, kāds pieejams” principa, un attiecībā uz Licencēto materiālu nesniedz nekāda veida atklātus, noprotamus, likumā noteiktus vai cita veida paziņojumus vai garantijas, tajā skaitā bez jebkādiem ierobežojumiem arī attiecībā uz nosaukumu, piemērotību vai derīgumu konkrētam nolūkam, likumu nepārkāpšanu vai slēptu vai citu defektu neesamību, precizitāti vai atklājamu vai neatklājamu kļūdu esamību vai neesamību. Gadījumos, kad atteikšanās no garantijām pilnībā vai daļēji nav pieļaujamas, šī atruna uz Jums var neattiekties.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Ciktāl iespējams, Licenciārs neatbild Jums par jebkādu saskaņā ar jebkuru juridisko teoriju radušos tiešu, īpašu netiešu, nejaušu, faktisku, soda dēļ radušos vai jebkādu citu zaudējumu, izmaksu, izdevumu vai kaitējumu (tostarp bez izņēmumiem arī neuzmanības dēļ) esamību, kuru cēlonis ir šī publiskā licence vai Licencētā materiāla izmantošana, pat gadījumā, ja Licenciārs ir ticis informēts par šādu zaudējumu, izmaksu, izdevumu vai kaitējumu rašanaš iespējamību. Gadījumos, kad atbildības ierobežošana pilnībā vai daļēji nav pieļaujama, šis ierobežojums uz Jums var netikt attiecināts.
+       </strong>
+      </li>
+      <li id="s5c">
+       Šī augstākminētā atteikšanās no garantijām un atbildības ierobežojums tādā veidā, ka tas, ciktāl iespējams, vistuvāk atbilst pilnīgam atteikumam no atbildības.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      6. nodaļa – Termiņš un darbības izbeigšana
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       Šī publiskā licence ir attiecināma uz tādu pašu termiņu, kāds ir Autortiesībām un līdzīgām tiesībām, kas piešķirtas saskaņā ar šo Publisko licenci. Gadījumos, kad Jūs neievērojat šīs publiskās licences noteikumus, Jūsu tiesības, kas noteiktas saskaņā ar šo Publisko licenci, automātiski izbeidzas.
+      </li>
+      <li id="s6b">
+       <p>
+        Gadījumos, kad Jūsu tiesības izmantot Licencēto materiālu ir beigušās saskaņā ar 6(a) punktu, tā tiek atjaunota:
+       </p>
+       <ol>
+        <li id="s6b1">
+         automātiski ar datumu, ar kuru pārkāpums tiek novērsts, ja tas ir novērsts 30 dienu laikā no datuma, kurā Jūs atklājāt pārkāpumu, vai
+        </li>
+        <li id="s6b2">
+         pēc paātrinātas atjaunošanas, ko veic Licenciārs.
+        </li>
+       </ol>
+       <p>
+        Lai izvairītos no neskaidrībām,
+        <a href="#s6b">
+         6(b)
+        </a>
+        punkts neietekmē Licenciāra tiesības pieprasīt kādu tiesiskās aizsardzības līdzekļu piemērošanu, lai novērstu Jūsu pieļautus šīs publiskās licences pārkāpumus.
+       </p>
+      </li>
+      <li id="s6c">
+       Lai izvairītos no neskaidrībām, Licenciāram ir arī tiesības piedāvāt Licencēto materiālu saskaņā ar īpašiem noteikumiem vai nosacījumiem, vai arī pārstāt izplatīt Licencēto materiālu jebkurā laikā, taču šādas darbības neatceļ šo Publisko licenci.
+      </li>
+      <li id="s6d">
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       , un
+       <a href="#s8">
+        8
+       </a>
+       nodaļas ir spēkā arī pēc šīs publiskās licences darbības izbeigšanās.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      7. nodaļa – Citi noteikumi un nosacījumi
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Licenciārs nav pakļauts nekādiem papildu vai citiem noteikumiem un nosacījumiem, kurus Jūs nosakāt, ja vien par to nepastāv atsevišķa vienošanās.
+      </li>
+      <li id="s7b">
+       Jebkādas te neminētas norunas, vienošanās vai līgumi, kas attiecas uz Licencēto materiālu, ir atsevišķas un neatkarīgas no šīs publiskās licences noteikumiem un nosacījumiem.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      8. nodaļa – Izskaidrojums
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Lai izvairītos no neskaidrībām, šī publiskā licence nesamazina, nelimitē, neierobežo vai neuzliek nosacījumus par jebkādu Licencētā materiāla izmantošanu, kas likumīgi var tikt īstenots bez atļaujas saskaņā ar šo Publisko licenci.
+      </li>
+      <li id="s8b">
+       Ciktāl iespējams, ja jebkādi šīs publiskās licences nosacījumi tiek atzīti par likumīgi nepiemērojamiem, tiem automātiski jātiek pārveidotiem tādā apmērā, cik tas ir minimāli nepieciešams, lai tie kļūtu par likumīgi piemērojamiem. Ja šāda pārveidošana nevar tikt nodrošināta, konkrētie nosacījumi tiek izslēgti no šīs publiskās licences, neietekmējot pārējo noteikumu un nosacījumu piemērošanu un spēkā esamību.
+      </li>
+      <li id="s8c">
+       Neviens no šīs publiskās licences noteikumiem vai nosacījumiem nevar tikt uzskatīts par atceltu un to neizpildīšana nevar tikt pieņemta, ja vien nav saņemta nepārprotama Licenciāra piekrišana.
+      </li>
+      <li id="s8d">
+       Nekas šajā Publiskajā licencē netiek un nevar tikt izskaidrots kā jebkādu priekšrocību vai neaizskaramību, kas attiecas uz Licenciāru vai uz Jums, ierobežošana vai atcelšana, tajā skaitā attiecībā uz jebkuru jurisdikciju ierosinātiem tiesas procesiem.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons nav iesaistītā puse tās publiskajās licencēs. Creative Commons ir tiesīga neatkarīgi attiecināt kādu no tās publiskajām licencēm uz tās publicētajiem materiāliem, tādā gadījumā tā ir uzskatāma par Licenciāru. Creative Commons publisko licenču teksts ir publicēts saskaņā ar
+      <a href="/publicdomain/zero/1.0/legalcode.lv">
+       CC0 Veltījumu neaizsargātajiem darbiem
+      </a>
+      . Creative Commons neautorizē preču zīmi "Creative Commons" vai jebkuras citas Creative Commons preču zīmes vai logotipa izmantošanu bez iepriekšējas rakstiskas saskaņošanas, tostarp, bez ierobežojuma, saistībā ar jebkādām nesaskaņotām tās publisko licenču modifikācijām vai citām norunām, vienošanos vai līgumiem, kas attiecas uz licencēto materiālu, izņemot atsevišķus gadījumus, kad šādu darbību mērķis ir norādīt, ka dalīšanās ar materiālu notiek saskaņā ar Creative Commons licenci vai citā veidā, ko pieļauj Creative Commons noteikumi, kas publicēti
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      . Lai izvairītos no neskaidrībām – šī rindkopa nav daļa no publiskās licences.
+     </p>
+     <p>
+      Ar Creative Commons var sazināties tīmekļa vietnē
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

@@ -4,521 +4,585 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Juridiskais saturs — CC0 1.0 Universāls — Creative Commons
+   CC0 1.0 Juridiskais saturs | CC0 1.0 Universāls
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.lv" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Sākums
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Sabiedrības īpašums
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.lv">
-        CC0 1.0 Juridiskais saturs
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" selected="" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" selected="" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.lv" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Juridiskais saturs
+    </h1>
+    <h2>
+     CC0 1.0 Universāls
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 Universāls
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Mērķa deklarācija
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Autortiesības un blakustiesības.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Atteikšanās no tiesībām.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Publiskās licences atsaukšana.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Ierobežojumi un atruna.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Mērķa deklarācija
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Autortiesības un blakustiesības.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Atteikšanās no tiesībām.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Publiskās licences atsaukšana.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Ierobežojumi un atruna.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 Universāls
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 Universāls
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation ("Creative Commons") nav juridiska firma un nenodrošina juridiskus pakalpojumus vai juridisku palīdzību. Creative Commons publisko licenču izplatīšana nerada pārstāvja-klienta vai cita veida attiecības. Creative Commons nodrošina savu licenču un ar tām saistītas informācijas pieejamību, balstoties uz "tāds, kāds ir" pieņēmumu. Creative Commons nesniedz nekādas garantijas saistībā ar tās licencēm, jebkādu saskaņā ar šo licenču noteikumiem un nosacījumiem licencētu materiālu vai ar to saistītu informāciju. Creative Commons neuzņemas nekādu atbildību par zaudējumiem, kas radušies licenču izmantošanas rezultātā, ciktāl vien tas iespējams.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Creative Commons publisko licenču izmantošana
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons publiskās licences satur standarta noteikumu un nosacījumu kopumu, kuru darbu autori un citi tiesību turētāji var izmantot, lai dalītos ar oriģināliem autordarbiem un citiem materiāliem, kuri pakļauti autortiesībām un citām licencē zemāk aprakstītajām tiesībām. Turpmākie apsvērumi paredzēti tikai informatīviem nolūkiem, tie nav izsmeļoši un nav daļa no mūsu licencēm.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Apsvērumi licenciāriem
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         mūsu publiskās licences ir paredzētas izmantošanai tiem, kuri ir tiesīgi dot publisku atļauju izmantot materiālu, kura izmantošana citos gadījumos ir ierobežota ar autortiesībām un citām tiesībām. Mūsu licences ir neatsaucamas. Licenciāriem ieteicams izlasīt un izprast licences noteikumus un nosacījumus, pirms tiek izdarīta izvēle to izmantot. Licenciāriem pirms mūsu licenču izmantošanas būtu arī jānodrošina visas nepieciešamās tiesības, lai sabiedrība var atkārtoti izmantot materiālu atbilstoši tam, kā tas tika sākotnēji paredzēts. Licenciāriem būtu arī skaidri jānorāda uz jebkādu materiālu, kurš nav pakļauts licences darbībai. Tas attiecināms arī uz citiem Creative Commons licencētiem materiāliem un materiāliem, kuri tiek izmantoti, pamatojoties uz autortiesību izņēmumiem vai ierobežojumiem.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Papildu apsvērumi licenciāriem.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Apsvērumi sabiedrībai
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         izmantojot kādu no mūsu publiskajām licencēm, licenciārs nodod sabiedrībai atļauju izmantot licencēto materiālu saskaņā ar skaidri norādītiem noteikumiem un nosacījumiem. Ja licenciāra atļauja jebkāda iemesla dēļ nav nepieciešama – piemēram, jebkādu piemērojamo autortiesību izņēmumu vai ierobežojumu dēļ – tad šo materiāla izmantošanu licence neregulē. Mūsu licences piešķir tikai atļaujas, kas balstās autortiesībās un citās noteiktās tiesībās, kuras ir pilnvarots piešķirt licenciārs. Licencētā materiāla izmantošana aizvien varētu būt ierobežota citu iemeslu dēļ, tajā skaitā tādēļ, ka arī citām personām pieder autortiesības vai citas ti esības uz materiālu. Licenciārs var lūgt izpildīt īpašus norādījumus, piemēram, iezīmēt vai aprakstīt visas materiālam veiktās izmaiņas. Lai arī mūsu licences to nepieprasa, jūs tiekat aicināti respektēt šos norādījumus, ja tie ir pamatoti.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Papildu apsvērumi sabiedrībai.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 Universāls
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          CREATIVE COMMONS CORPORATION (“CREATIVE COMMONS”) NAV JURIDISKA FIRMA UN NENODROŠINA JURIDISKUS PAKALPOJUMUS. CREATIVE COMMONS PUBLISKO LICENČU IZPLATĪŠANA NERADA PĀRSTĀVJA-KLIENTA ATTIECĪBAS. CREATIVE COMMONS NODROŠINA SAVU LICENČU UN AR TĀM SAISTĪTAS INFORMĀCIJAS PIEEJAMĪBU, BALSTOTIES UZ “TĀDS, KĀDS IR” PIEŅĒMUMU. CREATIVE COMMONS NESNIEDZ NEKĀDAS GARANTIJAS SAISTĪBĀ AR ŠĪ DOKUMENTA IZMANTOŠANU VAI INFORMĀCIJU, KAS SNIEGTA ZEMĀK, UN ATSAKĀS NO ATBILDĪBAS PAR ZAUDĒJUMIEM, KAS RADUŠIES ŠĪ DOKUMENTA VAI INFORMĀCIJAS VAI DARBU IZMANTOŠANAS DĒĻ.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Mērķa deklarācija
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Lielākajā daļā pasaules jurisdikciju Autortiesības un blakustiesības (definētas zemāk) automātiski, ekskluzīvi tiek piešķirtas darba un/vai datubāzes (turpmāk abi – Darbs) autoram un sekojošajiem īpašniekiem (katrs un visi kopā – Īpašnieks).
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Konkrēti īpašnieki vēlas uz neierobežotu laiku atteikties no tiesībām uz Darbu ar mērķi sniegt ieguldījumu publiski pieejamajos radošajos, kultūras un zinātniskajos darbos (“Publiski pieejamie darbi”), kurus sabiedrība var uzticami un bez bailēm par nākotnē sekojošiem iespējamiem autortiesību pārkāpuma prasījumiem papildināt, pārveidot, ievietot citos darbos, atkārtoti izmantot un brīvi izplatīt jebkādā formā un jebkādiem mērķiem, tajā skaitā komerciāliem nolūkiem bez ierobežojumiem . Šie īpašnieki var dot ieguldījumu Publiski pieejamajiem darbiem, lai popularizētu brīvās kultūras ideālu un turpmāku radošu, kulturālu un zinātnisku darbu radīšanu, vai lai iegūtu reputāciju vai plašāku savu darbu izplatīšanu, daļēji izmantojot citu cilvēku darbu.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Persona, kura attiecina CC0 licenci uz Darbu (turpmāk – Attiecinātājs) un ir Autortiesību un blakustiesību uz Darbu īpašnieks, brīvprātīgi izvēlas attiecināt CC0 uz Darbu un publiski izplatīt Darbu saskaņā ar licences nosacījumiem ar iepriekšminētajiem nolūkiem un bez gaidām par papildu atlīdzību vai kompensāciju, apzinoties savas Autortiesības vai blakustiesības uz Darbu un CC0 nozīmi un juridisko ietekmi uz šīm tiesībām.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Autortiesības un blakustiesības.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Darbs, kas ir pieejams saskaņā ar CC0 licenci, var tikt aizsargāts ar autortiesībām un ar tām saistībām tiesībām (Autortiesībām un blakustiesībām). Autortiesības un blakustiesības tostarp, bet ne tikai, iekļauj šādas tiesības:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           reproducēt, pārveidot, izplatīt, izpildīt, raidīt, komunicēt un tulkot Darbu;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           darba autora(-u) un/vai izpildītāja(-u) personiskās tiesības;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           publicitātes un privātuma tiesības attiecībā uz personas attēlu vai līdzību, kas attēlota Darbā;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           tiesības uz aizsardzību pret negodīgu konkurenci attiecībā uz Darbu, kas ir pakļautas 4(a) sadaļā minētajiem ierobežojumiem;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           tiesības, kas aizsargā Darbā iekļauto datu izgūšanu, izplatīšanu, izmantošanu un atkārtotu izmantošanu;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           datubāzu tiesības (piemēram, tās, kuras izriet no Eiropas Parlamenta un Padomes 1996. gada 11. marta Direktīvas 96/9/EC par datubāzu tiesisko aizsardzību, kā arī no jebkuras šīs direktīvas pārņemšanas nacionālajās tiesībās, ieskaitot tās grozījumus un papildinājumus); un
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           citas līdzīgas, ekvivalentas vai attiecināmas tiesības visā pasaulē, kuras ir balstītas uz spēkā esošiem tiesību aktiem vai līgumiem un jebkādām to ieviešanām nacionālajās tiesībās.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Atteikšanās no tiesībām.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Ciktāl vien iespējams, bet nepārkāpjot spēkā esošos tiesību aktus, Attiecinātājs ar šo atklāti, pilnībā, pastāvīgi, neatsaucami un bez nosacījumiem atsakās, atstāj un atdod visas no Attiecinātāja Autortiesībām un blakustiesībām izrietošās tiesības, kā arī ar tām saistītos zināmos vai vēl nezināmos prasījumus un lietu ierosināšanas pamatus (ieskaitot esošos un nākotnes prasījumus un lietu ierosināšanas pamatus) attiecībā uz šo Darbu: (i) visās pasaules teritorijās; (ii) ilgāko iespējamo laiku, kuru nosaka spēkā esošie tiesību akti vai līgumi (ieskaitot termiņu pagarinājumus nākotnē), (iii) jebkurā pastāvošā vai nākotnē tapušā medijā un jebkādā kopiju skaitā un (iv) jebkādam nolūkam, ieskaitot neierobežotus komerciālus, reklāmas vai popularizēšanas mērķus (turpmāk – Atteikšanās no tiesībām). Attiecinātājs Atteikšanos no tiesībām īsteno katra sabiedrības locekļa labā, ar to kaitējot Attiecinātāja mantiniekiem un tiesību pārņēmējiem, un pilnībā apzinoties, ka šāda Atteikšanās no tiesībām nav atsaucama, anulējama, atceļama, pārtraucama vai pakļauta jebkādai citai juridiskai vai līdzīgai darbībai, kas varētu pārtraukt sabiedrībai piešķirto iespēju izbaudīt Darbu, kā paredzēts ar Attiecinātāja izteikto mērķa deklarāciju.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Publiskās licences atsaukšana.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Gadījumā, ja, pamatojoties uz spēkā esošajiem tiesību aktiem, Atteikšanās no tiesībām kādā tās daļā jebkāda iemesla dēļ ir atzīstama par nederīgu vai spēkā neesošu, tai tomēr ir jāpaliek spēkā tiktāl, cik vien iespējams, ņemot vērā Attiecinātāja izteikto mērķa deklarāciju. Papildu, ciktāl tas attiecināms uz Atteikšanos no tiesībām, ar šo Attiecinātājs katrai no saistītajām personām nodod bezatlīdzības, nepārvedamu, nesublicencējamu, bezizņēmuma, neatsaucamu un beznosacījumu licenci, kas ļauj izmantot Attiecinātāja Autortiesības un blakustiesības uz Darbu: (i) visās pasaules teritorijās, (ii) ilgāko iespējamo laiku, kuru nosaka spēkā esošie tiesību akti vai līgumi (ieskaitot termiņu pagarinājumus nākotnē), (iii) jebkurā pastāvošā vai nākotnē tapušā medijā un jebkādā kopiju skaitā un (iv) jebkādam nolūkam, ieskaitot neierobežotus komerciālus, reklāmas vai popularizēšanas mērķus (turpmāk – Licence). Licence tiek uzskatīta par spēkā esošu no datuma, kad Attiecinātājs uz Darbu attiecinājis CC0. Gadījumā, ja, pamatojoties uz spēkā esošajiem tiesību aktiem, Licence kādā tās daļā jebkāda iemesla dēļ ir atzīstama par nederīgu vai spēkā neesošu, tas nepadara par spēkā neesošu Licences pārējo daļu, un šādos gadījumos Attiecinātājs ar šo apstiprina, ka viņš vai viņa (i) neizmantos nevienu no viņai vai viņam atlikušajām Autortiesībām un blakustiesībām uz Darbu vai (ii) neizvirzīs nekādus ar Darbu saistītus prasījumus un pamatus lietas ierosināšanai, kas būtu pretrunā ar Attiecinātāja izteikto mērķa deklarāciju.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Ierobežojumi un atruna.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Šis dokuments neatceļ, nemaina, nelicencē un nekā citādi neietekmē Attiecinātāja tiesības uz preču zīmēm vai patentiem.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Attiecinātājs piedāvā Darbu pēc “tāds, kāds ir” principa, un, ciktāl to pieļauj spēkā esošie tiesību akti, attiecībā uz Darbu nesniedz nekāda veida atklātus, noprotamus, likumā noteiktus vai cita veida paziņojumus vai garantijas, tostarp bez izņēmumiem arī garantijas par nosaukumu, piemērotību vai derīgumu konkrētam nolūkam, likumu nepārkāpšanu vai slēptu vai citu defektu neesamību, precizitāti vai atklājamu vai neatklājamu kļūdu esamību vai neesamību.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Attiecinātājs neatbild par citu personu tiesībām, kuras varētu attiekties uz Darbu vai tā lietošanu, izmantošanu, tajā skaitā bez ierobežojuma arī par jebkuras personas Autortiesībām un blakustiesībām saistībā ar Darbu. Turklāt Attiecinātājs neatbild par jebkādu nepieciešamo apstiprinājumu, atļauju vai citu tiesību iegūšanu, kas nepieciešama jebkādai Darba izmantošanai.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Attiecinātājs izprot un atzīst, ka Creative Commons nav šajā dokumentā iesaistītā puse un tām nav pienākumu vai saistību attiecībā uz šo CC0 vai Darba izmantošanu.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons nav iesaistītā puse tās publiskajās licencēs. Creative Commons ir tiesīga neatkarīgi attiecināt kādu no tās publiskajām licencēm uz tās publicētajiem materiāliem, tādā gadījumā tā ir uzskatāma par Licenciāru. Creative Commons publisko licenču teksts ir publicēts saskaņā ar
-        <a href="/publicdomain/zero/1.0/legalcode.lv">
-         CC0 Veltījumu neaizsargātajiem darbiem
-        </a>
-        . Creative Commons neautorizē preču zīmi "Creative Commons" vai jebkuras citas Creative Commons preču zīmes vai logotipa izmantošanu bez iepriekšējas rakstiskas saskaņošanas, tostarp, bez ierobežojuma, saistībā ar jebkādām nesaskaņotām tās publisko licenču modifikācijām vai citām norunām, vienošanos vai līgumiem, kas attiecas uz licencēto materiālu, izņemot atsevišķus gadījumus, kad šādu darbību mērķis ir norādīt, ka dalīšanās ar materiālu notiek saskaņā ar Creative Commons licenci vai citā veidā, ko pieļauj Creative Commons noteikumi, kas publicēti
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        . Lai izvairītos no neskaidrībām – šī rindkopa nav daļa no publiskās licences.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Ar Creative Commons var sazināties tīmekļa vietnē
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.lv">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Creative Commons publisko licenču izmantošana
+     </h2>
+     <p>
+      Creative Commons publiskās licences satur standarta noteikumu un nosacījumu kopumu, kuru darbu autori un citi tiesību turētāji var izmantot, lai dalītos ar oriģināliem autordarbiem un citiem materiāliem, kuri pakļauti autortiesībām un citām licencē zemāk aprakstītajām tiesībām. Turpmākie apsvērumi paredzēti tikai informatīviem nolūkiem, tie nav izsmeļoši un nav daļa no mūsu licencēm.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Apsvērumi licenciāriem
+     </h3>
+     <p>
+      mūsu publiskās licences ir paredzētas izmantošanai tiem, kuri ir tiesīgi dot publisku atļauju izmantot materiālu, kura izmantošana citos gadījumos ir ierobežota ar autortiesībām un citām tiesībām. Mūsu licences ir neatsaucamas. Licenciāriem ieteicams izlasīt un izprast licences noteikumus un nosacījumus, pirms tiek izdarīta izvēle to izmantot. Licenciāriem pirms mūsu licenču izmantošanas būtu arī jānodrošina visas nepieciešamās tiesības, lai sabiedrība var atkārtoti izmantot materiālu atbilstoši tam, kā tas tika sākotnēji paredzēts. Licenciāriem būtu arī skaidri jānorāda uz jebkādu materiālu, kurš nav pakļauts licences darbībai. Tas attiecināms arī uz citiem Creative Commons licencētiem materiāliem un materiāliem, kuri tiek izmantoti, pamatojoties uz autortiesību izņēmumiem vai ierobežojumiem.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Papildu apsvērumi licenciāriem.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Apsvērumi sabiedrībai
+     </h3>
+     <p>
+      izmantojot kādu no mūsu publiskajām licencēm, licenciārs nodod sabiedrībai atļauju izmantot licencēto materiālu saskaņā ar skaidri norādītiem noteikumiem un nosacījumiem. Ja licenciāra atļauja jebkāda iemesla dēļ nav nepieciešama – piemēram, jebkādu piemērojamo autortiesību izņēmumu vai ierobežojumu dēļ – tad šo materiāla izmantošanu licence neregulē. Mūsu licences piešķir tikai atļaujas, kas balstās autortiesībās un citās noteiktās tiesībās, kuras ir pilnvarots piešķirt licenciārs. Licencētā materiāla izmantošana aizvien varētu būt ierobežota citu iemeslu dēļ, tajā skaitā tādēļ, ka arī citām personām pieder autortiesības vai citas ti esības uz materiālu. Licenciārs var lūgt izpildīt īpašus norādījumus, piemēram, iezīmēt vai aprakstīt visas materiālam veiktās izmaiņas. Lai arī mūsu licences to nepieprasa, jūs tiekat aicināti respektēt šos norādījumus, ja tie ir pamatoti.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Papildu apsvērumi sabiedrībai.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 Universāls
+     </h2>
+     <p>
+      CREATIVE COMMONS CORPORATION (“CREATIVE COMMONS”) NAV JURIDISKA FIRMA UN NENODROŠINA JURIDISKUS PAKALPOJUMUS. CREATIVE COMMONS PUBLISKO LICENČU IZPLATĪŠANA NERADA PĀRSTĀVJA-KLIENTA ATTIECĪBAS. CREATIVE COMMONS NODROŠINA SAVU LICENČU UN AR TĀM SAISTĪTAS INFORMĀCIJAS PIEEJAMĪBU, BALSTOTIES UZ “TĀDS, KĀDS IR” PIEŅĒMUMU. CREATIVE COMMONS NESNIEDZ NEKĀDAS GARANTIJAS SAISTĪBĀ AR ŠĪ DOKUMENTA IZMANTOŠANU VAI INFORMĀCIJU, KAS SNIEGTA ZEMĀK, UN ATSAKĀS NO ATBILDĪBAS PAR ZAUDĒJUMIEM, KAS RADUŠIES ŠĪ DOKUMENTA VAI INFORMĀCIJAS VAI DARBU IZMANTOŠANAS DĒĻ.
+     </p>
+     <h3 id="sop">
+      Mērķa deklarācija
+     </h3>
+     <p>
+      Lielākajā daļā pasaules jurisdikciju Autortiesības un blakustiesības (definētas zemāk) automātiski, ekskluzīvi tiek piešķirtas darba un/vai datubāzes (turpmāk abi – Darbs) autoram un sekojošajiem īpašniekiem (katrs un visi kopā – Īpašnieks).
+     </p>
+     <p>
+      Konkrēti īpašnieki vēlas uz neierobežotu laiku atteikties no tiesībām uz Darbu ar mērķi sniegt ieguldījumu publiski pieejamajos radošajos, kultūras un zinātniskajos darbos (“Publiski pieejamie darbi”), kurus sabiedrība var uzticami un bez bailēm par nākotnē sekojošiem iespējamiem autortiesību pārkāpuma prasījumiem papildināt, pārveidot, ievietot citos darbos, atkārtoti izmantot un brīvi izplatīt jebkādā formā un jebkādiem mērķiem, tajā skaitā komerciāliem nolūkiem bez ierobežojumiem . Šie īpašnieki var dot ieguldījumu Publiski pieejamajiem darbiem, lai popularizētu brīvās kultūras ideālu un turpmāku radošu, kulturālu un zinātnisku darbu radīšanu, vai lai iegūtu reputāciju vai plašāku savu darbu izplatīšanu, daļēji izmantojot citu cilvēku darbu.
+     </p>
+     <p>
+      Persona, kura attiecina CC0 licenci uz Darbu (turpmāk – Attiecinātājs) un ir Autortiesību un blakustiesību uz Darbu īpašnieks, brīvprātīgi izvēlas attiecināt CC0 uz Darbu un publiski izplatīt Darbu saskaņā ar licences nosacījumiem ar iepriekšminētajiem nolūkiem un bez gaidām par papildu atlīdzību vai kompensāciju, apzinoties savas Autortiesības vai blakustiesības uz Darbu un CC0 nozīmi un juridisko ietekmi uz šīm tiesībām.
+     </p>
+     <h3 id="copyright">
+      1. Autortiesības un blakustiesības.
+     </h3>
+     <p>
+      Darbs, kas ir pieejams saskaņā ar CC0 licenci, var tikt aizsargāts ar autortiesībām un ar tām saistībām tiesībām (Autortiesībām un blakustiesībām). Autortiesības un blakustiesības tostarp, bet ne tikai, iekļauj šādas tiesības:
+     </p>
+     <ol type="i">
+      <li>
+       reproducēt, pārveidot, izplatīt, izpildīt, raidīt, komunicēt un tulkot Darbu;
+      </li>
+      <li>
+       darba autora(-u) un/vai izpildītāja(-u) personiskās tiesības;
+      </li>
+      <li>
+       publicitātes un privātuma tiesības attiecībā uz personas attēlu vai līdzību, kas attēlota Darbā;
+      </li>
+      <li>
+       tiesības uz aizsardzību pret negodīgu konkurenci attiecībā uz Darbu, kas ir pakļautas 4(a) sadaļā minētajiem ierobežojumiem;
+      </li>
+      <li>
+       tiesības, kas aizsargā Darbā iekļauto datu izgūšanu, izplatīšanu, izmantošanu un atkārtotu izmantošanu;
+      </li>
+      <li>
+       datubāzu tiesības (piemēram, tās, kuras izriet no Eiropas Parlamenta un Padomes 1996. gada 11. marta Direktīvas 96/9/EC par datubāzu tiesisko aizsardzību, kā arī no jebkuras šīs direktīvas pārņemšanas nacionālajās tiesībās, ieskaitot tās grozījumus un papildinājumus); un
+      </li>
+      <li>
+       citas līdzīgas, ekvivalentas vai attiecināmas tiesības visā pasaulē, kuras ir balstītas uz spēkā esošiem tiesību aktiem vai līgumiem un jebkādām to ieviešanām nacionālajās tiesībās.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Atteikšanās no tiesībām.
+     </h3>
+     <p>
+      Ciktāl vien iespējams, bet nepārkāpjot spēkā esošos tiesību aktus, Attiecinātājs ar šo atklāti, pilnībā, pastāvīgi, neatsaucami un bez nosacījumiem atsakās, atstāj un atdod visas no Attiecinātāja Autortiesībām un blakustiesībām izrietošās tiesības, kā arī ar tām saistītos zināmos vai vēl nezināmos prasījumus un lietu ierosināšanas pamatus (ieskaitot esošos un nākotnes prasījumus un lietu ierosināšanas pamatus) attiecībā uz šo Darbu: (i) visās pasaules teritorijās; (ii) ilgāko iespējamo laiku, kuru nosaka spēkā esošie tiesību akti vai līgumi (ieskaitot termiņu pagarinājumus nākotnē), (iii) jebkurā pastāvošā vai nākotnē tapušā medijā un jebkādā kopiju skaitā un (iv) jebkādam nolūkam, ieskaitot neierobežotus komerciālus, reklāmas vai popularizēšanas mērķus (turpmāk – Atteikšanās no tiesībām). Attiecinātājs Atteikšanos no tiesībām īsteno katra sabiedrības locekļa labā, ar to kaitējot Attiecinātāja mantiniekiem un tiesību pārņēmējiem, un pilnībā apzinoties, ka šāda Atteikšanās no tiesībām nav atsaucama, anulējama, atceļama, pārtraucama vai pakļauta jebkādai citai juridiskai vai līdzīgai darbībai, kas varētu pārtraukt sabiedrībai piešķirto iespēju izbaudīt Darbu, kā paredzēts ar Attiecinātāja izteikto mērķa deklarāciju.
+     </p>
+     <h3 id="fallback">
+      3. Publiskās licences atsaukšana.
+     </h3>
+     <p>
+      Gadījumā, ja, pamatojoties uz spēkā esošajiem tiesību aktiem, Atteikšanās no tiesībām kādā tās daļā jebkāda iemesla dēļ ir atzīstama par nederīgu vai spēkā neesošu, tai tomēr ir jāpaliek spēkā tiktāl, cik vien iespējams, ņemot vērā Attiecinātāja izteikto mērķa deklarāciju. Papildu, ciktāl tas attiecināms uz Atteikšanos no tiesībām, ar šo Attiecinātājs katrai no saistītajām personām nodod bezatlīdzības, nepārvedamu, nesublicencējamu, bezizņēmuma, neatsaucamu un beznosacījumu licenci, kas ļauj izmantot Attiecinātāja Autortiesības un blakustiesības uz Darbu: (i) visās pasaules teritorijās, (ii) ilgāko iespējamo laiku, kuru nosaka spēkā esošie tiesību akti vai līgumi (ieskaitot termiņu pagarinājumus nākotnē), (iii) jebkurā pastāvošā vai nākotnē tapušā medijā un jebkādā kopiju skaitā un (iv) jebkādam nolūkam, ieskaitot neierobežotus komerciālus, reklāmas vai popularizēšanas mērķus (turpmāk – Licence). Licence tiek uzskatīta par spēkā esošu no datuma, kad Attiecinātājs uz Darbu attiecinājis CC0. Gadījumā, ja, pamatojoties uz spēkā esošajiem tiesību aktiem, Licence kādā tās daļā jebkāda iemesla dēļ ir atzīstama par nederīgu vai spēkā neesošu, tas nepadara par spēkā neesošu Licences pārējo daļu, un šādos gadījumos Attiecinātājs ar šo apstiprina, ka viņš vai viņa (i) neizmantos nevienu no viņai vai viņam atlikušajām Autortiesībām un blakustiesībām uz Darbu vai (ii) neizvirzīs nekādus ar Darbu saistītus prasījumus un pamatus lietas ierosināšanai, kas būtu pretrunā ar Attiecinātāja izteikto mērķa deklarāciju.
+     </p>
+     <h3 id="limitations">
+      4. Ierobežojumi un atruna.
+     </h3>
+     <ol type="a">
+      <li>
+       Šis dokuments neatceļ, nemaina, nelicencē un nekā citādi neietekmē Attiecinātāja tiesības uz preču zīmēm vai patentiem.
+      </li>
+      <li>
+       Attiecinātājs piedāvā Darbu pēc “tāds, kāds ir” principa, un, ciktāl to pieļauj spēkā esošie tiesību akti, attiecībā uz Darbu nesniedz nekāda veida atklātus, noprotamus, likumā noteiktus vai cita veida paziņojumus vai garantijas, tostarp bez izņēmumiem arī garantijas par nosaukumu, piemērotību vai derīgumu konkrētam nolūkam, likumu nepārkāpšanu vai slēptu vai citu defektu neesamību, precizitāti vai atklājamu vai neatklājamu kļūdu esamību vai neesamību.
+      </li>
+      <li>
+       Attiecinātājs neatbild par citu personu tiesībām, kuras varētu attiekties uz Darbu vai tā lietošanu, izmantošanu, tajā skaitā bez ierobežojuma arī par jebkuras personas Autortiesībām un blakustiesībām saistībā ar Darbu. Turklāt Attiecinātājs neatbild par jebkādu nepieciešamo apstiprinājumu, atļauju vai citu tiesību iegūšanu, kas nepieciešama jebkādai Darba izmantošanai.
+      </li>
+      <li>
+       Attiecinātājs izprot un atzīst, ka Creative Commons nav šajā dokumentā iesaistītā puse un tām nav pienākumu vai saistību attiecībā uz šo CC0 vai Darba izmantošanu.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons nav iesaistītā puse tās publiskajās licencēs. Creative Commons ir tiesīga neatkarīgi attiecināt kādu no tās publiskajām licencēm uz tās publicētajiem materiāliem, tādā gadījumā tā ir uzskatāma par Licenciāru. Creative Commons publisko licenču teksts ir publicēts saskaņā ar
+      <a href="/publicdomain/zero/1.0/legalcode.lv">
+       CC0 Veltījumu neaizsargātajiem darbiem
+      </a>
+      . Creative Commons neautorizē preču zīmi "Creative Commons" vai jebkuras citas Creative Commons preču zīmes vai logotipa izmantošanu bez iepriekšējas rakstiskas saskaņošanas, tostarp, bez ierobežojuma, saistībā ar jebkādām nesaskaņotām tās publisko licenču modifikācijām vai citām norunām, vienošanos vai līgumiem, kas attiecas uz licencēto materiālu, izņemot atsevišķus gadījumus, kad šādu darbību mērķis ir norādīt, ka dalīšanās ar materiālu notiek saskaņā ar Creative Commons licenci vai citā veidā, ko pieļauj Creative Commons noteikumi, kas publicēti
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      . Lai izvairītos no neskaidrībām – šī rindkopa nav daļa no publiskās licences.
+     </p>
+     <p>
+      Ar Creative Commons var sazināties tīmekļa vietnē
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*
