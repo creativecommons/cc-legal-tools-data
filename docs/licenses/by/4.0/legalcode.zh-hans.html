@@ -4,915 +4,942 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY 4.0 法律文本 — 署名 4.0 国际 — Creative Commons
+   CC BY 4.0 法律文本 | 署名 4.0 国际
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   跳转至主内容
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     跳转至主内容
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        首页
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by/4.0/legalcode.zh-hans">
-        CC BY 4.0 法律文本
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" selected="" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" selected="" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.zh-hans" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY 4.0 法律文本
+    </h1>
+    <h2>
+     署名 4.0 国际
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        署名 4.0 协议国际版
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            第一条 定义
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            第二条 授权范围
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            第三条 授权条件
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            第四条 数据库特别权利
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            第五条 免责声明及责任限制条款
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            第六条 期限与终止
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            第七条 其他条款和条件
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            第八条 解释
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          第一条 定义
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          第二条 授权范围
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          第三条 授权条件
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          第四条 数据库特别权利
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          第五条 免责声明及责任限制条款
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          第六条 期限与终止
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          第七条 其他条款和条件
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          第八条 解释
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY 4.0
-       </h2>
-       <h1 class="b-header">
-        署名 4.0 协议国际版
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        署名 4.0 协议国际版
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        知识共享组织("Creative Commons"，"知识共享") 不是一家律师事务所，也不对外提供法律服务或建议。提供知识共享公共许可协议(Creative Commons Public License，以下缩写为CCPL)并不导致"律师—当事人"关系或其他法律关系的建立。知识共享(Creative Commons)按其现状提供协议文本和相关信息。知识共享(Creative Commons)对于其许可协议，或通过该协议提供的作品(material)或相关信息不提供任何担保，在最大可能程度内，也不对因使用其协议或通过该协议提供的作品(material)或信息而造成的损失承担损害赔偿责任。
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        知识共享公共许可协议(CCPL)的使用
-       </h4>
-       <p class="has-text-black body-big">
-        知识共享公共许可协议(CCPL)提供一套标准化的条款供作者或其他权利人使用，以便他们分享其原创作品(original works of authorship)和其他受著作权和以下公共许可协议中提及的其他特定权利保护的作品(material)。以下考虑因素仅供参考，并未列举穷尽，也不属于本公共许可协议文本的一部分。
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         许可人应当考虑的因素：
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         知识共享(Creative Commons)公共许可协议是供那些有权许可公众以著作权或其他特定权利所保护的方式使用其作品(material)的权利人使用的。知识共享(Creative Commons)协议不可撤销。因此，在采用协议前，许可人应当阅读并理解其所选择的协议条款。许可人亦应确保其享有所授予公众的权利，以便公众能够顺利的使用授权作品(material)。许可人应当清楚地注明协议所不适用的作品(material)，包括其他采用知识共享协议授权的作品(material)，或基于著作权的例外或限制而使用的作品(material)。
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          许可人应该考虑的其他因素
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         公众应当考虑的因素：
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         许可人通过使用知识共享(Creative Commons)协议，授权公众依据特定的条款和条件使用授权作品(Licensed Material)。如果因为任何原因不需要授权即可使用该作品(material)——例如基于著作权的例外或限制——那么该使用并不受本协议约束。许可人通过知识共享(Creative Commons)协议只能授予基于著作权或其他特定权利有权授予的许可。使用授权作品(Licensed Material)可能还受到其他情形的限制，包括第三方对该作品(material)所享有的著作权或其他权利。许可人可能做出其他特别要求，比如要求使用者标注或说明对作品(material)的所有更改。即使本协议没有要求，知识共享(Creative Commons)仍然鼓励您遵守许可人的合理要求。
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          公众应当考虑的其他因素
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         署名 4.0 协议国际版
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         通过行使本协议所授予的权利（定义如下），您接受并同意受到知识共享(Creative Commons)署名 4.0国际公共许可协议（以下简称“本公共许可协议”）的约束。从合同解释的角度来看，您获得授权的对价是接受本协议的条款，许可人授予您这些权利的对价是可以通过采用本协议条款发布授权作品(material)而获得利益。
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           第一条 定义
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             演绎作品(Adapted Material)：
-            </span>
-            指受到著作权与类似权利保护的，基于授权作品(Licensed Material)而创作的作品(material)，例如对授权作品(Licensed Material)的翻译、改编、编排、改写或其他依据著作权与类似权利需要获得所有人许可的修改。为本公共许可协议之目的，当授权作品(Licensed Material)为音乐作品、表演或录音时，将其依时间序列关系与动态影像配合一致而形成的作品，视为演绎作品(Adapted Material)。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             演绎作者的许可：
-            </span>
-            指您依据本公共许可协议对在演绎作品(Adapted Material)中自己所贡献的部分所享有的著作权与类似权利进行授权的协议。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             著作权与类似权利：
-            </span>
-            指著作权和/或与著作权紧密联系的类似权利。类似权利包括但不限于：表演者权、广播组织权、录音录像制作者权、以及数据库特别权利，而不论上述权利的定义和归类如何。为本公共许可协议之目的，
-            <a href="#s2b">
-             第二条b款第(1)项与第(2)项
-            </a>
-            所列权利不属于著作权与类似权利。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             有效的技术措施：
-            </span>
-            指根据各司法管辖区遵循《世界知识产权组织版权条约》（1996年12月20日通过）第十一条或类似国际协定项下的义务所制定的法律，在没有适当的授权的情况下，禁止使用者规避的技术措施。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             例外与限制：
-            </span>
-            指合理使用(Fair Dealing and Fair Use)和/或其他适用于您对授权作品(Licensed Material)的使用的著作权与类似权利的例外或限制。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             授权作品(Licensed Material)：
-            </span>
-            指许可人通过本公共许可协议授权的文学、艺术作品(artistic or literary work)，数据库或其他作品(material)。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             协议所授予的权利：
-            </span>
-            指依据本公共许可协议的条款和条件所授予您的各项权利，限于适用于您对授权作品(Licensed Material)的使用且许可人有权许可的著作权与类似权利。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             许可人：
-            </span>
-            指通过本公共许可协议进行授权的个人或组织。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             分享：
-            </span>
-            指以需要“协议所授予的权利”许可的任何方法或程序向公众提供作品(material)，包括复制、公共展示、公开表演、发行、散布、传播、进口或提供作品(material)给公众以便其能在其选定的时间和地点接收作品(material)。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             数据库特别权利：
-            </span>
-            指除了著作权之外，衍生于1996年3月11日通过的《欧洲议会与欧盟理事会关于数据库法律保护的指令》(Directive 96/9/EC)及其修改或后续版本的权利，或其他国家或地区本质上与之等同的权利。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             您：
-            </span>
-            指依据本公共许可协议行使其所获得授予之权利的个人或机构。
-            <strong>
-             “您的”
-            </strong>
-            有相应的含义。
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           第二条 授权范围
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            授权
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             根据本公共许可协议的条款，许可人授予您在全球范围内，免费的、不可再许可、非独占、不可撤销的许可，以对授权作品(Licensed Material)行使以下“协议所授予的权利”：
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               复制和分享授权作品(Licensed Material)的全部或部分；以及
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               创作、复制和分享演绎作品(Adapted Material)。
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              例外和限制
-             </strong>
-             为避免疑义，若著作权的例外和限制适用于您对授权作品(Licensed Material)的使用，本公共许可协议将不适用，您也无须遵守本公共许可协议之条款。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              期限
-             </strong>
-             本公共许可协议的期限规定于
-             <a href="#s6a">
-              第六条 a
-             </a>
-             款。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              媒介和形式；允许的技术修改
-             </strong>
-             许可人授权您在任何媒介以任何形式（不论目前已知的或未来出现的）行使本协议授予的权利，并为之进行必要的技术修改。许可人放弃和/或同意不主张任何权利以阻止您为了行使协议项下权利进行必要的技术修改，包括为规避有效技术措施所必须的技术修改。为了本公共许可协议之目的， 基于
-             <a href="#s2a4">
-              第二条a款第(4)项
-             </a>
-             进行的技术修改不构成演绎作品(Adapted Material)。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              后续接受者
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 来自许可人的要约——授权作品(Licensed Material)
-                </span>
-                本授权作品(Licensed Material)的每一个后续接受者都自动取得许可人的要约，以按照本公共许可协议的条款行使协议授予的权利。
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
-                <span style="text-decoration: underline;">
-                 禁止下游限制
-                </span>
-                若会限制授权作品(Licensed Material)后续接受者行使本协议所授予的权利，则您不得对授权作品(Licensed Material)提出或增加任何额外的或不同的条款，或使用任何有效技术措施。
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              并非背书
-             </span>
-             . 本公共许可协议不构成、或不得被解释为允许您声明或主张：您或您对授权作品(Licensed Material)的使用与许可人或
-             <a href="#s3a1Ai">
-              第三条a款第(1)项(A)目(i)
-             </a>
-             所规定要求提供署名的权利人相关联，或得到其赞助、同意或被授予正式地位。
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            其他权利
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             依据本公共许可协议，著作人身权，例如保护作品完整权、形象权、隐私权或其他类似的人格权利，不在许可范围内。但是，在条件允许的情况下，许可人可以在必要范围内放弃和/或同意不主张其权利，以便您行使本协议所授予的权利。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             本公共许可协议不适用于任何专利权或商标权许可。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             在自愿的或可放弃的法定或强制许可机制下，许可人在最大可能范围内放弃对您因行使本协议所授予的权利而产生的使用费的权利，不论是直接收取或通过集体管理组织收取。在其他任何情况下，许可人明确保留收取使用费的任何权利。
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           第三条 授权条件
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          您行使被许可的权利明确受以下条件限制：
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             署名
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              若您分享本授权作品(Licensed Material)（包含修改格式），您必须：
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               保留如下标识（如果许可人提供授权作品(Licensed Material)的同时提供如下标识）：
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 以许可人要求的任何合理方式，标识本授权作品(Licensed Material)创作者和其他被指定署名的人的身份（包括指定的笔名）；
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 著作权声明；
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 有关本公共许可协议的声明；
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 有关免责的声明；
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 在合理可行情况下，本授权作品(Licensed Material)的网址(URI)或超链接；
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               表明您是否修改本授权作品(Licensed Material)及保留任何先前修改的标记；及
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               表明授权作品(Licensed Material)依据本公共许可协议授权，并提供本公共许可协议全文，或者本公共许可协议的网址(URI)或超链接。
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             依据您分享本授权作品(Licensed Material)的媒介、方法及情況，您可以采用任何合理方式满足
-             <a href="#s3a1">
-              第三条a款第(1)项
-             </a>
-             的条件 。 例如，提供包含所要求信息来源的网址(URI)或超链接可算是合理地满足此处的条件。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a3">
-             如果许可人要求，您必须在合理可行的范围内移除
-             <a href="#s3a1A">
-              第三条a款第(1)项(A)目
-             </a>
-             所要求的任何信息。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a4">
-             如果您分享您创作的演绎作品（Adapted Material），您适用的“演绎作者的许可”协议，不得使演绎作品（Adapted Material）的接收者无法遵守本公共许可协议。
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           第四条 数据库特别权利
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          当协议所授予的权利包含数据库特别权利，而该数据库特别权利适用于您对授权作品(Licensed Material)的使用时：
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           为避免疑义，
-           <a href="#s2a1">
-            第二条a款第(1) 项
-           </a>
-           授权您，摘录、再利用、复制和分享全部或绝大部分数据库资料；
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           如果您将数据库资料的全部或绝大部分纳入您享有数据库特别权利的另一数据库，则您享有数据库特别权利的该数据库（而非其中的单个内容）视为演绎作品(Adapted Material)；
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           如果您分享全部或大部分该数据库的资料，您必须遵守
-           <a href="#s3a">
-            第三条a款
-           </a>
-           规定的条件。
-          </li>
-         </ol>
-         <span class="body-big">
-          为避免疑义，当协议所授予的权利包含其他著作权与类似权利时，
-          <a href="#s4">
-           第四条
-          </a>
-          补充且不取代本公共许可协议所规定的您的义务。
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           第五条 免责声明及责任限制条款
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            除非许可人另有保证，否则在最大可能范围内，许可人按其现状和现有之基础提供授权作品(Licensed Material)，且没有就授权作品(Licensed Material)做出任何形式的陈述或保证：无论明示、默示、法定或其他形式，包括但不限于任何有关本授权作品(Licensed Material)的权属保证、可交易性、适于特定目的、未侵害他人权利、没有潜在或其他瑕疵、精确性或是否有错误，不管是否已知或可发现。当免责声明全部或部分不被允许时，此免责声明可能不适用于您。
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            在最大可能范围内， 对于任何因本公共许可协议或使用授权作品(Licensed Material)引起的直接的、特殊的、间接的、附随的、连带的、惩罚性的、警告性的，或其他的损失、成本、费用或损害，许可人不对您负任何法律上或其他的责任（包括但不限于过失责任）。当责任限制部分或全部不被允许时，该限制不适用于您。
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           前述免责及责任限制声明，应尽可能以最接近于完全排除全部责任的方式解释。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           第六条 期限与终止
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           本公共许可协议在著作权与类似权利存续期间内有效。然而，如果您没有遵守此公共许可协议，则您依据此公共许可协议享有的权利自动终止。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            当您使用本授权作品(Licensed Material)的权利根据第六条a款终止时，您的权利在下述情况下恢复：
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             自违反协议的行为纠正之日起自动恢复，但须在您发现违反情形后30日内纠正；或
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             根据许可人明示恢复权利的意思表达。
-            </li>
-           </ol>
-           为避免疑义，本公共许可协议
-           <a href="#s6b">
-            第六条b款
-           </a>
-           不影响许可人就您违反本公共许可协议的行为寻求法律救济。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           为避免疑义，许可人也可在任何时间，以另外的条款或条件提供本授权作品(Licensed Material)，或者停止传播本授权作品(Licensed Material)；然而，许可人此种行为不会终止本公共许可协议。
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           本协议
-           <a href="#s1">
-            第一
-           </a>
-           、
-           <a href="#s5">
-            五
-           </a>
-           、
-           <a href="#s6">
-            六
-           </a>
-           、
-           <a href="#s7">
-            七
-           </a>
-           及第
-           <a href="#s8">
-            八
-           </a>
-           条，不因本公共许可协议终止而失效。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           第七条 其他条款和条件
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           除非明示同意，否则许可人不受您表达的任何附加或不同条款或条件约束。
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           本公共许可协议未提及的关于授权作品(Licensed Material)之任何安排、共识或协议，不属于且独立于本公共许可协议的条款及条件。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           第八条 解释
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           为避免疑义，本许可协议不会也不应被解释为减少、限制、约束或施加条件于无需本公共许可协议授权即可依法行使的对授权作品(Licensed Material)的任何使用。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           在最大可能范围内，如果本公共许可协议的任何条款被视为无法执行，该条款在必要的最小限度内，自动调整至可以执行。如果该条款不能被调整，其应自本公共许可协议中排除适用，不影响其余条款的效力。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           除非许可人明示同意，本公共许可协议的任何条款或条件均不得放弃。
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           本公共许可协议条款不构成、也不得被解释为限制或者放弃适用于许可人或您的特权或豁免，包括豁免于任何司法管辖区或行政机构的法律程序。
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        知识共享组织(Creative Commons)不是其公共许可协议的一方 。尽管如此，知识共享组织(Creative Commons)可以选择其中一种公共许可协议适用于其发表的作品(material)，在此种情况下被视为许可人。知识共享公共许可协议
-        <a href="/publicdomain/zero/1.0/legalcode.zh-Hans">
-         (CCPL)
-        </a>
-        的文本属于公共领域，适用CC0公共许可协议。 除用于向公众表明本作品(material)是依照知识共享(Creative Commons)公共许可协议授权，或发布于
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        的知识共享组织(Creative Commons)政策另有规定允许以外，如未经知识共享组织(Creative Commons)事先书面同意，任何一方均不得使用"知识共享"(Creative Commons)商标和其他相关商标及标识。包括但不限于，将该商标或标识用于对知识共享公共许可协议(CCPL)做出的未经同意的修改，或与授权作品(Licensed Material)使用有关的其他安排、共识或协议。为避免疑义，本段关于商标的限制性规定不构成公共许可协议之一部分。
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        您可以点击
-        <a href="//creativecommons.org/">
-         此处
-        </a>
-        联系知识共享(Creative Commons)组织。
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.zh-hans">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      知识共享公共许可协议(CCPL)的使用
+     </h2>
+     <p>
+      知识共享公共许可协议(CCPL)提供一套标准化的条款供作者或其他权利人使用，以便他们分享其原创作品(original works of authorship)和其他受著作权和以下公共许可协议中提及的其他特定权利保护的作品(material)。以下考虑因素仅供参考，并未列举穷尽，也不属于本公共许可协议文本的一部分。
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      许可人应当考虑的因素：
+     </h3>
+     <p>
+      知识共享(Creative Commons)公共许可协议是供那些有权许可公众以著作权或其他特定权利所保护的方式使用其作品(material)的权利人使用的。知识共享(Creative Commons)协议不可撤销。因此，在采用协议前，许可人应当阅读并理解其所选择的协议条款。许可人亦应确保其享有所授予公众的权利，以便公众能够顺利的使用授权作品(material)。许可人应当清楚地注明协议所不适用的作品(material)，包括其他采用知识共享协议授权的作品(material)，或基于著作权的例外或限制而使用的作品(material)。
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       许可人应该考虑的其他因素
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      公众应当考虑的因素：
+     </h3>
+     <p>
+      许可人通过使用知识共享(Creative Commons)协议，授权公众依据特定的条款和条件使用授权作品(Licensed Material)。如果因为任何原因不需要授权即可使用该作品(material)——例如基于著作权的例外或限制——那么该使用并不受本协议约束。许可人通过知识共享(Creative Commons)协议只能授予基于著作权或其他特定权利有权授予的许可。使用授权作品(Licensed Material)可能还受到其他情形的限制，包括第三方对该作品(material)所享有的著作权或其他权利。许可人可能做出其他特别要求，比如要求使用者标注或说明对作品(material)的所有更改。即使本协议没有要求，知识共享(Creative Commons)仍然鼓励您遵守许可人的合理要求。
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       公众应当考虑的其他因素
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      署名 4.0 协议国际版
+     </h2>
+     <p>
+      通过行使本协议所授予的权利（定义如下），您接受并同意受到知识共享(Creative Commons)署名 4.0国际公共许可协议（以下简称“本公共许可协议”）的约束。从合同解释的角度来看，您获得授权的对价是接受本协议的条款，许可人授予您这些权利的对价是可以通过采用本协议条款发布授权作品(material)而获得利益。
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      第一条 定义
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        演绎作品(Adapted Material)：
+       </span>
+       指受到著作权与类似权利保护的，基于授权作品(Licensed Material)而创作的作品(material)，例如对授权作品(Licensed Material)的翻译、改编、编排、改写或其他依据著作权与类似权利需要获得所有人许可的修改。为本公共许可协议之目的，当授权作品(Licensed Material)为音乐作品、表演或录音时，将其依时间序列关系与动态影像配合一致而形成的作品，视为演绎作品(Adapted Material)。
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        演绎作者的许可：
+       </span>
+       指您依据本公共许可协议对在演绎作品(Adapted Material)中自己所贡献的部分所享有的著作权与类似权利进行授权的协议。
+      </li>
+      <li id="s1c_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        著作权与类似权利：
+       </span>
+       指著作权和/或与著作权紧密联系的类似权利。类似权利包括但不限于：表演者权、广播组织权、录音录像制作者权、以及数据库特别权利，而不论上述权利的定义和归类如何。为本公共许可协议之目的，
+       <a href="#s2b">
+        第二条b款第(1)项与第(2)项
+       </a>
+       所列权利不属于著作权与类似权利。
+      </li>
+      <li id="s1d_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        有效的技术措施：
+       </span>
+       指根据各司法管辖区遵循《世界知识产权组织版权条约》（1996年12月20日通过）第十一条或类似国际协定项下的义务所制定的法律，在没有适当的授权的情况下，禁止使用者规避的技术措施。
+      </li>
+      <li id="s1e_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        例外与限制：
+       </span>
+       指合理使用(Fair Dealing and Fair Use)和/或其他适用于您对授权作品(Licensed Material)的使用的著作权与类似权利的例外或限制。
+      </li>
+      <li id="s1f_licensed_material">
+       <span style="text-decoration: underline;">
+        授权作品(Licensed Material)：
+       </span>
+       指许可人通过本公共许可协议授权的文学、艺术作品(artistic or literary work)，数据库或其他作品(material)。
+      </li>
+      <li id="s1g_licensed_rights">
+       <span style="text-decoration: underline;">
+        协议所授予的权利：
+       </span>
+       指依据本公共许可协议的条款和条件所授予您的各项权利，限于适用于您对授权作品(Licensed Material)的使用且许可人有权许可的著作权与类似权利。
+      </li>
+      <li id="s1h_licensor">
+       <span style="text-decoration: underline;">
+        许可人：
+       </span>
+       指通过本公共许可协议进行授权的个人或组织。
+      </li>
+      <li id="s1i_share">
+       <span style="text-decoration: underline;">
+        分享：
+       </span>
+       指以需要“协议所授予的权利”许可的任何方法或程序向公众提供作品(material)，包括复制、公共展示、公开表演、发行、散布、传播、进口或提供作品(material)给公众以便其能在其选定的时间和地点接收作品(material)。
+      </li>
+      <li id="s1j_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        数据库特别权利：
+       </span>
+       指除了著作权之外，衍生于1996年3月11日通过的《欧洲议会与欧盟理事会关于数据库法律保护的指令》(Directive 96/9/EC)及其修改或后续版本的权利，或其他国家或地区本质上与之等同的权利。
+      </li>
+      <li id="s1k_you">
+       <span style="text-decoration: underline;">
+        您：
+       </span>
+       指依据本公共许可协议行使其所获得授予之权利的个人或机构。
+       <strong>
+        “您的”
+       </strong>
+       有相应的含义。
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      第二条 授权范围
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        授权
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         根据本公共许可协议的条款，许可人授予您在全球范围内，免费的、不可再许可、非独占、不可撤销的许可，以对授权作品(Licensed Material)行使以下“协议所授予的权利”：
+         <ol type="A">
+          <li id="s2a1A">
+           复制和分享授权作品(Licensed Material)的全部或部分；以及
+          </li>
+          <li id="s2a1B">
+           创作、复制和分享演绎作品(Adapted Material)。
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          例外和限制
+         </strong>
+         为避免疑义，若著作权的例外和限制适用于您对授权作品(Licensed Material)的使用，本公共许可协议将不适用，您也无须遵守本公共许可协议之条款。
+        </li>
+        <li id="s2a3">
+         <strong>
+          期限
+         </strong>
+         本公共许可协议的期限规定于
+         <a href="#s6a">
+          第六条 a
+         </a>
+         款。
+        </li>
+        <li id="s2a4">
+         <strong>
+          媒介和形式；允许的技术修改
+         </strong>
+         许可人授权您在任何媒介以任何形式（不论目前已知的或未来出现的）行使本协议授予的权利，并为之进行必要的技术修改。许可人放弃和/或同意不主张任何权利以阻止您为了行使协议项下权利进行必要的技术修改，包括为规避有效技术措施所必须的技术修改。为了本公共许可协议之目的， 基于
+         <a href="#s2a4">
+          第二条a款第(4)项
+         </a>
+         进行的技术修改不构成演绎作品(Adapted Material)。
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          后续接受者
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            来自许可人的要约——授权作品(Licensed Material)
+           </span>
+           本授权作品(Licensed Material)的每一个后续接受者都自动取得许可人的要约，以按照本公共许可协议的条款行使协议授予的权利。
+          </li>
+          <li id="s2a5B_no_restrictions">
+           <span style="text-decoration: underline;">
+            禁止下游限制
+           </span>
+           若会限制授权作品(Licensed Material)后续接受者行使本协议所授予的权利，则您不得对授权作品(Licensed Material)提出或增加任何额外的或不同的条款，或使用任何有效技术措施。
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          并非背书
+         </span>
+         本公共许可协议不构成、或不得被解释为允许您声明或主张：您或您对授权作品(Licensed Material)的使用与许可人或
+         <a href="#s3a1Ai">
+          第三条a款第(1)项(A)目(i)
+         </a>
+         所规定要求提供署名的权利人相关联，或得到其赞助、同意或被授予正式地位。
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        其他权利
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         依据本公共许可协议，著作人身权，例如保护作品完整权、形象权、隐私权或其他类似的人格权利，不在许可范围内。但是，在条件允许的情况下，许可人可以在必要范围内放弃和/或同意不主张其权利，以便您行使本协议所授予的权利。
+        </li>
+        <li id="s2b2">
+         本公共许可协议不适用于任何专利权或商标权许可。
+        </li>
+        <li id="s2b3">
+         在自愿的或可放弃的法定或强制许可机制下，许可人在最大可能范围内放弃对您因行使本协议所授予的权利而产生的使用费的权利，不论是直接收取或通过集体管理组织收取。在其他任何情况下，许可人明确保留收取使用费的任何权利。
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      第三条 授权条件
+     </h3>
+     <p>
+      您行使被许可的权利明确受以下条件限制：
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        署名
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          若您分享本授权作品(Licensed Material)（包含修改格式），您必须：
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           保留如下标识（如果许可人提供授权作品(Licensed Material)的同时提供如下标识）：
+           <ol type="i">
+            <li id="s3a1Ai">
+             以许可人要求的任何合理方式，标识本授权作品(Licensed Material)创作者和其他被指定署名的人的身份（包括指定的笔名）；
+            </li>
+            <li id="s3a1Aii">
+             著作权声明；
+            </li>
+            <li id="s3a1Aiii">
+             有关本公共许可协议的声明；
+            </li>
+            <li id="s3a1Aiv">
+             有关免责的声明；
+            </li>
+            <li id="s3a1Av">
+             在合理可行情况下，本授权作品(Licensed Material)的网址(URI)或超链接；
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           表明您是否修改本授权作品(Licensed Material)及保留任何先前修改的标记；及
+          </li>
+          <li id="s3a1C">
+           表明授权作品(Licensed Material)依据本公共许可协议授权，并提供本公共许可协议全文，或者本公共许可协议的网址(URI)或超链接。
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         依据您分享本授权作品(Licensed Material)的媒介、方法及情況，您可以采用任何合理方式满足
+         <a href="#s3a1">
+          第三条a款第(1)项
+         </a>
+         的条件 。 例如，提供包含所要求信息来源的网址(URI)或超链接可算是合理地满足此处的条件。
+        </li>
+        <li id="s3a3">
+         如果许可人要求，您必须在合理可行的范围内移除
+         <a href="#s3a1A">
+          第三条a款第(1)项(A)目
+         </a>
+         所要求的任何信息。
+        </li>
+        <li id="s3a4">
+         如果您分享您创作的演绎作品（Adapted Material），您适用的“演绎作者的许可”协议，不得使演绎作品（Adapted Material）的接收者无法遵守本公共许可协议。
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      第四条 数据库特别权利
+     </h3>
+     <p>
+      当协议所授予的权利包含数据库特别权利，而该数据库特别权利适用于您对授权作品(Licensed Material)的使用时：
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       为避免疑义，
+       <a href="#s2a1">
+        第二条a款第(1) 项
+       </a>
+       授权您，摘录、再利用、复制和分享全部或绝大部分数据库资料；
+      </li>
+      <li id="s4b">
+       如果您将数据库资料的全部或绝大部分纳入您享有数据库特别权利的另一数据库，则您享有数据库特别权利的该数据库（而非其中的单个内容）视为演绎作品(Adapted Material)；
+      </li>
+      <li id="s4c">
+       如果您分享全部或大部分该数据库的资料，您必须遵守
+       <a href="#s3a">
+        第三条a款
+       </a>
+       规定的条件。
+      </li>
+     </ol>
+     <p>
+      为避免疑义，当协议所授予的权利包含其他著作权与类似权利时，
+      <a href="#s4">
+       第四条
+      </a>
+      补充且不取代本公共许可协议所规定的您的义务。
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      第五条 免责声明及责任限制条款
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        除非许可人另有保证，否则在最大可能范围内，许可人按其现状和现有之基础提供授权作品(Licensed Material)，且没有就授权作品(Licensed Material)做出任何形式的陈述或保证：无论明示、默示、法定或其他形式，包括但不限于任何有关本授权作品(Licensed Material)的权属保证、可交易性、适于特定目的、未侵害他人权利、没有潜在或其他瑕疵、精确性或是否有错误，不管是否已知或可发现。当免责声明全部或部分不被允许时，此免责声明可能不适用于您。
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        在最大可能范围内， 对于任何因本公共许可协议或使用授权作品(Licensed Material)引起的直接的、特殊的、间接的、附随的、连带的、惩罚性的、警告性的，或其他的损失、成本、费用或损害，许可人不对您负任何法律上或其他的责任（包括但不限于过失责任）。当责任限制部分或全部不被允许时，该限制不适用于您。
+       </strong>
+      </li>
+      <li id="s5c">
+       前述免责及责任限制声明，应尽可能以最接近于完全排除全部责任的方式解释。
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      第六条 期限与终止
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       本公共许可协议在著作权与类似权利存续期间内有效。然而，如果您没有遵守此公共许可协议，则您依据此公共许可协议享有的权利自动终止。
+      </li>
+      <li id="s6b">
+       <p>
+        当您使用本授权作品(Licensed Material)的权利根据第六条a款终止时，您的权利在下述情况下恢复：
+       </p>
+       <ol>
+        <li id="s6b1">
+         自违反协议的行为纠正之日起自动恢复，但须在您发现违反情形后30日内纠正；或
+        </li>
+        <li id="s6b2">
+         根据许可人明示恢复权利的意思表达。
+        </li>
+       </ol>
+       <p>
+        为避免疑义，本公共许可协议
+        <a href="#s6b">
+         第六条b款
+        </a>
+        不影响许可人就您违反本公共许可协议的行为寻求法律救济。
+       </p>
+      </li>
+      <li id="s6c">
+       为避免疑义，许可人也可在任何时间，以另外的条款或条件提供本授权作品(Licensed Material)，或者停止传播本授权作品(Licensed Material)；然而，许可人此种行为不会终止本公共许可协议。
+      </li>
+      <li id="s6d">
+       本协议
+       <a href="#s1">
+        第一
+       </a>
+       、
+       <a href="#s5">
+        五
+       </a>
+       、
+       <a href="#s6">
+        六
+       </a>
+       、
+       <a href="#s7">
+        七
+       </a>
+       及第
+       <a href="#s8">
+        八
+       </a>
+       条，不因本公共许可协议终止而失效。
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      第七条 其他条款和条件
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       除非明示同意，否则许可人不受您表达的任何附加或不同条款或条件约束。
+      </li>
+      <li id="s7b">
+       本公共许可协议未提及的关于授权作品(Licensed Material)之任何安排、共识或协议，不属于且独立于本公共许可协议的条款及条件。
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      第八条 解释
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       为避免疑义，本许可协议不会也不应被解释为减少、限制、约束或施加条件于无需本公共许可协议授权即可依法行使的对授权作品(Licensed Material)的任何使用。
+      </li>
+      <li id="s8b">
+       在最大可能范围内，如果本公共许可协议的任何条款被视为无法执行，该条款在必要的最小限度内，自动调整至可以执行。如果该条款不能被调整，其应自本公共许可协议中排除适用，不影响其余条款的效力。
+      </li>
+      <li id="s8c">
+       除非许可人明示同意，本公共许可协议的任何条款或条件均不得放弃。
+      </li>
+      <li id="s8d">
+       本公共许可协议条款不构成、也不得被解释为限制或者放弃适用于许可人或您的特权或豁免，包括豁免于任何司法管辖区或行政机构的法律程序。
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      知识共享组织(Creative Commons)不是其公共许可协议的一方 。尽管如此，知识共享组织(Creative Commons)可以选择其中一种公共许可协议适用于其发表的作品(material)，在此种情况下被视为许可人。知识共享公共许可协议
+      <a href="/publicdomain/zero/1.0/legalcode.zh-Hans">
+       (CCPL)
+      </a>
+      的文本属于公共领域，适用CC0公共许可协议。 除用于向公众表明本作品(material)是依照知识共享(Creative Commons)公共许可协议授权，或发布于
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      的知识共享组织(Creative Commons)政策另有规定允许以外，如未经知识共享组织(Creative Commons)事先书面同意，任何一方均不得使用"知识共享"(Creative Commons)商标和其他相关商标及标识。包括但不限于，将该商标或标识用于对知识共享公共许可协议(CCPL)做出的未经同意的修改，或与授权作品(Licensed Material)使用有关的其他安排、共识或协议。为避免疑义，本段关于商标的限制性规定不构成公共许可协议之一部分。
+     </p>
+     <p>
+      您可以点击
+      <a href="//creativecommons.org/">
+       此处
+      </a>
+      联系知识共享(Creative Commons)组织。
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

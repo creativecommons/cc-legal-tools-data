@@ -4,929 +4,952 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC 4.0 リーガル・コード — 表示 - 非営利 4.0 国際 — Creative Commons
+   CC BY-NC 4.0 リーガル・コード | 表示 - 非営利 4.0 国際
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   コンテンツへ進む
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     コンテンツへ進む
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        ホー厶
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc/4.0/legalcode.ja">
-        CC BY-NC 4.0 リーガル・コード
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" selected="" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" selected="" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.ja" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC 4.0 リーガル・コード
+    </h1>
+    <h2>
+     表示 - 非営利 4.0 国際
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        表示-非営利 4.0 国際
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            第1条　定義
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            第2条　範囲
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            第3条　ライセンス利用条件
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            第4条　データベース権
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            第5条　無保証および責任制限
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            第6条　期間および終了
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            第7条　その他の条項
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            第8条　解釈
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          第1条　定義
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          第2条　範囲
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          第3条　ライセンス利用条件
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          第4条　データベース権
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          第5条　無保証および責任制限
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          第6条　期間および終了
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          第7条　その他の条項
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          第8条　解釈
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC 4.0
-       </h2>
-       <h1 class="b-header">
-        表示-非営利 4.0 国際
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        表示-非営利 4.0 国際
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        クリエイティブ・コモンズ・コーポレーション（「クリエイティブ・コモンズ」）は法律事務所ではなく、法律業務または法的な助言を提供するものではありません。クリエイティブ・コモンズ・パブリック・ライセンスの配布は、法律家と依頼者または他の関係性を形成するものではありません。クリエイティブ・コモンズは、ライセンスや関連する情報を現状有姿の状態で提供します。クリエイティブ・コモンズは、クリエイティブ・コモンズのライセンス自体、それらの条項のもとでライセンスされた一切のマテリアルまたは関連する情報に関し、いかなる保証も行いません。クリエイティブ・コモンズは、最大限可能な範囲で、本ライセンスの利用の結果生じた損害に関するいかなる責任も負いません。
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        クリエイティブ・コモンズ・パブリック・ライセンスの利用について
-       </h4>
-       <p class="has-text-black body-big">
-        クリエイティブ・コモンズ・パブリック・ライセンスは、作者や他の権利者のみなさまが、著作権および下記パブリック・ライセンスにおいて特定されるその他の権利が帰属する原作品およびその他のマテリアルを共有するために利用できる条項の標準的なセットを提供しています。以下の留意事項は、情報提供の目的だけのものであり、網羅的ではなく、クリエイティブ・コモンズのライセンスの一部を構成するものではありません。
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         ライセンスする方のための留意事項：
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         クリエイティブ・コモンズのパブリック・ライセンスは、著作権その他一定の権利により制限されている方法によるマテリアルの利用を公衆に対して許諾する権限を持つ方によって使われることを意図しています。クリエイティブ・コモンズのライセンスは取消すことができません。ライセンスする方は、自分が選択するライセンスを適用する前に、その条項を読み、理解するべきです。また、ライセンスする方は、公衆が期待通りにマテリアルを再利用できるようにするために、本ライセンスを適用する前に、必要となる一切の権利を取得・処理するべきです。ライセンスする方は、本ライセンスの対象とならないマテリアルを明示するべきです。これはクリエイティブ・コモンズ・ライセンスが付与された他のマテリアル、または著作権法上の例外や権利制限に基づいて利用されているマテリアルも含みます。
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          ライセンスする方のためのより詳細な留意事項はこちらをご覧ください。
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         公衆のための留意事項：
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         クリエイティブ・コモンズのパブリック・ライセンスの1つを利用することにより、ライセンスする方は、公衆に対し、指定された条項の下で、ライセンスされたマテリアルの利用を許諾します。たとえば、著作権法上の例外や権利制限が適用されるなど、いかなる理由であれ、ライセンスする方の許諾が必要ではない場合、その利用はライセンスにより制限されません。クリエイティブ・コモンズのライセンスは、ライセンスする方が許諾する権限を有している著作権その他一定の権利下におけるライセンスだけを付与します。ライセンスされたマテリアルは、そのマテリアルに関し第三者が著作権またはその他の権利を有しているなどの理由から、利用が制限される可能性があります。ライセンスする方は、すべての変更を表示または記述することをリクエストするなど、特別なリクエストをすることができます。クリエイティブ・コモンズ・ライセンスにより必要とされるものではありませんが、あなたは、合理的な範囲でこれらのリクエストを尊重することが奨励されます。
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          公衆のためのより詳細な留意事項はこちらをご覧ください。
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         表示-非営利 4.0 国際
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         ライセンスされた権利（定義は後述します）の行使により、あなたは、クリエイティブ・コモンズ 表示-非営利 4.0 国際 パブリック・ライセンス（以下「パブリック・ライセンス」といいます）の条項に規律されることを受諾し、同意します。本パブリック・ライセンスが契約と解釈されるであろう範囲において、あなたはこれらの利用条件のあなたによる受諾と引き換えにライセンスされた権利を付与されます。そして、許諾者は、あなたに対し、それらの条項のもとでライセンス対象物を利用可能にすることから許諾者が受領する利益と引き換えに、そのような権利を付与します。
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           第1条　定義
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「翻案物」
-            </span>
-            とは、著作権およびそれに類する権利の対象となり、ライセンス対象物について許諾者が有する著作権およびそれに類する権利に基づく許諾が必要とされるような形で、翻訳され、改変され、編集され、変形され、またはその他の方法により変更されたマテリアルで、ライセンス対象物から派生したか、またはライセンス対象物に基づくものを意味します。本パブリック・ライセンスにおいては、ライセンス対象物が音楽作品、実演または録音物で、これらが動画と同期させられる場合には、翻案物が常に作成されることになります。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「翻案者のライセンス」
-            </span>
-            とは、翻案物に対してあなたが寄与した部分に生じる、あなたの著作権およびそれに類する権利について、本パブリック・ライセンスの条項に従って、あなたが適用するライセンスのことをいいます。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「著作権およびそれに類する権利」
-            </span>
-            とは、その権利がどのように名づけられ、または分類されるかにかかわらず、著作権および／または著作権に密接に関係する類似の権利をいいます（実演、放送、録音物、およびデータベース権を含むが、これに限られません）。本パブリック・ライセンスにおいては、
-            <a href="#s2b">
-             第2条(b)(1)および(2)
-            </a>
-            において規定される権利は、著作権およびそれに類する権利ではありません。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「効果的な技術的保護手段」
-            </span>
-            とは、1996年12月20日に採択されたWIPO著作権条約第11条、および／または類似の国際協定の義務を満たす諸法規の下で、正当な権限なしに回避されてはならないものとされる諸手段をいいます。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「例外および権利制限」
-            </span>
-            とは、ライセンス対象物をあなたが利用する場合に適用される、フェアユース、フェアディーリングおよび／または著作権およびそれに類する権利に対するその他の例外もしくは権利制限をいいます。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「ライセンス対象物」
-            </span>
-            とは、許諾者が本パブリック・ライセンスを適用した美術的または文学的著作物、データベース、またはその他のマテリアルを意味します。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「ライセンスされた権利」
-            </span>
-            とは、本パブリック・ライセンスの条項に基づき、あなたに与えられる権利をいい、かかる権利は、あなたによるライセンス対象物の利用に適用され、かつ、許諾者がライセンスする権限を有する、全ての著作権およびそれに類する権利に限定されます。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「許諾者」
-            </span>
-            とは、本パブリック・ライセンスのもとで権利を付与する個人または団体を意味します。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_noncommercial">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「非営利」
-            </span>
-            とは、商業的な利得や金銭的報酬を、主たる目的とせず、それらに主に向けられてもいないことを意味します。本パブリック・ライセンスにおいては、デジタル・ファイル共有または類似した手段による、ライセンス対象物と、著作権およびそれに類する権利の対象となるその他のマテリアルとの交換は、その交換に関連して金銭的報酬の支払いがない場合は、非営利に該当します。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「共有」
-            </span>
-            とは、複製、公開の展示、公開の上演・演奏、頒布、配布、通信または輸入のような、ライセンスされた権利に関する許諾を必要とするような手段または手法により、公衆に対しマテリアルを提供すること、および、公衆がマテリアルを利用できるようにすること（公衆の各人が、自ら独自に場所および時間を選択してマテリアルにアクセスすることができる方法を含みます）を意味します。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「データベース権」
-            </span>
-            とは、データベースの法的保護に関する1996年3月11日の欧州議会および理事会指令 96/9/ECの結果として生じた、著作権以外の権利、（この指令が修正および／または継承された場合それらを反映したもの）、および、世界中の本質的に同等な権利を意味します。
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             「あなた」
-            </span>
-            とは、本パブリック・ライセンスのもとでライセンスされた権利を行使する個人または団体をいいます。
-            <strong>
-             「あなたの」
-            </strong>
-            もそれに対応した意味となります。
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           第2条　範囲
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            ライセンス付与
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             本パブリック・ライセンスの条項に従い、許諾者はあなたに対し、ライセンス対象物について、以下に掲げるライセンスされた権利を行使できる全世界的な、無償、再許諾不可、非排他的、かつ取消不可なライセンスを付与します：
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               ライセンス対象物の全部または一部を、非営利目的のためにのみ、複製および共有すること、ならびに
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               翻案物を非営利目的のためにのみ、作成、複製および共有すること
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              例外および権利制限
-             </strong>
-             誤解を避けるために記すと、例外および権利制限があなたの利用に適用される部分については、本パブリック・ライセンスは適用されず、あなたは本パブリック・ライセンスの条項に従う必要はありません。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              有効期間
-             </strong>
-             本パブリック・ライセンスの有効期間は
-             <a href="#s6a">
-              第6条(a)
-             </a>
-             にて規定されます。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              媒体および形式；許可される技術的改変
-             </strong>
-             許諾者は、あなたに対し、あらゆる媒体や形式（現在知られているか、または今後作られるか否かを問いません）において、ライセンスされた権利を行使する権限、およびその行使に必要とされる技術的な改変を行う権限を付与します。許諾者は、あなたが、ライセンスされた権利を行使するために必要とされる技術的な改変（効果的な技術的保護手段を回避するために必要とされる技術的な改変を含みます）を禁止するいかなる権利または権限を放棄し、および／またはこれらの権利または権限を行使しないことに同意します。本パブリック・ライセンスにおいては、
-             <a href="#s2a4">
-              本第2条(a)(4)
-             </a>
-             により認められる改変をするだけでは翻案物を作り出すことにはなりません。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              ダウンストリーム（下流側）の受領者
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 許諾者からの申し出－ライセンス対象物
-                </span>
-                ライセンス対象物の受領者は、許諾者から本パブリック・ライセンスの条項の下でライセンスされた権利を行使できるという申出を自動的に受け取ります。
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
-                <span style="text-decoration: underline;">
-                 ダウンストリーム（下流側）への制限の禁止
-                </span>
-                あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              支持表明がないこと
-             </span>
-             . 許諾者または
-             <a href="#s3a1Ai">
-              第3条(a)(1)(A)(i)
-             </a>
-             に定められている許諾者以外のクレジット表示の対象として指定されている者が、あなたまたはライセンス対象物のあなたによる利用について、関連している、援助・支持している、あるいは正式な地位を付与している、と主張または示唆することを本パブリック・ライセンスは許諾しておらず、またはそのように解釈されてはなりません。
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            その他の権利
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             同一性保持の権利のような著作者人格権は、本パブリック・ライセンスのもとではライセンスされません。パブリシティ権、プライバシー権、および／または他の類似した人格権も同様です。ただし、可能なかぎり、許諾者は、あなたがライセンスされた権利を行使するために必要とされる範囲内で、また、その範囲内でのみ、許諾者の保持する、いかなるそのような権利を放棄し、および／または主張しないことに同意します。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             特許権および商標権は本パブリック・ライセンスのもとではライセンスされません。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             可能なかぎり、許諾者は、ライセンスされた権利の行使について、直接か、または任意のもしくは放棄可能な法定のもしくは強制的なライセンスに関する仕組みに基づく集中管理団体を介するかを問わず、あなたからライセンス料を得るいかなる権利も放棄します。その他一切の場合において（ライセンス対象物が非営利目的以外で利用される場合も含む）、許諾者はそのようなライセンス料を得るいかなる権利も明確に保持します。
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           第3条　ライセンス利用条件
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          ライセンスされた権利をあなたが行使するにあたっては、以下に記載された諸条件に従う必要があります。
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             表示
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              あなたがライセンス対象物（変更されたものを含む）を共有する場合は以下のことを行う必要があります：
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               ライセンス対象物と共に許諾者から提供されていれば、以下のものを保持すること。
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 ライセンス対象物の作者その他クレジット表示される者として許諾者によって指定されている者を識別する情報を、いかなる形であれ許諾者によってリクエストされた形が合理的である場合はその形で（指定されている場合は仮名も含む）
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 著作権表示
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 本パブリック・ライセンスを参照する表示
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 「無保証」を参照する表示
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 合理的に実施可能な場合には、ライセンス対象物のURIまたはライセンス対象物へのハイパーリンク
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               ライセンス対象物を改変した場合はその旨を記し、従前の改変点についての表示も保持すること。
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               ライセンス対象物が本パブリック・ライセンスに基づきライセンスされていることを示すこと、および、本パブリック・ライセンスの全文またはそのURIか本パブリック・ライセンスへのハイパーリンクのいずれかを含めること。
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             <a href="#s3a1">
-              第3条(a)(1)
-             </a>
-             の条件は、あなたがライセンス対象物を共有する媒体・方法・文脈に照らして、いかなる合理的な方法でも満たすことができます。例えば、必要とされる情報を含むリソースのURIやハイパーリンクを付すことで条件を満たすことが合理的な場合があります。
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a3">
-             許諾者からリクエストされれば、あなたは
-             <a href="#s3a1A">
-              第3条(a)(1)(A)
-             </a>
-             に掲げるいかなる情報も合理的に実施可能な範囲で削除しなければなりません。
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a4">
-             あなたが作成した翻案物を共有する場合、あなたが付与する翻案者のライセンスは、翻案物の受領者が本パブリック・ライセンスを遵守することを妨げてはなりません。
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           第4条　データベース権
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          ライセンスされた権利にデータベース権が含まれており、ライセンス対象物のあなたの利用に適用される場合：
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           誤解を避けるために記すと、
-           <a href="#s2a1">
-            第2条(a)(1)
-           </a>
-           に従い、非営利目的の場合にのみ、データベースの全てまたは実質的な部分のコンテンツの抽出、再利用、複製または共有をする権利をあなたに与えます。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           あなたがデータベース権を持つデータベースに、あなたが、本データベースのコンテンツの全てまたは実質的な部分を含める場合、あなたがデータベース権を持つデータベース（ただし、個々のコンテンツではありません）は翻案物となります。
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           あなたは、データベースのコンテンツの全てまたは実質的な部分を共有する場合は、
-           <a href="#s3a">
-            第3条(a)
-           </a>
-           の条件に従わなくてはなりません。
-          </li>
-         </ol>
-         <span class="body-big">
-          誤解を避けるために記すと、
-          <a href="#s4">
-           本第4条
-          </a>
-          は、ライセンスされた権利が他の著作権およびそれに類する権利を含む場合の本パブリック・ライセンス下でのあなたの義務に追加されるものであり、置き換えるものではありません。
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           第5条　無保証および責任制限
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            許諾者が別途合意しない限り、許諾者は可能な範囲において、ライセンス対象物を現状有姿のまま、現在可能な限りで提供し、明示、黙示、法令上、その他に関わらずライセンス対象物について一切の表明または保証をしません。これには、権利の帰属、商品性、特定の利用目的への適合性、権利侵害の不存在、隠れた瑕疵その他の瑕疵の不存在、正確性または誤りの存在もしくは不存在を含みますが、これに限られず、既知であるか否か、発見可能であるか否かを問いません。全部または一部の無保証が認められない場合、この無保証はあなたには適用されないこともあります。
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            可能な範囲において、本パブリック・ライセンスもしくはライセンス対象物の利用によって起きうる直接、特別、間接、偶発、結果的、懲罰的その他の損失、コスト、出費または損害について、例え損失、コスト、出費、損害の可能性について許諾者が知らされていたとしても、許諾者は、あなたに対し、いかなる法理（過失を含みますがこれに限られません）その他に基づいても責任を負いません。全部または一部の責任制限が認められない場合、この制限はあなたには適用されないこともあります。
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           上記の無保証および責任制限は、可能な範囲において、全責任の完全な免責および免除に最も近いものとして解釈するものとします。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           第6条　期間および終了
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           本パブリック・ライセンスは、ここでライセンスされた著作権およびそれに類する権利が有効な期間、適用されます。しかし、もしあなたが本パブリック・ライセンスに違反すると、本パブリック・ライセンスに定めるあなたの権利は自動的に終了します。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            ライセンス対象物をあなたが利用する権利が第6条(a)の事由により終了した場合でも：
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             あなたが違反を発見してから30日以内に違反を是正した場合に限り、違反を是正したその日に、自動的に復活します。または、
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             許諾者により権利の復活を明示された場合に、復活します。
-            </li>
-           </ol>
-           誤解を避けるために記すと、
-           <a href="#s6b">
-            本第6条(b)
-           </a>
-           は、許諾者が、あなたの本パブリック・ライセンスに関する違反に対する救済を求めるために有するであろういかなる権利にも影響を及ぼしません。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           誤解を避けるために記すと、許諾者は、いつでも、別の条項の下でライセンス対象物を提供したり、ライセンス対象物の配布を停止することができます。しかし、その場合でも、本パブリック・ライセンスは終了しません。
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           <a href="#s1">
-            第1条
-           </a>
-           、
-           <a href="#s5">
-            第5条
-           </a>
-           、
-           <a href="#s6">
-            第6条
-           </a>
-           、
-           <a href="#s7">
-            第7条
-           </a>
-           、
-           <a href="#s8">
-            第8条
-           </a>
-           は、本パブリック・ライセンスが終了してもなお有効に存続します。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           第7条　その他の条項
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           許諾者は、明確に合意しない限り、あなたが通知するいかなる追加のまたは異なる条項にも拘束されません。
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           ライセンス対象物に関する取り決め、了解事項または合意でここに言明されていない一切のものは、本パブリック・ライセンスの条項とは切り離され、独立したものです。
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           第8条　解釈
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           誤解を避けるために記すと、本パブリック・ライセンスは、本パブリック・ライセンスによる許諾に基づかない、ライセンス対象物のいかなる合法的な利用も縮小したり、限定したり、制限したり、条件を課したりするものではなく、またそのように解釈されてはなりません。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           可能な範囲で、本パブリック・ライセンスのいずれかの規定が執行不能とみなされた場合には、本パブリック・ライセンスは、執行可能とするために必要最小限度の範囲で自動的に変更されます。もしある規定の変更が不可能な場合には、その他の条項の執行可能性に影響を与えることなく、当該規定は本パブリック・ライセンスから切り離されます。
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           本パブリック・ライセンスのいかなる条項も、許諾者の明確な合意なしには、放棄されることはなく、また、順守しないことに同意することはありません。
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           本パブリック・ライセンスのいかなる条項も、許諾者やあなたに適用される、あらゆる特権や免責（司法権や当局の法的手続からの特権や免責を含む）に対する制限や放棄を構成するものではなく、またそのように解釈されるものではありません。
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        クリエイティブ・コモンズは、クリエイティブ・コモンズ・パブリック・ライセンスの当事者ではありません。ただし、クリエイティブ・コモンズは、自らが公開するマテリアルに、自らのパブリック・ライセンスのいずれかを適用すると決定することができ、その場合には許諾者とみなされます。クリエイティブ・コモンズ・パブリック・ライセンスの文章は
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.ja">
-         CC0パブリック・ドメイン宣言
-        </a>
-        のもとで提供されています。本マテリアルがクリエイティブ・コモンズ・パブリック・ライセンスで共有されていることを公衆に示すという限られた目的の場合、または
-        <a href="https://creativecommons.org/policies">
-         creativecommons.org/policies
-        </a>
-        で公表されているクリエイティブ・コモンズの方針に基づいて許容される場合を除き、クリエイティブ・コモンズは、クリエイティブ・コモンズとの事前の書面による同意なしに、「クリエイティブ・コモンズ」の商標や関連商標もしくはクリエイティブ・コモンズのロゴを使用することを認めていません。ここで認められていない使用には、クリエイティブ・コモンズのパブリック・ライセンスの許可されていない改変との関係での利用、その他のライセンスされたマテリアルの利用に関するいかなる取り決め、了解事項または合意との関係での利用を含みますが、これらに限られません。誤解を避けるために記すと、この項はパブリック・ライセンスの一部ではありません。
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        クリエイティブ・コモンズには
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        から連絡することができます。
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.ja">
+      See the deed
+     </a>
+    </p>
+    <p>
+     バージョン 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      クリエイティブ・コモンズ・パブリック・ライセンスの利用について
+     </h2>
+     <p>
+      クリエイティブ・コモンズ・パブリック・ライセンスは、作者や他の権利者のみなさまが、著作権および下記パブリック・ライセンスにおいて特定されるその他の権利が帰属する原作品およびその他のマテリアルを共有するために利用できる条項の標準的なセットを提供しています。以下の留意事項は、情報提供の目的だけのものであり、網羅的ではなく、クリエイティブ・コモンズのライセンスの一部を構成するものではありません。
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      ライセンスする方のための留意事項：
+     </h3>
+     <p>
+      クリエイティブ・コモンズのパブリック・ライセンスは、著作権その他一定の権利により制限されている方法によるマテリアルの利用を公衆に対して許諾する権限を持つ方によって使われることを意図しています。クリエイティブ・コモンズのライセンスは取消すことができません。ライセンスする方は、自分が選択するライセンスを適用する前に、その条項を読み、理解するべきです。また、ライセンスする方は、公衆が期待通りにマテリアルを再利用できるようにするために、本ライセンスを適用する前に、必要となる一切の権利を取得・処理するべきです。ライセンスする方は、本ライセンスの対象とならないマテリアルを明示するべきです。これはクリエイティブ・コモンズ・ライセンスが付与された他のマテリアル、または著作権法上の例外や権利制限に基づいて利用されているマテリアルも含みます。
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       ライセンスする方のためのより詳細な留意事項はこちらをご覧ください。
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      公衆のための留意事項：
+     </h3>
+     <p>
+      クリエイティブ・コモンズのパブリック・ライセンスの1つを利用することにより、ライセンスする方は、公衆に対し、指定された条項の下で、ライセンスされたマテリアルの利用を許諾します。たとえば、著作権法上の例外や権利制限が適用されるなど、いかなる理由であれ、ライセンスする方の許諾が必要ではない場合、その利用はライセンスにより制限されません。クリエイティブ・コモンズのライセンスは、ライセンスする方が許諾する権限を有している著作権その他一定の権利下におけるライセンスだけを付与します。ライセンスされたマテリアルは、そのマテリアルに関し第三者が著作権またはその他の権利を有しているなどの理由から、利用が制限される可能性があります。ライセンスする方は、すべての変更を表示または記述することをリクエストするなど、特別なリクエストをすることができます。クリエイティブ・コモンズ・ライセンスにより必要とされるものではありませんが、あなたは、合理的な範囲でこれらのリクエストを尊重することが奨励されます。
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       公衆のためのより詳細な留意事項はこちらをご覧ください。
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      表示-非営利 4.0 国際
+     </h2>
+     <p>
+      ライセンスされた権利（定義は後述します）の行使により、あなたは、クリエイティブ・コモンズ 表示-非営利 4.0 国際 パブリック・ライセンス（以下「パブリック・ライセンス」といいます）の条項に規律されることを受諾し、同意します。本パブリック・ライセンスが契約と解釈されるであろう範囲において、あなたはこれらの利用条件のあなたによる受諾と引き換えにライセンスされた権利を付与されます。そして、許諾者は、あなたに対し、それらの条項のもとでライセンス対象物を利用可能にすることから許諾者が受領する利益と引き換えに、そのような権利を付与します。
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      第1条　定義
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        「翻案物」
+       </span>
+       とは、著作権およびそれに類する権利の対象となり、ライセンス対象物について許諾者が有する著作権およびそれに類する権利に基づく許諾が必要とされるような形で、翻訳され、改変され、編集され、変形され、またはその他の方法により変更されたマテリアルで、ライセンス対象物から派生したか、またはライセンス対象物に基づくものを意味します。本パブリック・ライセンスにおいては、ライセンス対象物が音楽作品、実演または録音物で、これらが動画と同期させられる場合には、翻案物が常に作成されることになります。
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        「翻案者のライセンス」
+       </span>
+       とは、翻案物に対してあなたが寄与した部分に生じる、あなたの著作権およびそれに類する権利について、本パブリック・ライセンスの条項に従って、あなたが適用するライセンスのことをいいます。
+      </li>
+      <li id="s1c_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        「著作権およびそれに類する権利」
+       </span>
+       とは、その権利がどのように名づけられ、または分類されるかにかかわらず、著作権および／または著作権に密接に関係する類似の権利をいいます（実演、放送、録音物、およびデータベース権を含むが、これに限られません）。本パブリック・ライセンスにおいては、
+       <a href="#s2b">
+        第2条(b)(1)および(2)
+       </a>
+       において規定される権利は、著作権およびそれに類する権利ではありません。
+      </li>
+      <li id="s1d_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        「効果的な技術的保護手段」
+       </span>
+       とは、1996年12月20日に採択されたWIPO著作権条約第11条、および／または類似の国際協定の義務を満たす諸法規の下で、正当な権限なしに回避されてはならないものとされる諸手段をいいます。
+      </li>
+      <li id="s1e_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        「例外および権利制限」
+       </span>
+       とは、ライセンス対象物をあなたが利用する場合に適用される、フェアユース、フェアディーリングおよび／または著作権およびそれに類する権利に対するその他の例外もしくは権利制限をいいます。
+      </li>
+      <li id="s1f_licensed_material">
+       <span style="text-decoration: underline;">
+        「ライセンス対象物」
+       </span>
+       とは、許諾者が本パブリック・ライセンスを適用した美術的または文学的著作物、データベース、またはその他のマテリアルを意味します。
+      </li>
+      <li id="s1g_licensed_rights">
+       <span style="text-decoration: underline;">
+        「ライセンスされた権利」
+       </span>
+       とは、本パブリック・ライセンスの条項に基づき、あなたに与えられる権利をいい、かかる権利は、あなたによるライセンス対象物の利用に適用され、かつ、許諾者がライセンスする権限を有する、全ての著作権およびそれに類する権利に限定されます。
+      </li>
+      <li id="s1h_licensor">
+       <span style="text-decoration: underline;">
+        「許諾者」
+       </span>
+       とは、本パブリック・ライセンスのもとで権利を付与する個人または団体を意味します。
+      </li>
+      <li id="s1i_noncommercial">
+       <span style="text-decoration: underline;">
+        「非営利」
+       </span>
+       とは、商業的な利得や金銭的報酬を、主たる目的とせず、それらに主に向けられてもいないことを意味します。本パブリック・ライセンスにおいては、デジタル・ファイル共有または類似した手段による、ライセンス対象物と、著作権およびそれに類する権利の対象となるその他のマテリアルとの交換は、その交換に関連して金銭的報酬の支払いがない場合は、非営利に該当します。
+      </li>
+      <li id="s1j_share">
+       <span style="text-decoration: underline;">
+        「共有」
+       </span>
+       とは、複製、公開の展示、公開の上演・演奏、頒布、配布、通信または輸入のような、ライセンスされた権利に関する許諾を必要とするような手段または手法により、公衆に対しマテリアルを提供すること、および、公衆がマテリアルを利用できるようにすること（公衆の各人が、自ら独自に場所および時間を選択してマテリアルにアクセスすることができる方法を含みます）を意味します。
+      </li>
+      <li id="s1k_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        「データベース権」
+       </span>
+       とは、データベースの法的保護に関する1996年3月11日の欧州議会および理事会指令 96/9/ECの結果として生じた、著作権以外の権利、（この指令が修正および／または継承された場合それらを反映したもの）、および、世界中の本質的に同等な権利を意味します。
+      </li>
+      <li id="s1l_you">
+       <span style="text-decoration: underline;">
+        「あなた」
+       </span>
+       とは、本パブリック・ライセンスのもとでライセンスされた権利を行使する個人または団体をいいます。
+       <strong>
+        「あなたの」
+       </strong>
+       もそれに対応した意味となります。
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      第2条　範囲
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        ライセンス付与
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         本パブリック・ライセンスの条項に従い、許諾者はあなたに対し、ライセンス対象物について、以下に掲げるライセンスされた権利を行使できる全世界的な、無償、再許諾不可、非排他的、かつ取消不可なライセンスを付与します：
+         <ol type="A">
+          <li id="s2a1A">
+           ライセンス対象物の全部または一部を、非営利目的のためにのみ、複製および共有すること、ならびに
+          </li>
+          <li id="s2a1B">
+           翻案物を非営利目的のためにのみ、作成、複製および共有すること
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          例外および権利制限
+         </strong>
+         誤解を避けるために記すと、例外および権利制限があなたの利用に適用される部分については、本パブリック・ライセンスは適用されず、あなたは本パブリック・ライセンスの条項に従う必要はありません。
+        </li>
+        <li id="s2a3">
+         <strong>
+          有効期間
+         </strong>
+         本パブリック・ライセンスの有効期間は
+         <a href="#s6a">
+          第6条(a)
+         </a>
+         にて規定されます。
+        </li>
+        <li id="s2a4">
+         <strong>
+          媒体および形式；許可される技術的改変
+         </strong>
+         許諾者は、あなたに対し、あらゆる媒体や形式（現在知られているか、または今後作られるか否かを問いません）において、ライセンスされた権利を行使する権限、およびその行使に必要とされる技術的な改変を行う権限を付与します。許諾者は、あなたが、ライセンスされた権利を行使するために必要とされる技術的な改変（効果的な技術的保護手段を回避するために必要とされる技術的な改変を含みます）を禁止するいかなる権利または権限を放棄し、および／またはこれらの権利または権限を行使しないことに同意します。本パブリック・ライセンスにおいては、
+         <a href="#s2a4">
+          本第2条(a)(4)
+         </a>
+         により認められる改変をするだけでは翻案物を作り出すことにはなりません。
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          ダウンストリーム（下流側）の受領者
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            許諾者からの申し出－ライセンス対象物
+           </span>
+           ライセンス対象物の受領者は、許諾者から本パブリック・ライセンスの条項の下でライセンスされた権利を行使できるという申出を自動的に受け取ります。
+          </li>
+          <li id="s2a5B_no_restrictions">
+           <span style="text-decoration: underline;">
+            ダウンストリーム（下流側）への制限の禁止
+           </span>
+           あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          支持表明がないこと
+         </span>
+         許諾者または
+         <a href="#s3a1Ai">
+          第3条(a)(1)(A)(i)
+         </a>
+         に定められている許諾者以外のクレジット表示の対象として指定されている者が、あなたまたはライセンス対象物のあなたによる利用について、関連している、援助・支持している、あるいは正式な地位を付与している、と主張または示唆することを本パブリック・ライセンスは許諾しておらず、またはそのように解釈されてはなりません。
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        その他の権利
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         同一性保持の権利のような著作者人格権は、本パブリック・ライセンスのもとではライセンスされません。パブリシティ権、プライバシー権、および／または他の類似した人格権も同様です。ただし、可能なかぎり、許諾者は、あなたがライセンスされた権利を行使するために必要とされる範囲内で、また、その範囲内でのみ、許諾者の保持する、いかなるそのような権利を放棄し、および／または主張しないことに同意します。
+        </li>
+        <li id="s2b2">
+         特許権および商標権は本パブリック・ライセンスのもとではライセンスされません。
+        </li>
+        <li id="s2b3">
+         可能なかぎり、許諾者は、ライセンスされた権利の行使について、直接か、または任意のもしくは放棄可能な法定のもしくは強制的なライセンスに関する仕組みに基づく集中管理団体を介するかを問わず、あなたからライセンス料を得るいかなる権利も放棄します。その他一切の場合において（ライセンス対象物が非営利目的以外で利用される場合も含む）、許諾者はそのようなライセンス料を得るいかなる権利も明確に保持します。
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      第3条　ライセンス利用条件
+     </h3>
+     <p>
+      ライセンスされた権利をあなたが行使するにあたっては、以下に記載された諸条件に従う必要があります。
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        表示
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          あなたがライセンス対象物（変更されたものを含む）を共有する場合は以下のことを行う必要があります：
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           ライセンス対象物と共に許諾者から提供されていれば、以下のものを保持すること。
+           <ol type="i">
+            <li id="s3a1Ai">
+             ライセンス対象物の作者その他クレジット表示される者として許諾者によって指定されている者を識別する情報を、いかなる形であれ許諾者によってリクエストされた形が合理的である場合はその形で（指定されている場合は仮名も含む）
+            </li>
+            <li id="s3a1Aii">
+             著作権表示
+            </li>
+            <li id="s3a1Aiii">
+             本パブリック・ライセンスを参照する表示
+            </li>
+            <li id="s3a1Aiv">
+             「無保証」を参照する表示
+            </li>
+            <li id="s3a1Av">
+             合理的に実施可能な場合には、ライセンス対象物のURIまたはライセンス対象物へのハイパーリンク
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           ライセンス対象物を改変した場合はその旨を記し、従前の改変点についての表示も保持すること。
+          </li>
+          <li id="s3a1C">
+           ライセンス対象物が本パブリック・ライセンスに基づきライセンスされていることを示すこと、および、本パブリック・ライセンスの全文またはそのURIか本パブリック・ライセンスへのハイパーリンクのいずれかを含めること。
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         <a href="#s3a1">
+          第3条(a)(1)
+         </a>
+         の条件は、あなたがライセンス対象物を共有する媒体・方法・文脈に照らして、いかなる合理的な方法でも満たすことができます。例えば、必要とされる情報を含むリソースのURIやハイパーリンクを付すことで条件を満たすことが合理的な場合があります。
+        </li>
+        <li id="s3a3">
+         許諾者からリクエストされれば、あなたは
+         <a href="#s3a1A">
+          第3条(a)(1)(A)
+         </a>
+         に掲げるいかなる情報も合理的に実施可能な範囲で削除しなければなりません。
+        </li>
+        <li id="s3a4">
+         あなたが作成した翻案物を共有する場合、あなたが付与する翻案者のライセンスは、翻案物の受領者が本パブリック・ライセンスを遵守することを妨げてはなりません。
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      第4条　データベース権
+     </h3>
+     <p>
+      ライセンスされた権利にデータベース権が含まれており、ライセンス対象物のあなたの利用に適用される場合：
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       誤解を避けるために記すと、
+       <a href="#s2a1">
+        第2条(a)(1)
+       </a>
+       に従い、非営利目的の場合にのみ、データベースの全てまたは実質的な部分のコンテンツの抽出、再利用、複製または共有をする権利をあなたに与えます。
+      </li>
+      <li id="s4b">
+       あなたがデータベース権を持つデータベースに、あなたが、本データベースのコンテンツの全てまたは実質的な部分を含める場合、あなたがデータベース権を持つデータベース（ただし、個々のコンテンツではありません）は翻案物となります。
+      </li>
+      <li id="s4c">
+       あなたは、データベースのコンテンツの全てまたは実質的な部分を共有する場合は、
+       <a href="#s3a">
+        第3条(a)
+       </a>
+       の条件に従わなくてはなりません。
+      </li>
+     </ol>
+     <p>
+      誤解を避けるために記すと、
+      <a href="#s4">
+       本第4条
+      </a>
+      は、ライセンスされた権利が他の著作権およびそれに類する権利を含む場合の本パブリック・ライセンス下でのあなたの義務に追加されるものであり、置き換えるものではありません。
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      第5条　無保証および責任制限
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        許諾者が別途合意しない限り、許諾者は可能な範囲において、ライセンス対象物を現状有姿のまま、現在可能な限りで提供し、明示、黙示、法令上、その他に関わらずライセンス対象物について一切の表明または保証をしません。これには、権利の帰属、商品性、特定の利用目的への適合性、権利侵害の不存在、隠れた瑕疵その他の瑕疵の不存在、正確性または誤りの存在もしくは不存在を含みますが、これに限られず、既知であるか否か、発見可能であるか否かを問いません。全部または一部の無保証が認められない場合、この無保証はあなたには適用されないこともあります。
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        可能な範囲において、本パブリック・ライセンスもしくはライセンス対象物の利用によって起きうる直接、特別、間接、偶発、結果的、懲罰的その他の損失、コスト、出費または損害について、例え損失、コスト、出費、損害の可能性について許諾者が知らされていたとしても、許諾者は、あなたに対し、いかなる法理（過失を含みますがこれに限られません）その他に基づいても責任を負いません。全部または一部の責任制限が認められない場合、この制限はあなたには適用されないこともあります。
+       </strong>
+      </li>
+      <li id="s5c">
+       上記の無保証および責任制限は、可能な範囲において、全責任の完全な免責および免除に最も近いものとして解釈するものとします。
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      第6条　期間および終了
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       本パブリック・ライセンスは、ここでライセンスされた著作権およびそれに類する権利が有効な期間、適用されます。しかし、もしあなたが本パブリック・ライセンスに違反すると、本パブリック・ライセンスに定めるあなたの権利は自動的に終了します。
+      </li>
+      <li id="s6b">
+       <p>
+        ライセンス対象物をあなたが利用する権利が第6条(a)の事由により終了した場合でも：
+       </p>
+       <ol>
+        <li id="s6b1">
+         あなたが違反を発見してから30日以内に違反を是正した場合に限り、違反を是正したその日に、自動的に復活します。または、
+        </li>
+        <li id="s6b2">
+         許諾者により権利の復活を明示された場合に、復活します。
+        </li>
+       </ol>
+       <p>
+        誤解を避けるために記すと、
+        <a href="#s6b">
+         本第6条(b)
+        </a>
+        は、許諾者が、あなたの本パブリック・ライセンスに関する違反に対する救済を求めるために有するであろういかなる権利にも影響を及ぼしません。
+       </p>
+      </li>
+      <li id="s6c">
+       誤解を避けるために記すと、許諾者は、いつでも、別の条項の下でライセンス対象物を提供したり、ライセンス対象物の配布を停止することができます。しかし、その場合でも、本パブリック・ライセンスは終了しません。
+      </li>
+      <li id="s6d">
+       <a href="#s1">
+        第1条
+       </a>
+       、
+       <a href="#s5">
+        第5条
+       </a>
+       、
+       <a href="#s6">
+        第6条
+       </a>
+       、
+       <a href="#s7">
+        第7条
+       </a>
+       、
+       <a href="#s8">
+        第8条
+       </a>
+       は、本パブリック・ライセンスが終了してもなお有効に存続します。
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      第7条　その他の条項
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       許諾者は、明確に合意しない限り、あなたが通知するいかなる追加のまたは異なる条項にも拘束されません。
+      </li>
+      <li id="s7b">
+       ライセンス対象物に関する取り決め、了解事項または合意でここに言明されていない一切のものは、本パブリック・ライセンスの条項とは切り離され、独立したものです。
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      第8条　解釈
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       誤解を避けるために記すと、本パブリック・ライセンスは、本パブリック・ライセンスによる許諾に基づかない、ライセンス対象物のいかなる合法的な利用も縮小したり、限定したり、制限したり、条件を課したりするものではなく、またそのように解釈されてはなりません。
+      </li>
+      <li id="s8b">
+       可能な範囲で、本パブリック・ライセンスのいずれかの規定が執行不能とみなされた場合には、本パブリック・ライセンスは、執行可能とするために必要最小限度の範囲で自動的に変更されます。もしある規定の変更が不可能な場合には、その他の条項の執行可能性に影響を与えることなく、当該規定は本パブリック・ライセンスから切り離されます。
+      </li>
+      <li id="s8c">
+       本パブリック・ライセンスのいかなる条項も、許諾者の明確な合意なしには、放棄されることはなく、また、順守しないことに同意することはありません。
+      </li>
+      <li id="s8d">
+       本パブリック・ライセンスのいかなる条項も、許諾者やあなたに適用される、あらゆる特権や免責（司法権や当局の法的手続からの特権や免責を含む）に対する制限や放棄を構成するものではなく、またそのように解釈されるものではありません。
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      クリエイティブ・コモンズは、クリエイティブ・コモンズ・パブリック・ライセンスの当事者ではありません。ただし、クリエイティブ・コモンズは、自らが公開するマテリアルに、自らのパブリック・ライセンスのいずれかを適用すると決定することができ、その場合には許諾者とみなされます。クリエイティブ・コモンズ・パブリック・ライセンスの文章は
+      <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.ja">
+       CC0パブリック・ドメイン宣言
+      </a>
+      のもとで提供されています。本マテリアルがクリエイティブ・コモンズ・パブリック・ライセンスで共有されていることを公衆に示すという限られた目的の場合、または
+      <a href="https://creativecommons.org/policies">
+       creativecommons.org/policies
+      </a>
+      で公表されているクリエイティブ・コモンズの方針に基づいて許容される場合を除き、クリエイティブ・コモンズは、クリエイティブ・コモンズとの事前の書面による同意なしに、「クリエイティブ・コモンズ」の商標や関連商標もしくはクリエイティブ・コモンズのロゴを使用することを認めていません。ここで認められていない使用には、クリエイティブ・コモンズのパブリック・ライセンスの許可されていない改変との関係での利用、その他のライセンスされたマテリアルの利用に関するいかなる取り決め、了解事項または合意との関係での利用を含みますが、これらに限られません。誤解を避けるために記すと、この項はパブリック・ライセンスの一部ではありません。
+     </p>
+     <p>
+      クリエイティブ・コモンズには
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      から連絡することができます。
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

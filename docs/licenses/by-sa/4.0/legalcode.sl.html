@@ -4,970 +4,991 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-SA 4.0 Pravna koda — Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna — Creative Commons
+   CC BY-SA 4.0 Pravna koda | Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.sl" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Preskoči na vsebino
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Preskoči na vsebino
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Domov
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-sa/4.0/legalcode.sl">
-        CC BY-SA 4.0 Pravna koda
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" selected="" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" selected="" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.sl" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-SA 4.0 Pravna koda
+    </h1>
+    <h2>
+     Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            Oddelek 1 - Definicije
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            Oddelek 2 – Obseg
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            Oddelek 3 – Pogoji Licence
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            Oddelek 4 - Sui generis pravice na podatkovnih bazah
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            Oddelek 5 – Izjava o jamstvih in omejitev odgovornosti
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            Oddelek 6 – Trajanje in prenehanje veljavnosti
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            Oddelek 7 – Druge določbe in pogoji
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            Oddelek 8 – Razlaga
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          Oddelek 1 - Definicije
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          Oddelek 2 – Obseg
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          Oddelek 3 – Pogoji Licence
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          Oddelek 4 - Sui generis pravice na podatkovnih bazah
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          Oddelek 5 – Izjava o jamstvih in omejitev odgovornosti
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          Oddelek 6 – Trajanje in prenehanje veljavnosti
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          Oddelek 7 – Druge določbe in pogoji
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          Oddelek 8 – Razlaga
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-SA 4.0
-       </h2>
-       <h1 class="b-header">
-        Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-SA 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-SA 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-SA 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Korporacija Creative Commons (Creative Commons Corporation, "Creative Commons") ni odvetniška pisarna in ne ponuja pravnih storitev ali pravnih nasvetov. Razširjanje licenc Creative Commons ne ustvarja razmerja odvetnik-stranka ali kakšnega drugega razmerja. Creative Commons daje svoje licence in informacije o njih na razpolago "take kot so". Creative Commons ne daje nobenih jamstev glede svojih licenc, glede vsebin, ki so licencirane pod splošnimi pogoji licenc, in z njimi povezanih informacij. Odgovornost Creative Commons za škodo, ki bi izhajala iz uporabe licenc, je izključena, kolikor je to zakonsko mogoče.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Uporaba Creative Commons licenc
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons licence vsebujejo splošne pogoje, pod katerimi lahko ustvarjalci in drugi imetniki pravic delijo izvirna avtorska dela in druge predmete varstva avtorskih in določenih drugih pravic, kot so opredeljene v spodnji licenci. Sledeča pojasnila so namenjena zgolj informiranju, niso izčrpna in niso del licenc.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Pojasnila za dajalce licence
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Licence so namenjene tistim, ki so pooblaščeni za dajanje dovoljenj javnosti za uporabo vsebin na načine, ki so drugače omejeni z avtorsko pravico in določenimi drugimi pravicami. Licence so nepreklicne. Dajalci licence naj preberejo ter razumejo pogoje licence, ki jo izberejo, preden jo uporabijo. Dajalci licence naj si tudi zagotovijo vse potrebne pravice, preden uporabijo licence, tako da lahko uporabniki uporabljajo vsebine na pričakovan način. Dajalci licence naj jasno označijo vse vsebine, ki niso predmet izbrane licence. To vključuje vsebine, ki so na voljo pod drugo CC-licenco, ali vsebine, ki so uporabljene na podlagi izjem ali omejitev avtorske pravice.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Več pojasnil za dajalce licence.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Pojasnila za javnost
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Z uporabo licenc daje dajalec licence javno dovoljenje za uporabo licencirane vsebine pod določenimi pogoji. Če dovoljenje dajalca licence zaradi kateregakoli razloga ni potrebno – npr. zaradi možnosti uporabe vsebine na podlagi izjeme ali omejitve avtorske pravice – potem licenca ne ureja tovrstne uporabe. Licence dajejo zgolj dovoljenja, ki jih dajalec licence v skladu z avtorskimi in določenimi drugimi pravicami, lahko podeli. Uporaba licenciranih vsebin je lahko še vedno omejena zaradi drugih razlogov, tudi zaradi tega, ker imajo druge osebe avtorske ali druge pravice na teh vsebinah. Dajalec licence lahko postavi posebne zahteve, npr. prosi, da se vse spremembe označijo ali opišejo. Čeprav licence tega ne določajo, vas spodbujamo k spoštovanju teh zahtev, kadar je to razumno mogoče.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Več pojasnil za javnost.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Z uveljavljanjem Licenciranih pravic (definirane spodaj) Uporabnik sprejme in se strinja, da ga zavezujejo pogoji te Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodne licence (“Licenca”). Kolikor je mogoče to Licenco smatrati kot pogodbo, se Uporabniku zagotovijo licencirane pravice v zameno za sprejem licenčnih pogojev, Dajalec licence pa Uporabniku zagotovi te pravice v zameno za koristi, ki jih prejme od dajanja Licenciranih vsebin na voljo pod temi pogoji.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           Oddelek 1 - Definicije
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Predelane vsebine
-            </span>
-            pomeni vsebine, ki so predmet Avtorske in podobnih pravic in izhajajo ali so osnovane na Licenciranih vsebinah in v katerih so Licencirane vsebine prevedene, aranžirane ali kakorkoli spremenjene, na način, ki zahteva dovoljenje v skladu z Avtorskimi in podobnimi pravicami, ki pripadajo Dajalcu licence. Kadar je Licencirana vsebina glasbeno delo, izvedba ali zvočni posnetek, se za namene te licence šteje, da so zmeraj ustvarjene Predelane vsebine, kadar je Licencirana vsebina časovno usklajena z gibljivo sliko.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Predelovalčeva licenca
-            </span>
-            pomeni licenco, ki jo Uporabnik uporabi za Avtorske in podobne pravice na svojih prispevkih k Predelanim vsebinam v skladu s pogoji te Licence.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_by_sa_compatible_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             BY-SA kompatibilna licenca
-            </span>
-            pomeni licenco iz seznama
-            <a href="//creativecommons.org/compatiblelicenses">
-             creativecommons.org/compatiblelicenses
-            </a>
-            , ki jo Creative Commons priznava kot bistveno enakovredno tej Licenci.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Avtorska in podobne pravice
-            </span>
-            pomeni avtorsko in/ali podobne pravice, ki so sorodne avtorski, vključno z, a ne omejeno na pravice, ki izvirajo iz izvedbe, transmisije in zvočnega snemanja ter sui generis pravice izdelovalcev podatkovnih baz, ne glede na to kako so te pravice poimenovane ali kategorizirane. Za namene te Licence pravice, ki so določene v Oddelku
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            , niso Avtorske in podobne pravice.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Tehnološki ukrepi
-            </span>
-            pomenijo ukrepe, ki jih brez ustreznega dovoljenja ni dopustno zaobiti, v skladu z zakoni, ki izpolnjujejo zaveze iz 11. člena Pogodbe WIPO o avtorski pravici z dne 20. decembra 1996 in/ali podobnih mednarodnih pogodb.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Izjeme in omejitve
-            </span>
-            pomenijo uporabo, skladno z načeloma "fair use" in "fair dealing", in/ali druge izjeme ali omejitve Avtorske in podobnih pravic, ki se nanašajo na uporabo Licenciranih vsebin.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_license_elements_sa">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Elementi licence
-            </span>
-            pomeni lastnosti licence, naštete v naslovu Creative Commons licence. Elementi te Licence so Priznanje avtorstva in Deljenje pod enakimi pogoji.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licencirana vsebina
-            </span>
-            pomeni umetniško, literarno ali znanstveno delo, sui generis podatkovno bazo ali drugo vsebino, ki jo Dajalec licence ponuja pod pogoji te Licence.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licencirane pravice
-            </span>
-            pomeni pravice, ki so Uporabniku podeljene v skladu s pogoji te Licence in so omejene na vse Avtorske in podobne pravice, ki se nanašajo na uporabo Licencirane vsebine, in ki jih Dajalec licence lahko licencira.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Dajalec licence
-            </span>
-            pomeni fizično ali pravno osebo, ki podeljuje pravice pod pogoji te Licence.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Deliti
-            </span>
-            pomeni posredovati vsebine javnosti s kakršnimikoli sredstvi in procesi, za katere je potrebno dovoljenje v skladu z Licenciranimi pravicami, kot je npr. reproduciranje, javno prikazovanje, javno izvajanje, distribuiranje, razširjanje, priobčitev javnosti ali uvažanje, ter dajanje na voljo javnosti, tudi na način, ki omogoča posameznikom dostop do vsebine s kraja in v času, ki ju sami izberejo.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Sui generis pravice na podatkovnih bazah
-            </span>
-            pomenijo pravice, ki niso avtorske in izhajajo iz Direktive 96/9/EC Evropskega parlamenta in Sveta z dne 11. marca 1996 o pravnem varstvu baz podatkov, s spremembami in/ali nasledstvi, kot tudi druge bistveno enakovredne pravice kjerkoli po svetu.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1m_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Uporabnik
-            </span>
-            je fizična ali pravna oseba, ki izkorišča Licencirane pravice iz te Licence.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           Oddelek 2 – Obseg
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Podelitev licence
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             V skladu s pogoji te Licence, Dajalec licence podeljuje Uporabniku teritorialno neomejeno, brezplačno, neprenosljivo, neizključno in nepreklicno licenco za izkoriščanje naslednjih Licenciranih pravic na Licencirani vsebini:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               reproduciranje in Deljenje Licencirane vsebine v celoti ali delno; in
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               stvaritev, reproduciranje in Deljenje Predelanih vsebin.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Izjeme in omejitve
-             </strong>
-             . V izogib dvomu, kadar je uporaba Licencirane vsebine mogoča na podlagi Izjem in omejitev, se ta Licenca ne uporablja in Uporabniku ni potrebno ravnati v skladu s pogoji te Licence.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Trajanje
-             </strong>
-             . Trajanje te Licence je določeno v Oddelku
-             <a href="#s6a">
-              6(a)
-             </a>
-             .
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Mediji in formati; dovoljene tehnične spremembe
-             </strong>
-             . Dajalec licence dovoljuje Uporabniku izkoriščanje Licenciranih pravic v vseh medijih in formatih, znanih ali ustvarjenih kasneje, in izvedbo tehničnih sprememb, kadar je to potrebno. Dajalec licence se odpoveduje in/ali se strinja, da ne bo uveljavljal nobene pravice, ki bi Uporabniku preprečila izvedbo tehničnih sprememb, ki so potrebne za izkoriščanje Licenciranih pravic, vključno s tehničnimi spremembami, ki so potrebne za zaobid Tehnoloških ukrepov. Za namene te Licence, izvajanje sprememb, ki so dovoljene v skladu s tem Oddelkom
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             , ne pomeni ustvarjanja Predelanih vsebin.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Nadaljnji prejemniki
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Ponudba Dajalca licence – Licencirane vsebine
-                </span>
-                . Vsak prejemnik Licencirane vsebine samodejno prejme ponudbo Dajalca licence za izkoriščanje Licenciranih pravic pod pogoji te Licence.
-               </li>
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5B_adapted_material">
-                <span style="text-decoration: underline;">
-                 Dodatna ponudba Dajalca licence – Predelane vsebine
-                </span>
-                . Vsak prejemnik Predelanih vsebin samodejno prejme ponudbo Dajalca licence za izkoriščanje Licenciranih pravic na Predelanih vsebinah pod pogoji Predelovalčeve licence, ki jo Uporabnik izbere.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5C_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Brez omejitev za nadaljnje prejemnike
-                </span>
-                . Uporabnik ne sme dodati ali zahtevati dodatnih ali drugačnih pogojev ali uporabiti kakršnihkoli Tehnoloških ukrepov na Licenciranih vsebinah, če ta dejanja omejujejo izkoriščanje Licenciranih pravic s strani kateregakoli prejemnika Licenciranih vsebin.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Brez odobritev
-             </span>
-             . . Nič v tej Licenci ne predstavlja in se ne sme razlagati kot dovoljenje za trditev ali namigovanje, da je Uporabnik ali njegova uporaba Licencirane vsebine povezana z Dajalcem licence, sponzorirana ali da ji je bil podeljen uradni status s strani Dajalca licence ali drugih, ki jim je potrebno priznati avtorstvo v skladu z Oddelkom
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             .
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Druge pravice
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Moralne pravice, kot je npr. pravica spoštovanja dela, se ne licencirajo s to Licenco. Prav tako se ne licencirajo pravica do zasebnosti in/ali druge osebnostne pravice, vendar se, kolikor je to zakonsko mogoče, Dajalec licence odpoveduje in/ali se strinja, da ne bo uveljavljal teh pravic, ki mu pripadajo, v obsegu, ki je potreben za Uporabnikovo izkoriščanje Licencirani pravic.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             Pravice na patentih in znamkah niso predmet te Licence.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Kolikor je zakonsko mogoče, se Dajalec licence odpoveduje pravici do nadomestila za izkoriščanje Licenciranih pravic, ki se uveljavljajo neposredno ali preko kolektivne organizacije v skladu s prostovoljnim ali obveznim kolektivnim upravljanjem. V vseh drugih primerih si Dajalec licence izrecno pridružuje vse pravice do tovrstnih nadomestil.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           Oddelek 3 – Pogoji Licence
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Uporabnik lahko izkorišča Licencirane pravice izključno pod naslednjimi pogoji.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Priznanje avtorstva
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              Če uporabnik Deli Licencirane vsebine (tudi v spremenjeni obliki), mora:
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               ohraniti naslednje podatke, če so priloženi s strani Dajalca licence skupaj z Licenciranimi vsebinami:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 identifikacijo ustvarjalca (ustvarjalcev) Licenciranih vsebin in drugih, katerim je potrebno priznati avtorstvo, na razumen način v skladu z zahtevo Dajalca licence (kar vključuje tudi psevdonim, če je bil ta naveden);
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 obvestilo o avtorskih pravicah;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 obvestilo, ki se nanaša na to Licenco;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 obvestilo, ki se nanaša na izjavo o jamstvih;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 URI ali hiperpovezavo do Licencirane vsebine, kolikor je to razumno mogoče;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               navesti, da je spremenil Licencirano vsebino in obdržati navedbo morebitnih prejšnjih sprememb; in
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               navesti, da je vsebina licencirana pod to Licenco in vključiti besedilo ali URI ali hiperpovezavo do te Licence.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Uporabnik lahko zadosti pogojem iz Oddelka
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             na kakršenkoli razumen način, glede na medij, sredstva in kontekst, v katerem Uporabnik Deli Licencirano vsebino. Na primer, pogojem je mogoče razumno zadostiti z vključitvijo URI-ja ali hiperpovezave do vira, kjer se nahajajo potrebni podatki.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a3">
-             Če tako zahteva Dajalec licence, mora Uporabnik odstraniti vse informacije iz Oddelka
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             , kolikor je to razumno mogoče.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s3b">
-           <strong>
-            Deljenje pod enakimi pogoji
-           </strong>
-           .
-           <p class="padding-top-normal padding-bottom-normal">
-            Če Uporabnik Deli Predelane vsebine, ki jih ustvari, veljajo poleg pogojev iz Oddelka
-            <a href="#s3a">
-             3(a)
-            </a>
-            , še naslednji pogoji.
-           </p>
-           <ol class="padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s3b1">
-             Izbrana Predelovalčeva licenca mora biti ta ali kasnejša verzija Creative Commons licence z enakimi Elementi licence ali BY-SA kompatibilna licenca.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3b2">
-             Uporabnik mora navesti besedilo, URI ali hiperpovezavo do izbrane Predelovalčeve licence. Temu pogoju je mogoče zadostiti na kakršenkoli primeren način glede na medij, sredstva in kontekst, v katerem se Deli Predelana vsebina.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3b3">
-             Uporabnik ne sme ponuditi ali zahtevati dodatnih ali drugačnih pogojev ali uporabiti kakršnihkoli Tehnoloških ukrepov na Predelanih vsebinah, ki omejujejo izkoriščanje pravic iz izbrane Predelovalčeve licence.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           Oddelek 4 - Sui generis pravice na podatkovnih bazah
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Kadar Licencirane pravice vključujejo Sui generis pravice na podatkovnih bazah, ki se nanašajo na uporabo Licencirane vsebine:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           Šteje, da se v Oddelku
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           Uporabniku podeljuje pravica do ustvarjanja izvlečkov, ponovne uporabe, reproduciranja in Deljenja vseh ali znatnega dela vsebin v tej podatkovni bazi.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           Če Uporabnik vključi vse ali znaten del vsebine podatkovne baze v lastno podatkovno bazo, na kateri ima Sui generis pravice na podatkovnih bazah, potem se šteje, da je ta Uporabnikova podatkovna baza (ne pa tudi posamezni elementi njene vsebine) Predelana vsebina, vključno za namene Oddelka
-           <a href="#s3b">
-            3(b)
-           </a>
-           ; in
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Uporabnik mora ravnati v skladu s pogoji v Oddelku
-           <a href="#s3a">
-            3(a)
-           </a>
-           , če Deli vse ali znaten del vsebin, ki jih vsebuje podatkovna baza.
-          </li>
-         </ol>
-         <span class="body-big">
-          V izogib dvomu je Oddelek
-          <a href="#s4">
-           4
-          </a>
-          dodatek in ne nadomešča dolžnosti Uporabnika v skladu s to Licenco, kadar Licencirane pravice vključujejo druge Avtorske in podobne pravice.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           Oddelek 5 – Izjava o jamstvih in omejitev odgovornosti
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Razen v primeru, kadar se je Dajalec licence posebej zavezal drugače, daje Dajalec licence Licencirano vsebino na voljo “kot je” in ne daje nobenih zagotovil ali jamstev, izrecnih, implicitnih, zakonskih ali drugih, glede Licenciranih vsebin. To vključuje zlasti jamstva glede pravnih napak, primernosti za prodajo, primernosti za določen namen, kršitev pravic, odsotnosti skritih ali drugih okvar, točnosti ter glede prisotnosti ali odsotnosti napak, znanih ali neznanih ali takšnih, ki bi jih bilo mogoče odkriti. Kadar izjava o jamstvih v celoti ali delno ni v skladu z zakonom, ta izjava za Uporabnika ne velja.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Kolikor je zakonsko mogoče, Dajalec licence ne odgovarja Uporabniku po katerikoli pravni teoriji (tudi ne iz malomarnosti) ali kako drugače za kakršnokoli direktno, posebno, indirektno, naključno, posledično, kazensko, kaznovalno ali drugo izgubo, stroške, izdatke ali škodo, ki izhaja iz te Licence ali iz uporabe Licencirane vsebine, tudi če je bil Dajalec licence opozorjen na možnosti takšne izgube, stroškov, izdatkov ali škode. Kadar omejitev odgovornosti v celoti ali delno ni v skladu z zakonom, ta omejitev za Uporabnika ne velja.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Zgornja izjava o jamstvih in omejitvi odgovornosti se razlaga tako, da se, kolikor je zakonsko mogoče, približuje celotni odpovedi jamstva in odgovornosti.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           Oddelek 6 – Trajanje in prenehanje veljavnosti
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           Ta Licenca velja za čas trajanja Avtorske in podobnih pravic, ki so z njo licencirane. V primeru, da Uporabnik krši določila te Licence, pravice, podeljene Uporabniku s to Licenco, samodejno prenehajo.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Kadar je Uporabnikova pravica uporabe Licencirane vsebine prenehala v skladu z Oddelkom 6(a), se obnovi:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             samodejno, z datumom, ko se kršitev odpravi, pod pogojem, da se odpravi v roku 30 dni po tem, ko Uporabnik odkrije kršitev, ali
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             po izrecni obnovitvi s strani Dajalca licence.
-            </li>
-           </ol>
-           V izogib dvomu, Oddelek
-           <a href="#s6b">
-            6(b)
-           </a>
-           ne vpliva na pravice Dajalca licence, da uveljavlja pravna sredstva zaradi Uporabnikovih kršitev te Licence.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           V izogib dvomu, Dajalec licence lahko kadarkoli ponudi Licencirano vsebino tudi pod drugačnimi pogoji ali kadarkoli preneha ponujati Licencirano vsebino; vendar ta dejanja ne prekinejo trajanja te Licence.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           Oddelki
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           in
-           <a href="#s8">
-            8
-           </a>
-           ostanejo v veljavi tudi po prenehanju te Licence.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           Oddelek 7 – Druge določbe in pogoji
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Dajalca licence ne zavezujejo nobeni dodatni ali drugačni pogoji, ki jih postavi Uporabnik, razen če se Dajalec licence z njimi izrecno strinja.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Vsi dogovori ali sporazumi v zvezi z Licencirano vsebino, ki niso navedeni v tej Licenci, niso predmet te Licence.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           Oddelek 8 – Razlaga
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           V izogib dvomu se ta Licenca ne sme razlagati na način, da zmanjšuje, omejuje ali postavlja pogoje glede kakršnekoli uporabe Licencirane vsebine, ki se v skladu z veljavno zakonodajo lahko vrši brez dovoljenja, podeljenega s to Licenco.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Če je katerakoli določba te Licence neveljavna ali neizvršljiva, se samodejno spremeni le toliko, kolikor je nujno, da postane veljavna in izvršljiva. Če se določba ne more spremeniti, se izloči iz te Licence, brez da bi vplivala na veljavnost preostalih določb in pogojev.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Odpoved katerikoli določbi ali pogoju iz te Licence ali soglasje h kršitvam katerekoli določbe ali pogoja sta veljavna samo, če Dajalec licence s tem izrecno soglaša.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Nič v tej Licenci se ne sme razlagati kot omejitev ali odpoved kakršnimkoli pravicam ali imunitetam, ki se nanašajo na Dajalca licence ali Uporabnika, vključno s postopki pred sodnimi ali drugimi pristojnimi organi.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons ni stranka te Licence. Kljub temu se lahko Creative Commons odloči uporabiti eno izmed svojih licenc za vsebine, ki jih objavi, in v takem primeru postane stranka te Licence – Dajalec licence. Besedilo Creative Commons licenc je v javni domeni v skladu s
-        <a href="/publicdomain/zero/1.0/legalcode.sl">
-         CC0 Public Domain Dedication
-        </a>
-        . Razen za namene obveščanja javnosti, da je delo licencirano pod pogoji Creative Commons licence, ali če je to v skladu s splošnimi pogoji Creative Commons, ki se nahajajo na spletni strani
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons ne dovoljuje uporabe varovanega znaka "Creative Commons" ali kateregakoli varovanega znaka ali logotipa Creative Commons brez vnaprejšnjega pisnega soglasja Creative Commons, kar velja tudi za morebitne nedovoljene spremembe katerekoli Creative Commons licence ali drugih dogovorov ali sporazumov glede uporabe licenciranih vsebin. V izogib dvomu ta odstavek ni del licenc.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons najdete na
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.sl">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Uporaba Creative Commons licenc
+     </h2>
+     <p>
+      Creative Commons licence vsebujejo splošne pogoje, pod katerimi lahko ustvarjalci in drugi imetniki pravic delijo izvirna avtorska dela in druge predmete varstva avtorskih in določenih drugih pravic, kot so opredeljene v spodnji licenci. Sledeča pojasnila so namenjena zgolj informiranju, niso izčrpna in niso del licenc.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Pojasnila za dajalce licence
+     </h3>
+     <p>
+      Licence so namenjene tistim, ki so pooblaščeni za dajanje dovoljenj javnosti za uporabo vsebin na načine, ki so drugače omejeni z avtorsko pravico in določenimi drugimi pravicami. Licence so nepreklicne. Dajalci licence naj preberejo ter razumejo pogoje licence, ki jo izberejo, preden jo uporabijo. Dajalci licence naj si tudi zagotovijo vse potrebne pravice, preden uporabijo licence, tako da lahko uporabniki uporabljajo vsebine na pričakovan način. Dajalci licence naj jasno označijo vse vsebine, ki niso predmet izbrane licence. To vključuje vsebine, ki so na voljo pod drugo CC-licenco, ali vsebine, ki so uporabljene na podlagi izjem ali omejitev avtorske pravice.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Več pojasnil za dajalce licence.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Pojasnila za javnost
+     </h3>
+     <p>
+      Z uporabo licenc daje dajalec licence javno dovoljenje za uporabo licencirane vsebine pod določenimi pogoji. Če dovoljenje dajalca licence zaradi kateregakoli razloga ni potrebno – npr. zaradi možnosti uporabe vsebine na podlagi izjeme ali omejitve avtorske pravice – potem licenca ne ureja tovrstne uporabe. Licence dajejo zgolj dovoljenja, ki jih dajalec licence v skladu z avtorskimi in določenimi drugimi pravicami, lahko podeli. Uporaba licenciranih vsebin je lahko še vedno omejena zaradi drugih razlogov, tudi zaradi tega, ker imajo druge osebe avtorske ali druge pravice na teh vsebinah. Dajalec licence lahko postavi posebne zahteve, npr. prosi, da se vse spremembe označijo ali opišejo. Čeprav licence tega ne določajo, vas spodbujamo k spoštovanju teh zahtev, kadar je to razumno mogoče.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Več pojasnil za javnost.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna
+     </h2>
+     <p>
+      Z uveljavljanjem Licenciranih pravic (definirane spodaj) Uporabnik sprejme in se strinja, da ga zavezujejo pogoji te Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodne licence (“Licenca”). Kolikor je mogoče to Licenco smatrati kot pogodbo, se Uporabniku zagotovijo licencirane pravice v zameno za sprejem licenčnih pogojev, Dajalec licence pa Uporabniku zagotovi te pravice v zameno za koristi, ki jih prejme od dajanja Licenciranih vsebin na voljo pod temi pogoji.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      Oddelek 1 - Definicije
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Predelane vsebine
+       </span>
+       pomeni vsebine, ki so predmet Avtorske in podobnih pravic in izhajajo ali so osnovane na Licenciranih vsebinah in v katerih so Licencirane vsebine prevedene, aranžirane ali kakorkoli spremenjene, na način, ki zahteva dovoljenje v skladu z Avtorskimi in podobnimi pravicami, ki pripadajo Dajalcu licence. Kadar je Licencirana vsebina glasbeno delo, izvedba ali zvočni posnetek, se za namene te licence šteje, da so zmeraj ustvarjene Predelane vsebine, kadar je Licencirana vsebina časovno usklajena z gibljivo sliko.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Predelovalčeva licenca
+       </span>
+       pomeni licenco, ki jo Uporabnik uporabi za Avtorske in podobne pravice na svojih prispevkih k Predelanim vsebinam v skladu s pogoji te Licence.
+      </li>
+      <li id="s1c_by_sa_compatible_license">
+       <span style="text-decoration: underline;">
+        BY-SA kompatibilna licenca
+       </span>
+       pomeni licenco iz seznama
+       <a href="//creativecommons.org/compatiblelicenses">
+        creativecommons.org/compatiblelicenses
+       </a>
+       , ki jo Creative Commons priznava kot bistveno enakovredno tej Licenci.
+      </li>
+      <li id="s1d_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Avtorska in podobne pravice
+       </span>
+       pomeni avtorsko in/ali podobne pravice, ki so sorodne avtorski, vključno z, a ne omejeno na pravice, ki izvirajo iz izvedbe, transmisije in zvočnega snemanja ter sui generis pravice izdelovalcev podatkovnih baz, ne glede na to kako so te pravice poimenovane ali kategorizirane. Za namene te Licence pravice, ki so določene v Oddelku
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       , niso Avtorske in podobne pravice.
+      </li>
+      <li id="s1e_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Tehnološki ukrepi
+       </span>
+       pomenijo ukrepe, ki jih brez ustreznega dovoljenja ni dopustno zaobiti, v skladu z zakoni, ki izpolnjujejo zaveze iz 11. člena Pogodbe WIPO o avtorski pravici z dne 20. decembra 1996 in/ali podobnih mednarodnih pogodb.
+      </li>
+      <li id="s1f_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Izjeme in omejitve
+       </span>
+       pomenijo uporabo, skladno z načeloma "fair use" in "fair dealing", in/ali druge izjeme ali omejitve Avtorske in podobnih pravic, ki se nanašajo na uporabo Licenciranih vsebin.
+      </li>
+      <li id="s1g_license_elements_sa">
+       <span style="text-decoration: underline;">
+        Elementi licence
+       </span>
+       pomeni lastnosti licence, naštete v naslovu Creative Commons licence. Elementi te Licence so Priznanje avtorstva in Deljenje pod enakimi pogoji.
+      </li>
+      <li id="s1h_licensed_material">
+       <span style="text-decoration: underline;">
+        Licencirana vsebina
+       </span>
+       pomeni umetniško, literarno ali znanstveno delo, sui generis podatkovno bazo ali drugo vsebino, ki jo Dajalec licence ponuja pod pogoji te Licence.
+      </li>
+      <li id="s1i_licensed_rights">
+       <span style="text-decoration: underline;">
+        Licencirane pravice
+       </span>
+       pomeni pravice, ki so Uporabniku podeljene v skladu s pogoji te Licence in so omejene na vse Avtorske in podobne pravice, ki se nanašajo na uporabo Licencirane vsebine, in ki jih Dajalec licence lahko licencira.
+      </li>
+      <li id="s1j_licensor">
+       <span style="text-decoration: underline;">
+        Dajalec licence
+       </span>
+       pomeni fizično ali pravno osebo, ki podeljuje pravice pod pogoji te Licence.
+      </li>
+      <li id="s1k_share">
+       <span style="text-decoration: underline;">
+        Deliti
+       </span>
+       pomeni posredovati vsebine javnosti s kakršnimikoli sredstvi in procesi, za katere je potrebno dovoljenje v skladu z Licenciranimi pravicami, kot je npr. reproduciranje, javno prikazovanje, javno izvajanje, distribuiranje, razširjanje, priobčitev javnosti ali uvažanje, ter dajanje na voljo javnosti, tudi na način, ki omogoča posameznikom dostop do vsebine s kraja in v času, ki ju sami izberejo.
+      </li>
+      <li id="s1l_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Sui generis pravice na podatkovnih bazah
+       </span>
+       pomenijo pravice, ki niso avtorske in izhajajo iz Direktive 96/9/EC Evropskega parlamenta in Sveta z dne 11. marca 1996 o pravnem varstvu baz podatkov, s spremembami in/ali nasledstvi, kot tudi druge bistveno enakovredne pravice kjerkoli po svetu.
+      </li>
+      <li id="s1m_you">
+       <span style="text-decoration: underline;">
+        Uporabnik
+       </span>
+       je fizična ali pravna oseba, ki izkorišča Licencirane pravice iz te Licence.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      Oddelek 2 – Obseg
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Podelitev licence
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         V skladu s pogoji te Licence, Dajalec licence podeljuje Uporabniku teritorialno neomejeno, brezplačno, neprenosljivo, neizključno in nepreklicno licenco za izkoriščanje naslednjih Licenciranih pravic na Licencirani vsebini:
+         <ol type="A">
+          <li id="s2a1A">
+           reproduciranje in Deljenje Licencirane vsebine v celoti ali delno; in
+          </li>
+          <li id="s2a1B">
+           stvaritev, reproduciranje in Deljenje Predelanih vsebin.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Izjeme in omejitve
+         </strong>
+         . V izogib dvomu, kadar je uporaba Licencirane vsebine mogoča na podlagi Izjem in omejitev, se ta Licenca ne uporablja in Uporabniku ni potrebno ravnati v skladu s pogoji te Licence.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Trajanje
+         </strong>
+         . Trajanje te Licence je določeno v Oddelku
+         <a href="#s6a">
+          6(a)
+         </a>
+         .
+        </li>
+        <li id="s2a4">
+         <strong>
+          Mediji in formati; dovoljene tehnične spremembe
+         </strong>
+         . Dajalec licence dovoljuje Uporabniku izkoriščanje Licenciranih pravic v vseh medijih in formatih, znanih ali ustvarjenih kasneje, in izvedbo tehničnih sprememb, kadar je to potrebno. Dajalec licence se odpoveduje in/ali se strinja, da ne bo uveljavljal nobene pravice, ki bi Uporabniku preprečila izvedbo tehničnih sprememb, ki so potrebne za izkoriščanje Licenciranih pravic, vključno s tehničnimi spremembami, ki so potrebne za zaobid Tehnoloških ukrepov. Za namene te Licence, izvajanje sprememb, ki so dovoljene v skladu s tem Oddelkom
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         , ne pomeni ustvarjanja Predelanih vsebin.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Nadaljnji prejemniki
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Ponudba Dajalca licence – Licencirane vsebine
+           </span>
+           . Vsak prejemnik Licencirane vsebine samodejno prejme ponudbo Dajalca licence za izkoriščanje Licenciranih pravic pod pogoji te Licence.
+          </li>
+          <li id="s2a5B_adapted_material">
+           <span style="text-decoration: underline;">
+            Dodatna ponudba Dajalca licence – Predelane vsebine
+           </span>
+           . Vsak prejemnik Predelanih vsebin samodejno prejme ponudbo Dajalca licence za izkoriščanje Licenciranih pravic na Predelanih vsebinah pod pogoji Predelovalčeve licence, ki jo Uporabnik izbere.
+          </li>
+          <li id="s2a5C_no_restrictions">
+           <span style="text-decoration: underline;">
+            Brez omejitev za nadaljnje prejemnike
+           </span>
+           . Uporabnik ne sme dodati ali zahtevati dodatnih ali drugačnih pogojev ali uporabiti kakršnihkoli Tehnoloških ukrepov na Licenciranih vsebinah, če ta dejanja omejujejo izkoriščanje Licenciranih pravic s strani kateregakoli prejemnika Licenciranih vsebin.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Brez odobritev
+         </span>
+         . Nič v tej Licenci ne predstavlja in se ne sme razlagati kot dovoljenje za trditev ali namigovanje, da je Uporabnik ali njegova uporaba Licencirane vsebine povezana z Dajalcem licence, sponzorirana ali da ji je bil podeljen uradni status s strani Dajalca licence ali drugih, ki jim je potrebno priznati avtorstvo v skladu z Oddelkom
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         .
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Druge pravice
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Moralne pravice, kot je npr. pravica spoštovanja dela, se ne licencirajo s to Licenco. Prav tako se ne licencirajo pravica do zasebnosti in/ali druge osebnostne pravice, vendar se, kolikor je to zakonsko mogoče, Dajalec licence odpoveduje in/ali se strinja, da ne bo uveljavljal teh pravic, ki mu pripadajo, v obsegu, ki je potreben za Uporabnikovo izkoriščanje Licencirani pravic.
+        </li>
+        <li id="s2b2">
+         Pravice na patentih in znamkah niso predmet te Licence.
+        </li>
+        <li id="s2b3">
+         Kolikor je zakonsko mogoče, se Dajalec licence odpoveduje pravici do nadomestila za izkoriščanje Licenciranih pravic, ki se uveljavljajo neposredno ali preko kolektivne organizacije v skladu s prostovoljnim ali obveznim kolektivnim upravljanjem. V vseh drugih primerih si Dajalec licence izrecno pridružuje vse pravice do tovrstnih nadomestil.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      Oddelek 3 – Pogoji Licence
+     </h3>
+     <p>
+      Uporabnik lahko izkorišča Licencirane pravice izključno pod naslednjimi pogoji.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Priznanje avtorstva
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          Če uporabnik Deli Licencirane vsebine (tudi v spremenjeni obliki), mora:
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           ohraniti naslednje podatke, če so priloženi s strani Dajalca licence skupaj z Licenciranimi vsebinami:
+           <ol type="i">
+            <li id="s3a1Ai">
+             identifikacijo ustvarjalca (ustvarjalcev) Licenciranih vsebin in drugih, katerim je potrebno priznati avtorstvo, na razumen način v skladu z zahtevo Dajalca licence (kar vključuje tudi psevdonim, če je bil ta naveden);
+            </li>
+            <li id="s3a1Aii">
+             obvestilo o avtorskih pravicah;
+            </li>
+            <li id="s3a1Aiii">
+             obvestilo, ki se nanaša na to Licenco;
+            </li>
+            <li id="s3a1Aiv">
+             obvestilo, ki se nanaša na izjavo o jamstvih;
+            </li>
+            <li id="s3a1Av">
+             URI ali hiperpovezavo do Licencirane vsebine, kolikor je to razumno mogoče;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           navesti, da je spremenil Licencirano vsebino in obdržati navedbo morebitnih prejšnjih sprememb; in
+          </li>
+          <li id="s3a1C">
+           navesti, da je vsebina licencirana pod to Licenco in vključiti besedilo ali URI ali hiperpovezavo do te Licence.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Uporabnik lahko zadosti pogojem iz Oddelka
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         na kakršenkoli razumen način, glede na medij, sredstva in kontekst, v katerem Uporabnik Deli Licencirano vsebino. Na primer, pogojem je mogoče razumno zadostiti z vključitvijo URI-ja ali hiperpovezave do vira, kjer se nahajajo potrebni podatki.
+        </li>
+        <li id="s3a3">
+         Če tako zahteva Dajalec licence, mora Uporabnik odstraniti vse informacije iz Oddelka
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         , kolikor je to razumno mogoče.
+        </li>
+       </ol>
+      </li>
+      <li id="s3b">
+       <strong>
+        Deljenje pod enakimi pogoji
+       </strong>
+       .
+       <p>
+        Če Uporabnik Deli Predelane vsebine, ki jih ustvari, veljajo poleg pogojev iz Oddelka
+        <a href="#s3a">
+         3(a)
+        </a>
+        , še naslednji pogoji.
+       </p>
+       <ol>
+        <li id="s3b1">
+         Izbrana Predelovalčeva licenca mora biti ta ali kasnejša verzija Creative Commons licence z enakimi Elementi licence ali BY-SA kompatibilna licenca.
+        </li>
+        <li id="s3b2">
+         Uporabnik mora navesti besedilo, URI ali hiperpovezavo do izbrane Predelovalčeve licence. Temu pogoju je mogoče zadostiti na kakršenkoli primeren način glede na medij, sredstva in kontekst, v katerem se Deli Predelana vsebina.
+        </li>
+        <li id="s3b3">
+         Uporabnik ne sme ponuditi ali zahtevati dodatnih ali drugačnih pogojev ali uporabiti kakršnihkoli Tehnoloških ukrepov na Predelanih vsebinah, ki omejujejo izkoriščanje pravic iz izbrane Predelovalčeve licence.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      Oddelek 4 - Sui generis pravice na podatkovnih bazah
+     </h3>
+     <p>
+      Kadar Licencirane pravice vključujejo Sui generis pravice na podatkovnih bazah, ki se nanašajo na uporabo Licencirane vsebine:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       Šteje, da se v Oddelku
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       Uporabniku podeljuje pravica do ustvarjanja izvlečkov, ponovne uporabe, reproduciranja in Deljenja vseh ali znatnega dela vsebin v tej podatkovni bazi.
+      </li>
+      <li id="s4b">
+       Če Uporabnik vključi vse ali znaten del vsebine podatkovne baze v lastno podatkovno bazo, na kateri ima Sui generis pravice na podatkovnih bazah, potem se šteje, da je ta Uporabnikova podatkovna baza (ne pa tudi posamezni elementi njene vsebine) Predelana vsebina, vključno za namene Oddelka
+       <a href="#s3b">
+        3(b)
+       </a>
+       ; in
+      </li>
+      <li id="s4c">
+       Uporabnik mora ravnati v skladu s pogoji v Oddelku
+       <a href="#s3a">
+        3(a)
+       </a>
+       , če Deli vse ali znaten del vsebin, ki jih vsebuje podatkovna baza.
+      </li>
+     </ol>
+     <p>
+      V izogib dvomu je Oddelek
+      <a href="#s4">
+       4
+      </a>
+      dodatek in ne nadomešča dolžnosti Uporabnika v skladu s to Licenco, kadar Licencirane pravice vključujejo druge Avtorske in podobne pravice.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      Oddelek 5 – Izjava o jamstvih in omejitev odgovornosti
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Razen v primeru, kadar se je Dajalec licence posebej zavezal drugače, daje Dajalec licence Licencirano vsebino na voljo “kot je” in ne daje nobenih zagotovil ali jamstev, izrecnih, implicitnih, zakonskih ali drugih, glede Licenciranih vsebin. To vključuje zlasti jamstva glede pravnih napak, primernosti za prodajo, primernosti za določen namen, kršitev pravic, odsotnosti skritih ali drugih okvar, točnosti ter glede prisotnosti ali odsotnosti napak, znanih ali neznanih ali takšnih, ki bi jih bilo mogoče odkriti. Kadar izjava o jamstvih v celoti ali delno ni v skladu z zakonom, ta izjava za Uporabnika ne velja.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Kolikor je zakonsko mogoče, Dajalec licence ne odgovarja Uporabniku po katerikoli pravni teoriji (tudi ne iz malomarnosti) ali kako drugače za kakršnokoli direktno, posebno, indirektno, naključno, posledično, kazensko, kaznovalno ali drugo izgubo, stroške, izdatke ali škodo, ki izhaja iz te Licence ali iz uporabe Licencirane vsebine, tudi če je bil Dajalec licence opozorjen na možnosti takšne izgube, stroškov, izdatkov ali škode. Kadar omejitev odgovornosti v celoti ali delno ni v skladu z zakonom, ta omejitev za Uporabnika ne velja.
+       </strong>
+      </li>
+      <li id="s5c">
+       Zgornja izjava o jamstvih in omejitvi odgovornosti se razlaga tako, da se, kolikor je zakonsko mogoče, približuje celotni odpovedi jamstva in odgovornosti.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      Oddelek 6 – Trajanje in prenehanje veljavnosti
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       Ta Licenca velja za čas trajanja Avtorske in podobnih pravic, ki so z njo licencirane. V primeru, da Uporabnik krši določila te Licence, pravice, podeljene Uporabniku s to Licenco, samodejno prenehajo.
+      </li>
+      <li id="s6b">
+       <p>
+        Kadar je Uporabnikova pravica uporabe Licencirane vsebine prenehala v skladu z Oddelkom 6(a), se obnovi:
+       </p>
+       <ol>
+        <li id="s6b1">
+         samodejno, z datumom, ko se kršitev odpravi, pod pogojem, da se odpravi v roku 30 dni po tem, ko Uporabnik odkrije kršitev, ali
+        </li>
+        <li id="s6b2">
+         po izrecni obnovitvi s strani Dajalca licence.
+        </li>
+       </ol>
+       <p>
+        V izogib dvomu, Oddelek
+        <a href="#s6b">
+         6(b)
+        </a>
+        ne vpliva na pravice Dajalca licence, da uveljavlja pravna sredstva zaradi Uporabnikovih kršitev te Licence.
+       </p>
+      </li>
+      <li id="s6c">
+       V izogib dvomu, Dajalec licence lahko kadarkoli ponudi Licencirano vsebino tudi pod drugačnimi pogoji ali kadarkoli preneha ponujati Licencirano vsebino; vendar ta dejanja ne prekinejo trajanja te Licence.
+      </li>
+      <li id="s6d">
+       Oddelki
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       in
+       <a href="#s8">
+        8
+       </a>
+       ostanejo v veljavi tudi po prenehanju te Licence.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      Oddelek 7 – Druge določbe in pogoji
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Dajalca licence ne zavezujejo nobeni dodatni ali drugačni pogoji, ki jih postavi Uporabnik, razen če se Dajalec licence z njimi izrecno strinja.
+      </li>
+      <li id="s7b">
+       Vsi dogovori ali sporazumi v zvezi z Licencirano vsebino, ki niso navedeni v tej Licenci, niso predmet te Licence.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      Oddelek 8 – Razlaga
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       V izogib dvomu se ta Licenca ne sme razlagati na način, da zmanjšuje, omejuje ali postavlja pogoje glede kakršnekoli uporabe Licencirane vsebine, ki se v skladu z veljavno zakonodajo lahko vrši brez dovoljenja, podeljenega s to Licenco.
+      </li>
+      <li id="s8b">
+       Če je katerakoli določba te Licence neveljavna ali neizvršljiva, se samodejno spremeni le toliko, kolikor je nujno, da postane veljavna in izvršljiva. Če se določba ne more spremeniti, se izloči iz te Licence, brez da bi vplivala na veljavnost preostalih določb in pogojev.
+      </li>
+      <li id="s8c">
+       Odpoved katerikoli določbi ali pogoju iz te Licence ali soglasje h kršitvam katerekoli določbe ali pogoja sta veljavna samo, če Dajalec licence s tem izrecno soglaša.
+      </li>
+      <li id="s8d">
+       Nič v tej Licenci se ne sme razlagati kot omejitev ali odpoved kakršnimkoli pravicam ali imunitetam, ki se nanašajo na Dajalca licence ali Uporabnika, vključno s postopki pred sodnimi ali drugimi pristojnimi organi.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons ni stranka te Licence. Kljub temu se lahko Creative Commons odloči uporabiti eno izmed svojih licenc za vsebine, ki jih objavi, in v takem primeru postane stranka te Licence – Dajalec licence. Besedilo Creative Commons licenc je v javni domeni v skladu s
+      <a href="/publicdomain/zero/1.0/legalcode.sl">
+       CC0 Public Domain Dedication
+      </a>
+      . Razen za namene obveščanja javnosti, da je delo licencirano pod pogoji Creative Commons licence, ali če je to v skladu s splošnimi pogoji Creative Commons, ki se nahajajo na spletni strani
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons ne dovoljuje uporabe varovanega znaka "Creative Commons" ali kateregakoli varovanega znaka ali logotipa Creative Commons brez vnaprejšnjega pisnega soglasja Creative Commons, kar velja tudi za morebitne nedovoljene spremembe katerekoli Creative Commons licence ali drugih dogovorov ali sporazumov glede uporabe licenciranih vsebin. V izogib dvomu ta odstavek ni del licenc.
+     </p>
+     <p>
+      Creative Commons najdete na
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

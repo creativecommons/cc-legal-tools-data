@@ -4,419 +4,576 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY 2.0 KR 이용허락규약 — 저작자표시 2.0 대한민국 — Creative Commons
+   CC BY 2.0 KR 이용허락규약 | 저작자표시 2.0 대한민국
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by/2.0/kr/legalcode.ko" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Skip to content
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Skip to content
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        홈
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by/2.0/kr/legalcode.ko">
-        CC BY 2.0 KR 이용허락규약
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
+       </a>
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY 2.0 KR 이용허락규약
+    </h1>
+    <h2>
+     저작자표시 2.0 대한민국
+    </h2>
+   </header>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.ko">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 2.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
+      </a>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/legalcode.ko">
+       CC BY 4.0 이용허락규약 | 저작자표시 4.0 국제
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <div id="plain-text-marker">
+      <h2 class="padding-bottom-normal b-header">
+       저작자표시 2.0
+       <div id="deed">
+        <div class="text">
+         <div class="fineprint" style="background:none;">
+          ‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 법률사무소 또는 법률회사가 아닙니다. 본 이용허락규약을 배포한다고 해서 법률 서비스가 제공되는 관계가 발생하는 것은 아닙니다. ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는 본 이용허락규약상의 정보를 있는 그대로 제공하는 것이지, 이러한 정보에 관하여 보증을 하거나 이를 이용함으로써 야기되는 손해에 대하여 책임을 부담하지는 않습니다.
+         </div>
+         <p>
+          <em>
+           이용허락
+          </em>
+         </p>
+         <p>
+          저작물(본 이용허락에서 정의됨)은 본 '크리에이티브 커먼즈 코리아의 일반이용허락(Creative Commons Korea Public License, 이하 “이용허락”)'의 조건에 따라 제공됩니다. 저작물은 저작권법 및/또는 기타의 법에 의하여 보호됩니다. 본 이용허락 또는 저작권법에 따라 허용된 것 이외의 저작물의 이용은 금지됩니다.
+         </p>
+         <p>
+          귀하(본 이용허락에서 정의됨)는, 본 이용허락에 따라 저작물을 이용하기 위한 권리를 행사함으로써, 본 이용허락의 조건을 수용하고 이에 동의한 것으로 됩니다. 이용허락자는, 귀하가 본 이용허락의 조건을 수용하는 것을 조건으로 하여, 본 이용허락에 따라 저작물을 이용하기 위한 권리를 부여합니다.
+         </p>
+         <p>
+          <strong>
+           1. 정의
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           <strong>
+            "2차적 저작물"
+           </strong>
+           은 원저작물을 번역·편곡·변형·각색·영상제작 그 밖의 방법으로 작성한 창작물을 의미합니다. 그러나 편집저작물 및 데이터베이스를 구성하는 저작물은 본 이용허락을 적용함에 있어서 2차적 저작물이 되지 않습니다.
+          </li>
+          <li>
+           <strong>
+            "이용허락자"
+           </strong>
+           는 본 이용허락의 조건에 따라 저작물을 제공하는 개인 또는 단체를 의미합니다.
+          </li>
+          <li>
+           <strong>
+            "원저작자"
+           </strong>
+           는 저작물을 창작한 개인 또는 단체를 의미합니다.
+          </li>
+          <li>
+           <strong>
+            "저작물"
+           </strong>
+           은 본 이용허락의 조건에 따라 제공되는 것으로서 저작권에 의하여 보호되는 저작물을 의미합니다.
+          </li>
+          <li>
+           <strong>
+            "저작인접물"
+           </strong>
+           은 저작인접권의 대상인 실연·음반·방송을 의미하며, 본 이용허락이 달리 정하지 않는 한, 저작물에 포함되는 것으로 봅니다.
+          </li>
+          <li>
+           귀하는 저작물에 관한 본 이용허락의 조건을 이전에 위반하지 않은 자로서 본 이용허락에 따라 권리를 행사하는 개인이나 단체, 또는 이전에 위반을 하였으나 이용허락자로부터 본 이용허락에 따라 권리를 행사하는 것을 명시적으로 허락받은 개인이나 단체를 의미합니다.
+          </li>
+          <li>
+           본 이용허락은 이용허락자가 선정하고 본 이용허락의 표지에 표시되어 있는 저작자의 표시(Attribution)에 바탕을 둔 본 이용허락의 조건에 따라 저작물을 이용할 수 있습니다.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           2. 저작권의 제한
+          </strong>
+         </p>
+         <p>
+          본 이용허락의 어떠한 조항도 최초판매의 원칙을 비롯한, 저작권법 또는 기타 법률에 의하여 인정되는 저작권자의 배타적인 권리의 제한에 따르는 귀하의 이익을 축소 또는 제한하거나 금지하지 않습니다.
+         </p>
+         <p>
+          <strong>
+           3. 이용허락
+          </strong>
+         </p>
+         <p>
+          본 이용허락의 조건에 따라 이용허락자는, 다음과 같이 (저작권의 존속기간동안) 귀하가 저작물을 이용하도록, 저작물의 전세계적, 무상, 비배타적, 영구적인 이용을 허락합니다.
+         </p>
+         <ol type="a">
+          <li>
+           저작물의 복제, 편집저작물을 작성하거나 데이터베이스를 제작하기 위한 저작물의 이용, 편집저작물이나 데이터베이스에 포함되어 있는 저작물의 복제
+          </li>
+          <li>
+           2차적 저작물의 작성 및 복제
+          </li>
+          <li>
+           저작물(편집저작물 또는 데이터베이스에 포함된 저작물을 포함) 및 그 복제물의 배포, 전송, 전시, 공연 및 방송
+          </li>
+          <li>
+           2차적 저작물 및 그 복제물의 배포, 전송, 전시, 공연 및 방송
+          </li>
+         </ol>
+         <p>
+          본 이용허락에 따라 저작물을 이용할 수 있는 권리는 현재 알려져 있거나 장래 개발되는 모든 매체 및 형식으로 행하여질 수 있습니다. 이러한 권리에는 저작물을 각기 다른 매체 및 형식으로 이용하기 위하여 기술적으로 수정하는 것도 포함됩니다. 이용허락자는 본 이용허락에 따른 저작물의 이용에 대하여 저작인격권을 행사하지 않습니다. 본 이용허락에 의하여 이용허락자가 명시적으로 허락하지 않는 저작물의 이용에 관한 권리는 이용허락자에게 유보됩니다.
+         </p>
+         <p>
+          <strong>
+           4. 이용허락의 제한
+          </strong>
+         </p>
+         <p>
+          제3조에 의하여 허여된 이용허락은 다음의 사항에 의하여 명시적으로 제한을 받습니다.
+         </p>
+         <ol type="a">
+          <li>
+           귀하는 본 이용허락의 조건에 따라서만 저작물을 배포, 전송, 전시, 공연 및 방송할 수 있으며, 귀하가 배포, 전송, 전시, 공연 및 방송하는 모든 저작물의 복제물이나 음반에 본 이용허락서의 복제물이나 이에 대한 통일자원식별부호(Uniform Resource Identifier)를 포함시켜야 합니다. 귀하는 본 이용허락의 조건을 변경·제한하거나 배포 등의 상대방에 의한 본 이용허락상의 권리행사를 변경·제한하는 조건을 제공하거나 부과할 수 없습니다. 귀하는 귀하가 이용허락받은 저작물을 다시 이용허락할 수 없습니다. 귀하는 본 이용허락 및 보증의 부인에 대한 모든 표시를 제거 또는 변경시켜서는 안 됩니다. 귀하는 본 이용허락의 조건을 위반하는 방식으로 저작물에 대한 접근이나 저작물의 이용을 통제하는 기술적 보호조치를 이용하여 저작물을 배포, 전송, 전시, 공연 및 방송하여서는 안 됩니다. 이러한 제한은 편집저작물 또는 데이터베이스에 포함되어 있는 저작물에도 적용되지만, 저작물을 포함하고 있는 편집저작물 또는 데이터베이스가 그 저작물과는 별개로 본 이용허락의 조건에 제한받는 것은 아닙니다. 만약 귀하가 편집저작물을 작성하거나 데이터베이스를 제작하였다면, 이용허락자의 통지가 있는 경우, 귀하는, 실행가능한 한도에서, 이용허락자가 통지에 의하여 요청한 바에 따라서 편집저작물 또는 데이터베이스에서 이용허락자나 원저작자를 나타내는 사항을 삭제하여야 합니다.
+          </li>
+          <li>
+           귀하가 저작물, 2차적 저작물, 편집저작물, 데이터베이스를 배포, 전송, 전시, 공연 및 방송하는 경우, 귀하는 저작물에 대한 모든 저작권표시를 제거 또는 변경시켜서는 안 되며, 원저작자의 성명(이명이 있는 경우에는 이명), 저작물의 제호, 합리적으로 가능한 한도에서 이용허락자가 저작물과 연관되는 것을 명기한 통일자원식별부호(통일자원식별부호가 저작물에 대한 저작권표시나 이용허락에 관한 정보와 관련되지 않는 경우에는 제외), (2차적 저작물의 경우에는) 2차적 저작물에 저작물을 이용하였다는 것(예컨대, ‘원저작자의 저작물을 한국어로 번역한 것임’ 또는 ‘원저작자의 저작물에 기초한 각본임’) 등을 표시함으로써, 귀하가 이용하는 매체와 수단에 적합하게 원저작자 및 원저작물에 관한 사항을 표시하여야 합니다. 이러한 표시는 합리적인 모든 방법에 의하여 가능하지만, 2차적 저작물, 편집저작물, 데이터베이스의 경우에는, 최소한 다른 저작자가 표시되는 곳에 표시되고 적어도 다른 저작자가 표시되는 만큼 눈에 띄는 방법으로 표시되어야 합니다.
+          </li>
+          <li>
+           귀하는 저작자의 명예훼손에 해당할 정도로 저작물의 내용, 형식 및 제호의 동일성을 변경하여서는 안 됩니다.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           5. 보증의 부인 및 책임의 제한
+          </strong>
+         </p>
+         <p>
+          당사자간에 서면에 의하여 달리 합의되지 않는 한, 이용허락자는 저작물을 있는 그대로 제공하며 일체의 보증이나 담보책임을 부담하지 않습니다.
+         </p>
+         <p>
+          법이 달리 정하는 경우를 제외하고, 이용허락자는, 본 이용허락이나 저작물의 이용으로부터 야기되는 손해에 대하여 책임을 부담하지 않습니다.
+         </p>
+         <p>
+          <strong>
+           6. 이용허락의 종료
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           본 이용허락 및 이에 의하여 부여되는 권리는 귀하가 본 이용허락의 조건을 위반하는 경우에 자동적으로 종료됩니다. 그러나 본 이용허락에 의하여 귀하로부터 2차적 저작물, 편집저작물, 데이터베이스를 수령한 개인이나 단체에 대해서는, 본 이용허락을 완전히 준수하는 한, 이용허락이 종료되지 않습니다. 제1조, 제2조, 제5조 내지 제8조는 본 이용허락이 종료한 후에도 유효합니다.
+          </li>
+          <li>
+           이용허락의 종료에 관한 이러한 제한이 적용되는 것을 제외하고는, 본 이용허락에 의하여 허여되는 허락은 저작물의 존속기간동안 유효합니다. 그러나 이용허락자는 언제든지 본 이용허락과 다른 조건으로 저작물에 대하여 이용허락하거나 저작물의 배포를 중단시킬 수 있는 권리를 가집니다. 단 이용허락자가 이와 같은 권리를 행사하여도 본 이용허락(또는 본 이용허락의 조건에 따라 허여되었거나 허여될 것이 요구되는 기타의 이용허락)이 철회되는 것은 아니며, 본 이용허락은, 본 이용허락의 종료규정에 의하여 종료되지 않는 한, 계속하여 완전히 유효합니다.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           7. 기타
+          </strong>
+         </p>
+         <ol type="a">
+          <li>
+           귀하가 저작물, 편집저작물, 데이터베이스를 배포 또는 전송하는 경우에는 언제든지, 이용허락자는, 배포 또는 전송받는 자에게, 본 이용허락에 의하여 귀하에게 허여된 이용허락과 동일한 조건에 따라, 저작물에 대한 이용허락을 허여합니다.
+          </li>
+          <li>
+           귀하가 2차적 저작물을 배포 또는 전송하는 경우에는 언제든지, 이용허락자는, 배포 또는 전송받는 자에게, 본 이용허락에 의하여 귀하에게 허여된 이용허락과 동일한 조건에 따라, 원저작물에 대한 이용허락을 허여합니다.
+          </li>
+          <li>
+           본 이용허락의 어떠한 규정이 관련법에 의하여 무효이거나 집행할 수 없게 되는 경우, 이에 의하여 본 이용허락에서 무효나 집행할 수 없게 된 조건 외의 다른 조건의 유효성이나 집행가능성이 영향을 받지 않으며, 무효 및 집행할 수 없게 된 규정은, 이용허락 당사자에 의한 별도의 조치 없이, 유효 및 집행 가능한 것으로 하기 위하여 필요한 최소한의 한도에서 개정된 것으로 해석됩니다.
+          </li>
+          <li>
+           당사자의 서면에 의한 의사표시가 없는 한, 본 이용허락의 조건 또는 규정의 적용을 포기하거나, 위반행위에 대한 권리 주장을 하지 않기로 동의하였다고 간주되지 않습니다.
+          </li>
+          <li>
+           본 이용허락은 이에 의하여 이용허락된 저작물에 관하여 당사자간에 이루어진 모든 합의를 나타냅니다. 본 이용허락에 명시되지 않은 저작물에 관해서는 아무런 양해나 합의나 설명이 이루어진 것이 아닙니다. 이용허락자는 귀하가 어떠한 추가조항의 적용을 통지하여도 이에 구속받지 않습니다. 본 이용허락은 이용허락자와 귀하 상호간에 서면에 의한 합의에 의하지 않고서는 수정될 수 없습니다.
+          </li>
+          <li>
+           본 이용허락은 한국어에 의하여 제공되며, 본 이용허락의 영문판은 한국어판을 해석하는 자료가 되는 것에 불과하며 한국어판과 영문판이 일치하지 않는 경우에는 한국어판이 우선합니다.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           8. 준거법
+          </strong>
+         </p>
+         <p>
+          본 이용허락은 한국법에 의하여 규율되며 이에 근거하여 해석됩니다.
+         </p>
+         <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
+         <div class="fineprint">
+          <p>
+           ‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 본 이용허락의 당사자가 아니며 저작물에 대하여 어떠한 보증도 하지 않습니다. ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는 이용허락과 관련하여 발생하는 어떠한 손해에 대해서도 귀하나 기타의 모든 당사자들에게 책임을 부담하지 않습니다. 그러나 ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’가 스스로를 이용허락자라고 명시한 경우에는 이용허락자로서의 권리 및 의무를 가집니다.
+          </p>
+          <p>
+           저작물이 일반이용허락(CCPL)에 따라 이용허락 되었다는 것을 일반 공중에게 표시하기 위한 목적을 제외하고는, 어느 당사자도, ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’의 서면에 의한 사전 허락이 없이는, ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’라는 상표나 이와 관련되는 상표, 로고를 이용할 수 없습니다. 허락을 받아 이러한 상표 등을 이용하는 경우, 웹사이트에서 공표되거나 기타 요청에 따라서 제공되는 ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’의 상표이용지침을 준수하여야 합니다.
+          </p>
+          <p>
+           ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는
+           <a href="https://creativecommons.org">
+            https://creativecommons.org
+           </a>
+           및
+           <a href="http://creativecommons.or.kr">
+            http://creativecommons.or.kr
+           </a>
+           에서 접속할 수 있습니다.
+          </p>
+         </div>
+         <!-- END CC NOTICE -->
+        </div>
+       </div>
+      </h2>
+     </div>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      크리에이티브 커먼즈는 공중 라이선스의 당사자가 아닙니다. 다만 크리에이티브 커먼즈도 자신이 출판한 저작물에 크리에이티브 커먼즈 공중 라이선스 중 하나를 적용할 수 있으며 그런 경우에는 ‘이용허락자’로 취급됩니다. 크리에이티브 커먼즈 공중 라이선스의 텍스트는
+      <a href="/publicdomain/zero/1.0/legalcode.ko">
+       CC0 퍼블릭 도메인 기증
+      </a>
+      에 따라 퍼블릭 도메인에 기증되었습니다. 크리에이티브 커먼즈는, 크리에이티브 커먼즈 공중 라이선스에 따라 저작물이 공유되거나
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      에 공표된 크리에이티브 커먼즈 정책에 의해서 허가되었음을 나타내는 제한된 목적 외에는, 사전에 서면동의를 받지 않는 한, 이용허락된 저작물의 이용에 관한 공중 라이선스 또는 합의, 이해 또는 동의에 대한 임의적인 변경과 관련된 경우를 포함한 모든 경우에 있어서, ‘Creative Commons’ 상표 또는 크리에이티브 커먼즈의 다른 상표나 로고의 이용을 허락하지 않습니다. 본 문구는 공중 라이선스의 일부를 구성하지 않습니다.
+     </p>
+     <p>
+      크리에이티브 커먼즈 관련 문의는
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      를 통해 할 수 있습니다.
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
+  </main>
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
        </a>
       </li>
      </ul>
     </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
      </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 2.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
-       </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.ko" id="next-btn">
-        See the deed
-       </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY 2.0 KR
-       </h2>
-       <h1 class="b-header">
-        저작자표시 2.0
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY 2.0 KR
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY 2.0 KR
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY 2.0 KR
-       </h4>
-       <h2 class="b-header has-text-centered">
-        저작자표시 2.0
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        면책조항
-       </h4>
-       <p class="has-text-black padding-left-big">
-        This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-        <a href="/version4/">
-         more user-friendly and more internationally robust
-        </a>
-        . If you are
-        <a href="/choose/">
-         licensing your own work
-        </a>
-        , we strongly recommend the use of the 4.0 license instead:
-        <a href="../../4.0/legalcode.ko">
-         저작자표시 4.0 국제
-        </a>
-       </p>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div class="content" id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         저작자표시 2.0
-        </h3>
-        <div id="deed">
-         <div class="text">
-          <div class="fineprint" style="background:none;">
-           ‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 법률사무소 또는 법률회사가 아닙니다. 본 이용허락규약을 배포한다고 해서 법률 서비스가 제공되는 관계가 발생하는 것은 아닙니다. ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는 본 이용허락규약상의 정보를 있는 그대로 제공하는 것이지, 이러한 정보에 관하여 보증을 하거나 이를 이용함으로써 야기되는 손해에 대하여 책임을 부담하지는 않습니다.
-          </div>
-          <p>
-           <em>
-            이용허락
-           </em>
-          </p>
-          <p>
-           저작물(본 이용허락에서 정의됨)은 본 '크리에이티브 커먼즈 코리아의 일반이용허락(Creative Commons Korea Public License, 이하 “이용허락”)'의 조건에 따라 제공됩니다. 저작물은 저작권법 및/또는 기타의 법에 의하여 보호됩니다. 본 이용허락 또는 저작권법에 따라 허용된 것 이외의 저작물의 이용은 금지됩니다.
-          </p>
-          <p>
-           귀하(본 이용허락에서 정의됨)는, 본 이용허락에 따라 저작물을 이용하기 위한 권리를 행사함으로써, 본 이용허락의 조건을 수용하고 이에 동의한 것으로 됩니다. 이용허락자는, 귀하가 본 이용허락의 조건을 수용하는 것을 조건으로 하여, 본 이용허락에 따라 저작물을 이용하기 위한 권리를 부여합니다.
-          </p>
-          <p>
-           <strong>
-            1. 정의
-           </strong>
-          </p>
-          <ol type="a">
-           <li>
-            <strong>
-             "2차적 저작물"
-            </strong>
-            은 원저작물을 번역·편곡·변형·각색·영상제작 그 밖의 방법으로 작성한 창작물을 의미합니다. 그러나 편집저작물 및 데이터베이스를 구성하는 저작물은 본 이용허락을 적용함에 있어서 2차적 저작물이 되지 않습니다.
-           </li>
-           <li>
-            <strong>
-             "이용허락자"
-            </strong>
-            는 본 이용허락의 조건에 따라 저작물을 제공하는 개인 또는 단체를 의미합니다.
-           </li>
-           <li>
-            <strong>
-             "원저작자"
-            </strong>
-            는 저작물을 창작한 개인 또는 단체를 의미합니다.
-           </li>
-           <li>
-            <strong>
-             "저작물"
-            </strong>
-            은 본 이용허락의 조건에 따라 제공되는 것으로서 저작권에 의하여 보호되는 저작물을 의미합니다.
-           </li>
-           <li>
-            <strong>
-             "저작인접물"
-            </strong>
-            은 저작인접권의 대상인 실연·음반·방송을 의미하며, 본 이용허락이 달리 정하지 않는 한, 저작물에 포함되는 것으로 봅니다.
-           </li>
-           <li>
-            귀하는 저작물에 관한 본 이용허락의 조건을 이전에 위반하지 않은 자로서 본 이용허락에 따라 권리를 행사하는 개인이나 단체, 또는 이전에 위반을 하였으나 이용허락자로부터 본 이용허락에 따라 권리를 행사하는 것을 명시적으로 허락받은 개인이나 단체를 의미합니다.
-           </li>
-           <li>
-            본 이용허락은 이용허락자가 선정하고 본 이용허락의 표지에 표시되어 있는 저작자의 표시(Attribution)에 바탕을 둔 본 이용허락의 조건에 따라 저작물을 이용할 수 있습니다.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            2. 저작권의 제한
-           </strong>
-          </p>
-          <p>
-           본 이용허락의 어떠한 조항도 최초판매의 원칙을 비롯한, 저작권법 또는 기타 법률에 의하여 인정되는 저작권자의 배타적인 권리의 제한에 따르는 귀하의 이익을 축소 또는 제한하거나 금지하지 않습니다.
-          </p>
-          <p>
-           <strong>
-            3. 이용허락
-           </strong>
-          </p>
-          <p>
-           본 이용허락의 조건에 따라 이용허락자는, 다음과 같이 (저작권의 존속기간동안) 귀하가 저작물을 이용하도록, 저작물의 전세계적, 무상, 비배타적, 영구적인 이용을 허락합니다.
-          </p>
-          <ol type="a">
-           <li>
-            저작물의 복제, 편집저작물을 작성하거나 데이터베이스를 제작하기 위한 저작물의 이용, 편집저작물이나 데이터베이스에 포함되어 있는 저작물의 복제
-           </li>
-           <li>
-            2차적 저작물의 작성 및 복제
-           </li>
-           <li>
-            저작물(편집저작물 또는 데이터베이스에 포함된 저작물을 포함) 및 그 복제물의 배포, 전송, 전시, 공연 및 방송
-           </li>
-           <li>
-            2차적 저작물 및 그 복제물의 배포, 전송, 전시, 공연 및 방송
-           </li>
-          </ol>
-          <p>
-           본 이용허락에 따라 저작물을 이용할 수 있는 권리는 현재 알려져 있거나 장래 개발되는 모든 매체 및 형식으로 행하여질 수 있습니다. 이러한 권리에는 저작물을 각기 다른 매체 및 형식으로 이용하기 위하여 기술적으로 수정하는 것도 포함됩니다. 이용허락자는 본 이용허락에 따른 저작물의 이용에 대하여 저작인격권을 행사하지 않습니다. 본 이용허락에 의하여 이용허락자가 명시적으로 허락하지 않는 저작물의 이용에 관한 권리는 이용허락자에게 유보됩니다.
-          </p>
-          <p>
-           <strong>
-            4. 이용허락의 제한
-           </strong>
-          </p>
-          <p>
-           제3조에 의하여 허여된 이용허락은 다음의 사항에 의하여 명시적으로 제한을 받습니다.
-          </p>
-          <ol type="a">
-           <li>
-            귀하는 본 이용허락의 조건에 따라서만 저작물을 배포, 전송, 전시, 공연 및 방송할 수 있으며, 귀하가 배포, 전송, 전시, 공연 및 방송하는 모든 저작물의 복제물이나 음반에 본 이용허락서의 복제물이나 이에 대한 통일자원식별부호(Uniform Resource Identifier)를 포함시켜야 합니다. 귀하는 본 이용허락의 조건을 변경·제한하거나 배포 등의 상대방에 의한 본 이용허락상의 권리행사를 변경·제한하는 조건을 제공하거나 부과할 수 없습니다. 귀하는 귀하가 이용허락받은 저작물을 다시 이용허락할 수 없습니다. 귀하는 본 이용허락 및 보증의 부인에 대한 모든 표시를 제거 또는 변경시켜서는 안 됩니다. 귀하는 본 이용허락의 조건을 위반하는 방식으로 저작물에 대한 접근이나 저작물의 이용을 통제하는 기술적 보호조치를 이용하여 저작물을 배포, 전송, 전시, 공연 및 방송하여서는 안 됩니다. 이러한 제한은 편집저작물 또는 데이터베이스에 포함되어 있는 저작물에도 적용되지만, 저작물을 포함하고 있는 편집저작물 또는 데이터베이스가 그 저작물과는 별개로 본 이용허락의 조건에 제한받는 것은 아닙니다. 만약 귀하가 편집저작물을 작성하거나 데이터베이스를 제작하였다면, 이용허락자의 통지가 있는 경우, 귀하는, 실행가능한 한도에서, 이용허락자가 통지에 의하여 요청한 바에 따라서 편집저작물 또는 데이터베이스에서 이용허락자나 원저작자를 나타내는 사항을 삭제하여야 합니다.
-           </li>
-           <li>
-            귀하가 저작물, 2차적 저작물, 편집저작물, 데이터베이스를 배포, 전송, 전시, 공연 및 방송하는 경우, 귀하는 저작물에 대한 모든 저작권표시를 제거 또는 변경시켜서는 안 되며, 원저작자의 성명(이명이 있는 경우에는 이명), 저작물의 제호, 합리적으로 가능한 한도에서 이용허락자가 저작물과 연관되는 것을 명기한 통일자원식별부호(통일자원식별부호가 저작물에 대한 저작권표시나 이용허락에 관한 정보와 관련되지 않는 경우에는 제외), (2차적 저작물의 경우에는) 2차적 저작물에 저작물을 이용하였다는 것(예컨대, ‘원저작자의 저작물을 한국어로 번역한 것임’ 또는 ‘원저작자의 저작물에 기초한 각본임’) 등을 표시함으로써, 귀하가 이용하는 매체와 수단에 적합하게 원저작자 및 원저작물에 관한 사항을 표시하여야 합니다. 이러한 표시는 합리적인 모든 방법에 의하여 가능하지만, 2차적 저작물, 편집저작물, 데이터베이스의 경우에는, 최소한 다른 저작자가 표시되는 곳에 표시되고 적어도 다른 저작자가 표시되는 만큼 눈에 띄는 방법으로 표시되어야 합니다.
-           </li>
-           <li>
-            귀하는 저작자의 명예훼손에 해당할 정도로 저작물의 내용, 형식 및 제호의 동일성을 변경하여서는 안 됩니다.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            5. 보증의 부인 및 책임의 제한
-           </strong>
-          </p>
-          <p>
-           당사자간에 서면에 의하여 달리 합의되지 않는 한, 이용허락자는 저작물을 있는 그대로 제공하며 일체의 보증이나 담보책임을 부담하지 않습니다.
-          </p>
-          <p>
-           법이 달리 정하는 경우를 제외하고, 이용허락자는, 본 이용허락이나 저작물의 이용으로부터 야기되는 손해에 대하여 책임을 부담하지 않습니다.
-          </p>
-          <p>
-           <strong>
-            6. 이용허락의 종료
-           </strong>
-          </p>
-          <ol type="a">
-           <li>
-            본 이용허락 및 이에 의하여 부여되는 권리는 귀하가 본 이용허락의 조건을 위반하는 경우에 자동적으로 종료됩니다. 그러나 본 이용허락에 의하여 귀하로부터 2차적 저작물, 편집저작물, 데이터베이스를 수령한 개인이나 단체에 대해서는, 본 이용허락을 완전히 준수하는 한, 이용허락이 종료되지 않습니다. 제1조, 제2조, 제5조 내지 제8조는 본 이용허락이 종료한 후에도 유효합니다.
-           </li>
-           <li>
-            이용허락의 종료에 관한 이러한 제한이 적용되는 것을 제외하고는, 본 이용허락에 의하여 허여되는 허락은 저작물의 존속기간동안 유효합니다. 그러나 이용허락자는 언제든지 본 이용허락과 다른 조건으로 저작물에 대하여 이용허락하거나 저작물의 배포를 중단시킬 수 있는 권리를 가집니다. 단 이용허락자가 이와 같은 권리를 행사하여도 본 이용허락(또는 본 이용허락의 조건에 따라 허여되었거나 허여될 것이 요구되는 기타의 이용허락)이 철회되는 것은 아니며, 본 이용허락은, 본 이용허락의 종료규정에 의하여 종료되지 않는 한, 계속하여 완전히 유효합니다.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            7. 기타
-           </strong>
-          </p>
-          <ol type="a">
-           <li>
-            귀하가 저작물, 편집저작물, 데이터베이스를 배포 또는 전송하는 경우에는 언제든지, 이용허락자는, 배포 또는 전송받는 자에게, 본 이용허락에 의하여 귀하에게 허여된 이용허락과 동일한 조건에 따라, 저작물에 대한 이용허락을 허여합니다.
-           </li>
-           <li>
-            귀하가 2차적 저작물을 배포 또는 전송하는 경우에는 언제든지, 이용허락자는, 배포 또는 전송받는 자에게, 본 이용허락에 의하여 귀하에게 허여된 이용허락과 동일한 조건에 따라, 원저작물에 대한 이용허락을 허여합니다.
-           </li>
-           <li>
-            본 이용허락의 어떠한 규정이 관련법에 의하여 무효이거나 집행할 수 없게 되는 경우, 이에 의하여 본 이용허락에서 무효나 집행할 수 없게 된 조건 외의 다른 조건의 유효성이나 집행가능성이 영향을 받지 않으며, 무효 및 집행할 수 없게 된 규정은, 이용허락 당사자에 의한 별도의 조치 없이, 유효 및 집행 가능한 것으로 하기 위하여 필요한 최소한의 한도에서 개정된 것으로 해석됩니다.
-           </li>
-           <li>
-            당사자의 서면에 의한 의사표시가 없는 한, 본 이용허락의 조건 또는 규정의 적용을 포기하거나, 위반행위에 대한 권리 주장을 하지 않기로 동의하였다고 간주되지 않습니다.
-           </li>
-           <li>
-            본 이용허락은 이에 의하여 이용허락된 저작물에 관하여 당사자간에 이루어진 모든 합의를 나타냅니다. 본 이용허락에 명시되지 않은 저작물에 관해서는 아무런 양해나 합의나 설명이 이루어진 것이 아닙니다. 이용허락자는 귀하가 어떠한 추가조항의 적용을 통지하여도 이에 구속받지 않습니다. 본 이용허락은 이용허락자와 귀하 상호간에 서면에 의한 합의에 의하지 않고서는 수정될 수 없습니다.
-           </li>
-           <li>
-            본 이용허락은 한국어에 의하여 제공되며, 본 이용허락의 영문판은 한국어판을 해석하는 자료가 되는 것에 불과하며 한국어판과 영문판이 일치하지 않는 경우에는 한국어판이 우선합니다.
-           </li>
-          </ol>
-          <p>
-           <strong>
-            8. 준거법
-           </strong>
-          </p>
-          <p>
-           본 이용허락은 한국법에 의하여 규율되며 이에 근거하여 해석됩니다.
-          </p>
-          <!-- BREAKOUT FOR CC NOTICE.  NOT A PART OF THE LICENSE -->
-          <div class="fineprint">
-           <p>
-            ‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 본 이용허락의 당사자가 아니며 저작물에 대하여 어떠한 보증도 하지 않습니다. ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는 이용허락과 관련하여 발생하는 어떠한 손해에 대해서도 귀하나 기타의 모든 당사자들에게 책임을 부담하지 않습니다. 그러나 ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’가 스스로를 이용허락자라고 명시한 경우에는 이용허락자로서의 권리 및 의무를 가집니다.
-           </p>
-           <p>
-            저작물이 일반이용허락(CCPL)에 따라 이용허락 되었다는 것을 일반 공중에게 표시하기 위한 목적을 제외하고는, 어느 당사자도, ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’의 서면에 의한 사전 허락이 없이는, ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’라는 상표나 이와 관련되는 상표, 로고를 이용할 수 없습니다. 허락을 받아 이러한 상표 등을 이용하는 경우, 웹사이트에서 공표되거나 기타 요청에 따라서 제공되는 ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’의 상표이용지침을 준수하여야 합니다.
-           </p>
-           <p>
-            ‘크리에이티브 커먼즈’ 및 ‘크리에이티브 커먼즈 코리아’는
-            <a href="https://creativecommons.org">
-             https://creativecommons.org
-            </a>
-            및
-            <a href="http://creativecommons.or.kr">
-             http://creativecommons.or.kr
-            </a>
-            에서 접속할 수 있습니다.
-           </p>
-          </div>
-          <!-- END CC NOTICE -->
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </section>
-  </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

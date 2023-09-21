@@ -4,972 +4,993 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-SA 4.0 Legal Kod — Atıf-AynıLisanslaPaylaş 4.0 Uluslararası — Creative Commons
+   CC BY-SA 4.0 Legal Kod | Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.tr" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   İçeriğe geç
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     İçeriğe geç
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Anasayfa
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-sa/4.0/legalcode.tr">
-        CC BY-SA 4.0 Legal Kod
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Mevcut diller
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Seçin
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" selected="" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Mevcut diller
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" selected="" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.tr" id="next-btn">
-        Senede bakın
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-SA 4.0 Legal Kod
+    </h1>
+    <h2>
+     Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            Bölüm 1 - Tanımlar.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            Bölüm 2 - Kapsam.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            Bölüm 3 - Lisans Koşulları.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            Bölüm 4 - Nevi Şahsına Münhasır Veritabanı Hakları.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            Bölüm 5 - Garanti Reddi ve Sorumluluk Tahdidi.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            Bölüm 6 - Süre ve Fesih.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            Bölüm 7 - Diğer Şart ve Koşullar.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            Bölüm 8 - Yorum.
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          Bölüm 1 - Tanımlar.
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          Bölüm 2 - Kapsam.
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          Bölüm 3 - Lisans Koşulları.
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          Bölüm 4 - Nevi Şahsına Münhasır Veritabanı Hakları.
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          Bölüm 5 - Garanti Reddi ve Sorumluluk Tahdidi.
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          Bölüm 6 - Süre ve Fesih.
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          Bölüm 7 - Diğer Şart ve Koşullar.
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          Bölüm 8 - Yorum.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-SA 4.0
-       </h2>
-       <h1 class="b-header">
-        Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-SA 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-SA 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-SA 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Lisans ve Creative Commons hakkında
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation ("Creative Commons"), bir hukuk firması değildir ve avukatlık hizmetleri veya hukukî danışmanlık hizmeti vermemektedir. Creative Commons kamu lisanslarının dağıtımı, avukat-müvekkil ilişkisi veya başka türlü bir ilişki oluşturmamaktadır. Creative Commons, lisanslarını ve buna ait bilgileri "olduğu gibi" temin etmektedir. Creative Commons, söz konusu lisansları, şartları ve koşulları kapsamında lisanslanan hiçbir materyal veya diğer bilgiler ile ilgili hiçbir taahhütte bulunmamaktadır. Creative Commons, mümkün olan en geniş kapsamda, bunların kullanımından kaynaklanan zararlara ilişkin hiçbir sorumluluk kabul etmez.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Creative Commons Kamu Lisanslarını Kullanma
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons kamu lisansları, telif hakları ve aşağıda kamu lisansında belirtilmiş olan bazı diğer haklar ile korunan özgün içerik ve diğer materyalleri paylaşmak amacıyla, eser sahipleri ve diğer hak sahiplerinin kullanabileceği standart şart ve koşulları ortaya koymaktadır. Aşağıda belirtilmiş olan hususlar yalnızca bilgilendirme amacını taşımakta olup, sınırlayıcı değildir ve lisanslarımızın bir parçasını teşkil etmemektedir.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Lisanslayıcılara Yönelik Hususlar
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Lisanslayıcılara Yönelik Hususları Göster
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Kamu lisanslarımız, telif hakkı ve bazı diğer haklar ile yasaklanmış kullanım şekli hariç, materyalin diğer biçimlerde kullanımına umumi izin verme yetkisine sahip olanlar tarafından kullanılması içindir. Lisanslarımız gayri kabili rücudur. Lisans verenler, lisansı kullanmadan önce ilgili şart ve koşulları okumalı ve anlamalıdırlar. Lisans verenler ayrıca, kamunun ilgili materyali beklendiği şekilde tekrar kullanabilmesi için lisanslarımızı kullanmadan / uygulamadan önce gerekli tüm hakları güvenceye almalıdır. Lisans verenler, lisansa tâbi olmayan her türlü materyali açık bir şekilde işaretlemelidir. Buna, diğer CC-lisanslı materyaller veya bir telif hakkı istisnası veya sınırlaması kapsamında kullanılan materyaller de dâhildir.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Lisans verenler ile ilgili daha fazla hususlar.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Kamuya Yönelik Hususlar
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Kamuya Yönelik Hususları Göster
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Lisans veren, kamu lisanslarımızdan birini kullanmak suretiyle, belirlenmiş şartlar ve koşullar çerçevesinde lisanslı olan materyalin kullanımına ilişkin umumî izin vermektedir. Herhangi bir nedenle lisans verenin izni gerekmiyorsa - örneğin, telif hakkı ile ilgili herhangi bir istisna veya sınırlamadan dolayı- bu durumda, söz konusu kullanım lisansa tâbi değildir. Lisanlarımız yalnızca, lisans verenin lisans verme yetkisinin olduğu telif hakkı ve diğer bazı haklar çerçevesinde izin vermektedir. Lisanslı materyalin kullanımı, başkalarının da materyal üzerinde sahip olduğu telif hakkı veya diğer haklardan dolayı kısıtlanmış olabilir. Lisans veren, her türlü değişikliğin işaretlenmesi veya açıklanmasını istemek de dâhil özel taleplerde bulunabilir. Lisanslarımız için gerekli olmamakla beraber, makul olduğu ölçüde bu taleplere uymanız önerilir.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Kamu ile ilgili daha ayrıntılı hususlar.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Lisansa Konu Hakları (tanımı aşağıda verilmiştir) kullanarak, işbu Creative Commons Atıf-AynıLisanslaPaylaş Uluslararası Kamu Lisansının ("Kamu Lisansı") şart ve koşullarına tâbi olmayı kabul ve beyan etmektesiniz İşbu Kamu Lisansının bir sözleşme olarak yorumlanabildiği ölçüde, işbu şart ve koşulları kabul etmeniz karşılığında size Lisansa Konu Haklar verilmekte ve Lisans Veren size söz konusu hakları, işbu şart ve koşullar çerçevesinde Lisans Verenin, Lisanslı Materyalin kullanıma sunulmasından elde ettiği faydalar / menfaatler karşılığında sunmaktadır.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           Bölüm 1 - Tanımlar.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Uyarlanmış Materyal,
-            </span>
-            Lisanslı Materyalden elde edilen veya Lisanslı Materyale Dayalı Telif Hakkı ve Benzeri Haklara tâbi bulunan ve Lisanslı Materyalin, Lisans Verene ait Telif Hakkı ve Benzeri Haklar çerçevesinde izin gerektirecek bir şekilde tercüme edildiği, değiştirildiği, düzenlendiği, dönüştürüldüğü veya tadil edildiği materyali ifade eder. İşbu Kamu Lisansı kapsamında, Lisanslı Materyalin bir müzik eseri, performans veya ses kaydı olması hâlinde, Uyarlanmış Materyal her zaman hareketli bir görüntü ile senkronize edildiği durumlarda üretilir / oluşur.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Uyarlayan Kişi Lisansı,
-            </span>
-            işbu Kamu Lisansı şart ve koşullarına uygun bir şekilde Uyarlanmış Materyale yapmış olduğunuz katkılar için sahip olduğunuz Telif Hakkı ve Benzer Haklara uyguladığınız lisansı ifade eder.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_by_sa_compatible_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             BY-SA Uyumlu Lisans,
-            </span>
-            <a href="//creativecommons.org/compatiblelicenses">
-             creativecommons.org/compatiblelicenses
-            </a>
-            adresinde listelenen ve bu Kamu Lisansının esas itibarıyla eşdeğeri olarak Creative Commons tarafından onaylanan lisansı ifade etmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Telif Hakkı ve Benzeri Haklar,
-            </span>
-            herhangi bir sınırlama olmaksızın performans, yayın, ses kaydı ve Nevi Şahsına Münhasır Veritabanı Hakları da dâhil olmak üzere, hakların nasıl etiketlendiği veya kategorize edildiğine bakılmaksızın telif hakkını ve/veya telif hakkı ile yakından ilişkili benzeri hakları ifade eder. İşbu Kamu Lisansı kapsamında, Bölüm
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            de belirtilen haklar Telif Hakkı veya Benzeri Haklar değildir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Etkin Teknolojik Önlemler,
-            </span>
-            uygun bir merciin olmadığı durumda, 20 Aralık 1996 tarihinde kabul edilmiş olan Dünya Fikrî Mülkiyet Örgütü (WIPO) Telif Hakkı Sözleşmesinin 11. maddesinden ve/veya benzer uluslararası anlaşmalardan doğan yükümlülükleri yerine getiren yasalar kapsamına girmeyen önlemleri ifade etmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             İstisnalar ve Sınırlamalar,
-            </span>
-            Lisanslı Materyalin Tarafınızca kullanımı için geçerli olan Telif Hakkı ve Benzeri Haklar ile ilgili adil kullanım (“fair use”), adil muamele (“fair dealing”) ve/veya diğer sınırlama veya istisnaları ifade eder.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_license_elements_sa">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lisans Unsurları,
-            </span>
-            bir Creative Commons Kamu Lisansı adına listelenen lisans özelliklerini ifade eder. İşbu Kamu Lisansının Unsurları Atıf ve AynıLisanslaPaylaş'dır.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lisanslı Materyal,
-            </span>
-            Lisans Verenin işbu Kamu Lisansını uyguladığı sanat veya edebî eseri, veritabanı veya diğer materyali ifade etmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lisansa Konu Haklar,
-            </span>
-            Lisanslı Materyalin Sizin tarafınızdan kullanımı için geçerli olan ve Lisans Verenin lisans verme yetkisinin olduğu tüm Telif Hakkı ve Benzer Haklar ile sınırlı olan, işbu Kamu Lisansı şart ve koşulları çerçevesinde size bahşedilen hakları ifade eder.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Lisans Veren,
-            </span>
-            işbu Kamu Lisansı çerçevesinde bu hakları veren kişiyi/kişileri veya kurumu/kurumları ifade etmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Paylaşım,
-            </span>
-            çoğaltma, kamuya açık sergileme, performans, dağıtma, yayma, iletim veya ithal etme gibi her nevi şekil veya işlem ile materyali kamuya temin etme veya kamu bireylerinin kendilerinin bireysel olarak seçeceği bir yerden ve yine kendilerinin seçecekleri bir zamanda materyale erişebileceği şekil ve yöntemler de dâhil olmak üzere materyalin kamunun kullanımına sunulması anlamına gelmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Nevi Şahsına Münhasır Veritabanı Hakları,
-            </span>
-            tadil edildiği ve/veya yenisiyle değiştirildiği şekliyle, veritabanlarının yasal muhafazası hakkındaki 96/9/EC sayılı ve 11 Mart 1996 tarihli Avrupa Parlamentosu ve Konseyi Direktifinden doğan telif hakkı dışındaki diğer hakları ve dünyanın herhangi bir yerinde geçerli buna eşdeğer hakları ifade etmektedir.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1m_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Siz ve/veya Tarafınız,
-            </span>
-            işbu Kamu Lisansı çerçevesinde Lisanslı Hakları kullanan kişi veya kuruluşu ifade eder.
-            <strong>
-             Sizin / Tarafınızın
-            </strong>
-            sözcüğü de benzer bir anlamı ifade etmektedir.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           Bölüm 2 - Kapsam.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Lisansın verilmesi
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             İşbu Kamu Lisansı şart ve koşullarına tâbi olmak üzere Lisans Veren, Lisans Materyaline ait Lisansa Konu Haklarını, alttaki şartları gerçekleyen dünya çapında geçerli, telif ücreti olmayan, alt lisans tanıma hakkı barındırmayan mahiyette, münhasır olmayan, gayri kabili rücu bir lisans vermektedir:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               kısmen veya tamamen Lisanslı Materyali Çoğaltmak ve Paylaşmak; ve
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               Uyarlanmış Materyali üretmek, çoğaltmak veya paylaşmak.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              İstisnalar ve Sınırlamalar.
-             </strong>
-             Herhangi bir şüpheye mahal vermemek adına, Sizin kullanımız ile ilgili herhangi bir İstisna ve Sınırlamanın geçerli olduğu durumlarda işbu Kamu Lisansı geçerli olmayacak olup, bu lisansın şart ve koşullarına riayet etmeniz gerekmemektedir.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Süre
-             </strong>
-             . İşbu kamu Lisansının süresi Bölüm
-             <a href="#s6a">
-              6(a)
-             </a>
-             da belirtilmiştir.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Ortam ve formatlar; teknik değişikliklere izin verilmektedir.
-             </strong>
-             Lisans Veren, gerek hâlihazırda bilinen veya bundan sonra geliştirilecek tüm ortam ve formatlarda Lisansa Konu Hakları kullanmanız ve gerektiğinde teknik değişiklikler yapmanız için Size yetki vermektedir. Etkin teknolojik önlemleri alt etmek için gerekli olan teknik değişiklikler de dâhil olmak üzere Lisans Veren, Lisanslı Hakları kullanmak için sizin teknik değişiklikleri yapmanızı önleme hak ve yetkisinden feragat etmekte ve böyle bir hak ve/veya yetki iddiasında bulunmamayı kabul etmektedir. İşbu Kamu Lisansı çerçevesinde, Bölüm
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             de izin ve yetki verilmiş değişikliklerin yapılması, Uyarlanmış Materyal doğurmaz / oluşturmaz.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Aşağı yönlü alıcılar
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Lisans Veren tarafından Teklif - Lisanslı Materyal
-                </span>
-                . Lisanslı Materyali alanlar, işbu Kamu Lisansı şart ve koşulları çerçevesinde Lisanslı Hakları kullanmak üzere Lisans Verenden otomatik olarak bir teklif almaktadır.
-               </li>
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5B_adapted_material">
-                <span style="text-decoration: underline;">
-                 Lisans Veren tarafından ek teklif - Uyarlanmış Materyal
-                </span>
-                . Tarafınızdan Uyarlanmış Materyali alanlar, kullandığınız Uyarlayan Lisansının şart ve koşulları çerçevesinde Lisansa Konu Hakları kullanmak üzere Lisans Verenden otomatik olarak bir teklif almaktadır.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5C_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Aşağı yönlü sınırlamanın olmayışı
-                </span>
-                . Bunun herhangi bir Lisanslı Materyal alıcısının Lisansa Konu Hakları kullanımını sınırlaması hâlinde, Lisanslı Materyal üzerinde hiçbir ek veya farklı şart veya koşullar teklif edemez veya dayatamaz veya Lisanslı Materyale Etkin Teknolojik Önlemler uygulayamazsınız.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Onaylamama
-             </span>
-             . . İşbu Kamu Lisansındaki hiçbir husus, Lisans Veren veya Bölüm
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             de öngörüldüğü şekilde atıfta bulunacak diğer kişiler ile sizin veya kullanımınızın bağlantılı olduğu, size veya kullanımınıza onlar tarafından sponsor olunduğu, sizin veya kullanımınızın desteklendiği veya size veya kullanımınıza resmi bir statü verildiğini iddia ve ima etmeye ilişkin bir izin olarak yorumlanmayacaktır.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Diğer haklar
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Eserde değişiklik yapılmasını menetme hakkı gibi manevî haklar, aleniyet, gizlilik ve/veya diğer benzer şahsî haklar için, işbu Kamu Lisansı kapsamında lisans verilmemektedir; ancak, mümkün olduğu ölçüde Lisans Veren, başka türlü olmamak kaydıyla, yalnızca Sizin Lisansa Konu Hakları kullanabilmeniz için gerekli olduğu ölçüde, kendisinin sahibi olduğu bu tür haklardan feragat etmekte ve/veya bu tür hak iddialarında bulunmamayı kabul etmektedir.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             İşbu Kamu Lisansı kapsamında patent ve markalar için lisans verilmemektedir.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Mümkün olduğu ölçüde Lisans Veren, gerek doğrudan gerekse herhangi bir gönüllü veya feragati kabil yasal veya zorunlu lisanslama tasarısı çerçevesinde bir meslek birliği aracılığı ile, Lisansa Konu Hakların kullanımı ile ilgili Sizden herhangi bir telif hakkı ücreti tahsil etme hakkından feragat etmektedir. Tüm diğer hâllerde Lisans Verenin bu tür telif hakkı ücretlerini tahsil etme hakkı mahfuzdur.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           Bölüm 3 - Lisans Koşulları.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Lisansa Konu Hakların tarafınızca kullanımı, aşağıdaki koşul ve şartlara tâbidir.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Atıf
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             <p>
-              Lisanslı Materyali Paylaşmanız hâlinde (değiştirilmemiş şekilde paylaşmanız da dâhil):
-             </p>
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               Lisans Veren tarafından Lisanslı Materyal ile temin edildi ise, aşağıdakileri muhafaza etmelisiniz:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 (belirtildi ise, takma isim de dâhil) Lisans Veren tarafından talep edilebilecek herhangi bir makul yolla, Lisanslı Materyalin sahibi/sahiplerinin ve belirtilmiş diğer alıntı yapılacak kişilerin kimliği;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 telif hakkı bildirimi;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 bu Kamu Lisansına atıfta bulunan bir bildirim;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 garanti reddine atıfta bulunan bir bildirim;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 mümkün olduğu ölçüde Lisanslı Materyal için URI veya bağlantı adresi;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               Lisanslı materyalde değişiklik yapıp yamadığınızı belirtmeli ve daha önce yapılmış değişikliklere ilişkin bilgileri korumalı; ve
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               Lisanslı Materyalin işbu Kamu Lisansı kapsamında lisanslı olduğunu belirtmeli ve Kamu Lisansı metnini veya Kamu Lisansı URI veya bağlantı adresi vermelisiniz.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             Lisanslı Materyali Paylaştığınız ortam, araç veya bağlama bağlı olarak, makul herhangi bir surette Bölüm
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             de belirtilmiş koşulları yerine getirebilirsiniz. Örneğin, gerekli bilgileri ihtiva eden bir kaynağın URI veya bağlantı adresi belirterek, koşulları yerine getirmek makul olabilir.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a3">
-             Lisans Veren tarafından talep edilmesi hâlinde, makul surette uygulanabilir olduğu ölçüde, Bölüm
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             da gerekli kılınan bilgileri kaldırmalısınız.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s3b">
-           <strong>
-            AynıLisanslaPaylaş
-           </strong>
-           .
-           <p class="padding-top-normal padding-bottom-normal">
-            Bölüm
-            <a href="#s3a">
-             3(a)
-            </a>
-            da belirtilen şartlara ek olarak, Ürettiğiniz Uyarlanmış Materyali Paylaşmanız hâlinde, aşağıdaki şartlar da geçerli olacaktır.
-           </p>
-           <ol class="padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s3b1">
-             Kullandığınız Uyarlayan Lisansı, aynı Lisans Unsurlarına sahip bir Creative Commons lisansı olmalıdır, bu sürüm veya sonraki bir sürüm veya BY-SA Uyumlu Lisans olmalıdır.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3b2">
-             Kullandığınız Uyarlayan Lisansı metnini veya URI veya bağlantısı adresi vermelisiniz. Uyarlanmış Materyali Paylaştığınız ortam, araç veya bağlama bağlı olarak, makul herhangi bir surette bu koşulu yerine getirebilirsiniz.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3b3">
-             Kullandığınız Uyarlayan Lisansı kapsamında tanınan hakların kullanımını sınırlayacak şekilde, Uyarlanmış Materyal üzerinde hiçbir ek veya farklı şart veya koşul teklif edemez veya dayatamaz veya Uyarlanmış Materyale Etkin Teknolojik Önlemler uygulayamazsınız.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           Bölüm 4 - Nevi Şahsına Münhasır Veritabanı Hakları.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Lisansa Konu Haklar, Lisanslı Materyali Kullanımıniz için geçerli Nevi Şahsına Münhasır Veritabanı haklarını da kapsadığı durumlarda:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           herhangi bir şüpheye mahal vermemek adına, Bölüm
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           de size, veritabanı içeriğinin tamamını veya mühim bir kısmını çıkartma, tekrar kullanma, çoğaltma ve Paylaşma hakkı bahşetmektedir;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           Veritabanı içeriğinin tümünü veya önemli bir kısmını Nevi Şahsına Münhasır Veritabanı Haklarınızın olduğu bir veritabanına dâhil etmeniz durumunda, Bölüm
-           <a href="#s3b">
-            3(b)
-           </a>
-           nin amaçları da dâhil, Nevi Şahsına Münhasır Veritabanı Haklarınızın olduğu veritabanı (münferit içerikleri hariç) Uyarlanmış Materyal teşkil edecektir; ve
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           Veritabanı içeriğinin tamamını veya önemli bir kısmını Paylaşmanız durumunda Bölüm
-           <a href="#s3a">
-            3(a)
-           </a>
-           daki şartlara uymanız mecburidir.
-          </li>
-         </ol>
-         <span class="body-big">
-          Herhangi bir şüpheye mahal vermemek adına, Bölüm
-          <a href="#s4">
-           4
-          </a>
-          , Lisansa Konu Hakların diğer Telif Hakkı ve Benzer Hakları kapsadığı durumlarda Kamu Lisanslı çerçevesinde tâbi olduğunuz Yükümlülükleri tamamlayıcı mahiyette olup, bu Yükümlülüklerini yerini almamaktadır.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           Bölüm 5 - Garanti Reddi ve Sorumluluk Tahdidi.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Lisans Veren tarafından ayrıca taahhüt edilmediği sürece, mümkün olduğu ölçüde Lisans Veren, Lisanslı Materyali olduğu gibi ve kullanılabilir olduğu şekilde sunmakta olup, zımnî, sarih, yasal veya diğer türlü Lisanslı Materyaller ile ilgili hiçbir beyan ve taahhütte bulunmamaktadır. Buna, herhangi bir sınırlama olmaksızın, mülkiyet hakkı, ticarete elverişlilik, belirli bir amaca uygunluk, ihlal durumunun olmaması, gizli veya diğer kusurların olmayışı, doğruluk veya gerek bilinen gerek fark edilebilir hatanın var olduğu veya olmadığına dair garanti ve taahhütler de dâhildir. Garanti reddine kısmen veya tamamen izin verilmediği durumlarda, işbu garanti reddi Sizin için geçerli olmayabilir.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Mümkün olduğu ölçüde, Lisans Verene bu tür kayıp, masraf, gider, zarar ve/veya kusurların olabileceği hakkında bilgi verilmiş olsa dâhi, işbu Kamu Lisansından veya Lisanslı Materyalin kullanımından doğan hiçbir doğrudan özel, dolaylı, arızî, mütevellit, cezaî veya cezaî teminat veya hukuksal teori kapsamında veya diğer zayiat, masraf veya giderlerden dolayı (herhangi bir sınırlama olmaksızın ihmal de dâhil) Lisans Veren Size karşı hiçbir şekilde mesul olmayacaktır. Sorumluluk tahdidine kısmen veya tamamen izin verilmediği durumlarda, işbu tahdit / sınırlama Sizin için geçerli olmayabilir.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Yukarıda öngörülen garanti reddi ve sorumluluk tahdidi, mümkün olduğu ölçüde, mutlak bir sorumluluk reddi veya sorumluluktan feragatte reddine en yakın şekilde yorumlanacaktır.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           Bölüm 6 - Süre ve Fesih.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           İşbu Kamu Lisansı, bu çerçevede lisans verilen Telif Hakkı ve Benzeri Hakların süresi boyunca geçerli olacaktır. Ancak, bu Kamu Lisansına uymadığınız takdirde, Kamu Lisansı çerçevesinde sahip olduğunuz haklar otomatik olarak feshedilecek ve sona erecektir.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Lisanslı Materyali kullanma hakkınızın 6(a) numaralı Madde kapsamında feshedilmesi durumunda:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             İhlali tespitinizden sonra ihlalin 30 gün içerisinde düzeltilmesi koşuluyla, ihlalin düzeltildiği tarih itibariyle otomatik olarak veya
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             Lisans Veren tarafından açıkça hakların iade edilmesi üzerine hakkınız iade edilecektir.
-            </li>
-           </ol>
-           Herhangi bir şüpheye mahal vermemek adına,
-           <a href="#s6b">
-            6(b)
-           </a>
-           numaralı bu Bölüm, işbu Kamu Lisansının tarafınızca ihlal edilmesi ile ilgili Lisans Verenin sahip olabileceği düzeltme veya kanunî yollara başvurma haklarına halel getirmez.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Herhangi bir şüpheye mahal vermemek adına Lisans Veren, ayrı şart veya koşullar altında da Lisanslı Materyali sunabilir veya her zaman Lisanslı Materyalin dağıtımını durdurabilir; ancak, öyle yapması işbu Kamu Lisansını feshetmeyecektir.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           ve
-           <a href="#s8">
-            8
-           </a>
-           numaralı Bölümler işbu Kamu Lisansının feshedilmesinden sonra da yürürlükte kalacaktır.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           Bölüm 7 - Diğer Şart ve Koşullar.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Açıkça kabul edilmedikçe Lisans Veren, Sizin tarafınızdan iletilebilecek ek veya farklı şart ve koşullara tâbi olmayacaktır.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Lisanslı Materyalin kullanımına dair burada belirtilmemiş her nevi bir düzenleme, mutabakat veya anlaşma, işbu kamu Lisansının şart ve koşullarından ayrı ve bağımsızdır.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           Bölüm 8 - Yorum.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Herhangi bir şüpheye mahal vermemek adına işbu Kamu Lisansı, bu Kamu Lisansı kapsamında herhangi bir izin almaksızın yasal olarak mümkün olan Lisanslı Materyalin kullanımını herhangi bir şekilde azaltmamakta, sınırlamamakta, kısıtlamamakta veya herhangi bir şart getirmemekte olup, bu şekilde de yorumlanmayacaktır.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Mümkün olduğu ölçüde, işbu Kamu Lisansının herhangi bir hükmünün icra mevkiinden yoksun sayılması durumunda, söz konusu hüküm, geçerli hale getirmek ve icra edilebilirlik kazandırmak için gereken asgari ölçüde otomatik olarak tadil edilecektir. Hükmün tadil edilememesi durumunda ise, kala şartlar ve koşulların uygulanabilirliğine halel getirmeksizin söz konusu hüküm işbu Kamu Lisansından çıkartılacaktır.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Bu Kamu Lisansının hiçbir hükmü veya koşulundan feragat edilmeyecek olup, Lisans Veren tarafından açıkça kabul edilmedikçe, şart ve koşullara uyulmamasına rıza gösterilmeyecektir.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Herhangi bir yargı dairesi veya merciinin yasal muamelelerinden doğanlar da dâhil olmak üzere, İşbu Kamu Lisansında anılan hiçbir husus, Lisans Veren veya Sizin için bağlayıcı ve geçerli olan hiçbir imtiyaz veya ayrıcalık ile ilgili bir sınırlama veya feragat teşkil etmemektedir veya bu şekilde yorumlanmayacaktır.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons, kamu lisanslarına taraf değildir. Buna karşın Creative Commons, kamu lisanlarından birini yayınladığı materyallere uygulamayı seçebilir ve bu tür durumlarda, "Lisans Veren" sayılacaktır. Kamu lisanslarının metni, CC0 Public Domain Dedication altında kamu malına özeldir. Materyalin, bir Creative Commons kamu lisansı veya
-        <a href="/publicdomain/zero/1.0/">
-         CC0 Public Domain Dedication
-        </a>
-        . Materyalin, bir Creative Commons kamu lisansı veya
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        internet adresinde yayınlanmış olan Creative Commons politikalarının izin verdiği başka şekilde paylaşıldığının kamuya bildirilmesi şeklindeki sınırlı amaç hariç, herhangi bir sınırlama olmaksızın, kamu lisanslarından herhangi birinde yapılan her nevi değişiklik veya lisanslı materyalin kullanımına dair diğer düzenleme, mutabakat ve anlaşmalar ile bağlantılı olarak kullanılması da dâhil olmak üzere Creative Commons, önceden kendi yazılı rızası olmaksızın "Creative Commons" ticarî markasının veya Creative Commons'a ait diğer ticarî marka veya logonun kullanımına izin veya yetki vermemektedir. Herhangi bir şüpheye mahal vermemek adına, mezkur paragraf, kamu lisanslarının bir parçasını teşkil etmemektedir.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons ile
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        üzerinden iletişim kurabilir.
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Çalışmamız hakkında dahasını öğrenin
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            CC Lisanslama hakkında dahasını öğrenin
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Çalışmamızı destekleyin
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Lisansı kendi materyaliniz için kullanın.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.tr">
+      Senede bakın
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      Lisans ve Creative Commons hakkında
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Creative Commons Kamu Lisanslarını Kullanma
+     </h2>
+     <p>
+      Creative Commons kamu lisansları, telif hakları ve aşağıda kamu lisansında belirtilmiş olan bazı diğer haklar ile korunan özgün içerik ve diğer materyalleri paylaşmak amacıyla, eser sahipleri ve diğer hak sahiplerinin kullanabileceği standart şart ve koşulları ortaya koymaktadır. Aşağıda belirtilmiş olan hususlar yalnızca bilgilendirme amacını taşımakta olup, sınırlayıcı değildir ve lisanslarımızın bir parçasını teşkil etmemektedir.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Lisanslayıcılara Yönelik Hususlar
+     </h3>
+     <p>
+      Kamu lisanslarımız, telif hakkı ve bazı diğer haklar ile yasaklanmış kullanım şekli hariç, materyalin diğer biçimlerde kullanımına umumi izin verme yetkisine sahip olanlar tarafından kullanılması içindir. Lisanslarımız gayri kabili rücudur. Lisans verenler, lisansı kullanmadan önce ilgili şart ve koşulları okumalı ve anlamalıdırlar. Lisans verenler ayrıca, kamunun ilgili materyali beklendiği şekilde tekrar kullanabilmesi için lisanslarımızı kullanmadan / uygulamadan önce gerekli tüm hakları güvenceye almalıdır. Lisans verenler, lisansa tâbi olmayan her türlü materyali açık bir şekilde işaretlemelidir. Buna, diğer CC-lisanslı materyaller veya bir telif hakkı istisnası veya sınırlaması kapsamında kullanılan materyaller de dâhildir.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Lisans verenler ile ilgili daha fazla hususlar.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Kamuya Yönelik Hususlar
+     </h3>
+     <p>
+      Lisans veren, kamu lisanslarımızdan birini kullanmak suretiyle, belirlenmiş şartlar ve koşullar çerçevesinde lisanslı olan materyalin kullanımına ilişkin umumî izin vermektedir. Herhangi bir nedenle lisans verenin izni gerekmiyorsa - örneğin, telif hakkı ile ilgili herhangi bir istisna veya sınırlamadan dolayı- bu durumda, söz konusu kullanım lisansa tâbi değildir. Lisanlarımız yalnızca, lisans verenin lisans verme yetkisinin olduğu telif hakkı ve diğer bazı haklar çerçevesinde izin vermektedir. Lisanslı materyalin kullanımı, başkalarının da materyal üzerinde sahip olduğu telif hakkı veya diğer haklardan dolayı kısıtlanmış olabilir. Lisans veren, her türlü değişikliğin işaretlenmesi veya açıklanmasını istemek de dâhil özel taleplerde bulunabilir. Lisanslarımız için gerekli olmamakla beraber, makul olduğu ölçüde bu taleplere uymanız önerilir.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Kamu ile ilgili daha ayrıntılı hususlar.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Atıf-AynıLisanslaPaylaş 4.0 Uluslararası
+     </h2>
+     <p>
+      Lisansa Konu Hakları (tanımı aşağıda verilmiştir) kullanarak, işbu Creative Commons Atıf-AynıLisanslaPaylaş Uluslararası Kamu Lisansının ("Kamu Lisansı") şart ve koşullarına tâbi olmayı kabul ve beyan etmektesiniz İşbu Kamu Lisansının bir sözleşme olarak yorumlanabildiği ölçüde, işbu şart ve koşulları kabul etmeniz karşılığında size Lisansa Konu Haklar verilmekte ve Lisans Veren size söz konusu hakları, işbu şart ve koşullar çerçevesinde Lisans Verenin, Lisanslı Materyalin kullanıma sunulmasından elde ettiği faydalar / menfaatler karşılığında sunmaktadır.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      Bölüm 1 - Tanımlar.
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Uyarlanmış Materyal,
+       </span>
+       Lisanslı Materyalden elde edilen veya Lisanslı Materyale Dayalı Telif Hakkı ve Benzeri Haklara tâbi bulunan ve Lisanslı Materyalin, Lisans Verene ait Telif Hakkı ve Benzeri Haklar çerçevesinde izin gerektirecek bir şekilde tercüme edildiği, değiştirildiği, düzenlendiği, dönüştürüldüğü veya tadil edildiği materyali ifade eder. İşbu Kamu Lisansı kapsamında, Lisanslı Materyalin bir müzik eseri, performans veya ses kaydı olması hâlinde, Uyarlanmış Materyal her zaman hareketli bir görüntü ile senkronize edildiği durumlarda üretilir / oluşur.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Uyarlayan Kişi Lisansı,
+       </span>
+       işbu Kamu Lisansı şart ve koşullarına uygun bir şekilde Uyarlanmış Materyale yapmış olduğunuz katkılar için sahip olduğunuz Telif Hakkı ve Benzer Haklara uyguladığınız lisansı ifade eder.
+      </li>
+      <li id="s1c_by_sa_compatible_license">
+       <span style="text-decoration: underline;">
+        BY-SA Uyumlu Lisans,
+       </span>
+       <a href="//creativecommons.org/compatiblelicenses">
+        creativecommons.org/compatiblelicenses
+       </a>
+       adresinde listelenen ve bu Kamu Lisansının esas itibarıyla eşdeğeri olarak Creative Commons tarafından onaylanan lisansı ifade etmektedir.
+      </li>
+      <li id="s1d_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Telif Hakkı ve Benzeri Haklar,
+       </span>
+       herhangi bir sınırlama olmaksızın performans, yayın, ses kaydı ve Nevi Şahsına Münhasır Veritabanı Hakları da dâhil olmak üzere, hakların nasıl etiketlendiği veya kategorize edildiğine bakılmaksızın telif hakkını ve/veya telif hakkı ile yakından ilişkili benzeri hakları ifade eder. İşbu Kamu Lisansı kapsamında, Bölüm
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       de belirtilen haklar Telif Hakkı veya Benzeri Haklar değildir.
+      </li>
+      <li id="s1e_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Etkin Teknolojik Önlemler,
+       </span>
+       uygun bir merciin olmadığı durumda, 20 Aralık 1996 tarihinde kabul edilmiş olan Dünya Fikrî Mülkiyet Örgütü (WIPO) Telif Hakkı Sözleşmesinin 11. maddesinden ve/veya benzer uluslararası anlaşmalardan doğan yükümlülükleri yerine getiren yasalar kapsamına girmeyen önlemleri ifade etmektedir.
+      </li>
+      <li id="s1f_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        İstisnalar ve Sınırlamalar,
+       </span>
+       Lisanslı Materyalin Tarafınızca kullanımı için geçerli olan Telif Hakkı ve Benzeri Haklar ile ilgili adil kullanım (“fair use”), adil muamele (“fair dealing”) ve/veya diğer sınırlama veya istisnaları ifade eder.
+      </li>
+      <li id="s1g_license_elements_sa">
+       <span style="text-decoration: underline;">
+        Lisans Unsurları,
+       </span>
+       bir Creative Commons Kamu Lisansı adına listelenen lisans özelliklerini ifade eder. İşbu Kamu Lisansının Unsurları Atıf ve AynıLisanslaPaylaş'dır.
+      </li>
+      <li id="s1h_licensed_material">
+       <span style="text-decoration: underline;">
+        Lisanslı Materyal,
+       </span>
+       Lisans Verenin işbu Kamu Lisansını uyguladığı sanat veya edebî eseri, veritabanı veya diğer materyali ifade etmektedir.
+      </li>
+      <li id="s1i_licensed_rights">
+       <span style="text-decoration: underline;">
+        Lisansa Konu Haklar,
+       </span>
+       Lisanslı Materyalin Sizin tarafınızdan kullanımı için geçerli olan ve Lisans Verenin lisans verme yetkisinin olduğu tüm Telif Hakkı ve Benzer Haklar ile sınırlı olan, işbu Kamu Lisansı şart ve koşulları çerçevesinde size bahşedilen hakları ifade eder.
+      </li>
+      <li id="s1j_licensor">
+       <span style="text-decoration: underline;">
+        Lisans Veren,
+       </span>
+       işbu Kamu Lisansı çerçevesinde bu hakları veren kişiyi/kişileri veya kurumu/kurumları ifade etmektedir.
+      </li>
+      <li id="s1k_share">
+       <span style="text-decoration: underline;">
+        Paylaşım,
+       </span>
+       çoğaltma, kamuya açık sergileme, performans, dağıtma, yayma, iletim veya ithal etme gibi her nevi şekil veya işlem ile materyali kamuya temin etme veya kamu bireylerinin kendilerinin bireysel olarak seçeceği bir yerden ve yine kendilerinin seçecekleri bir zamanda materyale erişebileceği şekil ve yöntemler de dâhil olmak üzere materyalin kamunun kullanımına sunulması anlamına gelmektedir.
+      </li>
+      <li id="s1l_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Nevi Şahsına Münhasır Veritabanı Hakları,
+       </span>
+       tadil edildiği ve/veya yenisiyle değiştirildiği şekliyle, veritabanlarının yasal muhafazası hakkındaki 96/9/EC sayılı ve 11 Mart 1996 tarihli Avrupa Parlamentosu ve Konseyi Direktifinden doğan telif hakkı dışındaki diğer hakları ve dünyanın herhangi bir yerinde geçerli buna eşdeğer hakları ifade etmektedir.
+      </li>
+      <li id="s1m_you">
+       <span style="text-decoration: underline;">
+        Siz ve/veya Tarafınız,
+       </span>
+       işbu Kamu Lisansı çerçevesinde Lisanslı Hakları kullanan kişi veya kuruluşu ifade eder.
+       <strong>
+        Sizin / Tarafınızın
+       </strong>
+       sözcüğü de benzer bir anlamı ifade etmektedir.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      Bölüm 2 - Kapsam.
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Lisansın verilmesi
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         İşbu Kamu Lisansı şart ve koşullarına tâbi olmak üzere Lisans Veren, Lisans Materyaline ait Lisansa Konu Haklarını, alttaki şartları gerçekleyen dünya çapında geçerli, telif ücreti olmayan, alt lisans tanıma hakkı barındırmayan mahiyette, münhasır olmayan, gayri kabili rücu bir lisans vermektedir:
+         <ol type="A">
+          <li id="s2a1A">
+           kısmen veya tamamen Lisanslı Materyali Çoğaltmak ve Paylaşmak; ve
+          </li>
+          <li id="s2a1B">
+           Uyarlanmış Materyali üretmek, çoğaltmak veya paylaşmak.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          İstisnalar ve Sınırlamalar.
+         </strong>
+         Herhangi bir şüpheye mahal vermemek adına, Sizin kullanımız ile ilgili herhangi bir İstisna ve Sınırlamanın geçerli olduğu durumlarda işbu Kamu Lisansı geçerli olmayacak olup, bu lisansın şart ve koşullarına riayet etmeniz gerekmemektedir.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Süre
+         </strong>
+         . İşbu kamu Lisansının süresi Bölüm
+         <a href="#s6a">
+          6(a)
+         </a>
+         da belirtilmiştir.
+        </li>
+        <li id="s2a4">
+         <strong>
+          Ortam ve formatlar; teknik değişikliklere izin verilmektedir.
+         </strong>
+         Lisans Veren, gerek hâlihazırda bilinen veya bundan sonra geliştirilecek tüm ortam ve formatlarda Lisansa Konu Hakları kullanmanız ve gerektiğinde teknik değişiklikler yapmanız için Size yetki vermektedir. Etkin teknolojik önlemleri alt etmek için gerekli olan teknik değişiklikler de dâhil olmak üzere Lisans Veren, Lisanslı Hakları kullanmak için sizin teknik değişiklikleri yapmanızı önleme hak ve yetkisinden feragat etmekte ve böyle bir hak ve/veya yetki iddiasında bulunmamayı kabul etmektedir. İşbu Kamu Lisansı çerçevesinde, Bölüm
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         de izin ve yetki verilmiş değişikliklerin yapılması, Uyarlanmış Materyal doğurmaz / oluşturmaz.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Aşağı yönlü alıcılar
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Lisans Veren tarafından Teklif - Lisanslı Materyal
+           </span>
+           . Lisanslı Materyali alanlar, işbu Kamu Lisansı şart ve koşulları çerçevesinde Lisanslı Hakları kullanmak üzere Lisans Verenden otomatik olarak bir teklif almaktadır.
+          </li>
+          <li id="s2a5B_adapted_material">
+           <span style="text-decoration: underline;">
+            Lisans Veren tarafından ek teklif - Uyarlanmış Materyal
+           </span>
+           . Tarafınızdan Uyarlanmış Materyali alanlar, kullandığınız Uyarlayan Lisansının şart ve koşulları çerçevesinde Lisansa Konu Hakları kullanmak üzere Lisans Verenden otomatik olarak bir teklif almaktadır.
+          </li>
+          <li id="s2a5C_no_restrictions">
+           <span style="text-decoration: underline;">
+            Aşağı yönlü sınırlamanın olmayışı
+           </span>
+           . Bunun herhangi bir Lisanslı Materyal alıcısının Lisansa Konu Hakları kullanımını sınırlaması hâlinde, Lisanslı Materyal üzerinde hiçbir ek veya farklı şart veya koşullar teklif edemez veya dayatamaz veya Lisanslı Materyale Etkin Teknolojik Önlemler uygulayamazsınız.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Onaylamama
+         </span>
+         . İşbu Kamu Lisansındaki hiçbir husus, Lisans Veren veya Bölüm
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         de öngörüldüğü şekilde atıfta bulunacak diğer kişiler ile sizin veya kullanımınızın bağlantılı olduğu, size veya kullanımınıza onlar tarafından sponsor olunduğu, sizin veya kullanımınızın desteklendiği veya size veya kullanımınıza resmi bir statü verildiğini iddia ve ima etmeye ilişkin bir izin olarak yorumlanmayacaktır.
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Diğer haklar
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Eserde değişiklik yapılmasını menetme hakkı gibi manevî haklar, aleniyet, gizlilik ve/veya diğer benzer şahsî haklar için, işbu Kamu Lisansı kapsamında lisans verilmemektedir; ancak, mümkün olduğu ölçüde Lisans Veren, başka türlü olmamak kaydıyla, yalnızca Sizin Lisansa Konu Hakları kullanabilmeniz için gerekli olduğu ölçüde, kendisinin sahibi olduğu bu tür haklardan feragat etmekte ve/veya bu tür hak iddialarında bulunmamayı kabul etmektedir.
+        </li>
+        <li id="s2b2">
+         İşbu Kamu Lisansı kapsamında patent ve markalar için lisans verilmemektedir.
+        </li>
+        <li id="s2b3">
+         Mümkün olduğu ölçüde Lisans Veren, gerek doğrudan gerekse herhangi bir gönüllü veya feragati kabil yasal veya zorunlu lisanslama tasarısı çerçevesinde bir meslek birliği aracılığı ile, Lisansa Konu Hakların kullanımı ile ilgili Sizden herhangi bir telif hakkı ücreti tahsil etme hakkından feragat etmektedir. Tüm diğer hâllerde Lisans Verenin bu tür telif hakkı ücretlerini tahsil etme hakkı mahfuzdur.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      Bölüm 3 - Lisans Koşulları.
+     </h3>
+     <p>
+      Lisansa Konu Hakların tarafınızca kullanımı, aşağıdaki koşul ve şartlara tâbidir.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Atıf
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         <p>
+          Lisanslı Materyali Paylaşmanız hâlinde (değiştirilmemiş şekilde paylaşmanız da dâhil):
+         </p>
+         <ol type="A">
+          <li id="s3a1A">
+           Lisans Veren tarafından Lisanslı Materyal ile temin edildi ise, aşağıdakileri muhafaza etmelisiniz:
+           <ol type="i">
+            <li id="s3a1Ai">
+             (belirtildi ise, takma isim de dâhil) Lisans Veren tarafından talep edilebilecek herhangi bir makul yolla, Lisanslı Materyalin sahibi/sahiplerinin ve belirtilmiş diğer alıntı yapılacak kişilerin kimliği;
+            </li>
+            <li id="s3a1Aii">
+             telif hakkı bildirimi;
+            </li>
+            <li id="s3a1Aiii">
+             bu Kamu Lisansına atıfta bulunan bir bildirim;
+            </li>
+            <li id="s3a1Aiv">
+             garanti reddine atıfta bulunan bir bildirim;
+            </li>
+            <li id="s3a1Av">
+             mümkün olduğu ölçüde Lisanslı Materyal için URI veya bağlantı adresi;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           Lisanslı materyalde değişiklik yapıp yamadığınızı belirtmeli ve daha önce yapılmış değişikliklere ilişkin bilgileri korumalı; ve
+          </li>
+          <li id="s3a1C">
+           Lisanslı Materyalin işbu Kamu Lisansı kapsamında lisanslı olduğunu belirtmeli ve Kamu Lisansı metnini veya Kamu Lisansı URI veya bağlantı adresi vermelisiniz.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         Lisanslı Materyali Paylaştığınız ortam, araç veya bağlama bağlı olarak, makul herhangi bir surette Bölüm
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         de belirtilmiş koşulları yerine getirebilirsiniz. Örneğin, gerekli bilgileri ihtiva eden bir kaynağın URI veya bağlantı adresi belirterek, koşulları yerine getirmek makul olabilir.
+        </li>
+        <li id="s3a3">
+         Lisans Veren tarafından talep edilmesi hâlinde, makul surette uygulanabilir olduğu ölçüde, Bölüm
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         da gerekli kılınan bilgileri kaldırmalısınız.
+        </li>
+       </ol>
+      </li>
+      <li id="s3b">
+       <strong>
+        AynıLisanslaPaylaş
+       </strong>
+       .
+       <p>
+        Bölüm
+        <a href="#s3a">
+         3(a)
+        </a>
+        da belirtilen şartlara ek olarak, Ürettiğiniz Uyarlanmış Materyali Paylaşmanız hâlinde, aşağıdaki şartlar da geçerli olacaktır.
+       </p>
+       <ol>
+        <li id="s3b1">
+         Kullandığınız Uyarlayan Lisansı, aynı Lisans Unsurlarına sahip bir Creative Commons lisansı olmalıdır, bu sürüm veya sonraki bir sürüm veya BY-SA Uyumlu Lisans olmalıdır.
+        </li>
+        <li id="s3b2">
+         Kullandığınız Uyarlayan Lisansı metnini veya URI veya bağlantısı adresi vermelisiniz. Uyarlanmış Materyali Paylaştığınız ortam, araç veya bağlama bağlı olarak, makul herhangi bir surette bu koşulu yerine getirebilirsiniz.
+        </li>
+        <li id="s3b3">
+         Kullandığınız Uyarlayan Lisansı kapsamında tanınan hakların kullanımını sınırlayacak şekilde, Uyarlanmış Materyal üzerinde hiçbir ek veya farklı şart veya koşul teklif edemez veya dayatamaz veya Uyarlanmış Materyale Etkin Teknolojik Önlemler uygulayamazsınız.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      Bölüm 4 - Nevi Şahsına Münhasır Veritabanı Hakları.
+     </h3>
+     <p>
+      Lisansa Konu Haklar, Lisanslı Materyali Kullanımıniz için geçerli Nevi Şahsına Münhasır Veritabanı haklarını da kapsadığı durumlarda:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       herhangi bir şüpheye mahal vermemek adına, Bölüm
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       de size, veritabanı içeriğinin tamamını veya mühim bir kısmını çıkartma, tekrar kullanma, çoğaltma ve Paylaşma hakkı bahşetmektedir;
+      </li>
+      <li id="s4b">
+       Veritabanı içeriğinin tümünü veya önemli bir kısmını Nevi Şahsına Münhasır Veritabanı Haklarınızın olduğu bir veritabanına dâhil etmeniz durumunda, Bölüm
+       <a href="#s3b">
+        3(b)
+       </a>
+       nin amaçları da dâhil, Nevi Şahsına Münhasır Veritabanı Haklarınızın olduğu veritabanı (münferit içerikleri hariç) Uyarlanmış Materyal teşkil edecektir; ve
+      </li>
+      <li id="s4c">
+       Veritabanı içeriğinin tamamını veya önemli bir kısmını Paylaşmanız durumunda Bölüm
+       <a href="#s3a">
+        3(a)
+       </a>
+       daki şartlara uymanız mecburidir.
+      </li>
+     </ol>
+     <p>
+      Herhangi bir şüpheye mahal vermemek adına, Bölüm
+      <a href="#s4">
+       4
+      </a>
+      , Lisansa Konu Hakların diğer Telif Hakkı ve Benzer Hakları kapsadığı durumlarda Kamu Lisanslı çerçevesinde tâbi olduğunuz Yükümlülükleri tamamlayıcı mahiyette olup, bu Yükümlülüklerini yerini almamaktadır.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      Bölüm 5 - Garanti Reddi ve Sorumluluk Tahdidi.
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Lisans Veren tarafından ayrıca taahhüt edilmediği sürece, mümkün olduğu ölçüde Lisans Veren, Lisanslı Materyali olduğu gibi ve kullanılabilir olduğu şekilde sunmakta olup, zımnî, sarih, yasal veya diğer türlü Lisanslı Materyaller ile ilgili hiçbir beyan ve taahhütte bulunmamaktadır. Buna, herhangi bir sınırlama olmaksızın, mülkiyet hakkı, ticarete elverişlilik, belirli bir amaca uygunluk, ihlal durumunun olmaması, gizli veya diğer kusurların olmayışı, doğruluk veya gerek bilinen gerek fark edilebilir hatanın var olduğu veya olmadığına dair garanti ve taahhütler de dâhildir. Garanti reddine kısmen veya tamamen izin verilmediği durumlarda, işbu garanti reddi Sizin için geçerli olmayabilir.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Mümkün olduğu ölçüde, Lisans Verene bu tür kayıp, masraf, gider, zarar ve/veya kusurların olabileceği hakkında bilgi verilmiş olsa dâhi, işbu Kamu Lisansından veya Lisanslı Materyalin kullanımından doğan hiçbir doğrudan özel, dolaylı, arızî, mütevellit, cezaî veya cezaî teminat veya hukuksal teori kapsamında veya diğer zayiat, masraf veya giderlerden dolayı (herhangi bir sınırlama olmaksızın ihmal de dâhil) Lisans Veren Size karşı hiçbir şekilde mesul olmayacaktır. Sorumluluk tahdidine kısmen veya tamamen izin verilmediği durumlarda, işbu tahdit / sınırlama Sizin için geçerli olmayabilir.
+       </strong>
+      </li>
+      <li id="s5c">
+       Yukarıda öngörülen garanti reddi ve sorumluluk tahdidi, mümkün olduğu ölçüde, mutlak bir sorumluluk reddi veya sorumluluktan feragatte reddine en yakın şekilde yorumlanacaktır.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      Bölüm 6 - Süre ve Fesih.
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       İşbu Kamu Lisansı, bu çerçevede lisans verilen Telif Hakkı ve Benzeri Hakların süresi boyunca geçerli olacaktır. Ancak, bu Kamu Lisansına uymadığınız takdirde, Kamu Lisansı çerçevesinde sahip olduğunuz haklar otomatik olarak feshedilecek ve sona erecektir.
+      </li>
+      <li id="s6b">
+       <p>
+        Lisanslı Materyali kullanma hakkınızın 6(a) numaralı Madde kapsamında feshedilmesi durumunda:
+       </p>
+       <ol>
+        <li id="s6b1">
+         İhlali tespitinizden sonra ihlalin 30 gün içerisinde düzeltilmesi koşuluyla, ihlalin düzeltildiği tarih itibariyle otomatik olarak veya
+        </li>
+        <li id="s6b2">
+         Lisans Veren tarafından açıkça hakların iade edilmesi üzerine hakkınız iade edilecektir.
+        </li>
+       </ol>
+       <p>
+        Herhangi bir şüpheye mahal vermemek adına,
+        <a href="#s6b">
+         6(b)
+        </a>
+        numaralı bu Bölüm, işbu Kamu Lisansının tarafınızca ihlal edilmesi ile ilgili Lisans Verenin sahip olabileceği düzeltme veya kanunî yollara başvurma haklarına halel getirmez.
+       </p>
+      </li>
+      <li id="s6c">
+       Herhangi bir şüpheye mahal vermemek adına Lisans Veren, ayrı şart veya koşullar altında da Lisanslı Materyali sunabilir veya her zaman Lisanslı Materyalin dağıtımını durdurabilir; ancak, öyle yapması işbu Kamu Lisansını feshetmeyecektir.
+      </li>
+      <li id="s6d">
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       ve
+       <a href="#s8">
+        8
+       </a>
+       numaralı Bölümler işbu Kamu Lisansının feshedilmesinden sonra da yürürlükte kalacaktır.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      Bölüm 7 - Diğer Şart ve Koşullar.
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Açıkça kabul edilmedikçe Lisans Veren, Sizin tarafınızdan iletilebilecek ek veya farklı şart ve koşullara tâbi olmayacaktır.
+      </li>
+      <li id="s7b">
+       Lisanslı Materyalin kullanımına dair burada belirtilmemiş her nevi bir düzenleme, mutabakat veya anlaşma, işbu kamu Lisansının şart ve koşullarından ayrı ve bağımsızdır.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      Bölüm 8 - Yorum.
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Herhangi bir şüpheye mahal vermemek adına işbu Kamu Lisansı, bu Kamu Lisansı kapsamında herhangi bir izin almaksızın yasal olarak mümkün olan Lisanslı Materyalin kullanımını herhangi bir şekilde azaltmamakta, sınırlamamakta, kısıtlamamakta veya herhangi bir şart getirmemekte olup, bu şekilde de yorumlanmayacaktır.
+      </li>
+      <li id="s8b">
+       Mümkün olduğu ölçüde, işbu Kamu Lisansının herhangi bir hükmünün icra mevkiinden yoksun sayılması durumunda, söz konusu hüküm, geçerli hale getirmek ve icra edilebilirlik kazandırmak için gereken asgari ölçüde otomatik olarak tadil edilecektir. Hükmün tadil edilememesi durumunda ise, kala şartlar ve koşulların uygulanabilirliğine halel getirmeksizin söz konusu hüküm işbu Kamu Lisansından çıkartılacaktır.
+      </li>
+      <li id="s8c">
+       Bu Kamu Lisansının hiçbir hükmü veya koşulundan feragat edilmeyecek olup, Lisans Veren tarafından açıkça kabul edilmedikçe, şart ve koşullara uyulmamasına rıza gösterilmeyecektir.
+      </li>
+      <li id="s8d">
+       Herhangi bir yargı dairesi veya merciinin yasal muamelelerinden doğanlar da dâhil olmak üzere, İşbu Kamu Lisansında anılan hiçbir husus, Lisans Veren veya Sizin için bağlayıcı ve geçerli olan hiçbir imtiyaz veya ayrıcalık ile ilgili bir sınırlama veya feragat teşkil etmemektedir veya bu şekilde yorumlanmayacaktır.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons, kamu lisanslarına taraf değildir. Buna karşın Creative Commons, kamu lisanlarından birini yayınladığı materyallere uygulamayı seçebilir ve bu tür durumlarda, "Lisans Veren" sayılacaktır. Kamu lisanslarının metni, CC0 Public Domain Dedication altında kamu malına özeldir. Materyalin, bir Creative Commons kamu lisansı veya
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Public Domain Dedication
+      </a>
+      . Materyalin, bir Creative Commons kamu lisansı veya
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      internet adresinde yayınlanmış olan Creative Commons politikalarının izin verdiği başka şekilde paylaşıldığının kamuya bildirilmesi şeklindeki sınırlı amaç hariç, herhangi bir sınırlama olmaksızın, kamu lisanslarından herhangi birinde yapılan her nevi değişiklik veya lisanslı materyalin kullanımına dair diğer düzenleme, mutabakat ve anlaşmalar ile bağlantılı olarak kullanılması da dâhil olmak üzere Creative Commons, önceden kendi yazılı rızası olmaksızın "Creative Commons" ticarî markasının veya Creative Commons'a ait diğer ticarî marka veya logonun kullanımına izin veya yetki vermemektedir. Herhangi bir şüpheye mahal vermemek adına, mezkur paragraf, kamu lisanslarının bir parçasını teşkil etmemektedir.
+     </p>
+     <p>
+      Creative Commons ile
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      üzerinden iletişim kurabilir.
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Çalışmamız hakkında dahasını öğrenin
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       CC Lisanslama hakkında dahasını öğrenin
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Çalışmamızı destekleyin
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Lisansı kendi materyaliniz için kullanın.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

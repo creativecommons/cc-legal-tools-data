@@ -4,521 +4,585 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Juridische tekst — CC0 1.0 Universeel — Creative Commons
+   CC0 1.0 Juridische tekst | CC0 1.0 Universeel
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.nl" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Naar de inhoud springen
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Naar de inhoud springen
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Thuispagina
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Publiek domein
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.nl">
-        CC0 1.0 Juridische tekst
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Beschikbare talen
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Selecteer
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" selected="" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Beschikbare talen
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" selected="" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.nl" id="next-btn">
-        Zie de akte
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Juridische tekst
+    </h1>
+    <h2>
+     CC0 1.0 Universeel
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 Universeel
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Doelverklaring
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Auteursrecht en Aanverwante Rechten.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Afstandsverklaring.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Publieke Licentie.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Beperkingen en Verklaringen.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Doelverklaring
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Auteursrecht en Aanverwante Rechten.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Afstandsverklaring.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Publieke Licentie.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Beperkingen en Verklaringen.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 Universeel
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 Universeel
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Over de licentie en Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation (“Creative Commons”) is geen advocatenkantoor en biedt geen juridische diensten of advies.  De verdeling van publieke licenties van Creative Commons creëert geen advocaat-cliënt- of andere relatie.  Creative Commons biedt zijn licenties en gerelateerde informatie zoals ze zijn.  Creative Commons biedt geen garantie op zijn licenties, materiaal dat onder de voorwaarden van zijn licenties valt of enige gerelateerde informatie.  Creative Commons verwerpt alle aansprakelijkheid in de breedste zin voor schade als gevolg van hun gebruik.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Het gebruik van de Publieke Licenties van Creative Commons
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons-licenties bieden een standaardset voorwaarden en bepalingen die makers en andere rechthebbenden kunnen gebruiken om originele werken van auteurschap en ander materiaal te delen dat onderhevig is aan auteursrecht en verwante rechten die zijn gespecificeerd in de onderstaande licentie. De volgende overwegingen zijn alleen voor informatieve doeleinden, ze zijn niet uitputtend en maken geen deel uit van onze licenties.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Overwegingen voor licentiegevers
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Overwegingen voor licentiegevers tonen
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Onze licenties zijn bedoeld voor gebruik door degenen die geautoriseerd zijn om iedereen toestemming te geven om materiaal te gebruiken op manieren die anderszins worden beperkt door auteursrecht en aanverwante rechten. Onze licenties zijn onherroepelijk. Licentiegevers dienen de voorwaarden van de licentie die ze kiezen te lezen en te begrijpen voordat ze deze toepassen. Licentiegevers moeten ook alle benodigde rechten veiligstellen voordat ze onze licenties toepassen, zodat iedereen het materiaal kan hergebruiken zoals verwacht. Licentiegevers dienen materiaal dat niet onder de licentie valt duidelijk te markeren. Dit omvat ander CC-gelicenseerd materiaal of materiaal dat wordt gebruikt onder een uitzondering of beperking op het auteursrecht.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Meer overwegingen voor licentiegevers.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Overwegingen voor het publiek
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Overwegingen voor het publiek tonen
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Door een van onze publieke licenties te gebruiken, verleent de licentiegever het publiek toestemming om het gelicenseerde materiaal onder gespecificeerde voorwaarden te gebruiken. Als de toestemming van de licentiegever om welke reden dan ook niet nodig is, bijvoorbeeld omdat een uitzondering of beperking op het auteursrecht van toepassing, dan wordt dat gebruik niet gereguleerd door de licentie. Onze licenties verlenen alleen toestemming onder het auteursrecht en bepaalde andere rechten die een licentiegever kan verlenen. Het gebruik van het gelicenseerde materiaal kan om andere redenen nog steeds worden beperkt, bijvoorbeeld omdat anderen auteursrechten of andere rechten op het materiaal hebben. Een licentiegever kan speciale verzoeken doen, zoals vragen om alle wijzigingen te markeren of te beschrijven. Hoewel dit niet vereist is door onze licenties, wordt u aangemoedigd om deze verzoeken waar redelijk te respecteren.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Meer overwegingen voor het publiek.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 Universeel
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          CREATIVE COMMONS CORPORATION IS GEEN ADVOCATENPRAKTIJK EN VERLEENT GEEN JURIDISCHE DIENSTEN. DE VERSPREIDING VAN DEZE LICENTIE ROEPT GEEN JURIDISCHE RELATIE MET CREATIVE COMMONS IN HET LEVEN. CREATIVE COMMONS VERSPREIDT DEZE INFORMATIE 'AS-IS'. CREATIVE COMMONS STAAT NIET IN VOOR DE INHOUD VAN DE VERSTREKTE INFORMATIE EN SLUIT ALLE AANSPRAKELIJKHEID UIT VOOR ENIGERLEI SCHADE VOORTVLOEIEND UIT HET GEBRUIK VAN DEZE INFORMATIE INDIEN EN VOORZOVER DE WET NIET ANDERS BEPAALT.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Doelverklaring
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          In het recht van de meeste landen wordt het exclusieve Auteursrecht en Aanverwante Rechten (zoals hieronder omschreven) automatisch toegekend aan de maker en de opeenvolgende rechthebbende(n) (hierna gezamenlijk en afzonderlijk aangeduid als "rechthebbende") op een oorspronkelijk auteursrechtelijk beschermd werk en/of databank (hierna aangeduid als een "Werk").
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Sommige rechthebbenden wensen afstand te doen van hun rechten op een Werk om zo een bijdrage te leveren aan een gemeenschap van vrij toegankelijke creatieve, culturele en wetenschappelijke werken ("Commons"), dat iedereen kan bewerken, aanpassen, opnemen in andere werken, hergebruiken of herdistribueren, ongeacht het doel, inclusief (maar niet beperkt tot) voor commerciële doeleinden, zonder bang te hoeven zijn dat deze rechten worden geschonden. De rechthebbenden kunnen bijvoorbeeld hun Werk beschikbaar stellen aan de Commons om het idee van een vrije cultuur en de productie van creatieve, culturele en wetenschappelijke werken te promoten, of om grotere bekendheid te geven aan hun Werk of de verspreiding ervan bevorderen, deels door het gebruik en de inspanningen van anderen.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Voor deze en/of andere doeleinden en redenen, en zonder aanspraak te maken op een aanvullende tegenprestatie of vergoeding, kiest degene die CC0 in verband brengt met een Werk (de "Bekrachtiger") er vrijwillig voor, voor zover hij of zij houder is van het Auteursrecht en Aanverwante Rechten op het Werk, om CC0 op het Werk van toepassing te verklaren en het Werk in het publieke domein te brengen, onder de voorwaarden van CC0, en met inachtneming van zijn of haar Auteursrecht en Aanverwante Rechten op het Werk en van de betekenis en desbetreffende juridische gevolgen van CC0 voor die rechten.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Auteursrecht en Aanverwante Rechten.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Op een Werk dat op grond van CC0 beschikbaar is gesteld, kunnen auteursrecht en aanverwante of naburige rechten rusten ("Auteursrecht en Aanverwante Rechten"). Auteursrecht en Aanverwante Rechten omvatten maar zijn niet beperkt tot:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           het recht om een Werk te verveelvoudigen, bewerken, distribueren, uit te voeren, tentoon te spreiden, communiceren en vertalen;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           de door de oorspronkelijke auteur(s) en/of uitvoerder(s) behouden morele rechten;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           portretrecht en privacy rechten die verband houden met een in een Werk opgenomen beeltenis of gelijkenis van een persoon;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           rechten die bescherming bieden tegen oneerlijke concurrentie ten aanzien van een Werk, met inachtneming van de in onderstaand artikel 4, lid a, opgenomen beperkingen;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           rechten die bescherming bieden tegen het opvragen, verspreiden, gebruiken en hergebruiken van in een Werk opgenomen gegevens;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           databankrechten (zoals die welke voortvloeien uit Richtlijn 96/9/EG van het Europees Parlement en de Raad van 11 maart 1996 betreffende de rechtsbescherming van databanken en uit nationaal recht krachtens de implementatie van de richtlijn daarin, inclusief de gewijzigde of opeenvolgende versie van die richtlijn); en
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           overige vergelijkbare, gelijkwaardige, of overeenkomende rechten waar ook ter wereld, op basis van het toepasselijke recht of verdrag en de implementatie daarvan in nationaal recht.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Afstandsverklaring.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Voor zover dit is toegestaan onder en niet in strijd is met het toepasselijke recht, doet Bekrachtiger hierbij uitdrukkelijk, volledig, permanent, onherroepelijk en onvoorwaardelijk afstand van al zijn/haar Auteursrechten en Aanverwante Rechten en van alle daarmee verband houdende vorderingen en gerechtelijke procedures, hetzij bekend of onbekend (en zowel bestaande als toekomstige vorderingen en gerechtelijke procedures), op het Werk en geeft deze op (i) in alle rechtsgebieden ter wereld, (ii) voor de maximale duur toegestaan krachtens het toepasselijke recht of verdrag (inclusief toekomstige verlengingen daarvan), (iii) in elk bestaand of in de toekomst te ontwikkelen medium en ongeacht het aantal kopieën, en (iv) ongeacht het doeleinde, daaronder begrepen maar niet beperkt tot commerciële, reclame of promotionele doeleinden (de "Afstandsverklaring"). Bekrachtiger doet deze Afstandsverklaring ten behoeve van het publieke domein en ten nadele van zijn/haar erfgenamen en rechtsopvolgers, met de volledige intentie deze Afstandsverklaring niet te herroepen, ontbinden, annuleren of beëindigen, en verklaart dat met betrekking daartoe geen rechtsvordering of andere gerechtelijke actie zal worden ingesteld die het ongestoord genot van het Werk door het publiek, zoals overwogen in de expliciete Doelverklaring van Bekrachtiger, zou kunnen verstoren.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Publieke Licentie.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Als enig deel van de Afstandsverklaring onder het toepasselijke recht, om wat voor reden ook nietig of niet rechtsgeldig worden verklaard, dan blijft de Afstandsverklaring overigens zoveel mogelijk van kracht, met inachtneming van de expliciete Doelverklaring van Bekrachtiger. Daarnaast verleent Bekrachtiger, indien het bovenstaande met betrekking tot de Afstandsverklaring wordt verklaard, elke getroffen persoon een royaltyvrije, niet-overdraagbare, niet-sublicensieerbare, niet-exclusieve, onherroepelijke en onvoorwaardelijke licentie om het Auteursrecht en de Aanverwante Rechten van Bekrachtiger op het Werk uit te oefenen (i) in alle rechtsgebieden ter wereld, (ii) voor de maximale duur toegestaan krachtens het toepasselijke recht of verdrag (inclusief toekomstige verlengingen daarvan), (iii) in elk bestaand of in de toekomst te ontwikkelen medium en ongeacht het aantal kopieën, en (iv) ongeacht het doeleinde, daaronder begrepen maar niet beperkt tot commerciële, reclame of promotionele doeleinden (de "Licentie"). De Licentie wordt geacht van kracht te zijn met ingang van de datum waarop Bekrachtiger CC0 van toepassing heeft verklaard op het Werk. Als enig deel van de Licentie onder het toepasselijke recht om wat voor reden ook nietig of niet rechtsgeldig wordt verklaard, dan tast deze gedeeltelijke nietigheid of niet-rechtsgeldigheid de rest van de Licentie niet aan en in dat geval bevestigt Bekrachtiger hierbij dat hij/zij (i) zijn/haar rechten op het resterende Auteursrecht en Aanverwante Rechten op het Werk niet zal uitoefenen, of (ii) geen verwante rechtsvorderingen en gerechtelijke procedures met betrekking tot het Werk zal instellen, in beide gevallen in afwijking van de uitdrukkelijke Doelverklaring van Bekrachtiger.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Beperkingen en Verklaringen.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Van geen enkel handelsmerk of octrooi van Bekrachtiger wordt afstand gedaan als gevolg van dit document, noch worden deze opgegeven, in licentie gegeven of anderszins aangetast.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Bekrachtiger biedt het Werk aan op “as-is” basis en doet geen enkele uitspraak en verstrekt geen enkele garantie met betrekking tot het Werk, expliciet, impliciet, wettelijk of anderszins, waaronder begrepen maar niet beperkt tot garantie van eigendom, verkoopbaarheid, geschiktheid voor een bepaald doel, niet-schending, of de afwezigheid van verborgen of andere gebreken, juistheid, of de aan- of afwezigheid van fouten, ongeacht of deze ontdekt kunnen worden, een en ander voor zover onder het toepasselijke recht is toegestaan.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Bekrachtiger is niet verantwoordelijk voor het vrijmaken van rechten van derden die op het Werk of het gebruik daarvan kunnen berusten, zoals maar niet beperkt tot het Auteursrecht en Aanverwante Rechten van derden op het Werk. Bekrachtiger is evenmin verantwoordelijk voor het verkrijgen van de voorgeschreven toestemmingen, vergunningen of andere rechten die vereist zijn voor het gebruik van het Werk.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Bekrachtiger erkent en verklaart dat Creative Commons geen partij is bij dit document en dat op haar geen enkele verplichting of plicht rust met betrekking tot deze CC0 of het gebruik van het Werk.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons is geen partij bij haar publieke licenties. Niettegenstaande kan Creative Commons er voor kiezen een van de publieke licenties toe te passen op materiaal dat het zelf publiceert, en in die gevallen zal Creative Commons beschouwd worden als de ‘Licentiegever’. De tekst van de Creative Commons publieke licenties is toegewijd aan het publieke domein onder de
-        <a href="/publicdomain/zero/1.0/legalcode.nl">
-         Creative Commons CC0 Publieke Domein Afstandsverklaring
-        </a>
-        . Met uitzondering van het beperkte doel om kenbaar te maken dat materiaal onder een Creative Commons Publieke Licentie is vrijgegeven, of anderszins is toegestaan op grond van het beleid van Creative Commons gepubliceerd op
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , geeft Creative Commons geen toestemming voor het gebruik van het merk "Creative Commons" of enig ander merk of logo van Creative Commons zonder voorafgaande schriftelijke toestemming inclusief, zonder beperking, in verband met ongeautoriseerde wijzigingen aan een van haar openbare licenties of alle andere regelingen, afspraken of overeenkomsten met betrekking tot het gebruik van gelicenseerde materiaal. Om twijfel te voorkomen, deze paragraaf maakt geen deel uit van de publieke licenties.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons kan gecontacteerd worden op
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is de non-profitorganisatie achter de open licenties en andere juridische tools waarmee makers hun werk kunnen delen. Onze juridische tools zijn gratis te gebruiken.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Meer leren over ons werk
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Meer leren over CC-licensering
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Ons werk ondersteunen
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            De licentie voor je eigen materiaal gebruiken.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.nl">
+      Zie de akte
+     </a>
+    </p>
+    <p>
+     Versie 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      Over de licentie en Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Het gebruik van de Publieke Licenties van Creative Commons
+     </h2>
+     <p>
+      Creative Commons-licenties bieden een standaardset voorwaarden en bepalingen die makers en andere rechthebbenden kunnen gebruiken om originele werken van auteurschap en ander materiaal te delen dat onderhevig is aan auteursrecht en verwante rechten die zijn gespecificeerd in de onderstaande licentie. De volgende overwegingen zijn alleen voor informatieve doeleinden, ze zijn niet uitputtend en maken geen deel uit van onze licenties.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Overwegingen voor licentiegevers
+     </h3>
+     <p>
+      Onze licenties zijn bedoeld voor gebruik door degenen die geautoriseerd zijn om iedereen toestemming te geven om materiaal te gebruiken op manieren die anderszins worden beperkt door auteursrecht en aanverwante rechten. Onze licenties zijn onherroepelijk. Licentiegevers dienen de voorwaarden van de licentie die ze kiezen te lezen en te begrijpen voordat ze deze toepassen. Licentiegevers moeten ook alle benodigde rechten veiligstellen voordat ze onze licenties toepassen, zodat iedereen het materiaal kan hergebruiken zoals verwacht. Licentiegevers dienen materiaal dat niet onder de licentie valt duidelijk te markeren. Dit omvat ander CC-gelicenseerd materiaal of materiaal dat wordt gebruikt onder een uitzondering of beperking op het auteursrecht.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Meer overwegingen voor licentiegevers.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Overwegingen voor het publiek
+     </h3>
+     <p>
+      Door een van onze publieke licenties te gebruiken, verleent de licentiegever het publiek toestemming om het gelicenseerde materiaal onder gespecificeerde voorwaarden te gebruiken. Als de toestemming van de licentiegever om welke reden dan ook niet nodig is, bijvoorbeeld omdat een uitzondering of beperking op het auteursrecht van toepassing, dan wordt dat gebruik niet gereguleerd door de licentie. Onze licenties verlenen alleen toestemming onder het auteursrecht en bepaalde andere rechten die een licentiegever kan verlenen. Het gebruik van het gelicenseerde materiaal kan om andere redenen nog steeds worden beperkt, bijvoorbeeld omdat anderen auteursrechten of andere rechten op het materiaal hebben. Een licentiegever kan speciale verzoeken doen, zoals vragen om alle wijzigingen te markeren of te beschrijven. Hoewel dit niet vereist is door onze licenties, wordt u aangemoedigd om deze verzoeken waar redelijk te respecteren.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Meer overwegingen voor het publiek.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 Universeel
+     </h2>
+     <p>
+      CREATIVE COMMONS CORPORATION IS GEEN ADVOCATENPRAKTIJK EN VERLEENT GEEN JURIDISCHE DIENSTEN. DE VERSPREIDING VAN DEZE LICENTIE ROEPT GEEN JURIDISCHE RELATIE MET CREATIVE COMMONS IN HET LEVEN. CREATIVE COMMONS VERSPREIDT DEZE INFORMATIE 'AS-IS'. CREATIVE COMMONS STAAT NIET IN VOOR DE INHOUD VAN DE VERSTREKTE INFORMATIE EN SLUIT ALLE AANSPRAKELIJKHEID UIT VOOR ENIGERLEI SCHADE VOORTVLOEIEND UIT HET GEBRUIK VAN DEZE INFORMATIE INDIEN EN VOORZOVER DE WET NIET ANDERS BEPAALT.
+     </p>
+     <h3 id="sop">
+      Doelverklaring
+     </h3>
+     <p>
+      In het recht van de meeste landen wordt het exclusieve Auteursrecht en Aanverwante Rechten (zoals hieronder omschreven) automatisch toegekend aan de maker en de opeenvolgende rechthebbende(n) (hierna gezamenlijk en afzonderlijk aangeduid als "rechthebbende") op een oorspronkelijk auteursrechtelijk beschermd werk en/of databank (hierna aangeduid als een "Werk").
+     </p>
+     <p>
+      Sommige rechthebbenden wensen afstand te doen van hun rechten op een Werk om zo een bijdrage te leveren aan een gemeenschap van vrij toegankelijke creatieve, culturele en wetenschappelijke werken ("Commons"), dat iedereen kan bewerken, aanpassen, opnemen in andere werken, hergebruiken of herdistribueren, ongeacht het doel, inclusief (maar niet beperkt tot) voor commerciële doeleinden, zonder bang te hoeven zijn dat deze rechten worden geschonden. De rechthebbenden kunnen bijvoorbeeld hun Werk beschikbaar stellen aan de Commons om het idee van een vrije cultuur en de productie van creatieve, culturele en wetenschappelijke werken te promoten, of om grotere bekendheid te geven aan hun Werk of de verspreiding ervan bevorderen, deels door het gebruik en de inspanningen van anderen.
+     </p>
+     <p>
+      Voor deze en/of andere doeleinden en redenen, en zonder aanspraak te maken op een aanvullende tegenprestatie of vergoeding, kiest degene die CC0 in verband brengt met een Werk (de "Bekrachtiger") er vrijwillig voor, voor zover hij of zij houder is van het Auteursrecht en Aanverwante Rechten op het Werk, om CC0 op het Werk van toepassing te verklaren en het Werk in het publieke domein te brengen, onder de voorwaarden van CC0, en met inachtneming van zijn of haar Auteursrecht en Aanverwante Rechten op het Werk en van de betekenis en desbetreffende juridische gevolgen van CC0 voor die rechten.
+     </p>
+     <h3 id="copyright">
+      1. Auteursrecht en Aanverwante Rechten.
+     </h3>
+     <p>
+      Op een Werk dat op grond van CC0 beschikbaar is gesteld, kunnen auteursrecht en aanverwante of naburige rechten rusten ("Auteursrecht en Aanverwante Rechten"). Auteursrecht en Aanverwante Rechten omvatten maar zijn niet beperkt tot:
+     </p>
+     <ol type="i">
+      <li>
+       het recht om een Werk te verveelvoudigen, bewerken, distribueren, uit te voeren, tentoon te spreiden, communiceren en vertalen;
+      </li>
+      <li>
+       de door de oorspronkelijke auteur(s) en/of uitvoerder(s) behouden morele rechten;
+      </li>
+      <li>
+       portretrecht en privacy rechten die verband houden met een in een Werk opgenomen beeltenis of gelijkenis van een persoon;
+      </li>
+      <li>
+       rechten die bescherming bieden tegen oneerlijke concurrentie ten aanzien van een Werk, met inachtneming van de in onderstaand artikel 4, lid a, opgenomen beperkingen;
+      </li>
+      <li>
+       rechten die bescherming bieden tegen het opvragen, verspreiden, gebruiken en hergebruiken van in een Werk opgenomen gegevens;
+      </li>
+      <li>
+       databankrechten (zoals die welke voortvloeien uit Richtlijn 96/9/EG van het Europees Parlement en de Raad van 11 maart 1996 betreffende de rechtsbescherming van databanken en uit nationaal recht krachtens de implementatie van de richtlijn daarin, inclusief de gewijzigde of opeenvolgende versie van die richtlijn); en
+      </li>
+      <li>
+       overige vergelijkbare, gelijkwaardige, of overeenkomende rechten waar ook ter wereld, op basis van het toepasselijke recht of verdrag en de implementatie daarvan in nationaal recht.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Afstandsverklaring.
+     </h3>
+     <p>
+      Voor zover dit is toegestaan onder en niet in strijd is met het toepasselijke recht, doet Bekrachtiger hierbij uitdrukkelijk, volledig, permanent, onherroepelijk en onvoorwaardelijk afstand van al zijn/haar Auteursrechten en Aanverwante Rechten en van alle daarmee verband houdende vorderingen en gerechtelijke procedures, hetzij bekend of onbekend (en zowel bestaande als toekomstige vorderingen en gerechtelijke procedures), op het Werk en geeft deze op (i) in alle rechtsgebieden ter wereld, (ii) voor de maximale duur toegestaan krachtens het toepasselijke recht of verdrag (inclusief toekomstige verlengingen daarvan), (iii) in elk bestaand of in de toekomst te ontwikkelen medium en ongeacht het aantal kopieën, en (iv) ongeacht het doeleinde, daaronder begrepen maar niet beperkt tot commerciële, reclame of promotionele doeleinden (de "Afstandsverklaring"). Bekrachtiger doet deze Afstandsverklaring ten behoeve van het publieke domein en ten nadele van zijn/haar erfgenamen en rechtsopvolgers, met de volledige intentie deze Afstandsverklaring niet te herroepen, ontbinden, annuleren of beëindigen, en verklaart dat met betrekking daartoe geen rechtsvordering of andere gerechtelijke actie zal worden ingesteld die het ongestoord genot van het Werk door het publiek, zoals overwogen in de expliciete Doelverklaring van Bekrachtiger, zou kunnen verstoren.
+     </p>
+     <h3 id="fallback">
+      3. Publieke Licentie.
+     </h3>
+     <p>
+      Als enig deel van de Afstandsverklaring onder het toepasselijke recht, om wat voor reden ook nietig of niet rechtsgeldig worden verklaard, dan blijft de Afstandsverklaring overigens zoveel mogelijk van kracht, met inachtneming van de expliciete Doelverklaring van Bekrachtiger. Daarnaast verleent Bekrachtiger, indien het bovenstaande met betrekking tot de Afstandsverklaring wordt verklaard, elke getroffen persoon een royaltyvrije, niet-overdraagbare, niet-sublicensieerbare, niet-exclusieve, onherroepelijke en onvoorwaardelijke licentie om het Auteursrecht en de Aanverwante Rechten van Bekrachtiger op het Werk uit te oefenen (i) in alle rechtsgebieden ter wereld, (ii) voor de maximale duur toegestaan krachtens het toepasselijke recht of verdrag (inclusief toekomstige verlengingen daarvan), (iii) in elk bestaand of in de toekomst te ontwikkelen medium en ongeacht het aantal kopieën, en (iv) ongeacht het doeleinde, daaronder begrepen maar niet beperkt tot commerciële, reclame of promotionele doeleinden (de "Licentie"). De Licentie wordt geacht van kracht te zijn met ingang van de datum waarop Bekrachtiger CC0 van toepassing heeft verklaard op het Werk. Als enig deel van de Licentie onder het toepasselijke recht om wat voor reden ook nietig of niet rechtsgeldig wordt verklaard, dan tast deze gedeeltelijke nietigheid of niet-rechtsgeldigheid de rest van de Licentie niet aan en in dat geval bevestigt Bekrachtiger hierbij dat hij/zij (i) zijn/haar rechten op het resterende Auteursrecht en Aanverwante Rechten op het Werk niet zal uitoefenen, of (ii) geen verwante rechtsvorderingen en gerechtelijke procedures met betrekking tot het Werk zal instellen, in beide gevallen in afwijking van de uitdrukkelijke Doelverklaring van Bekrachtiger.
+     </p>
+     <h3 id="limitations">
+      4. Beperkingen en Verklaringen.
+     </h3>
+     <ol type="a">
+      <li>
+       Van geen enkel handelsmerk of octrooi van Bekrachtiger wordt afstand gedaan als gevolg van dit document, noch worden deze opgegeven, in licentie gegeven of anderszins aangetast.
+      </li>
+      <li>
+       Bekrachtiger biedt het Werk aan op “as-is” basis en doet geen enkele uitspraak en verstrekt geen enkele garantie met betrekking tot het Werk, expliciet, impliciet, wettelijk of anderszins, waaronder begrepen maar niet beperkt tot garantie van eigendom, verkoopbaarheid, geschiktheid voor een bepaald doel, niet-schending, of de afwezigheid van verborgen of andere gebreken, juistheid, of de aan- of afwezigheid van fouten, ongeacht of deze ontdekt kunnen worden, een en ander voor zover onder het toepasselijke recht is toegestaan.
+      </li>
+      <li>
+       Bekrachtiger is niet verantwoordelijk voor het vrijmaken van rechten van derden die op het Werk of het gebruik daarvan kunnen berusten, zoals maar niet beperkt tot het Auteursrecht en Aanverwante Rechten van derden op het Werk. Bekrachtiger is evenmin verantwoordelijk voor het verkrijgen van de voorgeschreven toestemmingen, vergunningen of andere rechten die vereist zijn voor het gebruik van het Werk.
+      </li>
+      <li>
+       Bekrachtiger erkent en verklaart dat Creative Commons geen partij is bij dit document en dat op haar geen enkele verplichting of plicht rust met betrekking tot deze CC0 of het gebruik van het Werk.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons is geen partij bij haar publieke licenties. Niettegenstaande kan Creative Commons er voor kiezen een van de publieke licenties toe te passen op materiaal dat het zelf publiceert, en in die gevallen zal Creative Commons beschouwd worden als de ‘Licentiegever’. De tekst van de Creative Commons publieke licenties is toegewijd aan het publieke domein onder de
+      <a href="/publicdomain/zero/1.0/legalcode.nl">
+       Creative Commons CC0 Publieke Domein Afstandsverklaring
+      </a>
+      . Met uitzondering van het beperkte doel om kenbaar te maken dat materiaal onder een Creative Commons Publieke Licentie is vrijgegeven, of anderszins is toegestaan op grond van het beleid van Creative Commons gepubliceerd op
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , geeft Creative Commons geen toestemming voor het gebruik van het merk "Creative Commons" of enig ander merk of logo van Creative Commons zonder voorafgaande schriftelijke toestemming inclusief, zonder beperking, in verband met ongeautoriseerde wijzigingen aan een van haar openbare licenties of alle andere regelingen, afspraken of overeenkomsten met betrekking tot het gebruik van gelicenseerde materiaal. Om twijfel te voorkomen, deze paragraaf maakt geen deel uit van de publieke licenties.
+     </p>
+     <p>
+      Creative Commons kan gecontacteerd worden op
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is de non-profitorganisatie achter de open licenties en andere juridische tools waarmee makers hun werk kunnen delen. Onze juridische tools zijn gratis te gebruiken.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Meer leren over ons werk
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Meer leren over CC-licensering
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Ons werk ondersteunen
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       De licentie voor je eigen materiaal gebruiken.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Lijst met licenties
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Publieke-domeinlijst
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

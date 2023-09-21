@@ -4,1015 +4,1032 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-SA 4.0 النص القانوني — نَسب المُصنَّف - غير تجاري - الترخيص بالمثل 4.0 دولي — Creative Commons
+   CC BY-NC-SA 4.0 النص القانوني | نَسب المُصنَّف - غير تجاري - الترخيص بالمثل 4.0 دولي
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ar" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-right" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   تخطي إلى المحتوى
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-right-big padding-left-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     تخطي إلى المحتوى
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        الرئيسية
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-sa/4.0/legalcode.ar">
-        CC BY-NC-SA 4.0 النص القانوني
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-right-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" selected="" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-right">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" selected="" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-left" href="deed.ar" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-SA 4.0 النص القانوني
+    </h1>
+    <h2>
+     نَسب المُصنَّف - غير تجاري - الترخيص بالمثل 4.0 دولي
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل 4.0 دولي
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            القسم ١ – تعريفات:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            القسم ٢ - النطاق:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            القسم ٣ - شروط الرخصة:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            القسم ٤ -
-            <span dir="RTL">
-             الحقوق الفريدة لقاعدة البيانات
-            </span>
-            :
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            القسم ٥ - التنصُّل من الضمانات والحدِّ من المسؤولية:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            القسم ٦ - الـمُدَّة والإنهاء:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            القسم ٧ - أحكام وشروط أخرى:
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            القسم ٨ - التفسير:
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          القسم ١ – تعريفات:
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          القسم ٢ - النطاق:
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          القسم ٣ - شروط الرخصة:
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          القسم ٤ -
+          <span dir="RTL">
+           الحقوق الفريدة لقاعدة البيانات
+          </span>
+          :
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          القسم ٥ - التنصُّل من الضمانات والحدِّ من المسؤولية:
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          القسم ٦ - الـمُدَّة والإنهاء:
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          القسم ٧ - أحكام وشروط أخرى:
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          القسم ٨ - التفسير:
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-left-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC-SA 4.0
-       </h2>
-       <h1 class="b-header">
-        نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل 4.0 دولي
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-right-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-right-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-right-normal">
-        CC BY-NC-SA 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC-SA 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC-SA 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل 4.0 دولي
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-left-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-right-big">
-        لا تُعتَبر مؤسسة المشاع الإبداعي ("Creative Commons") شركة محاماة، كما أنها لا تقدِّم خدمات أو استشارات قانونية. إنَّ توزيع رخص المشاع الإبداعي العمومية لا تُنشيء علاقة المحامي وموكِّله أو أي علاقة أخرى. تتيح مؤسسة المشاع الإبداعي رخصها والمعلومات المتعلِّقة بها "كما هي". مؤسسة المشاع الإبداعي لا تقدِّم أي ضمانات بشأن رخصها أو أي مادة مرخَّصة بموجب أحكامها وشروطها، أو أي معلومات لها علاقة بذلك. مؤسسة المشاع الإبداعي لا تتحمل بأي شكل كان اية مسؤولية عن الأضرار الناجمة عن استعمال هذه الرُّخَص ولأكبر قدر ممكن.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        استعمال رخص المشاع الإبداعي العمومية
-       </h4>
-       <p class="has-text-black body-big">
-        رخص المشاع الإبداعي العمومية تتيح مجموعة موحَّدة من الأحكام والشروط تمكِّن المبدعين وأصحاب الحقوق الآخرين من استعمالها لمشاركة أعمالهم المبتكرة من المؤلَّفات والمواد الأخرى المحمية بموجب حق المؤلف وبعض الحقوق المعيَّنة الأخرى المشار إليها في الرخصة العمومية أدناه. إنَّ الاعتبارات التالية هي لغايات تعريفية فقط، وليست على سبيل الحصر، ولا تشكل جزءًا من رخصنا.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         اعتبارات متعلقة بالمرخِّصين
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         رخصنا العمومية معدَّة للاستعمال من قِبَل أولئك المخوَّلين بإعطاء الإذن للجمهور لاستعمال مواد بطرق تكون بالأصل مقيَّدة بموجب حق المؤلِّف وغيره من الحقوق الـمُعيَّنة الأخرى. تراخيصنا غير قابلةٍ للتراجع عنها. على المرخَّصين قراءة وفهم أحكام وشروط الرخصة المختارة قبل تطبيقها. على المرخِّصين أيضًا تأمين كافة الحقوق اللازمة قبل تطبيق رخصنا؛ وذلك حتى يتمكن الجمهور من إعادة استعمال المواد كما هو مُتوخَّى. على الـمُرخِّصين الإشارة بوضوح للمواد غير الخاضعة للرخصة. وهذا يشمل المواد الخاضعة لأي رخص أُخرى من رخص المشاع الإبداعي أو المواد الـمُستعمَلة بموجب استثناء أو تقييد على حق المؤلِّف.
-         <br/>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         اعتبارات متعلِّقة بالجمهور
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         بمجرد استعمال إحدى رخصنا العمومية يَمنح المرخِّصُ الجمهورَ الإذنَ باستعمال المادة المرخَّصة بموجب أحكام وشروط محدَّدة. في حالة عدم وجود أي سبب يتطلب الحصول على إذن المرخِّص -على سبيل المثال بسبب أي استثناء أو تقييدٍ سارٍ بموجب حق المؤلِّف- فإنَّ هذا الاستعمال لن يكون خاضعًا لأحكام هذه الرخصة. تَمنحُ رخصُنا فقط الإذن بموجب حق المؤلِّف وحقوق أخرى معيَّنة يكون لدى المرخِّص سلطة لمنحها. ومع ذلك فإنَّ استعمال المواد المرخَّصة قد يكون مقيَّدًا لأسباب أخرى، بما في ذلك أن يكون للغير حق مؤلِّف أو حقوق أخرى في هذه المواد. يمكن للمرخِّص أن يتقدم بطلبات خاصة، كأن يطلب أن يُشار إلى جميع التعديلات أو أن يتم وصفها. وبالرغم أنَّ مثل هذه الطلبات غير مطلوبة في رخصنا، إلا أنه من المحبَّذ أن تقوم بمراعاة هذه الطلبات ضمن حدود المعقول.
-         <br/>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل 4.0 دولي
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         إنَّ ممارستك للحقوق المرخَّصة (الـمُعرَّفة أدناه)، تعني قبولك وموافقتك على أن تكون مُلْزَمًا بأحكام وشروط رخصة المشاع الإبداعي العمومية هذه، نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل4.0 رخصة عمومية دولية "الرخصة العمومية". بالقدْر الذي يسمح بتفسير هذه الرخصة العمومية كعقد، فإنك تمنح الحقوق المرخَّصة لقاء قبولك لهذه الأحكام والشروط، كما ويمنحك المرخِّص هذه الحقوق لقاء المنافع التي يتلقاها من خلال إتاحة استعمال المواد المرخَّصة بموجب هذه الأحكام والشروط.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           القسم ١ – تعريفات:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             المواد الـمُحوَّرة:
-            </span>
-            تعني المواد الخاضعة لحق المؤلِّف وللحقوق المشابهة المشتقة من/ أو التي تكون مبنية على المواد المرخَّصة من خلال، ترجمة، تغيير، تشكيل، تحويل، أو تعديل المواد المرخَّصة بأي شكل يستوجب إجراءه الحصول على إذن من المرخِّص بموجب حق المؤلِّف أو الحقوق المشابهة التي يحوزها المرخِّص. ولأغراض هذه الرخصة العمومية، حين تكون المادة المرخَّصة عملًا موسيقيًا، أداءً، أو تسجيلًا صوتيًا؛ يكون تحوير هذه المادة دائمًا من خلال استعمالها بالتزامن مع صورة متحركة.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             رخصة الـمُحوِّر:
-            </span>
-            تعني الرخصة التي تقوم بتطبيقها على حق المؤلِّف والحقوق المشابهة الخاصة بك في مساهماتك للمواد الـمُحوَّرة وفقًا لأحكام وشروط هذه الرخصة العمومية.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_by_nc_sa_compatible_license">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             رخصة متوافقة مع BY-NC-SA:
-            </span>
-            تعني أي رخصة مُدْرَجة في موقع
-            <a href="//creativecommons.org/compatiblelicenses">
-             creativecommons.org/compatiblelicenses
-            </a>
-            ، ومعتمَدة من قِبَل مؤسسة المشاع الإبداعي على أساس أنها تعادل هذه الرخصة العمومية.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_copyright_and_similar_rights">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             حق المؤلِّف والحقوق المشابهة:
-            </span>
-            تعني حق المؤلِّف و/أو الحقوق المشابهة المتصلة بها، التي تشمل، دون تقييد، الأداء، البث، التسجيل الصوتي،
-            <span dir="RTL">
-             الحقوق الفريدة لقاعدة البيانات
-            </span>
-            ، وذلك بغض النظر عن وصف تلك الحقوق أو تصنيفها. ولأغراض هذه الرخصة العمومية، فإنَّ الحقوق المحدَّدة في القسم
-            <a href="#s2b">
-             ٢(ب)(١)-(٢)
-            </a>
-            من الرخصة لا تُعتبر ضمن حق المؤلِّف والحقوق المشابهة.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_effective_technological_measures">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             التدابير التكنولوجية الفعَّالة:
-            </span>
-            تعني تلك التدابير التي -في غياب السُّلْطة الملائمة- لا يجوز التحايل عليها بموجب القوانين التي تتوافق مع
-            <span dir="RTL">
-             الالتزامات المنصوص عليها في
-            </span>
-            المادة ١١ من معاهدة الوايبو بشأن حق المؤلف، المعتمَدة في ٢٠ ديسمبر/كانون الأول ١٩٩٦، و/أو الاتفاقيات الدولية المشابهة.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_exceptions_and_limitations">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             الاستثناءات والتقييدات:
-            </span>
-            تعني الاستخدام العادل (Fair Use)، التصرف العادل (Fair Dealing)، و/أو أي استثناء أو تقييد على حق المؤلف والحقوق المشابهة ينطبق على استعمالك للمواد المرخَّصة.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_license_elements_nc_sa">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             عناصر الرخصة:
-            </span>
-            تعني خصائص الرخصة الـمُدْرَجة في اسم رخصة المشاع الإبداعي العمومية. وعناصر هذه الرخصة العمومية هي، نَسْبُ الـمُصنَّف، غير تجاري، والترخيص بالمثل.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensed_material">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             المواد المرخَّصة:
-            </span>
-            تعني العمل الفني أو الأدبي، أو قاعدة البيانات، أو أي مواد أخرى يُخضعها المرخِّص لهذه الرخصة العمومية.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_licensed_rights">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             الحقوق المرخَّصة:
-            </span>
-            تعني الحقوق الممنوحة لك، الخاضعة لأحكام وشروط هذه الرخصة العمومية، والمقتصِرة على جميع حقوق المؤلِّف والحقوق المشابهة المطبَّقة على استعمالك للمواد المرخَّصة، التي لدى المرخِّص سلطة ترخيصها.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_licensor">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             المرخِّص:
-            </span>
-            هو الفرد (أو الأفراد) أو الكيان (أو الكيانات) الذي يَمنح الحقوق بموجب هذه الرخصة العمومية.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_noncommercial">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             غير تجاري:
-            </span>
-            هو الذي لا يُراد به أو لا يكون موجهًا بشكل أساسي نحو منفعة تجارية أو تعويض نقدي. ولأغراض هذه الرخصة العمومية، فإنَّ تبادل المواد المرخَّصة بمواد أخرى خاضعة لحق المؤلِّف والحقوق المشابهة عن طريق المشاركة الرقمية للملفات أو بوسائل مماثلة يعتبر غير تجاري، شريطة أن لا يكون هناك تعويض نقدي مرتبط بهذا التبادل.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_share">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             يشارك:
-            </span>
-            تعني تقديم مواد للجمهور بأي طريقة أو وسيلة تتطلَّب الحصول على الإذن بموجب الحقوق المرخَّصة، مثل النَّسْخ، أو العَرْض العلني، أو الأداء العلني، أو التوزيع، أو التعميم، أو النقل، أو الاستيراد، أو إتاحة المادة للجمهور، بما في ذلك الوسائل التي تُمكِّن أفراد الجمهور من النفاذ إليها من مكان وفي زمان يُختاران فرديًا من قِبَلهم.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1m_sui_generis_database_rights">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             الحقوق الفريدة لقاعدة البيانات:
-            </span>
-            هي تلك الحقوق المختلفة عن حق المؤلِّف والمنبثقة بموجب التوجيه 96/9/EC من قِبَل البرلمان والمجلس الأوروبي بتاريخ 11 مارس/آذار 1996 والمتعلّق بالحماية القانونية لقواعد البيانات، وتعديلاته اللاحقة و/أو ما يليه، كما تشمل أية حقوق أخرى تكون موازية لها في أي مكان في العالم.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1n_you">
-           <div class="padding-right-normal">
-            <span style="text-decoration: underline;">
-             أنت
-            </span>
-            تعني الفرد أو الكيان الذي يمارس الحقوق الـمُرخَّصة بموجب هذه الرخصة العمومية،
-            <strong>
-             "لك"
-            </strong>
-            تقابلها في المعنى.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           القسم ٢ - النطاق:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal" id="s2a">
-           <strong>
-            مَنْح الرخصة:
-           </strong>
-           .
-           <ol class="padding-right-normal padding-vertical-normal">
-            <li class="padding-right-normal padding-bottom-normal" id="s2a1">
-             مع مراعاة أحكام وشروط هذه الرخصة العمومية، يمنحك المرخِّص رخصة عالمية، دون إتاوات، وغير قابلة للترخيص من الباطن، وغير حَصْريَّة، وغير قابلة للإلغاء، لممارسة الحقوق المرخَّصة للمواد المرخَّصة؛ وذلك لأجْل:
-             <ol class="padding-right-normal padding-vertical-normal" type="A">
-              <li class="padding-right-normal padding-bottom-normal" id="s2a1A">
-               reproduce and Share the Licensed Material, in whole or in part; and
-              </li>
-              <li class="padding-right-normal padding-bottom-small" id="s2a1B">
-               produce, reproduce, and Share Adapted Material.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              الاستثناءات والتقييدات:
-             </strong>
-             تفاديًا للالتباس، حين تنطبق الاستثناءات والتقييدات على استعمالك، فإنَّ هذه الرخصة العمومية لا تُطبَّق، ولن تكون مُلْزَمًا بأحكامها وشروطها.
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              الـمُدَّة:
-             </strong>
-             مُدَّة هذه الرخصة العمومية محدَّدة في القسم
-             <a href="#s6a">
-              ٦(أ)
-             </a>
-             .
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              الوسائط والصِّيغ: التعديلات التقنية مباحة:
-             </strong>
-             يصرِّح لك المرخِّص بممارسة الحقوق المرخَّصة في جميع الوسائط والصيغ، سواء كانت معروفة الآن أو مستَحدَثة لاحقًا، وإجراء التعديلات التقنية الضرورية اللازمة لذلك. يتنازل المرخِّص عن حقِّه و/أو يوافق على عدم المطالبة بأي حق أو سُلْطة تحرمك بموجبه من إجراء أي تعديلات تقنية ضرورية لممارسة الحقوق المرخَّصة، بما في ذلك التعديلات التقنية الضرورية للتحايل على التدابير التكنولوجية الفعالة. ولأغراض هذه الرخصة العمومية، فإنَّ مجرد إجراء التعديلات المصرَّح بها في هذا القسم
-             <a href="#s2a4">
-              ٢(أ)(٤)
-             </a>
-             لن ينتج عنه أي مواد محوَّرة إطلاقًا.
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              المتلقُّون اللاحقون:
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-right-normal padding-vertical-normal" type="A">
-               <li class="padding-right-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 الإيجاب من المرخِّص - المواد المرخَّصة:
-                </span>
-                كل مُتلقٍّ للمواد الـمُرخَّصة يتلقى بصورة تلقائية إيجابًا من الـمُرخِّص لممارسة الحقوق الـمُرخَّصة بموجب أحكام وشروط هذه الرخصة العمومية.
-               </li>
-               <li class="padding-right-normal padding-bottom-normal" id="s2a5B_adapted_material">
-                <span style="text-decoration: underline;">
-                 الإيجاب الإضافي من المرخِّص – المواد المحوَّرة:
-                </span>
-                كل متلقﱟ لمواد محوَّرة من قِبَلك يستلم بصورة تلقائية إيجابًا من المرخِّص لممارسة الحقوق المرخَّصة في المواد المحوَّرة حسب الشروط التي تطبقها في رخصة المحوَّر.
-               </li>
-               <li class="padding-right-normal padding-bottom-small" id="s2a5C_no_restrictions">
-                <span style="text-decoration: underline;">
-                 عدم تقييد المتلقّي لاحقًا:
-                </span>
-                لا يحق لك عرض أو فرض أية أحكام أو شروط إضافية أو مختلفة، أو تطبيق أية تدابير تكنولوجية فعّالة على المواد المرخَّصة، في حال كان ذلك يؤدّي إلى الحد من ممارسة الحقوق المرخَّصة من قِبَل أي متلقﱟ للمواد المرخّصة.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              عدم المصادقة:
-             </span>
-             . . لا شيء في هذه الرخصة العمومية يشكِّل أو يسمح بتفسيرها كإذن للتأكيد أو الإيحاء بأنك، أو أنَّ استعمالك للمواد الـمُرخَّصة، مرتبط مع، أو برعاية، أو مصدَّق من قِبَل، أو أنك قد مُنِحت صفة رسمية من قِبَل، الـمُرخِّص أو آخرين مُخوَّلين لتلقي نسبة المصنَّف كما هو وارد في القسم
-             <a href="#s3a1Ai">
-              ٣(أ)(١)(أ)(i)
-             </a>
-             .
-            </li>
-           </ol>
-          </li>
-          <li class="padding-right-normal" id="s2b">
-           <strong>
-            الحقوق الأخرى:
-           </strong>
-           .
-           <ol class="padding-right-normal padding-vertical-normal">
-            <li class="padding-right-normal padding-bottom-normal" id="s2b1">
-             الحقوق المعنوية، كالحق في سلامة العمل، ليست مرخَّصة بموجب هذه الرخصة العمومية، كما أنها لا تشمل كذلك حقوق الإشهار والخصوصية، و/أو الحقوق الشخصية المشابهة الأخرى؛ ومع ذلك فإن الُمرخِّص -بقدر الإمكان- يتنازل عن و/أو يوافق على عدم المطالبة بأي من هذه الحقوق العائدة له، بالقدر المحدود الضروري الذي يسمح لك بممارسة الحقوق الـمُرخَّصة فقط.
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s2b2">
-             حقوق براءة الاختراع والعلامة التجارية غير مرخَّصة بموجب هذه الرخصة العمومية.
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s2b3">
-             بقدر الإمكان، يتنازل الـمُرخِّص عن أي حق في تحصيل الإتاوات منك نتيجة استعمالك للحقوق الـمُرخَّصة، سواء كان ذلك بصورة مباشرة أو من خلال جمعيات إدارة الحقوق الجماعية بموجب أي نظام ترخيص اختياري أو تشريعي قابل للتنازل أو إلزامي. وفي جميع الحالات الأخرى فإنَّ المرخِّص يحتفظ صراحة بأي حق لتحصيل مثل هذه الإتاوات، بما في ذلك حين تُستعمل المادة الـمُرخَّصة بخلاف الأغراض غير التجارية.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           القسم ٣ - شروط الرخصة:
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          إنَّ ممارستك للحقوق المرخَّصة يخضع صراحة للالتزام بالشروط التالية:
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             نَسْبُ الـمُصنَّف:
-            </strong>
-            .
-           </p>
-           <ol class="padding-right-normal padding-vertical-normal" type="1">
-            <li class="padding-right-normal padding-bottom-normal" id="s3a1">
-             في حال مشاركتك للمواد المرخَّصة (بما فيها الشكل المعدَّل)، فإنه يجب عليك ما يلي:
-             <ol class="padding-right-normal padding-vertical-normal" type="A">
-              <li class="padding-right-normal padding-bottom-small" id="s3a1A">
-               الإبقاء على التالي؛ وذلك إذا تم تقديمه من قِبَل الـمُرخِّص مع المواد الـمُرخَّصة:
-               <ol class="padding-right-normal padding-vertical-normal" type="i">
-                <li class="padding-right-normal padding-bottom-normal" id="s3a1Ai">
-                 تحديد هوية مبتكر (أو مبتكري) المواد المرخَّصة وأي شخص آخر
-                 <span dir="RTL">
-                  محدد
-                 </span>
-                 لتلقي نَسْبُ المصنَّف، بأي طريقة معقولة مطلوبة من الـمُرخِّص (بما في ذلك الاسم الـمُستعار في حال توافره)؛
-                </li>
-                <li class="padding-right-normal padding-bottom-normal" id="s3a1Aii">
-                 الإشعار الخاص بحق المؤلِّف؛
-                </li>
-                <li class="padding-right-normal padding-bottom-normal" id="s3a1Aiii">
-                 الإشعار الخاص بهذه الرخصة العمومية؛
-                </li>
-                <li class="padding-right-normal padding-bottom-normal" id="s3a1Aiv">
-                 الإشعار الخاص بالتنصُّل من الضمانات؛
-                </li>
-                <li class="padding-right-normal padding-bottom-small" id="s3a1Av">
-                 الإشعار الخاص بمعرِّف المصدر الموحَّد (Uniform Resource Identifier - URI) أو رابطًا رقميًا للمواد المرخّصة؛ وذلك بالقدر العملي المعقول؛
-                </li>
-               </ol>
-              </li>
-              <li class="padding-right-normal padding-bottom-normal" id="s3a1B">
-               في حال قيامك بتعديل المواد المرخَّصة فينبغي عليك الإشارة إلى ذلك، مع الإبقاء على أي إشارة لأي تعديلات سابقة؛ و
-              </li>
-              <li class="padding-right-normal padding-bottom-small" id="s3a1C">
-               الإشارة إلى أن المواد المرخَّصة، انما هي مرخَّصة بموجب هذه الرخصة العمومية، وتضمين تلك المواد نص هذه الرخصة العمومية أو معرِّف المصدر الموحَّد (URI) أو رابط لهذه الرخصة.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s3a2">
-             يمكنك أن تستوفي الشروط الواردة في القسم
-             <a href="#s3a1">
-              ٣(أ)(١)
-             </a>
-             بأي طريقة معقولة بحسب الوسيط والوسيلة والسياق الذي تُشارَكُ فيه المواد المرخَّصة. فمثلًا من الممكن أن يُستوفى هذا الشرط بتوفير أي من معرِّف المصدر الموحَّد (Uniform Resource Identifier - URI) أو رابطًا رقميًا إلى مصدرٍ يحتوي على المعلومات المطلوبة.
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s3a3">
-             في حال طلب المرخِّص؛ فإنه يجب عليك إزالة أي من المعلومات المطلوبة بحسب القسم
-             <a href="#s3a1A">
-              ٣(أ)(١)(أ)
-             </a>
-             وذلك بالقدر العملي المعقول.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s3b">
-           <strong>
-            الترخيص بالمثل:
-           </strong>
-           .
-           <p class="padding-top-normal padding-bottom-normal">
-            بالإضافة إلى الشروط الواردة في القسم
-            <a href="#s3a">
-             ٣(أ)
-            </a>
-            ، فإنه في حال مشاركتك بمواد محوَّرة انتجْتَها بنفسك، فإن الشروط التالية، تكون أيضًا مستوجبة التطبيق.
-           </p>
-           <ol class="padding-right-normal">
-            <li class="padding-right-normal padding-bottom-normal" id="s3b1">
-             The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.
-            </li>
-            <li class="padding-right-normal padding-bottom-normal" id="s3b2">
-             يجب عليك تضمين نص، أو معرِّف المصدر الموحَّد (URI) أو الرابط إلى رخصة المحوَّر التي تطبقها، يجوز لك أن تَستوفي هذا الشرط بأي طريقة معقولة بحسب الوسيط والوسيلة وسياق المشاركة الذي تُشارَكُ فيه المواد الـمُحوَّرة.
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s3b3">
-             لا يجوز لك عرض أو فرض أية شروط إضافية أو مختلفة عن المواد المحوَّرة، أو أن تطبِّق أي تدابير تكنولوجية فعالة على هذه المواد، قد تقيِّد ممارسة الحقوق الممنوحة بموجب رخصة المحوَّر التي تطبقها.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           القسم ٤ -
-           <span dir="RTL">
-            الحقوق الفريدة لقاعدة البيانات
-           </span>
-           :
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          حين تتضمن الحقوق المرخَّصة حقوق تتعلق بالحقوق الفريدة لقاعدة البيانات، التي تنطبق على استعمالك للمواد المرخَّصة فإنه:
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s4a">
-           تفادياً للالتباس، يمنحك القسم
-           <a href="#s2a1">
-            ٢(أ)(١)
-           </a>
-           الحق في استخراج، وإعادة استعمال، ونَسْخ، ومشاركة جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها لأغراض غير تجارية فقط؛
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s4b">
-           في حال قيامك بتضمين جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها في قاعدة بيانات تملك بها حقوق فريدة لقاعدة البيانات، فإنَّ قاعدة البيانات التي تملك بها حقوق فريدة لقاعدة البيانات (ولكن دون محتوياتها الفردية) تعد مواد محوَّرة، ومشتملة كذلك على ما هو ضروري لتطبيق أحكام القسم
-           <a href="#s3b">
-            ٣(ب)
-           </a>
-           ؛ و
-          </li>
-          <li class="padding-right-normal padding-bottom-small" id="s4c">
-           عليك الالتزام بالشروط الواردة في القسم
-           <a href="#s3a">
-            ٣(أ)
-           </a>
-           في حال قيامك بمشاركة جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها.
-          </li>
-         </ol>
-         <span class="body-big">
-          وتفادياً للالتباس، يعتبر هذا القسم
-          <a href="#s4">
-           "٤"
-          </a>
-          مكمِّلاً لا مستبدِلاً لالتزاماتك بموجب هذه الرخصة العمومية؛ وذلك حين تتضمن الحقوق المرخَّصة حق المؤلِّف وحقوق مشابهة أخرى.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           القسم ٥ - التنصُّل من الضمانات والحدِّ من المسؤولية:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" style="font-weight: bold;" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s5a">
-           <strong>
-            باستثناء ما قد يتعهد به المرخِّص على حدة، فإنه بخلاف ذلك، فإنَّ المرخِّص يعرض - بقدر الإمكان - المواد المرخَّصة "كما هي" و"كما هي متوفرة"، ولا يقدِّم أي إقرارات أو ضمانات من أي نوع بشأن المواد المرخَّصة، سواء كانت صريحة أو ضمنية أو قانونية أو غير ذلك. ويتضمن هذا -دون تقييد- ضمانات الملكية، قابلية المتاجرة أو قابلية الملائمة للغرض المتوخَّى، أو عدم التعدي، أو غياب العيوب الخفيِّة أو غيرها، أو الدقة، أو وجود أو انتفاء الأخطاء، سواء كانت معلومة أو قابلة للاكتشاف أم لا. وفي الحالات التي لا يُسمَح فيها بالتنصُّل من الضمانات كليًا أو جزئيًا، فإنَّ هذا التنصل قد لا يُطبَّق عليك.
-           </strong>
-          </li>
-          <li class="padding-right-normal padding-bottom-small" id="s5b">
-           <strong>
-            بقدر الإمكان، لن يكون المرخِّص في أي حالة مسؤولاً تجاهك على أساس أي نظرية قانونية (بما في ذلك ومن دون تقييد؛ الإهمال) أو بخلاف ذلك لأي خسائر سواء بشكل مباشر، خاص، غير مباشر، عَرَضي، تبَعي، عِقابي، تحذيري، أو خلاف ذلك من الخسائر، والتكاليف، والمصاريف، أو الأضرار الناتجة عن هذه الرخصة العمومية أو عن استعمال المواد المرخَّصة، حتى ولو كان المرخِّص قد أُعلم باحتمال حصول مثل هذه الخسائر، والتكاليف، والمصاريف، أو الأضرار. وفي الحالات التي لا يُسمَح فيها الحدّ من المسؤولية كليًا أو جزئيًا، فإنَّ هذا الحدّ من المسؤولية قد لا يُطبَّق عليك.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-right-normal" start="3" type="a">
-          <li class="padding-right-normal padding-bottom-small" id="s5c">
-           التنصُّل من الضمانات والحد من المسؤولية حسب ما هو منصوص عليه أعلاه يجب أن يُفَسَّر -بقدر الإمكان- بأقرب طريقة تمثِّل تنصلاً وتنازلًا تامًا عن كامل المسؤولية.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           القسم ٦ - الـمُدَّة والإنهاء:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s6a">
-           تبقى هذه الرخصة العمومية نافذة طيلة مدة سريان حق المؤلِّف والحقوق المشابهة المرخَّصة هنا. ومع ذلك، فإنك إذا لم تلتزم بشروط هذه الرخصة العمومية، فإنَّ حقوقك بموجب هذه الرخصة العمومية سوف تفسخ تلقائيًا.
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            عند إنهاء حقك باستعمال المواد المرخَّصة بموجب القسم
-            <a href="#s6a">
-             ٦(أ)
-            </a>
-            ، فإنَّ هذا الحق يُستعاد:
-           </p>
-           <ol class="body-big padding-right-normal">
-            <li class="padding-right-normal padding-bottom-normal" id="s6b1">
-             تلقائيًا؛ وذلك من تاريخ معالجة الانتهاك؛ شريطة أن تتم المعالجة خلال 30 يومًا كحد أقصى من تاريخ اكتشافك للانتهاك؛ أو
-            </li>
-            <li class="padding-right-normal padding-bottom-small" id="s6b2">
-             عند الإعادة الصريحة من قِبَل المرخِّص.
-            </li>
-           </ol>
-           وتفاديًا للالتباس، فإنَّ هذا القسم
-           <a href="#s6b">
-            ٦(ب)
-           </a>
-           لا يؤثر على أي حق قد يملكه المرخِّص للمطالبة بأي تعويضات من جرَّاء انتهاكك لهذه الرخصة العمومية.
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s6c">
-           تفاديًا للالتباس، فإنَّ للمرخِّص الحق أيضًا بعرض المواد المرخَّصة بموجب أحكام وشروط منفصلة أو أن يُوقِف توزيع المواد المرخَّصة في أي وقت كان؛ دون ان يؤدي ذلك لإنهاء هذه الرخصة العمومية.
-          </li>
-          <li class="padding-right-normal padding-bottom-small" id="s6d">
-           تبقى الأقسام
-           <a href="#s1">
-            ١
-           </a>
-           ،
-           <a href="#s5">
-            ٥
-           </a>
-           ،
-           <a href="#s6">
-            ٦
-           </a>
-           ،
-           <a href="#s7">
-            ٧
-           </a>
-           و
-           <a href="#s8">
-            ٨
-           </a>
-           سارية المفعول، حتى بعد إنهاء هذه الرخصة العمومية.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           القسم ٧ - أحكام وشروط أخرى:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s7a">
-           لا يكون المرخِّص مُلْزَمًا بالأحكام أو الشروط الإضافية أو المختلفة التي تعرضها إلّا في حالة موافقته الصريحة عليها.
-          </li>
-          <li class="padding-right-normal padding-bottom-small" id="s7b">
-           أي ترتيبات أو تفاهمات أو اتفاقات تتعلق بالمواد المرخَّصة غير منصوص عليها هنا، تعد منفصلة ومستقلة عن أحكام وشروط هذه الرخصة العمومية.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           القسم ٨ - التفسير:
-          </strong>
-         </p>
-         <ol class="body-big padding-right-normal" type="a">
-          <li class="padding-right-normal padding-bottom-normal" id="s8a">
-           تفادياً للالتباس، لا يكون ولا يجب أن تُفَسَّر هذه الرخصة العمومية بطريقة تقلِّل، أو تحدّ، أو تقيِّد، أو تفرض شروطًا على أي استعمال للمواد المرخَّصة مما يمكن إجراءه بصورة مشروعة دون الحاجة لإجازته بموجب هذه الرخصة العمومية.
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s8b">
-           <span dir="RTL">
-            بقدر الإمكان
-           </span>
-           ، إذا اعتُبِر أي قسم في هذه الرخصة العمومية غير قابل للإنفاذ، يجب إصلاحه تلقائيًا بالحد الأدنى اللازم لجعله قابلًا للإنفاذ؛ فإذا استحال إصلاحه، فإنه يعتبر منفصلًا عن هذه الرخصة العمومية، من دون أن يؤثِّر ذلك على قابلية إنفاذ باقي الأحكام والشروط.
-          </li>
-          <li class="padding-right-normal padding-bottom-normal" id="s8c">
-           لن يتم التنازل عن أي حكم أو شرط في هذه الرخصة العمومية، ولن يتم الموافقة على أي إخلال بها إلا بموافقة المرخِّص صراحة على ذلك.
-          </li>
-          <li class="padding-right-normal" id="s8d">
-           لا شيء في هذه الرخصة العمومية يُشكِّل أو يجوز تفسيره كتقييد لـ/أو تنازلٍ عن، أي مزايا أو حصانات تطبَّق لمصلحة المرخِّص أو لمصلحتك، بما في ذلك الإجراءات القانونية لأي اختصاص قضائي أو أي سلطة كانت.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-left-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-right-big">
-        إنَّ مؤسسة المشاع الإبداعي ليست طرفًا في رخصها العمومية. وعلى الرغم من ذلك، فإنه يجوز لمؤسسة المشاع الإبداعي اختيار تطبيق إحدى رخصها العمومية على ما تنشره من مواد، وفي تلك الحالات سوف تُعتبر بأنها "المرخِّص". أن نصوص رخص المشاع الإبداعي كرست للملك العام تحت رخصة
-        <a href="/publicdomain/zero/1.0/">
-         CC0 مكرس للملك العام
-        </a>
-        . وفيما عدا الغرض المحدود للإشارة إلى أنَّ المادة التي يتم مشاركتها بموجب رخصة المشاع الإبداعي العمومية، CC0 أو كما هو مسموح -بخلاف ذلك- بسياسات المشاع الإبداعي المنشورة في:
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        ، لا تُجيز مؤسسة المشاع الإبداعي استعمال علامتها التجارية "Creative Commons" أو أي علامة تجارية أو شعار آخر للمشاع الإبداعي من دون موافقتها الكتابية المسبقة،
-        <span dir="RTL">
-         فيما عدا ذلك
-        </span>
-        -دون تقييد- ما يرتبط بأي تعديلات غير مُجازة لأي من رخصها العمومية أو أي ترتيبات أو تفاهمات أو اتفاقات بشأن استعمال المواد المرخَّصة. تفادياً للالتباس، هذه الفقرة لا تُشكِّل جزءًا من الرخصة العمومية.
-       </p>
-       <p class="has-text-black padding-right-big padding-top-normal">
-        يمكن التواصل مع مؤسسة المشاع الإبداعي على:
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-left-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-left-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.ar">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      استعمال رخص المشاع الإبداعي العمومية
+     </h2>
+     <p>
+      رخص المشاع الإبداعي العمومية تتيح مجموعة موحَّدة من الأحكام والشروط تمكِّن المبدعين وأصحاب الحقوق الآخرين من استعمالها لمشاركة أعمالهم المبتكرة من المؤلَّفات والمواد الأخرى المحمية بموجب حق المؤلف وبعض الحقوق المعيَّنة الأخرى المشار إليها في الرخصة العمومية أدناه. إنَّ الاعتبارات التالية هي لغايات تعريفية فقط، وليست على سبيل الحصر، ولا تشكل جزءًا من رخصنا.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      اعتبارات متعلقة بالمرخِّصين
+     </h3>
+     <p>
+      رخصنا العمومية معدَّة للاستعمال من قِبَل أولئك المخوَّلين بإعطاء الإذن للجمهور لاستعمال مواد بطرق تكون بالأصل مقيَّدة بموجب حق المؤلِّف وغيره من الحقوق الـمُعيَّنة الأخرى. تراخيصنا غير قابلةٍ للتراجع عنها. على المرخَّصين قراءة وفهم أحكام وشروط الرخصة المختارة قبل تطبيقها. على المرخِّصين أيضًا تأمين كافة الحقوق اللازمة قبل تطبيق رخصنا؛ وذلك حتى يتمكن الجمهور من إعادة استعمال المواد كما هو مُتوخَّى. على الـمُرخِّصين الإشارة بوضوح للمواد غير الخاضعة للرخصة. وهذا يشمل المواد الخاضعة لأي رخص أُخرى من رخص المشاع الإبداعي أو المواد الـمُستعمَلة بموجب استثناء أو تقييد على حق المؤلِّف.
+      <br/>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      اعتبارات متعلِّقة بالجمهور
+     </h3>
+     <p>
+      بمجرد استعمال إحدى رخصنا العمومية يَمنح المرخِّصُ الجمهورَ الإذنَ باستعمال المادة المرخَّصة بموجب أحكام وشروط محدَّدة. في حالة عدم وجود أي سبب يتطلب الحصول على إذن المرخِّص -على سبيل المثال بسبب أي استثناء أو تقييدٍ سارٍ بموجب حق المؤلِّف- فإنَّ هذا الاستعمال لن يكون خاضعًا لأحكام هذه الرخصة. تَمنحُ رخصُنا فقط الإذن بموجب حق المؤلِّف وحقوق أخرى معيَّنة يكون لدى المرخِّص سلطة لمنحها. ومع ذلك فإنَّ استعمال المواد المرخَّصة قد يكون مقيَّدًا لأسباب أخرى، بما في ذلك أن يكون للغير حق مؤلِّف أو حقوق أخرى في هذه المواد. يمكن للمرخِّص أن يتقدم بطلبات خاصة، كأن يطلب أن يُشار إلى جميع التعديلات أو أن يتم وصفها. وبالرغم أنَّ مثل هذه الطلبات غير مطلوبة في رخصنا، إلا أنه من المحبَّذ أن تقوم بمراعاة هذه الطلبات ضمن حدود المعقول.
+      <br/>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل 4.0 دولي
+     </h2>
+     <p>
+      إنَّ ممارستك للحقوق المرخَّصة (الـمُعرَّفة أدناه)، تعني قبولك وموافقتك على أن تكون مُلْزَمًا بأحكام وشروط رخصة المشاع الإبداعي العمومية هذه، نَسْبُ الـمُصنَّف، غير تجاري، الترخيص بالمثل4.0 رخصة عمومية دولية "الرخصة العمومية". بالقدْر الذي يسمح بتفسير هذه الرخصة العمومية كعقد، فإنك تمنح الحقوق المرخَّصة لقاء قبولك لهذه الأحكام والشروط، كما ويمنحك المرخِّص هذه الحقوق لقاء المنافع التي يتلقاها من خلال إتاحة استعمال المواد المرخَّصة بموجب هذه الأحكام والشروط.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      القسم ١ – تعريفات:
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        المواد الـمُحوَّرة:
+       </span>
+       تعني المواد الخاضعة لحق المؤلِّف وللحقوق المشابهة المشتقة من/ أو التي تكون مبنية على المواد المرخَّصة من خلال، ترجمة، تغيير، تشكيل، تحويل، أو تعديل المواد المرخَّصة بأي شكل يستوجب إجراءه الحصول على إذن من المرخِّص بموجب حق المؤلِّف أو الحقوق المشابهة التي يحوزها المرخِّص. ولأغراض هذه الرخصة العمومية، حين تكون المادة المرخَّصة عملًا موسيقيًا، أداءً، أو تسجيلًا صوتيًا؛ يكون تحوير هذه المادة دائمًا من خلال استعمالها بالتزامن مع صورة متحركة.
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        رخصة الـمُحوِّر:
+       </span>
+       تعني الرخصة التي تقوم بتطبيقها على حق المؤلِّف والحقوق المشابهة الخاصة بك في مساهماتك للمواد الـمُحوَّرة وفقًا لأحكام وشروط هذه الرخصة العمومية.
+      </li>
+      <li id="s1c_by_nc_sa_compatible_license">
+       <span style="text-decoration: underline;">
+        رخصة متوافقة مع BY-NC-SA:
+       </span>
+       تعني أي رخصة مُدْرَجة في موقع
+       <a href="//creativecommons.org/compatiblelicenses">
+        creativecommons.org/compatiblelicenses
+       </a>
+       ، ومعتمَدة من قِبَل مؤسسة المشاع الإبداعي على أساس أنها تعادل هذه الرخصة العمومية.
+      </li>
+      <li id="s1d_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        حق المؤلِّف والحقوق المشابهة:
+       </span>
+       تعني حق المؤلِّف و/أو الحقوق المشابهة المتصلة بها، التي تشمل، دون تقييد، الأداء، البث، التسجيل الصوتي،
+       <span dir="RTL">
+        الحقوق الفريدة لقاعدة البيانات
+       </span>
+       ، وذلك بغض النظر عن وصف تلك الحقوق أو تصنيفها. ولأغراض هذه الرخصة العمومية، فإنَّ الحقوق المحدَّدة في القسم
+       <a href="#s2b">
+        ٢(ب)(١)-(٢)
+       </a>
+       من الرخصة لا تُعتبر ضمن حق المؤلِّف والحقوق المشابهة.
+      </li>
+      <li id="s1e_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        التدابير التكنولوجية الفعَّالة:
+       </span>
+       تعني تلك التدابير التي -في غياب السُّلْطة الملائمة- لا يجوز التحايل عليها بموجب القوانين التي تتوافق مع
+       <span dir="RTL">
+        الالتزامات المنصوص عليها في
+       </span>
+       المادة ١١ من معاهدة الوايبو بشأن حق المؤلف، المعتمَدة في ٢٠ ديسمبر/كانون الأول ١٩٩٦، و/أو الاتفاقيات الدولية المشابهة.
+      </li>
+      <li id="s1f_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        الاستثناءات والتقييدات:
+       </span>
+       تعني الاستخدام العادل (Fair Use)، التصرف العادل (Fair Dealing)، و/أو أي استثناء أو تقييد على حق المؤلف والحقوق المشابهة ينطبق على استعمالك للمواد المرخَّصة.
+      </li>
+      <li id="s1g_license_elements_nc_sa">
+       <span style="text-decoration: underline;">
+        عناصر الرخصة:
+       </span>
+       تعني خصائص الرخصة الـمُدْرَجة في اسم رخصة المشاع الإبداعي العمومية. وعناصر هذه الرخصة العمومية هي، نَسْبُ الـمُصنَّف، غير تجاري، والترخيص بالمثل.
+      </li>
+      <li id="s1h_licensed_material">
+       <span style="text-decoration: underline;">
+        المواد المرخَّصة:
+       </span>
+       تعني العمل الفني أو الأدبي، أو قاعدة البيانات، أو أي مواد أخرى يُخضعها المرخِّص لهذه الرخصة العمومية.
+      </li>
+      <li id="s1i_licensed_rights">
+       <span style="text-decoration: underline;">
+        الحقوق المرخَّصة:
+       </span>
+       تعني الحقوق الممنوحة لك، الخاضعة لأحكام وشروط هذه الرخصة العمومية، والمقتصِرة على جميع حقوق المؤلِّف والحقوق المشابهة المطبَّقة على استعمالك للمواد المرخَّصة، التي لدى المرخِّص سلطة ترخيصها.
+      </li>
+      <li id="s1j_licensor">
+       <span style="text-decoration: underline;">
+        المرخِّص:
+       </span>
+       هو الفرد (أو الأفراد) أو الكيان (أو الكيانات) الذي يَمنح الحقوق بموجب هذه الرخصة العمومية.
+      </li>
+      <li id="s1k_noncommercial">
+       <span style="text-decoration: underline;">
+        غير تجاري:
+       </span>
+       هو الذي لا يُراد به أو لا يكون موجهًا بشكل أساسي نحو منفعة تجارية أو تعويض نقدي. ولأغراض هذه الرخصة العمومية، فإنَّ تبادل المواد المرخَّصة بمواد أخرى خاضعة لحق المؤلِّف والحقوق المشابهة عن طريق المشاركة الرقمية للملفات أو بوسائل مماثلة يعتبر غير تجاري، شريطة أن لا يكون هناك تعويض نقدي مرتبط بهذا التبادل.
+      </li>
+      <li id="s1l_share">
+       <span style="text-decoration: underline;">
+        يشارك:
+       </span>
+       تعني تقديم مواد للجمهور بأي طريقة أو وسيلة تتطلَّب الحصول على الإذن بموجب الحقوق المرخَّصة، مثل النَّسْخ، أو العَرْض العلني، أو الأداء العلني، أو التوزيع، أو التعميم، أو النقل، أو الاستيراد، أو إتاحة المادة للجمهور، بما في ذلك الوسائل التي تُمكِّن أفراد الجمهور من النفاذ إليها من مكان وفي زمان يُختاران فرديًا من قِبَلهم.
+      </li>
+      <li id="s1m_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        الحقوق الفريدة لقاعدة البيانات:
+       </span>
+       هي تلك الحقوق المختلفة عن حق المؤلِّف والمنبثقة بموجب التوجيه 96/9/EC من قِبَل البرلمان والمجلس الأوروبي بتاريخ 11 مارس/آذار 1996 والمتعلّق بالحماية القانونية لقواعد البيانات، وتعديلاته اللاحقة و/أو ما يليه، كما تشمل أية حقوق أخرى تكون موازية لها في أي مكان في العالم.
+      </li>
+      <li id="s1n_you">
+       <span style="text-decoration: underline;">
+        أنت
+       </span>
+       تعني الفرد أو الكيان الذي يمارس الحقوق الـمُرخَّصة بموجب هذه الرخصة العمومية،
+       <strong>
+        "لك"
+       </strong>
+       تقابلها في المعنى.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      القسم ٢ - النطاق:
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        مَنْح الرخصة:
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         مع مراعاة أحكام وشروط هذه الرخصة العمومية، يمنحك المرخِّص رخصة عالمية، دون إتاوات، وغير قابلة للترخيص من الباطن، وغير حَصْريَّة، وغير قابلة للإلغاء، لممارسة الحقوق المرخَّصة للمواد المرخَّصة؛ وذلك لأجْل:
+         <ol type="A">
+          <li id="s2a1A">
+           reproduce and Share the Licensed Material, in whole or in part; and
+          </li>
+          <li id="s2a1B">
+           produce, reproduce, and Share Adapted Material.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          الاستثناءات والتقييدات:
+         </strong>
+         تفاديًا للالتباس، حين تنطبق الاستثناءات والتقييدات على استعمالك، فإنَّ هذه الرخصة العمومية لا تُطبَّق، ولن تكون مُلْزَمًا بأحكامها وشروطها.
+        </li>
+        <li id="s2a3">
+         <strong>
+          الـمُدَّة:
+         </strong>
+         مُدَّة هذه الرخصة العمومية محدَّدة في القسم
+         <a href="#s6a">
+          ٦(أ)
+         </a>
+         .
+        </li>
+        <li id="s2a4">
+         <strong>
+          الوسائط والصِّيغ: التعديلات التقنية مباحة:
+         </strong>
+         يصرِّح لك المرخِّص بممارسة الحقوق المرخَّصة في جميع الوسائط والصيغ، سواء كانت معروفة الآن أو مستَحدَثة لاحقًا، وإجراء التعديلات التقنية الضرورية اللازمة لذلك. يتنازل المرخِّص عن حقِّه و/أو يوافق على عدم المطالبة بأي حق أو سُلْطة تحرمك بموجبه من إجراء أي تعديلات تقنية ضرورية لممارسة الحقوق المرخَّصة، بما في ذلك التعديلات التقنية الضرورية للتحايل على التدابير التكنولوجية الفعالة. ولأغراض هذه الرخصة العمومية، فإنَّ مجرد إجراء التعديلات المصرَّح بها في هذا القسم
+         <a href="#s2a4">
+          ٢(أ)(٤)
+         </a>
+         لن ينتج عنه أي مواد محوَّرة إطلاقًا.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          المتلقُّون اللاحقون:
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            الإيجاب من المرخِّص - المواد المرخَّصة:
+           </span>
+           كل مُتلقٍّ للمواد الـمُرخَّصة يتلقى بصورة تلقائية إيجابًا من الـمُرخِّص لممارسة الحقوق الـمُرخَّصة بموجب أحكام وشروط هذه الرخصة العمومية.
+          </li>
+          <li id="s2a5B_adapted_material">
+           <span style="text-decoration: underline;">
+            الإيجاب الإضافي من المرخِّص – المواد المحوَّرة:
+           </span>
+           كل متلقﱟ لمواد محوَّرة من قِبَلك يستلم بصورة تلقائية إيجابًا من المرخِّص لممارسة الحقوق المرخَّصة في المواد المحوَّرة حسب الشروط التي تطبقها في رخصة المحوَّر.
+          </li>
+          <li id="s2a5C_no_restrictions">
+           <span style="text-decoration: underline;">
+            عدم تقييد المتلقّي لاحقًا:
+           </span>
+           لا يحق لك عرض أو فرض أية أحكام أو شروط إضافية أو مختلفة، أو تطبيق أية تدابير تكنولوجية فعّالة على المواد المرخَّصة، في حال كان ذلك يؤدّي إلى الحد من ممارسة الحقوق المرخَّصة من قِبَل أي متلقﱟ للمواد المرخّصة.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          عدم المصادقة:
+         </span>
+         . لا شيء في هذه الرخصة العمومية يشكِّل أو يسمح بتفسيرها كإذن للتأكيد أو الإيحاء بأنك، أو أنَّ استعمالك للمواد الـمُرخَّصة، مرتبط مع، أو برعاية، أو مصدَّق من قِبَل، أو أنك قد مُنِحت صفة رسمية من قِبَل، الـمُرخِّص أو آخرين مُخوَّلين لتلقي نسبة المصنَّف كما هو وارد في القسم
+         <a href="#s3a1Ai">
+          ٣(أ)(١)(أ)(i)
+         </a>
+         .
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        الحقوق الأخرى:
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         الحقوق المعنوية، كالحق في سلامة العمل، ليست مرخَّصة بموجب هذه الرخصة العمومية، كما أنها لا تشمل كذلك حقوق الإشهار والخصوصية، و/أو الحقوق الشخصية المشابهة الأخرى؛ ومع ذلك فإن الُمرخِّص -بقدر الإمكان- يتنازل عن و/أو يوافق على عدم المطالبة بأي من هذه الحقوق العائدة له، بالقدر المحدود الضروري الذي يسمح لك بممارسة الحقوق الـمُرخَّصة فقط.
+        </li>
+        <li id="s2b2">
+         حقوق براءة الاختراع والعلامة التجارية غير مرخَّصة بموجب هذه الرخصة العمومية.
+        </li>
+        <li id="s2b3">
+         بقدر الإمكان، يتنازل الـمُرخِّص عن أي حق في تحصيل الإتاوات منك نتيجة استعمالك للحقوق الـمُرخَّصة، سواء كان ذلك بصورة مباشرة أو من خلال جمعيات إدارة الحقوق الجماعية بموجب أي نظام ترخيص اختياري أو تشريعي قابل للتنازل أو إلزامي. وفي جميع الحالات الأخرى فإنَّ المرخِّص يحتفظ صراحة بأي حق لتحصيل مثل هذه الإتاوات، بما في ذلك حين تُستعمل المادة الـمُرخَّصة بخلاف الأغراض غير التجارية.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      القسم ٣ - شروط الرخصة:
+     </h3>
+     <p>
+      إنَّ ممارستك للحقوق المرخَّصة يخضع صراحة للالتزام بالشروط التالية:
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        نَسْبُ الـمُصنَّف:
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         في حال مشاركتك للمواد المرخَّصة (بما فيها الشكل المعدَّل)، فإنه يجب عليك ما يلي:
+         <ol type="A">
+          <li id="s3a1A">
+           الإبقاء على التالي؛ وذلك إذا تم تقديمه من قِبَل الـمُرخِّص مع المواد الـمُرخَّصة:
+           <ol type="i">
+            <li id="s3a1Ai">
+             تحديد هوية مبتكر (أو مبتكري) المواد المرخَّصة وأي شخص آخر
+             <span dir="RTL">
+              محدد
+             </span>
+             لتلقي نَسْبُ المصنَّف، بأي طريقة معقولة مطلوبة من الـمُرخِّص (بما في ذلك الاسم الـمُستعار في حال توافره)؛
+            </li>
+            <li id="s3a1Aii">
+             الإشعار الخاص بحق المؤلِّف؛
+            </li>
+            <li id="s3a1Aiii">
+             الإشعار الخاص بهذه الرخصة العمومية؛
+            </li>
+            <li id="s3a1Aiv">
+             الإشعار الخاص بالتنصُّل من الضمانات؛
+            </li>
+            <li id="s3a1Av">
+             الإشعار الخاص بمعرِّف المصدر الموحَّد (Uniform Resource Identifier - URI) أو رابطًا رقميًا للمواد المرخّصة؛ وذلك بالقدر العملي المعقول؛
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           في حال قيامك بتعديل المواد المرخَّصة فينبغي عليك الإشارة إلى ذلك، مع الإبقاء على أي إشارة لأي تعديلات سابقة؛ و
+          </li>
+          <li id="s3a1C">
+           الإشارة إلى أن المواد المرخَّصة، انما هي مرخَّصة بموجب هذه الرخصة العمومية، وتضمين تلك المواد نص هذه الرخصة العمومية أو معرِّف المصدر الموحَّد (URI) أو رابط لهذه الرخصة.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         يمكنك أن تستوفي الشروط الواردة في القسم
+         <a href="#s3a1">
+          ٣(أ)(١)
+         </a>
+         بأي طريقة معقولة بحسب الوسيط والوسيلة والسياق الذي تُشارَكُ فيه المواد المرخَّصة. فمثلًا من الممكن أن يُستوفى هذا الشرط بتوفير أي من معرِّف المصدر الموحَّد (Uniform Resource Identifier - URI) أو رابطًا رقميًا إلى مصدرٍ يحتوي على المعلومات المطلوبة.
+        </li>
+        <li id="s3a3">
+         في حال طلب المرخِّص؛ فإنه يجب عليك إزالة أي من المعلومات المطلوبة بحسب القسم
+         <a href="#s3a1A">
+          ٣(أ)(١)(أ)
+         </a>
+         وذلك بالقدر العملي المعقول.
+        </li>
+       </ol>
+      </li>
+      <li id="s3b">
+       <strong>
+        الترخيص بالمثل:
+       </strong>
+       .
+       <p>
+        بالإضافة إلى الشروط الواردة في القسم
+        <a href="#s3a">
+         ٣(أ)
+        </a>
+        ، فإنه في حال مشاركتك بمواد محوَّرة انتجْتَها بنفسك، فإن الشروط التالية، تكون أيضًا مستوجبة التطبيق.
+       </p>
+       <ol>
+        <li id="s3b1">
+         The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.
+        </li>
+        <li id="s3b2">
+         يجب عليك تضمين نص، أو معرِّف المصدر الموحَّد (URI) أو الرابط إلى رخصة المحوَّر التي تطبقها، يجوز لك أن تَستوفي هذا الشرط بأي طريقة معقولة بحسب الوسيط والوسيلة وسياق المشاركة الذي تُشارَكُ فيه المواد الـمُحوَّرة.
+        </li>
+        <li id="s3b3">
+         لا يجوز لك عرض أو فرض أية شروط إضافية أو مختلفة عن المواد المحوَّرة، أو أن تطبِّق أي تدابير تكنولوجية فعالة على هذه المواد، قد تقيِّد ممارسة الحقوق الممنوحة بموجب رخصة المحوَّر التي تطبقها.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      القسم ٤ -
+      <span dir="RTL">
+       الحقوق الفريدة لقاعدة البيانات
+      </span>
+      :
+     </h3>
+     <p>
+      حين تتضمن الحقوق المرخَّصة حقوق تتعلق بالحقوق الفريدة لقاعدة البيانات، التي تنطبق على استعمالك للمواد المرخَّصة فإنه:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       تفادياً للالتباس، يمنحك القسم
+       <a href="#s2a1">
+        ٢(أ)(١)
+       </a>
+       الحق في استخراج، وإعادة استعمال، ونَسْخ، ومشاركة جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها لأغراض غير تجارية فقط؛
+      </li>
+      <li id="s4b">
+       في حال قيامك بتضمين جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها في قاعدة بيانات تملك بها حقوق فريدة لقاعدة البيانات، فإنَّ قاعدة البيانات التي تملك بها حقوق فريدة لقاعدة البيانات (ولكن دون محتوياتها الفردية) تعد مواد محوَّرة، ومشتملة كذلك على ما هو ضروري لتطبيق أحكام القسم
+       <a href="#s3b">
+        ٣(ب)
+       </a>
+       ؛ و
+      </li>
+      <li id="s4c">
+       عليك الالتزام بالشروط الواردة في القسم
+       <a href="#s3a">
+        ٣(أ)
+       </a>
+       في حال قيامك بمشاركة جميع محتويات قاعدة البيانات أو أجزاء جوهرية منها.
+      </li>
+     </ol>
+     <p>
+      وتفادياً للالتباس، يعتبر هذا القسم
+      <a href="#s4">
+       "٤"
+      </a>
+      مكمِّلاً لا مستبدِلاً لالتزاماتك بموجب هذه الرخصة العمومية؛ وذلك حين تتضمن الحقوق المرخَّصة حق المؤلِّف وحقوق مشابهة أخرى.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      القسم ٥ - التنصُّل من الضمانات والحدِّ من المسؤولية:
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        باستثناء ما قد يتعهد به المرخِّص على حدة، فإنه بخلاف ذلك، فإنَّ المرخِّص يعرض - بقدر الإمكان - المواد المرخَّصة "كما هي" و"كما هي متوفرة"، ولا يقدِّم أي إقرارات أو ضمانات من أي نوع بشأن المواد المرخَّصة، سواء كانت صريحة أو ضمنية أو قانونية أو غير ذلك. ويتضمن هذا -دون تقييد- ضمانات الملكية، قابلية المتاجرة أو قابلية الملائمة للغرض المتوخَّى، أو عدم التعدي، أو غياب العيوب الخفيِّة أو غيرها، أو الدقة، أو وجود أو انتفاء الأخطاء، سواء كانت معلومة أو قابلة للاكتشاف أم لا. وفي الحالات التي لا يُسمَح فيها بالتنصُّل من الضمانات كليًا أو جزئيًا، فإنَّ هذا التنصل قد لا يُطبَّق عليك.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        بقدر الإمكان، لن يكون المرخِّص في أي حالة مسؤولاً تجاهك على أساس أي نظرية قانونية (بما في ذلك ومن دون تقييد؛ الإهمال) أو بخلاف ذلك لأي خسائر سواء بشكل مباشر، خاص، غير مباشر، عَرَضي، تبَعي، عِقابي، تحذيري، أو خلاف ذلك من الخسائر، والتكاليف، والمصاريف، أو الأضرار الناتجة عن هذه الرخصة العمومية أو عن استعمال المواد المرخَّصة، حتى ولو كان المرخِّص قد أُعلم باحتمال حصول مثل هذه الخسائر، والتكاليف، والمصاريف، أو الأضرار. وفي الحالات التي لا يُسمَح فيها الحدّ من المسؤولية كليًا أو جزئيًا، فإنَّ هذا الحدّ من المسؤولية قد لا يُطبَّق عليك.
+       </strong>
+      </li>
+      <li id="s5c">
+       التنصُّل من الضمانات والحد من المسؤولية حسب ما هو منصوص عليه أعلاه يجب أن يُفَسَّر -بقدر الإمكان- بأقرب طريقة تمثِّل تنصلاً وتنازلًا تامًا عن كامل المسؤولية.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      القسم ٦ - الـمُدَّة والإنهاء:
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       تبقى هذه الرخصة العمومية نافذة طيلة مدة سريان حق المؤلِّف والحقوق المشابهة المرخَّصة هنا. ومع ذلك، فإنك إذا لم تلتزم بشروط هذه الرخصة العمومية، فإنَّ حقوقك بموجب هذه الرخصة العمومية سوف تفسخ تلقائيًا.
+      </li>
+      <li id="s6b">
+       <p>
+        عند إنهاء حقك باستعمال المواد المرخَّصة بموجب القسم
+        <a href="#s6a">
+         ٦(أ)
+        </a>
+        ، فإنَّ هذا الحق يُستعاد:
+       </p>
+       <ol>
+        <li id="s6b1">
+         تلقائيًا؛ وذلك من تاريخ معالجة الانتهاك؛ شريطة أن تتم المعالجة خلال 30 يومًا كحد أقصى من تاريخ اكتشافك للانتهاك؛ أو
+        </li>
+        <li id="s6b2">
+         عند الإعادة الصريحة من قِبَل المرخِّص.
+        </li>
+       </ol>
+       <p>
+        وتفاديًا للالتباس، فإنَّ هذا القسم
+        <a href="#s6b">
+         ٦(ب)
+        </a>
+        لا يؤثر على أي حق قد يملكه المرخِّص للمطالبة بأي تعويضات من جرَّاء انتهاكك لهذه الرخصة العمومية.
+       </p>
+      </li>
+      <li id="s6c">
+       تفاديًا للالتباس، فإنَّ للمرخِّص الحق أيضًا بعرض المواد المرخَّصة بموجب أحكام وشروط منفصلة أو أن يُوقِف توزيع المواد المرخَّصة في أي وقت كان؛ دون ان يؤدي ذلك لإنهاء هذه الرخصة العمومية.
+      </li>
+      <li id="s6d">
+       تبقى الأقسام
+       <a href="#s1">
+        ١
+       </a>
+       ،
+       <a href="#s5">
+        ٥
+       </a>
+       ،
+       <a href="#s6">
+        ٦
+       </a>
+       ،
+       <a href="#s7">
+        ٧
+       </a>
+       و
+       <a href="#s8">
+        ٨
+       </a>
+       سارية المفعول، حتى بعد إنهاء هذه الرخصة العمومية.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      القسم ٧ - أحكام وشروط أخرى:
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       لا يكون المرخِّص مُلْزَمًا بالأحكام أو الشروط الإضافية أو المختلفة التي تعرضها إلّا في حالة موافقته الصريحة عليها.
+      </li>
+      <li id="s7b">
+       أي ترتيبات أو تفاهمات أو اتفاقات تتعلق بالمواد المرخَّصة غير منصوص عليها هنا، تعد منفصلة ومستقلة عن أحكام وشروط هذه الرخصة العمومية.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      القسم ٨ - التفسير:
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       تفادياً للالتباس، لا يكون ولا يجب أن تُفَسَّر هذه الرخصة العمومية بطريقة تقلِّل، أو تحدّ، أو تقيِّد، أو تفرض شروطًا على أي استعمال للمواد المرخَّصة مما يمكن إجراءه بصورة مشروعة دون الحاجة لإجازته بموجب هذه الرخصة العمومية.
+      </li>
+      <li id="s8b">
+       <span dir="RTL">
+        بقدر الإمكان
+       </span>
+       ، إذا اعتُبِر أي قسم في هذه الرخصة العمومية غير قابل للإنفاذ، يجب إصلاحه تلقائيًا بالحد الأدنى اللازم لجعله قابلًا للإنفاذ؛ فإذا استحال إصلاحه، فإنه يعتبر منفصلًا عن هذه الرخصة العمومية، من دون أن يؤثِّر ذلك على قابلية إنفاذ باقي الأحكام والشروط.
+      </li>
+      <li id="s8c">
+       لن يتم التنازل عن أي حكم أو شرط في هذه الرخصة العمومية، ولن يتم الموافقة على أي إخلال بها إلا بموافقة المرخِّص صراحة على ذلك.
+      </li>
+      <li id="s8d">
+       لا شيء في هذه الرخصة العمومية يُشكِّل أو يجوز تفسيره كتقييد لـ/أو تنازلٍ عن، أي مزايا أو حصانات تطبَّق لمصلحة المرخِّص أو لمصلحتك، بما في ذلك الإجراءات القانونية لأي اختصاص قضائي أو أي سلطة كانت.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      إنَّ مؤسسة المشاع الإبداعي ليست طرفًا في رخصها العمومية. وعلى الرغم من ذلك، فإنه يجوز لمؤسسة المشاع الإبداعي اختيار تطبيق إحدى رخصها العمومية على ما تنشره من مواد، وفي تلك الحالات سوف تُعتبر بأنها "المرخِّص". أن نصوص رخص المشاع الإبداعي كرست للملك العام تحت رخصة
+      <a href="/publicdomain/zero/1.0/">
+       CC0 مكرس للملك العام
+      </a>
+      . وفيما عدا الغرض المحدود للإشارة إلى أنَّ المادة التي يتم مشاركتها بموجب رخصة المشاع الإبداعي العمومية، CC0 أو كما هو مسموح -بخلاف ذلك- بسياسات المشاع الإبداعي المنشورة في:
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      ، لا تُجيز مؤسسة المشاع الإبداعي استعمال علامتها التجارية "Creative Commons" أو أي علامة تجارية أو شعار آخر للمشاع الإبداعي من دون موافقتها الكتابية المسبقة،
+      <span dir="RTL">
+       فيما عدا ذلك
+      </span>
+      -دون تقييد- ما يرتبط بأي تعديلات غير مُجازة لأي من رخصها العمومية أو أي ترتيبات أو تفاهمات أو اتفاقات بشأن استعمال المواد المرخَّصة. تفادياً للالتباس، هذه الفقرة لا تُشكِّل جزءًا من الرخصة العمومية.
+     </p>
+     <p>
+      يمكن التواصل مع مؤسسة المشاع الإبداعي على:
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

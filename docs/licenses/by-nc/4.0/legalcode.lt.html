@@ -4,927 +4,950 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC 4.0 Teisinių sąlygų sąvadas — Priskyrimas - Nekomercinis naudojimas 4.0 Tarptautinė — Creative Commons
+   CC BY-NC 4.0 Teisinių sąlygų sąvadas | Priskyrimas - Nekomercinis naudojimas 4.0 Tarptautinė
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.lt" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Praleisti, eiti į turinį
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Praleisti, eiti į turinį
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Pradinis
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc/4.0/legalcode.lt">
-        CC BY-NC 4.0 Teisinių sąlygų sąvadas
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.fy" id="option-fy" value="fy">
-         frysk
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" selected="" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.mi" id="option-mi" value="mi">
-         Māori
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="legalcode.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="legalcode.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="legalcode.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.fy" id="option-fy" value="fy">
+          frysk
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" selected="" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.mi" id="option-mi" value="mi">
+          Māori
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="legalcode.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="legalcode.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="legalcode.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 4.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.lt" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC 4.0 Teisinių sąlygų sąvadas
+    </h1>
+    <h2>
+     Priskyrimas - Nekomercinis naudojimas 4.0 Tarptautinė
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinė licencija
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s1">
-            1 skyrius – Sąvokų apibrėžimai.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s2">
-            2 skyrius – Apimtis.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s3">
-            3 skyrius – Licencijos sąlygos.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s4">
-            4 skyrius – Sui Generis Teisės į Duomenų Bazes.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s5">
-            5 skyrius – Garantijų išlygos ir atsakomybės apribojimas.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s6">
-            6 skyrius – Galiojimas ir nutraukimas.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s7">
-            7 skyrius – Kitos nuostatos.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#s8">
-            8 skyrius – Aiškinimas.
-           </a>
-          </li>
-         </ul>
+         <a href="#s1">
+          1 skyrius – Sąvokų apibrėžimai.
+         </a>
+        </li>
+        <li>
+         <a href="#s2">
+          2 skyrius – Apimtis.
+         </a>
+        </li>
+        <li>
+         <a href="#s3">
+          3 skyrius – Licencijos sąlygos.
+         </a>
+        </li>
+        <li>
+         <a href="#s4">
+          4 skyrius – Sui Generis Teisės į Duomenų Bazes.
+         </a>
+        </li>
+        <li>
+         <a href="#s5">
+          5 skyrius – Garantijų išlygos ir atsakomybės apribojimas.
+         </a>
+        </li>
+        <li>
+         <a href="#s6">
+          6 skyrius – Galiojimas ir nutraukimas.
+         </a>
+        </li>
+        <li>
+         <a href="#s7">
+          7 skyrius – Kitos nuostatos.
+         </a>
+        </li>
+        <li>
+         <a href="#s8">
+          8 skyrius – Aiškinimas.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC BY-NC 4.0
-       </h2>
-       <h1 class="b-header">
-        Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinė licencija
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC BY-NC 4.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC BY-NC 4.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC BY-NC 4.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinė licencija
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation („Creative Commons") nėra teisines paslaugas teikianti įmonė ir neteikia teisinių paslaugų ar konsultacijų. Viešųjų Creative Commons licencijų platinimas nesukuria santykio tarp teisines paslaugas teikiančio asmens ir kliento, nei jokio kito teisinio santykio. Creative Commons savo licencijas ir su jomis susijusią informaciją vartotojams pateikia naudoti tokias, kokios jos yra jų pateikimo metu savo (vartotojų) rizika. Creative Commons neteikia jokių garantijų savo licencijoms, bet kokiems pagal jų sąlygas licencijuojamiems objektams ar bet kuriai susijusiai informacijai. Creative Commons maksimalia įmanoma apimtimi neprisiima atsakomybės dėl žalos ir nuostolių, kylančių dėl jų panaudojimo.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Viešųjų Creative Commons licencijų naudojimas
-       </h4>
-       <p class="has-text-black body-big">
-        Viešosiose Creative Commons licencijose pateikiamas standartinių sąlygų rinkinys, kurį kūrėjai bei kiti teisių turėtojai gali naudoti dalijimuisi originaliais autoriniais darbais bei kitais objektais, kuriems galioja autorinės ir kitos teisės, nurodytos žemiau licencijos tekste. Žemiau išvardintos aplinkybės yra nurodytos informavimo tikslais, nėra išsamios ir nėra mūsų licencijų sudėtine dalimi.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Licenciarams (licencijos davėjams) svarbios aplinkybės
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Mūsų Viešosios licencijos skirtos naudoti tiems asmenims, kurie turi teisę leisti naudoti tam tikrus objektus tokiais būdais, kuriais teisė juos naudoti be tokio leidimo draudžia. Mūsų licencijos neatšaukiamos. Prieš licenciją panaudojant Licenciarams rekomenduojame perskaityti ir suprasti pasirinktos licencijos sąlygas. Licenciarai, prieš panaudodami mūsų licencijas, turi užtikrinti visas reikalingas teises tam, kad visuomenė galėtų naudotis objektais taip, kaip numatyta (tikimasi). Ta pateikiamų objektų dalis, kuriai licencija nėra taikoma, turėtų būti licenciarų aiškiai pažymėta, įskaitant objektus, kurie nėra licencijuojami CC licencijomis bei objektus, kuriems taikomos autorių teisių išimtys ar apribojimai.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Daugiau licenciarams svarbių aplinkybių.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Visuomenei svarbios aplinkybės
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Panaudodamas kurią nors iš mūsų viešai prieinamų licencijų, licenciaras (licencijos davėjas) suteikia viešą leidimą naudoti licencijuojamą objektą pagal aiškiai apibrėžtas sąlygas. Jei dėl bet kokios priežasties licenciaro sutikimas nėra reikalingas – pavyzdžiui, dėl bet kokio taikytino autoriaus teisių apribojimo ar išimties – tokiu atveju atitinkamam naudojimo būdui licencija netaikytina. Mūsų licencijos suteikia tik tokias autorių ir kai kurias kitas teises, kurias suteikti turi teisę licenciaras. Licencijuojamų Objektų naudojimas vis tiek gali būti ribojamas dėl kitų priežasčių, įskaitant ir dėl to, kad kiti asmenys gali turėti autorines ar kitas teises į atitinkamus objektus. Licenciaras gali nustatyti tam tikrus specifinius reikalavimus, pavyzdžiui, kad visi atliekami pakeitimai būtų pažymėti arba aprašyti. Nors mūsų licencijos to nereikalauja, mes skatiname į tokius reikalavimus, kai jie pagrįsti, atsižvelgti.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Daugiau licenciatams (licencijų gavėjams) svarbių aplinkybių.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinė licencija
-        </h3>
-        <p class="body-big padding-bottom-larger">
-         Įgyvendindami Suteikiamas Teises (apibrėžimas pateikiamas žemiau), Jūs sutinkate būti saistomi šios Creative Commons Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinės Viešosios licencijos sąlygų („Viešoji licencija“). Ta apimtimi, kiek ši Viešoji licencija gali būti suprantama ir aiškinama kaip sutartis, Jūs įgyjate Suteikiamas Teises su sąlyga, kad sutinkate laikytis šių sąlygų, o Licenciaras Jums tokias teises suteikia atsižvelgdamas į naudą, kurią jis gauna suteikdamas Licencijuojamus Objektus pagal šias sąlygas.
-        </p>
-        <!-- Section 1. Definitions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s1">
-          <strong>
-           1 skyrius – Sąvokų apibrėžimai.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal" id="s1a_adapted_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Išvestiniai Objektai
-            </span>
-            reiškia Autorių teisių ir Panašių teisių saugomus objektus, sukurtus pasinaudojus Licencijuojamais Objektais, ir kuriuose Licencijuojami Objektai yra išversti, pakeisti, aranžuoti, transformuoti ar kitaip modifikuoti tokiu būdu, kuriam reikalingas Licenciaro sutikimas, nes to reikalauja jo turimos Autorių teisės ar Panašios teisės. Šios Viešosios licencijos tikslais, kai Licencijuojamas Objektas yra muzikinis kūrinys, atlikimas ar garso įrašas, Išvestinis Objektas visuomet sukuriamas kai Licencijuojamas Objektas sinchronizuojamas laiko atžvilgiu su judančiu vaizdu (angl. – „synching“).
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1b_adapters_license">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Išvestinė Licencija
-            </span>
-            reiškia licenciją, kurią Jūs pagal šios Viešosios licencijos sąlygas suteikiate savo turimų Autorių teisių ir Panašių teisių pagrindu Jūsų sukurtiems Išvestiniams Objektams (ar jų dalims).
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1c_copyright_and_similar_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Autorių teisės ir Panašios teisės
-            </span>
-            reiškia autorių teises ir/ar panašias teises, kurios yra glaudžiai susijusios su autorių teisėmis, įskaitant, bet neapsiribojant, teises į atlikimą, į transliacijas, į garso įrašus ir Sui Generis Teises į Duomenų Bazes, neatsižvelgiant į tai, kaip tos teisės įvardinamos ar klasifikuojamos. Šios Viešosios licencijos tikslais,
-            <a href="#s2b">
-             2(b)(1)-(2)
-            </a>
-            punkte nurodytos teisės nepriskiriamos prie Autorių teisių ir Panašių teisių.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1d_effective_technological_measures">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Veiksmingos Techninės Apsaugos Priemonės
-            </span>
-            reiškia priemones, kurias vadovaujantis teisės aktais, įgyvendinančiais 1996 m. gruodžio 20 d. PINO autorių teisių sutartį ar panašius tarptautinius susitarimus, draudžiama apeiti neturint specialių įgaliojimų.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1e_exceptions_and_limitations">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Išimtys ir Apribojimai
-            </span>
-            reiškia sąžiningą naudojimą ir platinimą (angl. – fair dealing), ir/ar bet kokias kitas išimtis iš Autorių teisių ir Panašių teisių, taikytinas Jums naudojant Licencijuojamus Objektus.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1f_licensed_material">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licencijuojamas Objektas
-            </span>
-            reiškia literatūros ar meno kūrinį, duomenų bazę ar kitą objektą, kuriam Licenciaras pritaikė šią Licenciją.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1g_licensed_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Suteikiamos Teisės
-            </span>
-            reiškia teises, kurios Jums suteikiamos pagal šios Viešosios licencijos sąlygas; jos apima tik Autorių teises ir Panašias teises, kurios taikomos Jūsų atliekamam Licencijuojamo Objekto naudojimui ir tik tas teises, kurias Licenciaras turi teisę suteikti.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1h_licensor">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Licenciaras
-            </span>
-            reiškia fizinį(-ius) ar juridinį(-ius) asmenį(-is), suteikiantį(-čius) teises pagal šią Viešąją licenciją.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1i_noncommercial">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Nekomercinis
-            </span>
-            reiškia neskirtas ir nenukreiptas į komercinės naudos ar piniginio atlygio gavimą. Šios Viešosios licencijos tikslais, Licencijuojamų Objektų iškeitimas į kitus Autorių teisių ir Panašių teisių saugomus objektus keičiantis skaitmeninėmis rinkmenomis ar kitomis panašiomis priemonėmis bus laikomas Nekomerciniu naudojimu, jei nebus atliekami jokie su keitimusi susijusio piniginio atlygio mokėjimai.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1j_share">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Dalintis
-            </span>
-            reiškia suteikti objektus visuomenei bet kokiomis priemonėmis ar būdais, kuriems Suteikiamų Teisių pagrindu reikalingas sutikimas, pavyzdžiui, atgaminti, viešai paskelbti, viešai atlikti, skleisti, platinti, pranešti, importuoti, padaryti objektus prieinamais visuomenei, įskaitant ir tokiu būdu, kai visuomenės nariai gali gauti prieigą prie objekto savo pasirinktoje vietoje ir laiku.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1k_sui_generis_database_rights">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Sui Generis Teisės į Duomenų Bazes
-            </span>
-            reiškia kitas teises nei autorinės teisės, kylančias Europos Parlamento ir Tarybos direktyvos 96/9/EB dėl duomenų bazių teisinės apsaugos (su visais jos pakeitimais ir papildymais) pagrindu, o taip pat kitas savo esme tapačias teises visame pasaulyje.
-           </div>
-          </li>
-          <li class="padding-bottom-normal" id="s1l_you">
-           <div class="padding-left-normal">
-            <span style="text-decoration: underline;">
-             Jūs
-            </span>
-            reiškia fizinį ar juridinį asmenį, įgyvendinantį Suteikiamas Teises pagal šią Viešąją licenciją. Išsireiškimai
-            <strong>
-             „Jums“, „Jūsų“
-            </strong>
-            turi atitinkamas reikšmes.
-           </div>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 2. Scope. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s2">
-          <strong>
-           2 skyrius – Apimtis.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal" id="s2a">
-           <strong>
-            Licencijos suteikimas
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2a1">
-             Vadovaudamasis šioje Viešojoje licencijoje išdėstytomis sąlygomis, Licenciaras Jums suteikia neribotą teritoriniu atžvilgiu, neatlygintinę, nesublicencijuojamą, neišimtinę, neatšaukiamą licenciją įgyvendinti Suteikiamas Teises į Licencijuojamą Objektą:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-normal" id="s2a1A">
-               atgaminti ir Dalintis Licencijuojamu Objektu, visu ar dalimis, išimtinai Nekomerciniais tikslais; ir
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s2a1B">
-               gaminti, atgaminti ir Dalintis Išvestiniais Objektais, išimtinai Nekomerciniais tikslais.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a2">
-             <strong>
-              Išimtys ir Apribojimai
-             </strong>
-             . Aiškumo sumetimais, tais atvejais, kai Jūsų atliekamam objekto panaudojimo būdui taikomos Išimtys ir Apribojimai, ši Viešoji licencija nėra taikoma, ir Jums nebūtina vadovautis jos sąlygomis.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a3">
-             <strong>
-              Terminas
-             </strong>
-             . Šios Viešosios licencijos galiojimo terminas pateiktas
-             <a href="#s6a">
-              6(a)
-             </a>
-             punkte.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2a4">
-             <strong>
-              Sklaidos priemonės ir formatai; leidžiami techniniai pakeitimai
-             </strong>
-             . Licenciaras suteikia Jums teisę įgyvendinti Suteikiamas Teises naudojantis visomis informacijos sklaidos priemonėmis ir bet kokiais formatais, taip pat atlikti tam reikalingus techninius pakeitimus. Licenciaras atsisako ir/ar sutinka nereikšti teisių ar įgaliojimų drausti Jums atlikti techninius pakeitimus, reikalingus Suteiktoms Teisėms įgyvendinti, įskaitant pakeitimus, reikalingus apeiti Veiksmingoms Techninėms Apsaugos Priemonėms. Šios Viešosios licencijos tikslais, vien atliekant
-             <a href="#s2a4">
-              2(a)(4)
-             </a>
-             punkte numatytus pakeitimus Išvestiniai Objektai niekuomet nesukuriami.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a5">
-             <span style="text-decoration: underline;">
-              Tolimesni gavėjai
-             </span>
-             .
-             <div class="para">
-              <ol class="padding-left-normal padding-vertical-normal" type="A">
-               <li class="padding-left-normal padding-bottom-normal" id="s2a5A_offer">
-                <span style="text-decoration: underline;">
-                 Licenciaro oferta – Licencijuojamas Objektas
-                </span>
-                . Kiekvienas Licencijuojamo Objekto gavėjas automatiškai gauna Licenciaro ofertą (pasiūlymą) įgyvendinti Suteikiamas Teises šios Viešosios licencijos sąlygomis.
-               </li>
-               <li class="padding-left-normal padding-bottom-small" id="s2a5B_no_restrictions">
-                <span style="text-decoration: underline;">
-                 Jokių tolimesnių apribojimų
-                </span>
-                . Jums draudžiama siūlyti ar nustatyti bet kokias papildomas ar skirtingas sąlygas ar apribojimus arba taikyti bet kokias Veiksmingas Technines Apsaugos Priemones Licencijuojamo Objekto atžvilgiu, jei tai ribotų Suteiktų Teisių įgyvendinimą bet kokiam Licencijuojamo Objekto gavėjui.
-               </li>
-              </ol>
-             </div>
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2a6">
-             <span style="text-decoration: underline;">
-              Jokio pripažinimo
-             </span>
-             . . Jokia šios Viešosios licencijos dalis nesuteikia leidimo ir negali būti aiškinama kaip suteikianti leidimą teigti ar leisti manyti, kad Jūs ar Jūsų atliktas Licencijuojamo Objekto panaudojimas susijęs, remiamas, patvirtintas ar gavęs oficialų pripažinimą iš Licenciaro ar kitų asmenų, kurie gali reikalauti autorystės priskyrimo pagal
-             <a href="#s3a1Ai">
-              3(a)(1)(A)(i)
-             </a>
-             punktą.
-            </li>
-           </ol>
-          </li>
-          <li class="padding-left-normal" id="s2b">
-           <strong>
-            Kitos teisės
-           </strong>
-           .
-           <ol class="padding-left-normal padding-vertical-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s2b1">
-             Neturtinės teisės, tokios kaip teisė į objekto vientisumą, šia Viešąja licencija nesuteikiamos, taip pat nesuteikiama teisė implikuoti sąsają su asmeniu komerciniais tikslais, teisė į privatų gyvenimą ir/ar jokios kitos panašios asmeninės teisės; tačiau, kiek tai įmanoma, Licenciaras atsisako ir/ar sutinka nereikalauti tokių savo turimų teisių ta apimtimi, kiek tai būtina Jums Suteiktų Teisių įgyvendinimui, tačiau ne daugiau.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s2b2">
-             Šia Viešąja licencija nėra suteikiamos teisės į patentus ar prekių ženklus.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s2b3">
-             Kiek tai įmanoma, Licenciaras atsisako bet kokios teisės reikalauti iš Jūsų autorinio atlyginimo už Suteikiamų Teisių įgyvendinimą, tiek tiesiogiai, tiek ir per teisių kolektyvinio administravimo asociacijas, tiek kai teisės administruojamos privalomai, tiek kai atšaukiamai, arba teisių turėtojo pasirinkimu. Licenciaras pareiškia, kad visais kitais atvejais jam lieka teisė gauti autorinį atlyginimą, įskaitant, kai Licencijuojamas Objektas yra naudojamas kitaip nei Nekomerciniais tikslais.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 3. License Conditions. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s3">
-          <strong>
-           3 skyrius – Licencijos sąlygos.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Įgyvendinti Jums Suteiktas Teises galite tik laikydamasis žemiau išvardintų reikalavimų.
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s3a">
-           <p>
-            <strong>
-             Priskyrimas
-            </strong>
-            .
-           </p>
-           <ol class="padding-left-normal padding-vertical-normal" type="1">
-            <li class="padding-left-normal padding-bottom-normal" id="s3a1">
-             Jei Jūs Dalinatės Licencijuojamu Objektu (įskaitant modifikacijas), privalote:
-             <ol class="padding-left-normal padding-vertical-normal" type="A">
-              <li class="padding-left-normal padding-bottom-small" id="s3a1A">
-               išsaugoti žemiau išvardintus elementus, jei Licenciaras juos pateikė su Licencijuojamu Objektu:
-               <ol class="padding-left-normal padding-vertical-normal" type="i">
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Ai">
-                 nurodytą Licencijuojamo Objekto kūrėjo(-ų) ir kitų asmenų, turinčių teisę reikalauti priskyrimo, tapatybę, išreikštą tokiais protingumo kriterijų atitinkančiais būdais, kaip Licenciaras reikalauja (įskaitant pseudonimą, jei jis nurodytas);
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aii">
-                 pranešimą apie autorines teises;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiii">
-                 pranešimą, pateikiantį nuorodą į šią Viešąją licenciją;
-                </li>
-                <li class="padding-left-normal padding-bottom-normal" id="s3a1Aiv">
-                 pranešimą, pateikiantį nuorodą į garantijų išlygas;
-                </li>
-                <li class="padding-left-normal padding-bottom-small" id="s3a1Av">
-                 universalųjį ištekliaus identifikatorių (URI) ar interaktyvią nuorodą į Licencijuojamą Objektą, kiek tai įmanoma;
-                </li>
-               </ol>
-              </li>
-              <li class="padding-left-normal padding-bottom-normal" id="s3a1B">
-               nurodyti, jei Jūs Licencijuojamą Objektą modifikavote, ir išlaikyti nuorodą į ankstesnes modifikacijas; ir
-              </li>
-              <li class="padding-left-normal padding-bottom-small" id="s3a1C">
-               nurodyti, kad Licencijuojamas Objektas yra licencijuojamas vadovaujantis šia Viešąja licencija, ir įtraukti šios Viešosios licencijos tekstą ar URI ar interaktyvią nuorodą į ją.
-              </li>
-             </ol>
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a2">
-             <a href="#s3a1">
-              3(a)(1)
-             </a>
-             punkte nurodytus reikalavimus Jūs galite įvykdyti bet kokiu protingumo kriterijų atitinkančiu būdu, atsižvelgiant į platinimo priemones, būdus ir kontekstą, kuriame Jūs Dalinatės Licencijuojamu Objektu. Pavyzdžiui, gali būti protinga įvykdyti reikalavimus pateikiant URI ar interaktyvią nuorodą į šaltinį, kuriame pateikiama reikalaujama informacija.
-            </li>
-            <li class="padding-left-normal padding-bottom-normal" id="s3a3">
-             Jei Licenciaras reikalauja, Jūs privalote pašalinti bet kokią
-             <a href="#s3a1A">
-              3(a)(1)(A)
-             </a>
-             punkte nurodytą informaciją protingumo kriterijų atitinkančia apimtimi.
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s3a4">
-             Jei Jūs Dalinatės savo sukurtais Išvestiniais Objektais, Jūsų taikoma išvestinė licencija negali drausti Iųvestinių Objektų gavėjams laikytis šios Viešosios licencijos sąlygų.
-            </li>
-           </ol>
-          </li>
-         </ol>
-        </div>
-        <!-- Section 4. Sui Generis Database Rights. -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s4">
-          <strong>
-           4 skyrius – Sui Generis Teisės į Duomenų Bazes.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Kai Suteikiamos Teisės apima Sui Generis Teises į Duomenų Bazes, kurios galioja Jūsų Licencijuojamo Objekto atžvilgiu, tai:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s4a">
-           aiškumo sumetimais, pagal
-           <a href="#s2a1">
-            2(a)(1)
-           </a>
-           punktą Jums suteikiama teisė išgauti, pakartotinai naudoti, atkurti ir Dalintis duomenų bazės turiniu ar jos atskiromis dalimis tik Nekomerciniais tikslais;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s4b">
-           jei Jūs įtrauksite esminę duomenų bazės turinio dalį į kitą duomenų bazę, į kurią turite Sui Generis Teises, tokiu atveju tokia duomenų bazė, į kurią turite Sui Generis Teises (bet ne jos turinio elementai) bus laikoma Išvestiniu Objektu; ir
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s4c">
-           turėsite laikytis
-           <a href="#s3a">
-            3(a)
-           </a>
-           punkte nustatytų reikalavimų, jei Dalinsitės esmine duomenų bazės dalimi.
-          </li>
-         </ol>
-         <span class="body-big">
-          Aiškumo sumetimais, šis
-          <a href="#s4">
-           4
-          </a>
-          skyrius papildo, tačiau nepakeičia Jūsų įsipareigojimų pagal šią Viešąją licenciją, kai Suteikiamos Teisės apima Autorių teises ir Panašias teises.
-         </span>
-        </div>
-        <!-- Section 5. Disclaimer -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s5">
-          <strong>
-           5 skyrius – Garantijų išlygos ir atsakomybės apribojimas.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" style="font-weight: bold;" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s5a">
-           <strong>
-            Jei Licenciaras nėra atskirai prisiėmęs kitokių įsipareigojimų, tai Licenciaras, maksimalia įmanoma apimtimi, siūlo Licencijuojamą Objektą Jums naudoti Jūsų rizika, neteikdamas jokių pareiškimų nei garantijų dėl Licencijuojamo Objekto – nei tiesioginių, nei netiesioginių, nustatytų teisės aktuose ir kt. Šios išlygos taikomos garantijoms dėl nuosavybės teisės, paklausumo, tinkamumo naudoti konkrečiam tikslui, pažeidimų neegzistavimo, paslėptų ar kitokių trūkumų nebuvimo, tikslumo, klaidų buvimo ar nebuvimo – tiek žinomų ir įmanomų nustatyti, tiek ir nežinomų ir neįmanomų nustatyti. Tais atvejais, kai tokių garantijų išlygų ar dalies jų nustatyti neleidžiama, Jums šios išlygos gali būti netaikytinos.
-           </strong>
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s5b">
-           <strong>
-            Maksimalia įmanoma apimtimi, Licenciaras jokiais atvejais nebus laikomas atsakingu Jums jokiu teisiniu pagrindu (įkaitant dėl neatsargumo) dėl jokių (tiesioginių, įrodytųjų, netiesioginių, atsitiktinių, papildomų (šalutinių), baudinių, įstatyminių ar panašaus pobūdžio) nuostolių, kaštų, išlaidų ar žalos, kylančios šios Viešosios licencijos pagrindu ar dėl Licencijuojamo Objekto naudojimo, net ir tuo atveju, jei Licenciaras buvo informuotas apie tokių nuostolių, kaštų, išlaidų ar žalos galimybę. Tais atvejais, kai tokių atsakomybės apribojimų visiškai ar iš dalies nustatyti neleidžiama, Jums tokie apribojimai gali būti netaikytini.
-           </strong>
-          </li>
-         </ol>
-         <ol class="body-big padding-left-normal" start="3" type="a">
-          <li class="padding-left-normal padding-bottom-small" id="s5c">
-           Nuostatos apie garantijų išlygas ir atsakomybės apribojimą turi būti aiškinamos taip, kad maksimalia įmanoma apimtimi priartėtų prie visiško garantijų nesuteikimo ir atsakomybės apribojimo.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 6. Term and Termination -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s6">
-          <strong>
-           6 skyrius – Galiojimas ir nutraukimas.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s6a">
-           Ši Viešoji licencija galioja visą ja licencijuojamų Autorių teisių ir Panašių teisių galiojimo terminą. Tačiau jei nesilaikysite šios Viešosios licencijos nustatytų reikalavimų, Jūsų teisės pagal šią Viešąją licenciją automatiškai pasibaigs.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6b">
-           <p class="body-big padding-bottom-normal">
-            Jei Jūsų teisės naudoti Licencijuojamą Objektą pasibaigė
-            <a href="#s6a">
-             6(a)
-            </a>
-            punkto pagrindu, jų galiojimas bus vėl atkurtas:
-           </p>
-           <ol class="body-big padding-left-normal">
-            <li class="padding-left-normal padding-bottom-normal" id="s6b1">
-             automatiškai nuo to momento, kai ištaisysite pažeidimą, jei jį ištaisysite per 30 dienų nuo tada, kai apie jį sužinojote; arba
-            </li>
-            <li class="padding-left-normal padding-bottom-small" id="s6b2">
-             jei Licenciaras patvirtins tokį teisių atkūrimą.
-            </li>
-           </ol>
-           Aiškumo sumetimais,
-           <a href="#s6b">
-            6(b)
-           </a>
-           punkto nuostata neriboja jokių Licenciaro teisių taikyti savo pažeistų teisių gynimo būdus dėl Jūsų atliktų Viešosios licencijos nuostatų pažeidimo.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s6c">
-           Aiškumo sumetimais, Licenciaras gali bet kuriuo metu pasiūlyti Licencijuojamą Objektą kitokiomis sąlygomis ar nutraukti Licencijuojamo Objekto platinimą, tačiau tai nereikš šios Viešosios licencijos galiojimo pabaigos.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s6d">
-           <a href="#s1">
-            1
-           </a>
-           ,
-           <a href="#s5">
-            5
-           </a>
-           ,
-           <a href="#s6">
-            6
-           </a>
-           ,
-           <a href="#s7">
-            7
-           </a>
-           ir
-           <a href="#s8">
-            8
-           </a>
-           skyriai liks galioti nepaisant šios Viešosios licencijos pabaigos.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 7. Other terms and conditions -->
-        <div class="padding-bottom-larger">
-         <p class="body-bigger padding-bottom-normal" id="s7">
-          <strong>
-           7 skyrius – Kitos nuostatos.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s7a">
-           Licenciaro neįpareigoja jokios papildomos Jūsų nustatytos sąlygos ar reikalavimai, jei aiškiai nesusitarėte priešingai.
-          </li>
-          <li class="padding-left-normal padding-bottom-small" id="s7b">
-           Visi čia nenurodyti susižinojimai, susitarimai ar sutartys dėl Licencijuojamo Objekto yra atskiri ir nepriklauso nuo šia Viešąja licencija nustatytų sąlygų ir reikalavimų.
-          </li>
-         </ol>
-        </div>
-        <!-- Section 8. Interpretation -->
-        <div class="padding-bottom-normal">
-         <p class="body-bigger padding-bottom-normal" id="s8">
-          <strong>
-           8 skyrius – Aiškinimas.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal" id="s8a">
-           Aiškumo sumetimais, ši Viešoji licencija nėra ir negali būti aiškinama kaip siaurinanti, ribojanti, draudžianti ar nustatanti papildomas sąlygas bet kokiam Licencijuojamo Objekto naudojimo būdui, kuris teisėtai gali būti atliekamas ir be ja suteikiamo leidimo.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8b">
-           Jei kurios nors šios Viešosios licencijos sąlygos neįmanoma priverstinai įgyvendinti maksimalia įmanoma apimtimi, ji bus laikoma automatiškai pakeista minimalia apimtimi, reikalinga tam, kad tokia nuostata taptų įmanoma priverstinai įgyvendinti. Jei tokios sąlygos pakeisti negalima, ji bus laikoma atribota nuo šios Viešosios licencijos be įtakos galimybei priverstinai įgyvendinti likusias sąlygas.
-          </li>
-          <li class="padding-left-normal padding-bottom-normal" id="s8c">
-           Jokios šios Viešosios licencijos sąlygos ar nuostatos nėra atsisakyta ir jokios sąlygos ar nuostatos nėra leista nesilaikyti, jei Licenciatas nėra aiškiai išreiškęs tam savo pritarimo.
-          </li>
-          <li class="padding-left-normal" id="s8d">
-           Jokia šios Viešosios licencijos nuostata nenustato ir negali būti aiškinama kaip nustatanti bet kokių Licenciarui ar Jums taikomų lengvatų ar išimčių (imuniteto) apribojimą ar atsisakymą, įskaitant dėl teisinių procedūrų, bet kokioje jurisdikcijoje atliekamų bet kokios institucijos.
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons nėra savo Viešųjų licencijų šalimi. Tačiau Creative Commons gali pasirinkti taikyti kurią nors iš savo Viešųjų licencijų savo skelbiamiems objektams, ir tokiu atveju Creative Commons bus laikoma „Licenciaru". Išskyrus ribotą tikslą – nurodyti visuomenei, kad objektas yra licencijuojamas Creative Commons Viešąja licencija ar kitu Creative Commons veiklos strategijoje nustatytu būdu, skelbiamu
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , Creative Commons draudžia naudoti prekių ženklą „Creative Commons" ar bet kokį kitą Creative Commons prekių ženklą ar logotipą be išankstinio Creative Commons rašytinio sutikimo, įskaitant, tačiau neapsiribojant, susietą su bet kokiais Viešųjų licencijų pakeitimais, kuriems nėra duotas sutikimas, ir bet kokiems kitiems susižinojimams, susitarimams ar sutartims dėl licencijuojamų objektų naudojimo. Aiškumo sumetimais, ši pastraipa nėra Viešosios licencijos dalis.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Su Creative Commons galite susisiekti adresu
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.lt">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 4.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Viešųjų Creative Commons licencijų naudojimas
+     </h2>
+     <p>
+      Viešosiose Creative Commons licencijose pateikiamas standartinių sąlygų rinkinys, kurį kūrėjai bei kiti teisių turėtojai gali naudoti dalijimuisi originaliais autoriniais darbais bei kitais objektais, kuriems galioja autorinės ir kitos teisės, nurodytos žemiau licencijos tekste. Žemiau išvardintos aplinkybės yra nurodytos informavimo tikslais, nėra išsamios ir nėra mūsų licencijų sudėtine dalimi.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Licenciarams (licencijos davėjams) svarbios aplinkybės
+     </h3>
+     <p>
+      Mūsų Viešosios licencijos skirtos naudoti tiems asmenims, kurie turi teisę leisti naudoti tam tikrus objektus tokiais būdais, kuriais teisė juos naudoti be tokio leidimo draudžia. Mūsų licencijos neatšaukiamos. Prieš licenciją panaudojant Licenciarams rekomenduojame perskaityti ir suprasti pasirinktos licencijos sąlygas. Licenciarai, prieš panaudodami mūsų licencijas, turi užtikrinti visas reikalingas teises tam, kad visuomenė galėtų naudotis objektais taip, kaip numatyta (tikimasi). Ta pateikiamų objektų dalis, kuriai licencija nėra taikoma, turėtų būti licenciarų aiškiai pažymėta, įskaitant objektus, kurie nėra licencijuojami CC licencijomis bei objektus, kuriems taikomos autorių teisių išimtys ar apribojimai.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Daugiau licenciarams svarbių aplinkybių.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Visuomenei svarbios aplinkybės
+     </h3>
+     <p>
+      Panaudodamas kurią nors iš mūsų viešai prieinamų licencijų, licenciaras (licencijos davėjas) suteikia viešą leidimą naudoti licencijuojamą objektą pagal aiškiai apibrėžtas sąlygas. Jei dėl bet kokios priežasties licenciaro sutikimas nėra reikalingas – pavyzdžiui, dėl bet kokio taikytino autoriaus teisių apribojimo ar išimties – tokiu atveju atitinkamam naudojimo būdui licencija netaikytina. Mūsų licencijos suteikia tik tokias autorių ir kai kurias kitas teises, kurias suteikti turi teisę licenciaras. Licencijuojamų Objektų naudojimas vis tiek gali būti ribojamas dėl kitų priežasčių, įskaitant ir dėl to, kad kiti asmenys gali turėti autorines ar kitas teises į atitinkamus objektus. Licenciaras gali nustatyti tam tikrus specifinius reikalavimus, pavyzdžiui, kad visi atliekami pakeitimai būtų pažymėti arba aprašyti. Nors mūsų licencijos to nereikalauja, mes skatiname į tokius reikalavimus, kai jie pagrįsti, atsižvelgti.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Daugiau licenciatams (licencijų gavėjams) svarbių aplinkybių.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinė licencija
+     </h2>
+     <p>
+      Įgyvendindami Suteikiamas Teises (apibrėžimas pateikiamas žemiau), Jūs sutinkate būti saistomi šios Creative Commons Priskyrimo — Nekomercinio naudojimo 4.0 tarptautinės Viešosios licencijos sąlygų („Viešoji licencija“). Ta apimtimi, kiek ši Viešoji licencija gali būti suprantama ir aiškinama kaip sutartis, Jūs įgyjate Suteikiamas Teises su sąlyga, kad sutinkate laikytis šių sąlygų, o Licenciaras Jums tokias teises suteikia atsižvelgdamas į naudą, kurią jis gauna suteikdamas Licencijuojamus Objektus pagal šias sąlygas.
+     </p>
+     <!-- Section 1. Definitions. -->
+     <h3 id="s1">
+      1 skyrius – Sąvokų apibrėžimai.
+     </h3>
+     <ol type="a">
+      <li id="s1a_adapted_material">
+       <span style="text-decoration: underline;">
+        Išvestiniai Objektai
+       </span>
+       reiškia Autorių teisių ir Panašių teisių saugomus objektus, sukurtus pasinaudojus Licencijuojamais Objektais, ir kuriuose Licencijuojami Objektai yra išversti, pakeisti, aranžuoti, transformuoti ar kitaip modifikuoti tokiu būdu, kuriam reikalingas Licenciaro sutikimas, nes to reikalauja jo turimos Autorių teisės ar Panašios teisės. Šios Viešosios licencijos tikslais, kai Licencijuojamas Objektas yra muzikinis kūrinys, atlikimas ar garso įrašas, Išvestinis Objektas visuomet sukuriamas kai Licencijuojamas Objektas sinchronizuojamas laiko atžvilgiu su judančiu vaizdu (angl. – „synching“).
+      </li>
+      <li id="s1b_adapters_license">
+       <span style="text-decoration: underline;">
+        Išvestinė Licencija
+       </span>
+       reiškia licenciją, kurią Jūs pagal šios Viešosios licencijos sąlygas suteikiate savo turimų Autorių teisių ir Panašių teisių pagrindu Jūsų sukurtiems Išvestiniams Objektams (ar jų dalims).
+      </li>
+      <li id="s1c_copyright_and_similar_rights">
+       <span style="text-decoration: underline;">
+        Autorių teisės ir Panašios teisės
+       </span>
+       reiškia autorių teises ir/ar panašias teises, kurios yra glaudžiai susijusios su autorių teisėmis, įskaitant, bet neapsiribojant, teises į atlikimą, į transliacijas, į garso įrašus ir Sui Generis Teises į Duomenų Bazes, neatsižvelgiant į tai, kaip tos teisės įvardinamos ar klasifikuojamos. Šios Viešosios licencijos tikslais,
+       <a href="#s2b">
+        2(b)(1)-(2)
+       </a>
+       punkte nurodytos teisės nepriskiriamos prie Autorių teisių ir Panašių teisių.
+      </li>
+      <li id="s1d_effective_technological_measures">
+       <span style="text-decoration: underline;">
+        Veiksmingos Techninės Apsaugos Priemonės
+       </span>
+       reiškia priemones, kurias vadovaujantis teisės aktais, įgyvendinančiais 1996 m. gruodžio 20 d. PINO autorių teisių sutartį ar panašius tarptautinius susitarimus, draudžiama apeiti neturint specialių įgaliojimų.
+      </li>
+      <li id="s1e_exceptions_and_limitations">
+       <span style="text-decoration: underline;">
+        Išimtys ir Apribojimai
+       </span>
+       reiškia sąžiningą naudojimą ir platinimą (angl. – fair dealing), ir/ar bet kokias kitas išimtis iš Autorių teisių ir Panašių teisių, taikytinas Jums naudojant Licencijuojamus Objektus.
+      </li>
+      <li id="s1f_licensed_material">
+       <span style="text-decoration: underline;">
+        Licencijuojamas Objektas
+       </span>
+       reiškia literatūros ar meno kūrinį, duomenų bazę ar kitą objektą, kuriam Licenciaras pritaikė šią Licenciją.
+      </li>
+      <li id="s1g_licensed_rights">
+       <span style="text-decoration: underline;">
+        Suteikiamos Teisės
+       </span>
+       reiškia teises, kurios Jums suteikiamos pagal šios Viešosios licencijos sąlygas; jos apima tik Autorių teises ir Panašias teises, kurios taikomos Jūsų atliekamam Licencijuojamo Objekto naudojimui ir tik tas teises, kurias Licenciaras turi teisę suteikti.
+      </li>
+      <li id="s1h_licensor">
+       <span style="text-decoration: underline;">
+        Licenciaras
+       </span>
+       reiškia fizinį(-ius) ar juridinį(-ius) asmenį(-is), suteikiantį(-čius) teises pagal šią Viešąją licenciją.
+      </li>
+      <li id="s1i_noncommercial">
+       <span style="text-decoration: underline;">
+        Nekomercinis
+       </span>
+       reiškia neskirtas ir nenukreiptas į komercinės naudos ar piniginio atlygio gavimą. Šios Viešosios licencijos tikslais, Licencijuojamų Objektų iškeitimas į kitus Autorių teisių ir Panašių teisių saugomus objektus keičiantis skaitmeninėmis rinkmenomis ar kitomis panašiomis priemonėmis bus laikomas Nekomerciniu naudojimu, jei nebus atliekami jokie su keitimusi susijusio piniginio atlygio mokėjimai.
+      </li>
+      <li id="s1j_share">
+       <span style="text-decoration: underline;">
+        Dalintis
+       </span>
+       reiškia suteikti objektus visuomenei bet kokiomis priemonėmis ar būdais, kuriems Suteikiamų Teisių pagrindu reikalingas sutikimas, pavyzdžiui, atgaminti, viešai paskelbti, viešai atlikti, skleisti, platinti, pranešti, importuoti, padaryti objektus prieinamais visuomenei, įskaitant ir tokiu būdu, kai visuomenės nariai gali gauti prieigą prie objekto savo pasirinktoje vietoje ir laiku.
+      </li>
+      <li id="s1k_sui_generis_database_rights">
+       <span style="text-decoration: underline;">
+        Sui Generis Teisės į Duomenų Bazes
+       </span>
+       reiškia kitas teises nei autorinės teisės, kylančias Europos Parlamento ir Tarybos direktyvos 96/9/EB dėl duomenų bazių teisinės apsaugos (su visais jos pakeitimais ir papildymais) pagrindu, o taip pat kitas savo esme tapačias teises visame pasaulyje.
+      </li>
+      <li id="s1l_you">
+       <span style="text-decoration: underline;">
+        Jūs
+       </span>
+       reiškia fizinį ar juridinį asmenį, įgyvendinantį Suteikiamas Teises pagal šią Viešąją licenciją. Išsireiškimai
+       <strong>
+        „Jums“, „Jūsų“
+       </strong>
+       turi atitinkamas reikšmes.
+      </li>
+     </ol>
+     <!-- Section 2. Scope. -->
+     <h3 id="s2">
+      2 skyrius – Apimtis.
+     </h3>
+     <ol type="a">
+      <li id="s2a">
+       <strong>
+        Licencijos suteikimas
+       </strong>
+       .
+       <ol>
+        <li id="s2a1">
+         Vadovaudamasis šioje Viešojoje licencijoje išdėstytomis sąlygomis, Licenciaras Jums suteikia neribotą teritoriniu atžvilgiu, neatlygintinę, nesublicencijuojamą, neišimtinę, neatšaukiamą licenciją įgyvendinti Suteikiamas Teises į Licencijuojamą Objektą:
+         <ol type="A">
+          <li id="s2a1A">
+           atgaminti ir Dalintis Licencijuojamu Objektu, visu ar dalimis, išimtinai Nekomerciniais tikslais; ir
+          </li>
+          <li id="s2a1B">
+           gaminti, atgaminti ir Dalintis Išvestiniais Objektais, išimtinai Nekomerciniais tikslais.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a2">
+         <strong>
+          Išimtys ir Apribojimai
+         </strong>
+         . Aiškumo sumetimais, tais atvejais, kai Jūsų atliekamam objekto panaudojimo būdui taikomos Išimtys ir Apribojimai, ši Viešoji licencija nėra taikoma, ir Jums nebūtina vadovautis jos sąlygomis.
+        </li>
+        <li id="s2a3">
+         <strong>
+          Terminas
+         </strong>
+         . Šios Viešosios licencijos galiojimo terminas pateiktas
+         <a href="#s6a">
+          6(a)
+         </a>
+         punkte.
+        </li>
+        <li id="s2a4">
+         <strong>
+          Sklaidos priemonės ir formatai; leidžiami techniniai pakeitimai
+         </strong>
+         . Licenciaras suteikia Jums teisę įgyvendinti Suteikiamas Teises naudojantis visomis informacijos sklaidos priemonėmis ir bet kokiais formatais, taip pat atlikti tam reikalingus techninius pakeitimus. Licenciaras atsisako ir/ar sutinka nereikšti teisių ar įgaliojimų drausti Jums atlikti techninius pakeitimus, reikalingus Suteiktoms Teisėms įgyvendinti, įskaitant pakeitimus, reikalingus apeiti Veiksmingoms Techninėms Apsaugos Priemonėms. Šios Viešosios licencijos tikslais, vien atliekant
+         <a href="#s2a4">
+          2(a)(4)
+         </a>
+         punkte numatytus pakeitimus Išvestiniai Objektai niekuomet nesukuriami.
+        </li>
+        <li id="s2a5">
+         <span style="text-decoration: underline;">
+          Tolimesni gavėjai
+         </span>
+         .
+         <ol type="A">
+          <li id="s2a5A_offer">
+           <span style="text-decoration: underline;">
+            Licenciaro oferta – Licencijuojamas Objektas
+           </span>
+           . Kiekvienas Licencijuojamo Objekto gavėjas automatiškai gauna Licenciaro ofertą (pasiūlymą) įgyvendinti Suteikiamas Teises šios Viešosios licencijos sąlygomis.
+          </li>
+          <li id="s2a5B_no_restrictions">
+           <span style="text-decoration: underline;">
+            Jokių tolimesnių apribojimų
+           </span>
+           . Jums draudžiama siūlyti ar nustatyti bet kokias papildomas ar skirtingas sąlygas ar apribojimus arba taikyti bet kokias Veiksmingas Technines Apsaugos Priemones Licencijuojamo Objekto atžvilgiu, jei tai ribotų Suteiktų Teisių įgyvendinimą bet kokiam Licencijuojamo Objekto gavėjui.
+          </li>
+         </ol>
+        </li>
+        <li id="s2a6">
+         <span style="text-decoration: underline;">
+          Jokio pripažinimo
+         </span>
+         . Jokia šios Viešosios licencijos dalis nesuteikia leidimo ir negali būti aiškinama kaip suteikianti leidimą teigti ar leisti manyti, kad Jūs ar Jūsų atliktas Licencijuojamo Objekto panaudojimas susijęs, remiamas, patvirtintas ar gavęs oficialų pripažinimą iš Licenciaro ar kitų asmenų, kurie gali reikalauti autorystės priskyrimo pagal
+         <a href="#s3a1Ai">
+          3(a)(1)(A)(i)
+         </a>
+         punktą.
+        </li>
+       </ol>
+      </li>
+      <li id="s2b">
+       <strong>
+        Kitos teisės
+       </strong>
+       .
+       <ol>
+        <li id="s2b1">
+         Neturtinės teisės, tokios kaip teisė į objekto vientisumą, šia Viešąja licencija nesuteikiamos, taip pat nesuteikiama teisė implikuoti sąsają su asmeniu komerciniais tikslais, teisė į privatų gyvenimą ir/ar jokios kitos panašios asmeninės teisės; tačiau, kiek tai įmanoma, Licenciaras atsisako ir/ar sutinka nereikalauti tokių savo turimų teisių ta apimtimi, kiek tai būtina Jums Suteiktų Teisių įgyvendinimui, tačiau ne daugiau.
+        </li>
+        <li id="s2b2">
+         Šia Viešąja licencija nėra suteikiamos teisės į patentus ar prekių ženklus.
+        </li>
+        <li id="s2b3">
+         Kiek tai įmanoma, Licenciaras atsisako bet kokios teisės reikalauti iš Jūsų autorinio atlyginimo už Suteikiamų Teisių įgyvendinimą, tiek tiesiogiai, tiek ir per teisių kolektyvinio administravimo asociacijas, tiek kai teisės administruojamos privalomai, tiek kai atšaukiamai, arba teisių turėtojo pasirinkimu. Licenciaras pareiškia, kad visais kitais atvejais jam lieka teisė gauti autorinį atlyginimą, įskaitant, kai Licencijuojamas Objektas yra naudojamas kitaip nei Nekomerciniais tikslais.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 3. License Conditions. -->
+     <h3 id="s3">
+      3 skyrius – Licencijos sąlygos.
+     </h3>
+     <p>
+      Įgyvendinti Jums Suteiktas Teises galite tik laikydamasis žemiau išvardintų reikalavimų.
+     </p>
+     <ol type="a">
+      <li id="s3a">
+       <strong>
+        Priskyrimas
+       </strong>
+       .
+       <ol type="1">
+        <li id="s3a1">
+         Jei Jūs Dalinatės Licencijuojamu Objektu (įskaitant modifikacijas), privalote:
+         <ol type="A">
+          <li id="s3a1A">
+           išsaugoti žemiau išvardintus elementus, jei Licenciaras juos pateikė su Licencijuojamu Objektu:
+           <ol type="i">
+            <li id="s3a1Ai">
+             nurodytą Licencijuojamo Objekto kūrėjo(-ų) ir kitų asmenų, turinčių teisę reikalauti priskyrimo, tapatybę, išreikštą tokiais protingumo kriterijų atitinkančiais būdais, kaip Licenciaras reikalauja (įskaitant pseudonimą, jei jis nurodytas);
+            </li>
+            <li id="s3a1Aii">
+             pranešimą apie autorines teises;
+            </li>
+            <li id="s3a1Aiii">
+             pranešimą, pateikiantį nuorodą į šią Viešąją licenciją;
+            </li>
+            <li id="s3a1Aiv">
+             pranešimą, pateikiantį nuorodą į garantijų išlygas;
+            </li>
+            <li id="s3a1Av">
+             universalųjį ištekliaus identifikatorių (URI) ar interaktyvią nuorodą į Licencijuojamą Objektą, kiek tai įmanoma;
+            </li>
+           </ol>
+          </li>
+          <li id="s3a1B">
+           nurodyti, jei Jūs Licencijuojamą Objektą modifikavote, ir išlaikyti nuorodą į ankstesnes modifikacijas; ir
+          </li>
+          <li id="s3a1C">
+           nurodyti, kad Licencijuojamas Objektas yra licencijuojamas vadovaujantis šia Viešąja licencija, ir įtraukti šios Viešosios licencijos tekstą ar URI ar interaktyvią nuorodą į ją.
+          </li>
+         </ol>
+        </li>
+        <li id="s3a2">
+         <a href="#s3a1">
+          3(a)(1)
+         </a>
+         punkte nurodytus reikalavimus Jūs galite įvykdyti bet kokiu protingumo kriterijų atitinkančiu būdu, atsižvelgiant į platinimo priemones, būdus ir kontekstą, kuriame Jūs Dalinatės Licencijuojamu Objektu. Pavyzdžiui, gali būti protinga įvykdyti reikalavimus pateikiant URI ar interaktyvią nuorodą į šaltinį, kuriame pateikiama reikalaujama informacija.
+        </li>
+        <li id="s3a3">
+         Jei Licenciaras reikalauja, Jūs privalote pašalinti bet kokią
+         <a href="#s3a1A">
+          3(a)(1)(A)
+         </a>
+         punkte nurodytą informaciją protingumo kriterijų atitinkančia apimtimi.
+        </li>
+        <li id="s3a4">
+         Jei Jūs Dalinatės savo sukurtais Išvestiniais Objektais, Jūsų taikoma išvestinė licencija negali drausti Iųvestinių Objektų gavėjams laikytis šios Viešosios licencijos sąlygų.
+        </li>
+       </ol>
+      </li>
+     </ol>
+     <!-- Section 4. Sui Generis Database Rights. -->
+     <h3 id="s4">
+      4 skyrius – Sui Generis Teisės į Duomenų Bazes.
+     </h3>
+     <p>
+      Kai Suteikiamos Teisės apima Sui Generis Teises į Duomenų Bazes, kurios galioja Jūsų Licencijuojamo Objekto atžvilgiu, tai:
+     </p>
+     <ol type="a">
+      <li id="s4a">
+       aiškumo sumetimais, pagal
+       <a href="#s2a1">
+        2(a)(1)
+       </a>
+       punktą Jums suteikiama teisė išgauti, pakartotinai naudoti, atkurti ir Dalintis duomenų bazės turiniu ar jos atskiromis dalimis tik Nekomerciniais tikslais;
+      </li>
+      <li id="s4b">
+       jei Jūs įtrauksite esminę duomenų bazės turinio dalį į kitą duomenų bazę, į kurią turite Sui Generis Teises, tokiu atveju tokia duomenų bazė, į kurią turite Sui Generis Teises (bet ne jos turinio elementai) bus laikoma Išvestiniu Objektu; ir
+      </li>
+      <li id="s4c">
+       turėsite laikytis
+       <a href="#s3a">
+        3(a)
+       </a>
+       punkte nustatytų reikalavimų, jei Dalinsitės esmine duomenų bazės dalimi.
+      </li>
+     </ol>
+     <p>
+      Aiškumo sumetimais, šis
+      <a href="#s4">
+       4
+      </a>
+      skyrius papildo, tačiau nepakeičia Jūsų įsipareigojimų pagal šią Viešąją licenciją, kai Suteikiamos Teisės apima Autorių teises ir Panašias teises.
+     </p>
+     <!-- Section 5. Disclaimer -->
+     <h3 id="s5">
+      5 skyrius – Garantijų išlygos ir atsakomybės apribojimas.
+     </h3>
+     <ol type="a">
+      <li id="s5a" style="font-weight: bold;">
+       <strong>
+        Jei Licenciaras nėra atskirai prisiėmęs kitokių įsipareigojimų, tai Licenciaras, maksimalia įmanoma apimtimi, siūlo Licencijuojamą Objektą Jums naudoti Jūsų rizika, neteikdamas jokių pareiškimų nei garantijų dėl Licencijuojamo Objekto – nei tiesioginių, nei netiesioginių, nustatytų teisės aktuose ir kt. Šios išlygos taikomos garantijoms dėl nuosavybės teisės, paklausumo, tinkamumo naudoti konkrečiam tikslui, pažeidimų neegzistavimo, paslėptų ar kitokių trūkumų nebuvimo, tikslumo, klaidų buvimo ar nebuvimo – tiek žinomų ir įmanomų nustatyti, tiek ir nežinomų ir neįmanomų nustatyti. Tais atvejais, kai tokių garantijų išlygų ar dalies jų nustatyti neleidžiama, Jums šios išlygos gali būti netaikytinos.
+       </strong>
+      </li>
+      <li id="s5b" style="font-weight: bold;">
+       <strong>
+        Maksimalia įmanoma apimtimi, Licenciaras jokiais atvejais nebus laikomas atsakingu Jums jokiu teisiniu pagrindu (įkaitant dėl neatsargumo) dėl jokių (tiesioginių, įrodytųjų, netiesioginių, atsitiktinių, papildomų (šalutinių), baudinių, įstatyminių ar panašaus pobūdžio) nuostolių, kaštų, išlaidų ar žalos, kylančios šios Viešosios licencijos pagrindu ar dėl Licencijuojamo Objekto naudojimo, net ir tuo atveju, jei Licenciaras buvo informuotas apie tokių nuostolių, kaštų, išlaidų ar žalos galimybę. Tais atvejais, kai tokių atsakomybės apribojimų visiškai ar iš dalies nustatyti neleidžiama, Jums tokie apribojimai gali būti netaikytini.
+       </strong>
+      </li>
+      <li id="s5c">
+       Nuostatos apie garantijų išlygas ir atsakomybės apribojimą turi būti aiškinamos taip, kad maksimalia įmanoma apimtimi priartėtų prie visiško garantijų nesuteikimo ir atsakomybės apribojimo.
+      </li>
+     </ol>
+     <!-- Section 6. Term and Termination -->
+     <h3 id="s6">
+      6 skyrius – Galiojimas ir nutraukimas.
+     </h3>
+     <ol type="a">
+      <li id="s6a">
+       Ši Viešoji licencija galioja visą ja licencijuojamų Autorių teisių ir Panašių teisių galiojimo terminą. Tačiau jei nesilaikysite šios Viešosios licencijos nustatytų reikalavimų, Jūsų teisės pagal šią Viešąją licenciją automatiškai pasibaigs.
+      </li>
+      <li id="s6b">
+       <p>
+        Jei Jūsų teisės naudoti Licencijuojamą Objektą pasibaigė
+        <a href="#s6a">
+         6(a)
+        </a>
+        punkto pagrindu, jų galiojimas bus vėl atkurtas:
+       </p>
+       <ol>
+        <li id="s6b1">
+         automatiškai nuo to momento, kai ištaisysite pažeidimą, jei jį ištaisysite per 30 dienų nuo tada, kai apie jį sužinojote; arba
+        </li>
+        <li id="s6b2">
+         jei Licenciaras patvirtins tokį teisių atkūrimą.
+        </li>
+       </ol>
+       <p>
+        Aiškumo sumetimais,
+        <a href="#s6b">
+         6(b)
+        </a>
+        punkto nuostata neriboja jokių Licenciaro teisių taikyti savo pažeistų teisių gynimo būdus dėl Jūsų atliktų Viešosios licencijos nuostatų pažeidimo.
+       </p>
+      </li>
+      <li id="s6c">
+       Aiškumo sumetimais, Licenciaras gali bet kuriuo metu pasiūlyti Licencijuojamą Objektą kitokiomis sąlygomis ar nutraukti Licencijuojamo Objekto platinimą, tačiau tai nereikš šios Viešosios licencijos galiojimo pabaigos.
+      </li>
+      <li id="s6d">
+       <a href="#s1">
+        1
+       </a>
+       ,
+       <a href="#s5">
+        5
+       </a>
+       ,
+       <a href="#s6">
+        6
+       </a>
+       ,
+       <a href="#s7">
+        7
+       </a>
+       ir
+       <a href="#s8">
+        8
+       </a>
+       skyriai liks galioti nepaisant šios Viešosios licencijos pabaigos.
+      </li>
+     </ol>
+     <!-- Section 7. Other terms and conditions -->
+     <h3 id="s7">
+      7 skyrius – Kitos nuostatos.
+     </h3>
+     <ol type="a">
+      <li id="s7a">
+       Licenciaro neįpareigoja jokios papildomos Jūsų nustatytos sąlygos ar reikalavimai, jei aiškiai nesusitarėte priešingai.
+      </li>
+      <li id="s7b">
+       Visi čia nenurodyti susižinojimai, susitarimai ar sutartys dėl Licencijuojamo Objekto yra atskiri ir nepriklauso nuo šia Viešąja licencija nustatytų sąlygų ir reikalavimų.
+      </li>
+     </ol>
+     <!-- Section 8. Interpretation -->
+     <h3 id="s8">
+      8 skyrius – Aiškinimas.
+     </h3>
+     <ol type="a">
+      <li id="s8a">
+       Aiškumo sumetimais, ši Viešoji licencija nėra ir negali būti aiškinama kaip siaurinanti, ribojanti, draudžianti ar nustatanti papildomas sąlygas bet kokiam Licencijuojamo Objekto naudojimo būdui, kuris teisėtai gali būti atliekamas ir be ja suteikiamo leidimo.
+      </li>
+      <li id="s8b">
+       Jei kurios nors šios Viešosios licencijos sąlygos neįmanoma priverstinai įgyvendinti maksimalia įmanoma apimtimi, ji bus laikoma automatiškai pakeista minimalia apimtimi, reikalinga tam, kad tokia nuostata taptų įmanoma priverstinai įgyvendinti. Jei tokios sąlygos pakeisti negalima, ji bus laikoma atribota nuo šios Viešosios licencijos be įtakos galimybei priverstinai įgyvendinti likusias sąlygas.
+      </li>
+      <li id="s8c">
+       Jokios šios Viešosios licencijos sąlygos ar nuostatos nėra atsisakyta ir jokios sąlygos ar nuostatos nėra leista nesilaikyti, jei Licenciatas nėra aiškiai išreiškęs tam savo pritarimo.
+      </li>
+      <li id="s8d">
+       Jokia šios Viešosios licencijos nuostata nenustato ir negali būti aiškinama kaip nustatanti bet kokių Licenciarui ar Jums taikomų lengvatų ar išimčių (imuniteto) apribojimą ar atsisakymą, įskaitant dėl teisinių procedūrų, bet kokioje jurisdikcijoje atliekamų bet kokios institucijos.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons nėra savo Viešųjų licencijų šalimi. Tačiau Creative Commons gali pasirinkti taikyti kurią nors iš savo Viešųjų licencijų savo skelbiamiems objektams, ir tokiu atveju Creative Commons bus laikoma „Licenciaru". Išskyrus ribotą tikslą – nurodyti visuomenei, kad objektas yra licencijuojamas Creative Commons Viešąja licencija ar kitu Creative Commons veiklos strategijoje nustatytu būdu, skelbiamu
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , Creative Commons draudžia naudoti prekių ženklą „Creative Commons" ar bet kokį kitą Creative Commons prekių ženklą ar logotipą be išankstinio Creative Commons rašytinio sutikimo, įskaitant, tačiau neapsiribojant, susietą su bet kokiais Viešųjų licencijų pakeitimais, kuriems nėra duotas sutikimas, ir bet kokiems kitiems susižinojimams, susitarimams ar sutartims dėl licencijuojamų objektų naudojimo. Aiškumo sumetimais, ši pastraipa nėra Viešosios licencijos dalis.
+     </p>
+     <p>
+      Su Creative Commons galite susisiekti adresu
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

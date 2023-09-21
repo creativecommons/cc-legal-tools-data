@@ -4,527 +4,591 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Νομικός κώδικας — CC0 1.0 Παγκόσμια — Creative Commons
+   CC0 1.0 Νομικός κώδικας | CC0 1.0 Παγκόσμια
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.el" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Μεταβείτε στο περιεχόμενο
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Μεταβείτε στο περιεχόμενο
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Αρχική
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Δημόσιος Τομέας
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.el">
-        CC0 1.0 Νομικός κώδικας
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" selected="" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" selected="" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.el" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Νομικός κώδικας
+    </h1>
+    <h2>
+     CC0 1.0 Παγκόσμια
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 Παγκόσμια
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Δήλωση Σκοπού
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Αποποίηση.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Έκτακτη Δημόσια Άδεια.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Περιορισμοί και Δηλώσεις αποποίησης ευθύνης.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Δήλωση Σκοπού
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Αποποίηση.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Έκτακτη Δημόσια Άδεια.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Περιορισμοί και Δηλώσεις αποποίησης ευθύνης.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 Παγκόσμια
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 Παγκόσμια
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About the license and Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Το νομικό πρόσωπο Creative Commons Corporation (Creative Commons) δεν είναι συνεταιρισμός ή εταιρία δικηγόρων ούτε παρέχει νομικές υπηρεσίες. Η παραχώρηση/χορήγηση δημόσιων αδειών του Creative Commons δεν δημιουργεί κάποια σχέση δικηγόρου-πελάτη ή οποιαδήποτε άλλη σχέση. Το νομικό πρόσωπο Creative Commons διαθέτει τις άδειες του και οποιαδήποτε σχετική πληροφορία στη βάση του "ως έχει". Το νομικό πρόσωπο Creative Commons δεν παρέχει εγγυήσεις σε ότι αφορά τις άδειες του, για οποιοδήποτε αντικείμενο που αδειοδοτήθηκε σύμφωνα με τους δικούς του όρους και προϋποθέσεις, ή οποιαδήποτε άλλη σχετική πληροφορία. Το νομικό πρόσωπο Creative Commons αποποιείται κάθε ευθύνης για ζημιές οι οποίες προκύπτουν από τη χρήση τους στο μέγιστο δυνατό βαθμό.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Χρήση των Δημόσιων Αδειών Creative Commons
-       </h4>
-       <p class="has-text-black body-big">
-        Οι δημόσιες άδειες Creative Commons παρέχουν ένα συγκεκριμένο σύνολο όρων και προϋποθέσεων που μπορούν να χρησιμοποιηθούν από τους/τις δημιουργούς και από τους/τις άλλους/-ες δικαιούχους για να διανέμουν τα πρωτότυπα έργα του/της δημιουργού και άλλο υλικό το οποίο προστατεύεται με πνευματική ιδιοκτησία, καθώς και με άλλα δικαιώματα τα οποία καθορίζονται στη δημόσια άδεια πιο κάτω. Οι ακόλουθες συστάσεις είναι μόνο πληροφοριακής φύσεως, είναι ενδεικτικές κι όχι περιοριστικές και δεν αποτελούν μέρος των αδειών μας.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Οι δημόσιες άδειές μας παρέχονται για χρήση από εκείνους/-ες οι οποίοι/-ες έχουν την εξουσία να χορηγούν άδεια στο κοινό να χρησιμοποιεί το αδειοδοτούμενο έργο ή άλλο αντικείμενο με τρόπους που διαφορετικά θα περιορίζονταν από την πνευματική ιδιοκτησία και από άλλα παρόμοια δικαιώματα. Οι άδειες μας είναι μη ανακλητές. Οι χορηγούντες/-ούσες την άδεια οφείλουν να διαβάζουν και να κατανοούν τους όρους και τις προϋποθέσεις της άδειας που επιλέγουν πριν την εφαρμόσουν. Οι χορηγούντες/-ούσες την άδεια θα πρέπει επίσης να εξασφαλίσουν όλα τα αναγκαία δικαιώματα πριν εφαρμόσουν την άδεια μας έτσι ώστε το κοινό να μπορεί να επαναχρησιμοποιήσει το υλικό όπως προβλέπεται. Οι χορηγούντες/-ούσες την άδεια πρέπει να σημειώνουν καθαρά οποιοδήποτε υλικό το οποίο δεν υπόκειται στην άδεια. Αυτό περιλαμβάνει και άλλα αντικείμενα που έχουν αδειοδοτηθεί με άδεια CC ή υλικό το οποίο χρησιμοποιείται κάτω από μια εξαίρεση ή περιορισμό του δικαιώματος πνευματικής ιδιοκτησίας.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Περισσότερες συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Συστάσεις για το κοινό
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Χρησιμοποιώντας μία από τις δημόσιες άδειες μας, ο/η χορηγών/-ούσα την άδεια παραχωρεί στο κοινό την άδεια να χρησιμοποιεί το αντικείμενο της αδειοδότησης κάτω από συγκεκριμένους όρους και προϋποθέσεις. Αν η παραχώρηση άδειας δεν είναι αναγκαία για κάποιο λόγο– για παράδειγμα, επειδή εφαρμόζεται κάποια εξαίρεση ή περιορισμός στο δικαίωμα πνευματικής ιδιοκτησίας – τότε ή χρήση αυτή δεν ρυθμίζεται από την άδεια. Με τις άδειές μας ο/η Χορηγών/-ούσα την Άδεια παραχωρεί εκείνες μόνο τις εξουσίες που δικαιούται να παραχωρεί, σύμφωνα με το δίκαιο της πνευματικής ιδιοκτησίας και την προστασία άλλων παρόμοιων δικαιωμάτων. Η χρήση του αντικειμένου της αδειοδότησης μπορεί ακόμη να υπόκειται σε περιορισμούς για άλλους λόγους, περιλαμβανομένων των δικαιωμάτων πνευματικής ιδιοκτησίας ή άλλων δικαιωμάτων που τρίτοι απολαμβάνουν πάνω στο αντικείμενο της αδειοδότησης. Ο/Η χορηγών/-ούσα την άδεια έχει τη δυνατότητα να συμπεριλάβει ειδικά αιτήματα, όπως το να ζητά ότι όλες οι αλλαγές θα σημειώνονται ή θα περιγράφονται. Αν και δεν απαιτείται από τις άδειες μας, προτρέπεστε να σέβεστε τέτοια αιτήματα όταν είναι εύλογα.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Περισσότερες συστάσεις για το κοινό.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 Παγκόσμια
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS CORPORATION ΔΕΝ ΕΙΝΑΙ ΣΥΝΕΤΑΙΡΙΣΜΟΣ Ή ΕΤΑΙΡΙΑ ΔΙΚΗΓΟΡΩΝ ΟΥΤΕ ΠΑΡΕΧΕΙ ΝΟΜΙΚΕΣ ΥΠΗΡΕΣΙΕΣ. Η ΔΙΑΝΟΜΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ ΔΕΝ ΔΗΜΙΟΥΡΓΕΙ ΣΧΕΣΗ ΔΙΚΗΓΟΡΟΥ-ΠΕΛΑΤΗ. ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS ΔΙΑΘΕΤΕΙ ΑΥΤΕΣ ΤΙΣ ΠΛΗΡΟΦΟΡΙΕΣ ΣΤΗ ΒΑΣΗ ΤΟΥ "ΩΣ ΕΧΕΙ". ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS ΔΕΝ ΠΑΡΕΧΕΙ ΕΓΓΥΗΣΕΙΣ ΣΧΕΤΙΚΑ ΜΕ ΤΗ ΧΡΗΣΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ Ή ΤΩΝ ΠΛΗΡΟΦΟΡΙΩΝ Ή ΤΩΝ ΕΡΓΩΝ ΠΟΥ ΠΑΡΕΧΟΝΤΑΙ ΣΕ ΑΥΤΟ, ΚΑΙ ΑΠΟΠΟΙΕΙΤΑΙ ΚΑΘΕ ΕΥΘΥΝΗΣ ΓΙΑ ΖΗΜΙΕΣ ΟΙ ΟΠΟΙΕΣ ΠΡΟΚΥΠΤΟΥΝ ΑΠΟ ΤΗ ΧΡΗΣΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ Ή ΤΩΝ ΠΛΗΡΟΦΟΡΙΩΝ Ή ΤΩΝ ΕΡΓΩΝ ΠΟΥ ΠΑΡΕΧΟΝΤΑΙ ΣΕ ΑΥΤΟ.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Δήλωση Σκοπού
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Η νομοθεσία των περισσότερων δικαιοδοσιών σε ολόκληρο τον κόσμο απονέμει αυτομάτως αποκλειστικά Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα (τα οποία ορίζονται κατωτέρω) στον δημιουργό και τον/τους μεταγενέστερο/-ους δικαιούχο/-ους (στο εξής «δικαιούχος») του πρωτότυπου έργου και/ή της βάσης δεδομένων (στο εξής «Έργο»).
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Ορισμένοι δικαιούχοι επιθυμούν να αποποιηθούν μόνιμα τα εν λόγω δικαιώματα στο Έργο με σκοπό να συνεισφέρουν στα κοινά δημιουργικά, πολιτιστικά και επιστημονικά έργα (εφεξής «Κοινά»), τα οποία το κοινό μπορεί αξιόπιστα, και χωρίς τον φόβο μετέπειτα άσκησης αγωγών για προσβολή δικαιωμάτων, να επεξεργάζεται, να τροποποιεί, να ενσωματώνει σε άλλα έργα, να επαναχρησιμοποιεί και να αναδιανέμει, όσο το δυνατόν πιο ελεύθερα, με οποιαδήποτε μορφή και για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς, για εμπορικούς σκοπούς. Οι εν λόγω δικαιούχοι ενδέχεται να συνεισφέρουν στα Κοινά με σκοπό την προαγωγή του ιδεώδους της ελεύθερης πρόσβασης στον πολιτισμό και την περαιτέρω παραγωγή δημιουργικών, πολιτιστικών και επιστημονικών έργων ή την απόκτηση φήμης ή τη μεγαλύτερη διάδοση του Έργου τους, εν μέρει χάρη στη χρήση από άλλα πρόσωπα και στις προσπάθειές τους.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Για τους σκοπούς αυτούς και/ή άλλους σκοπούς και κίνητρα, και χωρίς να αναμένει κανένα περαιτέρω αντάλλαγμα ή αποζημίωση, το πρόσωπο που συνδέει τη CC0 με ένα Έργο (εφεξής ο «Δηλών»), στον βαθμό που είναι δικαιούχος Δικαιώματος Πνευματικής Ιδιοκτησίας και Συγγενικών Δικαιωμάτων στο Έργο, επιλέγει οικειοθελώς να εφαρμόσει τη CC0 στο Έργο και να διανείμει δημόσια το Έργο υπό τους όρους της, εν πλήρη γνώση των Δικαιωμάτων Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων που κατέχει στο Έργο, καθώς και της έννοιας και των επιδιωκόμενων έννομων συνεπειών της CC0 στα εν λόγω δικαιώματα.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Το Έργο που καθίσταται διαθέσιμο στο πλαίσιο της CC0 μπορεί να προστατεύεται από δικαιώματα πνευματικής ιδιοκτησίας και συγγενικά δικαιώματα (εφεξής «Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα»). Τα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα περιλαμβάνουν, αλλά όχι περιοριστικά, τα εξής:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           το δικαίωμα αναπαραγωγής, προσαρμογής, διανομής, εκτέλεσης, απεικόνισης, επικοινωνίας και μετάφρασης του Έργου;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           τα ηθικά δικαιώματα που διατηρεί/-ούν ο/οι αρχικός/-οί δημιουργός/-οί και/ή ο/οι ερμηνευτής/-ές·
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           τα δικαιώματα δημοσίευσης και προστασίας της ιδιωτικής ζωής που σχετίζονται με την εικόνα του προσώπου που απεικονίζεται στο Έργο·
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           τα δικαιώματα προστασίας από τον αθέμιτο ανταγωνισμό αναφορικά με το Έργο, με την επιφύλαξη των περιορισμών της παραγράφου 4 στοιχείο α) κατωτέρω·
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           τα δικαιώματα προστασίας της εξαγωγής, διάδοσης, χρήσης και επαναχρησιμοποίησης των δεδομένων που περιέχονται στο Έργο·
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           τα δικαιώματα βάσεων δεδομένων (όπως αυτά που απορρέουν από την οδηγία 96/9/ΕΚ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου, της 11ης Μαρτίου 1996, σχετικά με τη νομική προστασία των βάσεων δεδομένων, και στο πλαίσιο οποιασδήποτε εθνικής εφαρμογής της εν λόγω οδηγίας, συμπεριλαμβανομένης κάθε τροποποιημένης ή διάδοχης έκδοσής της)· και
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           άλλα παρόμοια, ισοδύναμα ή αντίστοιχα δικαιώματα ανά τον κόσμο βάσει του εφαρμοστέου δικαίου ή της εφαρμοστέας συνθήκης, και κάθε εθνική εφαρμογή τους.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Αποποίηση.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Στο μέτρο του δυνατού που επιτρέπεται από το εφαρμοστέο δίκαιο, αλλά όχι κατά παράβαση αυτού, με την παρούσα ο Δηλών, αποποιείται, εγκαταλείπει και παραδίδει ρητά, πλήρως, μόνιμα, αμετάκλητα και άνευ όρων, όλα τα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα του Δηλούντα και τις συναφείς αξιώσεις και βάσεις για άσκηση αγωγής, είτε είναι επί του παρόντος γνωστές είτε άγνωστες (συμπεριλαμβανομένων των υφιστάμενων καθώς και των μελλοντικών αξιώσεων και βάσεων για άσκηση αγωγής), στο Έργο i) παγκοσμίως, ii) για τη μέγιστη διάρκεια που προβλέπεται από το εφαρμοστέο δίκαιο ή την εφαρμοστέα συνθήκη (συμπεριλαμβανομένων των μελλοντικών παρατάσεων), iii) σε κάθε υφιστάμενο ή μελλοντικό μέσο και για κάθε αριθμό αντιγράφων και iv) για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς, για εμπορικούς, διαφημιστικούς ή προωθητικούς σκοπούς (εφεξής η «Αποποίηση»). Ο Δηλών προβαίνει στην Αποποίηση προς όφελος κάθε μέλους του κοινού με την ευρεία έννοια και εις βάρος των κληρονόμων και των διαδόχων του Δηλούντα, έχοντας την πλήρη πρόθεση η εν λόγω Αποποίηση να μην υπόκειται σε ανάκληση, υπαναχώρηση, ακύρωση, καταγγελία ή οποιαδήποτε άλλη νομική ή δικαστική ενέργεια με σκοπό να διαταραχθεί η απρόσκοπτη απόλαυση του Έργου από το κοινό, όπως προβλέπεται στη ρητή Δήλωση Σκοπού του Δηλούντα.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Έκτακτη Δημόσια Άδεια.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Αν οποιοδήποτε τμήμα της Αποποίησης κριθεί για οποιονδήποτε λόγο νομικά άκυρο ή ανίσχυρο κατά το εφαρμοστέο δίκαιο, τότε η Αποποίηση διατηρείται στον μέγιστο δυνατό βαθμό, λαμβανομένης υπόψη της ρητής Δήλωσης Σκοπού του Δηλούντα. Επιπλέον, στον βαθμό που η Αποποίηση κριθεί νομικά άκυρη ή ανίσχυρη, ο Δηλών χορηγεί με την παρούσα σε κάθε θιγόμενο πρόσωπο χωρίς καταβολή τελών μη μεταβιβάσιμη, μη δυνάμενη να εκχωρηθεί, αμετάκλητη και άνευ όρων άδεια άσκησης του Δικαιώματος Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων του Δηλούντος στο Έργο i) παγκοσμίως, ii) για τη μέγιστη διάρκεια που προβλέπεται από το εφαρμοστέο δίκαιο ή την εφαρμοστέα συνθήκη (συμπεριλαμβανομένων των μελλοντικών παρατάσεων), iii) σε οποιοδήποτε υφιστάμενο ή μελλοντικό μέσο και για οποιονδήποτε αριθμό αντιγράφων, και iv) για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς για εμπορικούς, διαφημιστικούς ή προωθητικούς σκοπούς (εφεξής η «Άδεια»). Η Άδεια θεωρείται ότι ισχύει από την ημερομηνία κατά την οποία η CC0 εφαρμόστηκε από τον Δηλούντα στο Έργο. Αν οποιοδήποτε τμήμα της Άδειας κριθεί για οποιονδήποτε λόγο νομικά άκυρο ή ανίσχυρο κατά το εφαρμοστέο δίκαιο, η εν λόγω μερική ακυρότητα ή έλλειψη ισχύος δεν ακυρώνει την υπόλοιπη Άδεια, και σε αυτήν την περίπτωση ο Δηλών επιβεβαιώνει με την παρούσα ότι i) δεν θα ασκήσει κανένα από τα εναπομένοντα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα που κατέχει στο Έργο ή ii) δεν θα προβάλει τυχόν συναφείς αξιώσεις και βάσεις για άσκηση αγωγής σε σχέση με το Έργο, και στις δύο περιπτώσεις, σε αντίθεση με τη ρητή Δήλωση Σκοπού του Δηλούντα.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Περιορισμοί και Δηλώσεις αποποίησης ευθύνης.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            α. Με το παρόν έγγραφο δεν αίρεται, εγκαταλείπεται, παραδίδεται, παρέχεται με άδεια χρήσης ή άλλως επηρεάζεται κανένα δικαίωμα εμπορικού σήματος ή ευρεσιτεχνίας που κατέχει ο Δηλών.
-            <br/>
-            β. Ο Δηλών προσφέρει το Έργο ως έχει και δεν προβαίνει σε δηλώσεις ή εγγυήσεις οποιουδήποτε είδους σχετικά με το Έργο, ρητές, σιωπηρές, βάσει νόμου ή άλλως, συμπεριλαμβανομένων, χωρίς περιορισμό, των εγγυήσεων ως προς τα δικαιώματά του στο Έργο, την εμπορευσιμότητα, την καταλληλότητα για συγκεκριμένο σκοπό, τη μη προσβολή δικαιωμάτων ή την απουσία λανθανόντων ή άλλων ελαττωμάτων, την ακρίβεια ή την ύπαρξη ή απουσία σφαλμάτων, είτε μπορούν να εντοπιστούν είτε όχι, όλα στον μέγιστο δυνατό βαθμό που επιτρέπεται βάσει του εφαρμοστέου δικαίου.
-            <br/>
-            γ. Ο Δηλών αποποιείται την ευθύνη για την εκκαθάριση δικαιωμάτων άλλων προσώπων που ενδέχεται να ισχύουν για το Έργο ή για οποιαδήποτε χρήση του, συμπεριλαμβανομένων χωρίς περιορισμό των Δικαιωμάτων Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων οποιουδήποτε προσώπου στο Έργο. Επιπλέον, ο Δηλών αποποιείται την ευθύνη για την εξασφάλιση οποιασδήποτε αναγκαίας συγκατάθεσης, άδειας ή άλλου δικαιώματος που απαιτείται για οποιαδήποτε χρήση του Έργου.
-            <br/>
-            δ. Ο Δηλών κατανοεί και αναγνωρίζει ότι η «Creative Commons» δεν αποτελεί μέρος του παρόντος εγγράφου και δεν υπέχει κανένα καθήκον ή υποχρέωση όσον αφορά την παρούσα CC0 ή τη χρήση του Έργου.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Το νομικό πρόσωπο Creative Commons δεν είναι συμβαλλόμενο μέρος στις δημόσιες άδειές του. Ωστόσο, το νομικό πρόσωπο Creative Commons μπορεί να επιλέξει να εφαρμόσει κάποια από τις άδειες δημόσιας χρήσης του στο υλικό που δημοσιεύει και σε αυτές τις περιπτώσεις θα θεωρείται ως "Ο/Η Χορηγών/-ούσα την Άδεια (Αδειοδότης/-ούσα)". Το κείμενο των δημόσιων αδειών Creative Commons είναι αφιερωμένο στο δημόσιο τομέα υπό το
-        <a href="/publicdomain/zero/1.0/">
-         CC0 Public Domain Dedication
-        </a>
-        . Εκτός από τον περιορισμένο σκοπό διαμοιρασμού υλικού δυνάμει μιας δημόσιας άδειας Creative Commons ή όπως άλλως επιτρέπεται από την πολιτική του νομικού προσώπου Creative Commons όπως αυτή δημοσιεύεται στη διαδικτυακή διεύθυνση
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , το νομικό πρόσωπο Creative Commons δεν επιτρέπει τη χρήση του εμπορικού σήματος "Creative Commons" ή άλλου εμπορικού σήματος ή του λογοτύπου του νομικού προσώπου Creative Commons, χωρίς την προηγούμενη γραπτή συγκατάθεσή του συμπεριλαμβανομένων, χωρίς περιορισμό, για τη χρήση αναφορικά με οποιεσδήποτε μη εξουσιοδοτημένες τροποποιήσεις οποιασδήποτε δημόσιας άδειάς του ή τυχόν άλλων διευθετήσεων, μνημονίων, ή συμφωνιών που αφορούν τη χρήση του αντικειμένου αδειοδότησης. Προς άρση κάθε αμφιβολίας, η εν λόγω παράγραφος δεν αποτελεί περιεχόμενο των δημόσιων αδειών.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Μπορείτε να επικοινωνήσετε με το νομικό πρόσωπο Creative Commons στη διαδικτυακή διεύθυνση
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.el">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      About the license and Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Χρήση των Δημόσιων Αδειών Creative Commons
+     </h2>
+     <p>
+      Οι δημόσιες άδειες Creative Commons παρέχουν ένα συγκεκριμένο σύνολο όρων και προϋποθέσεων που μπορούν να χρησιμοποιηθούν από τους/τις δημιουργούς και από τους/τις άλλους/-ες δικαιούχους για να διανέμουν τα πρωτότυπα έργα του/της δημιουργού και άλλο υλικό το οποίο προστατεύεται με πνευματική ιδιοκτησία, καθώς και με άλλα δικαιώματα τα οποία καθορίζονται στη δημόσια άδεια πιο κάτω. Οι ακόλουθες συστάσεις είναι μόνο πληροφοριακής φύσεως, είναι ενδεικτικές κι όχι περιοριστικές και δεν αποτελούν μέρος των αδειών μας.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια
+     </h3>
+     <p>
+      Οι δημόσιες άδειές μας παρέχονται για χρήση από εκείνους/-ες οι οποίοι/-ες έχουν την εξουσία να χορηγούν άδεια στο κοινό να χρησιμοποιεί το αδειοδοτούμενο έργο ή άλλο αντικείμενο με τρόπους που διαφορετικά θα περιορίζονταν από την πνευματική ιδιοκτησία και από άλλα παρόμοια δικαιώματα. Οι άδειες μας είναι μη ανακλητές. Οι χορηγούντες/-ούσες την άδεια οφείλουν να διαβάζουν και να κατανοούν τους όρους και τις προϋποθέσεις της άδειας που επιλέγουν πριν την εφαρμόσουν. Οι χορηγούντες/-ούσες την άδεια θα πρέπει επίσης να εξασφαλίσουν όλα τα αναγκαία δικαιώματα πριν εφαρμόσουν την άδεια μας έτσι ώστε το κοινό να μπορεί να επαναχρησιμοποιήσει το υλικό όπως προβλέπεται. Οι χορηγούντες/-ούσες την άδεια πρέπει να σημειώνουν καθαρά οποιοδήποτε υλικό το οποίο δεν υπόκειται στην άδεια. Αυτό περιλαμβάνει και άλλα αντικείμενα που έχουν αδειοδοτηθεί με άδεια CC ή υλικό το οποίο χρησιμοποιείται κάτω από μια εξαίρεση ή περιορισμό του δικαιώματος πνευματικής ιδιοκτησίας.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Περισσότερες συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Συστάσεις για το κοινό
+     </h3>
+     <p>
+      Χρησιμοποιώντας μία από τις δημόσιες άδειες μας, ο/η χορηγών/-ούσα την άδεια παραχωρεί στο κοινό την άδεια να χρησιμοποιεί το αντικείμενο της αδειοδότησης κάτω από συγκεκριμένους όρους και προϋποθέσεις. Αν η παραχώρηση άδειας δεν είναι αναγκαία για κάποιο λόγο– για παράδειγμα, επειδή εφαρμόζεται κάποια εξαίρεση ή περιορισμός στο δικαίωμα πνευματικής ιδιοκτησίας – τότε ή χρήση αυτή δεν ρυθμίζεται από την άδεια. Με τις άδειές μας ο/η Χορηγών/-ούσα την Άδεια παραχωρεί εκείνες μόνο τις εξουσίες που δικαιούται να παραχωρεί, σύμφωνα με το δίκαιο της πνευματικής ιδιοκτησίας και την προστασία άλλων παρόμοιων δικαιωμάτων. Η χρήση του αντικειμένου της αδειοδότησης μπορεί ακόμη να υπόκειται σε περιορισμούς για άλλους λόγους, περιλαμβανομένων των δικαιωμάτων πνευματικής ιδιοκτησίας ή άλλων δικαιωμάτων που τρίτοι απολαμβάνουν πάνω στο αντικείμενο της αδειοδότησης. Ο/Η χορηγών/-ούσα την άδεια έχει τη δυνατότητα να συμπεριλάβει ειδικά αιτήματα, όπως το να ζητά ότι όλες οι αλλαγές θα σημειώνονται ή θα περιγράφονται. Αν και δεν απαιτείται από τις άδειες μας, προτρέπεστε να σέβεστε τέτοια αιτήματα όταν είναι εύλογα.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Περισσότερες συστάσεις για το κοινό.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 Παγκόσμια
+     </h2>
+     <p>
+      ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS CORPORATION ΔΕΝ ΕΙΝΑΙ ΣΥΝΕΤΑΙΡΙΣΜΟΣ Ή ΕΤΑΙΡΙΑ ΔΙΚΗΓΟΡΩΝ ΟΥΤΕ ΠΑΡΕΧΕΙ ΝΟΜΙΚΕΣ ΥΠΗΡΕΣΙΕΣ. Η ΔΙΑΝΟΜΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ ΔΕΝ ΔΗΜΙΟΥΡΓΕΙ ΣΧΕΣΗ ΔΙΚΗΓΟΡΟΥ-ΠΕΛΑΤΗ. ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS ΔΙΑΘΕΤΕΙ ΑΥΤΕΣ ΤΙΣ ΠΛΗΡΟΦΟΡΙΕΣ ΣΤΗ ΒΑΣΗ ΤΟΥ "ΩΣ ΕΧΕΙ". ΤΟ ΝΟΜΙΚΟ ΠΡΟΣΩΠΟ CREATIVE COMMONS ΔΕΝ ΠΑΡΕΧΕΙ ΕΓΓΥΗΣΕΙΣ ΣΧΕΤΙΚΑ ΜΕ ΤΗ ΧΡΗΣΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ Ή ΤΩΝ ΠΛΗΡΟΦΟΡΙΩΝ Ή ΤΩΝ ΕΡΓΩΝ ΠΟΥ ΠΑΡΕΧΟΝΤΑΙ ΣΕ ΑΥΤΟ, ΚΑΙ ΑΠΟΠΟΙΕΙΤΑΙ ΚΑΘΕ ΕΥΘΥΝΗΣ ΓΙΑ ΖΗΜΙΕΣ ΟΙ ΟΠΟΙΕΣ ΠΡΟΚΥΠΤΟΥΝ ΑΠΟ ΤΗ ΧΡΗΣΗ ΤΟΥ ΠΑΡΟΝΤΟΣ ΕΓΓΡΑΦΟΥ Ή ΤΩΝ ΠΛΗΡΟΦΟΡΙΩΝ Ή ΤΩΝ ΕΡΓΩΝ ΠΟΥ ΠΑΡΕΧΟΝΤΑΙ ΣΕ ΑΥΤΟ.
+     </p>
+     <h3 id="sop">
+      Δήλωση Σκοπού
+     </h3>
+     <p>
+      Η νομοθεσία των περισσότερων δικαιοδοσιών σε ολόκληρο τον κόσμο απονέμει αυτομάτως αποκλειστικά Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα (τα οποία ορίζονται κατωτέρω) στον δημιουργό και τον/τους μεταγενέστερο/-ους δικαιούχο/-ους (στο εξής «δικαιούχος») του πρωτότυπου έργου και/ή της βάσης δεδομένων (στο εξής «Έργο»).
+     </p>
+     <p>
+      Ορισμένοι δικαιούχοι επιθυμούν να αποποιηθούν μόνιμα τα εν λόγω δικαιώματα στο Έργο με σκοπό να συνεισφέρουν στα κοινά δημιουργικά, πολιτιστικά και επιστημονικά έργα (εφεξής «Κοινά»), τα οποία το κοινό μπορεί αξιόπιστα, και χωρίς τον φόβο μετέπειτα άσκησης αγωγών για προσβολή δικαιωμάτων, να επεξεργάζεται, να τροποποιεί, να ενσωματώνει σε άλλα έργα, να επαναχρησιμοποιεί και να αναδιανέμει, όσο το δυνατόν πιο ελεύθερα, με οποιαδήποτε μορφή και για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς, για εμπορικούς σκοπούς. Οι εν λόγω δικαιούχοι ενδέχεται να συνεισφέρουν στα Κοινά με σκοπό την προαγωγή του ιδεώδους της ελεύθερης πρόσβασης στον πολιτισμό και την περαιτέρω παραγωγή δημιουργικών, πολιτιστικών και επιστημονικών έργων ή την απόκτηση φήμης ή τη μεγαλύτερη διάδοση του Έργου τους, εν μέρει χάρη στη χρήση από άλλα πρόσωπα και στις προσπάθειές τους.
+     </p>
+     <p>
+      Για τους σκοπούς αυτούς και/ή άλλους σκοπούς και κίνητρα, και χωρίς να αναμένει κανένα περαιτέρω αντάλλαγμα ή αποζημίωση, το πρόσωπο που συνδέει τη CC0 με ένα Έργο (εφεξής ο «Δηλών»), στον βαθμό που είναι δικαιούχος Δικαιώματος Πνευματικής Ιδιοκτησίας και Συγγενικών Δικαιωμάτων στο Έργο, επιλέγει οικειοθελώς να εφαρμόσει τη CC0 στο Έργο και να διανείμει δημόσια το Έργο υπό τους όρους της, εν πλήρη γνώση των Δικαιωμάτων Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων που κατέχει στο Έργο, καθώς και της έννοιας και των επιδιωκόμενων έννομων συνεπειών της CC0 στα εν λόγω δικαιώματα.
+     </p>
+     <h3 id="copyright">
+      1. Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα.
+     </h3>
+     <p>
+      Το Έργο που καθίσταται διαθέσιμο στο πλαίσιο της CC0 μπορεί να προστατεύεται από δικαιώματα πνευματικής ιδιοκτησίας και συγγενικά δικαιώματα (εφεξής «Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα»). Τα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα περιλαμβάνουν, αλλά όχι περιοριστικά, τα εξής:
+     </p>
+     <ol type="i">
+      <li>
+       το δικαίωμα αναπαραγωγής, προσαρμογής, διανομής, εκτέλεσης, απεικόνισης, επικοινωνίας και μετάφρασης του Έργου;
+      </li>
+      <li>
+       τα ηθικά δικαιώματα που διατηρεί/-ούν ο/οι αρχικός/-οί δημιουργός/-οί και/ή ο/οι ερμηνευτής/-ές·
+      </li>
+      <li>
+       τα δικαιώματα δημοσίευσης και προστασίας της ιδιωτικής ζωής που σχετίζονται με την εικόνα του προσώπου που απεικονίζεται στο Έργο·
+      </li>
+      <li>
+       τα δικαιώματα προστασίας από τον αθέμιτο ανταγωνισμό αναφορικά με το Έργο, με την επιφύλαξη των περιορισμών της παραγράφου 4 στοιχείο α) κατωτέρω·
+      </li>
+      <li>
+       τα δικαιώματα προστασίας της εξαγωγής, διάδοσης, χρήσης και επαναχρησιμοποίησης των δεδομένων που περιέχονται στο Έργο·
+      </li>
+      <li>
+       τα δικαιώματα βάσεων δεδομένων (όπως αυτά που απορρέουν από την οδηγία 96/9/ΕΚ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου, της 11ης Μαρτίου 1996, σχετικά με τη νομική προστασία των βάσεων δεδομένων, και στο πλαίσιο οποιασδήποτε εθνικής εφαρμογής της εν λόγω οδηγίας, συμπεριλαμβανομένης κάθε τροποποιημένης ή διάδοχης έκδοσής της)· και
+      </li>
+      <li>
+       άλλα παρόμοια, ισοδύναμα ή αντίστοιχα δικαιώματα ανά τον κόσμο βάσει του εφαρμοστέου δικαίου ή της εφαρμοστέας συνθήκης, και κάθε εθνική εφαρμογή τους.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Αποποίηση.
+     </h3>
+     <p>
+      Στο μέτρο του δυνατού που επιτρέπεται από το εφαρμοστέο δίκαιο, αλλά όχι κατά παράβαση αυτού, με την παρούσα ο Δηλών, αποποιείται, εγκαταλείπει και παραδίδει ρητά, πλήρως, μόνιμα, αμετάκλητα και άνευ όρων, όλα τα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα του Δηλούντα και τις συναφείς αξιώσεις και βάσεις για άσκηση αγωγής, είτε είναι επί του παρόντος γνωστές είτε άγνωστες (συμπεριλαμβανομένων των υφιστάμενων καθώς και των μελλοντικών αξιώσεων και βάσεων για άσκηση αγωγής), στο Έργο i) παγκοσμίως, ii) για τη μέγιστη διάρκεια που προβλέπεται από το εφαρμοστέο δίκαιο ή την εφαρμοστέα συνθήκη (συμπεριλαμβανομένων των μελλοντικών παρατάσεων), iii) σε κάθε υφιστάμενο ή μελλοντικό μέσο και για κάθε αριθμό αντιγράφων και iv) για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς, για εμπορικούς, διαφημιστικούς ή προωθητικούς σκοπούς (εφεξής η «Αποποίηση»). Ο Δηλών προβαίνει στην Αποποίηση προς όφελος κάθε μέλους του κοινού με την ευρεία έννοια και εις βάρος των κληρονόμων και των διαδόχων του Δηλούντα, έχοντας την πλήρη πρόθεση η εν λόγω Αποποίηση να μην υπόκειται σε ανάκληση, υπαναχώρηση, ακύρωση, καταγγελία ή οποιαδήποτε άλλη νομική ή δικαστική ενέργεια με σκοπό να διαταραχθεί η απρόσκοπτη απόλαυση του Έργου από το κοινό, όπως προβλέπεται στη ρητή Δήλωση Σκοπού του Δηλούντα.
+     </p>
+     <h3 id="fallback">
+      3. Έκτακτη Δημόσια Άδεια.
+     </h3>
+     <p>
+      Αν οποιοδήποτε τμήμα της Αποποίησης κριθεί για οποιονδήποτε λόγο νομικά άκυρο ή ανίσχυρο κατά το εφαρμοστέο δίκαιο, τότε η Αποποίηση διατηρείται στον μέγιστο δυνατό βαθμό, λαμβανομένης υπόψη της ρητής Δήλωσης Σκοπού του Δηλούντα. Επιπλέον, στον βαθμό που η Αποποίηση κριθεί νομικά άκυρη ή ανίσχυρη, ο Δηλών χορηγεί με την παρούσα σε κάθε θιγόμενο πρόσωπο χωρίς καταβολή τελών μη μεταβιβάσιμη, μη δυνάμενη να εκχωρηθεί, αμετάκλητη και άνευ όρων άδεια άσκησης του Δικαιώματος Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων του Δηλούντος στο Έργο i) παγκοσμίως, ii) για τη μέγιστη διάρκεια που προβλέπεται από το εφαρμοστέο δίκαιο ή την εφαρμοστέα συνθήκη (συμπεριλαμβανομένων των μελλοντικών παρατάσεων), iii) σε οποιοδήποτε υφιστάμενο ή μελλοντικό μέσο και για οποιονδήποτε αριθμό αντιγράφων, και iv) για οποιονδήποτε σκοπό, μεταξύ άλλων, και χωρίς περιορισμούς για εμπορικούς, διαφημιστικούς ή προωθητικούς σκοπούς (εφεξής η «Άδεια»). Η Άδεια θεωρείται ότι ισχύει από την ημερομηνία κατά την οποία η CC0 εφαρμόστηκε από τον Δηλούντα στο Έργο. Αν οποιοδήποτε τμήμα της Άδειας κριθεί για οποιονδήποτε λόγο νομικά άκυρο ή ανίσχυρο κατά το εφαρμοστέο δίκαιο, η εν λόγω μερική ακυρότητα ή έλλειψη ισχύος δεν ακυρώνει την υπόλοιπη Άδεια, και σε αυτήν την περίπτωση ο Δηλών επιβεβαιώνει με την παρούσα ότι i) δεν θα ασκήσει κανένα από τα εναπομένοντα Δικαιώματα Πνευματικής Ιδιοκτησίας και Συγγενικά Δικαιώματα που κατέχει στο Έργο ή ii) δεν θα προβάλει τυχόν συναφείς αξιώσεις και βάσεις για άσκηση αγωγής σε σχέση με το Έργο, και στις δύο περιπτώσεις, σε αντίθεση με τη ρητή Δήλωση Σκοπού του Δηλούντα.
+     </p>
+     <h3 id="limitations">
+      4. Περιορισμοί και Δηλώσεις αποποίησης ευθύνης.
+     </h3>
+     <ol type="a">
+      <li>
+       α. Με το παρόν έγγραφο δεν αίρεται, εγκαταλείπεται, παραδίδεται, παρέχεται με άδεια χρήσης ή άλλως επηρεάζεται κανένα δικαίωμα εμπορικού σήματος ή ευρεσιτεχνίας που κατέχει ο Δηλών.
+       <br/>
+       β. Ο Δηλών προσφέρει το Έργο ως έχει και δεν προβαίνει σε δηλώσεις ή εγγυήσεις οποιουδήποτε είδους σχετικά με το Έργο, ρητές, σιωπηρές, βάσει νόμου ή άλλως, συμπεριλαμβανομένων, χωρίς περιορισμό, των εγγυήσεων ως προς τα δικαιώματά του στο Έργο, την εμπορευσιμότητα, την καταλληλότητα για συγκεκριμένο σκοπό, τη μη προσβολή δικαιωμάτων ή την απουσία λανθανόντων ή άλλων ελαττωμάτων, την ακρίβεια ή την ύπαρξη ή απουσία σφαλμάτων, είτε μπορούν να εντοπιστούν είτε όχι, όλα στον μέγιστο δυνατό βαθμό που επιτρέπεται βάσει του εφαρμοστέου δικαίου.
+       <br/>
+       γ. Ο Δηλών αποποιείται την ευθύνη για την εκκαθάριση δικαιωμάτων άλλων προσώπων που ενδέχεται να ισχύουν για το Έργο ή για οποιαδήποτε χρήση του, συμπεριλαμβανομένων χωρίς περιορισμό των Δικαιωμάτων Πνευματικής Ιδιοκτησίας και των Συγγενικών Δικαιωμάτων οποιουδήποτε προσώπου στο Έργο. Επιπλέον, ο Δηλών αποποιείται την ευθύνη για την εξασφάλιση οποιασδήποτε αναγκαίας συγκατάθεσης, άδειας ή άλλου δικαιώματος που απαιτείται για οποιαδήποτε χρήση του Έργου.
+       <br/>
+       δ. Ο Δηλών κατανοεί και αναγνωρίζει ότι η «Creative Commons» δεν αποτελεί μέρος του παρόντος εγγράφου και δεν υπέχει κανένα καθήκον ή υποχρέωση όσον αφορά την παρούσα CC0 ή τη χρήση του Έργου.
+      </li>
+      <li>
+       Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+      </li>
+      <li>
+       Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+      </li>
+      <li>
+       Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Το νομικό πρόσωπο Creative Commons δεν είναι συμβαλλόμενο μέρος στις δημόσιες άδειές του. Ωστόσο, το νομικό πρόσωπο Creative Commons μπορεί να επιλέξει να εφαρμόσει κάποια από τις άδειες δημόσιας χρήσης του στο υλικό που δημοσιεύει και σε αυτές τις περιπτώσεις θα θεωρείται ως "Ο/Η Χορηγών/-ούσα την Άδεια (Αδειοδότης/-ούσα)". Το κείμενο των δημόσιων αδειών Creative Commons είναι αφιερωμένο στο δημόσιο τομέα υπό το
+      <a href="/publicdomain/zero/1.0/">
+       CC0 Public Domain Dedication
+      </a>
+      . Εκτός από τον περιορισμένο σκοπό διαμοιρασμού υλικού δυνάμει μιας δημόσιας άδειας Creative Commons ή όπως άλλως επιτρέπεται από την πολιτική του νομικού προσώπου Creative Commons όπως αυτή δημοσιεύεται στη διαδικτυακή διεύθυνση
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , το νομικό πρόσωπο Creative Commons δεν επιτρέπει τη χρήση του εμπορικού σήματος "Creative Commons" ή άλλου εμπορικού σήματος ή του λογοτύπου του νομικού προσώπου Creative Commons, χωρίς την προηγούμενη γραπτή συγκατάθεσή του συμπεριλαμβανομένων, χωρίς περιορισμό, για τη χρήση αναφορικά με οποιεσδήποτε μη εξουσιοδοτημένες τροποποιήσεις οποιασδήποτε δημόσιας άδειάς του ή τυχόν άλλων διευθετήσεων, μνημονίων, ή συμφωνιών που αφορούν τη χρήση του αντικειμένου αδειοδότησης. Προς άρση κάθε αμφιβολίας, η εν λόγω παράγραφος δεν αποτελεί περιεχόμενο των δημόσιων αδειών.
+     </p>
+     <p>
+      Μπορείτε να επικοινωνήσετε με το νομικό πρόσωπο Creative Commons στη διαδικτυακή διεύθυνση
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Use the license for your own material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenses List
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*

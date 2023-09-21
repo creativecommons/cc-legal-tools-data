@@ -4,503 +4,596 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC BY-NC-SA 3.0 TW Deed — 表示 - 非営利 - 継承 3.0 台湾（中華民国） — Creative Commons
+   CC BY-NC-SA 3.0 TW Deed | 表示 - 非営利 - 継承 3.0 台湾（中華民国）
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.ja" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/deed.css" rel="stylesheet"/>
  </head>
- <body about="https://creativecommons.org/licenses/by-nc-sa/3.0/tw/" typeof="cc:License">
+ <body about="https://creativecommons.org/licenses/by-nc-sa/3.0/tw/" class="walkthrough-page cc-legal-tools bidi-left" typeof="cc:License">
+  <a class="skip-to-content" href="#main-content-marker">
+   コンテンツへ進む
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     コンテンツへ進む
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        ホー厶
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/licenses/">
-        Licenses
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/licenses/by-nc-sa/3.0/tw/deed.ja">
-        CC BY-NC-SA 3.0 TW Deed
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Languages available
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.an" id="option-an" value="an">
-         aragonés
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.id" id="option-id" value="id">
-         Bahasa Indonesia
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ca" id="option-ca" value="ca">
-         català
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.et" id="option-et" value="et">
-         eesti
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.eo" id="option-eo" value="eo">
-         Esperanto
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ga" id="option-ga" value="ga">
-         Gaeilge
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.gl" id="option-gl" value="gl">
-         galego
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.hu" id="option-hu" value="hu">
-         Magyar
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ms" id="option-ms" value="ms">
-         Melayu
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.no" id="option-no" value="no">
-         norsk
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pt" id="option-pt" value="pt">
-         Português
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pt-br" id="option-pt-br" value="pt-br">
-         Português Brasileiro
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sr-latn" id="option-sr-latn" value="sr-latn">
-         srpski (latinica)
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sv" id="option-sv" value="sv">
-         svenska
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.tr" id="option-tr" value="tr">
-         Türkçe
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.is" id="option-is" value="is">
-         Íslenska
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.cs" id="option-cs" value="cs">
-         česky
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.be" id="option-be" value="be">
-         беларуская
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.bg" id="option-bg" value="bg">
-         български
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ru" id="option-ru" value="ru">
-         Русский
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.uk" id="option-uk" value="uk">
-         Українська
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ar" id="option-ar" value="ar">
-         العربيّة
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fa" id="option-fa" value="fa">
-         فارسی
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.bn" id="option-bn" value="bn">
-         বাংলা
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ja" id="option-ja" selected="" value="ja">
-         日本語
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Languages available
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.an" id="option-an" value="an">
+          aragonés
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.id" id="option-id" value="id">
+          Bahasa Indonesia
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ca" id="option-ca" value="ca">
+          català
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.et" id="option-et" value="et">
+          eesti
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.eo" id="option-eo" value="eo">
+          Esperanto
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ga" id="option-ga" value="ga">
+          Gaeilge
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.gl" id="option-gl" value="gl">
+          galego
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.hu" id="option-hu" value="hu">
+          Magyar
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ms" id="option-ms" value="ms">
+          Melayu
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.no" id="option-no" value="no">
+          norsk
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pt" id="option-pt" value="pt">
+          Português
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.pt-br" id="option-pt-br" value="pt-br">
+          Português Brasileiro
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sr-latn" id="option-sr-latn" value="sr-latn">
+          srpski (latinica)
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.sv" id="option-sv" value="sv">
+          svenska
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.tr" id="option-tr" value="tr">
+          Türkçe
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.is" id="option-is" value="is">
+          Íslenska
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.cs" id="option-cs" value="cs">
+          česky
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.be" id="option-be" value="be">
+          беларуская
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.bg" id="option-bg" value="bg">
+          български
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ru" id="option-ru" value="ru">
+          Русский
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.uk" id="option-uk" value="uk">
+          Українська
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ar" id="option-ar" value="ar">
+          العربيّة
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.fa" id="option-fa" value="fa">
+          فارسی
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.bn" id="option-bn" value="bn">
+          বাংলা
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ja" id="option-ja" selected="" value="ja">
+          日本語
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="/licenses/by-nc-sa/3.0/tw/deed.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="level container">
-     <div class="level-item level-right">
-      <a class="button tiny is-pulled-right" href="legalcode.zh-hant" id="next-btn">
-       See the legal code
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
+       </a>
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
+       </a>
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-nc">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-sa">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC BY-NC-SA 3.0 TW Deed
+    </h1>
+    <h2>
+     表示 - 非営利 - 継承 3.0 台湾（中華民国）
+    </h2>
+   </header>
+   <div class="content">
+    <div class="notice-top" id="notice-newer-license">
+     <h2 class="icon-attach fa-info">
+      Notice
+     </h2>
+     <p>
+      This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
+      <a href="/version4/">
+       more user-friendly and more internationally robust
       </a>
-     </div>
+      . If you are
+      <a href="/choose/">
+       licensing your own work
+      </a>
+      , we strongly recommend the use of the 4.0 license instead:
+      <a href="../../4.0/deed.ja">
+       CC BY-NC-SA 4.0 Deed | 表示 - 非営利 - 継承 4.0 国際
+      </a>
+     </p>
     </div>
-    <div class="container">
-     <div class="padding-bigger has-background-info-light" id="disclaimer-info-section">
-      <h4 class="padding-bottom-normal is-vcentered b-header">
-       <i class="info icon padding-right-normal">
-       </i>
-       免責条項
-      </h4>
-      <p class="has-text-black padding-left-big">
-       This is an older version of this license. Compared to previous versions, the 4.0 versions of all CC licenses are
-       <a href="/version4/">
-        more user-friendly and more internationally robust
-       </a>
-       . If you are
-       <a href="/choose/">
-        licensing your own work
-       </a>
-       , we strongly recommend the use of the 4.0 license instead:
-       <a href="../../4.0/deed.ja">
-        表示 - 非営利 - 継承 4.0 国際
-       </a>
-      </p>
-     </div>
-     <div class="margin-vertical-bigger padding-xxl" id="deed-body">
-      <h3 class="is-hidden-touch">
-       <span class="padding-right-bigger">
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-       </span>
-       CC BY-NC-SA 3.0 TW
-      </h3>
-      <h3 class="is-hidden-desktop is-hidden-mobile">
-       <span class="padding-right-big">
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-        </i>
-       </span>
-       CC BY-NC-SA 3.0 TW
-      </h3>
-      <h3 class="is-hidden-tablet">
-       <span>
-        <i class="cc-logo icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-1 is-hidden-touch margin-normal padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-        </i>
-       </span>
-      </h3>
-      <h4 class="has-text-centered is-hidden-tablet padding-left-normal">
-       CC BY-NC-SA 3.0 TW
-      </h4>
-      <h2 class="margin-bottom-larger b-header is-hidden-touch">
-       表示 - 非営利 - 継承 3.0 台湾（中華民国）
-      </h2>
-      <h3 class="margin-bottom-larger b-header is-hidden-desktop has-text-centered">
-       表示 - 非営利 - 継承 3.0 台湾（中華民国）
-      </h3>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       あなたは以下の条件に従う限り、自由に：
-      </h3>
-      <p class="has-text-black body-big padding-bottom-normal">
+    <p class="document-link">
+     <a href="legalcode.zh-hant">
+      See the legal code
+     </a>
+    </p>
+    <div id="deed-body">
+     <h2 id="rights">
+      あなたは以下の条件に従う限り、自由に：
+     </h2>
+     <ol>
+      <li>
        <strong>
         共有
        </strong>
        — どのようなメディアやフォーマットでも資料を複製したり、再配布できます。
-      </p>
-      <p class="has-text-black body-big padding-bottom-small">
+      </li>
+      <li>
        <strong>
         翻案
        </strong>
        — マテリアルをリミックスしたり、改変したり、別の作品のベースにしたりできます。
-      </p>
-      <p class="has-text-black body-big padding-bottom-small">
+      </li>
+      <li>
        あなたがライセンスの条件に従っている限り、許諾者がこれらの自由を取り消すことはできません。
-      </p>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       あなたの従うべき条件は以下の通りです。
-      </h3>
-      <div class="columns is-multiline">
-       <div class="column is-1">
-        <i class="cc-by icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
-        </i>
-        <i class="cc-by icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
-        </i>
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          表示
-         </span>
-         -
-        あなたは
-         <a class="helpLink" href="#" id="appropriate_credit_popup">
-          適切なクレジット
-         </a>
-         を表示し、ライセンスへのリンクを提供し、
-         <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
-          <a class="helpLink" href="#" id="indicate_changes_popup">
-           変更があったらその旨を示さ
-          </a>
-         </span>
-         なければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。
-        </p>
-       </div>
-       <div class="column is-1">
-        <i class="cc-nc icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
-        </i>
-        <i class="cc-nc icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
-        </i>
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          非営利
-         </span>
-         -
-        あなたは
-         <a class="helpLink" href="#" id="commercial_purposes_popup">
-          営利目的
-         </a>
-         でこの資料を利用してはなりません。
-        </p>
-       </div>
-       <div class="column is-1">
-        <i class="cc-sa icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch">
-        </i>
-        <i class="cc-sa icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop">
-        </i>
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          継承
-         </span>
-         - もしあなたがこの資料をリミックスしたり、改変したり、加工した場合には、あなたはあなたの貢献部分を元の作品と
-         <a class="helpLink" href="#" id="same_license_popup">
-          同じライセンス
-         </a>
-         の下に頒布しなければなりません。
-        </p>
-       </div>
-       <div class="column is-1">
-       </div>
-       <div class="column is-11">
-        <p class="has-text-black body-big padding-bottom-normal">
-         <span style="font-weight: bold;">
-          追加的な制約は課せません
-         </span>
-         - あなたは、このライセンスが他の者に許諾することを法的に制限するようないかなる法的規定も
-         <a class="helpLink" href="#" id="technological_measures_popup">
-          技術的手段
-         </a>
-         も適用してはなりません。
-        </p>
-       </div>
-      </div>
-      <h3 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
-       ご注意：
-      </h3>
-      <p class="has-text-black body-big padding-bottom-normal">
-       あなたは、資料の中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の
-       <a class="helpLink" href="#" id="exception_or_limitation_popup">
-        権利制限規定
+      </li>
+     </ol>
+     <h2 id="terms">
+      あなたの従うべき条件は以下の通りです。
+     </h2>
+     <ol>
+      <li class="cc-by">
+       <strong>
+        表示
+       </strong>
+       -
+      あなたは
+       <a class="helpLink" href="#" id="appropriate_credit_popup">
+        適切なクレジット
        </a>
-       にもとづく場合には、ライセンスの規定に従う必要はありません。
-      </p>
-      <p class="has-text-black body-big padding-bottom-normal">
-       保証は提供されていません。ライセンスはあなたの利用に必要な全ての許諾を与えないかも知れません。例えば、
-       <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
-        パブリシティ権、肖像権、人格権
+       を表示し、ライセンスへのリンクを提供し、
+       <span rel="cc:requires" resource="http://creativecommons.org/ns#Notice">
+        <a class="helpLink" href="#" id="indicate_changes_popup">
+         変更があったらその旨を示さ
+        </a>
+       </span>
+       なければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。
+      </li>
+      <li class="cc-nc">
+       <strong>
+        非営利
+       </strong>
+       -
+      あなたは
+       <a class="helpLink" href="#" id="commercial_purposes_popup">
+        営利目的
        </a>
-       などの他の諸権利はあなたがどのように資料を利用するかを制限することがあります。
-      </p>
-     </div>
-     <div class="columns margin-top-normal is-vcentered">
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Use the license for your own material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+       でこの資料を利用してはなりません。
+      </li>
+      <li class="cc-sa">
+       <strong>
+        継承
+       </strong>
+       - もしあなたがこの資料をリミックスしたり、改変したり、加工した場合には、あなたはあなたの貢献部分を元の作品と
+       <a class="helpLink" href="#" id="same_license_popup">
+        同じライセンス
+       </a>
+       の下に頒布しなければなりません。
+      </li>
+      <li>
+       <strong>
+        追加的な制約は課せません
+       </strong>
+       - あなたは、このライセンスが他の者に許諾することを法的に制限するようないかなる法的規定も
+       <a class="helpLink" href="#" id="technological_measures_popup">
+        技術的手段
+       </a>
+       も適用してはなりません。
+      </li>
+     </ol>
+     <h2 class="b-header has-text-black padding-bottom-big padding-top-normal" style="font-weight: bold;">
+      ご注意：
+     </h2>
+     <p>
+      あなたは、資料の中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の
+      <a class="helpLink" href="#" id="exception_or_limitation_popup">
+       権利制限規定
+      </a>
+      にもとづく場合には、ライセンスの規定に従う必要はありません。
+     </p>
+     <p>
+      保証は提供されていません。ライセンスはあなたの利用に必要な全ての許諾を与えないかも知れません。例えば、
+      <a class="helpLink" href="#" id="publicity_privacy_or_moral_rights_popup">
+       パブリシティ権、肖像権、人格権
+      </a>
+      などの他の諸権利はあなたがどのように資料を利用するかを制限することがあります。
+     </p>
     </div>
-   </section>
+    <div>
+     <p>
+      Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+     </p>
+     <ul>
+      <li>
+       <a href="/about/">
+        Learn more about our work
+       </a>
+      </li>
+      <li>
+       <a href="/about/cclicenses/">
+        Learn more about CC Licensing
+       </a>
+      </li>
+      <li>
+       <a href="/donate/">
+        Support our work
+       </a>
+      </li>
+      <li>
+       <a href="/choose/">
+        Use the license for your own material.
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/list">
+        Licenses List
+       </a>
+      </li>
+      <li>
+       <a href="/licenses/list">
+        Public Domain List
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
  </body>
 </html>

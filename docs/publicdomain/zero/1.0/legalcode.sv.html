@@ -4,517 +4,581 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   CC0 1.0 Licenstext — CC0 1.0 universell — Creative Commons
+   CC0 1.0 Licenstext | CC0 1.0 universell
+ | Creative Commons
   </title>
   <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.sv" rel="canonical"/>
-  <link href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-fonts@0.1.1/dist/css/fonts.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/@creativecommons/vocabulary-styles@0.3.0/dist/css/vocabulary-styles.css" rel="stylesheet"/>
+  <link href="/wp-content/themes/vocabulary-theme/style.css" media="all" rel="stylesheet"/>
   <link href="/cc-legal-tools/base.css" rel="stylesheet"/>
-  <!-- Import Vue JS via CDN -->
-  <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js">
-  </script>
-  <!-- Import Axios via CDN. Needed for the Global Header Component -->
-  <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js">
-  </script>
-  <!-- Import the Component Library via CDN -->
-  <script src="https://unpkg.com/@creativecommons/cc-global-components@0.5.0/dist/cc-globals.min.js">
-  </script>
   <link href="/cc-legal-tools/legalcode.css" rel="stylesheet"/>
  </head>
- <body about="" typeof="">
+ <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+  <a class="skip-to-content" href="#main-content-marker">
+   Hoppa över till innehåll
+  </a>
   <!-- Div element used to mount the Explore CC component-->
-  <div id="explore-cc">
-   <cc-explore donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-explore>
-  </div>
-  <!-- Div element used to mount the Global Header component-->
-  <div id="header-cc">
-   <header class="vocab header">
-    <div class="is-flex is-justify-content-flex-end">
-     <a class="button normal donate is-header" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=NavBar" type="button">
-      <i class="icon heart">
-      </i>
-      Donate
+  <header>
+   <div class="masthead">
+    <h1>
+     <a class="identity-logo" href="/">
+      Creative Commons
      </a>
-    </div>
-    <nav aria-label="Main" class="navbar">
-     <div class="navbar-brand">
-      <a class="main-logo navbar-item" href="/" target="_blank">
-       <div class="has-text-black">
-        <img alt="Logo" src="/wp-content/themes/creativecommons-base/assets/img/cc.logo.dark.gray.svg"/>
-       </div>
-      </a>
-     </div>
-     <div>
-      <p>
-       (development instance: no site menu)
-      </p>
-     </div>
-    </nav>
-   </header>
-  </div>
-  <main>
-   <div class="level padding-left-big padding-right-large padding-vertical-normal">
-    <a class="skip-link" href="#content">
-     Hoppa över till innehåll
-    </a>
-    <nav aria-label="breadcrumbs" class="breadcrumb level-left caption bold">
+    </h1>
+    <button class="expand-menu">
+     Menu
+    </button>
+    <!-- below menu is not final items, for testing only -->
+    <nav class="primary-menu">
      <ul>
       <li>
-       <a href="/">
-        Hem
+       <a href="/about/team">
+        Who We Are
        </a>
       </li>
       <li>
-       <a href="/publicdomain/">
-        Public Domain
+       <a href="/about">
+        What We Do
        </a>
       </li>
-      <li class="is-active">
-       <a aria-current="page displayed" href="/publicdomain/zero/1.0/legalcode.sv">
-        CC0 1.0 Licenstext
+      <li>
+       <a href="/about/cclicenses/">
+        Licenses and Tools
+       </a>
+      </li>
+      <li>
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="/about/support-cc/">
+        Support Us
        </a>
       </li>
      </ul>
     </nav>
-    <div class="locale level-right level-item has-text-black">
-     Språk tillgängliga
-     <div class="control margin-left-small">
-      <div class="select">
-       <select id="languages-dropdown">
-        <option disabled="">
-         Select
-        </option>
-        <option data-link="legalcode.eu" id="option-eu" value="eu">
-         Basque
-        </option>
-        <option data-link="legalcode.da" id="option-da" value="da">
-         dansk
-        </option>
-        <option data-link="legalcode.de" id="option-de" value="de">
-         Deutsch
-        </option>
-        <option data-link="legalcode.en" id="option-en" value="en">
-         English
-        </option>
-        <option data-link="legalcode.es" id="option-es" value="es">
-         español
-        </option>
-        <option data-link="legalcode.fr" id="option-fr" value="fr">
-         français
-        </option>
-        <option data-link="legalcode.hr" id="option-hr" value="hr">
-         Hrvatski
-        </option>
-        <option data-link="legalcode.it" id="option-it" value="it">
-         italiano
-        </option>
-        <option data-link="legalcode.lv" id="option-lv" value="lv">
-         latviešu
-        </option>
-        <option data-link="legalcode.lt" id="option-lt" value="lt">
-         Lietuviškai
-        </option>
-        <option data-link="legalcode.nl" id="option-nl" value="nl">
-         Nederlands
-        </option>
-        <option data-link="legalcode.pl" id="option-pl" value="pl">
-         polski
-        </option>
-        <option data-link="legalcode.ro" id="option-ro" value="ro">
-         Română
-        </option>
-        <option data-link="legalcode.sl" id="option-sl" value="sl">
-         Slovenščina
-        </option>
-        <option data-link="legalcode.fi" id="option-fi" value="fi">
-         suomi
-        </option>
-        <option data-link="legalcode.sv" id="option-sv" selected="" value="sv">
-         svenska
-        </option>
-        <option data-link="legalcode.el" id="option-el" value="el">
-         Ελληνικά
-        </option>
-        <option data-link="legalcode.ja" id="option-ja" value="ja">
-         日本語
-        </option>
-        <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-         简体中文
-        </option>
-        <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-         繁體中文
-        </option>
-        <option data-link="legalcode.ko" id="option-ko" value="ko">
-         한국어
-        </option>
-       </select>
-      </div>
-      <div class="icon is-small is-left">
-       <!-- TODO Add icons here -->
-      </div>
-     </div>
-    </div>
-    <script src="/cc-legal-tools/language-dropdown.js">
-    </script>
+    <nav class="ancilliary-menu">
+     <ul>
+      <li>
+       <span class="locale icon-attach fa-globe">
+        <select id="languages-dropdown">
+         <option disabled="">
+          Språk tillgängliga
+         </option>
+         <option data-link="legalcode.eu" id="option-eu" value="eu">
+          Basque
+         </option>
+         <option data-link="legalcode.da" id="option-da" value="da">
+          dansk
+         </option>
+         <option data-link="legalcode.de" id="option-de" value="de">
+          Deutsch
+         </option>
+         <option data-link="legalcode.en" id="option-en" value="en">
+          English
+         </option>
+         <option data-link="legalcode.es" id="option-es" value="es">
+          español
+         </option>
+         <option data-link="legalcode.fr" id="option-fr" value="fr">
+          français
+         </option>
+         <option data-link="legalcode.hr" id="option-hr" value="hr">
+          Hrvatski
+         </option>
+         <option data-link="legalcode.it" id="option-it" value="it">
+          italiano
+         </option>
+         <option data-link="legalcode.lv" id="option-lv" value="lv">
+          latviešu
+         </option>
+         <option data-link="legalcode.lt" id="option-lt" value="lt">
+          Lietuviškai
+         </option>
+         <option data-link="legalcode.nl" id="option-nl" value="nl">
+          Nederlands
+         </option>
+         <option data-link="legalcode.pl" id="option-pl" value="pl">
+          polski
+         </option>
+         <option data-link="legalcode.ro" id="option-ro" value="ro">
+          Română
+         </option>
+         <option data-link="legalcode.sl" id="option-sl" value="sl">
+          Slovenščina
+         </option>
+         <option data-link="legalcode.fi" id="option-fi" value="fi">
+          suomi
+         </option>
+         <option data-link="legalcode.sv" id="option-sv" selected="" value="sv">
+          svenska
+         </option>
+         <option data-link="legalcode.el" id="option-el" value="el">
+          Ελληνικά
+         </option>
+         <option data-link="legalcode.ja" id="option-ja" value="ja">
+          日本語
+         </option>
+         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
+          简体中文
+         </option>
+         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
+          繁體中文
+         </option>
+         <option data-link="legalcode.ko" id="option-ko" value="ko">
+          한국어
+         </option>
+        </select>
+       </span>
+      </li>
+      <script src="/cc-legal-tools/language-dropdown.js">
+      </script>
+      <li>
+       <a class="search icon-attach fa-search" href="/?s">
+        Search
+       </a>
+      </li>
+      <li>
+       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+        Donate
+       </a>
+      </li>
+      <li>
+       <button class="explore">
+        Explore CC
+       </button>
+      </li>
+     </ul>
+    </nav>
    </div>
-   <section class="padding-horizontal-larger" id="content">
-    <div class="columns">
-     <div class="column is-one-quarter">
-     </div>
-     <div class="column columns padding-vertical-normal">
-      <div class="column is-three-quarters padding-top-normal">
-       Version 1.0 •
-      See the
-       <a href="/legal-code-errata/">
-        errata page
+   <div class="explore-panel">
+    <nav class="explore-menu">
+     <ul>
+      <li>
+       <a href="https://network.creativecommons.org/" target="_blank">
+        Global Network
        </a>
-       for any corrections and the date of change
-      </div>
-      <div class="column">
-       <a class="button tiny is-pulled-right" href="deed.sv" id="next-btn">
-        See the deed
+       <p>
+        Join a  global community working to strengthen the Commons
+       </p>
+      </li>
+      <li>
+       <a href="https://certificate.creativecommons.org/" target="_blank">
+        Certificate
        </a>
-      </div>
-     </div>
-    </div>
-    <div class="columns">
-     <div class="column is-one-quarter sidebar-container">
-      <aside class="menu sidebar-menu">
-       <ul class="menu-list">
+       <p>
+        Become an expert in creating and engaging with openly licensed materials
+       </p>
+      </li>
+      <li>
+       <a href="https://summit.creativecommons.org/" target="_blank">
+        Global Summit
+       </a>
+       <p>
+        Attend our annual event, promoting the power of open licensing
+       </p>
+      </li>
+      <li>
+       <a href="/choose" target="_blank">
+        Chooser
+       </a>
+       <p>
+        Get help choosing the appropriate license for your work
+       </p>
+      </li>
+      <li>
+       <a href="https://search.creativecommons.org/" target="_blank">
+        Search Portal
+       </a>
+       <p>
+        Find engines to search openly licensed material for creative and educational reuse
+       </p>
+      </li>
+      <li>
+       <a href="https://opensource.creativecommons.org/" target="_blank">
+        Open Source
+       </a>
+       <p>
+        Help us build products that maximize creativity and innovation
+       </p>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <header>
+    <span class="tool-icons">
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+       </use>
+      </svg>
+     </span>
+     <span class="cc-icon">
+      <svg viewbox="0 0 30 30">
+       <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
+       </use>
+      </svg>
+     </span>
+    </span>
+    <h1>
+     CC0 1.0 Licenstext
+    </h1>
+    <h2>
+     CC0 1.0 universell
+    </h2>
+   </header>
+   <aside>
+    <nav>
+     <ul>
+      <li>
+       <a href="#legal-code-title">
+        CC0 1.0 Universiell
+       </a>
+       <ul>
         <li>
-         <ul>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#sop">
-            Avsiktsförklaring
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#copyright">
-            1. Upphovsrätt och Närstående Rättigheter.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#waiver">
-            2. Avståendeförklaring.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#fallback">
-            3. Reserverad Publik Licens.
-           </a>
-          </li>
-          <li class="columns">
-           <div class="body-bigger is-inline-block column is-1 py-0 my-0">
-            •
-           </div>
-           <a class="is-block column" href="#limitations">
-            4. Begränsningar och Friskrivningar.
-           </a>
-          </li>
-         </ul>
+         <a href="#sop">
+          Avsiktsförklaring
+         </a>
+        </li>
+        <li>
+         <a href="#copyright">
+          1. Upphovsrätt och Närstående Rättigheter.
+         </a>
+        </li>
+        <li>
+         <a href="#waiver">
+          2. Avståendeförklaring.
+         </a>
+        </li>
+        <li>
+         <a href="#fallback">
+          3. Reserverad Publik Licens.
+         </a>
+        </li>
+        <li>
+         <a href="#limitations">
+          4. Begränsningar och Friskrivningar.
+         </a>
         </li>
        </ul>
-      </aside>
-     </div>
-     <div class="column">
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-touch is-hidden-desktop-only" id="licenses-header">
-       <h2 class="is-vcentered">
-        <span class="padding-right-bigger">
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small">
-         </i>
-        </span>
-        CC0 1.0
-       </h2>
-       <h1 class="b-header">
-        CC0 1.0 Universiell
-       </h1>
-      </div>
-      <div class="padding-larger margin-bottom-bigger has-text-black is-hidden-widescreen" id="licenses-header">
-       <h2 class="has-text-centered">
-        <span>
-         <i class="cc-logo icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-logo icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-1 padding-left-big is-hidden-touch margin-big padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-         <i class="cc-zero icon has-text-black has-background-white is-size-2 padding-left-normal is-hidden-desktop margin-small padding-bottom-small margin-horizontal-smaller margin-vertical-small">
-         </i>
-        </span>
-       </h2>
-       <h2 class="has-text-centered is-hidden-touch is-hidden-desktop-only padding-left-normal">
-        CC0 1.0
-       </h2>
-       <h3 class="has-text-centered is-hidden-touch">
-        CC0 1.0
-       </h3>
-       <h4 class="has-text-centered is-hidden-desktop-only is-hidden-widescreen">
-        CC0 1.0
-       </h4>
-       <h2 class="b-header has-text-centered">
-        CC0 1.0 Universiell
-       </h2>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        Om licensen och Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons Corporation är inte en advokatbyrå och tillhandahåller inte juridiska tjänster eller juridisk rådgivning. Spridning av Creative Commons publika licenser skapar inte ett "advokat-klient"-förhållande eller annat förhållande. Creative Commons gör sina licenser och relaterad information tillgänglig på en "som-det-är" basis. Creative Commons ger inga garantier beträffande deras licenser, något annat material som licensieras under deras villkor, eller någon relaterad information. Creative Commons frånsäger sig i möjligaste mån allt ansvar för skador till följd av användningen.
-       </p>
-      </div>
-      <div class="padding-bigger margin-top-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="level is-vcentered b-header">
-        Att använda Creative Commons Publika Licenser
-       </h4>
-       <p class="has-text-black body-big">
-        Creative Commons publika licenser tillhandahåller en standarduppsättning villkor som skapare och andra rättighetsinnehavare kan använda för att dela originalverk och annat material som omfattas av upphovsrätt och vissa andra rättigheter som anges i den publika licensen nedan. Följande överväganden sker endast i informationssyfte, är inte uttömmande och utgör inte en del av våra licenser.
-       </p>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Överväganden för licensgivare
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="1" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for Licensors
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Våra publika licenser är avsedda att användas av dem som är behöriga att ge allmänheten tillstånd att använda materialet på ett sätt som annars begränsas av upphovsrätt och vissa andra rättigheter. Våra licenser är oåterkalleliga. Licensgivare bör läsa och förstå villkoren för licensen de väljer innan de tillämpar den. Licensgivare bör också förvärva alla nödvändiga rättigheter innan de tillämpar våra licenser, så att allmänheten kan återanvända materialet enligt förväntningarna. Licensgivare bör tydligt markera om något material inte omfattas av licensen. Detta inkluderar annat CC-licensierat material och material som används i enlighet med ett undantag eller inskränkning i upphovsrätten.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-          Fler överväganden för licensgivare.
-         </a>
-        </p>
-       </div>
-       <hr class="divider"/>
-       <div>
-        <h4 class="level is-vcentered b-header">
-         Överväganden för allmänheten
-         <span class="level-right">
-          <i class="angle-down icon" data-consideration="2" data-direction="down">
-           <span class="is-sr-only">
-            Show Considerations for the Public
-           </span>
-          </i>
-         </span>
-        </h4>
-        <p class="has-text-black body-big is-hidden">
-         Genom att använda en av våra publika licenser, beviljar licensgivaren allmänheten tillstånd att använda det licensierade materialet utifrån angivna specificerade villkor. Om licensgivarens tillstånd av någon anledning inte behövs – till exempel, på grund av något tillämpligt undantag eller inskränkning i upphovsrätten – regleras inte denna användning av licensen. Våra licenser medger endast sådant tillstånd enligt upphovsrätt och vissa andra rättigheter som en licensgivare har behörighet att bevilja. Användning av det licensierade materialet kan fortfarande vara begränsat av andra skäl, inklusive om andra har upphovsrätt eller andra rättigheter till materialet. En licensgivare kan ange särskilda önskemål, som till exempel att be att alla förändringar ska markeras eller beskrivas. Även om det inte krävs för användningen av våra licenser, uppmanas du att respektera sådana önskemål inom rimlighetens gränser.
-         <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-          Fler överväganden för allmänheten.
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="padding-larger margin-top-bigger has-text-black" id="legal-code-body">
-       <div id="plain-text-marker">
-        <h3 class="padding-bottom-normal b-header">
-         CC0 1.0 Universiell
-        </h3>
-        <div class="padding-bottom-larger">
-         <p class="body-big padding-bottom-normal">
-          CREATIVE COMMONS CORPORATION ÄR INTE EN JURIDISK BYRÅ ELLER ADVOKATFIRMA OCH TILLHANDAHÅLLER INTE JURIDISKA TJÄNSTER ELLER JURIDISK RÅDGIVNING. TILLHANDAHÅLLANDE AV DETTA DOKUMENT SKAPAR INTE ETT KLIENT-/RÅDGIVARFÖRHÅLLANDE. CREATIVE COMMONS TILLGÄNGLIGGÖR DENNA INFORMATION I BEFINTLIGT SKICK. CREATIVE COMMONS LÄMNAR INGA GARANTIER GÄLLANDE ANVÄNDNING AV DETTA DOKUMENT, TILLHÖRANDE INFORMATION ELLER MATERIAL SOM TILLHANDAHÅLLS NEDAN, OCH FRISKRIVER SIG FRÅN ANSVAR FÖR SKADA SOM UPPSTÅR SOM FÖLJD AV ANVÄNDNING AV DETTA DOKUMENT ELLER INFORMATIONEN ELLER VERK SOM TILLHANDAHÅLLS NEDAN.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="sop">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           Avsiktsförklaring
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Lagstiftningen i de flesta länder i världen ger automatiskt exklusiv upphovsrätt och Relaterade Rättigheter (definieras nedan) till skaparen och efterföljande ägare (var och en, en "rättighetshavare") av ett eget (originellt) litterärt eller konstnärligt verk och/eller en databas ("Verk").
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Vissa rättighetshavare vill permanent avstå från dessa rättigheter till ett Verk i syfte att bidra till en "commons" bestående av konstnärliga, kulturella och vetenskapliga verk (“Commons”) som allmänheten, på ett tillförlitligt sätt och utan att behöva oroa sig för att det senare ska kunna göras gällande som intrång i upphovsrätt, kan bygga vidare på, modifiera, införliva i andra verk, återanvända och sprida vidare med så stor frihet som möjligt i vilken form som helst i vilket syfte som helst, inklusive men inte begränsat till kommersiella syften. Dessa rättighetshavare kan bidra till Commons för att främja idealet av en fri kultur och det fortsatta produktionen av kreativa, kulturella och vetenskapliga verk, eller för att deras Verk ska bli erkänt eller få större spridning delvis genom andra människors användning och ansträngning.
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Med dessa och/eller andra syften och motiv, och utan några krav på ytterligare ersättning eller kompensation, väljer personen som applicerar CC0 på ett Verk (“Upplåtaren”), i den mån som han/hon har Upphovsrätt och Relaterade Rättigheter till Verket, frivilligt att applicera CC0 på Verket och offentligt distribuera Verket enligt dess villkor, med insikt om hans/hennes Upphovsrätt och Relaterade Rättigheter till Verket och innebörden av CCOoch den avsedda rättsliga verkan av CC0 på dessa rättigheter.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="copyright">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           1. Upphovsrätt och Närstående Rättigheter.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Ett Verk som gjorts tillgängligt under CC0 kan vara skyddat av upphovsrätt och relaterade eller närstående rättigheter (“Upphovsrätt och Relaterade Rättigheter”). Upphovsrätt och Relaterade Rättigheter innefattar, men är inte begränsat till, följande:
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-left-normal padding-bottom-normal">
-           rätten att reproducera, bearbeta, sprida framföra, visa, kommunicera, och översätta ett Verk;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           ideella rättigheter som förbehållna av upphovspersonen/upphovspersonerna och/eller framföraren/framförarna;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           publicitet och personlig integritet som rör en persons bild eller utseende återgivet i ett Verk (publicity and privacy rights);
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           rättigheter som skyddar mot illojal konkurrens gällande ett Verk, med debegränsningar som anges i punkt 4 (a), nedan;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           rättigheter till skydd för extrahering, spridning, användning och återanvändning av data i ett Verk;
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           databasrättigheter i likhet med de som framgår av Europaparlamentets och rådets direktiv 96/9/EU av den 11 mars 1996 om rättsligt skydd för databaser,och nationella implementeringar av det, inklusive uppdaterade eller nya versioner av det); och
-          </li>
-          <li class="padding-left-normal padding-bottom-normal">
-           andra liknande, likvärdiga eller motsvarande rättigheter i hela världen som grundas på tillämplig lag eller fördrag, och alla nationella implementeringar därav.
-          </li>
-         </ol>
-        </div>
-        <div class="padding-bottom-larger" id="waiver">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           2. Avståendeförklaring.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          I möjligaste mån enligt, utan att vara i strid med, tillämplig lag, avstår, överger och frånsäger sig härmed Upplåtaren offentligt, fullständigt, permanent, oåterkallerligen och ovillkorligen all Upplåtarens Upphovsrätt och Relaterade rättigheter och därmed relaterade anspråk och rätt att vidta rättsliga åtgärder, både nu kända och okända (inklusive existerande såväl som framtida anspråk och rätt att vidta rättsliga åtgärder), när det gäller Verket (i) i samtliga områden världen över, (ii) under den maximala skyddstiden enligt tillämplig lag eller fördrag (inklusive framtida förlängningar), (iii) i varje nu existerande och framtida medium och oavsett antal kopior, och (iv) för vilket syfte som helst, inklusive men utan begränsning för kommersiellt, reklam- och marknadsföringsmässigt syfte (“Avståendeförklaringen”). Upplåtaren gör Avståendeförklaringen till förmån för varje medlem av allmänheten och till nackdel för Upplåtarens arvingar, med full avsikt att sådan Avståendeförklaring inte ska bli föremål för återkallande, hävning, uppsägning, upphörande, eller annan rättslig eller liknande åtgärd för att förhindra det ostörda nyttjandet av Verket av allmänheten som avsett i Upplåtarens uttryckliga Avsiktsförklaring.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="fallback">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           3. Reserverad Publik Licens.
-          </strong>
-         </p>
-         <p class="body-big padding-bottom-normal">
-          Om någon del av Avståendeförklaringen av någon anledning skulle bedömas sakna rättslig verkan eller inte uppnå önskad effekt enligt tillämplig lag, ska Avståendeförklaringen fortsätta gälla i största möjliga utsträckning med beaktande av Upplåtarens uttryckliga Avsiktsförklaring. Utöver vad som bedöms förenligt med Avståendeförklaringen, upplåter Upplåtaren härmed till varje berörd person en royaltyfri, icke överlåtbar, icke vidarelicensierbar, icke exklusiv, oåterkallerlig och ovillkorlig licens att utöva Upplåtarens Upphovsrätt och Relaterade Rättigheter i Verket (i) i samtliga områden i världen, (ii) under den maximala skyddstiden enligt tillämplig lag eller fördrag (inklusive framtida förlängningar), (iii) i varje nu existerande och framtida medium och oavsett antal kopior, och (iv) för vilket syfte som helst, inklusive men utan begränsning för kommersiellt, reklam- och marknadsföringsmässigt syfte (“Licensen”). Licensen ska anses gälla från det datum då CC0 applicerades av Upplåtaren på Verket. Skulle någon del av Licensen av någon anledning bedömas sakna rättslig verkan eller effekt enligt tillämplig lag, ska sådan partiell ogiltighet eller ineffektivitet inte ogiltigförklara resterande del av Licensen, och i sådant fall bekräftar härmed Upplåtaren att han eller hon inte kommer att (i)utöva någon av hans eller hennes återstående Upphovsrätt och Relaterade Rättigheter i Verket som kvarstår i Verket eller (ii)framställa några relaterade anspråk och anledning att vidta rättsliga åtgärder med hänsyn till Verket, i något av fallen som motsätter sig Upplåtarens uttryckliga Avsiktsförklaring.
-         </p>
-        </div>
-        <div class="padding-bottom-larger" id="limitations">
-         <p class="body-bigger padding-bottom-normal">
-          <strong>
-           4. Begränsningar och Friskrivningar.
-          </strong>
-         </p>
-         <ol class="body-big padding-left-normal" type="a">
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Inga varumärkesrättsliga eller patenträttsliga rättigheter som innehas av Upplåtaren avstås, överges, ges upp eller licensieras eller påverkas i övrigt av detta dokument.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Upplåtaren erbjuder Verket i befintligt skick och lämnar inga utfästelser eller några garantier av något slag gällande Verket, uttryckligen, undersförstått, lagstadgat eller annars, inklusive utan begränsning gällande garantier om äganderätt äganderätt, marknadsmässig kvalitet, lämplighet för ett särskild ändamål, icke intrångsskapande, eller frånvaro av lantenta eller andra fel, tillförlitlighet, eller förekomsten eller frånvaron av fel, oavsett om de hade kunnat upptäckas eller ej, allt detta i den utsträckning det är möjligt enligt tillämplig lag.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Upplåtaren friskriver sig från ansvar för att klarera rättigheter med andra personer vars rättigheter kan ingå i Verket eller någon form av användning därav, inklusive, utan begränsning, annan persons Upphovsrätt och Relaterade Rättigheter till Verket. Upplåtaren friskriver sig vidare från ansvar för att inhämta varje form av nödvändigt samtycke, tillåtelse eller andra rättigheter som krävs för varje form av användning Verket.
-           </div>
-          </li>
-          <li class="padding-bottom-normal">
-           <div class="padding-left-normal">
-            Upplåtaren är införstådd med och bekräftar att Creative Commons inte är part enligt detta dokument och inte har någon skyldighet eller förpliktelse med hänsyn till denna CC0 eller användning av Verket.
-           </div>
-          </li>
-         </ol>
-        </div>
-       </div>
-      </div>
-      <div class="padding-bigger has-background-info-light" id="about-cc-and-license">
-       <h4 class="padding-bottom-normal is-vcentered b-header">
-        <i class="info icon padding-right-normal">
-        </i>
-        About Creative Commons
-       </h4>
-       <p class="has-text-black padding-left-big">
-        Creative Commons är inte part i sina publika licenser. Trots det kan Creative Commons välja att tillämpa en av sina publika licenser på material som organisationen ger ut och kommer i så fall att ses som "Licensgivaren". Med undantag för det begränsade syftet att visa att materialet delas under en Creative Commons Publik Licens eller på sätt som annars är tillåtet enligt Creative Commons policyer, som finns publicerade på
-        <a href="/policies/">
-         creativecommons.org/policies
-        </a>
-        , tillåter inte Creative Commons användningen av varumärket "Creative Commons" eller något annat varumärke eller logotyp för Creative Commons utan föregående skriftligt medgivande. Detta gäller bland annat, dock utan begränsning, i samband med varje obehörig modifiering av någon av organisationens publika licenser eller andra överenskommelser, uppgörelser eller avtal om användning av licensierat material. För undvikande av missförstånd: denna punkt utgör inte en del av de publika licenserna.
-       </p>
-       <p class="has-text-black padding-left-big padding-top-normal">
-        Creative Commons kan kontaktas på
-        <a href="//creativecommons.org/">
-         creativecommons.org
-        </a>
-        .
-       </p>
-      </div>
-      <div class="menu padding-vertical-normal column padding-right-large">
-       <ul class="menu-list">
-        <li>
-         <p class="body-big has-text-black">
-          Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-         </p>
-         <ul>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/" style="font-weight: bold;">
-            Learn more about our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/about/cclicenses/" style="font-weight: bold;">
-            Learn more about CC Licensing
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/donate/" style="font-weight: bold;">
-            Support our work
-           </a>
-          </li>
-          <li>
-           <span class="body-bigger padding-right-normal padding-top-small">
-            •
-           </span>
-           <a class="is-inline body-big" href="/choose/" style="font-weight: bold;">
-            Använd licensen för ditt eget material.
-           </a>
-          </li>
-         </ul>
-        </li>
-       </ul>
-      </div>
-     </div>
+      </li>
+     </ul>
+    </nav>
+   </aside>
+   <div class="content">
+    <p class="document-link">
+     <a href="deed.sv">
+      See the deed
+     </a>
+    </p>
+    <p>
+     Version 1.0 •
+See the
+     <a href="/legal-code-errata/">
+      errata page
+     </a>
+     for any corrections and the date of change
+    </p>
+    <div class="notice-top" id="notice-about-licenses-and-cc">
+     <h2 class="icon-attach fa-info">
+      Om licensen och Creative Commons
+     </h2>
+     <p>
+      Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis.  Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+     </p>
     </div>
-   </section>
+    <div class="notice-top" id="about-cc-and-license">
+     <h2 class="level is-vcentered b-header">
+      Att använda Creative Commons Publika Licenser
+     </h2>
+     <p>
+      Creative Commons publika licenser tillhandahåller en standarduppsättning villkor som skapare och andra rättighetsinnehavare kan använda för att dela originalverk och annat material som omfattas av upphovsrätt och vissa andra rättigheter som anges i den publika licensen nedan. Följande överväganden sker endast i informationssyfte, är inte uttömmande och utgör inte en del av våra licenser.
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Överväganden för licensgivare
+     </h3>
+     <p>
+      Våra publika licenser är avsedda att användas av dem som är behöriga att ge allmänheten tillstånd att använda materialet på ett sätt som annars begränsas av upphovsrätt och vissa andra rättigheter. Våra licenser är oåterkalleliga. Licensgivare bör läsa och förstå villkoren för licensen de väljer innan de tillämpar den. Licensgivare bör också förvärva alla nödvändiga rättigheter innan de tillämpar våra licenser, så att allmänheten kan återanvända materialet enligt förväntningarna. Licensgivare bör tydligt markera om något material inte omfattas av licensen. Detta inkluderar annat CC-licensierat material och material som används i enlighet med ett undantag eller inskränkning i upphovsrätten.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
+       Fler överväganden för licensgivare.
+      </a>
+     </p>
+     <hr class="divider"/>
+     <h3 class="level is-vcentered b-header">
+      Överväganden för allmänheten
+     </h3>
+     <p>
+      Genom att använda en av våra publika licenser, beviljar licensgivaren allmänheten tillstånd att använda det licensierade materialet utifrån angivna specificerade villkor. Om licensgivarens tillstånd av någon anledning inte behövs – till exempel, på grund av något tillämpligt undantag eller inskränkning i upphovsrätten – regleras inte denna användning av licensen. Våra licenser medger endast sådant tillstånd enligt upphovsrätt och vissa andra rättigheter som en licensgivare har behörighet att bevilja. Användning av det licensierade materialet kan fortfarande vara begränsat av andra skäl, inklusive om andra har upphovsrätt eller andra rättigheter till materialet. En licensgivare kan ange särskilda önskemål, som till exempel att be att alla förändringar ska markeras eller beskrivas. Även om det inte krävs för användningen av våra licenser, uppmanas du att respektera sådana önskemål inom rimlighetens gränser.
+      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
+       Fler överväganden för allmänheten.
+      </a>
+     </p>
+    </div>
+    <div id="legal-code-body">
+     <h2 id="legal-code-title">
+      CC0 1.0 Universiell
+     </h2>
+     <p>
+      CREATIVE COMMONS CORPORATION ÄR INTE EN JURIDISK BYRÅ ELLER ADVOKATFIRMA OCH TILLHANDAHÅLLER INTE JURIDISKA TJÄNSTER ELLER JURIDISK RÅDGIVNING. TILLHANDAHÅLLANDE AV DETTA DOKUMENT SKAPAR INTE ETT KLIENT-/RÅDGIVARFÖRHÅLLANDE. CREATIVE COMMONS TILLGÄNGLIGGÖR DENNA INFORMATION I BEFINTLIGT SKICK. CREATIVE COMMONS LÄMNAR INGA GARANTIER GÄLLANDE ANVÄNDNING AV DETTA DOKUMENT, TILLHÖRANDE INFORMATION ELLER MATERIAL SOM TILLHANDAHÅLLS NEDAN, OCH FRISKRIVER SIG FRÅN ANSVAR FÖR SKADA SOM UPPSTÅR SOM FÖLJD AV ANVÄNDNING AV DETTA DOKUMENT ELLER INFORMATIONEN ELLER VERK SOM TILLHANDAHÅLLS NEDAN.
+     </p>
+     <h3 id="sop">
+      Avsiktsförklaring
+     </h3>
+     <p>
+      Lagstiftningen i de flesta länder i världen ger automatiskt exklusiv upphovsrätt och Relaterade Rättigheter (definieras nedan) till skaparen och efterföljande ägare (var och en, en "rättighetshavare") av ett eget (originellt) litterärt eller konstnärligt verk och/eller en databas ("Verk").
+     </p>
+     <p>
+      Vissa rättighetshavare vill permanent avstå från dessa rättigheter till ett Verk i syfte att bidra till en "commons" bestående av konstnärliga, kulturella och vetenskapliga verk (“Commons”) som allmänheten, på ett tillförlitligt sätt och utan att behöva oroa sig för att det senare ska kunna göras gällande som intrång i upphovsrätt, kan bygga vidare på, modifiera, införliva i andra verk, återanvända och sprida vidare med så stor frihet som möjligt i vilken form som helst i vilket syfte som helst, inklusive men inte begränsat till kommersiella syften. Dessa rättighetshavare kan bidra till Commons för att främja idealet av en fri kultur och det fortsatta produktionen av kreativa, kulturella och vetenskapliga verk, eller för att deras Verk ska bli erkänt eller få större spridning delvis genom andra människors användning och ansträngning.
+     </p>
+     <p>
+      Med dessa och/eller andra syften och motiv, och utan några krav på ytterligare ersättning eller kompensation, väljer personen som applicerar CC0 på ett Verk (“Upplåtaren”), i den mån som han/hon har Upphovsrätt och Relaterade Rättigheter till Verket, frivilligt att applicera CC0 på Verket och offentligt distribuera Verket enligt dess villkor, med insikt om hans/hennes Upphovsrätt och Relaterade Rättigheter till Verket och innebörden av CCOoch den avsedda rättsliga verkan av CC0 på dessa rättigheter.
+     </p>
+     <h3 id="copyright">
+      1. Upphovsrätt och Närstående Rättigheter.
+     </h3>
+     <p>
+      Ett Verk som gjorts tillgängligt under CC0 kan vara skyddat av upphovsrätt och relaterade eller närstående rättigheter (“Upphovsrätt och Relaterade Rättigheter”). Upphovsrätt och Relaterade Rättigheter innefattar, men är inte begränsat till, följande:
+     </p>
+     <ol type="i">
+      <li>
+       rätten att reproducera, bearbeta, sprida framföra, visa, kommunicera, och översätta ett Verk;
+      </li>
+      <li>
+       ideella rättigheter som förbehållna av upphovspersonen/upphovspersonerna och/eller framföraren/framförarna;
+      </li>
+      <li>
+       publicitet och personlig integritet som rör en persons bild eller utseende återgivet i ett Verk (publicity and privacy rights);
+      </li>
+      <li>
+       rättigheter som skyddar mot illojal konkurrens gällande ett Verk, med debegränsningar som anges i punkt 4 (a), nedan;
+      </li>
+      <li>
+       rättigheter till skydd för extrahering, spridning, användning och återanvändning av data i ett Verk;
+      </li>
+      <li>
+       databasrättigheter i likhet med de som framgår av Europaparlamentets och rådets direktiv 96/9/EU av den 11 mars 1996 om rättsligt skydd för databaser,och nationella implementeringar av det, inklusive uppdaterade eller nya versioner av det); och
+      </li>
+      <li>
+       andra liknande, likvärdiga eller motsvarande rättigheter i hela världen som grundas på tillämplig lag eller fördrag, och alla nationella implementeringar därav.
+      </li>
+     </ol>
+     <h3 id="waiver">
+      2. Avståendeförklaring.
+     </h3>
+     <p>
+      I möjligaste mån enligt, utan att vara i strid med, tillämplig lag, avstår, överger och frånsäger sig härmed Upplåtaren offentligt, fullständigt, permanent, oåterkallerligen och ovillkorligen all Upplåtarens Upphovsrätt och Relaterade rättigheter och därmed relaterade anspråk och rätt att vidta rättsliga åtgärder, både nu kända och okända (inklusive existerande såväl som framtida anspråk och rätt att vidta rättsliga åtgärder), när det gäller Verket (i) i samtliga områden världen över, (ii) under den maximala skyddstiden enligt tillämplig lag eller fördrag (inklusive framtida förlängningar), (iii) i varje nu existerande och framtida medium och oavsett antal kopior, och (iv) för vilket syfte som helst, inklusive men utan begränsning för kommersiellt, reklam- och marknadsföringsmässigt syfte (“Avståendeförklaringen”). Upplåtaren gör Avståendeförklaringen till förmån för varje medlem av allmänheten och till nackdel för Upplåtarens arvingar, med full avsikt att sådan Avståendeförklaring inte ska bli föremål för återkallande, hävning, uppsägning, upphörande, eller annan rättslig eller liknande åtgärd för att förhindra det ostörda nyttjandet av Verket av allmänheten som avsett i Upplåtarens uttryckliga Avsiktsförklaring.
+     </p>
+     <h3 id="fallback">
+      3. Reserverad Publik Licens.
+     </h3>
+     <p>
+      Om någon del av Avståendeförklaringen av någon anledning skulle bedömas sakna rättslig verkan eller inte uppnå önskad effekt enligt tillämplig lag, ska Avståendeförklaringen fortsätta gälla i största möjliga utsträckning med beaktande av Upplåtarens uttryckliga Avsiktsförklaring. Utöver vad som bedöms förenligt med Avståendeförklaringen, upplåter Upplåtaren härmed till varje berörd person en royaltyfri, icke överlåtbar, icke vidarelicensierbar, icke exklusiv, oåterkallerlig och ovillkorlig licens att utöva Upplåtarens Upphovsrätt och Relaterade Rättigheter i Verket (i) i samtliga områden i världen, (ii) under den maximala skyddstiden enligt tillämplig lag eller fördrag (inklusive framtida förlängningar), (iii) i varje nu existerande och framtida medium och oavsett antal kopior, och (iv) för vilket syfte som helst, inklusive men utan begränsning för kommersiellt, reklam- och marknadsföringsmässigt syfte (“Licensen”). Licensen ska anses gälla från det datum då CC0 applicerades av Upplåtaren på Verket. Skulle någon del av Licensen av någon anledning bedömas sakna rättslig verkan eller effekt enligt tillämplig lag, ska sådan partiell ogiltighet eller ineffektivitet inte ogiltigförklara resterande del av Licensen, och i sådant fall bekräftar härmed Upplåtaren att han eller hon inte kommer att (i)utöva någon av hans eller hennes återstående Upphovsrätt och Relaterade Rättigheter i Verket som kvarstår i Verket eller (ii)framställa några relaterade anspråk och anledning att vidta rättsliga åtgärder med hänsyn till Verket, i något av fallen som motsätter sig Upplåtarens uttryckliga Avsiktsförklaring.
+     </p>
+     <h3 id="limitations">
+      4. Begränsningar och Friskrivningar.
+     </h3>
+     <ol type="a">
+      <li>
+       Inga varumärkesrättsliga eller patenträttsliga rättigheter som innehas av Upplåtaren avstås, överges, ges upp eller licensieras eller påverkas i övrigt av detta dokument.
+      </li>
+      <li>
+       Upplåtaren erbjuder Verket i befintligt skick och lämnar inga utfästelser eller några garantier av något slag gällande Verket, uttryckligen, undersförstått, lagstadgat eller annars, inklusive utan begränsning gällande garantier om äganderätt äganderätt, marknadsmässig kvalitet, lämplighet för ett särskild ändamål, icke intrångsskapande, eller frånvaro av lantenta eller andra fel, tillförlitlighet, eller förekomsten eller frånvaron av fel, oavsett om de hade kunnat upptäckas eller ej, allt detta i den utsträckning det är möjligt enligt tillämplig lag.
+      </li>
+      <li>
+       Upplåtaren friskriver sig från ansvar för att klarera rättigheter med andra personer vars rättigheter kan ingå i Verket eller någon form av användning därav, inklusive, utan begränsning, annan persons Upphovsrätt och Relaterade Rättigheter till Verket. Upplåtaren friskriver sig vidare från ansvar för att inhämta varje form av nödvändigt samtycke, tillåtelse eller andra rättigheter som krävs för varje form av användning Verket.
+      </li>
+      <li>
+       Upplåtaren är införstådd med och bekräftar att Creative Commons inte är part enligt detta dokument och inte har någon skyldighet eller förpliktelse med hänsyn till denna CC0 eller användning av Verket.
+      </li>
+     </ol>
+    </div>
+    <div class="notice-bottom" id="notice-about-cc-and-trademark">
+     <h2 class="icon-attach fa-info">
+      About Creative Commons
+     </h2>
+     <p>
+      Creative Commons är inte part i sina publika licenser. Trots det kan Creative Commons välja att tillämpa en av sina publika licenser på material som organisationen ger ut och kommer i så fall att ses som "Licensgivaren". Med undantag för det begränsade syftet att visa att materialet delas under en Creative Commons Publik Licens eller på sätt som annars är tillåtet enligt Creative Commons policyer, som finns publicerade på
+      <a href="/policies/">
+       creativecommons.org/policies
+      </a>
+      , tillåter inte Creative Commons användningen av varumärket "Creative Commons" eller något annat varumärke eller logotyp för Creative Commons utan föregående skriftligt medgivande. Detta gäller bland annat, dock utan begränsning, i samband med varje obehörig modifiering av någon av organisationens publika licenser eller andra överenskommelser, uppgörelser eller avtal om användning av licensierat material. För undvikande av missförstånd: denna punkt utgör inte en del av de publika licenserna.
+     </p>
+     <p>
+      Creative Commons kan kontaktas på
+      <a href="//creativecommons.org/">
+       creativecommons.org
+      </a>
+      .
+     </p>
+    </div>
+    <p>
+     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
+    </p>
+    <ul>
+     <li>
+      <a href="/about/">
+       Learn more about our work
+      </a>
+     </li>
+     <li>
+      <a href="/about/cclicenses/">
+       Learn more about CC Licensing
+      </a>
+     </li>
+     <li>
+      <a href="/donate/">
+       Support our work
+      </a>
+     </li>
+     <li>
+      <a href="/choose/">
+       Använd licensen för ditt eget material.
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Licenslista
+      </a>
+     </li>
+     <li>
+      <a href="/licenses/list">
+       Public Domain List
+      </a>
+     </li>
+    </ul>
+   </div>
   </main>
-  <!-- Div element used to mount the Global Footer component-->
-  <div id="footer-cc">
-   <cc-global-footer donation-url="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" logo-url="/wp-content/themes/creativecommons-base/assets/img/cc.logo.white.svg">
-   </cc-global-footer>
-  </div>
-  <script src="/cc-legal-tools/load_components.js">
+  <footer>
+   <a class="identity-logo" href="/">
+    Creative Commons
+   </a>
+   <nav class="footer-menu">
+    <ul>
+     <li>
+      <a href="/about/contact">
+       Contact
+      </a>
+     </li>
+     <li>
+      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
+       Newsletter
+      </a>
+     </li>
+     <li>
+      <a href="/privacy">
+       Privacy
+      </a>
+     </li>
+     <li>
+      <a href="/policies">
+       Policies
+      </a>
+     </li>
+     <li>
+      <a href="/terms">
+       Terms
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div class="contact">
+    <!-- this area lacks a heading? -->
+    <h2>
+     Contact Us
+    </h2>
+    <p>
+     Creative Commons  PO Box 1866, Mountain View, CA 94042
+    </p>
+    <p>
+     <a href="mailto:info@creativecommons.org">
+      info@creativecommons.org
+     </a>
+    </p>
+    <p>
+     <a href="tel:+14154296753">
+      +1-415-429-6753
+     </a>
+    </p>
+    <nav class="social-menu">
+     <ul>
+      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+      <li>
+       <a class="icon-replace fa-twitter" href="https://twitter.com/creativecommons" target="_blank">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
+        Mastodon
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-facebook" href="https://www.facebook.com/creativecommons" target="_blank">
+        Facebook
+       </a>
+      </li>
+      <li>
+       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
+        LinkedIn
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="subscribe">
+    <h2>
+     Subscribe to our Newsletter
+    </h2>
+    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required="" type="email" value=""/>
+     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+     <div aria-hidden="true" style="position: absolute; left: -5000px">
+      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value=""/>
+     </div>
+     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe"/>
+    </form>
+   </div>
+   <div class="donate">
+    <h2>
+     Support Our Work
+    </h2>
+    <p>
+     Our work relies on you! Help us keep the Internet free and open.
+    </p>
+    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
+     Donate Now
+    </a>
+   </div>
+   <div class="license">
+    <p>
+     Except where otherwise
+     <a href="/policies/#license">
+      noted
+     </a>
+     , content on this site is licensed under a
+     <a href="/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International license
+     </a>
+     . Icons by
+     <a href="https://fontawesome.com/" target="_blank">
+      Font Awesome
+     </a>
+     .
+    </p>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
+     </use>
+    </svg>
+    <svg>
+     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
+     </use>
+    </svg>
+   </div>
+  </footer>
+  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
   </script>
   <script>
    /*
