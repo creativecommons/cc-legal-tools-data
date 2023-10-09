@@ -303,7 +303,7 @@ msgstr "Βιετνάμ"
 msgid "South Africa"
 msgstr "Νότια Αφρική"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Αναφορά Δημιουργού"
 
@@ -339,7 +339,7 @@ msgstr ""
 "Πνευματικά δικαιώματα-Μόνο εκχώρηση (βασισμένο στο νόμο των ΗΠΑ) ή "
 "πιστοποίηση κοινού κτήματος"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Αναπτυσσόμενα Έθνη"
 
@@ -347,7 +347,7 @@ msgstr "Αναπτυσσόμενα Έθνη"
 msgid "Public Domain Mark"
 msgstr "Σήμα Κοινού Κτήματος"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "Μη Εμπορική Χρήση"
 
@@ -367,7 +367,7 @@ msgstr "Όχι Παράγωγα Έργα"
 msgid "NoDerivs-NonCommercial"
 msgstr "Όχι Παράγωγα Έργα - Μη Εμπορική Χρήση"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "Παρόμοια Διανομή"
 
@@ -379,36 +379,44 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Άδεια Δείγματος Plus"
 
-#: legal_tools/views.py:49
+#: legal_tools/views.py:54
 msgid "Public Domain"
 msgstr "Δημόσιος Τομέας"
 
-#: legal_tools/views.py:51
+#: legal_tools/views.py:56
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:421
-msgid "Licenses List"
-msgstr ""
-
-#: legal_tools/views.py:423
-msgid "Public Domain List"
-msgstr ""
-
-#: templates/base.html:41
-msgid "Skip to content"
-msgstr "Μεταβείτε στο περιεχόμενο"
-
-#: templates/base.html:44
-msgid "Home"
-msgstr ""
-
-#: templates/deed.html:5 templates/deed.html:14
-#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+#: legal_tools/views.py:194 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:13
+#: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:21
+#: legal_tools/views.py:203
+#: templates/includes/snippet/title_with_icons.html:15
+#: templates/legalcode.html:6 templates/list-licenses.html:39
+#: templates/list-publicdomain.html:31
+msgid "Legal Code"
+msgstr "Νομικός κώδικας"
+
+#: legal_tools/views.py:407 templates/includes/related_links.html:15
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:410 templates/includes/related_links.html:18
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:3
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:31
+msgid "Skip to content"
+msgstr "Μεταβείτε στο περιεχόμενο"
+
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr ""
 
@@ -416,7 +424,489 @@ msgstr ""
 msgid "Page Not Found"
 msgstr ""
 
-#: templates/includes/about_cc.html:10
+#: templates/includes/deed_body_certification.html:3
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:6
+msgid "You are free to:"
+msgstr "Μπορείτε να:"
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr ""
+"<strong>για Διανομή</strong>: για αναπαραγωγή, διανομή, παρουσίαση στο κοινό"
+" του Έργου"
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr "<strong>για διασκευή</strong> &mdash; για να τροποποιήσετε το έργο"
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+"Να πάρετε δείγματα, να αλλάξετε ή αλλιώς να τροποποιήσετε δημιουργικά το "
+"έργο αυτό για μη εμπορικούς σκοπούς"
+
+#: templates/includes/deed_body_licenses.html:24
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+"Για να δειγματίζετε, να αλλάξετε, ή άλλως να τροποποιήσετε δημιουργικά το "
+"έργο είτε για εμπορικούς είτε για μη εμπορικούς σκοπούς."
+
+#: templates/includes/deed_body_licenses.html:28
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+"Να ερμηνεύετε, να παρουσιάζετε στο κοινό και να διανέμετε αντίγραφα "
+"ολόκληρου του έργου για μη εμπορικούς σκοπούς (π.χ., ανταλλαγή αρχείων ή μη "
+"εμπορικό webcasting)"
+
+#: templates/includes/deed_body_licenses.html:34
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+"<strong>Μοιραστείτε</strong> &mdash; αντιγράψετε και αναδιανέμετε το υλικό "
+"με κάθε μέσο και τρόπο"
+
+#: templates/includes/deed_body_licenses.html:35
+#: templates/includes/deed_body_licenses.html:42
+msgid "for any purpose, even commercially."
+msgstr "για κάθε σκοπό, ακόμα και εμπορικό."
+
+#: templates/includes/deed_body_licenses.html:41
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+"<strong>Προσαρμόστε</strong> &mdash; αναμείξτε, τροποποιήστε και "
+"δημιουργήστε πάνω στο υλικό"
+
+#: templates/includes/deed_body_licenses.html:49
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"Ο αδειοδότης δεν μπορεί να ανακαλέσει αυτές τις ελευθερίες όσο εσείς "
+"ακολουθείτε τους όρους της άδειας."
+
+#: templates/includes/deed_body_licenses.html:56
+msgid "Under the following terms:"
+msgstr "Υπό τους ακόλουθους όρους:"
+
+#: templates/includes/deed_body_licenses.html:63
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:70
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+"Θα πρέπει να καταχωρίσετε <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\"> αναφορά στο δημιουργό </a> </ span>, με σύνδεσμο της "
+"άδειας, και <span rel = \"cc:cc:requires\" resource= "
+"\"http://creativecommons.org/ns#Notice\"> <a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\"> με αναφορά αν έχουν γίνει "
+"αλλαγές </a> </ span>. Μπορείτε να το κάνετε αυτό με οποιονδήποτε εύλογο "
+"τρόπο, αλλά όχι με τρόπο που να υπονοεί ότι ο δημιουργός αποδέχεται το έργο "
+"σας ή τη χρήση που εσείς κάνετε."
+
+#: templates/includes/deed_body_licenses.html:77
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+"Δε μπορείτε να χρησιμοποιήσετε το υλικό για <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">εμπορικούς σκοπούς</a>."
+
+#: templates/includes/deed_body_licenses.html:83
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+"Αν αναμείξετε, τροποποιήσετε, ή δημιουργήσετε πάνω στο υλικό, πρέπει ν "
+"δινείμετε τις δικές σας συνεισφορές υπό την <a href=\"#\" "
+"id=\"same_license_popup\" class=\"helpLink\">ίδια άδεια</a> όπως και το "
+"πρωτότυπο."
+
+#: templates/includes/deed_body_licenses.html:89
+msgid "NoDerivatives"
+msgstr "Μη παραγόμενα "
+
+#: templates/includes/deed_body_licenses.html:89
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+"Αν <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">αναμείξετε, τροποποιήσετε, ή δημιουργήσετε πάνω</a> στο "
+"υλικό, δε μπορείτε να διανείμετε το τροποποιημένο υλικό."
+
+#: templates/includes/deed_body_licenses.html:95
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό προκειμένου να διαφημίσετε ή να "
+"προωθήσετε οτιδήποτε άλλο πέρα από το έργο από το οποίο δημιουργείτε."
+
+#: templates/includes/deed_body_licenses.html:101
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+"Για κάθε νέα χρήση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους"
+" όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό "
+"είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο αυτής της "
+"ιστοσελίδας."
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"Δε μπορείτε να ερμηνεύσετε, να κάνετε προσιτό στο κοινό ή να διανέμετε "
+"αντίγραφα από ολόκληρο αυτό το έργο για οποιοδήποτε σκοπό."
+
+#: templates/includes/deed_body_licenses.html:112
+msgid "No additional restrictions"
+msgstr "Δεν υπάρχουν πρόσθετοι περιορισμοί"
+
+#: templates/includes/deed_body_licenses.html:112
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"Δε μπορείτε να εφαρμόσετε νομικούς όρους ή <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">τεχνολογικά μέτρα</a>"
+" που να περιορίζουν νομικά τους άλλους από το να κάνουν  ο,τιδήποτε "
+"επιτρέπει η άδεια."
+
+#: templates/includes/deed_body_licenses.html:118
+msgid "Notices:"
+msgstr "Σημειώσεις:"
+
+#: templates/includes/deed_body_licenses.html:121
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+"Δεν είστε υποχρεωμένοι να συμμορφωθείτε με τη άδεια για στοιχεία του υλικού "
+"που είναι σε Κοινό Κτήμ/ public domain, ή εκεί όπου η χρήση επιτρέπεται στα "
+"πλαίσια μιας ισχύουσας <a href=\"#\" id=\"exception_or_limitation_popup\" "
+"class=\"helpLink\">εξαίρεσης ή περιορισμού</a>."
+
+#: templates/includes/deed_body_licenses.html:124
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+"Δεν παρέχεται καμία εγγύηση. Η άδεια μπορεί να μη σας δίνει όλα τα "
+"απαραίτητα δικαιώματα για τη χρήση που σκοπεύετε. Για παράδειγμα, άλλα "
+"δικιώματα, όπως <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\""
+" class=\"helpLink\">διαφήμιση, ιδιωτικότητα, ή ηθικά δικαιώματα</a> μπορεί "
+"να περιορίσουν το πως χρησιμοποιείτε το υλικό."
+
+#: templates/includes/deed_body_mark.html:6
+#: templates/includes/deed_body_zero.html:5
+msgid "No Copyright"
+msgstr "Δεν υπάρχουν πνευματικά δικαιώματα"
+
+#: templates/includes/deed_body_mark.html:9
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\"> Αυτό το έργο έχει <b>αναγνωριστεί</b> ως ελεύθερο "
+"γνωστών περιορισμών πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων "
+"των σχετικών και συγγενικών δικαιωμάτων.  </p> <p> <br /> Μπορείς να "
+"αντιγράψεις, τροποποιήσεις, διανέμεις, και παρουσιάσεις το έργο, ακόμη και "
+"για εμπορικούς σκοπούς, χωρίς να ζητήσεις προηγούμενη άδεια για όλα αυτά. "
+"Βλέπε <b>περαιτέρω πληροφόρηση</b> παρακάτω. </p>"
+
+#: templates/includes/deed_body_mark.html:21
+#: templates/includes/deed_body_zero.html:13
+msgid "Other Information"
+msgstr "Άλλες πληροφορίες"
+
+#: templates/includes/deed_body_mark.html:25
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"Το έργο μπορεί να μην είναι ελεύθερο από γνωστούς περιορισμούς copyright σε "
+"όλες τις <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">περιοχές "
+"δικαιοδοσίας</a>."
+
+#: templates/includes/deed_body_mark.html:31
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+"Μερικοί μπορεί να κατέχουν άλλα δικαιώματα επί του έργου ή σχετικά με αυτό "
+"όπως δικαιώματα βιομηχανικής ιδιοκτησίας (πατέντα, σήμα) και άλλοι μπορεί να"
+" έχουν δικαιώματα επί της χρήσης του έργου όπως το δικαίωμα στη <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">δημοσιότητα ή την "
+"ιδιωτικότητα.</a>"
+
+#: templates/includes/deed_body_mark.html:40
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+"Σε μερικές περιοχές δικαιοδοσίας <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">τα ηθικά δικαιώματα</a> του συγγραφέως μπορούν να "
+"υφίστανται ακόμη και μετά τη λήξη των όρων του copyright. Αυτά τα δικαιώματα"
+" μπορεί να συμπεριλαμβάνουν το δικαίωμα ταυτοποίησης ως συγγραφέας και το "
+"δικαίωμα αντίρρησης στην εξευτελιστική μεταχείριση."
+
+#: templates/includes/deed_body_mark.html:48
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που έχει αναγνωρίσει το έργο"
+" δεν παρέχει καμία εγγύηση για το έργο, και αποποιείται νομική ευθύνη για "
+"κάθε χρήση του έργου, στον υπέρτατο βαθμό που αυτό επιτρέπεται από "
+"εφαρμοστέο νόμο. "
+
+#: templates/includes/deed_body_mark.html:55
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+"Όταν χρησιμοποιείτε ή αναφέρεσθε στο έργο, δεν πρέπει να υπονοείτε <a "
+"href=\"\" class=\"helpLink\" id=\"endorsement\">επιδοκιμασία</a> εκ μέρους "
+"του συγγραφέα ή του ατόμου που ταυτοποίησε το έργο."
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid "Unimplemented"
+msgstr ""
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:7
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+"Το άτομο που συσχέτισε ένα έργο με αυτό το περιληπτικό σημείωμα άδειας έχει "
+"<b>διεθέσει</b> το έργο ως κοινό κτήμα αποποιούμενο όλα τα δικαιώματά "
+"του/της επί του έργου για όλο τον κόσμο σύμφωνα με το νόμο για την προστασία"
+" της πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων των σχετικών ή "
+"συγγενικών δικαιωμάτων του/της επί του έργου στο βαθμό που αυτό επιτρέπεται "
+"από το νόμο."
+
+#: templates/includes/deed_body_zero.html:8
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+"Μπορείς να αντιγράφεις, διανέμεις, και παρουσιάζεις το έργο ακόμη και αν "
+"πρόκειται για εμπορικές χρήσεις, χωρίς να λαμβάνεις άδεια. Βλέπε "
+"<b>περαιτέρω πληροφόρηση</b> παρακάτω."
+
+#: templates/includes/deed_body_zero.html:15
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:17
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που συσχέτισε ένα έργο με "
+"αυτό το συμφωνητικό δεν παρέχει οποιαδήποτε εγγύηση σχετικά με το έργο, και "
+"αποποιείται νομική ευθύνη για όλες τις χρήσεις του έργου, στον υπέρτατο "
+"βαθμό που αυτό επιτρέπεται από εφαρμοστέο νόμο. "
+
+#: templates/includes/deed_body_zero.html:18
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+"Όταν κάνεις χρήση του έργου ή παραπέμπεις σε αυτό, δεν πρέπει να "
+"υπαινίσσεσαι ότι φέρει <a href=\"\" class=\"helpLink\" "
+"id=\"endorsement\">έγκριση</a> από τον συγγραφέα ή το πρόσωπο που αναγνώρισε"
+" το έργο. "
+
+#: templates/includes/deed_body_zero.html:21
+msgid "Other Rights"
+msgstr "Άλλα δικαιώματα"
+
+#: templates/includes/deed_body_zero.html:23
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Η χρήση ενός έργου ελεύθερου από γνωστούς περιορισμούς πνευματικής "
+"ιδιοκτησίας μπορεί να υπόκειται σε άλλες ρυθμίσεις ή περιορισμούς. Το έργο ή"
+" η χρήση του μπορεί να υπόκειται σε ρυθμίσεις νομοθεσίας για την προστασία "
+"δεδομένων προσωπικού χαρακτήρα, ρυθμίσεις δημοσιότητας, εικόνας, ή "
+"ιδιωτικότητας που επιτρέπουν σ' ένα πρόσωπο να ελέγχει πως η φωνή, εικόνα ή "
+"ομοιότητα μ'αυτό χρησιμοποιείται, ή άλλες ρυθμίσεις ή περιορισμούς σύμφωνα "
+"με εφαρμοστέο νόμο. "
+
+#: templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:31
+#: templates/includes/deed_body_zero.html:37
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: templates/includes/deed_body_zero.html:28
+msgid "Endorsement"
+msgstr "Πιστοποίηση"
+
+#: templates/includes/deed_body_zero.html:30
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Σε μερικά δικαιικά συστήματα, ο εσφαλμένος υπαινιγμός οτι ο συγγραφέας, ο "
+"εκδότης ή κάποιος άλλος εγκρίνει τη χρήση ενός έργου από εσένα μπορεί να "
+"είναι μη σύννομος. "
+
+#: templates/includes/deed_body_zero.html:34
+msgid "Citation"
+msgstr "Παραπομπή"
+
+#: templates/includes/deed_body_zero.html:36
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+"Κάνε αντιγραφή και επικόλληση του HTML κώδικα που παρέχεται στην ιστοσελίδα "
+"σου για εύκολη παραπομπή σ' αυτό το έργο. "
+
+#: templates/includes/deed_body_zero.html:40
+msgid "Who is the affirmer?"
+msgstr "Ποιο είναι το πρόσωπο που αναγνώρισε το έργο;"
+
+#: templates/includes/deed_body_zero.html:42
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+"Αυτός που αναγνώρισε το έργο είναι το πρόσωπο που αποποιήθηκε δικαιωμάτων "
+"επί του έργου παγκόσμια κάνοντας χρήση της άδειας CC0, στο βαθμό που αυτό "
+"επιτρέπεται από το νόμο. Μπορεί να είναι ο αρχικός δικαιούχος του έργου ή "
+"άλλο πρόσωπο που είχε κάποιο δικαίωμα πνευματικής ιδιοκτησίας ή συγγενικό "
+"δικαίωμα επί του έργου. "
+
+#: templates/includes/languages_dropdown.html:6
+msgid "Languages available"
+msgstr ""
+
+#: templates/includes/notice_40.html:3
+#: templates/includes/notice_certification.html:3
+#: templates/includes/notice_deprecated.html:3
+#: templates/includes/notice_newer_license.html:3
+#: templates/includes/notice_zero.html:3
+msgid "Notice"
+msgstr ""
+
+#: templates/includes/notice_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+"Η παρούσα πράξη επισημαίνει μόνο κάποια από τα βασικά χαρακτηριστικά και "
+"τους όρους της κυρίως άδειας. Η ίδια δεν είναι άδεια και δεν έχει νομική "
+"ισχύ. Σας συνιστούμε να διαβάσετε προσεκτικά όλους τους όρους και τις "
+"προϋποθέσεις της κυρίως άδειας πριν τη χρήση του αντικειμένου της "
+"αδειοδότησης."
+
+#: templates/includes/notice_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+"Tα Creative Commons δεν είναι συνεταιρισμός ή εταιρεία δικηγόρων και δεν "
+"παρέχει νομικές υπηρεσίες. Η προώθηση ή η εμφάνιση ή η παραπομπή στην "
+"παρούσα πράξη ή την άδεια που συνοψίζει δεν δημιουργεί κάποια σχέση "
+"δικηγόρου - πελάτη ή οποιαδήποτε άλλη σχέση."
+
+#: templates/includes/notice_about_cc_and_trademark.html:3
+msgid "About Creative Commons"
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -455,7 +945,7 @@ msgstr ""
 "του αντικειμένου αδειοδότησης. Προς άρση κάθε αμφιβολίας, η εν λόγω "
 "παράγραφος δεν αποτελεί περιεχόμενο των δημόσιων αδειών."
 
-#: templates/includes/about_cc.html:30
+#: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
@@ -464,11 +954,11 @@ msgstr ""
 "διαδικτυακή διεύθυνση <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 
-#: templates/includes/about_cc_and_license.html:6
+#: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
 msgstr ""
 
-#: templates/includes/about_cc_and_license.html:8
+#: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -492,481 +982,7 @@ msgstr ""
 "αποποιείται κάθε ευθύνης για ζημιές οι οποίες προκύπτουν από τη χρήση τους "
 "στο μέγιστο δυνατό βαθμό."
 
-#: templates/includes/deed_body_certification.html:6
-msgid ""
-"<p>The person or persons who have associated work with this document (the "
-"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
-"best of his knowledge, the work of authorship identified is in the public "
-"domain of the country from which the work is published, or (b) hereby "
-"dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:7
-msgid "You are free to:"
-msgstr "Μπορείτε να:"
-
-#: templates/includes/deed_body_licenses.html:11
-msgid ""
-"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
-"<strong>για Διανομή</strong>: για αναπαραγωγή, διανομή, παρουσίαση στο κοινό"
-" του Έργου"
-
-#: templates/includes/deed_body_licenses.html:12
-msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>για διασκευή</strong> &mdash; για να τροποποιήσετε το έργο"
-
-#: templates/includes/deed_body_licenses.html:17
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
-msgstr ""
-"Να πάρετε δείγματα, να αλλάξετε ή αλλιώς να τροποποιήσετε δημιουργικά το "
-"έργο αυτό για μη εμπορικούς σκοπούς"
-
-#: templates/includes/deed_body_licenses.html:19
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
-msgstr ""
-"Για να δειγματίζετε, να αλλάξετε, ή άλλως να τροποποιήσετε δημιουργικά το "
-"έργο είτε για εμπορικούς είτε για μη εμπορικούς σκοπούς."
-
-#: templates/includes/deed_body_licenses.html:23
-msgid ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Να ερμηνεύετε, να παρουσιάζετε στο κοινό και να διανέμετε αντίγραφα "
-"ολόκληρου του έργου για μη εμπορικούς σκοπούς (π.χ., ανταλλαγή αρχείων ή μη "
-"εμπορικό webcasting)"
-
-#: templates/includes/deed_body_licenses.html:29
-msgid ""
-"<strong>Share</strong> &mdash; copy and redistribute the material in any "
-"medium or format"
-msgstr ""
-"<strong>Μοιραστείτε</strong> &mdash; αντιγράψετε και αναδιανέμετε το υλικό "
-"με κάθε μέσο και τρόπο"
-
-#: templates/includes/deed_body_licenses.html:30
-#: templates/includes/deed_body_licenses.html:37
-msgid "for any purpose, even commercially."
-msgstr "για κάθε σκοπό, ακόμα και εμπορικό."
-
-#: templates/includes/deed_body_licenses.html:36
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
-"<strong>Προσαρμόστε</strong> &mdash; αναμείξτε, τροποποιήστε και "
-"δημιουργήστε πάνω στο υλικό"
-
-#: templates/includes/deed_body_licenses.html:44
-msgid ""
-"The licensor cannot revoke these freedoms as long as you follow the license "
-"terms."
-msgstr ""
-"Ο αδειοδότης δεν μπορεί να ανακαλέσει αυτές τις ελευθερίες όσο εσείς "
-"ακολουθείτε τους όρους της άδειας."
-
-#: templates/includes/deed_body_licenses.html:50
-msgid "Under the following terms:"
-msgstr "Υπό τους ακόλουθους όρους:"
-
-#: templates/includes/deed_body_licenses.html:61
-msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:73
-msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
-msgstr ""
-"Θα πρέπει να καταχωρίσετε <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\"> αναφορά στο δημιουργό </a> </ span>, με σύνδεσμο της "
-"άδειας, και <span rel = \"cc:cc:requires\" resource= "
-"\"http://creativecommons.org/ns#Notice\"> <a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\"> με αναφορά αν έχουν γίνει "
-"αλλαγές </a> </ span>. Μπορείτε να το κάνετε αυτό με οποιονδήποτε εύλογο "
-"τρόπο, αλλά όχι με τρόπο που να υπονοεί ότι ο δημιουργός αποδέχεται το έργο "
-"σας ή τη χρήση που εσείς κάνετε."
-
-#: templates/includes/deed_body_licenses.html:85
-msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
-msgstr ""
-"Δε μπορείτε να χρησιμοποιήσετε το υλικό για <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">εμπορικούς σκοπούς</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid ""
-"If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
-msgstr ""
-"Αν αναμείξετε, τροποποιήσετε, ή δημιουργήσετε πάνω στο υλικό, πρέπει ν "
-"δινείμετε τις δικές σας συνεισφορές υπό την <a href=\"#\" "
-"id=\"same_license_popup\" class=\"helpLink\">ίδια άδεια</a> όπως και το "
-"πρωτότυπο."
-
-#: templates/includes/deed_body_licenses.html:107
-msgid "NoDerivatives"
-msgstr "Μη παραγόμενα "
-
-#: templates/includes/deed_body_licenses.html:107
-msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
-msgstr ""
-"Αν <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">αναμείξετε, τροποποιήσετε, ή δημιουργήσετε πάνω</a> στο "
-"υλικό, δε μπορείτε να διανείμετε το τροποποιημένο υλικό."
-
-#: templates/includes/deed_body_licenses.html:118
-msgid ""
-"You may not use this work to advertise for or promote anything but the work "
-"you create from it."
-msgstr ""
-"Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό προκειμένου να διαφημίσετε ή να "
-"προωθήσετε οτιδήποτε άλλο πέρα από το έργο από το οποίο δημιουργείτε."
-
-#: templates/includes/deed_body_licenses.html:129
-msgid ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Για κάθε νέα χρήση ή διανομή, πρέπει να καταστήσετε σαφείς στους άλλους τους"
-" όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να πράξετε αυτό "
-"είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο αυτής της "
-"ιστοσελίδας."
-
-#: templates/includes/deed_body_licenses.html:140
-msgid ""
-"You may not perform, display, or distribute copies of this whole work for "
-"any purpose."
-msgstr ""
-"Δε μπορείτε να ερμηνεύσετε, να κάνετε προσιτό στο κοινό ή να διανέμετε "
-"αντίγραφα από ολόκληρο αυτό το έργο για οποιοδήποτε σκοπό."
-
-#: templates/includes/deed_body_licenses.html:150
-msgid "No additional restrictions"
-msgstr "Δεν υπάρχουν πρόσθετοι περιορισμοί"
-
-#: templates/includes/deed_body_licenses.html:150
-msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
-msgstr ""
-"Δε μπορείτε να εφαρμόσετε νομικούς όρους ή <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">τεχνολογικά μέτρα</a>"
-" που να περιορίζουν νομικά τους άλλους από το να κάνουν  ο,τιδήποτε "
-"επιτρέπει η άδεια."
-
-#: templates/includes/deed_body_licenses.html:157
-msgid "Notices:"
-msgstr "Σημειώσεις:"
-
-#: templates/includes/deed_body_licenses.html:160
-msgid ""
-"You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
-msgstr ""
-"Δεν είστε υποχρεωμένοι να συμμορφωθείτε με τη άδεια για στοιχεία του υλικού "
-"που είναι σε Κοινό Κτήμ/ public domain, ή εκεί όπου η χρήση επιτρέπεται στα "
-"πλαίσια μιας ισχύουσας <a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">εξαίρεσης ή περιορισμού</a>."
-
-#: templates/includes/deed_body_licenses.html:163
-msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
-msgstr ""
-"Δεν παρέχεται καμία εγγύηση. Η άδεια μπορεί να μη σας δίνει όλα τα "
-"απαραίτητα δικαιώματα για τη χρήση που σκοπεύετε. Για παράδειγμα, άλλα "
-"δικιώματα, όπως <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\""
-" class=\"helpLink\">διαφήμιση, ιδιωτικότητα, ή ηθικά δικαιώματα</a> μπορεί "
-"να περιορίσουν το πως χρησιμοποιείτε το υλικό."
-
-#: templates/includes/deed_body_mark.html:7
-#: templates/includes/deed_body_zero.html:6
-msgid "No Copyright"
-msgstr "Δεν υπάρχουν πνευματικά δικαιώματα"
-
-#: templates/includes/deed_body_mark.html:14
-msgid ""
-"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
-"known restrictions under copyright law, including all related and "
-"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
-"perform the work, even for commercial purposes, all without asking "
-"permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\"> Αυτό το έργο έχει <b>αναγνωριστεί</b> ως ελεύθερο "
-"γνωστών περιορισμών πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων "
-"των σχετικών και συγγενικών δικαιωμάτων.  </p> <p> <br /> Μπορείς να "
-"αντιγράψεις, τροποποιήσεις, διανέμεις, και παρουσιάσεις το έργο, ακόμη και "
-"για εμπορικούς σκοπούς, χωρίς να ζητήσεις προηγούμενη άδεια για όλα αυτά. "
-"Βλέπε <b>περαιτέρω πληροφόρηση</b> παρακάτω. </p>"
-
-#: templates/includes/deed_body_mark.html:22
-#: templates/includes/deed_body_zero.html:19
-msgid "Other Information"
-msgstr "Άλλες πληροφορίες"
-
-#: templates/includes/deed_body_mark.html:28
-msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
-"Το έργο μπορεί να μην είναι ελεύθερο από γνωστούς περιορισμούς copyright σε "
-"όλες τις <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">περιοχές "
-"δικαιοδοσίας</a>."
-
-#: templates/includes/deed_body_mark.html:30
-msgid ""
-"Persons may have other rights in or related to the work, such as patent or "
-"trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-"Μερικοί μπορεί να κατέχουν άλλα δικαιώματα επί του έργου ή σχετικά με αυτό "
-"όπως δικαιώματα βιομηχανικής ιδιοκτησίας (πατέντα, σήμα) και άλλοι μπορεί να"
-" έχουν δικαιώματα επί της χρήσης του έργου όπως το δικαίωμα στη <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">δημοσιότητα ή την "
-"ιδιωτικότητα.</a>"
-
-#: templates/includes/deed_body_mark.html:32
-msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr ""
-"Σε μερικές περιοχές δικαιοδοσίας <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">τα ηθικά δικαιώματα</a> του συγγραφέως μπορούν να "
-"υφίστανται ακόμη και μετά τη λήξη των όρων του copyright. Αυτά τα δικαιώματα"
-" μπορεί να συμπεριλαμβάνουν το δικαίωμα ταυτοποίησης ως συγγραφέας και το "
-"δικαίωμα αντίρρησης στην εξευτελιστική μεταχείριση."
-
-#: templates/includes/deed_body_mark.html:34
-msgid ""
-"Unless expressly stated otherwise, the person who identified the work makes "
-"no warranties about the work, and disclaims liability for all uses of the "
-"work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που έχει αναγνωρίσει το έργο"
-" δεν παρέχει καμία εγγύηση για το έργο, και αποποιείται νομική ευθύνη για "
-"κάθε χρήση του έργου, στον υπέρτατο βαθμό που αυτό επιτρέπεται από "
-"εφαρμοστέο νόμο. "
-
-#: templates/includes/deed_body_mark.html:36
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
-msgstr ""
-"Όταν χρησιμοποιείτε ή αναφέρεσθε στο έργο, δεν πρέπει να υπονοείτε <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\">επιδοκιμασία</a> εκ μέρους "
-"του συγγραφέα ή του ατόμου που ταυτοποίησε το έργο."
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid "Unimplemented"
-msgstr ""
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid ""
-"this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:12
-msgid ""
-"The person who associated a work with this deed has <b>dedicated</b> the "
-"work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
-msgstr ""
-"Το άτομο που συσχέτισε ένα έργο με αυτό το περιληπτικό σημείωμα άδειας έχει "
-"<b>διεθέσει</b> το έργο ως κοινό κτήμα αποποιούμενο όλα τα δικαιώματά "
-"του/της επί του έργου για όλο τον κόσμο σύμφωνα με το νόμο για την προστασία"
-" της πνευματικής ιδιοκτησίας, συμπεριλαμβανομένων και όλων των σχετικών ή "
-"συγγενικών δικαιωμάτων του/της επί του έργου στο βαθμό που αυτό επιτρέπεται "
-"από το νόμο."
-
-#: templates/includes/deed_body_zero.html:13
-msgid ""
-"You can copy, modify, distribute and perform the work, even for commercial "
-"purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Μπορείς να αντιγράφεις, διανέμεις, και παρουσιάζεις το έργο ακόμη και αν "
-"πρόκειται για εμπορικές χρήσεις, χωρίς να λαμβάνεις άδεια. Βλέπε "
-"<b>περαιτέρω πληροφόρηση</b> παρακάτω."
-
-#: templates/includes/deed_body_zero.html:24
-msgid ""
-"In no way are the patent or trademark rights of any person affected by CC0, "
-"nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:26
-msgid ""
-"Unless expressly stated otherwise, the person who associated a work with "
-"this deed makes no warranties about the work, and disclaims liability for "
-"all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Εκτός αν άλλως έχει ρητά διατυπωθεί, το πρόσωπο που συσχέτισε ένα έργο με "
-"αυτό το συμφωνητικό δεν παρέχει οποιαδήποτε εγγύηση σχετικά με το έργο, και "
-"αποποιείται νομική ευθύνη για όλες τις χρήσεις του έργου, στον υπέρτατο "
-"βαθμό που αυτό επιτρέπεται από εφαρμοστέο νόμο. "
-
-#: templates/includes/deed_body_zero.html:27
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"affirmer."
-msgstr ""
-"Όταν κάνεις χρήση του έργου ή παραπέμπεις σε αυτό, δεν πρέπει να "
-"υπαινίσσεσαι ότι φέρει <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">έγκριση</a> από τον συγγραφέα ή το πρόσωπο που αναγνώρισε"
-" το έργο. "
-
-#: templates/includes/deed_body_zero.html:32
-msgid "Other Rights"
-msgstr "Άλλα δικαιώματα"
-
-#: templates/includes/deed_body_zero.html:34
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Η χρήση ενός έργου ελεύθερου από γνωστούς περιορισμούς πνευματικής "
-"ιδιοκτησίας μπορεί να υπόκειται σε άλλες ρυθμίσεις ή περιορισμούς. Το έργο ή"
-" η χρήση του μπορεί να υπόκειται σε ρυθμίσεις νομοθεσίας για την προστασία "
-"δεδομένων προσωπικού χαρακτήρα, ρυθμίσεις δημοσιότητας, εικόνας, ή "
-"ιδιωτικότητας που επιτρέπουν σ' ένα πρόσωπο να ελέγχει πως η φωνή, εικόνα ή "
-"ομοιότητα μ'αυτό χρησιμοποιείται, ή άλλες ρυθμίσεις ή περιορισμούς σύμφωνα "
-"με εφαρμοστέο νόμο. "
-
-#: templates/includes/deed_body_zero.html:35
-#: templates/includes/deed_body_zero.html:42
-#: templates/includes/deed_body_zero.html:51
-msgid "Learn more"
-msgstr "Μάθετε περισσότερα"
-
-#: templates/includes/deed_body_zero.html:39
-msgid "Endorsement"
-msgstr "Πιστοποίηση"
-
-#: templates/includes/deed_body_zero.html:41
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Σε μερικά δικαιικά συστήματα, ο εσφαλμένος υπαινιγμός οτι ο συγγραφέας, ο "
-"εκδότης ή κάποιος άλλος εγκρίνει τη χρήση ενός έργου από εσένα μπορεί να "
-"είναι μη σύννομος. "
-
-#: templates/includes/deed_body_zero.html:45
-msgid "Citation"
-msgstr "Παραπομπή"
-
-#: templates/includes/deed_body_zero.html:48
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Κάνε αντιγραφή και επικόλληση του HTML κώδικα που παρέχεται στην ιστοσελίδα "
-"σου για εύκολη παραπομπή σ' αυτό το έργο. "
-
-#: templates/includes/deed_body_zero.html:55
-msgid "Who is the affirmer?"
-msgstr "Ποιο είναι το πρόσωπο που αναγνώρισε το έργο;"
-
-#: templates/includes/deed_body_zero.html:58
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Αυτός που αναγνώρισε το έργο είναι το πρόσωπο που αποποιήθηκε δικαιωμάτων "
-"επί του έργου παγκόσμια κάνοντας χρήση της άδειας CC0, στο βαθμό που αυτό "
-"επιτρέπεται από το νόμο. Μπορεί να είναι ο αρχικός δικαιούχος του έργου ή "
-"άλλο πρόσωπο που είχε κάποιο δικαίωμα πνευματικής ιδιοκτησίας ή συγγενικό "
-"δικαίωμα επί του έργου. "
-
-#: templates/includes/disclaimer_40.html:3
-#: templates/includes/disclaimer_certification.html:3
-#: templates/includes/disclaimer_deprecated.html:3
-#: templates/includes/disclaimer_newer_license.html:3
-#: templates/includes/disclaimer_zero.html:9
-msgid "Disclaimer"
-msgstr "Αποποίηση"
-
-#: templates/includes/disclaimer_40.html:5
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr ""
-"Η παρούσα πράξη επισημαίνει μόνο κάποια από τα βασικά χαρακτηριστικά και "
-"τους όρους της κυρίως άδειας. Η ίδια δεν είναι άδεια και δεν έχει νομική "
-"ισχύ. Σας συνιστούμε να διαβάσετε προσεκτικά όλους τους όρους και τις "
-"προϋποθέσεις της κυρίως άδειας πριν τη χρήση του αντικειμένου της "
-"αδειοδότησης."
-
-#: templates/includes/disclaimer_40.html:13
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr ""
-"Tα Creative Commons δεν είναι συνεταιρισμός ή εταιρεία δικηγόρων και δεν "
-"παρέχει νομικές υπηρεσίες. Η προώθηση ή η εμφάνιση ή η παραπομπή στην "
-"παρούσα πράξη ή την άδεια που συνοψίζει δεν δημιουργεί κάποια σχέση "
-"δικηγόρου - πελάτη ή οποιαδήποτε άλλη σχέση."
-
-#: templates/includes/disclaimer_certification.html:4
+#: templates/includes/notice_certification.html:5
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -976,7 +992,7 @@ msgstr ""
 "εφαρμόσιμο σε δικαιοδοσία εκτός των ΗΠΑ. Για να εκχωρήσετε νέα έργα στο "
 "Δημόσιο Τομέα, συνιστούμε την άδεια CC0"
 
-#: templates/includes/disclaimer_deprecated.html:5
+#: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -986,7 +1002,7 @@ msgstr ""
 "href=\"/retiredlicenses\">την άδεια </a> και δεν συνιστά να τη "
 "χρησιμοποιείτε για νέα έργα."
 
-#: templates/includes/disclaimer_newer_license.html:5
+#: templates/includes/notice_newer_license.html:5
 msgid ""
 "This is an older version of this license. Compared to previous versions, the"
 " 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
@@ -995,7 +1011,7 @@ msgid ""
 "use of the 4.0 license instead:"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:10
+#: templates/includes/notice_zero.html:4
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -1025,49 +1041,32 @@ msgstr ""
 "καθεστώς πνευματικής του ιδιοκτησίας σε οποιαδήποτε δικαιοδοσία, και "
 "αποποιείται κάθε νομική ευθύνη για οποιαδήποτε χρήση οποιουδήποτε έργου.</p>"
 
-#: templates/includes/disclaimer_zero.html:24
-msgid ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
-"(read the full text)</a>."
-msgstr ""
-"Αυτό είναι μία περίληψη σε μορφή που μπορεί να αναγνωστεί από κάποιον του <a"
-" href=\"./legalcode\">Νομικού Μέρους (διαβάστε το πλήρες κείμενο)</a>."
-
-#: templates/includes/language_selector.html:5
-#: templates/includes/translations.html:4
-msgid "This page is available in the following languages:"
-msgstr "Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:"
-
-#: templates/includes/languages_dropdown.html:4
-msgid "Languages available"
-msgstr ""
-
-#: templates/includes/languages_dropdown.html:9
-msgid "Select"
-msgstr ""
-
-#: templates/includes/related_links.html:9
+#: templates/includes/related_links.html:4
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses and other legal "
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:17
+#: templates/includes/related_links.html:10
 msgid "Learn more about our work"
 msgstr ""
 
-#: templates/includes/related_links.html:19
+#: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: templates/includes/related_links.html:20
+#: templates/includes/related_links.html:12
 msgid "Support our work"
 msgstr ""
 
-#: templates/includes/related_links.html:22
+#: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
 msgstr ""
+
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr "Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1091,15 +1090,11 @@ msgstr ""
 "είναι ενδεικτικές κι όχι περιοριστικές και δεν αποτελούν μέρος των αδειών "
 "μας."
 
-#: templates/includes/use_of_licenses.html:21
+#: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
 msgstr "Συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
-msgid "Show Considerations for Licensors"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:23
+#: templates/includes/use_of_licenses.html:22
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -1130,15 +1125,11 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Περισσότερες"
 " συστάσεις για τους/τις χορηγούντες/-ούσες την άδεια.</a>"
 
-#: templates/includes/use_of_licenses.html:40
+#: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
 msgstr "Συστάσεις για το κοινό"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
-msgid "Show Considerations for the Public"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:42
+#: templates/includes/use_of_licenses.html:39
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -1173,29 +1164,42 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Περισσότερες"
 " συστάσεις για το κοινό.</a>"
 
-#: templates/legalcode.html:4 templates/legalcode.html:10
-#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
-msgid "Legal Code"
-msgstr "Νομικός κώδικας"
-
-#: templates/legalcode.html:25
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:84
+#: templates/legalcode.html:50
+msgid "Version"
+msgstr ""
+
+#: templates/legalcode.html:51
+msgid ""
+"See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
+"and the date of change"
+msgstr ""
+
+#: templates/legalcode.html:104
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:86
+#: templates/legalcode.html:106
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list-licenses.html:54 templates/list-licenses.html:70
-#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+#: templates/legalcode.html:108
+msgid "Show Considerations for Licensors"
+msgstr ""
+
+#: templates/legalcode.html:110
+msgid "Show Considerations for the Public"
+msgstr ""
+
+#: templates/list-licenses.html:55 templates/list-licenses.html:71
+#: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
 msgstr ""
 
-#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+#: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
 msgstr ""
 

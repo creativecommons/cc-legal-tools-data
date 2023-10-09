@@ -298,7 +298,7 @@ msgstr "Vjetnama"
 msgid "South Africa"
 msgstr "Dienvidāfrika"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Attiecinājums"
 
@@ -334,7 +334,7 @@ msgstr ""
 "Autortiesību veltījums (balstīts uz ASV likumu) \n"
 "vai arī Sabiedrības īpašuma sertifikācija"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Attīstības nācijas"
 
@@ -342,7 +342,7 @@ msgstr "Attīstības nācijas"
 msgid "Public Domain Mark"
 msgstr "Sabiedrības īpašuma iezīme"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "Nekomerciāli"
 
@@ -362,7 +362,7 @@ msgstr "Nepārveidojot"
 msgid "NoDerivs-NonCommercial"
 msgstr "Nepārveidojot-Nekomerciāli"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "Nemainot licenci"
 
@@ -374,36 +374,44 @@ msgstr "Iztveršana"
 msgid "Sampling Plus"
 msgstr "Iztverot plus"
 
-#: legal_tools/views.py:49
+#: legal_tools/views.py:54
 msgid "Public Domain"
 msgstr "Sabiedrības īpašums"
 
-#: legal_tools/views.py:51
+#: legal_tools/views.py:56
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:421
-msgid "Licenses List"
-msgstr ""
-
-#: legal_tools/views.py:423
-msgid "Public Domain List"
-msgstr ""
-
-#: templates/base.html:41
-msgid "Skip to content"
-msgstr ""
-
-#: templates/base.html:44
-msgid "Home"
-msgstr ""
-
-#: templates/deed.html:5 templates/deed.html:14
-#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+#: legal_tools/views.py:194 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:13
+#: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:21
+#: legal_tools/views.py:203
+#: templates/includes/snippet/title_with_icons.html:15
+#: templates/legalcode.html:6 templates/list-licenses.html:39
+#: templates/list-publicdomain.html:31
+msgid "Legal Code"
+msgstr "Juridiskais saturs"
+
+#: legal_tools/views.py:407 templates/includes/related_links.html:15
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:410 templates/includes/related_links.html:18
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:3
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:31
+msgid "Skip to content"
+msgstr ""
+
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr ""
 
@@ -411,7 +419,459 @@ msgstr ""
 msgid "Page Not Found"
 msgstr ""
 
-#: templates/includes/about_cc.html:10
+#: templates/includes/deed_body_certification.html:3
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:6
+msgid "You are free to:"
+msgstr "Jūs varat brīvi:"
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr "<strong>koplietot</strong> &mdash; kopēt, izplatīt un pārraidīt darbu"
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr "<strong>pārveidot</strong> &mdash; pielāgot darbu"
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
+"nekomerciālām vajadzībām."
+
+#: templates/includes/deed_body_licenses.html:24
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
+"nekomerciālām vajadzībām."
+
+#: templates/includes/deed_body_licenses.html:28
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+"Visu darbu atskaņot, rādīt, un izplatīt kopijas nekomerciālos nolūkos "
+"(piem., daloties ar failiem vai veicot nekomerciālu tīmekļapraidi)."
+
+#: templates/includes/deed_body_licenses.html:34
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+"<strong>Koplietot</strong> — kopēt un izplatīt darbu tālāk jebkādā vidē un "
+"formātā"
+
+#: templates/includes/deed_body_licenses.html:35
+#: templates/includes/deed_body_licenses.html:42
+msgid "for any purpose, even commercially."
+msgstr "jebkurām vajadzībām, arī komerciāli."
+
+#: templates/includes/deed_body_licenses.html:41
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+"<strong>Pielāgot</strong> — remiksēt un pārveidot darbu, kā arī veidot jaunu"
+" uz esošā pamata"
+
+#: templates/includes/deed_body_licenses.html:49
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"Licencētājs nevar atsaukt šīs tiesības, ja jūs ievērojat šos licences "
+"noteikumus."
+
+#: templates/includes/deed_body_licenses.html:56
+msgid "Under the following terms:"
+msgstr "Ievērojot sekojošus nosacījumus:"
+
+#: templates/includes/deed_body_licenses.html:63
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:70
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+"Jums ir atbilstoši <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">jāatsaucas uz darbu</a></span>, norādot saiti uz licenci "
+"un <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">jānorāda veiktās "
+"izmaiņas</a></span>.  Jūs varat to darīt dažādos saprātīgos veidos, bet "
+"noteikti ne tā, kas liktu domāt, ka licencētājs ir apstiprinājis jūsu darbu "
+"vai tajā veiktās izmaiņas."
+
+#: templates/includes/deed_body_licenses.html:77
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+"Jūs nevarat lietot materiālu <a href=\"#\" id=\"commercial_purposes_popup\" "
+"class=\"helpLink\">komerciālām vajadzībām</a>."
+
+#: templates/includes/deed_body_licenses.html:83
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+"Ja jūs remiksējat, pārveidojat vai balstāties uz šo materiālu, jums ir "
+"jāizplata jaunais, atvasinātais darbs <a href=\"#\" "
+"id=\"same_license_popup\" class=\"helpLink\">ar to pašu licenci</a> kā šis "
+"darbs."
+
+#: templates/includes/deed_body_licenses.html:89
+msgid "NoDerivatives"
+msgstr "Nepārveidojot"
+
+#: templates/includes/deed_body_licenses.html:89
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+"Ja jūs <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remiksējat, maināt vai balstāties uz</a> materiālu, jūs "
+"nedrīkstat to izplatīt tālāk."
+
+#: templates/includes/deed_body_licenses.html:95
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"Jūs varat izmantot darbu un balstīties uz tā, tikai lai popularizētu vai "
+"atbalstītu to."
+
+#: templates/includes/deed_body_licenses.html:101
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+"Izmantojot vai izplatot darbu, jums ir skaidri jānorāda šī darba "
+"licencēšanas noteikumi. Labākais veids, kā to darīt, ir norādīt saiti uz šo "
+"lapu."
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"Jūs nedrīkstat attēlot, rādīt vai izplatīt darba kopijas nekādos nolūkos."
+
+#: templates/includes/deed_body_licenses.html:112
+msgid "No additional restrictions"
+msgstr "Bez papildu ierobežojumiem"
+
+#: templates/includes/deed_body_licenses.html:112
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"Jūs nedrīkstat izmantot juridiskus vai <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">tehniskus "
+"ierobežojumus</a>, kas citiem traucē izmantot darbu tā, kā to ir atļauts "
+"darīt licences noteikumos."
+
+#: templates/includes/deed_body_licenses.html:118
+msgid "Notices:"
+msgstr "Piezīmes:"
+
+#: templates/includes/deed_body_licenses.html:121
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+"Jums nav jārīkojas saskaņā ar licenci tā materiāla daļām, kuras jau ir "
+"sabiedrības īpašums, vai gadījumos, kad ir spēkā <a href=\"#\" "
+"id=\"exception_or_limitation_popup\" class=\"helpLink\">ierobežojumu "
+"izņēmumi</a>."
+
+#: templates/includes/deed_body_licenses.html:124
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+"Bez jebkādas garantijas. Licence var nesniegt visas nepieciešamās "
+"garantijas, kuras jums var būt nepieciešamas darba izmantošanai. Piemēram, "
+"materiāla izmantošanas veidus var ierobežot citas tiesības, kā <a href=\"#\""
+" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publiskuma, privātuma vai morālās tiesības</a>."
+
+#: templates/includes/deed_body_mark.html:6
+#: templates/includes/deed_body_zero.html:5
+msgid "No Copyright"
+msgstr "Nav autortiesību"
+
+#: templates/includes/deed_body_mark.html:9
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\">Šis darbs ir <b>atzīmēts</b> kā brīvs no autortiesību "
+"ierobežojumiem, ieskaitot saistītās un blakustiesības.</p> <p> <br />Jūs "
+"varat kopēt, mainīt, izplatīt un atskaņot darbu arī komerciālām vajadzībām, "
+"nevienam neprasot atļauju. Skatiet <b>papildu informāciju</b> zemāk.</p>"
+
+#: templates/includes/deed_body_mark.html:21
+#: templates/includes/deed_body_zero.html:13
+msgid "Other Information"
+msgstr "Papildu informācija"
+
+#: templates/includes/deed_body_mark.html:25
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"Darbs var nebūt brīvs no autortiesību ierobežojumiem <a href=\"\" "
+"class=\"helpLink\" id=\"all_jurisdictions\">visās jurisdikcijās</a>."
+
+#: templates/includes/deed_body_mark.html:31
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_mark.html:40
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+"Dažās jurisdikcijās autora <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">morālās tiesības</a> var pastāvēt arī ārpus "
+"autortiesībām. Šīs tiesības var noteikt, ka autoram ir tiesības iebilst pret"
+" ļaunprātīgu rīcību."
+
+#: templates/includes/deed_body_mark.html:48
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Ja nav tieši norādīts savādāk, persona, kura ir norādījusi darbu, par to "
+"nedod nekādas garantijas, un atsakās no jebkādām saistībām, kādas var "
+"rasties, lietojot darbu saskaņā ar visām likumdošanas normām."
+
+#: templates/includes/deed_body_mark.html:55
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+"Lietojot vai citējot darbu jūs nedrīkstat radīt priekšstatu, ka <a href=\"\""
+" class=\"helpLink\" id=\"endorsement\">darbu ir apstiprinājis</a> autors, "
+"vai persona, kura to ir noteikusi."
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid "Unimplemented"
+msgstr ""
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:7
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+"Cilvēks, kas pievienojis darbam šo aktu ir <b>novēlējis</b> to kā "
+"sabiedrības īpašumu, atsakoties no savām tiesībām uz darbu, ieskaitot "
+"blakus- u.c. saistītās tiesības, kā to nosaka autortiesību likums."
+
+#: templates/includes/deed_body_zero.html:8
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+"Jūs varat kopēt, pārveidot, izplatīt un izpildīt darbu arī komerciālos "
+"nolūkos, neprasot par to nekādu atļauju. Skatiet <b>Papildu informācija</b> "
+"zemāk."
+
+#: templates/includes/deed_body_zero.html:15
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:17
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Ja nav norādīts savādāk, persona, kura saistīja ziedoto darba ar šo aktu "
+"nenodrošina nekādas garantijas par darbu un tā izmantošanu saskaņā ar to, kā"
+" tas ir noteikts likumdošanā."
+
+#: templates/includes/deed_body_zero.html:18
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+"Lietojot darbu jūs nedrīkstat likt domāt, ka to <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">ir apstiprinājis</a> autors vai "
+"licences apstiprinātājs."
+
+#: templates/includes/deed_body_zero.html:21
+msgid "Other Rights"
+msgstr "Citas tiesības"
+
+#: templates/includes/deed_body_zero.html:23
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Darba, kuram nepastāv autortiesību ierobežojumi, lietošanu var noteikt arī "
+"citi ierobežojumi. Uz darbu var attiekties, piemēram, personas datu "
+"aizsardzības ierobežojumi kuri nosaka, kā tiek publicēti, attēloti vai "
+"izplatīti attēli, skaņa vai izskats, kā arī citi ierobežojumi, saskaņā ar "
+"valsts likumdošanu."
+
+#: templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:31
+#: templates/includes/deed_body_zero.html:37
+msgid "Learn more"
+msgstr "Uzzināt vairāk"
+
+#: templates/includes/deed_body_zero.html:28
+msgid "Endorsement"
+msgstr "Apstiprināšana"
+
+#: templates/includes/deed_body_zero.html:30
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Dažās jurisdikcijās, nepamatota norāde, ka darba lietošanu ir apstiprinājis "
+"autors vai publicētājs, var būt nelegāla nodarbe."
+
+#: templates/includes/deed_body_zero.html:34
+msgid "Citation"
+msgstr "Citāts"
+
+#: templates/includes/deed_body_zero.html:36
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+"Nokopējiet un ievietojiet sagatavoto HTML kodu savā tīmekļa lai atvieglotu "
+"atsaukšanos uz to."
+
+#: templates/includes/deed_body_zero.html:40
+msgid "Who is the affirmer?"
+msgstr "Kas ir apstiprinātājs?"
+
+#: templates/includes/deed_body_zero.html:42
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+"Apstiprinātājs ir persona, kura, izmantojot CC0, saskaņā ar likumdošanu, "
+"aizstāv tiesības uz darbu visā pasaulē. Tas var būt darba autors vai arī "
+"cita persona, kurai pieder darba autortiesības vai citas saistītās tiesības "
+"uz darbu."
+
+#: templates/includes/languages_dropdown.html:6
+msgid "Languages available"
+msgstr ""
+
+#: templates/includes/notice_40.html:3
+#: templates/includes/notice_certification.html:3
+#: templates/includes/notice_deprecated.html:3
+#: templates/includes/notice_newer_license.html:3
+#: templates/includes/notice_zero.html:3
+msgid "Notice"
+msgstr ""
+
+#: templates/includes/notice_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+"Šis akts apraksta tikai galvenās patiesās licences īpašības. Tas nav pati "
+"licence un tam nav juridiskas vērtības. Jums būtu uzmanīgi jāizskata "
+"patiesās licences terminus un noteikumus pirms licencēt ar to savus "
+"materiālus."
+
+#: templates/includes/notice_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:3
+msgid "About Creative Commons"
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -446,7 +906,7 @@ msgstr ""
 " <a href=\"/policies/\">creativecommons.org/policies</a>. Lai izvairītos no "
 "neskaidrībām – šī rindkopa nav daļa no publiskās licences."
 
-#: templates/includes/about_cc.html:30
+#: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
@@ -454,11 +914,11 @@ msgstr ""
 "Ar Creative Commons var sazināties tīmekļa vietnē <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 
-#: templates/includes/about_cc_and_license.html:6
+#: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
 msgstr ""
 
-#: templates/includes/about_cc_and_license.html:8
+#: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -481,451 +941,7 @@ msgstr ""
 "zaudējumiem, kas radušies licenču izmantošanas rezultātā, ciktāl vien tas "
 "iespējams."
 
-#: templates/includes/deed_body_certification.html:6
-msgid ""
-"<p>The person or persons who have associated work with this document (the "
-"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
-"best of his knowledge, the work of authorship identified is in the public "
-"domain of the country from which the work is published, or (b) hereby "
-"dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:7
-msgid "You are free to:"
-msgstr "Jūs varat brīvi:"
-
-#: templates/includes/deed_body_licenses.html:11
-msgid ""
-"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr "<strong>koplietot</strong> &mdash; kopēt, izplatīt un pārraidīt darbu"
-
-#: templates/includes/deed_body_licenses.html:12
-msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>pārveidot</strong> &mdash; pielāgot darbu"
-
-#: templates/includes/deed_body_licenses.html:17
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
-msgstr ""
-"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
-"nekomerciālām vajadzībām."
-
-#: templates/includes/deed_body_licenses.html:19
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
-msgstr ""
-"Veidot darba iztvērumus, mikšļus vai citādi radoši to pārveidot "
-"nekomerciālām vajadzībām."
-
-#: templates/includes/deed_body_licenses.html:23
-msgid ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Visu darbu atskaņot, rādīt, un izplatīt kopijas nekomerciālos nolūkos "
-"(piem., daloties ar failiem vai veicot nekomerciālu tīmekļapraidi)."
-
-#: templates/includes/deed_body_licenses.html:29
-msgid ""
-"<strong>Share</strong> &mdash; copy and redistribute the material in any "
-"medium or format"
-msgstr ""
-"<strong>Koplietot</strong> — kopēt un izplatīt darbu tālāk jebkādā vidē un "
-"formātā"
-
-#: templates/includes/deed_body_licenses.html:30
-#: templates/includes/deed_body_licenses.html:37
-msgid "for any purpose, even commercially."
-msgstr "jebkurām vajadzībām, arī komerciāli."
-
-#: templates/includes/deed_body_licenses.html:36
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
-"<strong>Pielāgot</strong> — remiksēt un pārveidot darbu, kā arī veidot jaunu"
-" uz esošā pamata"
-
-#: templates/includes/deed_body_licenses.html:44
-msgid ""
-"The licensor cannot revoke these freedoms as long as you follow the license "
-"terms."
-msgstr ""
-"Licencētājs nevar atsaukt šīs tiesības, ja jūs ievērojat šos licences "
-"noteikumus."
-
-#: templates/includes/deed_body_licenses.html:50
-msgid "Under the following terms:"
-msgstr "Ievērojot sekojošus nosacījumus:"
-
-#: templates/includes/deed_body_licenses.html:61
-msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:73
-msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
-msgstr ""
-"Jums ir atbilstoši <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">jāatsaucas uz darbu</a></span>, norādot saiti uz licenci "
-"un <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">jānorāda veiktās "
-"izmaiņas</a></span>.  Jūs varat to darīt dažādos saprātīgos veidos, bet "
-"noteikti ne tā, kas liktu domāt, ka licencētājs ir apstiprinājis jūsu darbu "
-"vai tajā veiktās izmaiņas."
-
-#: templates/includes/deed_body_licenses.html:85
-msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
-msgstr ""
-"Jūs nevarat lietot materiālu <a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">komerciālām vajadzībām</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid ""
-"If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
-msgstr ""
-"Ja jūs remiksējat, pārveidojat vai balstāties uz šo materiālu, jums ir "
-"jāizplata jaunais, atvasinātais darbs <a href=\"#\" "
-"id=\"same_license_popup\" class=\"helpLink\">ar to pašu licenci</a> kā šis "
-"darbs."
-
-#: templates/includes/deed_body_licenses.html:107
-msgid "NoDerivatives"
-msgstr "Nepārveidojot"
-
-#: templates/includes/deed_body_licenses.html:107
-msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
-msgstr ""
-"Ja jūs <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remiksējat, maināt vai balstāties uz</a> materiālu, jūs "
-"nedrīkstat to izplatīt tālāk."
-
-#: templates/includes/deed_body_licenses.html:118
-msgid ""
-"You may not use this work to advertise for or promote anything but the work "
-"you create from it."
-msgstr ""
-"Jūs varat izmantot darbu un balstīties uz tā, tikai lai popularizētu vai "
-"atbalstītu to."
-
-#: templates/includes/deed_body_licenses.html:129
-msgid ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Izmantojot vai izplatot darbu, jums ir skaidri jānorāda šī darba "
-"licencēšanas noteikumi. Labākais veids, kā to darīt, ir norādīt saiti uz šo "
-"lapu."
-
-#: templates/includes/deed_body_licenses.html:140
-msgid ""
-"You may not perform, display, or distribute copies of this whole work for "
-"any purpose."
-msgstr ""
-"Jūs nedrīkstat attēlot, rādīt vai izplatīt darba kopijas nekādos nolūkos."
-
-#: templates/includes/deed_body_licenses.html:150
-msgid "No additional restrictions"
-msgstr "Bez papildu ierobežojumiem"
-
-#: templates/includes/deed_body_licenses.html:150
-msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
-msgstr ""
-"Jūs nedrīkstat izmantot juridiskus vai <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">tehniskus "
-"ierobežojumus</a>, kas citiem traucē izmantot darbu tā, kā to ir atļauts "
-"darīt licences noteikumos."
-
-#: templates/includes/deed_body_licenses.html:157
-msgid "Notices:"
-msgstr "Piezīmes:"
-
-#: templates/includes/deed_body_licenses.html:160
-msgid ""
-"You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
-msgstr ""
-"Jums nav jārīkojas saskaņā ar licenci tā materiāla daļām, kuras jau ir "
-"sabiedrības īpašums, vai gadījumos, kad ir spēkā <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">ierobežojumu "
-"izņēmumi</a>."
-
-#: templates/includes/deed_body_licenses.html:163
-msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
-msgstr ""
-"Bez jebkādas garantijas. Licence var nesniegt visas nepieciešamās "
-"garantijas, kuras jums var būt nepieciešamas darba izmantošanai. Piemēram, "
-"materiāla izmantošanas veidus var ierobežot citas tiesības, kā <a href=\"#\""
-" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publiskuma, privātuma vai morālās tiesības</a>."
-
-#: templates/includes/deed_body_mark.html:7
-#: templates/includes/deed_body_zero.html:6
-msgid "No Copyright"
-msgstr "Nav autortiesību"
-
-#: templates/includes/deed_body_mark.html:14
-msgid ""
-"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
-"known restrictions under copyright law, including all related and "
-"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
-"perform the work, even for commercial purposes, all without asking "
-"permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\">Šis darbs ir <b>atzīmēts</b> kā brīvs no autortiesību "
-"ierobežojumiem, ieskaitot saistītās un blakustiesības.</p> <p> <br />Jūs "
-"varat kopēt, mainīt, izplatīt un atskaņot darbu arī komerciālām vajadzībām, "
-"nevienam neprasot atļauju. Skatiet <b>papildu informāciju</b> zemāk.</p>"
-
-#: templates/includes/deed_body_mark.html:22
-#: templates/includes/deed_body_zero.html:19
-msgid "Other Information"
-msgstr "Papildu informācija"
-
-#: templates/includes/deed_body_mark.html:28
-msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
-"Darbs var nebūt brīvs no autortiesību ierobežojumiem <a href=\"\" "
-"class=\"helpLink\" id=\"all_jurisdictions\">visās jurisdikcijās</a>."
-
-#: templates/includes/deed_body_mark.html:30
-msgid ""
-"Persons may have other rights in or related to the work, such as patent or "
-"trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_mark.html:32
-msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr ""
-"Dažās jurisdikcijās autora <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">morālās tiesības</a> var pastāvēt arī ārpus "
-"autortiesībām. Šīs tiesības var noteikt, ka autoram ir tiesības iebilst pret"
-" ļaunprātīgu rīcību."
-
-#: templates/includes/deed_body_mark.html:34
-msgid ""
-"Unless expressly stated otherwise, the person who identified the work makes "
-"no warranties about the work, and disclaims liability for all uses of the "
-"work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Ja nav tieši norādīts savādāk, persona, kura ir norādījusi darbu, par to "
-"nedod nekādas garantijas, un atsakās no jebkādām saistībām, kādas var "
-"rasties, lietojot darbu saskaņā ar visām likumdošanas normām."
-
-#: templates/includes/deed_body_mark.html:36
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
-msgstr ""
-"Lietojot vai citējot darbu jūs nedrīkstat radīt priekšstatu, ka <a href=\"\""
-" class=\"helpLink\" id=\"endorsement\">darbu ir apstiprinājis</a> autors, "
-"vai persona, kura to ir noteikusi."
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid "Unimplemented"
-msgstr ""
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid ""
-"this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:12
-msgid ""
-"The person who associated a work with this deed has <b>dedicated</b> the "
-"work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
-msgstr ""
-"Cilvēks, kas pievienojis darbam šo aktu ir <b>novēlējis</b> to kā "
-"sabiedrības īpašumu, atsakoties no savām tiesībām uz darbu, ieskaitot "
-"blakus- u.c. saistītās tiesības, kā to nosaka autortiesību likums."
-
-#: templates/includes/deed_body_zero.html:13
-msgid ""
-"You can copy, modify, distribute and perform the work, even for commercial "
-"purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Jūs varat kopēt, pārveidot, izplatīt un izpildīt darbu arī komerciālos "
-"nolūkos, neprasot par to nekādu atļauju. Skatiet <b>Papildu informācija</b> "
-"zemāk."
-
-#: templates/includes/deed_body_zero.html:24
-msgid ""
-"In no way are the patent or trademark rights of any person affected by CC0, "
-"nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:26
-msgid ""
-"Unless expressly stated otherwise, the person who associated a work with "
-"this deed makes no warranties about the work, and disclaims liability for "
-"all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Ja nav norādīts savādāk, persona, kura saistīja ziedoto darba ar šo aktu "
-"nenodrošina nekādas garantijas par darbu un tā izmantošanu saskaņā ar to, kā"
-" tas ir noteikts likumdošanā."
-
-#: templates/includes/deed_body_zero.html:27
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"affirmer."
-msgstr ""
-"Lietojot darbu jūs nedrīkstat likt domāt, ka to <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">ir apstiprinājis</a> autors vai "
-"licences apstiprinātājs."
-
-#: templates/includes/deed_body_zero.html:32
-msgid "Other Rights"
-msgstr "Citas tiesības"
-
-#: templates/includes/deed_body_zero.html:34
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Darba, kuram nepastāv autortiesību ierobežojumi, lietošanu var noteikt arī "
-"citi ierobežojumi. Uz darbu var attiekties, piemēram, personas datu "
-"aizsardzības ierobežojumi kuri nosaka, kā tiek publicēti, attēloti vai "
-"izplatīti attēli, skaņa vai izskats, kā arī citi ierobežojumi, saskaņā ar "
-"valsts likumdošanu."
-
-#: templates/includes/deed_body_zero.html:35
-#: templates/includes/deed_body_zero.html:42
-#: templates/includes/deed_body_zero.html:51
-msgid "Learn more"
-msgstr "Uzzināt vairāk"
-
-#: templates/includes/deed_body_zero.html:39
-msgid "Endorsement"
-msgstr "Apstiprināšana"
-
-#: templates/includes/deed_body_zero.html:41
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Dažās jurisdikcijās, nepamatota norāde, ka darba lietošanu ir apstiprinājis "
-"autors vai publicētājs, var būt nelegāla nodarbe."
-
-#: templates/includes/deed_body_zero.html:45
-msgid "Citation"
-msgstr "Citāts"
-
-#: templates/includes/deed_body_zero.html:48
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Nokopējiet un ievietojiet sagatavoto HTML kodu savā tīmekļa lai atvieglotu "
-"atsaukšanos uz to."
-
-#: templates/includes/deed_body_zero.html:55
-msgid "Who is the affirmer?"
-msgstr "Kas ir apstiprinātājs?"
-
-#: templates/includes/deed_body_zero.html:58
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Apstiprinātājs ir persona, kura, izmantojot CC0, saskaņā ar likumdošanu, "
-"aizstāv tiesības uz darbu visā pasaulē. Tas var būt darba autors vai arī "
-"cita persona, kurai pieder darba autortiesības vai citas saistītās tiesības "
-"uz darbu."
-
-#: templates/includes/disclaimer_40.html:3
-#: templates/includes/disclaimer_certification.html:3
-#: templates/includes/disclaimer_deprecated.html:3
-#: templates/includes/disclaimer_newer_license.html:3
-#: templates/includes/disclaimer_zero.html:9
-msgid "Disclaimer"
-msgstr "Atrunas"
-
-#: templates/includes/disclaimer_40.html:5
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr ""
-"Šis akts apraksta tikai galvenās patiesās licences īpašības. Tas nav pati "
-"licence un tam nav juridiskas vērtības. Jums būtu uzmanīgi jāizskata "
-"patiesās licences terminus un noteikumus pirms licencēt ar to savus "
-"materiālus."
-
-#: templates/includes/disclaimer_40.html:13
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr ""
-
-#: templates/includes/disclaimer_certification.html:4
+#: templates/includes/notice_certification.html:5
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -935,7 +951,7 @@ msgstr ""
 "jurisdikcijās. Lai nodotu jaunus darbus sabiedrības īpašumā, mēs "
 "rekomendējam izmantot <a href=\"/choose/zero/\">CC0</a> licenci."
 
-#: templates/includes/disclaimer_deprecated.html:5
+#: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -944,7 +960,7 @@ msgstr ""
 "Creative Commons <a href=\"http://creativecommons.org/retiredlicenses\">šo "
 "rīku vairs neatbalsta</a> un neiesaka to izmantot darbos."
 
-#: templates/includes/disclaimer_newer_license.html:5
+#: templates/includes/notice_newer_license.html:5
 msgid ""
 "This is an older version of this license. Compared to previous versions, the"
 " 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
@@ -953,7 +969,7 @@ msgid ""
 "use of the 4.0 license instead:"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:10
+#: templates/includes/notice_zero.html:4
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -979,49 +995,32 @@ msgstr ""
 "nevienā jurisdikcijā un atsakās no jebkādām saistībām par šī darba "
 "izmantošanu. </p>"
 
-#: templates/includes/disclaimer_zero.html:24
-msgid ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
-"(read the full text)</a>."
-msgstr ""
-"Šis ir cilvēkiem saprotams <a href=\"legalcode\" "
-"class=\"fulltext\">juridiskās (pilnās) licences</a> apkopojums."
-
-#: templates/includes/language_selector.html:5
-#: templates/includes/translations.html:4
-msgid "This page is available in the following languages:"
-msgstr "Šī lapa ir pieejama sekojošās valodās:"
-
-#: templates/includes/languages_dropdown.html:4
-msgid "Languages available"
-msgstr ""
-
-#: templates/includes/languages_dropdown.html:9
-msgid "Select"
-msgstr ""
-
-#: templates/includes/related_links.html:9
+#: templates/includes/related_links.html:4
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses and other legal "
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:17
+#: templates/includes/related_links.html:10
 msgid "Learn more about our work"
 msgstr ""
 
-#: templates/includes/related_links.html:19
+#: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: templates/includes/related_links.html:20
+#: templates/includes/related_links.html:12
 msgid "Support our work"
 msgstr ""
 
-#: templates/includes/related_links.html:22
+#: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
 msgstr ""
+
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr "Šī lapa ir pieejama sekojošās valodās:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1043,15 +1042,11 @@ msgstr ""
 "apsvērumi paredzēti tikai informatīviem nolūkiem, tie nav izsmeļoši un nav "
 "daļa no mūsu licencēm."
 
-#: templates/includes/use_of_licenses.html:21
+#: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
 msgstr "Apsvērumi licenciāriem"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
-msgid "Show Considerations for Licensors"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:23
+#: templates/includes/use_of_licenses.html:22
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -1079,15 +1074,11 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Papildu"
 " apsvērumi licenciāriem.</a>"
 
-#: templates/includes/use_of_licenses.html:40
+#: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
 msgstr "Apsvērumi sabiedrībai"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
-msgid "Show Considerations for the Public"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:42
+#: templates/includes/use_of_licenses.html:39
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -1119,29 +1110,42 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Papildu"
 " apsvērumi sabiedrībai.</a>"
 
-#: templates/legalcode.html:4 templates/legalcode.html:10
-#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
-msgid "Legal Code"
-msgstr "Juridiskais saturs"
-
-#: templates/legalcode.html:25
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:84
+#: templates/legalcode.html:50
+msgid "Version"
+msgstr ""
+
+#: templates/legalcode.html:51
+msgid ""
+"See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
+"and the date of change"
+msgstr ""
+
+#: templates/legalcode.html:104
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:86
+#: templates/legalcode.html:106
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list-licenses.html:54 templates/list-licenses.html:70
-#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+#: templates/legalcode.html:108
+msgid "Show Considerations for Licensors"
+msgstr ""
+
+#: templates/legalcode.html:110
+msgid "Show Considerations for the Public"
+msgstr ""
+
+#: templates/list-licenses.html:55 templates/list-licenses.html:71
+#: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
 msgstr ""
 
-#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+#: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
 msgstr ""
 

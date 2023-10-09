@@ -303,7 +303,7 @@ msgstr "Vietnam"
 msgid "South Africa"
 msgstr "Güney Afrika"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Atıf"
 
@@ -339,7 +339,7 @@ msgstr ""
 "Sadece telif hakkının adanması (Amerika Birleşik Devletleri hukukuna göre) \n"
 "ya da Kamu Malı Sertifikasyonu"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Gelişmekte Olan Ülkeler"
 
@@ -347,7 +347,7 @@ msgstr "Gelişmekte Olan Ülkeler"
 msgid "Public Domain Mark"
 msgstr "Kamu Malı İşareti"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "GayriTicari"
 
@@ -367,7 +367,7 @@ msgstr "Türetilemez"
 msgid "NoDerivs-NonCommercial"
 msgstr "Türetilemez-GayriTicari"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "AynıLisanslaPaylaş"
 
@@ -379,36 +379,44 @@ msgstr "Örnek"
 msgid "Sampling Plus"
 msgstr "Örneklem"
 
-#: legal_tools/views.py:49
+#: legal_tools/views.py:54
 msgid "Public Domain"
 msgstr "Kamu Malı"
 
-#: legal_tools/views.py:51
+#: legal_tools/views.py:56
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:421
-msgid "Licenses List"
-msgstr ""
-
-#: legal_tools/views.py:423
-msgid "Public Domain List"
-msgstr ""
-
-#: templates/base.html:41
-msgid "Skip to content"
-msgstr "İçeriğe geç"
-
-#: templates/base.html:44
-msgid "Home"
-msgstr "Anasayfa"
-
-#: templates/deed.html:5 templates/deed.html:14
-#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+#: legal_tools/views.py:194 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:13
+#: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr "Senet"
 
-#: templates/deed.html:21
+#: legal_tools/views.py:203
+#: templates/includes/snippet/title_with_icons.html:15
+#: templates/legalcode.html:6 templates/list-licenses.html:39
+#: templates/list-publicdomain.html:31
+msgid "Legal Code"
+msgstr "Legal Kod"
+
+#: legal_tools/views.py:407 templates/includes/related_links.html:15
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:410 templates/includes/related_links.html:18
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:3
+msgid "Home"
+msgstr "Anasayfa"
+
+#: templates/base.html:31
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr "Yasal koda bakın"
 
@@ -416,7 +424,463 @@ msgstr "Yasal koda bakın"
 msgid "Page Not Found"
 msgstr "Sayfa Bulunamadı"
 
-#: templates/includes/about_cc.html:10
+#: templates/includes/deed_body_certification.html:3
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:6
+msgid "You are free to:"
+msgstr "Bunları yapmakta özgürsünüz:"
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr ""
+"<strong>Paylaşmak</strong> &mdash; çalışmayı kopyalamak, dağıtmak, aktarmak"
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr "<strong>Karıştırmak</strong> &mdash; çalışmayı uyarlamak"
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+"Gayriticari amaçlarla bu eserden örnek almak, karmak ya da yaratıcı bir "
+"şekilde dönüştürmek."
+
+#: templates/includes/deed_body_licenses.html:24
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+"Ticari ya da gayriticari amaçlarla bu eserden örnek almak, karmak ya da "
+"yaratıcı bir şekilde dönüştürmek."
+
+#: templates/includes/deed_body_licenses.html:28
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+"Sadece gayriticari amaçla, görüntüleme, değişiklik yapma ve dağıtma (örn. "
+"dosya paylaşımı veya gayriticari yayınlar)."
+
+#: templates/includes/deed_body_licenses.html:34
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+"<strong>Paylaş</strong> &mdash; eseri her ortam veya formatta kopyalayabilir"
+" ve yeniden dağıtabilirsiniz."
+
+#: templates/includes/deed_body_licenses.html:35
+#: templates/includes/deed_body_licenses.html:42
+msgid "for any purpose, even commercially."
+msgstr "her türlü amaç için, ticari amaç da dahil"
+
+#: templates/includes/deed_body_licenses.html:41
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+"<strong>Uyarla</strong> &mdash; her türlü amaç için (ticari amaç da dahil) "
+"karıştır, aktar ve mevcut eserin üzerine inşa et"
+
+#: templates/includes/deed_body_licenses.html:49
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"Lisans şartlarını yerine getirdiğiniz sürece, lisans sahibi bu özgürlükleri "
+"(belirtilen hakları) iptal edemez."
+
+#: templates/includes/deed_body_licenses.html:56
+msgid "Under the following terms:"
+msgstr "Aşağıdaki şartlar altında:"
+
+#: templates/includes/deed_body_licenses.html:63
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr ""
+"Yukarıdaki özgürlükleri yalnızca gelişmekte olan ülkelerde "
+"kullanabilirsiniz."
+
+#: templates/includes/deed_body_licenses.html:70
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">uygun "
+"referans vermeli</a></span>, lisansa bağlantı sağlamalı <span "
+"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">ve değişiklik "
+"yapıldıysa bilgi</a></span>vermelisiniz. Bunları uygun bir şekilde yerine "
+"getirebilirsiniz fakat bu, lisans sahibinin sizi ve kullanım şeklinizi "
+"onayladığını göstermez."
+
+#: templates/includes/deed_body_licenses.html:77
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+"Bu materyali <a href=\"#\" id=\"commercial_purposes_popup\" "
+"class=\"helpLink\">ticari amaçlarla</a> kullanamazsınız."
+
+#: templates/includes/deed_body_licenses.html:83
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+"Eğer materyali karıştırdınızsa, aktardınızsa ya da materyalin üzerine "
+"çalıştınızsa, ancak aynı lisans <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\"> ile dağıtabilirsiniz</a>. "
+
+#: templates/includes/deed_body_licenses.html:89
+msgid "NoDerivatives"
+msgstr "Türetilmemiş"
+
+#: templates/includes/deed_body_licenses.html:89
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+"Eğer materyali <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">karıştırdınızsa,aktardınızsa, ya da materyalin üzerine "
+"çalıştınızsa</a> güncellenmiş materyali dağıtamazsınız."
+
+#: templates/includes/deed_body_licenses.html:95
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"Bu çalışmayı sadece kendi eserleriniz için kullanabilirsiniz, reklam ya da "
+"promosyon amaçlı kullanamazsınız."
+
+#: templates/includes/deed_body_licenses.html:101
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+"Herhangi bir yeniden kullanım veya dağıtım için, başkalarının bu eserin "
+"lisans şartlarını net olarak anlamasını sağlayın. Bunu yapmanın en iyi yolu,"
+" bu web sayfasına bir link vermektir."
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"Bu eserin tamamını hiç bir amaçla sergileyemez, görüntüleyemez ya da "
+"kopyalarını dağıtamazsınız."
+
+#: templates/includes/deed_body_licenses.html:112
+msgid "No additional restrictions"
+msgstr "Ek sınırlamalar yoktur"
+
+#: templates/includes/deed_body_licenses.html:112
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"Lisansın izin verdiği hakları başkaları üzerinde kanunlarla <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">ya da "
+"teknolojiyi</a>kullanarak sınırlayamazsınız. "
+
+#: templates/includes/deed_body_licenses.html:118
+msgid "Notices:"
+msgstr "Uyarılar:"
+
+#: templates/includes/deed_body_licenses.html:121
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+"Kamu Malı malzemenin lisans koşullarına ya da<a href=\"#\" "
+"id=\"exception_or_limitation_popup\" class=\"helpLink\">ayrıcalık ya da "
+"sınırları</a> ile izin verilen kullanımına uymak zorunda değilsiniz."
+
+#: templates/includes/deed_body_licenses.html:124
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+"Garanti verilmez. Lisans kullanım amacınıza uygun tüm izinleri sağlamayabilir. Mesela, <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">  \n"
+"tanınırlık, gizlilik veya manevi haklar</a> gibi haklar kullanıma sınır getirebilir."
+
+#: templates/includes/deed_body_mark.html:6
+#: templates/includes/deed_body_zero.html:5
+msgid "No Copyright"
+msgstr "Telif Hakkı Sınırlaması yok"
+
+#: templates/includes/deed_body_mark.html:9
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\"> Bu eser <b>identified</b> bilinen tüm telif hakkı "
+"sınırlandırmalarından ve ilgili hak sınırlandırmalarından bağımsızdır. </p> "
+"<p> <br /> Eseri izin almadan ticari amaçlar da dahil olmak üzere "
+"kopyalayabilir, dağıtabilir ya da kullanabilirsiniz.<b>Diğer bilgiler</b> "
+"için alta bakınız. </p>"
+
+#: templates/includes/deed_body_mark.html:21
+#: templates/includes/deed_body_zero.html:13
+msgid "Other Information"
+msgstr "Diğer Bilgiler"
+
+#: templates/includes/deed_body_mark.html:25
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"Bu eser tüm <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">yetki "
+"alanlarında</a> bilinen telif hakkı kısıtlarından bağımsız olmayabilir ."
+
+#: templates/includes/deed_body_mark.html:31
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+"Kişiler, patent ya da ticari marka hakları gibi işte ya da onunla ilgili "
+"başka haklara sahip olabilir ve diğerleri, işin nasıl kullanıldığı konusunda"
+" <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">tanıtım ya da gizlilik</a> "
+"hakları gibi haklara sahip olabilir."
+
+#: templates/includes/deed_body_mark.html:40
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+"Bazı yetki alanlarında <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">yazarın ahlaki hakları</a> telif haklarının ötesine "
+"taşınmış olabilir. Bu haklar, yazar olarak aşağılayıcı muamelelere itiraz "
+"hakkı gibi hakları içerebilir."
+
+#: templates/includes/deed_body_mark.html:48
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Aksi belirtilmediği sürece, kişi tanımladığı esere dair hiç bir garanti "
+"vermez, kanuni tüm yükümlülükleri reddeder."
+
+#: templates/includes/deed_body_mark.html:55
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+"Eseri kullanırken ya da alıntı verirken yazarın ya da eseri tanımlayanın <a "
+"href=\"\" class=\"helpLink\" id=\"endorsement\">desteği</a> ima edilemez."
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid "Unimplemented"
+msgstr "Uygulanmamış"
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr "bu yasal aracın geçerli bir şablonu yok. Lütfen bu sorunu bildirin:"
+
+#: templates/includes/deed_body_zero.html:7
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+"Bu özet ile eserini ilişkilendiren kişi, eserini Kamu Malı olarak <b>adar</ "
+"b>, tüm ilgili ve komşu haklar dahil olmak üzere, telif haklarından "
+"kanunların izin verdiği sınırlarda dünya çapında feragat eder."
+
+#: templates/includes/deed_body_zero.html:8
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+"Bu eseri hiçbir izin almadan ticari amaçlar da dahi olmak üzere  "
+"kopyalayabilir, düzenleyebilir, dağıtabilir ya da kullanabilirsiniz. "
+"<b>Diğer bilgiler</b> için alta bakınız."
+
+#: templates/includes/deed_body_zero.html:15
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:17
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Kanunun tanımladığı tüm haklar çerçevesinde aksi belirtilmediği sürece bu "
+"özet ile eseri ilişkilendiren kişi eser hakkında herhangi bir garanti "
+"vermez, tüm oluşacak sorumlulukları reddeder."
+
+#: templates/includes/deed_body_zero.html:18
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+"Bir eseri kullanırken ya da eserden alıntı yaparken eserin yazarı ya da "
+"onaylayıcısının ağzından <a href=\"\" class=\"helpLink\" "
+"id=\"endorsement\">destek</a> ima edilemez."
+
+#: templates/includes/deed_body_zero.html:21
+msgid "Other Rights"
+msgstr "Diğer Haklar"
+
+#: templates/includes/deed_body_zero.html:23
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Bilinen telif hakkı kısıtlamaları olmayan eserler aksini destekleyecek "
+"şekilde düzenlenmiş ve sınırlandırılmış olabilir.Eser veya kullanımı "
+"yürürlükteki yasalar kapsamında kişisel veri koruma yasaları, tanıtım, "
+"görüntü, ya da gizlilik haklarını; bir kişinin ses, görüntü veya "
+"benzerliğinin nasıl kullanıldığını kontrol etmesi için izin verir, ya da "
+"diğer kısıtlamalara veya sınırlamalara tabi tutabilir."
+
+#: templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:31
+#: templates/includes/deed_body_zero.html:37
+msgid "Learn more"
+msgstr "Daha fazla bilgi alın"
+
+#: templates/includes/deed_body_zero.html:28
+msgid "Endorsement"
+msgstr "Destek"
+
+#: templates/includes/deed_body_zero.html:30
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Bazı yetki alanlarında, yazar , yayıncı ya da başka her hangi birinin haksız"
+" imalarda bulunması kanuna aykırı olabilir."
+
+#: templates/includes/deed_body_zero.html:34
+msgid "Citation"
+msgstr "Alıntı"
+
+#: templates/includes/deed_body_zero.html:36
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+"Bu eserden alıntı yapabilmek için sunulan HTML kodunu kopyalayıp web "
+"sitenizde kullanın."
+
+#: templates/includes/deed_body_zero.html:40
+msgid "Who is the affirmer?"
+msgstr "Doğrulayan kimdir?"
+
+#: templates/includes/deed_body_zero.html:42
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+"Affirmer kanunların izin verdiği çerçevede dünya çapında eser haklarından "
+"CC0 kullanarak vaz geçen kişidir. Bu kişi eser sahibi, ya da eser haklarına "
+"telif hakları ile ya da ilgili kanunlarla sahip olan kişi olabilir."
+
+#: templates/includes/languages_dropdown.html:6
+msgid "Languages available"
+msgstr "Mevcut diller"
+
+#: templates/includes/notice_40.html:3
+#: templates/includes/notice_certification.html:3
+#: templates/includes/notice_deprecated.html:3
+#: templates/includes/notice_newer_license.html:3
+#: templates/includes/notice_zero.html:3
+msgid "Notice"
+msgstr ""
+
+#: templates/includes/notice_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+"Bu özet asıl lisansın sadece ana hat ve kurallarını belirtir. Lisans "
+"değildir ve kanuni değer taşımaz. Lisanslanmış materyali kullanmadan önce "
+"orjinal lisanstaki tüm kural ve şartları dikkatle okumanız gerekir."
+
+#: templates/includes/notice_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+"Creative Coomns bir hukuk firması değildir ve hukuki hizmet vermez. Bu özeti"
+" ya da bağlı olduğu lisansı dağıtmak, göstermek ya da linklemek bir avukat "
+"müvekkil ilişkisi yaratmaz. "
+
+#: templates/includes/notice_about_cc_and_trademark.html:3
+msgid "About Creative Commons"
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -454,7 +918,7 @@ msgstr ""
 " mahal vermemek adına, mezkur paragraf, kamu lisanslarının bir parçasını "
 "teşkil etmemektedir."
 
-#: templates/includes/about_cc.html:30
+#: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
@@ -463,11 +927,11 @@ msgstr ""
 "href=\"//creativecommons.org/\">creativecommons.org</a> üzerinden iletişim "
 "kurabilir."
 
-#: templates/includes/about_cc_and_license.html:6
+#: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
 msgstr "Lisans ve Creative Commons hakkında"
 
-#: templates/includes/about_cc_and_license.html:8
+#: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -489,455 +953,7 @@ msgstr ""
 "bulunmamaktadır. Creative Commons, mümkün olan en geniş kapsamda, bunların "
 "kullanımından kaynaklanan zararlara ilişkin hiçbir sorumluluk kabul etmez."
 
-#: templates/includes/deed_body_certification.html:6
-msgid ""
-"<p>The person or persons who have associated work with this document (the "
-"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
-"best of his knowledge, the work of authorship identified is in the public "
-"domain of the country from which the work is published, or (b) hereby "
-"dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:7
-msgid "You are free to:"
-msgstr "Bunları yapmakta özgürsünüz:"
-
-#: templates/includes/deed_body_licenses.html:11
-msgid ""
-"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
-"<strong>Paylaşmak</strong> &mdash; çalışmayı kopyalamak, dağıtmak, aktarmak"
-
-#: templates/includes/deed_body_licenses.html:12
-msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>Karıştırmak</strong> &mdash; çalışmayı uyarlamak"
-
-#: templates/includes/deed_body_licenses.html:17
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
-msgstr ""
-"Gayriticari amaçlarla bu eserden örnek almak, karmak ya da yaratıcı bir "
-"şekilde dönüştürmek."
-
-#: templates/includes/deed_body_licenses.html:19
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
-msgstr ""
-"Ticari ya da gayriticari amaçlarla bu eserden örnek almak, karmak ya da "
-"yaratıcı bir şekilde dönüştürmek."
-
-#: templates/includes/deed_body_licenses.html:23
-msgid ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Sadece gayriticari amaçla, görüntüleme, değişiklik yapma ve dağıtma (örn. "
-"dosya paylaşımı veya gayriticari yayınlar)."
-
-#: templates/includes/deed_body_licenses.html:29
-msgid ""
-"<strong>Share</strong> &mdash; copy and redistribute the material in any "
-"medium or format"
-msgstr ""
-"<strong>Paylaş</strong> &mdash; eseri her ortam veya formatta kopyalayabilir"
-" ve yeniden dağıtabilirsiniz."
-
-#: templates/includes/deed_body_licenses.html:30
-#: templates/includes/deed_body_licenses.html:37
-msgid "for any purpose, even commercially."
-msgstr "her türlü amaç için, ticari amaç da dahil"
-
-#: templates/includes/deed_body_licenses.html:36
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
-"<strong>Uyarla</strong> &mdash; her türlü amaç için (ticari amaç da dahil) "
-"karıştır, aktar ve mevcut eserin üzerine inşa et"
-
-#: templates/includes/deed_body_licenses.html:44
-msgid ""
-"The licensor cannot revoke these freedoms as long as you follow the license "
-"terms."
-msgstr ""
-"Lisans şartlarını yerine getirdiğiniz sürece, lisans sahibi bu özgürlükleri "
-"(belirtilen hakları) iptal edemez."
-
-#: templates/includes/deed_body_licenses.html:50
-msgid "Under the following terms:"
-msgstr "Aşağıdaki şartlar altında:"
-
-#: templates/includes/deed_body_licenses.html:61
-msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
-"Yukarıdaki özgürlükleri yalnızca gelişmekte olan ülkelerde "
-"kullanabilirsiniz."
-
-#: templates/includes/deed_body_licenses.html:73
-msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
-msgstr ""
-"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">uygun "
-"referans vermeli</a></span>, lisansa bağlantı sağlamalı <span "
-"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
-"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">ve değişiklik "
-"yapıldıysa bilgi</a></span>vermelisiniz. Bunları uygun bir şekilde yerine "
-"getirebilirsiniz fakat bu, lisans sahibinin sizi ve kullanım şeklinizi "
-"onayladığını göstermez."
-
-#: templates/includes/deed_body_licenses.html:85
-msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
-msgstr ""
-"Bu materyali <a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">ticari amaçlarla</a> kullanamazsınız."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid ""
-"If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
-msgstr ""
-"Eğer materyali karıştırdınızsa, aktardınızsa ya da materyalin üzerine "
-"çalıştınızsa, ancak aynı lisans <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\"> ile dağıtabilirsiniz</a>. "
-
-#: templates/includes/deed_body_licenses.html:107
-msgid "NoDerivatives"
-msgstr "Türetilmemiş"
-
-#: templates/includes/deed_body_licenses.html:107
-msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
-msgstr ""
-"Eğer materyali <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">karıştırdınızsa,aktardınızsa, ya da materyalin üzerine "
-"çalıştınızsa</a> güncellenmiş materyali dağıtamazsınız."
-
-#: templates/includes/deed_body_licenses.html:118
-msgid ""
-"You may not use this work to advertise for or promote anything but the work "
-"you create from it."
-msgstr ""
-"Bu çalışmayı sadece kendi eserleriniz için kullanabilirsiniz, reklam ya da "
-"promosyon amaçlı kullanamazsınız."
-
-#: templates/includes/deed_body_licenses.html:129
-msgid ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Herhangi bir yeniden kullanım veya dağıtım için, başkalarının bu eserin "
-"lisans şartlarını net olarak anlamasını sağlayın. Bunu yapmanın en iyi yolu,"
-" bu web sayfasına bir link vermektir."
-
-#: templates/includes/deed_body_licenses.html:140
-msgid ""
-"You may not perform, display, or distribute copies of this whole work for "
-"any purpose."
-msgstr ""
-"Bu eserin tamamını hiç bir amaçla sergileyemez, görüntüleyemez ya da "
-"kopyalarını dağıtamazsınız."
-
-#: templates/includes/deed_body_licenses.html:150
-msgid "No additional restrictions"
-msgstr "Ek sınırlamalar yoktur"
-
-#: templates/includes/deed_body_licenses.html:150
-msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
-msgstr ""
-"Lisansın izin verdiği hakları başkaları üzerinde kanunlarla <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">ya da "
-"teknolojiyi</a>kullanarak sınırlayamazsınız. "
-
-#: templates/includes/deed_body_licenses.html:157
-msgid "Notices:"
-msgstr "Uyarılar:"
-
-#: templates/includes/deed_body_licenses.html:160
-msgid ""
-"You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
-msgstr ""
-"Kamu Malı malzemenin lisans koşullarına ya da<a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">ayrıcalık ya da "
-"sınırları</a> ile izin verilen kullanımına uymak zorunda değilsiniz."
-
-#: templates/includes/deed_body_licenses.html:163
-msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
-msgstr ""
-"Garanti verilmez. Lisans kullanım amacınıza uygun tüm izinleri sağlamayabilir. Mesela, <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">  \n"
-"tanınırlık, gizlilik veya manevi haklar</a> gibi haklar kullanıma sınır getirebilir."
-
-#: templates/includes/deed_body_mark.html:7
-#: templates/includes/deed_body_zero.html:6
-msgid "No Copyright"
-msgstr "Telif Hakkı Sınırlaması yok"
-
-#: templates/includes/deed_body_mark.html:14
-msgid ""
-"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
-"known restrictions under copyright law, including all related and "
-"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
-"perform the work, even for commercial purposes, all without asking "
-"permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\"> Bu eser <b>identified</b> bilinen tüm telif hakkı "
-"sınırlandırmalarından ve ilgili hak sınırlandırmalarından bağımsızdır. </p> "
-"<p> <br /> Eseri izin almadan ticari amaçlar da dahil olmak üzere "
-"kopyalayabilir, dağıtabilir ya da kullanabilirsiniz.<b>Diğer bilgiler</b> "
-"için alta bakınız. </p>"
-
-#: templates/includes/deed_body_mark.html:22
-#: templates/includes/deed_body_zero.html:19
-msgid "Other Information"
-msgstr "Diğer Bilgiler"
-
-#: templates/includes/deed_body_mark.html:28
-msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
-"Bu eser tüm <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">yetki "
-"alanlarında</a> bilinen telif hakkı kısıtlarından bağımsız olmayabilir ."
-
-#: templates/includes/deed_body_mark.html:30
-msgid ""
-"Persons may have other rights in or related to the work, such as patent or "
-"trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-"Kişiler, patent ya da ticari marka hakları gibi işte ya da onunla ilgili "
-"başka haklara sahip olabilir ve diğerleri, işin nasıl kullanıldığı konusunda"
-" <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">tanıtım ya da gizlilik</a> "
-"hakları gibi haklara sahip olabilir."
-
-#: templates/includes/deed_body_mark.html:32
-msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr ""
-"Bazı yetki alanlarında <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">yazarın ahlaki hakları</a> telif haklarının ötesine "
-"taşınmış olabilir. Bu haklar, yazar olarak aşağılayıcı muamelelere itiraz "
-"hakkı gibi hakları içerebilir."
-
-#: templates/includes/deed_body_mark.html:34
-msgid ""
-"Unless expressly stated otherwise, the person who identified the work makes "
-"no warranties about the work, and disclaims liability for all uses of the "
-"work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Aksi belirtilmediği sürece, kişi tanımladığı esere dair hiç bir garanti "
-"vermez, kanuni tüm yükümlülükleri reddeder."
-
-#: templates/includes/deed_body_mark.html:36
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
-msgstr ""
-"Eseri kullanırken ya da alıntı verirken yazarın ya da eseri tanımlayanın <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\">desteği</a> ima edilemez."
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid "Unimplemented"
-msgstr "Uygulanmamış"
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid ""
-"this legal tool does not have a valid template. Please report this issue:"
-msgstr "bu yasal aracın geçerli bir şablonu yok. Lütfen bu sorunu bildirin:"
-
-#: templates/includes/deed_body_zero.html:12
-msgid ""
-"The person who associated a work with this deed has <b>dedicated</b> the "
-"work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
-msgstr ""
-"Bu özet ile eserini ilişkilendiren kişi, eserini Kamu Malı olarak <b>adar</ "
-"b>, tüm ilgili ve komşu haklar dahil olmak üzere, telif haklarından "
-"kanunların izin verdiği sınırlarda dünya çapında feragat eder."
-
-#: templates/includes/deed_body_zero.html:13
-msgid ""
-"You can copy, modify, distribute and perform the work, even for commercial "
-"purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Bu eseri hiçbir izin almadan ticari amaçlar da dahi olmak üzere  "
-"kopyalayabilir, düzenleyebilir, dağıtabilir ya da kullanabilirsiniz. "
-"<b>Diğer bilgiler</b> için alta bakınız."
-
-#: templates/includes/deed_body_zero.html:24
-msgid ""
-"In no way are the patent or trademark rights of any person affected by CC0, "
-"nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:26
-msgid ""
-"Unless expressly stated otherwise, the person who associated a work with "
-"this deed makes no warranties about the work, and disclaims liability for "
-"all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Kanunun tanımladığı tüm haklar çerçevesinde aksi belirtilmediği sürece bu "
-"özet ile eseri ilişkilendiren kişi eser hakkında herhangi bir garanti "
-"vermez, tüm oluşacak sorumlulukları reddeder."
-
-#: templates/includes/deed_body_zero.html:27
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"affirmer."
-msgstr ""
-"Bir eseri kullanırken ya da eserden alıntı yaparken eserin yazarı ya da "
-"onaylayıcısının ağzından <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">destek</a> ima edilemez."
-
-#: templates/includes/deed_body_zero.html:32
-msgid "Other Rights"
-msgstr "Diğer Haklar"
-
-#: templates/includes/deed_body_zero.html:34
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Bilinen telif hakkı kısıtlamaları olmayan eserler aksini destekleyecek "
-"şekilde düzenlenmiş ve sınırlandırılmış olabilir.Eser veya kullanımı "
-"yürürlükteki yasalar kapsamında kişisel veri koruma yasaları, tanıtım, "
-"görüntü, ya da gizlilik haklarını; bir kişinin ses, görüntü veya "
-"benzerliğinin nasıl kullanıldığını kontrol etmesi için izin verir, ya da "
-"diğer kısıtlamalara veya sınırlamalara tabi tutabilir."
-
-#: templates/includes/deed_body_zero.html:35
-#: templates/includes/deed_body_zero.html:42
-#: templates/includes/deed_body_zero.html:51
-msgid "Learn more"
-msgstr "Daha fazla bilgi alın"
-
-#: templates/includes/deed_body_zero.html:39
-msgid "Endorsement"
-msgstr "Destek"
-
-#: templates/includes/deed_body_zero.html:41
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Bazı yetki alanlarında, yazar , yayıncı ya da başka her hangi birinin haksız"
-" imalarda bulunması kanuna aykırı olabilir."
-
-#: templates/includes/deed_body_zero.html:45
-msgid "Citation"
-msgstr "Alıntı"
-
-#: templates/includes/deed_body_zero.html:48
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Bu eserden alıntı yapabilmek için sunulan HTML kodunu kopyalayıp web "
-"sitenizde kullanın."
-
-#: templates/includes/deed_body_zero.html:55
-msgid "Who is the affirmer?"
-msgstr "Doğrulayan kimdir?"
-
-#: templates/includes/deed_body_zero.html:58
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Affirmer kanunların izin verdiği çerçevede dünya çapında eser haklarından "
-"CC0 kullanarak vaz geçen kişidir. Bu kişi eser sahibi, ya da eser haklarına "
-"telif hakları ile ya da ilgili kanunlarla sahip olan kişi olabilir."
-
-#: templates/includes/disclaimer_40.html:3
-#: templates/includes/disclaimer_certification.html:3
-#: templates/includes/disclaimer_deprecated.html:3
-#: templates/includes/disclaimer_newer_license.html:3
-#: templates/includes/disclaimer_zero.html:9
-msgid "Disclaimer"
-msgstr "Yasal Uyarı"
-
-#: templates/includes/disclaimer_40.html:5
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr ""
-"Bu özet asıl lisansın sadece ana hat ve kurallarını belirtir. Lisans "
-"değildir ve kanuni değer taşımaz. Lisanslanmış materyali kullanmadan önce "
-"orjinal lisanstaki tüm kural ve şartları dikkatle okumanız gerekir."
-
-#: templates/includes/disclaimer_40.html:13
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr ""
-"Creative Coomns bir hukuk firması değildir ve hukuki hizmet vermez. Bu özeti"
-" ya da bağlı olduğu lisansı dağıtmak, göstermek ya da linklemek bir avukat "
-"müvekkil ilişkisi yaratmaz. "
-
-#: templates/includes/disclaimer_certification.html:4
+#: templates/includes/notice_certification.html:5
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -948,7 +964,7 @@ msgstr ""
 "Kamu Malı olarak adamak için, <a href=\"/choose/zero/\">CC0</a>yi "
 "öneriyoruz."
 
-#: templates/includes/disclaimer_deprecated.html:5
+#: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -958,7 +974,7 @@ msgstr ""
 "href=\"http://creativecommons.org/retiredlicenses\">aracı iptal etmiştir</a>"
 " ve eserlere uygulanmasını önermez."
 
-#: templates/includes/disclaimer_newer_license.html:5
+#: templates/includes/notice_newer_license.html:5
 msgid ""
 "This is an older version of this license. Compared to previous versions, the"
 " 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
@@ -967,7 +983,7 @@ msgid ""
 "use of the 4.0 license instead:"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:10
+#: templates/includes/notice_zero.html:4
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -992,49 +1008,32 @@ msgstr ""
 "alanındaki telif haklarının statüsü hakkında hiçbir garanti vermez ve "
 "herhangi bir eserin her türde kullanımı için sorumuluğu reddeder. </p> "
 
-#: templates/includes/disclaimer_zero.html:24
-msgid ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
-"(read the full text)</a>."
-msgstr ""
-"Bu <a href=\"./legalcode\">Legal Kod'un (tam metni okuyun)</a> insan "
-"tarafından okunabilir özetidir."
-
-#: templates/includes/language_selector.html:5
-#: templates/includes/translations.html:4
-msgid "This page is available in the following languages:"
-msgstr "Bu sayfa şu dillerde mevcuttur:"
-
-#: templates/includes/languages_dropdown.html:4
-msgid "Languages available"
-msgstr "Mevcut diller"
-
-#: templates/includes/languages_dropdown.html:9
-msgid "Select"
-msgstr "Seçin"
-
-#: templates/includes/related_links.html:9
+#: templates/includes/related_links.html:4
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses and other legal "
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:17
+#: templates/includes/related_links.html:10
 msgid "Learn more about our work"
 msgstr "Çalışmamız hakkında dahasını öğrenin"
 
-#: templates/includes/related_links.html:19
+#: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
 msgstr "CC Lisanslama hakkında dahasını öğrenin"
 
-#: templates/includes/related_links.html:20
+#: templates/includes/related_links.html:12
 msgid "Support our work"
 msgstr "Çalışmamızı destekleyin"
 
-#: templates/includes/related_links.html:22
+#: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
 msgstr "Lisansı kendi materyaliniz için kullanın."
+
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr "Bu sayfa şu dillerde mevcuttur:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1056,15 +1055,11 @@ msgstr ""
 "belirtilmiş olan hususlar yalnızca bilgilendirme amacını taşımakta olup, "
 "sınırlayıcı değildir ve lisanslarımızın bir parçasını teşkil etmemektedir."
 
-#: templates/includes/use_of_licenses.html:21
+#: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
 msgstr "Lisanslayıcılara Yönelik Hususlar"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
-msgid "Show Considerations for Licensors"
-msgstr "Lisanslayıcılara Yönelik Hususları Göster"
-
-#: templates/includes/use_of_licenses.html:23
+#: templates/includes/use_of_licenses.html:22
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -1092,15 +1087,11 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Lisans"
 " verenler ile ilgili daha fazla hususlar.</a>"
 
-#: templates/includes/use_of_licenses.html:40
+#: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
 msgstr "Kamuya Yönelik Hususlar"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
-msgid "Show Considerations for the Public"
-msgstr "Kamuya Yönelik Hususları Göster"
-
-#: templates/includes/use_of_licenses.html:42
+#: templates/includes/use_of_licenses.html:39
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -1131,29 +1122,42 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Kamu"
 " ile ilgili daha ayrıntılı hususlar.</a>"
 
-#: templates/legalcode.html:4 templates/legalcode.html:10
-#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
-msgid "Legal Code"
-msgstr "Legal Kod"
-
-#: templates/legalcode.html:25
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr "Senede bakın"
 
-#: templates/legalcode.html:84
+#: templates/legalcode.html:50
+msgid "Version"
+msgstr ""
+
+#: templates/legalcode.html:51
+msgid ""
+"See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
+"and the date of change"
+msgstr ""
+
+#: templates/legalcode.html:104
 msgid "Hide Considerations for Licensors"
 msgstr "Lisanslayıcılara Yönelik Hususları Gizle"
 
-#: templates/legalcode.html:86
+#: templates/legalcode.html:106
 msgid "Hide Considerations for the Public"
 msgstr "Kamuya Yönelik Hususları Gizle"
 
-#: templates/list-licenses.html:54 templates/list-licenses.html:70
-#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+#: templates/legalcode.html:108
+msgid "Show Considerations for Licensors"
+msgstr "Lisanslayıcılara Yönelik Hususları Göster"
+
+#: templates/legalcode.html:110
+msgid "Show Considerations for the Public"
+msgstr "Kamuya Yönelik Hususları Göster"
+
+#: templates/list-licenses.html:55 templates/list-licenses.html:71
+#: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
 msgstr ""
 
-#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+#: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
 msgstr ""
 
