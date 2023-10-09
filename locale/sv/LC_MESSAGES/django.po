@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-30 22:25:01+00:00\n"
+"PO-Revision-Date: 2023-04-14 07:47:17+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "universell"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Armenien"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -52,7 +52,7 @@ msgstr "Australien"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbajdzjan"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -128,7 +128,7 @@ msgstr "Frankrike"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Georgien"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -156,7 +156,7 @@ msgstr "Irland"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Mellanstatlig organisation"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -388,7 +388,7 @@ msgstr "Licenslista"
 
 #: legal_tools/views.py:423
 msgid "Public Domain List"
-msgstr ""
+msgstr "Public Domain-lista"
 
 #: templates/base.html:41
 msgid "Skip to content"
@@ -401,11 +401,11 @@ msgstr "Hem"
 #: templates/deed.html:5 templates/deed.html:14
 #: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
-msgstr ""
+msgstr "Gärning"
 
 #: templates/deed.html:21
 msgid "See the legal code"
-msgstr ""
+msgstr "Se lagkoden"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -577,7 +577,7 @@ msgstr "På följande villkor:"
 
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
+msgstr "Ovanstående friheter får endast utövas i utvecklingsländer."
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -784,13 +784,14 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
 msgid "Unimplemented"
-msgstr ""
+msgstr "Oimplementerat"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:57
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"detta lagverktyg har inte en giltig mall. Vänligen rapportera detta problem:"
 
 #: templates/includes/deed_body_zero.html:12
 msgid ""
@@ -1009,7 +1010,7 @@ msgstr "Språk tillgängliga"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
-msgstr ""
+msgstr "Välj"
 
 #: templates/includes/related_links.html:9
 msgid ""
@@ -1020,15 +1021,15 @@ msgstr ""
 
 #: templates/includes/related_links.html:17
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Läs mer om vårt arbete"
 
 #: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Lär dig mer om CC-licensiering"
 
 #: templates/includes/related_links.html:20
 msgid "Support our work"
-msgstr ""
+msgstr "Stöd vårt arbete"
 
 #: templates/includes/related_links.html:22
 msgid "Use the license for your own material."

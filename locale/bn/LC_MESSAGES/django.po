@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2022
+# Aftabuzzaman ullah <Leemon432@gmail.com>, 2023
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-23 23:23:52+00:00\n"
+"PO-Revision-Date: 2023-10-03 21:03:34+00:00\n"
+"Last-Translator: Aftabuzzaman ullah <Leemon432@gmail.com>, 2023\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/bn/\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +41,7 @@ msgstr "সার্বজনীন"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "আর্মেনিয়া"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -52,7 +57,7 @@ msgstr "অস্ট্রেলিয়া"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "আজারবাইজান"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -128,7 +133,7 @@ msgstr "ফ্রান্স"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "জর্জিয়া"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -156,7 +161,7 @@ msgstr "আয়ারল্যান্ড"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "আন্তঃসরকারি সংস্থা"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -380,15 +385,15 @@ msgstr "পাবলিক ডোমেইন"
 
 #: legal_tools/views.py:51
 msgid "Licenses"
-msgstr ""
+msgstr "লাইসেন্সসমূহ"
 
 #: legal_tools/views.py:421
 msgid "Licenses List"
-msgstr ""
+msgstr "লাইসেন্সসমূহের তালিকা"
 
 #: legal_tools/views.py:423
 msgid "Public Domain List"
-msgstr ""
+msgstr "পাবলিক ডোমেইনের তালিকা"
 
 #: templates/base.html:41
 msgid "Skip to content"
@@ -396,20 +401,20 @@ msgstr "বিষয়বস্তু এড়িয়ে যান"
 
 #: templates/base.html:44
 msgid "Home"
-msgstr ""
+msgstr "নীড়"
 
 #: templates/deed.html:5 templates/deed.html:14
 #: templates/list-licenses.html:11 templates/list-publicdomain.html:11
 msgid "Deed"
-msgstr ""
+msgstr "দলিল"
 
 #: templates/deed.html:21
 msgid "See the legal code"
-msgstr ""
+msgstr "আইনি কোড দেখুন"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "পৃষ্ঠা খুঁজে পাওয়া যায়নি"
 
 #: templates/includes/about_cc.html:10
 msgid ""
@@ -439,7 +444,7 @@ msgstr ""
 
 #: templates/includes/about_cc_and_license.html:6
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "লাইসেন্স এবং ক্রিয়েটিভ কমন্স সম্পর্কে"
 
 #: templates/includes/about_cc_and_license.html:8
 msgid ""
@@ -489,11 +494,13 @@ msgstr "আপনি স্বাধীনভাবে:"
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
 msgstr ""
-"<strong>বণ্টন করতে পারেন</strong> &mdash; কাজটি অনুলিপি, বিতরণ এবং প্রেরণ"
+"<strong>বণ্টন করতে পারেন</strong> &mdash; কাজটি অনুলিপি, বিতরণ এবং প্রেরণ "
+"করতে পারেন"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>পুনঃমিশ্রণ করতে</strong> &mdash; কাজটি অভিযোজন"
+msgstr ""
+"<strong>পুনঃমিশ্রণ করতে পারেন</strong> &mdash; কাজটি অভিযোজন করতে পারেন"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""
@@ -534,8 +541,8 @@ msgstr "যে কোনো উদ্দেশ্যে, এমনকি ব্�
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
-"<strong>অভিযোজিত করতে পারেন</strong> &mdash; পুনঃমিশ্রণ, রূপান্তর ও উপাদানের"
-" উপর নির্ভর করে কাজ করতে পারেন"
+"<strong>অভিযোজিত করতে পারেন</strong> &mdash; উপাদানের উপর নির্ভর করে "
+"পুনঃমিশ্রণ, রূপান্তর ও নির্মাণ করতে পারেন"
 
 #: templates/includes/deed_body_licenses.html:44
 msgid ""
@@ -552,6 +559,8 @@ msgstr "নিম্নলিখিত শর্তাবলীর অধীন�
 #: templates/includes/deed_body_licenses.html:61
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
+"আপনি উপরোক্ত স্বাধীনতাগুলি শুধুমাত্র উন্নয়নশীল দেশগুলিতে প্রয়োগ করতে "
+"পারেন। "
 
 #: templates/includes/deed_body_licenses.html:73
 msgid ""
@@ -567,10 +576,10 @@ msgstr ""
 "class=\"helpLink\">যথাযথ কৃতিত্ব</a></span> দিতে হবে, লাইসেন্সের একটি লিঙ্ক "
 "প্রদান করতে হবে, এবং <span rel=\"cc:requires\" "
 "resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">কোন পরিবর্তন করা হলে তা "
-"নির্দেশ করতে হবে</a></span>। আপনি যে কোন যুক্তিসঙ্গত পদ্ধতিতে তা করতে পারেন,"
-" কিন্তু এমন কোন পদ্ধতিতে নয় যাতে মনে হয় লাইসেন্সকারী আপনাকে বা আপনার এই "
-"ব্যবহারের জন্য অনুমোদন দিয়েছেন।"
+"id=\"indicate_changes_popup\" class=\"helpLink\">কোনও পরিবর্তন করা হলে তা "
+"নির্দেশ করতে হবে</a></span>। আপনি যে কোনও যুক্তিসঙ্গত পদ্ধতিতে তা করতে "
+"পারেন, কিন্তু এমন কোনও পদ্ধতিতে নয় যাতে মনে হয় লাইসেন্সকারী আপনাকে বা আপনার "
+"এই ব্যবহারের জন্য অনুমোদন দিয়েছেন।"
 
 #: templates/includes/deed_body_licenses.html:85
 msgid ""
@@ -744,6 +753,7 @@ msgstr ""
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"এই আইনি সরঞ্জামটির কোনও বৈধ টেমপ্লেট নেই। দয়া করে এই সমস্যাটি রিপোর্ট করুন:"
 
 #: templates/includes/deed_body_zero.html:12
 msgid ""
@@ -927,11 +937,11 @@ msgstr "পৃষ্ঠাটি নিন্মোক্ত ভাষায় 
 
 #: templates/includes/languages_dropdown.html:4
 msgid "Languages available"
-msgstr ""
+msgstr "উপলব্ধ ভাষা"
 
 #: templates/includes/languages_dropdown.html:9
 msgid "Select"
-msgstr ""
+msgstr "নির্বাচন করুন"
 
 #: templates/includes/related_links.html:9
 msgid ""
@@ -939,26 +949,29 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"ক্রিয়েটিভ কমন্স হল অলাভজনক সংস্থা যারা উন্মুক্ত লাইসেন্স এবং অন্যান্য আইনী "
+"সরঞ্জামগুলি নিয়ে কাজ করে যা ব্যবহার করে নির্মাতারা তাদের কাজ ভাগ করতে পারেন।"
+" আমাদের আইনি সরঞ্জামগুলি বিনামূল্যে ব্যবহার করা যাবে।"
 
 #: templates/includes/related_links.html:17
 msgid "Learn more about our work"
-msgstr ""
+msgstr "আমাদের কাজ সম্পর্কে আরও জানুন"
 
 #: templates/includes/related_links.html:19
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "সিসি লাইসেন্সিং সম্পর্কে আরও জানুন"
 
 #: templates/includes/related_links.html:20
 msgid "Support our work"
-msgstr ""
+msgstr "আমাদের কাজ সমর্থন করুন"
 
 #: templates/includes/related_links.html:22
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "আপনার নিজস্ব উপাদানের জন্য লাইসেন্সটি ব্যবহার করুন।"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "ক্রিয়েটিভ কমন্স পাবলিক লাইসেন্স ব্যবহার"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -972,7 +985,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:21
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "লাইসেন্সধারীদের জন্য বিবেচনা"
 
 #: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
 msgid "Show Considerations for Licensors"
@@ -995,7 +1008,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:40
 msgid "Considerations for the public"
-msgstr ""
+msgstr "জনসাধারণের জন্য বিবেচনা"
 
 #: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
 msgid "Show Considerations for the Public"
@@ -1025,7 +1038,7 @@ msgstr "আইনি কোড"
 
 #: templates/legalcode.html:25
 msgid "See the deed"
-msgstr ""
+msgstr "দলিলটি দেখুন"
 
 #: templates/legalcode.html:84
 msgid "Hide Considerations for Licensors"
@@ -1033,17 +1046,17 @@ msgstr ""
 
 #: templates/legalcode.html:86
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "জনসাধারণের জন্য বিবেচনা লুকান"
 
 #: templates/list-licenses.html:54 templates/list-licenses.html:70
 #: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
 msgid "Language"
-msgstr ""
+msgstr "ভাষা"
 
 #: templates/list-licenses.html:56 templates/list-publicdomain.html:46
 msgid "Legal Tools"
-msgstr ""
+msgstr "আইনি সরঞ্জাম"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "পুনর্নির্দেশ:"
