@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-04-14 07:47:17+00:00\n"
+"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -298,7 +298,7 @@ msgstr "Vietnam"
 msgid "South Africa"
 msgstr "Sydafrika"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Erkännande"
 
@@ -334,7 +334,7 @@ msgstr ""
 "Dedikation av endast upphovsrätt (baserad på USA:s lagar)\n"
 "eller Public Domain-certifiering"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Utvecklingsländer"
 
@@ -342,7 +342,7 @@ msgstr "Utvecklingsländer"
 msgid "Public Domain Mark"
 msgstr "public domain-märke"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "IckeKommersiell"
 
@@ -362,7 +362,7 @@ msgstr "IngaBearbetningar"
 msgid "NoDerivs-NonCommercial"
 msgstr "IngaBearbetningar-IckeKommersiell"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "DelaLika"
 
@@ -374,36 +374,44 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:49
+#: legal_tools/views.py:54
 msgid "Public Domain"
 msgstr "Public Domain"
 
-#: legal_tools/views.py:51
+#: legal_tools/views.py:56
 msgid "Licenses"
 msgstr "Licenser"
 
-#: legal_tools/views.py:421
-msgid "Licenses List"
-msgstr "Licenslista"
-
-#: legal_tools/views.py:423
-msgid "Public Domain List"
-msgstr "Public Domain-lista"
-
-#: templates/base.html:41
-msgid "Skip to content"
-msgstr "Hoppa över till innehåll"
-
-#: templates/base.html:44
-msgid "Home"
-msgstr "Hem"
-
-#: templates/deed.html:5 templates/deed.html:14
-#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+#: legal_tools/views.py:194 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:13
+#: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr "Gärning"
 
-#: templates/deed.html:21
+#: legal_tools/views.py:203
+#: templates/includes/snippet/title_with_icons.html:15
+#: templates/legalcode.html:6 templates/list-licenses.html:39
+#: templates/list-publicdomain.html:31
+msgid "Legal Code"
+msgstr "Licenstext"
+
+#: legal_tools/views.py:407 templates/includes/related_links.html:15
+msgid "Licenses List"
+msgstr "Licenslista"
+
+#: legal_tools/views.py:410 templates/includes/related_links.html:18
+msgid "Public Domain List"
+msgstr "Public Domain-lista"
+
+#: templates/base.html:3
+msgid "Home"
+msgstr "Hem"
+
+#: templates/base.html:31
+msgid "Skip to content"
+msgstr "Hoppa över till innehåll"
+
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr "Se lagkoden"
 
@@ -411,7 +419,477 @@ msgstr "Se lagkoden"
 msgid "Page Not Found"
 msgstr "Sida hittades inte"
 
-#: templates/includes/about_cc.html:10
+#: templates/includes/deed_body_certification.html:3
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:6
+msgid "You are free to:"
+msgstr "Du har tillstånd att:"
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr ""
+"<strong>att Dela</strong> &mdash; att kopiera, distribuera och sända verket"
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr "<strong>att Remixa</strong> &mdash; för att skapa bearbetningar"
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+"Att sampla, blanda (mash-up), eller annars kreativt transformera detta verk "
+"för icke-kommersiella ändamål."
+
+#: templates/includes/deed_body_licenses.html:24
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+"Att sampla, blanda (mash-up), eller annars kreativt transformera detta verk "
+"för kommersiella eller icke-kommersiella ändamål."
+
+#: templates/includes/deed_body_licenses.html:28
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+"Att framföra, visa och sprida  exemplar av hela detta verk för icke-"
+"kommersiella ändamål (t.ex. fildelning eller icke-kommersiell webbradio)."
+
+#: templates/includes/deed_body_licenses.html:34
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+"<strong>Dela</strong> &mdash; kopiera och vidaredistribuera materialet "
+"oavsett medium eller format"
+
+#: templates/includes/deed_body_licenses.html:35
+#: templates/includes/deed_body_licenses.html:42
+msgid "for any purpose, even commercially."
+msgstr "för alla ändamål, även kommersiellt."
+
+#: templates/includes/deed_body_licenses.html:41
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+"<strong>Bearbeta</strong> &mdash; remixa, transformera, och bygg vidare på "
+"materialet"
+
+#: templates/includes/deed_body_licenses.html:49
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"Licensgivaren kan inte återkalla dessa friheter så länge du följer "
+"licensvillkoren."
+
+#: templates/includes/deed_body_licenses.html:56
+msgid "Under the following terms:"
+msgstr "På följande villkor:"
+
+#: templates/includes/deed_body_licenses.html:63
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr "Ovanstående friheter får endast utövas i utvecklingsländer."
+
+#: templates/includes/deed_body_licenses.html:70
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+"Du måste ge <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">ett korrekt erkännande</a></span>, ange en hyperlänk till"
+" licensen, och <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">ange om bearbetningar är "
+"gjorda </a></span>.  Du behöver göra så i enlighet med god sed, och inte på "
+"ett sätt som ger en bild av att licensgivaren stödjer dig eller ditt "
+"användande."
+
+#: templates/includes/deed_body_licenses.html:77
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+"Du får inte använda materialet för <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">kommersiella "
+"ändamål</a>."
+
+#: templates/includes/deed_body_licenses.html:83
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+"Om du remixar, transformerar eller bygger vidare på materialet måste du "
+"distribuera dina bidrag under <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">samma licens</a> som originalet."
+
+#: templates/includes/deed_body_licenses.html:89
+msgid "NoDerivatives"
+msgstr "IngaBearbetningar"
+
+#: templates/includes/deed_body_licenses.html:89
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+"Om du <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remixar, transformerar, eller bygger vidare på</a> "
+"materialet, får du inte distribuera det modifierade materialet."
+
+#: templates/includes/deed_body_licenses.html:95
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"Du får inte använda verket vid annonsering eller marknadsföring av något "
+"annat än verk som du skapat av verket."
+
+#: templates/includes/deed_body_licenses.html:101
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+"Vid all återanvändning och distribution måste du informera om "
+"licensvillkoren som gäller för verket. Det bästa sättet att göra detta är "
+"genom en länk till den här webbsidan."
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"Du får inte framföra, visa eller sprida kopior av verket för några ändamål."
+
+#: templates/includes/deed_body_licenses.html:112
+msgid "No additional restrictions"
+msgstr "Inga ytterligare begränsningar"
+
+#: templates/includes/deed_body_licenses.html:112
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"Du får inte tillämpa lagliga begränsningar eller <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">teknologiska "
+"metoder</a> som juridiskt begränsar andra från att gör något som licensen "
+"tillåter. "
+
+#: templates/includes/deed_body_licenses.html:118
+msgid "Notices:"
+msgstr "Anmärkningar:"
+
+#: templates/includes/deed_body_licenses.html:121
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+"Du behöver inte följa licensvillkoren för de delar av materialet som finns i"
+" public domain eller där ditt användande är tillåtet av en tillämplig <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">undantag "
+"eller begränsning</a>."
+
+#: templates/includes/deed_body_licenses.html:124
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+"Inga garantier ges. Licensen ger eller ger dig inte alla de nödvändiga "
+"villkoren för ditt tänkta användande av verket. Till exempel, andra "
+"rättigheter som <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\""
+" class=\"helpLink\">publicitet, integritetslagstiftning, eller ideella "
+"rättigheter </a> kan begränsa hur du kan använda verket. "
+
+#: templates/includes/deed_body_mark.html:6
+#: templates/includes/deed_body_zero.html:5
+msgid "No Copyright"
+msgstr "Ingen upphovsrätt"
+
+#: templates/includes/deed_body_mark.html:9
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\"> Det här verket har <b>identifierats</b> som fritt från"
+" kända upphovsrättsliga restriktioner, inklusive alla relaterade närstående "
+"rättigheter. </p> <p> <br /> Du får kopiera, sprida, distribuera och "
+"framföra verket, även i kommersiellt syfte utan att fråga om lov. Se "
+"<b>Annan information</b> nedan. </p>"
+
+#: templates/includes/deed_body_mark.html:21
+#: templates/includes/deed_body_zero.html:13
+msgid "Other Information"
+msgstr "Annan information"
+
+#: templates/includes/deed_body_mark.html:25
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"Detta verk är kanske inte fritt från kända upphovsrättsliga restriktioner i "
+"alla <a href=\"\" class=\"helpLink\" "
+"id=\"all_jurisdictions\">jurisdiktioner</a>."
+
+#: templates/includes/deed_body_mark.html:31
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+"Personer kan ha andra rättigheter till eller relaterade till verket, t.ex. "
+"patent eller varumärkesrättigheter, och andra kan ha rättigheter kring "
+"verkets användning, till exempel <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicitets- eller "
+"integritetsrättigheter</a>."
+
+#: templates/includes/deed_body_mark.html:40
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+"I vissa jurisdiktioner kan upphovsmannens <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">ideella rätt</a> finnas kvar längre än upphovsrättens "
+"skyddstid. Denna rätt kan inkludera rätten att bli identifierad som "
+"upphovsman och rätten att protestera mot kränkande behandlngar."
+
+#: templates/includes/deed_body_mark.html:48
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Såvida inte annat uttryckligen angetts lämnar personen som identifierat "
+"verket inga garantier angående verket och friskriver sig från ansvar för "
+"användning av verket så långt det är möjligt enligt tillämplig lag."
+
+#: templates/includes/deed_body_mark.html:55
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+"När du använder eller hänvisar till verket ska du inte antyda <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">godkännande eller stöd</a> från "
+"upphovsmannen eller den person som identifierat verket."
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid "Unimplemented"
+msgstr "Oimplementerat"
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr ""
+"detta lagverktyg har inte en giltig mall. Vänligen rapportera detta problem:"
+
+#: templates/includes/deed_body_zero.html:7
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+"Personen som associerat ett verk med detta dokument har <b>dedikerat</b> "
+"verket till public domain genom att avsäga sig sina rättigheter till verket "
+"i hela världen enligt upphovsrättslagstiftningen, inklusive alla relaterade "
+"och närstående rättigheter, så lågt lagen tillåter."
+
+#: templates/includes/deed_body_zero.html:8
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+"Du får kopiera, modifiera, distribuera och framföra verket, även i "
+"kommersiellt syfte, utan att fråga om lov. Se <b>Annan information</b> "
+"nedan."
+
+#: templates/includes/deed_body_zero.html:15
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:17
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+"Såvida inte annat uttryckligen angetts ger den person som associerat ett "
+"verk med detta intyg. Inga garantier angående verket och friskriver sig från"
+" allt ansvar för all användning av verket så lång det är möjligt enligt "
+"tillämplig lag."
+
+#: templates/includes/deed_body_zero.html:18
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+"Vid användning eller hänvisning till verket ska du inte antyda <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">godkännande eller stöd</a> från "
+"upphovsmannen eller  bekräftaren."
+
+#: templates/includes/deed_body_zero.html:21
+msgid "Other Rights"
+msgstr "Övriga rättigheter"
+
+#: templates/includes/deed_body_zero.html:23
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Användningen av ett verk fritt från kända upphovsrättsliga restriktioner kan"
+" vara reglerad eller begränsad på annat sätt. Verket eller dessa användning "
+"kan påverkas av integritetslagar, publicitetsrättigheter eller "
+"bildrättigheter som ger en person kontroll över hur dennes röst, bild eller "
+"avbildning används eller av andra restriktioner eller begränsningar i "
+"tillämplig lag."
+
+#: templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:31
+#: templates/includes/deed_body_zero.html:37
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: templates/includes/deed_body_zero.html:28
+msgid "Endorsement"
+msgstr "Godkännande"
+
+#: templates/includes/deed_body_zero.html:30
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"I vissa jurisdiktioner kan det vara olagligt att felaktigt antyda att en "
+"upphovsman, förläggare eller någon annan godkänt eller stödjer din "
+"användning av verket."
+
+#: templates/includes/deed_body_zero.html:34
+msgid "Citation"
+msgstr "citat"
+
+#: templates/includes/deed_body_zero.html:36
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+"Kopiera och klistra in HTML-koden på din webbsida för att enkelt referera "
+"till detta verk."
+
+#: templates/includes/deed_body_zero.html:40
+msgid "Who is the affirmer?"
+msgstr "Vem är bekräftaren?"
+
+#: templates/includes/deed_body_zero.html:42
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+"Bekräftaren är den person som avsade sig sina rättigheter, för hela världen,"
+" med hjälp av CC0 så långt tillämplig lag tillåter det. Det kan vara den "
+"ursprunglige skaparen av verket eller en annan person som hade upphovsrätt "
+"eller någon närstående rättighet till verket."
+
+#: templates/includes/languages_dropdown.html:6
+msgid "Languages available"
+msgstr "Språk tillgängliga"
+
+#: templates/includes/notice_40.html:3
+#: templates/includes/notice_certification.html:3
+#: templates/includes/notice_deprecated.html:3
+#: templates/includes/notice_newer_license.html:3
+#: templates/includes/notice_zero.html:3
+msgid "Notice"
+msgstr ""
+
+#: templates/includes/notice_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+"Denna sammanfattning uppmärksammar enbart vissa av de viktigaste inslagen "
+"och villkoren från den faktiska licensen. Den är inte en licens och har "
+"inget juridiskt värde. Du bör noggrant gå igenom alla villkor i den faktiska"
+" licensen innan du använder det licensierade materialet."
+
+#: templates/includes/notice_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+"Creative Commons är ingen advokatbyrå och tillhandahåller inga juridiska "
+"tjänster eller juridisk rådgivning. Distribution eller visning av, samt "
+"länkning till denna handling eller licensen som sammanfattas skapar ingen "
+"advokat-klient- eller annat förhållande."
+
+#: templates/includes/notice_about_cc_and_trademark.html:3
+msgid "About Creative Commons"
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -445,7 +923,7 @@ msgstr ""
 " av licensierat material. För undvikande av missförstånd: denna punkt utgör "
 "inte en del av de publika licenserna."
 
-#: templates/includes/about_cc.html:30
+#: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
@@ -453,11 +931,11 @@ msgstr ""
 "Creative Commons kan kontaktas på <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 
-#: templates/includes/about_cc_and_license.html:6
+#: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
 msgstr "Om licensen och Creative Commons"
 
-#: templates/includes/about_cc_and_license.html:8
+#: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -478,469 +956,7 @@ msgstr ""
 " villkor, eller någon relaterad information. Creative Commons frånsäger sig "
 "i möjligaste mån allt ansvar för skador till följd av användningen."
 
-#: templates/includes/deed_body_certification.html:6
-msgid ""
-"<p>The person or persons who have associated work with this document (the "
-"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
-"best of his knowledge, the work of authorship identified is in the public "
-"domain of the country from which the work is published, or (b) hereby "
-"dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:7
-msgid "You are free to:"
-msgstr "Du har tillstånd att:"
-
-#: templates/includes/deed_body_licenses.html:11
-msgid ""
-"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
-"<strong>att Dela</strong> &mdash; att kopiera, distribuera och sända verket"
-
-#: templates/includes/deed_body_licenses.html:12
-msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>att Remixa</strong> &mdash; för att skapa bearbetningar"
-
-#: templates/includes/deed_body_licenses.html:17
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
-msgstr ""
-"Att sampla, blanda (mash-up), eller annars kreativt transformera detta verk "
-"för icke-kommersiella ändamål."
-
-#: templates/includes/deed_body_licenses.html:19
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
-msgstr ""
-"Att sampla, blanda (mash-up), eller annars kreativt transformera detta verk "
-"för kommersiella eller icke-kommersiella ändamål."
-
-#: templates/includes/deed_body_licenses.html:23
-msgid ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Att framföra, visa och sprida  exemplar av hela detta verk för icke-"
-"kommersiella ändamål (t.ex. fildelning eller icke-kommersiell webbradio)."
-
-#: templates/includes/deed_body_licenses.html:29
-msgid ""
-"<strong>Share</strong> &mdash; copy and redistribute the material in any "
-"medium or format"
-msgstr ""
-"<strong>Dela</strong> &mdash; kopiera och vidaredistribuera materialet "
-"oavsett medium eller format"
-
-#: templates/includes/deed_body_licenses.html:30
-#: templates/includes/deed_body_licenses.html:37
-msgid "for any purpose, even commercially."
-msgstr "för alla ändamål, även kommersiellt."
-
-#: templates/includes/deed_body_licenses.html:36
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
-"<strong>Bearbeta</strong> &mdash; remixa, transformera, och bygg vidare på "
-"materialet"
-
-#: templates/includes/deed_body_licenses.html:44
-msgid ""
-"The licensor cannot revoke these freedoms as long as you follow the license "
-"terms."
-msgstr ""
-"Licensgivaren kan inte återkalla dessa friheter så länge du följer "
-"licensvillkoren."
-
-#: templates/includes/deed_body_licenses.html:50
-msgid "Under the following terms:"
-msgstr "På följande villkor:"
-
-#: templates/includes/deed_body_licenses.html:61
-msgid "You may exercise the above freedoms in developing nations only. "
-msgstr "Ovanstående friheter får endast utövas i utvecklingsländer."
-
-#: templates/includes/deed_body_licenses.html:73
-msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
-msgstr ""
-"Du måste ge <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">ett korrekt erkännande</a></span>, ange en hyperlänk till"
-" licensen, och <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">ange om bearbetningar är "
-"gjorda </a></span>.  Du behöver göra så i enlighet med god sed, och inte på "
-"ett sätt som ger en bild av att licensgivaren stödjer dig eller ditt "
-"användande."
-
-#: templates/includes/deed_body_licenses.html:85
-msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
-msgstr ""
-"Du får inte använda materialet för <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">kommersiella "
-"ändamål</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid ""
-"If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
-msgstr ""
-"Om du remixar, transformerar eller bygger vidare på materialet måste du "
-"distribuera dina bidrag under <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">samma licens</a> som originalet."
-
-#: templates/includes/deed_body_licenses.html:107
-msgid "NoDerivatives"
-msgstr "IngaBearbetningar"
-
-#: templates/includes/deed_body_licenses.html:107
-msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
-msgstr ""
-"Om du <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remixar, transformerar, eller bygger vidare på</a> "
-"materialet, får du inte distribuera det modifierade materialet."
-
-#: templates/includes/deed_body_licenses.html:118
-msgid ""
-"You may not use this work to advertise for or promote anything but the work "
-"you create from it."
-msgstr ""
-"Du får inte använda verket vid annonsering eller marknadsföring av något "
-"annat än verk som du skapat av verket."
-
-#: templates/includes/deed_body_licenses.html:129
-msgid ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Vid all återanvändning och distribution måste du informera om "
-"licensvillkoren som gäller för verket. Det bästa sättet att göra detta är "
-"genom en länk till den här webbsidan."
-
-#: templates/includes/deed_body_licenses.html:140
-msgid ""
-"You may not perform, display, or distribute copies of this whole work for "
-"any purpose."
-msgstr ""
-"Du får inte framföra, visa eller sprida kopior av verket för några ändamål."
-
-#: templates/includes/deed_body_licenses.html:150
-msgid "No additional restrictions"
-msgstr "Inga ytterligare begränsningar"
-
-#: templates/includes/deed_body_licenses.html:150
-msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
-msgstr ""
-"Du får inte tillämpa lagliga begränsningar eller <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">teknologiska "
-"metoder</a> som juridiskt begränsar andra från att gör något som licensen "
-"tillåter. "
-
-#: templates/includes/deed_body_licenses.html:157
-msgid "Notices:"
-msgstr "Anmärkningar:"
-
-#: templates/includes/deed_body_licenses.html:160
-msgid ""
-"You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
-msgstr ""
-"Du behöver inte följa licensvillkoren för de delar av materialet som finns i"
-" public domain eller där ditt användande är tillåtet av en tillämplig <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">undantag "
-"eller begränsning</a>."
-
-#: templates/includes/deed_body_licenses.html:163
-msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
-msgstr ""
-"Inga garantier ges. Licensen ger eller ger dig inte alla de nödvändiga "
-"villkoren för ditt tänkta användande av verket. Till exempel, andra "
-"rättigheter som <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\""
-" class=\"helpLink\">publicitet, integritetslagstiftning, eller ideella "
-"rättigheter </a> kan begränsa hur du kan använda verket. "
-
-#: templates/includes/deed_body_mark.html:7
-#: templates/includes/deed_body_zero.html:6
-msgid "No Copyright"
-msgstr "Ingen upphovsrätt"
-
-#: templates/includes/deed_body_mark.html:14
-msgid ""
-"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
-"known restrictions under copyright law, including all related and "
-"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
-"perform the work, even for commercial purposes, all without asking "
-"permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\"> Det här verket har <b>identifierats</b> som fritt från"
-" kända upphovsrättsliga restriktioner, inklusive alla relaterade närstående "
-"rättigheter. </p> <p> <br /> Du får kopiera, sprida, distribuera och "
-"framföra verket, även i kommersiellt syfte utan att fråga om lov. Se "
-"<b>Annan information</b> nedan. </p>"
-
-#: templates/includes/deed_body_mark.html:22
-#: templates/includes/deed_body_zero.html:19
-msgid "Other Information"
-msgstr "Annan information"
-
-#: templates/includes/deed_body_mark.html:28
-msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
-"Detta verk är kanske inte fritt från kända upphovsrättsliga restriktioner i "
-"alla <a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">jurisdiktioner</a>."
-
-#: templates/includes/deed_body_mark.html:30
-msgid ""
-"Persons may have other rights in or related to the work, such as patent or "
-"trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-"Personer kan ha andra rättigheter till eller relaterade till verket, t.ex. "
-"patent eller varumärkesrättigheter, och andra kan ha rättigheter kring "
-"verkets användning, till exempel <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicitets- eller "
-"integritetsrättigheter</a>."
-
-#: templates/includes/deed_body_mark.html:32
-msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr ""
-"I vissa jurisdiktioner kan upphovsmannens <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">ideella rätt</a> finnas kvar längre än upphovsrättens "
-"skyddstid. Denna rätt kan inkludera rätten att bli identifierad som "
-"upphovsman och rätten att protestera mot kränkande behandlngar."
-
-#: templates/includes/deed_body_mark.html:34
-msgid ""
-"Unless expressly stated otherwise, the person who identified the work makes "
-"no warranties about the work, and disclaims liability for all uses of the "
-"work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Såvida inte annat uttryckligen angetts lämnar personen som identifierat "
-"verket inga garantier angående verket och friskriver sig från ansvar för "
-"användning av verket så långt det är möjligt enligt tillämplig lag."
-
-#: templates/includes/deed_body_mark.html:36
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
-msgstr ""
-"När du använder eller hänvisar till verket ska du inte antyda <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">godkännande eller stöd</a> från "
-"upphovsmannen eller den person som identifierat verket."
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid "Unimplemented"
-msgstr "Oimplementerat"
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid ""
-"this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
-"detta lagverktyg har inte en giltig mall. Vänligen rapportera detta problem:"
-
-#: templates/includes/deed_body_zero.html:12
-msgid ""
-"The person who associated a work with this deed has <b>dedicated</b> the "
-"work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
-msgstr ""
-"Personen som associerat ett verk med detta dokument har <b>dedikerat</b> "
-"verket till public domain genom att avsäga sig sina rättigheter till verket "
-"i hela världen enligt upphovsrättslagstiftningen, inklusive alla relaterade "
-"och närstående rättigheter, så lågt lagen tillåter."
-
-#: templates/includes/deed_body_zero.html:13
-msgid ""
-"You can copy, modify, distribute and perform the work, even for commercial "
-"purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Du får kopiera, modifiera, distribuera och framföra verket, även i "
-"kommersiellt syfte, utan att fråga om lov. Se <b>Annan information</b> "
-"nedan."
-
-#: templates/includes/deed_body_zero.html:24
-msgid ""
-"In no way are the patent or trademark rights of any person affected by CC0, "
-"nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:26
-msgid ""
-"Unless expressly stated otherwise, the person who associated a work with "
-"this deed makes no warranties about the work, and disclaims liability for "
-"all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"Såvida inte annat uttryckligen angetts ger den person som associerat ett "
-"verk med detta intyg. Inga garantier angående verket och friskriver sig från"
-" allt ansvar för all användning av verket så lång det är möjligt enligt "
-"tillämplig lag."
-
-#: templates/includes/deed_body_zero.html:27
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"affirmer."
-msgstr ""
-"Vid användning eller hänvisning till verket ska du inte antyda <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">godkännande eller stöd</a> från "
-"upphovsmannen eller  bekräftaren."
-
-#: templates/includes/deed_body_zero.html:32
-msgid "Other Rights"
-msgstr "Övriga rättigheter"
-
-#: templates/includes/deed_body_zero.html:34
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Användningen av ett verk fritt från kända upphovsrättsliga restriktioner kan"
-" vara reglerad eller begränsad på annat sätt. Verket eller dessa användning "
-"kan påverkas av integritetslagar, publicitetsrättigheter eller "
-"bildrättigheter som ger en person kontroll över hur dennes röst, bild eller "
-"avbildning används eller av andra restriktioner eller begränsningar i "
-"tillämplig lag."
-
-#: templates/includes/deed_body_zero.html:35
-#: templates/includes/deed_body_zero.html:42
-#: templates/includes/deed_body_zero.html:51
-msgid "Learn more"
-msgstr "Lär dig mer"
-
-#: templates/includes/deed_body_zero.html:39
-msgid "Endorsement"
-msgstr "Godkännande"
-
-#: templates/includes/deed_body_zero.html:41
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"I vissa jurisdiktioner kan det vara olagligt att felaktigt antyda att en "
-"upphovsman, förläggare eller någon annan godkänt eller stödjer din "
-"användning av verket."
-
-#: templates/includes/deed_body_zero.html:45
-msgid "Citation"
-msgstr "citat"
-
-#: templates/includes/deed_body_zero.html:48
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Kopiera och klistra in HTML-koden på din webbsida för att enkelt referera "
-"till detta verk."
-
-#: templates/includes/deed_body_zero.html:55
-msgid "Who is the affirmer?"
-msgstr "Vem är bekräftaren?"
-
-#: templates/includes/deed_body_zero.html:58
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Bekräftaren är den person som avsade sig sina rättigheter, för hela världen,"
-" med hjälp av CC0 så långt tillämplig lag tillåter det. Det kan vara den "
-"ursprunglige skaparen av verket eller en annan person som hade upphovsrätt "
-"eller någon närstående rättighet till verket."
-
-#: templates/includes/disclaimer_40.html:3
-#: templates/includes/disclaimer_certification.html:3
-#: templates/includes/disclaimer_deprecated.html:3
-#: templates/includes/disclaimer_newer_license.html:3
-#: templates/includes/disclaimer_zero.html:9
-msgid "Disclaimer"
-msgstr "Friskrivning"
-
-#: templates/includes/disclaimer_40.html:5
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr ""
-"Denna sammanfattning uppmärksammar enbart vissa av de viktigaste inslagen "
-"och villkoren från den faktiska licensen. Den är inte en licens och har "
-"inget juridiskt värde. Du bör noggrant gå igenom alla villkor i den faktiska"
-" licensen innan du använder det licensierade materialet."
-
-#: templates/includes/disclaimer_40.html:13
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr ""
-"Creative Commons är ingen advokatbyrå och tillhandahåller inga juridiska "
-"tjänster eller juridisk rådgivning. Distribution eller visning av, samt "
-"länkning till denna handling eller licensen som sammanfattas skapar ingen "
-"advokat-klient- eller annat förhållande."
-
-#: templates/includes/disclaimer_certification.html:4
+#: templates/includes/notice_certification.html:5
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -950,7 +966,7 @@ msgstr ""
 "tillämpligt utanför USA. För att placera nya verk i public domain "
 "rekommenderar vi <a href=\"/choose/zero/\">CC0</a>."
 
-#: templates/includes/disclaimer_deprecated.html:5
+#: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -960,7 +976,7 @@ msgstr ""
 "href=\"http://creativecommons.org/retiredlicenses\">pensionerat det här "
 "juridiska verktyget</a> och rekommenderar inte att det används för verk."
 
-#: templates/includes/disclaimer_newer_license.html:5
+#: templates/includes/notice_newer_license.html:5
 msgid ""
 "This is an older version of this license. Compared to previous versions, the"
 " 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
@@ -969,7 +985,7 @@ msgid ""
 "use of the 4.0 license instead:"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:10
+#: templates/includes/notice_zero.html:4
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -991,49 +1007,32 @@ msgstr ""
 "\n"
 "<p> Creative Commons har inte verifierat statusen för upphovsrätten på något verk som licensieras under CC0. CC ger inga garantier om något verk eller dess upphovsstatus i någon jurisdiction och avsäger sig allt ansvar för all användning av någons verk. </p> "
 
-#: templates/includes/disclaimer_zero.html:24
-msgid ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
-"(read the full text)</a>."
-msgstr ""
-"Detta är en lättläst sammanfattning av <a href=\"./legalcode\">den "
-"fullständiga licenstexten (läsa hela texten)</a>."
-
-#: templates/includes/language_selector.html:5
-#: templates/includes/translations.html:4
-msgid "This page is available in the following languages:"
-msgstr "Denna sida finns tillgänglig på följande språk:"
-
-#: templates/includes/languages_dropdown.html:4
-msgid "Languages available"
-msgstr "Språk tillgängliga"
-
-#: templates/includes/languages_dropdown.html:9
-msgid "Select"
-msgstr "Välj"
-
-#: templates/includes/related_links.html:9
+#: templates/includes/related_links.html:4
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses and other legal "
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:17
+#: templates/includes/related_links.html:10
 msgid "Learn more about our work"
 msgstr "Läs mer om vårt arbete"
 
-#: templates/includes/related_links.html:19
+#: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
 msgstr "Lär dig mer om CC-licensiering"
 
-#: templates/includes/related_links.html:20
+#: templates/includes/related_links.html:12
 msgid "Support our work"
 msgstr "Stöd vårt arbete"
 
-#: templates/includes/related_links.html:22
+#: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
 msgstr "Använd licensen för ditt eget material."
+
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr "Denna sida finns tillgänglig på följande språk:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1055,15 +1054,11 @@ msgstr ""
 "sker endast i informationssyfte, är inte uttömmande och utgör inte en del av"
 " våra licenser."
 
-#: templates/includes/use_of_licenses.html:21
+#: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
 msgstr "Överväganden för licensgivare"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
-msgid "Show Considerations for Licensors"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:23
+#: templates/includes/use_of_licenses.html:22
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -1090,15 +1085,11 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Fler"
 " överväganden för licensgivare.</a>"
 
-#: templates/includes/use_of_licenses.html:40
+#: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
 msgstr "Överväganden för allmänheten"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
-msgid "Show Considerations for the Public"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:42
+#: templates/includes/use_of_licenses.html:39
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -1130,29 +1121,42 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Fler"
 " överväganden för allmänheten.</a>"
 
-#: templates/legalcode.html:4 templates/legalcode.html:10
-#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
-msgid "Legal Code"
-msgstr "Licenstext"
-
-#: templates/legalcode.html:25
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:84
+#: templates/legalcode.html:50
+msgid "Version"
+msgstr ""
+
+#: templates/legalcode.html:51
+msgid ""
+"See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
+"and the date of change"
+msgstr ""
+
+#: templates/legalcode.html:104
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:86
+#: templates/legalcode.html:106
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list-licenses.html:54 templates/list-licenses.html:70
-#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+#: templates/legalcode.html:108
+msgid "Show Considerations for Licensors"
+msgstr ""
+
+#: templates/legalcode.html:110
+msgid "Show Considerations for the Public"
+msgstr ""
+
+#: templates/list-licenses.html:55 templates/list-licenses.html:71
+#: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
 msgstr "Språk"
 
-#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+#: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
 msgstr ""
 

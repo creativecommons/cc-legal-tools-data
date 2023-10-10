@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-30 22:08:01+00:00\n"
+"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/es/\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -298,7 +298,7 @@ msgstr "Vietnam"
 msgid "South Africa"
 msgstr "Sudáfrica"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:72
+#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Atribución"
 
@@ -334,7 +334,7 @@ msgstr ""
 "Dedicación de Derecho de Autoral (en base a la legislación estadounidense) o"
 " Certificación de Dominio Público"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:60
+#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Naciones en desarrollo"
 
@@ -342,7 +342,7 @@ msgstr "Naciones en desarrollo"
 msgid "Public Domain Mark"
 msgstr "Etiqueta de Dominio Público"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:84
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "NoComercial"
 
@@ -362,7 +362,7 @@ msgstr "SinDerivadas"
 msgid "NoDerivs-NonCommercial"
 msgstr "SinDerivadas-NoComercial"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:96
+#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "CompartirIgual"
 
@@ -374,36 +374,44 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:49
+#: legal_tools/views.py:54
 msgid "Public Domain"
 msgstr "Dominio Público"
 
-#: legal_tools/views.py:51
+#: legal_tools/views.py:56
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:421
-msgid "Licenses List"
-msgstr ""
-
-#: legal_tools/views.py:423
-msgid "Public Domain List"
-msgstr ""
-
-#: templates/base.html:41
-msgid "Skip to content"
-msgstr "Saltar al contenido"
-
-#: templates/base.html:44
-msgid "Home"
-msgstr ""
-
-#: templates/deed.html:5 templates/deed.html:14
-#: templates/list-licenses.html:11 templates/list-publicdomain.html:11
+#: legal_tools/views.py:194 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:13
+#: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: templates/deed.html:21
+#: legal_tools/views.py:203
+#: templates/includes/snippet/title_with_icons.html:15
+#: templates/legalcode.html:6 templates/list-licenses.html:39
+#: templates/list-publicdomain.html:31
+msgid "Legal Code"
+msgstr "Código legal"
+
+#: legal_tools/views.py:407 templates/includes/related_links.html:15
+msgid "Licenses List"
+msgstr ""
+
+#: legal_tools/views.py:410 templates/includes/related_links.html:18
+msgid "Public Domain List"
+msgstr ""
+
+#: templates/base.html:3
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:31
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: templates/deed.html:41
 msgid "See the legal code"
 msgstr ""
 
@@ -411,7 +419,475 @@ msgstr ""
 msgid "Page Not Found"
 msgstr ""
 
-#: templates/includes/about_cc.html:10
+#: templates/includes/deed_body_certification.html:3
+msgid ""
+"<p>The person or persons who have associated work with this document (the "
+"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
+"best of his knowledge, the work of authorship identified is in the public "
+"domain of the country from which the work is published, or (b) hereby "
+"dedicates whatever copyright the dedicators holds in the work of authorship "
+"identified below (the \"Work\") to the public domain. A certifier, moreover,"
+" dedicates any copyright interest he may have in the associated work, and "
+"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
+"certifier has taken reasonable steps to verify the copyright status of this "
+"work. Certifier recognizes that his good faith efforts may not shield him "
+"from liability if in fact the work certified is not in the public "
+"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
+" at large and to the detriment of the Dedicator's heirs and successors. "
+"Dedicator intends this dedication to be an overt act of relinquishment in "
+"perpetuity of all present and future rights under copyright law, whether "
+"vested or contingent, in the Work. Dedicator understands that such "
+"relinquishment of all rights includes the relinquishment of all rights to "
+"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
+"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
+" be freely reproduced, distributed, transmitted, used, modified, built upon,"
+" or otherwise exploited by anyone for any purpose, commercial or non-"
+"commercial, and in any way, including by methods that have not yet been "
+"invented or conceived.</p>"
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:6
+msgid "You are free to:"
+msgstr "Usted es libre de: "
+
+#: templates/includes/deed_body_licenses.html:11
+msgid ""
+"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
+msgstr ""
+"<strong>a Compartir</strong> &mdash; a copiar, distribuir, y transmitir la "
+"obra"
+
+#: templates/includes/deed_body_licenses.html:12
+msgid "<strong>to Remix</strong> &mdash; to adapt the work"
+msgstr "<strong>a Remezclar</strong> &mdash; a adaptar la obra"
+
+#: templates/includes/deed_body_licenses.html:17
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"noncommercial purposes."
+msgstr ""
+"Para hacer samples, mash-ups, u otras formas de transformación creativa de "
+"esta obra para propósitos no comerciales."
+
+#: templates/includes/deed_body_licenses.html:24
+msgid ""
+"To sample, mash-up, or otherwise creatively transform this work for "
+"commercial or noncommercial purposes."
+msgstr ""
+"Hacer samples, mash-ups, u otra transformación creativa de esta obra con "
+"propósitos comerciales o no comerciales."
+
+#: templates/includes/deed_body_licenses.html:28
+msgid ""
+"To perform, display, and distribute copies of this whole work for "
+"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
+msgstr ""
+"Interpretar, exhibir y distribuir copias de la obra completa con propósitos "
+"no comerciales (e.g., compartir archivos o transmisiones no comerciales vía "
+"web)"
+
+#: templates/includes/deed_body_licenses.html:34
+msgid ""
+"<strong>Share</strong> &mdash; copy and redistribute the material in any "
+"medium or format"
+msgstr ""
+"<strong>Compartir</strong> &mdash; copiar y redistribuir el material en "
+"cualquier medio o formato"
+
+#: templates/includes/deed_body_licenses.html:35
+#: templates/includes/deed_body_licenses.html:42
+msgid "for any purpose, even commercially."
+msgstr "para cualquier propósito, incluso comercialmente."
+
+#: templates/includes/deed_body_licenses.html:41
+msgid ""
+"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
+msgstr ""
+"<strong>Adaptar</strong> &mdash; remezclar, transformar y construir a partir"
+" del material"
+
+#: templates/includes/deed_body_licenses.html:49
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the license "
+"terms."
+msgstr ""
+"La licenciante no puede revocar estas libertades en tanto usted siga los "
+"términos de la licencia"
+
+#: templates/includes/deed_body_licenses.html:56
+msgid "Under the following terms:"
+msgstr "Bajo los siguientes términos:"
+
+#: templates/includes/deed_body_licenses.html:63
+msgid "You may exercise the above freedoms in developing nations only. "
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:70
+msgid ""
+"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
+"license, and <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"made</a></span>. You may do so in any reasonable manner, but not in any way "
+"that suggests the licensor endorses you or your use."
+msgstr ""
+"Usted debe dar <a href=\"#\" id=\"appropriate_credit_popup\" "
+"class=\"helpLink\">crédito de manera adecuada</a></span>, brindar un enlace "
+"a la licencia, e <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
+"id=\"indicate_changes_popup\" class=\"helpLink\">indicar si se han realizado"
+" cambios</a></span>. Puede hacerlo en cualquier forma razonable, pero no de "
+"forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante."
+
+#: templates/includes/deed_body_licenses.html:77
+msgid ""
+"You may not use the material for <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+msgstr ""
+"Usted no puede hacer uso del material con <a href=\"#\" "
+"id=\"commercial_purposes_popup\" class=\"helpLink\">propósitos "
+"comerciales</a>."
+
+#: templates/includes/deed_body_licenses.html:83
+msgid ""
+"If you remix, transform, or build upon the material, you must distribute "
+"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">same license</a> as the original."
+msgstr ""
+"Si remezcla, transforma o crea a partir del material, debe distribuir su "
+"contribución bajo la la<a href=\"#\" id=\"same_license_popup\" "
+"class=\"helpLink\">misma licencia</a> del original."
+
+#: templates/includes/deed_body_licenses.html:89
+msgid "NoDerivatives"
+msgstr "SinDerivadas"
+
+#: templates/includes/deed_body_licenses.html:89
+msgid ""
+"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
+" not distribute the modified material."
+msgstr ""
+"Si <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
+"class=\"helpLink\">remezcla, transforma o crea a partir</a> del material, no"
+" podrá distribuir el material modificado."
+
+#: templates/includes/deed_body_licenses.html:95
+msgid ""
+"You may not use this work to advertise for or promote anything but the work "
+"you create from it."
+msgstr ""
+"No podrá usar esta obra para anunciar o promocionar nada excepto la obra "
+"creada a partir de ésta."
+
+#: templates/includes/deed_body_licenses.html:101
+msgid ""
+"For any reuse or distribution, you must make clear to others the license "
+"terms of this work. The best way to do this is with a link to this web page."
+msgstr ""
+"Para cualquier reuso o distribución, tiene que dejar muy claros para otras "
+"los términos de la licencia de esta obra. La mejor forma de hacerlo es "
+"enlazar a esta página web."
+
+#: templates/includes/deed_body_licenses.html:107
+msgid ""
+"You may not perform, display, or distribute copies of this whole work for "
+"any purpose."
+msgstr ""
+"No puede interpretar, exhibir o distribuir copias de esta obra completa, "
+"para ningún propósito."
+
+#: templates/includes/deed_body_licenses.html:112
+msgid "No additional restrictions"
+msgstr "No hay restricciones adicionales"
+
+#: templates/includes/deed_body_licenses.html:112
+msgid ""
+"You may not apply legal terms or <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\">technological "
+"measures</a> that legally restrict others from doing anything the license "
+"permits."
+msgstr ""
+"No puede aplicar términos legales ni <a href=\"#\" "
+"id=\"technological_measures_popup\" class=\"helpLink\"> medidas "
+"tecnológicas</ a> que restrinjan legalmente a otras a hacer cualquier uso "
+"permitido por la licencia."
+
+#: templates/includes/deed_body_licenses.html:118
+msgid "Notices:"
+msgstr "Avisos:"
+
+#: templates/includes/deed_body_licenses.html:121
+msgid ""
+"You do not have to comply with the license for elements of the material in "
+"the public domain or where your use is permitted by an applicable <a "
+"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
+" or limitation</a>."
+msgstr ""
+"No tiene que cumplir con la licencia para elementos del materiale en el "
+"dominio público o cuando su uso esté permitido por una  <a href=\"#\" "
+"id=\"exception_or_limitation_popup\" class=\"helpLink\">excepción o "
+"limitación</a> aplicable."
+
+#: templates/includes/deed_body_licenses.html:124
+msgid ""
+"No warranties are given. The license may not give you all of the permissions"
+" necessary for your intended use. For example, other rights such as <a "
+"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
+" use the material."
+msgstr ""
+"No se dan garantías. La licencia podría no darle todos los permisos que "
+"necesita para el uso que tenga previsto. Por ejemplo, otros derechos como <a"
+" href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
+"class=\"helpLink\"> publicidad, privacidad, o derechos morales</a> pueden "
+"limitar la forma en que utilice el material."
+
+#: templates/includes/deed_body_mark.html:6
+#: templates/includes/deed_body_zero.html:5
+msgid "No Copyright"
+msgstr "Sin derechos autorales"
+
+#: templates/includes/deed_body_mark.html:9
+msgid ""
+"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
+"known restrictions under copyright law, including all related and "
+"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
+"perform the work, even for commercial purposes, all without asking "
+"permission. See <b>Other Information</b> below. </p>"
+msgstr ""
+"<p id=\"nolaw-text\">Esta obra ha sido <b>identificada</b> como libre de "
+"restricciones conocidas bajo la ley derecho autoral, incluyendo todos los "
+"derechos conexos. </p><p><br />  Puede copiar, modificar, distribuir e "
+"interpretar la obra, incluso para fines comerciales, todo esto sin pedir "
+"permiso. Vea <b>más información</b> a continuación. </p>"
+
+#: templates/includes/deed_body_mark.html:21
+#: templates/includes/deed_body_zero.html:13
+msgid "Other Information"
+msgstr "Más información"
+
+#: templates/includes/deed_body_mark.html:25
+msgid ""
+"The work may not be free of known copyright restrictions in all <a href=\"\""
+" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+msgstr ""
+"La obra puede que no esté libre de restricciones conocidas de derechos "
+"autorales en todas <a href=\"\" class=\"helpLink\" "
+"id=\"all_jurisdictions\">las jurisdicciones</a>."
+
+#: templates/includes/deed_body_mark.html:31
+msgid ""
+"Persons may have other rights in or related to the work, such as patent or "
+"trademark rights, and others may have rights in how the work is used, such "
+"as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+"Las personas pueden tener otros derechos en o relacionados con la obra, como"
+" patentes o marcas registradas, y otros pueden tener derechos sobre cómo se "
+"usa la obra, como derechos a la <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
+" class=\"helpLink\" id=\"publicity_rights\">publicidad o privacidad</a>."
+
+#: templates/includes/deed_body_mark.html:40
+msgid ""
+"In some jurisdictions <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
+"term of copyright. These rights may include the right to be identified as "
+"the author and the right to object to derogatory treatments."
+msgstr ""
+"En algunas jurisdicciones <a href=\"\" class=\"helpLink\" "
+"id=\"moral_rights\">los derechos morales</a> de la autora pueden persistir "
+"más allá del término de los derechos autorales. Estos derechos pueden "
+"incluir el derecho de ser identificada como la autora y el derecho a objetar"
+" tratos despectivos de la obra."
+
+#: templates/includes/deed_body_mark.html:48
+msgid ""
+"Unless expressly stated otherwise, the person who identified the work makes "
+"no warranties about the work, and disclaims liability for all uses of the "
+"work, to the fullest extent permitted by applicable law."
+msgstr ""
+"A menos que esté expresamente señalado, la persona que identificó la obra "
+"con este acuerdo no entrega garantías sobre la obra, y se exime de toda "
+"responsabilidad por todos los usos de la misma, en la medida en que sea "
+"permitido por la legislación aplicable."
+
+#: templates/includes/deed_body_mark.html:55
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"person who identified the work."
+msgstr ""
+"Al usar o citar la obra, no debe insinuar <a href=\"\" class=\"helpLink\" "
+"id=\"endorsement\">aprobación</a> por parte de la autora o la persona que "
+"identificó la obra."
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid "Unimplemented"
+msgstr ""
+
+#: templates/includes/deed_body_unimplemented.html:7
+#: templates/legalcode.html:79
+msgid ""
+"this legal tool does not have a valid template. Please report this issue:"
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:7
+msgid ""
+"The person who associated a work with this deed has <b>dedicated</b> the "
+"work to the public domain by waiving all of his or her rights to the work "
+"worldwide under copyright law, including all related and neighboring rights,"
+" to the extent allowed by law."
+msgstr ""
+"La persona que asoció una obra con este resumen ha <b>dedicado</b> la obra "
+"al dominio público, mediante la renuncia a todos sus derechos a la obra bajo"
+" las leyes de derechos autorales en todo el mundo, incluyendo todos los "
+"derechos conexos y afines, en la medida permitida por la ley."
+
+#: templates/includes/deed_body_zero.html:8
+msgid ""
+"You can copy, modify, distribute and perform the work, even for commercial "
+"purposes, all without asking permission. See <b>Other Information</b> below."
+msgstr ""
+"Puede copiar, modificar, distribuir e interpretar la obra, incluso para "
+"propósitos comerciales, sin pedir permiso. Vea <b>Otra información</b> "
+"debajo."
+
+#: templates/includes/deed_body_zero.html:15
+msgid ""
+"In no way are the patent or trademark rights of any person affected by CC0, "
+"nor are the rights that other persons may have in the work or in how the "
+"work is used, such as <a "
+"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+msgstr ""
+
+#: templates/includes/deed_body_zero.html:17
+msgid ""
+"Unless expressly stated otherwise, the person who associated a work with "
+"this deed makes no warranties about the work, and disclaims liability for "
+"all uses of the work, to the fullest extent permitted by applicable law."
+msgstr ""
+"A menos que esté expresamente señalado, la persona que asoció una obra con "
+"este resumen no da garantías sobre la obra, y se exime de toda "
+"responsabilidad por los usos de la misma, en la medida permitida por la ley."
+
+#: templates/includes/deed_body_zero.html:18
+msgid ""
+"When using or citing the work, you should not imply <a href=\"\" "
+"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"affirmer."
+msgstr ""
+"Al usar o citar la obra, no debería insinuar <a href=\"\" class=\"helpLink\""
+" id=\"endorsement\">aprobación</a> de la autora o la afirmadora."
+
+#: templates/includes/deed_body_zero.html:21
+msgid "Other Rights"
+msgstr "Otros derechos"
+
+#: templates/includes/deed_body_zero.html:23
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"El uso de una obra libre de restricciones conocidas de derechos autorales "
+"puede ser regulado o limitado. La obra o su uso pueden estar sujetos a "
+"reglas legales de protección de datos personales, derechos de publicidad, "
+"imagen o privacidad que permiten a la persona controlar cómo su voz, imagen "
+"o apariencia es usada, u otras restricciones o limitaciones bajo la ley "
+"aplicable."
+
+#: templates/includes/deed_body_zero.html:24
+#: templates/includes/deed_body_zero.html:31
+#: templates/includes/deed_body_zero.html:37
+msgid "Learn more"
+msgstr "Aprenda más"
+
+#: templates/includes/deed_body_zero.html:28
+msgid "Endorsement"
+msgstr "Aprobación"
+
+#: templates/includes/deed_body_zero.html:30
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"En algunas jurisdicciones, podría ser ilegal insinuar de forma indebida que "
+"una autora, editora o cualquier otra persona aprueba o respalda esta obra."
+
+#: templates/includes/deed_body_zero.html:34
+msgid "Citation"
+msgstr "Cita"
+
+#: templates/includes/deed_body_zero.html:36
+msgid ""
+"Copy and paste the HTML provided into your webpage to easily cite this work."
+msgstr ""
+"Copie y pegue el HTML brindado en su página web para citar fácilmente esta "
+"obra."
+
+#: templates/includes/deed_body_zero.html:40
+msgid "Who is the affirmer?"
+msgstr "¿Quién es la afirmadora?"
+
+#: templates/includes/deed_body_zero.html:42
+msgid ""
+"The affirmer is the person who surrendered rights to the work worldwide "
+"using CC0, to the extent allowable by law. It may be the original author of "
+"the work or another person who may have had some copyright or related or "
+"neighboring legal rights in the work."
+msgstr ""
+"La afirmadora es la persona que entrega los derechos de la obra a todo el "
+"mundo usando CC0, en la medida permitida por la ley. Podría tratarse de la "
+"autora original de la obra o de otra persona que puede haber tenido derechos"
+" autorales,  derechos conexos u otros derechos relacionados sobre la obra."
+
+#: templates/includes/languages_dropdown.html:6
+msgid "Languages available"
+msgstr ""
+
+#: templates/includes/notice_40.html:3
+#: templates/includes/notice_certification.html:3
+#: templates/includes/notice_deprecated.html:3
+#: templates/includes/notice_newer_license.html:3
+#: templates/includes/notice_zero.html:3
+msgid "Notice"
+msgstr ""
+
+#: templates/includes/notice_40.html:5
+msgid ""
+"This deed highlights only some of the key features and terms of the actual "
+"license. It is not a license and has no legal value. You should carefully "
+"review all of the terms and conditions of the actual license before using "
+"the licensed material."
+msgstr ""
+"Este resumen destaca sólo algunas de las características clave y los "
+"términos de la licencia real. No es una licencia y no tiene valor legal. "
+"Usted debe revisar cuidadosamente todos los términos y condiciones de la "
+"licencia actual antes de usar el material licenciado."
+
+#: templates/includes/notice_40.html:13
+msgid ""
+"Creative Commons is not a law firm and does not provide legal services. "
+"Distributing, displaying, or linking to this deed or the license that it "
+"summarizes does not create a lawyer-client or any other relationship."
+msgstr ""
+"Creative Commons no es un bufete de abogados y no ofrece servicios legales. "
+"Distribuir, exhibir, o enlazar a este resumen o la licencia que se resume, "
+"no crea una relación abogado-cliente ni de cualquier otro tipo."
+
+#: templates/includes/notice_about_cc_and_trademark.html:3
+msgid "About Creative Commons"
+msgstr ""
+
+#: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
 "Creative Commons is not a party to its public licenses. Notwithstanding, "
 "Creative Commons may elect to apply one of its public licenses to material "
@@ -448,7 +924,7 @@ msgstr ""
 "evitar cualquier duda, este párrafo no forma parte de las licencias "
 "públicas."
 
-#: templates/includes/about_cc.html:30
+#: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
@@ -456,11 +932,11 @@ msgstr ""
 "Puede contactarse con Creative Commons en <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 
-#: templates/includes/about_cc_and_license.html:6
+#: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
 msgstr ""
 
-#: templates/includes/about_cc_and_license.html:8
+#: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
 "Creative Commons Corporation (\"Creative Commons\") is not a law firm and "
 "does not provide legal services or legal advice. Distribution of Creative "
@@ -483,467 +959,7 @@ msgstr ""
 "responsabilidad vinculada a daños que resulten de su uso conforme al marco "
 "legal aplicable."
 
-#: templates/includes/deed_body_certification.html:6
-msgid ""
-"<p>The person or persons who have associated work with this document (the "
-"\"Dedicator\" or \"Certifier\") hereby either (a) certifies that, to the "
-"best of his knowledge, the work of authorship identified is in the public "
-"domain of the country from which the work is published, or (b) hereby "
-"dedicates whatever copyright the dedicators holds in the work of authorship "
-"identified below (the \"Work\") to the public domain. A certifier, moreover,"
-" dedicates any copyright interest he may have in the associated work, and "
-"for these purposes, is described as a \"dedicator\" below.</p> <p>A "
-"certifier has taken reasonable steps to verify the copyright status of this "
-"work. Certifier recognizes that his good faith efforts may not shield him "
-"from liability if in fact the work certified is not in the public "
-"domain.</p> <p>Dedicator makes this dedication for the benefit of the public"
-" at large and to the detriment of the Dedicator's heirs and successors. "
-"Dedicator intends this dedication to be an overt act of relinquishment in "
-"perpetuity of all present and future rights under copyright law, whether "
-"vested or contingent, in the Work. Dedicator understands that such "
-"relinquishment of all rights includes the relinquishment of all rights to "
-"enforce (by lawsuit or otherwise) those copyrights in the Work.</p> "
-"<p>Dedicator recognizes that, once placed in the public domain, the Work may"
-" be freely reproduced, distributed, transmitted, used, modified, built upon,"
-" or otherwise exploited by anyone for any purpose, commercial or non-"
-"commercial, and in any way, including by methods that have not yet been "
-"invented or conceived.</p>"
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:7
-msgid "You are free to:"
-msgstr "Usted es libre de: "
-
-#: templates/includes/deed_body_licenses.html:11
-msgid ""
-"<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
-msgstr ""
-"<strong>a Compartir</strong> &mdash; a copiar, distribuir, y transmitir la "
-"obra"
-
-#: templates/includes/deed_body_licenses.html:12
-msgid "<strong>to Remix</strong> &mdash; to adapt the work"
-msgstr "<strong>a Remezclar</strong> &mdash; a adaptar la obra"
-
-#: templates/includes/deed_body_licenses.html:17
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"noncommercial purposes."
-msgstr ""
-"Para hacer samples, mash-ups, u otras formas de transformación creativa de "
-"esta obra para propósitos no comerciales."
-
-#: templates/includes/deed_body_licenses.html:19
-msgid ""
-"To sample, mash-up, or otherwise creatively transform this work for "
-"commercial or noncommercial purposes."
-msgstr ""
-"Hacer samples, mash-ups, u otra transformación creativa de esta obra con "
-"propósitos comerciales o no comerciales."
-
-#: templates/includes/deed_body_licenses.html:23
-msgid ""
-"To perform, display, and distribute copies of this whole work for "
-"noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
-msgstr ""
-"Interpretar, exhibir y distribuir copias de la obra completa con propósitos "
-"no comerciales (e.g., compartir archivos o transmisiones no comerciales vía "
-"web)"
-
-#: templates/includes/deed_body_licenses.html:29
-msgid ""
-"<strong>Share</strong> &mdash; copy and redistribute the material in any "
-"medium or format"
-msgstr ""
-"<strong>Compartir</strong> &mdash; copiar y redistribuir el material en "
-"cualquier medio o formato"
-
-#: templates/includes/deed_body_licenses.html:30
-#: templates/includes/deed_body_licenses.html:37
-msgid "for any purpose, even commercially."
-msgstr "para cualquier propósito, incluso comercialmente."
-
-#: templates/includes/deed_body_licenses.html:36
-msgid ""
-"<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
-msgstr ""
-"<strong>Adaptar</strong> &mdash; remezclar, transformar y construir a partir"
-" del material"
-
-#: templates/includes/deed_body_licenses.html:44
-msgid ""
-"The licensor cannot revoke these freedoms as long as you follow the license "
-"terms."
-msgstr ""
-"La licenciante no puede revocar estas libertades en tanto usted siga los "
-"términos de la licencia"
-
-#: templates/includes/deed_body_licenses.html:50
-msgid "Under the following terms:"
-msgstr "Bajo los siguientes términos:"
-
-#: templates/includes/deed_body_licenses.html:61
-msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
-
-#: templates/includes/deed_body_licenses.html:73
-msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
-"made</a></span>. You may do so in any reasonable manner, but not in any way "
-"that suggests the licensor endorses you or your use."
-msgstr ""
-"Usted debe dar <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">crédito de manera adecuada</a></span>, brindar un enlace "
-"a la licencia, e <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicar si se han realizado"
-" cambios</a></span>. Puede hacerlo en cualquier forma razonable, pero no de "
-"forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante."
-
-#: templates/includes/deed_body_licenses.html:85
-msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
-msgstr ""
-"Usted no puede hacer uso del material con <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">propósitos "
-"comerciales</a>."
-
-#: templates/includes/deed_body_licenses.html:96
-msgid ""
-"If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
-msgstr ""
-"Si remezcla, transforma o crea a partir del material, debe distribuir su "
-"contribución bajo la la<a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">misma licencia</a> del original."
-
-#: templates/includes/deed_body_licenses.html:107
-msgid "NoDerivatives"
-msgstr "SinDerivadas"
-
-#: templates/includes/deed_body_licenses.html:107
-msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
-msgstr ""
-"Si <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remezcla, transforma o crea a partir</a> del material, no"
-" podrá distribuir el material modificado."
-
-#: templates/includes/deed_body_licenses.html:118
-msgid ""
-"You may not use this work to advertise for or promote anything but the work "
-"you create from it."
-msgstr ""
-"No podrá usar esta obra para anunciar o promocionar nada excepto la obra "
-"creada a partir de ésta."
-
-#: templates/includes/deed_body_licenses.html:129
-msgid ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
-msgstr ""
-"Para cualquier reuso o distribución, tiene que dejar muy claros para otras "
-"los términos de la licencia de esta obra. La mejor forma de hacerlo es "
-"enlazar a esta página web."
-
-#: templates/includes/deed_body_licenses.html:140
-msgid ""
-"You may not perform, display, or distribute copies of this whole work for "
-"any purpose."
-msgstr ""
-"No puede interpretar, exhibir o distribuir copias de esta obra completa, "
-"para ningún propósito."
-
-#: templates/includes/deed_body_licenses.html:150
-msgid "No additional restrictions"
-msgstr "No hay restricciones adicionales"
-
-#: templates/includes/deed_body_licenses.html:150
-msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
-msgstr ""
-"No puede aplicar términos legales ni <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\"> medidas "
-"tecnológicas</ a> que restrinjan legalmente a otras a hacer cualquier uso "
-"permitido por la licencia."
-
-#: templates/includes/deed_body_licenses.html:157
-msgid "Notices:"
-msgstr "Avisos:"
-
-#: templates/includes/deed_body_licenses.html:160
-msgid ""
-"You do not have to comply with the license for elements of the material in "
-"the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
-msgstr ""
-"No tiene que cumplir con la licencia para elementos del materiale en el "
-"dominio público o cuando su uso esté permitido por una  <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">excepción o "
-"limitación</a> aplicable."
-
-#: templates/includes/deed_body_licenses.html:163
-msgid ""
-"No warranties are given. The license may not give you all of the permissions"
-" necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
-msgstr ""
-"No se dan garantías. La licencia podría no darle todos los permisos que "
-"necesita para el uso que tenga previsto. Por ejemplo, otros derechos como <a"
-" href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\"> publicidad, privacidad, o derechos morales</a> pueden "
-"limitar la forma en que utilice el material."
-
-#: templates/includes/deed_body_mark.html:7
-#: templates/includes/deed_body_zero.html:6
-msgid "No Copyright"
-msgstr "Sin derechos autorales"
-
-#: templates/includes/deed_body_mark.html:14
-msgid ""
-"<p id=\"nolaw-text\"> This work has been <b>identified</b> as being free of "
-"known restrictions under copyright law, including all related and "
-"neighboring rights. </p> <p> <br /> You can copy, modify, distribute and "
-"perform the work, even for commercial purposes, all without asking "
-"permission. See <b>Other Information</b> below. </p>"
-msgstr ""
-"<p id=\"nolaw-text\">Esta obra ha sido <b>identificada</b> como libre de "
-"restricciones conocidas bajo la ley derecho autoral, incluyendo todos los "
-"derechos conexos. </p><p><br />  Puede copiar, modificar, distribuir e "
-"interpretar la obra, incluso para fines comerciales, todo esto sin pedir "
-"permiso. Vea <b>más información</b> a continuación. </p>"
-
-#: templates/includes/deed_body_mark.html:22
-#: templates/includes/deed_body_zero.html:19
-msgid "Other Information"
-msgstr "Más información"
-
-#: templates/includes/deed_body_mark.html:28
-msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
-msgstr ""
-"La obra puede que no esté libre de restricciones conocidas de derechos "
-"autorales en todas <a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">las jurisdicciones</a>."
-
-#: templates/includes/deed_body_mark.html:30
-msgid ""
-"Persons may have other rights in or related to the work, such as patent or "
-"trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-"Las personas pueden tener otros derechos en o relacionados con la obra, como"
-" patentes o marcas registradas, y otros pueden tener derechos sobre cómo se "
-"usa la obra, como derechos a la <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicidad o privacidad</a>."
-
-#: templates/includes/deed_body_mark.html:32
-msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
-msgstr ""
-"En algunas jurisdicciones <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">los derechos morales</a> de la autora pueden persistir "
-"más allá del término de los derechos autorales. Estos derechos pueden "
-"incluir el derecho de ser identificada como la autora y el derecho a objetar"
-" tratos despectivos de la obra."
-
-#: templates/includes/deed_body_mark.html:34
-msgid ""
-"Unless expressly stated otherwise, the person who identified the work makes "
-"no warranties about the work, and disclaims liability for all uses of the "
-"work, to the fullest extent permitted by applicable law."
-msgstr ""
-"A menos que esté expresamente señalado, la persona que identificó la obra "
-"con este acuerdo no entrega garantías sobre la obra, y se exime de toda "
-"responsabilidad por todos los usos de la misma, en la medida en que sea "
-"permitido por la legislación aplicable."
-
-#: templates/includes/deed_body_mark.html:36
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"person who identified the work."
-msgstr ""
-"Al usar o citar la obra, no debe insinuar <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">aprobación</a> por parte de la autora o la persona que "
-"identificó la obra."
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid "Unimplemented"
-msgstr ""
-
-#: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:57
-msgid ""
-"this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:12
-msgid ""
-"The person who associated a work with this deed has <b>dedicated</b> the "
-"work to the public domain by waiving all of his or her rights to the work "
-"worldwide under copyright law, including all related and neighboring rights,"
-" to the extent allowed by law."
-msgstr ""
-"La persona que asoció una obra con este resumen ha <b>dedicado</b> la obra "
-"al dominio público, mediante la renuncia a todos sus derechos a la obra bajo"
-" las leyes de derechos autorales en todo el mundo, incluyendo todos los "
-"derechos conexos y afines, en la medida permitida por la ley."
-
-#: templates/includes/deed_body_zero.html:13
-msgid ""
-"You can copy, modify, distribute and perform the work, even for commercial "
-"purposes, all without asking permission. See <b>Other Information</b> below."
-msgstr ""
-"Puede copiar, modificar, distribuir e interpretar la obra, incluso para "
-"propósitos comerciales, sin pedir permiso. Vea <b>Otra información</b> "
-"debajo."
-
-#: templates/includes/deed_body_zero.html:24
-msgid ""
-"In no way are the patent or trademark rights of any person affected by CC0, "
-"nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:26
-msgid ""
-"Unless expressly stated otherwise, the person who associated a work with "
-"this deed makes no warranties about the work, and disclaims liability for "
-"all uses of the work, to the fullest extent permitted by applicable law."
-msgstr ""
-"A menos que esté expresamente señalado, la persona que asoció una obra con "
-"este resumen no da garantías sobre la obra, y se exime de toda "
-"responsabilidad por los usos de la misma, en la medida permitida por la ley."
-
-#: templates/includes/deed_body_zero.html:27
-msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
-"affirmer."
-msgstr ""
-"Al usar o citar la obra, no debería insinuar <a href=\"\" class=\"helpLink\""
-" id=\"endorsement\">aprobación</a> de la autora o la afirmadora."
-
-#: templates/includes/deed_body_zero.html:32
-msgid "Other Rights"
-msgstr "Otros derechos"
-
-#: templates/includes/deed_body_zero.html:34
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"El uso de una obra libre de restricciones conocidas de derechos autorales "
-"puede ser regulado o limitado. La obra o su uso pueden estar sujetos a "
-"reglas legales de protección de datos personales, derechos de publicidad, "
-"imagen o privacidad que permiten a la persona controlar cómo su voz, imagen "
-"o apariencia es usada, u otras restricciones o limitaciones bajo la ley "
-"aplicable."
-
-#: templates/includes/deed_body_zero.html:35
-#: templates/includes/deed_body_zero.html:42
-#: templates/includes/deed_body_zero.html:51
-msgid "Learn more"
-msgstr "Aprenda más"
-
-#: templates/includes/deed_body_zero.html:39
-msgid "Endorsement"
-msgstr "Aprobación"
-
-#: templates/includes/deed_body_zero.html:41
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"En algunas jurisdicciones, podría ser ilegal insinuar de forma indebida que "
-"una autora, editora o cualquier otra persona aprueba o respalda esta obra."
-
-#: templates/includes/deed_body_zero.html:45
-msgid "Citation"
-msgstr "Cita"
-
-#: templates/includes/deed_body_zero.html:48
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Copie y pegue el HTML brindado en su página web para citar fácilmente esta "
-"obra."
-
-#: templates/includes/deed_body_zero.html:55
-msgid "Who is the affirmer?"
-msgstr "¿Quién es la afirmadora?"
-
-#: templates/includes/deed_body_zero.html:58
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"La afirmadora es la persona que entrega los derechos de la obra a todo el "
-"mundo usando CC0, en la medida permitida por la ley. Podría tratarse de la "
-"autora original de la obra o de otra persona que puede haber tenido derechos"
-" autorales,  derechos conexos u otros derechos relacionados sobre la obra."
-
-#: templates/includes/disclaimer_40.html:3
-#: templates/includes/disclaimer_certification.html:3
-#: templates/includes/disclaimer_deprecated.html:3
-#: templates/includes/disclaimer_newer_license.html:3
-#: templates/includes/disclaimer_zero.html:9
-msgid "Disclaimer"
-msgstr "Advertencia"
-
-#: templates/includes/disclaimer_40.html:5
-msgid ""
-"This deed highlights only some of the key features and terms of the actual "
-"license. It is not a license and has no legal value. You should carefully "
-"review all of the terms and conditions of the actual license before using "
-"the licensed material."
-msgstr ""
-"Este resumen destaca sólo algunas de las características clave y los "
-"términos de la licencia real. No es una licencia y no tiene valor legal. "
-"Usted debe revisar cuidadosamente todos los términos y condiciones de la "
-"licencia actual antes de usar el material licenciado."
-
-#: templates/includes/disclaimer_40.html:13
-msgid ""
-"Creative Commons is not a law firm and does not provide legal services. "
-"Distributing, displaying, or linking to this deed or the license that it "
-"summarizes does not create a lawyer-client or any other relationship."
-msgstr ""
-"Creative Commons no es un bufete de abogados y no ofrece servicios legales. "
-"Distribuir, exhibir, o enlazar a este resumen o la licencia que se resume, "
-"no crea una relación abogado-cliente ni de cualquier otro tipo."
-
-#: templates/includes/disclaimer_certification.html:4
+#: templates/includes/notice_certification.html:5
 msgid ""
 "This tool is based on United States law and may not be applicable outside "
 "the US. For dedicating new works to the public domain, we recommend <a "
@@ -953,7 +969,7 @@ msgstr ""
 "aplicable fuera de los Estados Unidos. Para dedicar nuevas obras al dominio "
 "público, recomendamos <a href=\"/choose/zero/\">CC0</a>."
 
-#: templates/includes/disclaimer_deprecated.html:5
+#: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
@@ -963,7 +979,7 @@ msgstr ""
 "href=\"http://creativecommons.org/retiredlicenses\">retirado esta "
 "herramienta legal</a> y no recomienda aplicarla a obras."
 
-#: templates/includes/disclaimer_newer_license.html:5
+#: templates/includes/notice_newer_license.html:5
 msgid ""
 "This is an older version of this license. Compared to previous versions, the"
 " 4.0 versions of all CC licenses are <a href=\"/version4/\">more user-"
@@ -972,7 +988,7 @@ msgid ""
 "use of the 4.0 license instead:"
 msgstr ""
 
-#: templates/includes/disclaimer_zero.html:10
+#: templates/includes/notice_zero.html:4
 msgid ""
 "<p> The Commons Deed is not a legal instrument. It is simply a handy "
 "reference for understanding the CC0 Legal Code, a human-readable expression "
@@ -989,49 +1005,32 @@ msgstr ""
 "<p>El resumen (Commons Deed) no es un instrumento legal. Simplemente es una referencia útil para entender el código legal de CC0, una descripción legible por humanos de algunos de sus términos clave. Piense en este como una interfaz amigable para acceder al código legal interno de CC0. El resumen por sí solo no tiene valor legal y sus contenidos no aparecen en CC0.</p> \n"
 "<p>Creative Commons no es una de abogados y no ofrece servicios de tipo legal. La distribución, exhibición o el enlace de este resumen no crea ninguna relación abogado-cliente.</p> <p> Creative Commons no ha verificado el estado de derechos autorales de ninguna de las obras a las que se ha aplicado CC0. CC no ofrece garantías sobre ninguna obra ni sobre su estado de  derechos autorales en ninguna jurisdicción, y se desliga de toda responsabilidad por todos los usos de cualquier obra.</p>"
 
-#: templates/includes/disclaimer_zero.html:24
-msgid ""
-"This is a human-readable summary of the <a href=\"./legalcode\">Legal Code "
-"(read the full text)</a>."
-msgstr ""
-"Esto es un resumen legible por humanos del <a href=\"./legalcode\">Texto "
-"Legal (lea el texto completo)</a> de la licencia."
-
-#: templates/includes/language_selector.html:5
-#: templates/includes/translations.html:4
-msgid "This page is available in the following languages:"
-msgstr "Esta página está disponible en los siguientes idiomas:"
-
-#: templates/includes/languages_dropdown.html:4
-msgid "Languages available"
-msgstr ""
-
-#: templates/includes/languages_dropdown.html:9
-msgid "Select"
-msgstr ""
-
-#: templates/includes/related_links.html:9
+#: templates/includes/related_links.html:4
 msgid ""
 "Creative Commons is the nonprofit behind the open licenses and other legal "
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
 
-#: templates/includes/related_links.html:17
+#: templates/includes/related_links.html:10
 msgid "Learn more about our work"
 msgstr ""
 
-#: templates/includes/related_links.html:19
+#: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
 msgstr ""
 
-#: templates/includes/related_links.html:20
+#: templates/includes/related_links.html:12
 msgid "Support our work"
 msgstr ""
 
-#: templates/includes/related_links.html:22
+#: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
 msgstr ""
+
+#: templates/includes/translations.html:4
+msgid "This page is available in the following languages:"
+msgstr "Esta página está disponible en los siguientes idiomas:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
@@ -1054,15 +1053,11 @@ msgstr ""
 "siguientes son solo con fines informativos, no son exhaustivas y no forman "
 "parte de nuestras licencias."
 
-#: templates/includes/use_of_licenses.html:21
+#: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
 msgstr "Consideraciones para licenciantes"
 
-#: templates/includes/use_of_licenses.html:21 templates/legalcode.html:88
-msgid "Show Considerations for Licensors"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:23
+#: templates/includes/use_of_licenses.html:22
 msgid ""
 "Our public licenses are intended for use by those authorized to give the "
 "public permission to use material in ways otherwise restricted by copyright "
@@ -1091,15 +1086,11 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Más"
 " consideraciones para Licenciantes.</a>"
 
-#: templates/includes/use_of_licenses.html:40
+#: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
 msgstr "Consideraciones para el público"
 
-#: templates/includes/use_of_licenses.html:40 templates/legalcode.html:90
-msgid "Show Considerations for the Public"
-msgstr ""
-
-#: templates/includes/use_of_licenses.html:42
+#: templates/includes/use_of_licenses.html:39
 msgid ""
 "By using one of our public licenses, a licensor grants the public permission"
 " to use the licensed material under specified terms and conditions. If the "
@@ -1131,29 +1122,42 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Más"
 " consideraciones para licenciatarios.</a>"
 
-#: templates/legalcode.html:4 templates/legalcode.html:10
-#: templates/list-licenses.html:12 templates/list-publicdomain.html:12
-msgid "Legal Code"
-msgstr "Código legal"
-
-#: templates/legalcode.html:25
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:84
+#: templates/legalcode.html:50
+msgid "Version"
+msgstr ""
+
+#: templates/legalcode.html:51
+msgid ""
+"See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
+"and the date of change"
+msgstr ""
+
+#: templates/legalcode.html:104
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:86
+#: templates/legalcode.html:106
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/list-licenses.html:54 templates/list-licenses.html:70
-#: templates/list-publicdomain.html:44 templates/list-publicdomain.html:60
+#: templates/legalcode.html:108
+msgid "Show Considerations for Licensors"
+msgstr ""
+
+#: templates/legalcode.html:110
+msgid "Show Considerations for the Public"
+msgstr ""
+
+#: templates/list-licenses.html:55 templates/list-licenses.html:71
+#: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
 msgstr ""
 
-#: templates/list-licenses.html:56 templates/list-publicdomain.html:46
+#: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
 msgstr ""
 
