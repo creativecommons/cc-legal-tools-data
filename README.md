@@ -1,8 +1,5 @@
 # cc-legal-tools-data
 
-> :warning: **This data is in progress and in flux. Please, DO NOT REFERENCE IT
-> until it is stable (and this warning is removed).**
-
 **Creative Commons (CC) Legal Tools Data.** This repository contains data
 associated with the license tools and public domain tools (static HTML,
 internationalization and localization files, etc.). It includes data consumed
