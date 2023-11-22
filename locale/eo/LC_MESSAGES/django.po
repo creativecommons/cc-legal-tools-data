@@ -379,32 +379,32 @@ msgstr "Specimeno"
 msgid "Sampling Plus"
 msgstr "Specimeno Plus"
 
-#: legal_tools/views.py:54
+#: legal_tools/views.py:69
 msgid "Public Domain"
 msgstr "Publikaĵo"
 
-#: legal_tools/views.py:56
+#: legal_tools/views.py:71
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:194 templates/deed.html:9
+#: legal_tools/views.py:209 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:203
+#: legal_tools/views.py:218
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Jura Teksto"
 
-#: legal_tools/views.py:407 templates/includes/related_links.html:15
+#: legal_tools/views.py:422 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:410 templates/includes/related_links.html:18
+#: legal_tools/views.py:425 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -416,7 +416,11 @@ msgstr ""
 msgid "Skip to content"
 msgstr "Transiri al enhavo"
 
-#: templates/deed.html:41
+#: templates/deed.html:43 templates/legalcode.html:32
+msgid "Canonical URL"
+msgstr ""
+
+#: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
 
@@ -725,12 +729,12 @@ msgstr ""
 "identiginto."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:79
+#: templates/legalcode.html:83
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:79
+#: templates/legalcode.html:83
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1065,33 +1069,41 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:47
+#: templates/legalcode.html:37
+msgid "Other formats"
+msgstr ""
+
+#: templates/legalcode.html:40
+msgid "Plain Text"
+msgstr ""
+
+#: templates/legalcode.html:48
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:50
+#: templates/legalcode.html:54
 msgid "Version"
 msgstr ""
 
-#: templates/legalcode.html:51
+#: templates/legalcode.html:55
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:104
+#: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:106
+#: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:112
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:110
+#: templates/legalcode.html:114
 msgid "Show Considerations for the Public"
 msgstr ""
 
