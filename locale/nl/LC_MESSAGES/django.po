@@ -421,7 +421,7 @@ msgstr "Naar de inhoud springen"
 msgid "Canonical URL"
 msgstr ""
 
-#: templates/deed.html:50
+#: templates/deed.html:51
 msgid "See the legal code"
 msgstr "Juridische tekst inzien"
 
@@ -768,12 +768,12 @@ msgstr ""
 "auteur of persoon die dit werk geidentificeerd heeft."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:83
 msgid "Unimplemented"
 msgstr "Niet geïmplementeerd"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:83
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1194,7 +1194,7 @@ msgstr ""
 " overwegingen voor het publiek.</a>"
 
 #: templates/legalcode.html:37
-msgid "Formats"
+msgid "Other formats"
 msgstr ""
 
 #: templates/legalcode.html:40
@@ -1205,11 +1205,11 @@ msgstr ""
 msgid "See the deed"
 msgstr "Zie de akte"
 
-#: templates/legalcode.html:53
+#: templates/legalcode.html:54
 msgid "Version"
 msgstr "Versie"
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:55
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
@@ -1217,19 +1217,19 @@ msgstr ""
 "Bekijk de <a href=\"/legal-code-errata/\">errata</a>voor correctie en de "
 "laatste datum van aanpassing."
 
-#: templates/legalcode.html:107
+#: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers verbergen"
 
-#: templates/legalcode.html:109
+#: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
 msgstr "Overwegingen voor het publiek verbergen"
 
-#: templates/legalcode.html:111
+#: templates/legalcode.html:112
 msgid "Show Considerations for Licensors"
 msgstr "Overwegingen voor licentiegevers tonen"
 
-#: templates/legalcode.html:113
+#: templates/legalcode.html:114
 msgid "Show Considerations for the Public"
 msgstr "Overwegingen voor het publiek tonen"
 

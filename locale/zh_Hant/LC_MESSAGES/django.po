@@ -415,7 +415,7 @@ msgstr "跳到內容"
 msgid "Canonical URL"
 msgstr ""
 
-#: templates/deed.html:50
+#: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
 
@@ -679,12 +679,12 @@ msgid ""
 msgstr "當使用或引用該著作時，不得暗喻作者或指認該著作之人，為你的行為背書。"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:83
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:82
+#: templates/legalcode.html:83
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1005,7 +1005,7 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">更多公眾之考量</a>"
 
 #: templates/legalcode.html:37
-msgid "Formats"
+msgid "Other formats"
 msgstr ""
 
 #: templates/legalcode.html:40
@@ -1016,29 +1016,29 @@ msgstr ""
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:53
+#: templates/legalcode.html:54
 msgid "Version"
 msgstr ""
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:55
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:107
+#: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:109
+#: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
 msgstr ""
 
-#: templates/legalcode.html:111
+#: templates/legalcode.html:112
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:113
+#: templates/legalcode.html:114
 msgid "Show Considerations for the Public"
 msgstr ""
 
