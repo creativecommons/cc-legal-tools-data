@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/uk/\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -375,32 +375,32 @@ msgstr "Використання Частин Твору (Семплінг)"
 msgid "Sampling Plus"
 msgstr "Sampling Plus (розширене використання частин твору)"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Суспільне надбання"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Юридичний Текст"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -408,7 +408,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Перейти до змісту"
 
@@ -419,6 +419,201 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Застосовні правила медіації будуть визначені в застереженні про авторське "
+"право, опублікованому з твором, або, якщо цього не було зроблено, то у "
+"запиті про медіацію. У разі якщо інше не було зазначено у застереженні про "
+"авторське право, розповсюдженому з твором, будуть застосовуватісь Правила "
+"арбітражу UNCITRAL."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Докладніше"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Якщо їх повідомлено, ви маєте вказати ім'я творця і авторство, застереження "
+"про авторське право, вказівку на ліцензію, застереження про відмову від "
+"відповідальності, та посилання на матеріал. Більш ранні, ніж Версія 4.0, "
+"версії ліцензій CC також вимагають від вас вказувати назву матеріалу, якщо "
+"вона наявна, та можуть мати інші невеликі відмінності."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"В 4.0, ви маєте зазначити чи ви вносили зміни до матеріалу і зберігати "
+"зазначення попередніх модифікацій. В 3.0 і попередніх версіях ліцензії "
+"вказівка про внесені зміни була необхідною тільки у разі створення похідного"
+" твору."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Інструкція стосовно позначення"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Комерційним вважається використання головним чином спрямоване на  отримання "
+"комерційних вигод чи грошових коштів."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr ""
+"Зміна формату сама по собі не призводить до створення похідного твору."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Ліцензія забороняє застосування засобів технічного захисту, визначених з "
+"урахуванням положень Статті 11 Угоди ВОІВ про авторське право."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Права користувачів, встановлені винятками і обмеженнями авторського права, "
+"такі як право на добросовісне і чесне використання, не обмежуються "
+"ліцензіями СС."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Можливо вам потрібно буде отримати додаткові дозволи перед використанням "
+"матеріалу у бажаний вами спосіб."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Строки чинності авторського права можуть бути різними в різних країнах. "
+"Твір, вільний від авторськоправової охорони в одній державі, може не бути "
+"вільним від неї в іншій."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Використання твору, вільного від авторськоправового захисту, може "
+"регулюватись або бути обмеженим іншими законами. Твір або його використання "
+"може бути об'єктом законів про захист персональних даних, зображення особи "
+"або приватного життя, котрі дозволяють особі контролювати те, як "
+"використовуються її голос, зображення або образ, або ж інших заборон і "
+"обмежень згідно застосовного законодавства."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Закони про авторське право в більшості країн світу визнають за творцями "
+"\"особисті немайнові права\", засновуючись на яких суд може прийняти рішення"
+" про відшкодування збитків якщо використання твору буде визнано таким, що "
+"\"перекручує чи спотворює\" його."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"В деяких країнах помилкове стверджування, що автор, видавець або ще хтось "
+"інший підтримує чи схвалює використання вами твору, може бути протизаконним."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -620,7 +815,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Повідомлення:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"У разі якщо Ліцензіар є міжурядовою організацією, спори будуть вірішуватися "
+"шляхом <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">медіації та арбітражу</a> якщо інше не було погоджено "
+"окремо."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -633,7 +839,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">виключеннями та "
 "обмеженнями авторського права</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -789,70 +995,6 @@ msgstr ""
 "Коли ви використовуєте або цитуєте твір, ви не повинні вказувати на <a "
 "href=\"\" class=\"helpLink\" id=\"endorsement\">підтримку чи схвалення</a> "
 "від автора або особи, котра підтвердила статус твору."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Інші Права"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Використання твору, вільного від авторськоправового захисту, може "
-"регулюватись або бути обмеженим іншими законами. Твір або його використання "
-"може бути об'єктом законів про захист персональних даних, зображення особи "
-"або приватного життя, котрі дозволяють особі контролювати те, як "
-"використовуються її голос, зображення або образ, або ж інших заборон і "
-"обмежень згідно застосовного законодавства."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Дізнатися більше"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Підтримка чи схвалення"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"В деяких країнах помилкове стверджування, що автор, видавець або ще хтось "
-"інший підтримує чи схвалює використання вами твору, може бути протизаконним."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Цитування"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Скопіюйте і вставте наведений HTML-код на вашу сторінку щоб просто "
-"процитувати цей твір."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Хто підтверджує?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Особа, що підтверджує статус твору - це особа, що, в мірі дозволеній "
-"законом, відмовилися від всіх прав на твір за допомогою СС0. Це може бути "
-"автор твору чи інша особа, що може мати певні авторські або суміжні права на"
-" твір."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/hr/\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "Sempliranje"
 msgid "Sampling Plus"
 msgstr "Sempliranje plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Javno dobro"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Pravni tekst licence"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Preskočite na sadržaj"
 
@@ -418,6 +418,198 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Važeća pravila mirenja mogu se odrediti u autorskopravnom upozorenju koje "
+"dolazi uz djelo. A ako ga nema, onda u zahtjevu za mirenjem. Ako nije "
+"drugačije naznačeno u autorskopravnom upozorenju, za svaku arbitražu važe "
+"UNCITRAL-ova Arbitracijska pravila."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Više informacija"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Ako je naznačeno, morate ponuditi ime autora i atribucijskih stranaka, "
+"obavijest o autorskim pravima, obavijest o licenci, obavijest o odricanju od"
+" odgovornosti i link s materijalima. Ranije verzije CC od verzije 4.0. "
+"licenci traže da navedete naslov materijala i imaju nešto drugačije "
+"atribucijske zahtjeve."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"U verziji 4.0 morate naznačiti ako ste sami mijenjali materija i zadržati "
+"naznaku prethodnih izmjena. U verziji 3.0 i ranijim verzijama, naznaka "
+"napravljene izmjene nužna je samo u slučajevima prerade djela."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Vodič za obilježavanje"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Komercijalno iskorištavanje djela prije svega ide za stjecanjem komercijalne"
+" koristi ili novčane naknade."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Samo promjena formata nikada ne stvara preradu."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Licenca zabranjuje primjenu tehnoloških mjera kako su definirane u Članu 11."
+" Ugovora o autorskom pravu Svjetske organizacije za intelektualno vlasništvo"
+" (WIPO)."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"CC licence ne utječu na prava korisnika u okviru iznimki ili ograničenja "
+"autorskog prava."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Možda morate dobiti dodatna dopuštenja prije no što smijete koristiti "
+"materijal na željeni način."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Trajanje autorskog i srodnih prava varira od pravnog sustava do pravnog "
+"sustava, od zemlje do zemlje. Djelo koje je slobodno od ograničenja "
+"autorskog i srodnih prava u jednom pravnom sustavu možda nije isto tako "
+"slobodno u drugim pravnim sustavima."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Korištenje djela koje nije pod zaštitom autorskog ili srodnih prava može "
+"biti regulirano ili ograničeno drugim odredbama. Djelo ili njegovo "
+"korištenje može biti predmetom zaštite zakona o osobnim podacima, prava nad "
+"objavljivanjem osobne fotografije, pravima lika ili pravima privatnosti koje"
+" osobama daju kontrolu nad korištenjem njihovog glasa, slike ili lika, kao "
+"što može biti predmetom i drugih zakonskih ograničenja."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Zakoni o autorskom i srodnim pravima u mnogim pravim sustavima diljem "
+"svijeta stvarateljima daju \"moralna prava\" koja nude mogućnost zaštite u "
+"slučaju da se smatra da neko korištenje djela ugrožava čast ili ugled."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"U nekim pravnim sustavima neistinito tvrditi da autor, izdavač ili netko "
+"drugi izravno podržava Vaše korištenje djela može biti nezakonito."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -621,7 +813,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Upozorenja:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Kada je davatelj licence međuvladina organizacija, pravni sporovi rješavat "
+"će se  <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mirenjem i arbitriranjem</a>, osim ako nije dogotovoreno "
+"drugačije."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -633,7 +836,7 @@ msgstr ""
 "href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">iznimkama"
 " i ograničenjima autorskog prava</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -786,69 +989,6 @@ msgstr ""
 "Kada koristite ili navodite djelo, ne biste trebali implicirati da Vas autor"
 " ili potvrditelj <a href=\"\" class=\"helpLink\" id=\"endorsement\">izravno "
 "podržavaju</a>."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Druga prava"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Korištenje djela koje nije pod zaštitom autorskog ili srodnih prava može "
-"biti regulirano ili ograničeno drugim odredbama. Djelo ili njegovo "
-"korištenje može biti predmetom zaštite zakona o osobnim podacima, prava nad "
-"objavljivanjem osobne fotografije, pravima lika ili pravima privatnosti koje"
-" osobama daju kontrolu nad korištenjem njihovog glasa, slike ili lika, kao "
-"što može biti predmetom i drugih zakonskih ograničenja."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Saznajte više"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Izravna podrška"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"U nekim pravnim sustavima neistinito tvrditi da autor, izdavač ili netko "
-"drugi izravno podržava Vaše korištenje djela može biti nezakonito."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Navođenje djela"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Kako biste mogli lako navesti ovo djelo, kopirajte ponuđeni HTML kod i "
-"unesite ga na Vašu internetsku stranicu."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Tko je potvrditelj?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Potvrditelj je osoba koja se odrekla globalno prava na djelo koristeći CC0 u"
-" mjeri u kojoj to zakon dopušta. Riječ je o izvornom autoru djela ili nekoj "
-"drugoj osobi koja je možda imala neko autorsko ili srodna prava u djelu."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

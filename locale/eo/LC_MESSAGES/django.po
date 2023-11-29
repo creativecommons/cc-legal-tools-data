@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Last-Translator: Petr Adam Dohnálek <dohnp5a1@gmail.com>, 2022\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/eo/\n"
 "Language: eo\n"
@@ -379,32 +379,32 @@ msgstr "Specimeno"
 msgid "Sampling Plus"
 msgstr "Specimeno Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Publikaĵo"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Jura Teksto"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -412,7 +412,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Transiri al enhavo"
 
@@ -423,6 +423,194 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"La aplikeblaj mediaciaj reguloj estos difinitaj en la aŭtorrajta atentigo, "
+"publikigata kun la verko, aŭ se tiu ne ekzistos, en la peto pri mediacio. Se"
+" en la aŭtorrajta atentigo, almetita al la verko, ne estos difinita aliaĵo, "
+"la Arbitraciaj Reguloj UNCITRAL validos por ĉiu ajn arbitracio."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Pli da informoj"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Vi devas provizi la nomojn de la kreinto kaj atribuendaj partioj, "
+"aŭtorrajtan kaj permesilan atentigojn, malgarantiilon kaj ligilon al la "
+"materialo, se ili estas liveritaj. La versioj de la permesiloj Krea Komunaĵo"
+" antaŭ 4.0 ankaŭ postulas provizi titolon de la materialo, se ĝi estas "
+"liverata, kaj povas havi aliajn etajn malsamojn."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"En 4.0 vi devas indiki, ĉu vi modifis la materialon, kaj konservi indikaĵojn"
+" pri antaŭaj modifoj. En 3.0 kaj pli fruaj versioj de permesiloj estas "
+"postulata indiko pri modifoj nur se vi kreas devenaĵon."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Gvidilo pri markado"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Komerca uzo estas intencata unuavice por komerca avantaĝo aŭ mona kompenso."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Nura ŝanĝo de la dosierformo neniam kreas devenaĵon."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"La permesilo malrajtigas onin apliki efikajn teĥnologiajn rimedojn, "
+"difinitajn kun referenco al la Artikolo 11 en la Aŭtorrajta Traktato de la "
+"Monda Organizaĵo de Intelekta Propraĵo."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"La rajtoj de uzantoj laŭ esceptoj kaj limigoj, kiel justaj uzo kaj trakto, "
+"ne estas influitaj per la permesiloj Krea Komunaĵo."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Vi eble bezonos akiri kromajn rajtigojn antaŭ uzo de la materialo laŭ via "
+"intenco."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Aŭtorrajtaj kondiĉoj povas diversi inter jurisdikcioj. Verko aŭtorrajte "
+"neprotektata en unu jurisdikcio ne ĉiam estas same libera en aliaj."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Uzo de verko sen konataj aŭtorrajtaj limigoj povas esti reguligita aŭ "
+"limigita alimaniere. La verkon aŭ ties uzon povas koncerni leĝoj pri "
+"protekto de personaj datenoj, rajtoj publikigaj, bildaj aŭ privatecaj, kiuj "
+"ebligas al persono kontroli, kiel ties voĉo, bildo aŭ similaĵo estas uzata, "
+"aŭ aliaj limigoj laŭ aplikebla leĝaro."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Aŭtorrajtaj leĝaroj en plimulto da jurisdikcioj en la mondo donas al la "
+"kreintoj „moralajn rajtojn“, kiuj povas iom kompensi damaĝon, se uzo de ilia"
+" verko estas konsiderata „fiega“."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"En iuj jurisdikcioj povas esti kontraŭleĝe nerajtigite supozigi, ke la "
+"aŭtoro, publikiginto aŭ iu ajn alia subtenas vian uzon de la verko."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -623,7 +811,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Atentigoj:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Se la Permesanto estas interregistara organizaĵo, konfliktoj estos solvataj "
+"per <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediacio kaj arbitracio</a>, se ne estas interkonsentita "
+"alia maniero."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -635,7 +834,7 @@ msgstr ""
 " <a href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">escepto aŭ limigo</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -788,69 +987,6 @@ msgstr ""
 "Uzante aŭ citante la verkon, vi ne rajtas supozigi, ke ties aŭtoro aŭ "
 "atestinto <a href=\"\" class=\"helpLink\" id=\"endorsement\">subtenas</a> "
 "vin."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Aliaj Rajtoj"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Uzo de verko sen konataj aŭtorrajtaj limigoj povas esti reguligita aŭ "
-"limigita alimaniere. La verkon aŭ ties uzon povas koncerni leĝoj pri "
-"protekto de personaj datenoj, rajtoj publikigaj, bildaj aŭ privatecaj, kiuj "
-"ebligas al persono kontroli, kiel ties voĉo, bildo aŭ similaĵo estas uzata, "
-"aŭ aliaj limigoj laŭ aplikebla leĝaro."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Ekscii pli"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Subteno"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"En iuj jurisdikcioj povas esti kontraŭleĝe nerajtigite supozigi, ke la "
-"aŭtoro, publikiginto aŭ iu ajn alia subtenas vian uzon de la verko."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Citaĵo"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Kopiu kaj algluu la provizitan HTML en vian retpaĝon por facila citado de la"
-" verko."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Kiu estas la atestinto?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"La atestinto estas persono, kiu tutmonde rezignis rajtojn por la verko "
-"uzinte CC0, ĝis la amplekso permesita de leĝaro. Povas temi pri la origina "
-"aŭtoro de la verko aŭ alia persono, kiu povis havi por la verko iun "
-"aŭtorrajton, eventuale rilatajn aŭ najbarajn jurajn rajtojn."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

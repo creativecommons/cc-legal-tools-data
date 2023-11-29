@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sk/\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -372,32 +372,32 @@ msgstr ""
 msgid "Sampling Plus"
 msgstr ""
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Voľné dielo (Public Domain)"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr ""
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr ""
 
@@ -416,6 +416,187 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Viac informácií"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Ak je dodaný, musíte uviesť meno tvorcu a strany, ktoré predstavujú zdroj, "
+"ak sú k dispozícii, ako aj upozornenie o autorských právach, oznámenie o "
+"udelení licencie, vyhlásenie o odmietnutí zodpovednosti a odkaz na materiál."
+" Licencie CC skoršie než verzia 4.0 si takisto vyžadujú, aby ste uviedli "
+"názov materiálu, ak je k dispozícii, a navyše môžu obsahovať iné malé "
+"rozdiely"
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"V prípade verzie 4.0 musíte uviesť, či ste materiál modifikovali, a uchovať "
+"uvedenie predchádzajúcich modifikácií. V prípade verzie licencie 3.0 a "
+"verzií, ktoré jej predchádzali sa uvedenie zmien vyžaduje len vtedy, ak "
+"vytvoríte odvodené dielo."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr ""
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr ""
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Licencia zakazuje uplatňovanie účinných technických opatrení vymedzených s "
+"odkazom na článok 11 Zmluvy WIPO o autorskom práve."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Práva používateľov vyplývajúce z výnimiek a obmedzení, ako napríklad "
+"spravodlivé používanie a spravodlivé zaobchádzanie, licenciami CC nie sú "
+"dotknuté."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Pred použitím materiálu takým spôsobom, akým zamýšľate, možno budete musieť "
+"získať dodatočné povolenia."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Použitie diela nad rámec známych obmedzení súvisiacich s autorskými právami "
+"môže byť inak regulované alebo obmedzené. Na dielo alebo jeho používanie sa "
+"môžu vzťahovať zákony o ochrane osobných údajov, reklame, ochrane podobizne "
+"alebo súkromia, ktoré umožňujú osobám kontrolovať, ako sa používa ich hlas, "
+"podobizeň alebo podoba, prípadne iné obmedzenia podľa platných právnych "
+"predpisov."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"V niektorých jurisdikciách nepravdivé naznačovanie toho, že autor, vydavateľ"
+" alebo ktokoľvek iný súhlasí s vaším použitím diela, môže byť nezákonné."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -604,7 +785,14 @@ msgstr ""
 msgid "Notices:"
 msgstr "Oznámenia:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -616,7 +804,7 @@ msgstr ""
 "uplatniteľnej <a href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">výnimky alebo obmedzenia</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -747,64 +935,6 @@ msgstr ""
 "Pri používaní alebo citovaní diela by ste nemali naznačovať  <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">súhlas</a> autora alebo deklarant."
 
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Ďalšie Práva"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Použitie diela nad rámec známych obmedzení súvisiacich s autorskými právami "
-"môže byť inak regulované alebo obmedzené. Na dielo alebo jeho používanie sa "
-"môžu vzťahovať zákony o ochrane osobných údajov, reklame, ochrane podobizne "
-"alebo súkromia, ktoré umožňujú osobám kontrolovať, ako sa používa ich hlas, "
-"podobizeň alebo podoba, prípadne iné obmedzenia podľa platných právnych "
-"predpisov."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"V niektorých jurisdikciách nepravdivé naznačovanie toho, že autor, vydavateľ"
-" alebo ktokoľvek iný súhlasí s vaším použitím diela, môže byť nezákonné."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr ""
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
 msgstr ""
@@ -859,12 +989,31 @@ msgid ""
 "avoidance of doubt, this paragraph does not form part of the public "
 "licenses."
 msgstr ""
+"Creative Commons nie je zmluvnou stranou svojich verejných licencií. Hoci, "
+"Creative Commons si môže vybrať aplikáciu niektorej zo svojich verejných "
+"licencií na obsah, ktorý zverejní a v takomto prípade bude považované za "
+"„Poskytovateľa\". Texty verejných licencií Creative Commons sú uvoľnené do "
+"public domain podľa <a href=\"/publicdomain/zero/1.0/\">CC0 Public Domain "
+"Dedication</a>. Okrem obmedzeného účelu použitia na určenie skutočnosti, že "
+"nejaký obsah je šírený podľa verejných licencií Creative Commons alebo ako "
+"je inak dovolené v rámci pravidiel Creative Commons zverejnených na <a "
+"href=\"/policies/\">creativecommons.org/policies</a>, nemožno použiť "
+"ochrannú známku „Creative Commons\" alebo inú ochrannú známku alebo logo, "
+"ktoré sú majetkom Creative Commons bez predchádzajúceho písomného súhlasu "
+"Creative Commons, a to najmä, nie však výlučne, v spojení s akoukoľvek "
+"neoprávnenou úpravou verejných licencií Creative Commons alebo pri iných "
+"dojednaniach či dohodách týkajúcich sa licencovaných obsahov. Na odstránenie"
+" akýchkoľvek pochybností ustanovenie tohto odseku nepredstavuje súčasť "
+"verejnej licencie."
 
 #: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 msgstr ""
+"Creative Commons možno kontaktovať na <a "
+"href=\"//creativecommons.org/\">creativecommons.org</a> (<a "
+"href=\"//sk.creativecommons.org/\">sk.creativecommons.org</a>)."
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
@@ -882,6 +1031,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (\"Creative Commons\") nie je advokátska "
+"kancelária ani neposkytuje právne služby alebo právne poradenstvo. Šírením "
+"textov verejných licencií Creative Commons nevzniká vzťah príkazného typu "
+"alebo iný obdobný vzťah. Creative Commons poskytuje texty verejných licencií"
+" a súvisejúce informácie tak, ako sú. Creative Commons nezodpovedá za texty "
+"verejných licencií ani za obsah licencovaný za týchto licenčných podmienok "
+"ani za súvisejúce informácie. Creative Commons v maximální možnej miere "
+"vylučuje všetku zodpovednosť za škodu, ktorá vznikne v dôsledku ich "
+"použitia."
 
 #: templates/includes/notice_certification.html:5
 msgid ""
@@ -962,7 +1120,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Používanie Verejných licencií Creative Commons"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -973,10 +1131,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Texty verejných licencií Creative Commons predstavujú štandardizovaný soubor"
+" licenčných podmienok, ktoré môžu autori alebo ďalší nositelia práv použiť "
+"pre zdieľanie chránených autorských diel a ďalšieho obsahu, ktorý podlieha "
+"autorským právam a ďalším právam, ktoré sú uvedené nižšie v tejto verejnej "
+"licencii. Nasledujúce upozornenia slúžia výhradne pre informačné účely, nie "
+"sú vyčerpávajúce a nie sú súčasťou týchto licencií."
 
 #: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Upozornenia pre poskytovateľov"
 
 #: templates/includes/use_of_licenses.html:22
 msgid ""
@@ -992,10 +1156,22 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Tieto verejné licencie sú určené osobám oprávneným poskytovať verejnosti "
+"oprávnenia k použitu obsahu spôsobom, ktorý je inak vyhradený vykonávateľom "
+"autorských a niektorých ďalších práv. Tieto licencie sú neodvolateľné. "
+"Poskytovatelia by si mali licenčné podmienky riadne preštudovať tak, aby im "
+"porozumeli skôr ako sa ich rozhodnú použiť. Poskytovatelia by si taktiež "
+"pred použitím týchto licencií mali zaistiť všetky potrebné práva tak, aby "
+"mohla verejnosť použiť obsah predpokladaným spôsobom. Poskytovatelia by mali"
+" jednoznačne označiť všetok obsah, na ktorý sa licencie nevzťahujú, a to "
+"vrátane ďalších diel poskytnutých pod licenciami CC alebo materiálov "
+"použitých na základe výnimky či obmedzenia autorských práv. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Ďalšie"
+" upozornenia pre poskytovateľov.</a>"
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Considerations for the public"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1013,6 +1189,19 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"By using one of our public licenses, a licensor grants the public permission"
+" to use the licensed material under specified terms and conditions. If the "
+"licensor’s permission is not necessary for any reason–for example, because "
+"of any applicable exception or limitation to copyright–then that use is not "
+"regulated by the license. Our licenses grant only permissions under "
+"copyright and certain other rights that a licensor has authority to grant. "
+"Use of the licensed material may still be restricted for other reasons, "
+"including because others have copyright or other rights in the material. A "
+"licensor may make special requests, such as asking that all changes be "
+"marked or described. Although not required by our licenses, you are "
+"encouraged to respect those requests where reasonable. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
+" considerations for the public.</a>"
 
 #: templates/legalcode.html:37
 msgid "Other formats"

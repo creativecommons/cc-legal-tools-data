@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/pt/\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Domínio Público"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Texto Legal"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Saltar para o conteúdo"
 
@@ -418,6 +418,202 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"As regras de mediação aplicáveis serão designadas no aviso de direito de "
+"autor publicado com o trabalho, ou, caso não exista tal aviso, no pedido de "
+"mediação. As Regras de Arbitragem da UNCITRAL aplicam-se a qualquer "
+"arbitragem, salvo designação em contrário no aviso de direito de autor anexo"
+" ao trabalho."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Mais informações"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Caso seja fornecido, você deve indicar o nome do criador e das partes de "
+"atribuição, o aviso de direito de autor, o aviso da licença, o aviso de "
+"exoneração de responsabilidade e um link para o material. As licenças CC "
+"anteriores à Versão 4.0 também exigem que você forneça o título do material,"
+" se indicado, e podem ter outras ligeiras diferenças."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"Na 4.0, você deve indicar se modificou o material e manter a indicação de "
+"modificações anteriores. Na 3.0 e nas versões anteriores das licenças, a "
+"indicação de alterações apenas é exigida caso você tenha criado um trabalho "
+"derivado."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Guia de Sinalização"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Um uso comercial é um uso primeiramente dirigido à obtenção de uma vantagem "
+"comercial ou compensação monetária."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Uma mera modificação do formato nunca cria um trabalho derivado."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"A licença proíbe a aplicação de medidas eficazes de caráter tecnológico, "
+"definidas com referência ao Artigo 11 do Tratado da OMPI sobre Direito de "
+"Autor."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Os direitos dos utilizadores decorrentes de exceções e limitações, tais como"
+" utilização justa (\"fair use\") e tratamento justo (\"fair dealing\"), não "
+"são afetados pelas licenças CC. "
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Você pode necessitar de autorizações adicionais antes de utilizar o material"
+" como pretende."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"A duração do direito de autor e dos direitos conexos varia de jurisdição "
+"para jurisdição. Um trabalho que se encontra livre de restrições devidas ao "
+"direito de autor e aos direitos conexos numa jurisdição, pode não estar "
+"livre das mesmas noutras jurisdições."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"O uso de um trabalho livre de restrições conhecidas devidas ao direito de "
+"autor e aos direitos conexos pode ser regulado ou limitado de outras formas."
+" O trabalho ou o seu uso podem estar sujeitos a legislação de proteção de "
+"dados privados, a direitos de imagem ou de privacidade, que permitem que uma"
+" pessoa controle a forma como a sua voz, imagem ou parecença é usada, ou a "
+"outras restrições ou limitações impostas pela legislação aplicável. "
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"A legislação de direito de autor e de direitos conexos da maioria das "
+"jurisdições em todo o mundo atribuem aos criadores \"direitos morais\", que "
+"podem permitir alguma forma de reparação se um uso de um trabalho for "
+"considerado um \"desvirtuamento\"."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Nalgumas jurisdições, sugerir indevidamente que um autor, editora ou "
+"qualquer outra pessoa aprova o seu uso do trabalho pode ser ilegal."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -622,7 +818,17 @@ msgstr ""
 msgid "Notices:"
 msgstr "Avisos:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Quando o Licenciante é uma organização intergovernamental, os litígios serão"
+" resolvidos por <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediação e arbitragem</a>, salvo acordo em contrário."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -634,7 +840,7 @@ msgstr ""
 "por uma <a href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">exceção ou limitação</a> que seja aplicável."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -794,71 +1000,6 @@ msgstr ""
 "Ao utilizar ou citar o trabalho, não deve deixar implícito que existe <a "
 "href=\"\" class=\"helpLink\" id=\"endorsement\">apoio</a> do autor ou do "
 "declarante."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Outros Direitos"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"O uso de um trabalho livre de restrições conhecidas devidas ao direito de "
-"autor e aos direitos conexos pode ser regulado ou limitado de outras formas."
-" O trabalho ou o seu uso podem estar sujeitos a legislação de proteção de "
-"dados privados, a direitos de imagem ou de privacidade, que permitem que uma"
-" pessoa controle a forma como a sua voz, imagem ou parecença é usada, ou a "
-"outras restrições ou limitações impostas pela legislação aplicável. "
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Saiba mais"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Apoio público"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Nalgumas jurisdições, sugerir indevidamente que um autor, editora ou "
-"qualquer outra pessoa aprova o seu uso do trabalho pode ser ilegal."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Citação"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Copie o HTML fornecido e insira-o na sua página web para citar este "
-"trabalho."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Quem é o declarante?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"O declarante é a pessoa que renunciou aos seus direitos sobre o trabalho em "
-"todo o mundo, na medida permitida por lei, usando a CC0. Pode ser o titular "
-"originário dos direitos sobre o trabalho ou outra pessoa que tenha sido "
-"titular de alguns dos direitos de autor ou dos direitos conexos sobre o "
-"trabalho. "
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

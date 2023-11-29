@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hans/\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "取样使用"
 msgid "Sampling Plus"
 msgstr "取样使用加强版"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "公共领域"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "法律文本"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "跳转至主内容"
 
@@ -418,6 +418,166 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"附随本作品发布的版权声明会指定可适用的调停规则，如果没有指定，则以请求指定。除非附随本作品的版权声明另有指定，联合国国际贸易法委员会仲裁规则适用于任何仲裁。"
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "更多信息"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"如果已提供，您必须提供创作者和署名者的姓名或名称、版权标识、许可协议标识、免责标识和作品链接。先于4.0版本的CC许可协议也要求您在已经提供的情况下提供作品的名称，可能还有其他轻微差别。"
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"根据4.0协议，您必须说明，如果您修改作品和保留以前修改的说明，您必须明确说明。根据3.0协议和更早的协议版本，您仅需在创作演绎作品时，做出修改说明。"
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "标注指南"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "商业性使用是指主要目的为获得商业优势或金钱回报。"
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "仅改变形式不能生成演绎作品"
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr "该协议禁止使用，世界知识产权组织版权公约第11条定义的有效技术措施，"
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr "根据法律的例外和限制性规定，使用者拥有的权利，例如，合理使用（和公平交易），不受CC许可协议的影响"
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr "在按照您的需要使用该作品前，您可能需要得到更多许可"
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr "不同司法管辖区的著作权保护期限不同。在某一个司法管辖区已不受著作权保护的作品可能在其他司法管辖区仍然受保护。"
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"使用免受已知版权限制的作品可能另有规制或限制。该作品或其使用可能受限于个人数据保护法、形象权（publicity）、肖像权（image），或者允许个人控制如何使用声音、形象或类似标的的隐私权，或者法律规定的其他约束或限制。"
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr "全球多数司法管辖区的著作权法赋予创作者以“人身权”，如果对作品的使用被认为对作者造成贬损，“人身权”可提供一些救济。"
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr "在一些司法管辖区，错误地暗示作者、出版者或者其他任何人认可你对作品的使用可能是违法行为。"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -593,7 +753,16 @@ msgstr ""
 msgid "Notices:"
 msgstr "声明："
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"当许可人是政府间组织，争议将通过调停和仲裁解决 <a href=\"#\" id=\"mediation_and_arbitration_popup\""
+" class=\"helpLink\">除非另有协议</a>。"
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -603,7 +772,7 @@ msgstr ""
 "您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 <a href=\"#\" "
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">例外或限制</a>所允许。"
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -731,58 +900,6 @@ msgid ""
 "class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr "当使用或引用本作品，您不得暗示 <a href=\"\" class=\"helpLink\" id=\"endorsement\">作者或声明人认可你</a>。"
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "其他权利"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"使用免受已知版权限制的作品可能另有规制或限制。该作品或其使用可能受限于个人数据保护法、形象权（publicity）、肖像权（image），或者允许个人控制如何使用声音、形象或类似标的的隐私权，或者法律规定的其他约束或限制。"
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "了解更多"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "认可"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr "在一些司法管辖区，错误地暗示作者、出版者或者其他任何人认可你对作品的使用可能是违法行为。"
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "引用"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr "把这些HTML代码复制粘贴到你的网页上，就可以很容易地引用这件作品了。"
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "谁是声明人？"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"声明人是在全世界范围内、使用CC0许可协议贡献出对作品享有的权利至法律所允许的范围的人。他/她可能是作品的原始作者，也可能是对作品享有部分版权或类似或邻接权利的其他人。"
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

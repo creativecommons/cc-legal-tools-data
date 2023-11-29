@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/an/\n"
 "Language: an\n"
 "MIME-Version: 1.0\n"
@@ -373,32 +373,32 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Dominio Publico"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Codigo legal"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "ir ta lo conteniu"
 
@@ -417,6 +417,199 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Las reglas de meyación correspondients, s'indicarán en l'aviso de de dreitos"
+" d'autor publicadas con a obra, u en a solicitut de meyación. De no estar "
+"que s'indique belatra cosa en un aviso de dreitos d'autor adchunto a la "
+"obra, lo Reglamento d'Arbitrache d'a Comisión d'as Nacions Unidas pa lo "
+"Dreito Mercantil Internacional (CNUDMI) s'aplica en qualsequier arbitrache."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Mas información"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Si se suministran, vusté ha de dar lo nombre d'o creyador y d'as partes "
+"reconoixidas, un aviso de dreito d'autor, un aviso de licencia, un aviso "
+"legal, y un vinclo a lo material. Las licencias CC anteriors a la versión "
+"4.0 requieren que vusté proporcione lo titol d'o material, si ye da, y "
+"pueden tener atras liucheras diferencias."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"En 4.0, ha d'indicar si ha modificau lo material y mantener una indicación "
+"d'as modificacions anteriors. En 3.0 y versions anteriors a la licencia, la "
+"indicación d'os cambios nomás se requieren si se creya una obra derivada."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Guida de marcache"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Un uso comercial ye ixe que pretende prencipalment obtener bell avantache "
+"comercial u bella compensación monetaria."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Lo simple feito de cambiar lo formato no chenera una obra derivada."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"La licencia prohibe l'aplicación efectiva de medidas tecnolochicas, "
+"definidas d'alcuerdo a l'Articlo 11 d'o Tractau d'a OMPI sobre dreito "
+"d'autor."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Los dreitos d'os usuarios en virtut d'as excepcions y limitacions, como "
+"l'uso chusto y l'acuerdo chusto, no se veyen afectaus per las licencias CC."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Vusté puede precisar permisos adicionals antes d'usar lo material como ha "
+"pensau fer-lo."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Los plazos de dreito d'autor varian de churisdicción en churisdicción. Una "
+"obra libre de restriccions d'o dreito d'autor en una churisdicción puede que"
+" no sía igualment libre en atras churisdiccions."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"L'uso d'una obra libre de restriccions conoixidas de dreito d'autor puede "
+"estar regulado u limitau. La obra u lo suyo uso pueden estar subchectos a "
+"normas legals de protección de datos personals, dreitos de publicidat, "
+"imachen u privacidat que permiten a la persona controlar cómo la suya voz, "
+"imachen u aspecto son usaus, u atras restriccions u limitacions seguntes la "
+"lei aplicable."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Las leis sobre dreito d'autor en a mayoría d'as churisdiccions d'o mundo "
+"garantizan a los creyadors \"dreitos morals\" que pueden proporcionar bella "
+"compensación si l'uso d'una obra ye considerau \"despectivo\"."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"En qualques churisdiccions, podría estar ilegal dar a entender de traza "
+"indebida que un autor, editor u qualsequier atra persona apreba u empara lo "
+"suyo uso d'una obra."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -620,7 +813,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Avisos:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Quan lo licenciador ye una organización intergubernamental, las disputas se "
+"resolverán por meyo d'a <a href=\"#\" id=\"mediation_and_arbitration_popup\""
+" class=\"helpLink\">mediación y arbitrache</a> de no estar que s'alcuerde "
+"d'atra traza."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -632,7 +836,7 @@ msgstr ""
 "id=\"exception_or_limitation_popup\" class=\"helpLink\">excepción u "
 "limitación</a> aplicable."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -787,71 +991,6 @@ msgstr ""
 "Quan use u cite la obra, ha de fer-lo de manera que no se pueda inferir <a "
 "href=\"\" class=\"helpLink\" id=\"endorsement\">l'aprebación u emparo</a> de"
 " dito uso per parte de l'autor u de l'afirmador."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Atros dreitos"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"L'uso d'una obra libre de restriccions conoixidas de dreito d'autor puede "
-"estar regulado u limitau. La obra u lo suyo uso pueden estar subchectos a "
-"normas legals de protección de datos personals, dreitos de publicidat, "
-"imachen u privacidat que permiten a la persona controlar cómo la suya voz, "
-"imachen u aspecto son usaus, u atras restriccions u limitacions seguntes la "
-"lei aplicable."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Aprenda mas"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Aprebación"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"En qualques churisdiccions, podría estar ilegal dar a entender de traza "
-"indebida que un autor, editor u qualsequier atra persona apreba u empara lo "
-"suyo uso d'una obra."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Cita"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Copie y apegue lo HTML proporcionau en a suya pachina web pa citar facilment"
-" esta obra."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Quí ye l'afirmador?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"L'afirmador ye la persona que renuncia a los dreitos d'a obra en tot lo "
-"mundo fendo servir CC0, en a mida permitida per la lei. Podría estar l'autor"
-" orichinal d'a obra u belatra persona que puede haber teniu dreitos d'autor,"
-"  dreitos afins u atros dreitos relacionaus sobre la obra."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

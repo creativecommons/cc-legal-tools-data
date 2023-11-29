@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Public Domain"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr "Licenser"
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr "Gärning"
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Licenstext"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr "Licenslista"
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr "Public Domain-lista"
 
@@ -407,7 +407,7 @@ msgstr "Public Domain-lista"
 msgid "Home"
 msgstr "Hem"
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Hoppa över till innehåll"
 
@@ -418,6 +418,197 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr "Se lagkoden"
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"De tillämpliga medlingsreglerna kommer att bestämmas utifrån de "
+"upphovsrättsliga begränsningar som publiceras med verket, eller om inga då "
+"ska beslut fattas vid krav om medling. Om inget annat finns angivet i "
+"Copyrights noteringarna som kopplas till verket, kommer UNCITRAL "
+"medlingsregler att används vid medlingsbeslut."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Mer information"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Om det anges, måste du ange namnet på upphovsmannen och skriva ut villkoren "
+"för upphovsmannen, licensen, friskrivningsklausul och länka till verket. CC "
+"licenser före version 4.0 kräver också att du anger titeln på verket om det "
+"anges, och kan ha andra små skillnader "
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"I 4.0, måste du indikera om du har modifierat materialet samt behålla "
+"indikeringar på tidigare modifieringar. I 3.0 och tidigare licensversioner "
+"krävs indikering av ändringar endast om du skapar en bearbetning."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Märkningsguide"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"En kommersiell användning är en som främst är avsedd för kommersiell nytta "
+"eller monetär ersättning.  "
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Att enbart ändra formatet skapar aldrig en bearbetning."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Licensen förbjuder applikationer av effektiva teknologiska medel definierad "
+"med hänvisning till Artikel 11 i WIPO Copyright Treaty, WIPOs "
+"Upphovsrättsfördrag."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Rätten att använda verket enligt de undantag och begränsningar som finns i "
+"lagstiftningen, t.ex citaträtten, begränsas inte av CC licenserna. "
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Du behöver få ytterligare tillstånd innan du använder materialet som du "
+"tänkt dig. "
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Upphovsrättens skyddstid varierar från jurisdiktion till jurisdiktion. Ett "
+"verk som är fritt från upphovsrättsliga restriktioner i en jurisdiktion "
+"behöver inte vara fritt på samma sätt i andra jurisdiktioner."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Användningen av ett verk fritt från kända upphovsrättsliga restriktioner kan"
+" vara reglerad eller begränsad på annat sätt. Verket eller dessa användning "
+"kan påverkas av integritetslagar, publicitetsrättigheter eller "
+"bildrättigheter som ger en person kontroll över hur dennes röst, bild eller "
+"avbildning används eller av andra restriktioner eller begränsningar i "
+"tillämplig lag."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Upphovsrättslagarna i de flesta länder ger upphovsmannen en \"ideell rätt\" "
+"som kan ge vissa befogenheter om användningen av ett verk anses kränkande."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"I vissa jurisdiktioner kan det vara olagligt att felaktigt antyda att en "
+"upphovsman, förläggare eller någon annan godkänt eller stödjer din "
+"användning av verket."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -620,7 +811,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Anmärkningar:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"När licensgivaren är en mellanstatlig organisation, When the Licensor is an "
+"intergovernmental organization, kommer tvister att lösas av <a href=\"#\" "
+"id=\"mediation_and_arbitration_popup\" class=\"helpLink\">förhandlingar och"
+"  and medling</a> om inget annat är överenskommet."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -632,7 +834,7 @@ msgstr ""
 "href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">undantag "
 "eller begränsning</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -788,71 +990,6 @@ msgstr ""
 "Vid användning eller hänvisning till verket ska du inte antyda <a href=\"\" "
 "class=\"helpLink\" id=\"endorsement\">godkännande eller stöd</a> från "
 "upphovsmannen eller  bekräftaren."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Övriga rättigheter"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Användningen av ett verk fritt från kända upphovsrättsliga restriktioner kan"
-" vara reglerad eller begränsad på annat sätt. Verket eller dessa användning "
-"kan påverkas av integritetslagar, publicitetsrättigheter eller "
-"bildrättigheter som ger en person kontroll över hur dennes röst, bild eller "
-"avbildning används eller av andra restriktioner eller begränsningar i "
-"tillämplig lag."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Lär dig mer"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Godkännande"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"I vissa jurisdiktioner kan det vara olagligt att felaktigt antyda att en "
-"upphovsman, förläggare eller någon annan godkänt eller stödjer din "
-"användning av verket."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "citat"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Kopiera och klistra in HTML-koden på din webbsida för att enkelt referera "
-"till detta verk."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Vem är bekräftaren?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Bekräftaren är den person som avsade sig sina rättigheter, för hela världen,"
-" med hjälp av CC0 så långt tillämplig lag tillåter det. Det kan vara den "
-"ursprunglige skaparen av verket eller en annan person som hade upphovsrätt "
-"eller någon närstående rättighet till verket."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

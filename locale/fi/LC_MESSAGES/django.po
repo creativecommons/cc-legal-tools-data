@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-29 16:15:56+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fi/\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "Sämpläys"
 msgid "Sampling Plus"
 msgstr "Sämpläys Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Public Domain"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Oikeudellinen teksti"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr ""
 
@@ -418,6 +418,198 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Sovellettavat sovittelusäännöt ilmoitetaan teoksen yhteydessä julkaistussa "
+"tekijänoikeusmerkinnässä tai sellaisen puuttuessa sovittelupyynnön "
+"yhteydessä.  Ellei teoksen tekijänoikeusmerkinnässä muuta ilmoiteta, "
+"kaikkiin välitysmenettelyihin sovelletaan YK:n kansainvälisen kauppaoikeuden"
+" toimikunnan (UNICITRAL) välimiessääntöjä."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Lisätietoja"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr ""
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Sikäli kuin nämä tiedot on annettu, sinun on pidettävä näkyvillä tekijän "
+"nimi ja muut nimettäväksi mainitut tahot, tekijänoikeusmerkintä, "
+"lisenssimerkintä, vastuuvapauslauseke sekä linkki aineistoon. CC-lisenssin "
+"versiota 4.0 varhaisemmat versiot edellyttävät myös aineiston nimikkeen "
+"mainitsemista ja saattavat sisältää myös muita pieniä eroavaisuuksia."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr ""
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"Version 4.0 mukaan sinun on merkittävä, mikäli olet muokannut aineistoa, "
+"sekä säilyttää tiedot aiemmista muokkauksista. Versiossa 3.0 ja aiemmissa "
+"versioissa muutokset on mainittava vain, jos itse luot johdannaisteoksen."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Merkitsemisopas"
+
+#: templates/deed.html:157
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:158
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:179
+msgid "commercial purposes"
+msgstr ""
+
+#: templates/deed.html:180
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Kaupallinen käyttö tarkoittaa tarkoittaa käyttöä, joka ei ole pääasiassa "
+"tarkoitettu kaupallisen hyödyn tai rahallisen korvauksen tavoitteluun."
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr ""
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Pelkkää formaatin muuttamista ei pidetä johdannaisteoksen luomisena."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr ""
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Lisenssi kieltää tehokkaiden teknisten toimenpiteiden käytön, viitaten "
+"WIPO:n tekijänoikeussopimuksen 11 artiklan määritelmään."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr ""
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"CC-lisenssit eivät vaikuta sellaisiin käyttäjän oikeuksiin, jotka perustuvat"
+" erityisiin poikkeuksiin tai rajoituksiin, kuten esimerkiksi <i>fair use</i>"
+" tai <i>fair dealing</i> -poikkeuksiin."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr ""
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Voit mahdollisesti tarvita lisälupia, jotta voit käyttää aineistoa "
+"haluamallasi tavalla."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Tekijänoikeuden kesto vaihtelee oikeusjärjestelmästä toiseen. Yhdellä "
+"alueella tekijänoikeudesta vapaa teos ei välttämättä ole vapaa toisella "
+"alueella."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Tunnetuista tekijänoikeuden asettamista rajoitteista vapaan teoksen käyttö "
+"voi olla muulla tavoin rajoitettua. Teosta tai sen käyttöä voivat koskea mm."
+" tietosuojalainsäädäntö, henkilön oikeudet määrätä oman nimensä, kuvansa tai"
+" henkilönsä muun tunnistettavan osan käytöstä taikka muut soveltuvan "
+"lainsäädännön mukaiset rajoitukset tai kiellot."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr ""
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Useimpien oikeusjärjestelmien tekijänoikeuslait antavat tekijöille "
+"\"moraalisia oikeuksia\", jotka voivat tarjota suojaa teoksen \"halventavaa "
+"käyttöä\" vastaan."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr ""
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Joissain oikeusjärjestelmissä voi olla lainvastaista oikeudettomasti väittää"
+" tai antaa ymmärtää, että teoksen kustantaja, tekijä tai joku muu "
+"suosittelisi tai tukisi teoksen käyttöäsi tai käyttötapaasi."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -621,7 +813,18 @@ msgstr ""
 msgid "Notices:"
 msgstr "Huomautukset:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Kun Lisenssinantaja on hallitustenvälinen järjestö, erimielisyydet "
+"ratkaistaan  <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
+"class=\"helpLink\">sovittelu- tai välitysmenettelyssä</a>, ellei muuta ole "
+"sovittu."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
@@ -634,7 +837,7 @@ msgstr ""
 "href=\"#\" id=\"exception_or_limitation_popup\" "
 "class=\"helpLink\">poikkeuksen tai rajoituksen</a> nojalla."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
@@ -795,71 +998,6 @@ msgstr ""
 "teoksen tekijä tai sen vapaaseen yleiseen käyttöön (public domain) "
 "luovuttanut taho <a href=\"\" class=\"helpLink\" id=\"endorsement\">tukisi "
 "tai suosittelisi</a> teoksen käyttäjää tai tämän toimintaa. "
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Muut oikeudet"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Tunnetuista tekijänoikeuden asettamista rajoitteista vapaan teoksen käyttö "
-"voi olla muulla tavoin rajoitettua. Teosta tai sen käyttöä voivat koskea mm."
-" tietosuojalainsäädäntö, henkilön oikeudet määrätä oman nimensä, kuvansa tai"
-" henkilönsä muun tunnistettavan osan käytöstä taikka muut soveltuvan "
-"lainsäädännön mukaiset rajoitukset tai kiellot."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Lue lisää"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Suositus"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Joissain oikeusjärjestelmissä voi olla lainvastaista oikeudettomasti väittää"
-" tai antaa ymmärtää, että teoksen kustantaja, tekijä tai joku muu "
-"suosittelisi tai tukisi teoksen käyttöäsi tai käyttötapaasi."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Viittaus"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Kopioi ja liitä tämä HTML-koodi osaksi verkkosivuasi. Näin voit helposti "
-"viitata tähän teokseen."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Kuka on vahvistaja?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Vahvistaja on henkilö, joka on CC0:aa käyttämällä luopunut kaikista teokseen"
-" kohdistuvista oikeuksista lain sallimissa rajoissa ja maailmanlaajuisesti. "
-"Vahvistaja voi olla teoksen alkuperäinen tekijä tai henkilö, jolla on ollut "
-"teokseen tekjänoikeus taikka lähioikeus tai muu tekijänoikeuteen liittyvä "
-"oikeus."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
