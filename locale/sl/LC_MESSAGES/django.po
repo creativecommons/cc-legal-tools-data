@@ -425,7 +425,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "mediacije in arbitraže"
 
 #: templates/deed.html:87
 msgid ""
@@ -450,7 +450,7 @@ msgstr "Več informacij"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "Primerno morate navesti avtorja"
 
 #: templates/deed.html:110
 msgid ""
@@ -468,7 +468,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "označiti spremembe, če so kakšne nastale"
 
 #: templates/deed.html:133
 msgid ""
@@ -486,7 +486,7 @@ msgstr "Navodila za označevanje"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "komercialne namene"
 
 #: templates/deed.html:158
 msgid ""
@@ -498,7 +498,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "isto licenco"
 
 #: templates/deed.html:179
 msgid ""
@@ -509,7 +509,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "predelate (remixate), uredite ali na njej gradite"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -519,7 +519,7 @@ msgstr ""
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "tehničnih ukrepov"
 
 #: templates/deed.html:221
 msgid ""
@@ -531,7 +531,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "zakonske izjeme in omejitve"
 
 #: templates/deed.html:242
 msgid ""
@@ -543,7 +543,7 @@ msgstr ""
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "osebnostne pravice, pravice zasebnosti in moralne pravice"
 
 #: templates/deed.html:262
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "osebnostne pravice ali pravice zasebnosti"
 
 #: templates/deed.html:305
 msgid ""
@@ -587,7 +587,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "moralne pravice"
 
 #: templates/deed.html:329
 msgid ""
@@ -601,7 +601,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "podporo"
 
 #: templates/deed.html:351
 msgid ""
@@ -720,39 +720,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">Primerno "
+"<a href=\"#ref-appropriate-credit\" id=\"src-appropriate-credit\">Primerno "
 "morate navesti avtorja</a></span>, povezavo do licence in <span "
 "rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
-"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">označiti "
+"href=\"#ref-indicate-changes\" id=\"src-indicate-changes\">označiti "
 "spremembe, če so kakšne nastale</a></span>. To lahko storite na kakršenkoli "
 "razumen način, vendar ne na način, ki bi namigoval na to, da dajalec licence"
 " podpira vas ali vašo uporabo dela."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Te vsebine ne smete uporabiti v <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">komercialne namene</a>."
+"Te vsebine ne smete uporabiti v <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">komercialne namene</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Če vsebino uredite, predelate (remixate) ali gradite na njej, morate svojo "
-"različico razširjati pod <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">isto licenco</a> kot izvirnik."
+"različico razširjati pod <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">isto licenco</a> kot izvirnik."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -760,13 +760,13 @@ msgstr "Brez predelav"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Če vsebino <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">predelate (remixate), uredite ali na njej gradite</a>, "
-"spremenjene vsebine ne smete razširjati."
+"Če vsebino <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">predelate (remixate), uredite ali na njej gradite</a>, spremenjene "
+"vsebine ne smete razširjati."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -799,15 +799,14 @@ msgstr "Brez dodatnih omejitev"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Ne smete uporabiti pravnih določil ali <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">tehničnih "
-"ukrepov</a>, ki bi pravno omejili ali onemogočilo druge, da bi storili "
-"karkoli, kar licenca dovoli."
+"Ne smete uporabiti pravnih določil ali <a href=\"#ref-technological-"
+"measures\" id=\"src-technological-measures\">tehničnih ukrepov</a>, ki bi "
+"pravno omejili ali onemogočilo druge, da bi storili karkoli, kar licenca "
+"dovoli."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -816,39 +815,37 @@ msgstr "Opombe:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "V primeru, da je dajalec licence mednarodna organizacija, se spori rešujejo "
-"prek <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediacije in arbitraže</a>, v kolikor ni drugače "
-"dogovorjeno."
+"prek <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-and-"
+"arbitration\">mediacije in arbitraže</a>, v kolikor ni drugače dogovorjeno."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Ni se vam treba držati licence za elemente vsebine, ki so v javni domeni, "
-"ali kjer vašo uporabo dovoljujejo <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">zakonske izjeme in "
-"omejitve</a>."
+"ali kjer vašo uporabo dovoljujejo <a href=\"#ref-exception-or-limitation\" "
+"id=\"src-exception-or-limitation\">zakonske izjeme in omejitve</a>."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Podana niso nobene jamstva. Možno je, da vam licenca ne daje vseh pravic za "
-"vam želeno uporabo. Na primer, druge pravice, kot <a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">osebnostne"
-" pravice, pravice zasebnosti in moralne pravice</a>, lahko omejujejo kako "
-"smete uporabiti vsebino."
+"vam želeno uporabo. Na primer, druge pravice, kot <a href=\"#ref-publicity-"
+"privacy-or-moral-rights\" id=\"src-publicity-privacy-or-moral-"
+"rights\">osebnostne pravice, pravice zasebnosti in moralne pravice</a>, "
+"lahko omejujejo kako smete uporabiti vsebino."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -875,36 +872,35 @@ msgstr "Ostale podrobnosti"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "Delo morda ni prosto vseh znanih avtorsko-pravnih omejitev v vseh <a "
-"href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">jurisdikcijah</a>."
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdikcijah</a>."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Osebe lahko imajo druge pravice na delu ali v povezavi z delom, na primer, "
 "patente ali blagovne znamke. Drugi imajo lahko pravice kako se delo sme "
-"uporabljati, na primer <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">osebnostne pravice ali pravice "
-"zasebnosti</a>."
+"uporabljati, na primer <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">osebnostne pravice ali pravice zasebnosti</a>."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"V nekaterih jurisdikcijah lahko <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moralne pravice</a> avtorja trajajo dlje kot materialne "
+"V nekaterih jurisdikcijah lahko <a href=\"#ref-moral-rights\" id=\"src-"
+"moral-rights\">moralne pravice</a> avtorja trajajo dlje kot materialne "
 "avtorske pravice. Med drugim to lahko vključuje pravico biti priznan kot "
 "avtor in pravico do ugovora zaradi zlorabe dela."
 
@@ -921,12 +917,12 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"Ko uporabljate ali navajate delo, ne smete implicirati <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">podpore</a> avtorja ali osebe, ki je "
+"Ko uporabljate ali navajate delo, ne smete implicirati <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">podpore</a> avtorja ali osebe, ki je "
 "delo identificirala."
 
 #: templates/includes/deed_body_unimplemented.html:7
@@ -963,9 +959,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -981,12 +976,12 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"Ko uporabljate ali navajate delo, ne smete namigovati na <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">podporo</a> avtorja ali potrditelja."
+"Ko uporabljate ali navajate delo, ne smete namigovati na <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">podporo</a> avtorja ali potrditelja."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

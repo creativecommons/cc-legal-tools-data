@@ -425,7 +425,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "bemiddeling en arbitraazje"
 
 #: templates/deed.html:87
 msgid ""
@@ -450,7 +450,7 @@ msgstr "Mear ynfo"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "goed de namme fan de makker neame"
 
 #: templates/deed.html:110
 msgid ""
@@ -468,7 +468,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "úttsjutte oft der feroaringen makke binne"
 
 #: templates/deed.html:133
 msgid ""
@@ -486,7 +486,7 @@ msgstr "Hantlieding foar it merken"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "kommersjele doelen"
 
 #: templates/deed.html:158
 msgid ""
@@ -498,7 +498,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "deselde lisinsje"
 
 #: templates/deed.html:179
 msgid ""
@@ -509,7 +509,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "in ‘remix’ meitsje, it bewurkje of derop fieder bouwe"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -517,7 +517,7 @@ msgstr "Allinnich de foarm feroarje skept nea in ôflaat wurk."
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "technologyske middels"
 
 #: templates/deed.html:221
 msgid ""
@@ -530,7 +530,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "útsûndering of beheining"
 
 #: templates/deed.html:242
 msgid ""
@@ -543,7 +543,7 @@ msgstr ""
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "publisiteits-, privacy- of morele rjochten"
 
 #: templates/deed.html:262
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "publisiteits- of privacyrjochten"
 
 #: templates/deed.html:305
 msgid ""
@@ -588,7 +588,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "morele rjochten"
 
 #: templates/deed.html:329
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "goedkarren"
 
 #: templates/deed.html:351
 msgid ""
@@ -722,40 +722,40 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Jo moatte <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">goed de namme fan de makker neame</a></span>, in link nei"
-" de lisinsje jaan en <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">úttsjutte oft der "
-"feroaringen makke binne</a></span>. Jo meie dat op elke ridlike manier "
-"dwaan, mar net op in manier dy’t tinken docht dat de lisinsjejouwer jo wurk "
-"of jo brûken goedkart."
+"Jo moatte <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">goed de namme fan de makker neame</a></span>, in link nei de "
+"lisinsje jaan en <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">úttsjutte oft der feroaringen makke "
+"binne</a></span>. Jo meie dat op elke ridlike manier dwaan, mar net op in "
+"manier dy’t tinken docht dat de lisinsjejouwer jo wurk of jo brûken "
+"goedkart."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Jo meie it materiaal net brûke foar <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">kommersjele doelen</a>."
+"Jo meie it materiaal net brûke foar <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">kommersjele doelen</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "As jo fan it materiaal in ‘remix’ meitsje, it bewurkje of derop fierder "
-"bouwe, moatte jo jo bydragen ûnder <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">deselde lisinsje</a> ferspriede as it orizjineel."
+"bouwe, moatte jo jo bydragen ûnder <a href=\"#ref-same-license\" id=\"src-"
+"same-license\">deselde lisinsje</a> ferspriede as it orizjineel."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -763,13 +763,13 @@ msgstr "GjinOflaatWurk"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"As jo fan it materiaal <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">in ‘remix’ meitsje, it bewurkje of derop fieder "
-"bouwe</a>, meie jo it feroare materiaal net ferspriede."
+"As jo fan it materiaal <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-"
+"kinds-of-mods\">in ‘remix’ meitsje, it bewurkje of derop fieder bouwe</a>, "
+"meie jo it feroare materiaal net ferspriede."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -802,15 +802,13 @@ msgstr "Gjin oanfoljende beheiningen"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Jo meie gjin juridyske betingsten of <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technologyske "
-"middels</a> tapasse dy’t oaren juridysk behinderje om wat ek te dwaan dat de"
-" lisinsje tastiet."
+"Jo meie gjin juridyske betingsten of <a href=\"#ref-technological-measures\""
+" id=\"src-technological-measures\">technologyske middels</a> tapasse dy’t "
+"oaren juridysk behinderje om wat ek te dwaan dat de lisinsje tastiet."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -819,40 +817,39 @@ msgstr "Tink hjir om:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "As de Lisinsjejouwer in yntergûvernemintele organisaasje is, sil skeel "
-"oplost wurde troch <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">bemiddeling en arbitraazje</a>, of it moast wêze dat oars"
-" ôfpraat is."
+"oplost wurde troch <a href=\"#ref-mediation-and-arbitration\" id=\"src-"
+"mediation-and-arbitration\">bemiddeling en arbitraazje</a>, of it moast wêze"
+" dat oars ôfpraat is."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Jo  hoege jo net oan de lisinsje te hâlden foar eleminten fan it materiaal "
 "dy’t diel útmeitsje fan it publike domein of as jo foarm fan brûken tastien "
-"is troch in tapaslike <a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">útsûndering of beheining</a> yn ’e auteurswet."
+"is troch in tapaslike <a href=\"#ref-exception-or-limitation\" id=\"src-"
+"exception-or-limitation\">útsûndering of beheining</a> yn ’e auteurswet."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Der wurde gjin garânsjes jûn. It is mooglik dat de lisinsje jo net alle "
 "brûkersrjochten jout dy’t needsaaklik binne foar jo brûkersdoel. Bygelyks "
-"kinne oare rjochten, lykas <a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publisiteits-, privacy- of morele rjochten</a>, "
-"begrinzgje hoe’t jo it materiaal brûke."
+"kinne oare rjochten, lykas <a href=\"#ref-publicity-privacy-or-moral-"
+"rights\" id=\"src-publicity-privacy-or-moral-rights\">publisiteits-, "
+"privacy- of morele rjochten</a>, begrinzgje hoe’t jo it materiaal brûke."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -880,38 +877,37 @@ msgstr "Oare ynformaasje"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "It is mooglik dat it wurk net frij is fan auteursrjochtbeheiningen yn alle "
-"<a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">wetjouwingen</a>."
+"<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">wetjouwingen</a>."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Persoanen kinne oare rjochten hawwe op of gearhingjend mei it wurk, lykas "
 "oktroai- of merkerjochten, en oaren kinne rjochten hawwe op hoe’t it wurk "
-"brûkt wurdt, lykas <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publisiteits- of "
-"privacyrjochten</a>."
+"brûkt wurdt, lykas <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publisiteits- of privacyrjochten</a>."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"Yn guon wetjouwingen kinne <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">morele rjochten</a> fan de makker bestean bliuwe nei it "
-"ein fan it auteursrjocht. Dy rjochten omfetsje it rjocht op nammeneamen en "
-"it rjocht om beswier te meitsjen tsjin wanachtsjende hannelingen."
+"Yn guon wetjouwingen kinne <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">morele rjochten</a> fan de makker bestean bliuwe nei it ein fan it "
+"auteursrjocht. Dy rjochten omfetsje it rjocht op nammeneamen en it rjocht om"
+" beswier te meitsjen tsjin wanachtsjende hannelingen."
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -926,13 +922,13 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"As jo it wurk brûke of sitearje, meie jo dat net lyksette mei <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">goedkarren</a> fan de makker of de "
-"persoan dy’t it wurk merkt hat."
+"As jo it wurk brûke of sitearje, meie jo dat net lyksette mei <a "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">goedkarren</a> fan de "
+"makker of de persoan dy’t it wurk merkt hat."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -970,9 +966,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -988,13 +983,13 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"As jo it wurk brûke of sitearje, meie jo dat net lyksette mei <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">goedkarren</a> fan de makker of "
-"bekrêftiger."
+"As jo it wurk brûke of sitearje, meie jo dat net lyksette mei <a "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">goedkarren</a> fan de "
+"makker of bekrêftiger."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

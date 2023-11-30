@@ -430,7 +430,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "arabuluculuk ve tahkim"
 
 #: templates/deed.html:87
 msgid ""
@@ -454,7 +454,7 @@ msgstr "Daha fazla bilgi"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "uygun referans vermeli"
 
 #: templates/deed.html:110
 msgid ""
@@ -471,7 +471,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "ve değişiklik yapıldıysa bilgi"
 
 #: templates/deed.html:133
 msgid ""
@@ -489,7 +489,7 @@ msgstr "İşaretleme rehberi"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "ticari amaçlarla"
 
 #: templates/deed.html:158
 msgid ""
@@ -501,7 +501,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "ile dağıtabilirsiniz"
 
 #: templates/deed.html:179
 msgid ""
@@ -512,7 +512,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "karıştırdınızsa,aktardınızsa, ya da materyalin üzerine çalıştınızsa"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -520,7 +520,7 @@ msgstr "Formatta belli belirsiz değişiklik türetilmiş eser yaratmaz."
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "ya da teknolojiyi"
 
 #: templates/deed.html:221
 msgid ""
@@ -532,7 +532,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "ayrıcalık ya da sınırları"
 
 #: templates/deed.html:242
 msgid ""
@@ -568,7 +568,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "tanıtım ya da gizlilik"
 
 #: templates/deed.html:305
 msgid ""
@@ -587,7 +587,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "yazarın ahlaki hakları"
 
 #: templates/deed.html:329
 msgid ""
@@ -601,7 +601,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "destek"
 
 #: templates/deed.html:351
 msgid ""
@@ -720,39 +720,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">uygun "
+"<a href=\"#ref-appropriate-credit\" id=\"src-appropriate-credit\">uygun "
 "referans vermeli</a></span>, lisansa bağlantı sağlamalı <span "
 "rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
-"href=\"#\" id=\"indicate_changes_popup\" class=\"helpLink\">ve değişiklik "
+"href=\"#ref-indicate-changes\" id=\"src-indicate-changes\">ve değişiklik "
 "yapıldıysa bilgi</a></span>vermelisiniz. Bunları uygun bir şekilde yerine "
 "getirebilirsiniz fakat bu, lisans sahibinin sizi ve kullanım şeklinizi "
 "onayladığını göstermez."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Bu materyali <a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">ticari amaçlarla</a> kullanamazsınız."
+"Bu materyali <a href=\"#ref-commercial-purposes\" id=\"src-commercial-"
+"purposes\">ticari amaçlarla</a> kullanamazsınız."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Eğer materyali karıştırdınızsa, aktardınızsa ya da materyalin üzerine "
-"çalıştınızsa, ancak aynı lisans <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\"> ile dağıtabilirsiniz</a>. "
+"çalıştınızsa, ancak aynı lisans <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">ile dağıtabilirsiniz</a>. "
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -760,12 +760,12 @@ msgstr "Türetilmemiş"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Eğer materyali <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">karıştırdınızsa,aktardınızsa, ya da materyalin üzerine "
+"Eğer materyali <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">karıştırdınızsa,aktardınızsa, ya da materyalin üzerine "
 "çalıştınızsa</a> güncellenmiş materyali dağıtamazsınız."
 
 #: templates/includes/deed_body_licenses.html:95
@@ -799,13 +799,12 @@ msgstr "Ek sınırlamalar yoktur"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Lisansın izin verdiği hakları başkaları üzerinde kanunlarla <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">ya da "
+"Lisansın izin verdiği hakları başkaları üzerinde kanunlarla <a href=\"#ref-"
+"technological-measures\" id=\"src-technological-measures\">ya da "
 "teknolojiyi</a>kullanarak sınırlayamazsınız. "
 
 #: templates/includes/deed_body_licenses.html:118
@@ -815,32 +814,32 @@ msgstr "Uyarılar:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "Lisans sahibi hükümetler arası bir organizasyon olduğu zaman, anlaşmazlıklar"
-" </a>aksi kararlaştırılmadıkça <a href=\"#\" "
-"id=\"mediation_and_arbitration_popup\" class=\"helpLink\">arabuluculuk ve "
-"tahkim</a> yoluyla çözülecektir."
+" </a>aksi kararlaştırılmadıkça <a href=\"#ref-mediation-and-arbitration\" "
+"id=\"src-mediation-and-arbitration\">arabuluculuk ve tahkim</a> yoluyla "
+"çözülecektir."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
-"Kamu Malı malzemenin lisans koşullarına ya da<a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">ayrıcalık ya da "
+"Kamu Malı malzemenin lisans koşullarına ya da<a href=\"#ref-exception-or-"
+"limitation\" id=\"src-exception-or-limitation\">ayrıcalık ya da "
 "sınırları</a> ile izin verilen kullanımına uymak zorunda değilsiniz."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Garanti verilmez. Lisans kullanım amacınıza uygun tüm izinleri sağlamayabilir. Mesela, <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">  \n"
 "tanınırlık, gizlilik veya manevi haklar</a> gibi haklar kullanıma sınır getirebilir."
@@ -871,38 +870,37 @@ msgstr "Diğer Bilgiler"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"Bu eser tüm <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">yetki "
-"alanlarında</a> bilinen telif hakkı kısıtlarından bağımsız olmayabilir ."
+"Bu eser tüm <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">yetki alanlarında</a> bilinen telif hakkı kısıtlarından "
+"bağımsız olmayabilir ."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Kişiler, patent ya da ticari marka hakları gibi işte ya da onunla ilgili "
 "başka haklara sahip olabilir ve diğerleri, işin nasıl kullanıldığı konusunda"
-" <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">tanıtım ya da gizlilik</a> "
-"hakları gibi haklara sahip olabilir."
+" <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">tanıtım ya da"
+" gizlilik</a> hakları gibi haklara sahip olabilir."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"Bazı yetki alanlarında <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">yazarın ahlaki hakları</a> telif haklarının ötesine "
-"taşınmış olabilir. Bu haklar, yazar olarak aşağılayıcı muamelelere itiraz "
-"hakkı gibi hakları içerebilir."
+"Bazı yetki alanlarında <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">yazarın ahlaki hakları</a> telif haklarının ötesine taşınmış "
+"olabilir. Bu haklar, yazar olarak aşağılayıcı muamelelere itiraz hakkı gibi "
+"hakları içerebilir."
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -915,12 +913,12 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
 "Eseri kullanırken ya da alıntı verirken yazarın ya da eseri tanımlayanın <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\">desteği</a> ima edilemez."
+"href=\"#ref-endorsement\" id=\"src-endorsement\">desteği</a> ima edilemez."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -957,9 +955,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -974,13 +971,13 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
 "Bir eseri kullanırken ya da eserden alıntı yaparken eserin yazarı ya da "
-"onaylayıcısının ağzından <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">destek</a> ima edilemez."
+"onaylayıcısının ağzından <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">destek</a> ima edilemez."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

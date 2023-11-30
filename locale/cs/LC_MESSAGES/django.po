@@ -425,7 +425,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "mediačního a rozhodčího řízení"
 
 #: templates/deed.html:87
 msgid ""
@@ -449,7 +449,7 @@ msgstr "Více informací"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "uvést autorství"
 
 #: templates/deed.html:110
 msgid ""
@@ -467,7 +467,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "vyznačit Vámi provedené změny"
 
 #: templates/deed.html:133
 msgid ""
@@ -485,7 +485,7 @@ msgstr "Průvodce označením"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "komerční účely"
 
 #: templates/deed.html:158
 msgid ""
@@ -497,7 +497,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "stejnou licencí"
 
 #: templates/deed.html:179
 msgid ""
@@ -508,7 +508,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "zpracujete, zpracujete s jinými díly, doplníte nebo jinak změníte"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -516,7 +516,7 @@ msgstr "Pouhá změna formátu nikdy nevytváří odvozené dílo."
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "účinné technické prostředky ochrany"
 
 #: templates/deed.html:221
 msgid ""
@@ -528,7 +528,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "výjimku či omezení práva autorského"
 
 #: templates/deed.html:242
 msgid ""
@@ -540,7 +540,7 @@ msgstr ""
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "ochrana osobních údajů, soukromí nebo osobnostních práv"
 
 #: templates/deed.html:262
 msgid ""
@@ -566,7 +566,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "propagaci nebo soukromí"
 
 #: templates/deed.html:305
 msgid ""
@@ -584,7 +584,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "osobnostní práva"
 
 #: templates/deed.html:329
 msgid ""
@@ -598,7 +598,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "naznačovat"
 
 #: templates/deed.html:351
 msgid ""
@@ -718,40 +718,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Je Vaší povinností <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">uvést autorství</a>, poskytnout s dílem odkaz na licenci "
-"a <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">vyznačit Vámi provedené "
-"změny</a>. Toho můžete docílit jakýmkoli rozumným způsobem, nicméně nikdy ne"
-" způsobem naznačujícím, že by poskytovatel licence schvaloval nebo "
-"podporoval Vás nebo Váš způsob užití díla."
+"Je Vaší povinností <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">uvést autorství</a>, poskytnout s dílem odkaz na licenci a <span "
+"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#ref-indicate-changes\" id=\"src-indicate-changes\">vyznačit Vámi "
+"provedené změny</a>. Toho můžete docílit jakýmkoli rozumným způsobem, "
+"nicméně nikdy ne způsobem naznačujícím, že by poskytovatel licence "
+"schvaloval nebo podporoval Vás nebo Váš způsob užití díla."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Je zakázáno užívat dílo pro <a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">komerční účely</a>."
+"Je zakázáno užívat dílo pro <a href=\"#ref-commercial-purposes\" id=\"src-"
+"commercial-purposes\">komerční účely</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Pokud budete toto dílo upravovat, pozměňovat nebo na něj navazovat, musíte "
-"svoje odvozená díla vystavovat pod <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">stejnou licencí</a> jako původní dílo."
+"svoje odvozená díla vystavovat pod <a href=\"#ref-same-license\" id=\"src-"
+"same-license\">stejnou licencí</a> jako původní dílo."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -759,13 +758,13 @@ msgstr "Nezasahujte do díla"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Pokud dílo <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">zpracujete, zpracujete s jinými díly, doplníte nebo jinak"
-" změníte</a>, nesmíte toto upravené dílo dále šířit."
+"Pokud dílo <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">zpracujete, zpracujete s jinými díly, doplníte nebo jinak "
+"změníte</a>, nesmíte toto upravené dílo dále šířit."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -798,15 +797,13 @@ msgstr "Žádná další omezení"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Nesmíte použít právní omezení nebo <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">účinné technické "
-"prostředky ochrany</a>, které by omezovaly ostatní v možnostech poskytnutých"
-" touto licencí."
+"Nesmíte použít právní omezení nebo <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">účinné technické prostředky ochrany</a>, "
+"které by omezovaly ostatní v možnostech poskytnutých touto licencí."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -815,38 +812,38 @@ msgstr "Poznámky:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "Pokud je poskytovatelem licence mezivládní organizace, spory budou řešeny "
-"pomocí <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediačního a rozhodčího řízení</a>, pokud nebude ujednáno"
-" jinak."
+"pomocí <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-and-"
+"arbitration\">mediačního a rozhodčího řízení</a>, pokud nebude ujednáno "
+"jinak."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Touto licencí se není třeba řídit ohledně částí materiálu, které jsou volným"
-" dílem, popř. v případech, které lze klasifikovat jako <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">výjimku či omezení "
-"práva autorského</a>."
+" dílem, popř. v případech, které lze klasifikovat jako <a href=\"#ref-"
+"exception-or-limitation\" id=\"src-exception-or-limitation\">výjimku či "
+"omezení práva autorského</a>."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Nejsou poskytovány žádné záruky. Může se stát, že Vám licence neposkytne "
 "všechna oprávnění pro zamýšlené použití. Například další práva jako je <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\"> ochrana osobních údajů, soukromí nebo osobnostních "
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">ochrana osobních údajů, soukromí nebo osobnostních "
 "práv</a> můžou limitovat použití tohoto díla."
 
 #: templates/includes/deed_body_mark.html:6
@@ -875,39 +872,38 @@ msgstr "Další informace"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "Je možné, že toto dílo není osvobozeno od známých autorskoprávních omezení "
-"ve všech <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">právních "
-"řádech</a>."
+"ve všech <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">právních řádech</a>."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Osoby mohou mít jiná práva k dílu nebo práva související, jako jsou "
 "patentová práva nebo práva k ochranným známkám, a jiní mohou mít práva na "
-"to, jak se dílo užívá, jako jsou práva na <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">propagaci nebo soukromí</a>."
+"to, jak se dílo užívá, jako jsou práva na <a href=\"#ref-publicity-rights\" "
+"id=\"src-publicity-rights\">propagaci nebo soukromí</a>."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"V některých právních řádech mohou <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">osobnostní práva</a> autora přetrvat déle než majetková "
-"práva autorská. Osobnostní práva autora mohou zahrnovat právo být označen "
-"jako autor díla a právo, aby dílo bylo užíváno způsobem, který nesnižuje "
-"jeho hodnotu."
+"V některých právních řádech mohou <a href=\"#ref-moral-rights\" id=\"src-"
+"moral-rights\">osobnostní práva</a> autora přetrvat déle než majetková práva"
+" autorská. Osobnostní práva autora mohou zahrnovat právo být označen jako "
+"autor díla a právo, aby dílo bylo užíváno způsobem, který nesnižuje jeho "
+"hodnotu."
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -921,13 +917,13 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"V případě užití nebo citování díla nesmíte naznačovat<a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">souhlas</a> autora původního díla nebo"
-" osoby, která toto dílo určila jako dílo, které není předmětem ochrany "
+"V případě užití nebo citování díla nesmíte naznačovat<a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">souhlas</a> autora původního díla nebo "
+"osoby, která toto dílo určila jako dílo, které není předmětem ochrany "
 "autorských práv, se způsobem užití tohoto díla."
 
 #: templates/includes/deed_body_unimplemented.html:7
@@ -966,9 +962,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -984,14 +979,14 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"Při užití nebo citování díla nesmíte <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">naznačovat</a>, že je dílo užito se souhlasem autora "
-"původního díla nebo osoby, která toto dílo určila jako dílo, které není "
-"předmětem ochrany autorských práv."
+"Při užití nebo citování díla nesmíte <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">naznačovat</a>, že je dílo užito se souhlasem autora původního"
+" díla nebo osoby, která toto dílo určila jako dílo, které není předmětem "
+"ochrany autorských práv."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

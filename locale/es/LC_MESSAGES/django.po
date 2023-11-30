@@ -425,7 +425,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "mediación y arbitraje"
 
 #: templates/deed.html:87
 msgid ""
@@ -451,7 +451,7 @@ msgstr "Más información"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "crédito de manera adecuada"
 
 #: templates/deed.html:110
 msgid ""
@@ -469,7 +469,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "indicar si se han realizado cambios"
 
 #: templates/deed.html:133
 msgid ""
@@ -488,7 +488,7 @@ msgstr "Guía de etiquetado"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "propósitos comerciales"
 
 #: templates/deed.html:158
 msgid ""
@@ -500,7 +500,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "misma licencia"
 
 #: templates/deed.html:179
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "remezcla, transforma o crea a partir"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -519,7 +519,7 @@ msgstr "El simple hecho de cambiar el formato nunca genera una obra derivada."
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "medidas tecnológicas"
 
 #: templates/deed.html:221
 msgid ""
@@ -531,7 +531,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "excepción o limitación"
 
 #: templates/deed.html:242
 msgid ""
@@ -543,7 +543,7 @@ msgstr ""
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "publicidad, privacidad, o derechos morales"
 
 #: templates/deed.html:262
 msgid ""
@@ -569,7 +569,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "publicidad o privacidad"
 
 #: templates/deed.html:305
 msgid ""
@@ -588,7 +588,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "los derechos morales"
 
 #: templates/deed.html:329
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "aprobación"
 
 #: templates/deed.html:351
 msgid ""
@@ -721,40 +721,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Usted debe dar <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">crédito de manera adecuada</a></span>, brindar un enlace "
-"a la licencia, e <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicar si se han realizado"
-" cambios</a></span>. Puede hacerlo en cualquier forma razonable, pero no de "
+"Usted debe dar <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">crédito de manera adecuada</a></span>, brindar un enlace a la "
+"licencia, e <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicar si se han realizado "
+"cambios</a></span>. Puede hacerlo en cualquier forma razonable, pero no de "
 "forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Usted no puede hacer uso del material con <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">propósitos "
-"comerciales</a>."
+"Usted no puede hacer uso del material con <a href=\"#ref-commercial-"
+"purposes\" id=\"src-commercial-purposes\">propósitos comerciales</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Si remezcla, transforma o crea a partir del material, debe distribuir su "
-"contribución bajo la la<a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">misma licencia</a> del original."
+"contribución bajo la la<a href=\"#ref-same-license\" id=\"src-same-"
+"license\">misma licencia</a> del original."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -762,13 +761,13 @@ msgstr "SinDerivadas"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Si <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remezcla, transforma o crea a partir</a> del material, no"
-" podrá distribuir el material modificado."
+"Si <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remezcla, transforma o crea a partir</a> del material, no podrá "
+"distribuir el material modificado."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -801,15 +800,13 @@ msgstr "No hay restricciones adicionales"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"No puede aplicar términos legales ni <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\"> medidas "
-"tecnológicas</ a> que restrinjan legalmente a otras a hacer cualquier uso "
-"permitido por la licencia."
+"No puede aplicar términos legales ni <a href=\"#ref-technological-measures\""
+" id=\"src-technological-measures\">medidas tecnológicas</a> que restrinjan "
+"legalmente a otras a hacer cualquier uso permitido por la licencia."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -818,38 +815,38 @@ msgstr "Avisos:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "Cuando la licenciante sea una organización intergubernamental, las disputas "
-"serán resuelta por medio de <a href=\"#\" "
-"id=\"mediation_and_arbitration_popup\" class=\"helpLink\">mediación y "
-"arbitraje</a>, a menos que se acuerde lo contrario."
+"serán resuelta por medio de <a href=\"#ref-mediation-and-arbitration\" "
+"id=\"src-mediation-and-arbitration\">mediación y arbitraje</a>, a menos que "
+"se acuerde lo contrario."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "No tiene que cumplir con la licencia para elementos del materiale en el "
-"dominio público o cuando su uso esté permitido por una  <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">excepción o "
+"dominio público o cuando su uso esté permitido por una  <a href=\"#ref-"
+"exception-or-limitation\" id=\"src-exception-or-limitation\">excepción o "
 "limitación</a> aplicable."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "No se dan garantías. La licencia podría no darle todos los permisos que "
 "necesita para el uso que tenga previsto. Por ejemplo, otros derechos como <a"
-" href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\"> publicidad, privacidad, o derechos morales</a> pueden "
+" href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicidad, privacidad, o derechos morales</a> pueden "
 "limitar la forma en que utilice el material."
 
 #: templates/includes/deed_body_mark.html:6
@@ -878,39 +875,38 @@ msgstr "Más información"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "La obra puede que no esté libre de restricciones conocidas de derechos "
-"autorales en todas <a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">las jurisdicciones</a>."
+"autorales en todas <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">las jurisdicciones</a>."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Las personas pueden tener otros derechos en o relacionados con la obra, como"
 " patentes o marcas registradas, y otros pueden tener derechos sobre cómo se "
-"usa la obra, como derechos a la <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicidad o privacidad</a>."
+"usa la obra, como derechos a la <a href=\"#ref-publicity-rights\" id=\"src-"
+"publicity-rights\">publicidad o privacidad</a>."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"En algunas jurisdicciones <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">los derechos morales</a> de la autora pueden persistir "
-"más allá del término de los derechos autorales. Estos derechos pueden "
-"incluir el derecho de ser identificada como la autora y el derecho a objetar"
-" tratos despectivos de la obra."
+"En algunas jurisdicciones <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">los derechos morales</a> de la autora pueden persistir más allá del"
+" término de los derechos autorales. Estos derechos pueden incluir el derecho"
+" de ser identificada como la autora y el derecho a objetar tratos "
+"despectivos de la obra."
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -925,13 +921,13 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"Al usar o citar la obra, no debe insinuar <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">aprobación</a> por parte de la autora o la persona que "
-"identificó la obra."
+"Al usar o citar la obra, no debe insinuar <a href=\"#ref-endorsement\" "
+"id=\"src-endorsement\">aprobación</a> por parte de la autora o la persona "
+"que identificó la obra."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -969,9 +965,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -986,12 +981,12 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"Al usar o citar la obra, no debería insinuar <a href=\"\" class=\"helpLink\""
-" id=\"endorsement\">aprobación</a> de la autora o la afirmadora."
+"Al usar o citar la obra, no debería insinuar <a href=\"#ref-endorsement\" "
+"id=\"src-endorsement\">aprobación</a> de la autora o la afirmadora."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

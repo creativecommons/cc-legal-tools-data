@@ -428,7 +428,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "仲裁と裁定"
 
 #: templates/deed.html:87
 msgid ""
@@ -450,7 +450,7 @@ msgstr "詳細"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "適切なクレジット"
 
 #: templates/deed.html:110
 msgid ""
@@ -464,7 +464,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "変更があったらその旨を示さ"
 
 #: templates/deed.html:133
 msgid ""
@@ -481,7 +481,7 @@ msgstr "表示に関するご案内"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "営利目的"
 
 #: templates/deed.html:158
 msgid ""
@@ -491,7 +491,7 @@ msgstr "営利利用は、商業上の利得や金銭的報酬を主な目的と
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "同じライセンス"
 
 #: templates/deed.html:179
 msgid ""
@@ -502,7 +502,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "リミックスし、改変し、あるいはこの資料をベースに新しい作品を作った場合"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -510,7 +510,7 @@ msgstr "単にフォーマットを変更することは、作品を改変する
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "技術的手段"
 
 #: templates/deed.html:221
 msgid ""
@@ -520,7 +520,7 @@ msgstr "このライセンスは、WIPO著作権条約の11条に定義されて
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "権利制限規定"
 
 #: templates/deed.html:242
 msgid ""
@@ -530,7 +530,7 @@ msgstr "フェアユース、フェアディーリングなど著作権法上の
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "パブリシティ権、肖像権、人格権"
 
 #: templates/deed.html:262
 msgid ""
@@ -552,7 +552,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "パブリシティ権やプライバシーの権利"
 
 #: templates/deed.html:305
 msgid ""
@@ -566,7 +566,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "人格的権利"
 
 #: templates/deed.html:329
 msgid ""
@@ -578,7 +578,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "推奨"
 
 #: templates/deed.html:351
 msgid ""
@@ -681,36 +681,36 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"あなたは <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">適切なクレジット</a></span>を表示し、ライセンスへのリンクを提供し、<span "
-"rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
-"href=\"#\" id=\"indicate_changes_popup\" "
-"class=\"helpLink\">変更があったらその旨を示さ</a></span>なければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。"
+"あなたは <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">適切なクレジット</a></span>を表示し、ライセンスへのリンクを提供し、<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-"
+"changes\">変更があったらその旨を示さ</a></span>なければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。"
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"あなたは<a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">営利目的</a>でこの資料を利用してはなりません。"
+"あなたは<a href=\"#ref-commercial-purposes\" id=\"src-commercial-"
+"purposes\">営利目的</a>でこの資料を利用してはなりません。"
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
-"もしあなたがこの資料をリミックスしたり、改変したり、加工した場合には、あなたはあなたの貢献部分を元の作品と<a href=\"#\" "
-"id=\"same_license_popup\" class=\"helpLink\">同じライセンス</a>の下に頒布しなければなりません。"
+"もしあなたがこの資料をリミックスしたり、改変したり、加工した場合には、あなたはあなたの貢献部分を元の作品と<a href=\"#ref-same-"
+"license\" id=\"src-same-license\">同じライセンス</a>の下に頒布しなければなりません。"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -718,13 +718,12 @@ msgstr "改変禁止"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"あなたがこの資料を <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">リミックスし、改変し、あるいはこの資料をベースに新しい作品を作った場合</a>、あなたは改変された資料を頒布してはなりません。"
-" "
+"あなたがこの資料を <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">リミックスし、改変し、あるいはこの資料をベースに新しい作品を作った場合</a>、あなたは改変された資料を頒布してはなりません。 "
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -751,14 +750,12 @@ msgstr "追加的な制約は課せません"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"あなたは、このライセンスが他の者に許諾することを法的に制限するようないかなる法的規定も<a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">技術的手段</a> "
-"も適用してはなりません。"
+"あなたは、このライセンスが他の者に許諾することを法的に制限するようないかなる法的規定も<a href=\"#ref-technological-"
+"measures\" id=\"src-technological-measures\">技術的手段</a> も適用してはなりません。"
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -767,36 +764,34 @@ msgstr "ご注意："
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
-"許諾者が政府間機関の場合、係争は、別途合意がない限りは<a href=\"#\" "
-"id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">仲裁と裁定</a>を通じて解決されることになります。 "
+"許諾者が政府間機関の場合、係争は、別途合意がない限りは<a href=\"#ref-mediation-and-arbitration\" "
+"id=\"src-mediation-and-arbitration\">仲裁と裁定</a>を通じて解決されることになります。 "
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
-"あなたは、資料の中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の<a href=\"#\" "
-"id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">権利制限規定</a>にもとづく場合には、ライセンスの規定に従う必要はありません。"
+"あなたは、資料の中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の<a href=\"#ref-exception-"
+"or-limitation\" id=\"src-exception-or-"
+"limitation\">権利制限規定</a>にもとづく場合には、ライセンスの規定に従う必要はありません。"
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
-"保証は提供されていません。ライセンスはあなたの利用に必要な全ての許諾を与えないかも知れません。例えば、<a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">パブリシティ権、肖像権、人格権</a> "
-"などの他の諸権利はあなたがどのように資料を利用するかを制限することがあります。"
+"保証は提供されていません。ライセンスはあなたの利用に必要な全ての許諾を与えないかも知れません。例えば、<a href=\"#ref-publicity-"
+"privacy-or-moral-rights\" id=\"src-publicity-privacy-or-moral-"
+"rights\">パブリシティ権、肖像権、人格権</a> などの他の諸権利はあなたがどのように資料を利用するかを制限することがあります。"
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -822,34 +817,33 @@ msgstr "その他の情報"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"作品は、全ての<a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">管轄地</a>で既知の著作権の制約から自由ではない場合があります。"
+"作品は、全ての<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">管轄地</a>で既知の著作権の制約から自由ではない場合があります。"
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
-"特許権や商標権など作品に関する他の権利を持っている人がいるかも知れません。また他の人が <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">パブリシティ権やプライバシーの権利</a> "
+"特許権や商標権など作品に関する他の権利を持っている人がいるかも知れません。また他の人が <a href=\"#ref-publicity-"
+"rights\" id=\"src-publicity-rights\">パブリシティ権やプライバシーの権利</a> "
 "など作品の利用に関する権利を持っているかも知れません。"
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"一部の管轄地では、著作者の <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">人格的権利</a>は著作権の保護期間を超えて存続します。この権利は著作者として特定される権利や、名誉声望を害するような扱いに異議申し立てを行う権利などを含む場合があります。"
+"一部の管轄地では、著作者の <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">人格的権利</a>は著作権の保護期間を超えて存続します。この権利は著作者として特定される権利や、名誉声望を害するような扱いに異議申し立てを行う権利などを含む場合があります。"
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -861,12 +855,12 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"作品の利用や言及の際、作者や作品を特定した者からの <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">推奨</a> があるかのような示唆はするべきではありません。"
+"作品の利用や言及の際、作者や作品を特定した者からの <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">推奨</a> があるかのような示唆はするべきではありません。"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -899,9 +893,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -914,12 +907,12 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"作品を利用したり、作品に言及する際に、あなたは著作者や確約者からの <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">推奨</a> があるかのような示唆はするべきではありません。"
+"作品を利用したり、作品に言及する際に、あなたは著作者や確約者からの <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">推奨</a> があるかのような示唆はするべきではありません。"
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

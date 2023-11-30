@@ -426,7 +426,7 @@ msgstr ""
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "медіації та арбітражу"
 
 #: templates/deed.html:87
 msgid ""
@@ -451,7 +451,7 @@ msgstr "Докладніше"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "вказати автора"
 
 #: templates/deed.html:110
 msgid ""
@@ -469,7 +469,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "вказати чи було внесено зміни до твору"
 
 #: templates/deed.html:133
 msgid ""
@@ -488,7 +488,7 @@ msgstr "Інструкція стосовно позначення"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "комерційних цілей"
 
 #: templates/deed.html:158
 msgid ""
@@ -500,7 +500,7 @@ msgstr ""
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "тієї ж ліцензії,"
 
 #: templates/deed.html:179
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "реміксуєте, трансформуєте матеріал, засновуєте свій твір на"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -520,7 +520,7 @@ msgstr ""
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "технологічні засоби захисту,"
 
 #: templates/deed.html:221
 msgid ""
@@ -532,7 +532,7 @@ msgstr ""
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "виключеннями та обмеженнями авторського права"
 
 #: templates/deed.html:242
 msgid ""
@@ -546,6 +546,7 @@ msgstr ""
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
 msgstr ""
+"право на зображення особи, на приватне життя або особисті немайнові права"
 
 #: templates/deed.html:262
 msgid ""
@@ -571,7 +572,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "на зображення особи чи на приватне життя"
 
 #: templates/deed.html:305
 msgid ""
@@ -590,7 +591,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "особисті немайнові права"
 
 #: templates/deed.html:329
 msgid ""
@@ -605,7 +606,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "підтримку чи схвалення"
 
 #: templates/deed.html:351
 msgid ""
@@ -721,41 +722,40 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Ви маєте <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">вказати автора</a></span>, розмістити посилання на "
-"ліцензію та <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">вказати чи було внесено "
-"зміни до твору</a></span>. Ви можете зробити це у будь-який розумний спосіб,"
-" але так, щоб не створювати враження стосовно того, що ліцензіар підтримує "
-"чи схвалює вас або ваше використання твору."
+"Ви маєте <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">вказати автора</a></span>, розмістити посилання на ліцензію та "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">вказати чи було внесено зміни до "
+"твору</a></span>. Ви можете зробити це у будь-який розумний спосіб, але так,"
+" щоб не створювати враження стосовно того, що ліцензіар підтримує чи схвалює"
+" вас або ваше використання твору."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Ви не можете використовувати матеріал для <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">комерційних цілей</a>."
+"Ви не можете використовувати матеріал для <a href=\"#ref-commercial-"
+"purposes\" id=\"src-commercial-purposes\">комерційних цілей</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Якщо ви реміксуєте, трансформуєте матеріал, засновуєте свій твір на "
-"матеріалі, ви повинні розповсюджувати свої твори на умовах <a href=\"#\" "
-"id=\"same_license_popup\" class=\"helpLink\">тієї ж ліцензії,</a> що й "
-"оригінал."
+"матеріалі, ви повинні розповсюджувати свої твори на умовах <a href=\"#ref-"
+"same-license\" id=\"src-same-license\">тієї ж ліцензії,</a> що й оригінал."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -763,13 +763,13 @@ msgstr "Без Похідних"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Якщо ви <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">реміксуєте, трансформуєте матеріал, засновуєте свій твір "
-"на</a> матеріалі, ви не можете розповсюджувати модифікований матеріал."
+"Якщо ви <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">реміксуєте, трансформуєте матеріал, засновуєте свій твір на</a> "
+"матеріалі, ви не можете розповсюджувати модифікований матеріал."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -802,14 +802,13 @@ msgstr "Без додаткових обмежень"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Ви не можете висувати додаткові умови або застосовувати <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">технологічні засоби "
-"захисту,</a> що обмежують права інших на дії дозволені ліцензією."
+"Ви не можете висувати додаткові умови або застосовувати <a href=\"#ref-"
+"technological-measures\" id=\"src-technological-measures\">технологічні "
+"засоби захисту,</a> що обмежують права інших на дії дозволені ліцензією."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
@@ -818,41 +817,40 @@ msgstr "Повідомлення:"
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
 "When the Licensor is an intergovernmental organization, disputes will be "
-"resolved by <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">mediation and arbitration</a> unless otherwise agreed."
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
 "У разі якщо Ліцензіар є міжурядовою організацією, спори будуть вірішуватися "
-"шляхом <a href=\"#\" id=\"mediation_and_arbitration_popup\" "
-"class=\"helpLink\">медіації та арбітражу</a> якщо інше не було погоджено "
-"окремо."
+"шляхом <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-and-"
+"arbitration\">медіації та арбітражу</a> якщо інше не було погоджено окремо."
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Ви можете не дотримуватись умов ліцензії в частині, що стосується частин "
 "матеріалу, котрі знаходяться у суспільному надбанні, або коли ваше "
-"використання дозволене застосовними <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">виключеннями та "
-"обмеженнями авторського права</a>."
+"використання дозволене застосовними <a href=\"#ref-exception-or-limitation\""
+" id=\"src-exception-or-limitation\">виключеннями та обмеженнями авторського "
+"права</a>."
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Не надається жодних гарантій. Ліцензія може не надавати всіх необхідних "
 "дозволів, необхідних для вашого використання матеріалу. Наприклад, інші "
-"права, такі як <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">право на зображення особи, на приватне життя або особисті"
-" немайнові права</a> можуть обмежувати ваші можливості використовувати "
-"матеріал."
+"права, такі як <a href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-"
+"publicity-privacy-or-moral-rights\">право на зображення особи, на приватне "
+"життя або особисті немайнові права</a> можуть обмежувати ваші можливості "
+"використовувати матеріал."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -880,38 +878,38 @@ msgstr "Додаткова Інформація"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"Можливо твір не є вільним від авторськоправової охорони у всіх <a href=\"\" "
-"class=\"helpLink\" id=\"all_jurisdictions\">країнах</a>."
+"Можливо твір не є вільним від авторськоправової охорони у всіх <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-jurisdictions\">країнах</a>."
 
 #: templates/includes/deed_body_mark.html:31
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Хтось може мати інші права на твір чи пов'язані з твором, такі як патентні "
 "права чи права на торговельну марку, також інші особи можуть мати права, які"
-" стосуються того, як твір використовується, наприклад права<a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">на зображення особи чи на "
+" стосуються того, як твір використовується, наприклад права<a href=\"#ref-"
+"publicity-rights\" id=\"src-publicity-rights\">на зображення особи чи на "
 "приватне життя</a>."
 
 #: templates/includes/deed_body_mark.html:40
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"В деяких країнах<a href=\"\" class=\"helpLink\" id=\"moral_rights\">особисті"
-" немайнові права</a> автора можуть залишатися чинними навіть після "
-"закінчення строку дії авторського права. До цих прав можуть належати право "
-"бути визнаним автором і право протидіяти спотворенню і перекрученню твору."
+"В деяких країнах<a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">особисті немайнові права</a> автора можуть залишатися чинними "
+"навіть після закінчення строку дії авторського права. До цих прав можуть "
+"належати право бути визнаним автором і право протидіяти спотворенню і "
+"перекрученню твору."
 
 #: templates/includes/deed_body_mark.html:48
 msgid ""
@@ -926,12 +924,12 @@ msgstr ""
 
 #: templates/includes/deed_body_mark.html:55
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
 "Коли ви використовуєте або цитуєте твір, ви не повинні вказувати на <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\">підтримку чи схвалення</a> "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">підтримку чи схвалення</a> "
 "від автора або особи, котра позначила твір."
 
 #: templates/includes/deed_body_unimplemented.html:7
@@ -970,9 +968,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -988,12 +985,12 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
 "Коли ви використовуєте або цитуєте твір, ви не повинні вказувати на <a "
-"href=\"\" class=\"helpLink\" id=\"endorsement\">підтримку чи схвалення</a> "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">підтримку чи схвалення</a> "
 "від автора або особи, котра підтвердила статус твору."
 
 #: templates/includes/languages_dropdown.html:6
