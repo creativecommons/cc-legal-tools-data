@@ -437,7 +437,7 @@ msgstr ""
 "附随本作品发布的版权声明会指定可适用的调停规则，如果没有指定，则以请求指定。除非附随本作品的版权声明另有指定，联合国国际贸易法委员会仲裁规则适用于任何仲裁。"
 
 #: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
 #: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
 #: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
 #: templates/deed.html:357
@@ -475,25 +475,25 @@ msgid "Marking guide"
 msgstr "标注指南"
 
 #: templates/deed.html:157
-msgid "same license"
+msgid "commercial purposes"
 msgstr ""
 
 #: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "商业性使用是指主要目的为获得商业优势或金钱回报。"
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:179
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
-
-#: templates/deed.html:179
-msgid "commercial purposes"
-msgstr ""
-
-#: templates/deed.html:180
-msgid ""
-"A commercial use is one primarily intended for commercial advantage or "
-"monetary compensation."
-msgstr "商业性使用是指主要目的为获得商业优势或金钱回报。"
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"

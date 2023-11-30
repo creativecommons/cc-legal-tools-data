@@ -437,7 +437,7 @@ msgstr ""
 "適用的調解規則將會在隨著作一同發布的著作權聲明中加以指定，而在沒有任何調解規則被指定的情況下，著作權聲明中就不會有相關的指定要求文字。《聯合國國際貿易法委員會仲裁規則》適用於所有的仲裁案件，不過若是附隨於著作的著作權聲明中有另外指定規則的話，另外指定規則將優先適用。"
 
 #: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
 #: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
 #: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
 #: templates/deed.html:357
@@ -475,25 +475,25 @@ msgid "Marking guide"
 msgstr "標記指南"
 
 #: templates/deed.html:157
-msgid "same license"
+msgid "commercial purposes"
 msgstr ""
 
 #: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "商業性使用是一種主要為了商業利益或金錢報酬的使用方式。"
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:179
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
-
-#: templates/deed.html:179
-msgid "commercial purposes"
-msgstr ""
-
-#: templates/deed.html:180
-msgid ""
-"A commercial use is one primarily intended for commercial advantage or "
-"monetary compensation."
-msgstr "商業性使用是一種主要為了商業利益或金錢報酬的使用方式。"
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"

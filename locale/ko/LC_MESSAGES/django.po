@@ -436,7 +436,7 @@ msgstr ""
 "첨부된 저작권 표시에 명시되지 않은 경우, UNCITRAL 조정 규칙이 적용됩니다."
 
 #: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:165 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
 #: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
 #: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
 #: templates/deed.html:357
@@ -476,25 +476,25 @@ msgid "Marking guide"
 msgstr "적용 가이드"
 
 #: templates/deed.html:157
-msgid "same license"
+msgid "commercial purposes"
 msgstr ""
 
 #: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "영리 목적 이용은 주로 영리적 이익이나 금전적 보상을 의도한 이용을 말합니다."
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr ""
+
+#: templates/deed.html:179
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
-
-#: templates/deed.html:179
-msgid "commercial purposes"
-msgstr ""
-
-#: templates/deed.html:180
-msgid ""
-"A commercial use is one primarily intended for commercial advantage or "
-"monetary compensation."
-msgstr "영리 목적 이용은 주로 영리적 이익이나 금전적 보상을 의도한 이용을 말합니다."
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
