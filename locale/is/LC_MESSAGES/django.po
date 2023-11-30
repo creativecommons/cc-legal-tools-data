@@ -858,7 +858,7 @@ msgstr ""
 "<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">lögsögum</a>."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -871,7 +871,7 @@ msgstr ""
 "id=\"src-publicity-rights\">friðhelgi einkalífs eða um opinbera "
 "myndbirtingu</a>."
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
 "In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">moral rights</a> of the author may persist beyond the term of "
@@ -884,7 +884,7 @@ msgstr ""
 "kenndur við verk sitt og til þess að sæta ekki ærumeiðandi eða ósæmilegri "
 "notkun þess."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -894,7 +894,7 @@ msgstr ""
 "á verkið enga ábyrgð á því og hafnar allri ábyrgð svo langt sem lög leyfa á "
 "því hvernig verkið kann að verða notað."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
 "When using or citing the work, you should not imply <a href=\"#ref-"
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "

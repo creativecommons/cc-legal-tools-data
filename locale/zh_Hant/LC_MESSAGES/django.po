@@ -815,7 +815,7 @@ msgstr ""
 "此作並非於全 <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">司法管轄權</a>下都不受著作權保護。"
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -825,7 +825,7 @@ msgstr ""
 "此作品上可能存有其他相關之權利，例如專利權或商標權。在作品的使用上，亦可能牽涉到他人之權利，例如 <a href=\"#ref-publicity-"
 "rights\" id=\"src-publicity-rights\">形象權或隱私權</a> 權利。 "
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
 "In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">moral rights</a> of the author may persist beyond the term of "
@@ -833,14 +833,14 @@ msgid ""
 " and the right to object to derogatory treatments."
 msgstr "在某些司法管轄下，作者的人格權，包括作者的姓名表示權以及拒絕不合理對待的權利等，可能在著作財產權保護期滿之後繼續存在。"
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
 msgstr "除非另有明示聲明，辨識人對作品並不負擔保，對於此作品之所有使用亦不承擔責任，此免責聲明在法律允許的範圍內做最大程度的適用。"
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
 "When using or citing the work, you should not imply <a href=\"#ref-"
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "

@@ -824,7 +824,7 @@ msgstr ""
 "作品は、全ての<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">管轄地</a>で既知の著作権の制約から自由ではない場合があります。"
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -835,7 +835,7 @@ msgstr ""
 "rights\" id=\"src-publicity-rights\">パブリシティ権やプライバシーの権利</a> "
 "など作品の利用に関する権利を持っているかも知れません。"
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
 "In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">moral rights</a> of the author may persist beyond the term of "
@@ -845,7 +845,7 @@ msgstr ""
 "一部の管轄地では、著作者の <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">人格的権利</a>は著作権の保護期間を超えて存続します。この権利は著作者として特定される権利や、名誉声望を害するような扱いに異議申し立てを行う権利などを含む場合があります。"
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -853,7 +853,7 @@ msgid ""
 msgstr ""
 "明示的に異なる宣言がなされている場合を除いて、作品を特定した者は、適用法令上認められる最大限の範囲で、その作品について一切の保証をせず、またその作品のいかなる利用に関する責任も負いません。"
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
 "When using or citing the work, you should not imply <a href=\"#ref-"
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "

@@ -883,7 +883,7 @@ msgstr ""
 "autorales en todas <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">las jurisdicciones</a>."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -895,7 +895,7 @@ msgstr ""
 "usa la obra, como derechos a la <a href=\"#ref-publicity-rights\" id=\"src-"
 "publicity-rights\">publicidad o privacidad</a>."
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
 "In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">moral rights</a> of the author may persist beyond the term of "
@@ -908,7 +908,7 @@ msgstr ""
 " de ser identificada como la autora y el derecho a objetar tratos "
 "despectivos de la obra."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -919,7 +919,7 @@ msgstr ""
 "responsabilidad por todos los usos de la misma, en la medida en que sea "
 "permitido por la legislación aplicable."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
 "When using or citing the work, you should not imply <a href=\"#ref-"
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "

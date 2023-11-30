@@ -884,7 +884,7 @@ msgstr ""
 " href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">юрысдыкцыях</a>."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
@@ -896,7 +896,7 @@ msgstr ""
 "карыстанне творам, напрыклад, <a href=\"#ref-publicity-rights\" id=\"src-"
 "publicity-rights\">публічныя ці прыватныя</a> правы."
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
 "In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
 "rights\">moral rights</a> of the author may persist beyond the term of "
@@ -908,7 +908,7 @@ msgstr ""
 "тэрміну аўтарскага права. Гэтыя правы могуць уключаць права аўтарства, права"
 " на абарону ад прыніжальных адносінаў."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -918,7 +918,7 @@ msgstr ""
 "адносна твору і адмаўляе адказнасць на ўсе спосабы выкарыстання гэтага "
 "твору, якія дазволены дзейсным заканадаўствам."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
 "When using or citing the work, you should not imply <a href=\"#ref-"
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
