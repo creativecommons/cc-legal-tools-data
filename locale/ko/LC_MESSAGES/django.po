@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-30 01:01:14+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -372,32 +372,32 @@ msgstr "샘플링"
 msgid "Sampling Plus"
 msgstr "샘플링 플러스"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "퍼블릭 도메인"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "이용허락규약"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr ""
 
@@ -416,6 +416,177 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr "조정과 중재"
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"적용가능한 중재 규칙은 저작물에 함께 게재되는 저작권 표시 안에 정하거나, 그렇지 않은 경우 중재 요청에 의해 정해집니다. 저작물에 "
+"첨부된 저작권 표시에 명시되지 않은 경우, UNCITRAL 조정 규칙이 적용됩니다."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "추가 정보"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr "적절한 출처"
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"저작자의 이름과 저작권 관련 단체, 저작권 공지, 라이선스 공지, 권리 포기 공지, 콘텐츠 링크 등을 알고 있다면 제공해야 합니다. "
+"4.0 이전 버전의 CC 라이선스를 사용하는 경우, 콘텐츠 제목을 알고 있다면 제목도 표시해야 하며, 기타 조금 다른 사항들이 있습니다."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr "변경이 있는 경우 공지"
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"4.0 버전에서는 원 저작물을 어떤 식으로든 수정했을 경우 이를 표시하여야 하고 이전 수정 표시도 유지하여야 합니다. 3.0 또는 그 "
+"이전 버전에서는 2차적 저작물을 작성한 경우에 한하여 그 표시를 요구하고 있습니다. "
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "적용 가이드"
+
+#: templates/deed.html:157
+msgid "commercial purposes"
+msgstr "영리 목적"
+
+#: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "영리 목적 이용은 주로 영리적 이익이나 금전적 보상을 의도한 이용을 말합니다."
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr "동일한 조건의 CCL"
+
+#: templates/deed.html:179
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr "리믹스, 변형하거나 2차적 저작물을 작성"
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "단순히 포맷을 변경하는 것은 2차적 저작물에 해당하지 않습니다."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr "기술적 조치"
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr "이 라이선스는 WIPO 저작권 협약 11조에 정의된 효과적 기술 조치의 사용을 금합니다."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr "저작재산권의 제한사유"
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr "공정 이용 등 저작재산권의 제한에 따른 이용자의 권리는 CC 라이선스의 영향을 받지 않습니다."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr "퍼블리시티권, 프라이버시, 인격권"
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr "원하는 방식으로 저작물을 이용하기 위해서는 추가적인 허락이 필요할 수도 있습니다."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"저작권법은 재판관할에 따라 다릅니다. 어떤 재판관할에서는 저작권 규제에서 자유로운 저작물이 다른 재판관할에서는 그 정도로 자유롭지 않을 "
+"수 있습니다."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"저작권 규제로부터 자유로운 저작물을 이용하는 경우가 아닌 한 저작물의 이용은 규제를 받거나 이용에 제한이 있을 수 있습니다. 저작물 및 "
+"저작물의 이용은 개인의 목소리, 이미지, 초상의 이용 또는 그 밖에 관련법에서 정하는 제약이나 제한에 있어 본인의 결정권을 보장하는 "
+"개인정보보호법, 퍼블리시티권, 초상권, 프라이버시권의 적용을 받을 수 있습니다."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr "저작인격권"
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"전세계 대부분의 재판관할에서, 저작권법은 저작물의 이용이 '명예훼손'에 해당하는 것으로 간주되는 경우 보상이 주어지는 '저작인격권'을 "
+"창작자에게 부여합니다."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr "승인"
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"어떤 재판관할에서는 저작자, 출판자 및 그 밖에 누군가가 당신에게 해당 저작물의 사용을 허가한 것으로 허위로 암시하는 것은 불법일 수 "
+"있습니다."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -511,37 +682,36 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"<a href=\"#\" id=\"appropriate_credit_popup\" class=\"helpLink\">적절한 "
+"<a href=\"#ref-appropriate-credit\" id=\"src-appropriate-credit\">적절한 "
 "출처</a></span>와, 해당 라이센스 링크를 표시하고, <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">변경이 있는 경우 공지</a></span>해야 "
-"합니다. 합리적인 방식으로 이렇게 하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 "
-"안 됩니다."
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">변경이 있는 경우 공지</a></span>해야 합니다. 합리적인 "
+"방식으로 이렇게 하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 안 됩니다."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"이 저작물은 <a href=\"#\" id=\"commercial_purposes_popup\" class=\"helpLink\">영리 "
-"목적</a>으로 이용할 수 없습니다."
+"이 저작물은 <a href=\"#ref-commercial-purposes\" id=\"src-commercial-"
+"purposes\">영리 목적</a>으로 이용할 수 없습니다."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
-"이 저작물을 리믹스, 변형하거나 2차적 저작물을 작성하고 그 결과물을 공유할 경우에는 원 저작물과 <a href=\"#\" "
-"id=\"same_license_popup\" class=\"helpLink\">동일한 조건의 CCL</a>을 적용하여야 합니다."
+"이 저작물을 리믹스, 변형하거나 2차적 저작물을 작성하고 그 결과물을 공유할 경우에는 원 저작물과 <a href=\"#ref-same-"
+"license\" id=\"src-same-license\">동일한 조건의 CCL</a>을 적용하여야 합니다."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -549,12 +719,12 @@ msgstr "변경금지"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"이 저작물을 <a href=\"#\" id=\"some_kinds_of_mods_popup\" class=\"helpLink\">리믹스,"
-" 변형하거나 2차적 저작물을 작성</a>하였을 경우 그 결과물을 공유할 수 없습니다."
+"이 저작물을 <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">리믹스, 변형하거나 2차적 저작물을 작성</a>하였을 경우 그 결과물을 공유할 수 없습니다."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -582,40 +752,48 @@ msgstr "추가제한금지"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"이용자는 이 라이선스로 허용된 행위를 제한하는 법적 조건이나 <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">기술적 조치</a>를 <br>부가해서는"
-" 안 됩니다."
+"이용자는 이 라이선스로 허용된 행위를 제한하는 법적 조건이나 <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">기술적 조치</a>를 <br>부가해서는 안 됩니다."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
 msgstr "주의:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"이용허락자가 정부간 국제 기구일 경우, 달리 협의하지 않은 한 분쟁은 <a href=\"#ref-mediation-and-"
+"arbitration\" id=\"src-mediation-and-arbitration\">조정과 중재</a>를 통해 해결됩니다."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
-"퍼블릭 도메인에 해당하는 저작물의 이용 또는 <a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">저작재산권의 제한사유</a>에 해당하는 이용의 경우에는 이 라이선스를 따르지 않아도 됩니다."
+"퍼블릭 도메인에 해당하는 저작물의 이용 또는 <a href=\"#ref-exception-or-limitation\" id=\"src-"
+"exception-or-limitation\">저작재산권의 제한사유</a>에 해당하는 이용의 경우에는 이 라이선스를 따르지 않아도 "
+"됩니다."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "이 라이선스는 아무런 보증을 하지 않습니다. 또한 저작물의 이용에 필요한 모든 허락이 포함되어 있지 않을 수도 있습니다. 예를 들어 <a"
-" href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">퍼블리시티권, 프라이버시, 인격권</a> 등 다른 권리에 따른 제한이 있을 수 있습니다."
+" href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">퍼블리시티권, 프라이버시, 인격권</a> 등 다른 권리에 따른 제한이 있을 수 있습니다."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -641,33 +819,33 @@ msgstr "기타 정보"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"이 콘텐츠는 모든 <a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">재판관할</a>의"
-" 일체의 저작권 제한으로부터 자유롭지 않을 수도 있습니다."
+"이 콘텐츠는 모든 <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">재판관할</a>의 일체의 저작권 제한으로부터 자유롭지 않을 수도 있습니다."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"일부 재판관할에서는 저작자의 <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">저작인격권</a>의 시효가 저작권보다 더 길 수 있습니다. 저작인격권에는 저작자로 인정될 권리와 "
-"명예훼손 행위에 대한 이의를 제기할 권리가 포함될 수 있습니다."
+"일부 재판관할에서는 저작자의 <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">저작인격권</a>의 시효가 저작권보다 더 길 수 있습니다. 저작인격권에는 저작자로 인정될 권리와 명예훼손 행위에 대한 "
+"이의를 제기할 권리가 포함될 수 있습니다."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -676,14 +854,14 @@ msgstr ""
 "달리 정하지 않은 한, 본 저작물의 인증자는 관련법에서 허용하는 최대 한도 내에서 저작물에 대해 아무런 보증을 하지 않으며 저작물의 모든"
 " 이용에 관한 어떠한 책임도 지지 않습니다."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"저작물을 사용하거나 인용할 때, 저자나 인증자로부터 <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
+"저작물을 사용하거나 인용할 때, 저자나 인증자로부터 <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -718,9 +896,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -734,69 +911,12 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"저작물을 사용하거나 인용할 때 저자나 인증자로부터 <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "다른 권리"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"저작권 규제로부터 자유로운 저작물을 이용하는 경우가 아닌 한 저작물의 이용은 규제를 받거나 이용에 제한이 있을 수 있습니다. 저작물 및 "
-"저작물의 이용은 개인의 목소리, 이미지, 초상의 이용 또는 그 밖에 관련법에서 정하는 제약이나 제한에 있어 본인의 결정권을 보장하는 "
-"개인정보보호법, 퍼블리시티권, 초상권, 프라이버시권의 적용을 받을 수 있습니다."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "자세히 보기"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "보증"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"어떤 재판관할에서는 저작자, 출판자 및 그 밖에 누군가가 당신에게 해당 저작물의 사용을 허가한 것으로 허위로 암시하는 것은 불법일 수 "
-"있습니다."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "인용"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr "이 HTML을 복사한 후 웹페이지에 붙여넣어 간단하게 저작물을 인용할 수 있습니다."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "공표자란?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"공표자는 CC0를 사용하여 법이 허용하는 한도 내에서 전세계에서 해당 저작물에 대한 모든 권리를 포기한 사람입니다. 공표자는 저작물의 "
-"원저작자, 저작물에 대한 일부 저작권 또는 저작인접권을 갖는 자가 될 수 있습니다."
+"저작물을 사용하거나 인용할 때 저자나 인증자로부터 <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

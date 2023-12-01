@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-30 01:15:34+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/zh-Hans/\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "取样使用"
 msgid "Sampling Plus"
 msgstr "取样使用加强版"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "公共领域"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "法律文本"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "跳转至主内容"
 
@@ -418,6 +418,166 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr "除非另有协议"
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"附随本作品发布的版权声明会指定可适用的调停规则，如果没有指定，则以请求指定。除非附随本作品的版权声明另有指定，联合国国际贸易法委员会仲裁规则适用于任何仲裁。"
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "更多信息"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr "适当的署名"
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"如果已提供，您必须提供创作者和署名者的姓名或名称、版权标识、许可协议标识、免责标识和作品链接。先于4.0版本的CC许可协议也要求您在已经提供的情况下提供作品的名称，可能还有其他轻微差别。"
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr "标明是否（对原始作品）作了修改"
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"根据4.0协议，您必须说明，如果您修改作品和保留以前修改的说明，您必须明确说明。根据3.0协议和更早的协议版本，您仅需在创作演绎作品时，做出修改说明。"
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "标注指南"
+
+#: templates/deed.html:157
+msgid "commercial purposes"
+msgstr "商业目的"
+
+#: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr "商业性使用是指主要目的为获得商业优势或金钱回报。"
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr "与原先许可协议相同的许可协议"
+
+#: templates/deed.html:179
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr "再混合、转换、或者基于该作品创作"
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "仅改变形式不能生成演绎作品"
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr "技术措施"
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr "该协议禁止使用，世界知识产权组织版权公约第11条定义的有效技术措施，"
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr "例外或限制"
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr "根据法律的例外和限制性规定，使用者拥有的权利，例如，合理使用（和公平交易），不受CC许可协议的影响"
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr "形象权、隐私权或人格权"
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr "在按照您的需要使用该作品前，您可能需要得到更多许可"
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr "不同司法管辖区的著作权保护期限不同。在某一个司法管辖区已不受著作权保护的作品可能在其他司法管辖区仍然受保护。"
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr "形象权或隐私权"
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"使用免受已知版权限制的作品可能另有规制或限制。该作品或其使用可能受限于个人数据保护法、形象权（publicity）、肖像权（image），或者允许个人控制如何使用声音、形象或类似标的的隐私权，或者法律规定的其他约束或限制。"
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr "作者的人格权"
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr "全球多数司法管辖区的著作权法赋予创作者以“人身权”，如果对作品的使用被认为对作者造成贬损，“人身权”可提供一些救济。"
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr "作者或声明人认可你"
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr "在一些司法管辖区，错误地暗示作者、出版者或者其他任何人认可你对作品的使用可能是违法行为。"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -513,36 +673,36 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"您必须给出<a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">适当的署名</a></span>，提供指向本许可协议的链接，同时<span rel=\"cc:requires\""
-" resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" "
-"class=\"helpLink\">标明是否（对原始作品）作了修改</a></span>。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。"
+"您必须给出<a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">适当的署名</a></span>，提供指向本许可协议的链接，同时<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-"
+"changes\">标明是否（对原始作品）作了修改</a></span>。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。"
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"您不得将本作品用于<a href=\"#\" id=\"commercial_purposes_popup\" "
-"class=\"helpLink\">商业目的</a>。"
+"您不得将本作品用于<a href=\"#ref-commercial-purposes\" id=\"src-commercial-"
+"purposes\">商业目的</a>。"
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
-"如果您再混合、转换或者基于本作品进行创作，您必须基于<a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">与原先许可协议相同的许可协议</a> 分发您贡献的作品。"
+"如果您再混合、转换或者基于本作品进行创作，您必须基于<a href=\"#ref-same-license\" id=\"src-same-"
+"license\">与原先许可协议相同的许可协议</a> 分发您贡献的作品。"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -550,12 +710,12 @@ msgstr "禁止演绎"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"如果您 <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">再混合、转换、或者基于该作品创作</a>，您不可以分发修改作品。"
+"如果您 <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">再混合、转换、或者基于该作品创作</a>，您不可以分发修改作品。"
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -581,39 +741,47 @@ msgstr "没有附加限制"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"您不得适用法律术语或者 <a href=\"#\" id=\"technological_measures_popup\" "
-"class=\"helpLink\">技术措施</a> 从而限制其他人做许可协议允许的事情。"
+"您不得适用法律术语或者 <a href=\"#ref-technological-measures\" id=\"src-technological-"
+"measures\">技术措施</a> 从而限制其他人做许可协议允许的事情。"
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
 msgstr "声明："
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"当许可人是政府间组织，争议将通过调停和仲裁解决 <a href=\"#ref-mediation-and-arbitration\" id=\"src-"
+"mediation-and-arbitration\">除非另有协议</a>。"
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
-"您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 <a href=\"#\" "
-"id=\"exception_or_limitation_popup\" class=\"helpLink\">例外或限制</a>所允许。"
+"您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 <a href=\"#ref-exception-or-limitation\" "
+"id=\"src-exception-or-limitation\">例外或限制</a>所允许。"
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
-"不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如<a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">形象权、隐私权或人格权</a>可能限制您如何使用作品。"
+"不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如<a href=\"#ref-publicity-privacy-or-"
+"moral-rights\" id=\"src-publicity-privacy-or-moral-"
+"rights\">形象权、隐私权或人格权</a>可能限制您如何使用作品。"
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -638,49 +806,48 @@ msgstr "其他信息"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"该作品可能并未在所有<a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">司法管辖区</a>免于版权权利限制。"
+"该作品可能并未在所有<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">司法管辖区</a>免于版权权利限制。"
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
-"人们可能拥有本作品的其他权利或相关权利，例如专利权或商标权，其他人可能对如何使用作品享有权利，例如 <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">形象权或隐私权</a>。"
+"人们可能拥有本作品的其他权利或相关权利，例如专利权或商标权，其他人可能对如何使用作品享有权利，例如 <a href=\"#ref-publicity-"
+"rights\" id=\"src-publicity-rights\">形象权或隐私权</a>。"
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"在部分司法管辖区， <a href=\"\" class=\"helpLink\" id=\"moral_rights\">作者的人格权</a> "
+"在部分司法管辖区， <a href=\"#ref-moral-rights\" id=\"src-moral-rights\">作者的人格权</a> "
 "存在的期限超过版权的保护期。这些权利可能包括被识别为作者的权利以及反对贬损对待的权利。"
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
 msgstr "除非另有明确声明，指定本作品的人，在可适用法律允许的最大程度上，不对本作品提供担保，不对任何对本作品的使用承担责任。"
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"当使用或者引用本作品，您不得暗示 <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">作者或识别该作品的人认可你的使用</a> 。"
+"当使用或者引用本作品，您不得暗示 <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">作者或识别该作品的人认可你的使用</a> 。"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -713,9 +880,8 @@ msgstr "您可以复制、修改、发行和表演本作品，甚至可用于商
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -727,62 +893,12 @@ msgstr "除非另有明确声明，本协议项下的作品关联人，在可适
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
-msgstr "当使用或引用本作品，您不得暗示 <a href=\"\" class=\"helpLink\" id=\"endorsement\">作者或声明人认可你</a>。"
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "其他权利"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
 msgstr ""
-"使用免受已知版权限制的作品可能另有规制或限制。该作品或其使用可能受限于个人数据保护法、形象权（publicity）、肖像权（image），或者允许个人控制如何使用声音、形象或类似标的的隐私权，或者法律规定的其他约束或限制。"
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "了解更多"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "认可"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr "在一些司法管辖区，错误地暗示作者、出版者或者其他任何人认可你对作品的使用可能是违法行为。"
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "引用"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr "把这些HTML代码复制粘贴到你的网页上，就可以很容易地引用这件作品了。"
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "谁是声明人？"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"声明人是在全世界范围内、使用CC0许可协议贡献出对作品享有的权利至法律所允许的范围的人。他/她可能是作品的原始作者，也可能是对作品享有部分版权或类似或邻接权利的其他人。"
+"当使用或引用本作品，您不得暗示 <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">作者或声明人认可你</a>。"
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

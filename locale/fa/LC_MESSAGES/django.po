@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-30 00:51:14+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fa/\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -372,32 +372,32 @@ msgstr "نمونه برداری"
 msgid "Sampling Plus"
 msgstr "نمونه گیری به علاوه"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "حوزه عمومی"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "کد حقوقی"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr ""
 
@@ -416,6 +416,194 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr "حکمیت و میانجی‌گری"
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"قوانین قابل اجرای میانجی‌گری در اطلاع حق تکثیر منتشرشده همراه اثر، یا اگر "
+"هیچ‌کدام نبود در درخواست برای میانجی‌گری معین خواهد شد. مگر در غیر این صورت "
+"در یک اطلاع حق تکثیر به اثر پیوست‌شده معین شود، UNCITRAL Arbitration Rules "
+"به هر حکمیت اعمال می‌شود."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "اطلاعات بیشتر"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr "اعتبار مناسب"
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"اگر عرضه شود، شما باید نام پدیدآورنده و طرفین ارجاع،  یک اعلان حق تکثیر، یک "
+"اعلان پروانه، یک اعلان سلب مسئولیت، و یک پیوند به مواد ارائه کنید. "
+"پروانه‌های کریتیو کامنز قبل از نگارش 4.0 علاوه بر تفاوت‌های جزئی دیگری که "
+"ممکن است داشته باشند نیاز دارند شما عنوان موادی را که عرضه کردید را نیز "
+"ارائه کنید."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr "اگر تغییری صورت گرفته‌است به آن اشاره کنید"
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"در نگارش 4.0، شما باید به اینکه مواد را تغییر دادید اشاره کنید و یک اشاره از"
+" تغییرات قبلی را حفظ کنید. در نگارش 3.0 و نسخه‌های قدیمی‌تر پروانه، "
+"اشاره‌کردن به تغییرات فقط زمانی الزامی است که یک اثر مشتق ایجاد می‌کنید."
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "ساخت راهنما"
+
+#: templates/deed.html:157
+msgid "commercial purposes"
+msgstr "اهداف تجاری"
+
+#: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"استفاده تجاری این است که در درجه اول برای بهره تجاری یا جبران خسارت مالی در "
+"نظر گرفته شده‌باشد."
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr "همان پروانه"
+
+#: templates/deed.html:179
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr "ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید"
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "فقط تغییر قالب هرگز یک مشتق نمی‌سازد."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr "اقدامات فنی"
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"این پروانه استفاده از اقدامات فنی مؤثر را، که با ارجاع به Article 11 از WIPO"
+" Copyright Treaty تعریف شده‌است ممنوع می‌کند."
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr "استثنا یا محدودیت"
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"حقوق کاربران در موارد استثنا و محدودیت‌ها، چون استفاده منصفانه و خرید و فروش"
+" عادلانه، تحت تأثیر پروانه‌های کریتیو کامنز نیستند."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr "حقوق تبلیغات، حفظ حریم خصوصی، یا اخلاق"
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"ممکن است لازم داشته باشید پروانه‌های اضافی پیش استفاده از این مواد تهیه کنید"
+" اگر قصد دارید."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"شرایط حق تکثیر در حوزه‌های قضایی متفاوت است. یک اثر آزاد از محدودیت‌های حق "
+"تکثیر در یک حوزه قضایی نمی‌تواند مشابه آزادی در حوزهٔ قضایی دیگر باشد."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr ""
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"استفاده از یک اثر آزاد از محدودیت‌های حق تکثیر شناخته‌شده ممکن است طور دیگر "
+"محدود یا تنظیم شده باشد. اثر یا استفاده‌اش ممکن است در معرض حقوق قوانین "
+"حفاظت از داده‌های شخصی، تبلیغات، تصویر، یا حریم خصوصی باشد که به شخص اجازه "
+"بررسی چگونگی استفاده صدا، تصویر یا همانندی اجازه می‌دهد، یا دیگر محدودیت‌ها "
+"تحت قانون اجراشدنی."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr "حقوق اخلاقی"
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"قوانین حق تکثیر در بیشتر حوزه‌های قضایی سراسر دنیا به سازندگان «حقوق اخلاقی»"
+" می‌بخشند که ممکن است برخی از خسارت‌ها را تأمین کند اگر استفاده از یک اثر "
+"«تحقیرآمیز» در نظر گرفته شود."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr "تأیید"
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"در چند حوزهٔ قضایی، به اشتباه اشاره‌کردن که یک نویسنده، ناشر یا هرکس دیگر "
+"استفاده شما از یک اثر را تأیید می‌کند می‌تواند غیرقانونی باشد."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -522,41 +710,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"شما باید <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">اعتبار مناسب</a></span> ببخشید، یک پیوند به پروانه ارائه "
-"کنید، و <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">اگر تغییری صورت گرفته‌است "
-"به آن اشاره کنید</a></span>. شما می‌توانید این کار را به هر شیوه معقول انجام"
-" دهید، اما نه به هر روش که نشان دهد پروانه‌دهنده شما یا استفاده‌تان را تأیید"
-" می‌کند."
+"شما باید <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">اعتبار مناسب</a></span> ببخشید، یک پیوند به پروانه ارائه کنید، و "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">اگر تغییری صورت گرفته‌است به آن اشاره "
+"کنید</a></span>. شما می‌توانید این کار را به هر شیوه معقول انجام دهید، اما "
+"نه به هر روش که نشان دهد پروانه‌دهنده شما یا استفاده‌تان را تأیید می‌کند."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"شما نمی‌توانید از این مواد برای <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">اهداف تجاری</a> استفاده "
-"کنید."
+"شما نمی‌توانید از این مواد برای <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">اهداف تجاری</a> استفاده کنید."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "اگر این مواد را ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید، باید "
-"مشارکت‌هایتان را تحت <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">همان پروانه</a> بعنوان اصلی توزیع کنید."
+"مشارکت‌هایتان را تحت <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">همان پروانه</a> بعنوان اصلی توزیع کنید."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -564,13 +750,13 @@ msgstr "بدون انشقاق"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"اگر این مواد را <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید</a>، "
-"نمی‌توانید مواد اصلاح‌شده را توزیع کنید."
+"اگر این مواد را <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید</a>، نمی‌توانید مواد "
+"اصلاح‌شده را توزیع کنید."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -602,44 +788,52 @@ msgstr "هیچ محدودیت اضافه‌ای"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"شما نمی‌توانید شرایط قانونی یا <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">اقدامات فنی</a> که به"
-" طور قانونی دیگران را از انجام هر کار اجازه‌های پروانه محدود می‌کند اعمال "
-"کنید."
+"شما نمی‌توانید شرایط قانونی یا <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">اقدامات فنی</a> که به طور قانونی دیگران را"
+" از انجام هر کار اجازه‌های پروانه محدود می‌کند اعمال کنید."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
 msgstr "آگاهی‌ها:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"هنگامی که پروانه‌دهنده یک سازمان میان‌دولتی است، اختلافات با <a href=\"#ref-"
+"mediation-and-arbitration\" id=\"src-mediation-and-arbitration\">حکمیت و "
+"میانجی‌گری</a>حل خواهد شد مگر آن که در غیر این صورت موافقت شود."
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "شما نباید از این پروانه برای عناصر مواد در مالکیت عمومی یا جایی که "
-"استفاده‌تان با <a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">استثنا یا محدودیت</a> قابل اجرا مجاز است پیروی کنید."
+"استفاده‌تان با <a href=\"#ref-exception-or-limitation\" id=\"src-exception-"
+"or-limitation\">استثنا یا محدودیت</a> قابل اجرا مجاز است پیروی کنید."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "هیچ ضمانتی داده نمی‌شود. این پروانه نمی‌تواند همه دسترسی‌های لازم برای "
-"استفادهٔ مورد نظرتان را بدهد. برای نمونه، دیگر حقوق مانند <a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">حقوق "
-"تبلیغات، حفظ حریم خصوصی، یا اخلاق</a> ممکن است چگونگی استفاده‌تان از مواد را"
-" محدود کنند."
+"استفادهٔ مورد نظرتان را بدهد. برای نمونه، دیگر حقوق مانند <a href=\"#ref-"
+"publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-or-moral-"
+"rights\">حقوق تبلیغات، حفظ حریم خصوصی، یا اخلاق</a> ممکن است چگونگی "
+"استفاده‌تان از مواد را محدود کنند."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -666,34 +860,35 @@ msgstr "اطلاعات دیگر"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
-"این اثر ممکن است از محدودیت‌های حق تکثیر شناخته‌شده در همه <a href=\"\" "
-"class=\"helpLink\" id=\"all_jurisdictions\">حوزه‌های قضایی</a> آزاد نباشد."
+"این اثر ممکن است از محدودیت‌های حق تکثیر شناخته‌شده در همه <a href=\"#ref-"
+"all-jurisdictions\" id=\"src-all-jurisdictions\">حوزه‌های قضایی</a> آزاد "
+"نباشد."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"در بعضی از حوزه‌های قضایی <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">حقوق اخلاقی</a> نویسنده ممکن است فراتر از شرط حق تکثیر "
-"ادامه یابد. این حقوق ممکن است شامل حق شناخته‌شدن به‌عنوان نویسنده و حق "
-"اعتراض‌کردن به رفتارهای تحقیرآمیز باشد."
+"در بعضی از حوزه‌های قضایی <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">حقوق اخلاقی</a> نویسنده ممکن است فراتر از شرط حق تکثیر ادامه یابد. "
+"این حقوق ممکن است شامل حق شناخته‌شدن به‌عنوان نویسنده و حق اعتراض‌کردن به "
+"رفتارهای تحقیرآمیز باشد."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -703,15 +898,15 @@ msgstr ""
 "کرد هیچ ضمانتی درباره اثر نمی‌سازد، و مسئولیت برای همه استفاده‌ها از اثر را "
 "رد می‌کند، تا جایی که قانون مربوطه اجازه می‌دهد."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
-"زمانی که از این اثر استفاده یا به آن استناد می‌کنید، نباید به <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">تأیید</a> توسط نویسنده یا آن شخص که "
-"اثر را تأیید کرد اشاره کنید."
+"زمانی که از این اثر استفاده یا به آن استناد می‌کنید، نباید به <a "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">تأیید</a> توسط نویسنده یا "
+"آن شخص که اثر را تأیید کرد اشاره کنید."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -748,9 +943,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -765,76 +959,13 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
-"زمانی که از این اثر استفاده یا به آن استناد می‌کنید، نباید به <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">تأیید</a> توسط نویسنده یا حمایت‌کننده "
-"اشاره کنید."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "حقوق دیگر"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"استفاده از یک اثر آزاد از محدودیت‌های حق تکثیر شناخته‌شده ممکن است طور دیگر "
-"محدود یا تنظیم شده باشد. اثر یا استفاده‌اش ممکن است در معرض حقوق قوانین "
-"حفاظت از داده‌های شخصی، تبلیغات، تصویر، یا حریم خصوصی باشد که به شخص اجازه "
-"بررسی چگونگی استفاده صدا، تصویر یا همانندی اجازه می‌دهد، یا دیگر محدودیت‌ها "
-"تحت قانون اجراشدنی."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "بیشتر بدانید"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "تایید"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"در چند حوزهٔ قضایی، به اشتباه اشاره‌کردن که یک نویسنده، ناشر یا هرکس دیگر "
-"استفاده شما از یک اثر را تأیید می‌کند می‌تواند غیرقانونی باشد."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "نقل قول"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"از اچ‌تی‌ام‌ال تهیه‌شده نسخه‌برداری کنید و آن را برای راحتی در استنادکردن به"
-" این اثر به صفحه وب‌تان بچسبانید."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "چه کسی تائیدکننده است؟"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"تأییدکننده شخصی است که قوانین را به اثر با استفاده از کریتیو کامنز 0، تا "
-"میزان مجاز به موجب قانون سراسری واگذار کرده‌است. ممکن است نویسنده اصلی اثر "
-"یا شخصی دیگر باشد که ممکن است چند حق تکثیر یا مرتبط یا قوانین قانونی همجوار "
-"در این اثر داشته باشد."
+"زمانی که از این اثر استفاده یا به آن استناد می‌کنید، نباید به <a "
+"href=\"#ref-endorsement\" id=\"src-endorsement\">تأیید</a> توسط نویسنده یا "
+"حمایت‌کننده اشاره کنید."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

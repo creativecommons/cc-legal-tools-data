@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-30 01:09:12+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ro/\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -374,32 +374,32 @@ msgstr "Sampling"
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Domeniul Public"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Cod juridic"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Mergi la conținut"
 
@@ -418,6 +418,199 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr "mediation and arbitration"
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Regulile aplicabile de mediere vor fi formulate în nota de drept de autor "
+"publicată alături de operă sau, dacă nu există nota, în cererea de mediere. "
+"Dacă nu se specifică altfel în nota de drept de autor atașată operei, "
+"Regulile de Arbitrare UNCITRAL se vor aplica la orice arbitraj."
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Mai multe informații"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr "creditul potrivit"
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+"Dacă este furnizat, trebuie să precizezi numele creatorului și al părților "
+"cărora li se atribuie conținutul, o notă privind dreptul de autor, o notă de"
+" cedare și un link către material. Licențele CC de dinainte de versiunile "
+"4.0 mai cer să furnizezi și titul materialului, dacă este cunoscut și mai "
+"pot exista unele mici diferențe."
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr "să indici dacă s-au făcut modificări"
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+"În versiunea 4.0, trebuie să menționezi dacă ai modificat materialul și să "
+"păstrezi indicatori ai modificărilor precedente. În versiunea 3.0 și în alte"
+" versiuni anterioare, indicarea modificărilor aduse este solicitată doar "
+"dacă ai creat o operă derivată. "
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Ghid de marcare"
+
+#: templates/deed.html:157
+msgid "commercial purposes"
+msgstr "scopuri comerciale"
+
+#: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"O utilizare în scopuri comerciale este o utilizare destinată obținerii unui "
+"avantaj comercial sau unei compensații financiare. "
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr "aceeași licență"
+
+#: templates/deed.html:179
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr "remixezi, transformi, sau construiești pe baza"
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Simpla schimbare a formatului nu crează niciodată o operă derivată. "
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr "măsuri tehnologice"
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+"Licența interzice aplicarea măsurilor tehnologice efective, definite prin "
+"referință la Articolul 11 al Tratatului privind Dreptul de Autor al "
+"Organizației Mondiale a Proprietății Intelectuale "
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr "excepție sau limitare"
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+"Drepturile utilizatorilor (ce pot realiza activități ce intră categoria "
+"excepțiilor și limitărilor), conform bunei uzanței, nu sunt afectate de "
+"licențele CC."
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr "publicitatea, viața privată sau drepturile morale"
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Va trebui să primești permisiuni suplimentare înainte de utilizarea operei "
+"așa cum intenționezi."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Termenii drepturilor de autor variază de la o jurisdicție la alta. "
+"Restricțiile cunoscute de drepturi de autor ale unei opere dintr-o "
+"jurisdicție pot fi diferite în alte jurisdicții."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr "dreptul de publicitate sau la viaţă privată"
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Utilizarea unei opere exonerată de restricții legate de drepturile de autor "
+"poate însă fi reglementată și limitată în alte moduri. Opera sau utilizarea "
+"acesteia pot intra sub incidența legilor privind protejarea datelor cu "
+"caracter personal, publicitatea, imaginea sau drepturile privind viața "
+"privată și modul în care vocea și imaginea, sau orice altă restricție sau "
+"limitare aflată sub legea respectivă. "
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr "drepturile morale"
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Drepturile de autor în majoritatea jurisdicțiilor din lume garantează "
+"creatorilor \"drepturi morale\" ce pot oferi despăgubiri dacă utilizarea "
+"operei aduce un prejudiciu autorului."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr "susținere"
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"În unele jurisdicții, a pretinde că un autor, un editor sau oricine "
+"altcineva susține utilizarea unei opere poate fi ilicită. "
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -527,40 +720,39 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Trebuie să acorzi <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">creditul potrivit</a></span>, să faci un link spre "
-"licență și <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">să indici dacă s-au făcut "
-"modificări</a></span>. Poți face aceste lucruri în orice manieră rezonabilă,"
-" dar nu în vreun mod care să sugereze că licențiatorul te sprijină pe tine "
-"sau modul tău de folosire a operei."
+"Trebuie să acorzi <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">creditul potrivit</a></span>, să faci un link spre licență și <span"
+" rel=\"cc:requires\" resource=\"http://creativecommons.org/ns#Notice\"><a "
+"href=\"#ref-indicate-changes\" id=\"src-indicate-changes\">să indici dacă "
+"s-au făcut modificări</a></span>. Poți face aceste lucruri în orice manieră "
+"rezonabilă, dar nu în vreun mod care să sugereze că licențiatorul te "
+"sprijină pe tine sau modul tău de folosire a operei."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Nu poți folosi această operă în <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">scopuri comerciale</a>."
+"Nu poți folosi această operă în <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">scopuri comerciale</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Daca remixezi, transformi, sau construiești pe baza operei, trebuie să "
-"distribui contribuțiile tale sub <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">aceeași licență</a> precum originalul."
+"distribui contribuțiile tale sub <a href=\"#ref-same-license\" id=\"src-"
+"same-license\">aceeași licență</a> precum originalul."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -568,13 +760,13 @@ msgstr "FărăDerivate"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Dacă <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remixezi, transformi, sau construiești pe baza operei, nu"
-" vei putea distribui opera modificată."
+"Dacă <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remixezi, transformi, sau construiești pe baza</a> operei, nu vei "
+"putea distribui opera modificată."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -607,45 +799,55 @@ msgstr "Fără restricții suplimentare"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Nu poți impune termeni juridici sau  <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">măsuri "
-"tehnologice</a> t care restricționează din punct de vedere legal acțiunile "
-"altor utilizatori care sunt permise de către licență. "
+"Nu poți impune termeni juridici sau  <a href=\"#ref-technological-measures\""
+" id=\"src-technological-measures\">măsuri tehnologice</a> t care "
+"restricționează din punct de vedere legal acțiunile altor utilizatori care "
+"sunt permise de către licență. "
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
 msgstr "Notificări:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+"Atunci când Licențiatorul este o organizație interguvernamentală, disputele "
+"vor fi rezolvate prin <a href=\"#ref-mediation-and-arbitration\" id=\"src-"
+"mediation-and-arbitration\">mediation and arbitration</a>, cu excepția "
+"cazurilor în care se ajunge la o altfel de înțelegere. "
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Nu trebuie să te supui licenței pentru elementele materialului aflate în "
 "domeniul public sau dacă folosirea adoptată de tine este permisă printr-o <a"
-" href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">excepție"
-" sau limitare</a> aplicabile."
+" href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">excepție sau limitare</a> aplicabile."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Nu sunt oferite garanții. Licența este posibil să nu-ți dea toate "
 "permisiunile necesare folosirii intenționate de tine. De exemplu, alte "
-"drepturi precum <a href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\""
-" class=\"helpLink\">publicitatea, viața privată sau drepturile morale</a> ar"
-" putea limita modul în care folosești materialul."
+"drepturi precum <a href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-"
+"publicity-privacy-or-moral-rights\">publicitatea, viața privată sau "
+"drepturile morale</a> ar putea limita modul în care folosești materialul."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -673,42 +875,40 @@ msgstr "Alte informații"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "Această operă poate să aibă restricții cunoscute de drepturi de autor în "
-"alte <a href=\"\" class=\"helpLink\" "
-"id=\"all_jurisdictions\">jurisdicții</a>."
+"alte <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdicții</a>."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Persoanele pot avea și alte drepturi legate de această operă, cum ar fi "
 "drepturi de patent sau de marcă înregistrată și alte persoane pot avea și "
 "drepturi legate de modul în care opera este folosită, cum ar fi <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">dreptul de publicitate sau la "
-"viaţă privată</a>."
+"href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">dreptul de "
+"publicitate sau la viaţă privată</a>."
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"În câteva jurisdicții <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">drepturile morale</a> ale autorului pot persista dincolo"
-" de termenul de drepturi de autor. Aceste drepturi pot include dreptul de a "
-"fi identificat ca autor și dreptul de a fi împotriva tratamentului "
-"peiorativ."
+"În câteva jurisdicții <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">drepturile morale</a> ale autorului pot persista dincolo de "
+"termenul de drepturi de autor. Aceste drepturi pot include dreptul de a fi "
+"identificat ca autor și dreptul de a fi împotriva tratamentului peiorativ."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -718,16 +918,16 @@ msgstr ""
 "garanții privind opera și nu este răspunzătoare în legătură cu utilizările "
 "operei, în termenii cei mai permisivi oferiți de legea în vigoare."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
 "Atunci când folosiți sau citați opera, nu ar trebui să lăsați bănuiala că ar"
-" exista vreo  <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">susținere</a> din partea autorului sau a persoanei care a"
-" identificat opera."
+" exista vreo  <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">susținere</a> din partea autorului sau a persoanei care a "
+"identificat opera."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -765,9 +965,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -783,76 +982,14 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
 "Atunci când folosiți sau citați opera, nu ar trebui să lăsați bănuiala că ar"
-" exista vreo  <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">susținere</a> din partea autorului sau a celui care a "
+" exista vreo  <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">susținere</a> din partea autorului sau a celui care a "
 "publicat-o."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Alte drepturi"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Utilizarea unei opere exonerată de restricții legate de drepturile de autor "
-"poate însă fi reglementată și limitată în alte moduri. Opera sau utilizarea "
-"acesteia pot intra sub incidența legilor privind protejarea datelor cu "
-"caracter personal, publicitatea, imaginea sau drepturile privind viața "
-"privată și modul în care vocea și imaginea, sau orice altă restricție sau "
-"limitare aflată sub legea respectivă. "
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Învaţă mai multe"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Susținere"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"În unele jurisdicții, a pretinde că un autor, un editor sau oricine "
-"altcineva susține utilizarea unei opere poate fi ilicită. "
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Citare"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr "Copiază și lipește HTML-ul ce ti-a fost distribuit "
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Cine este semnatarul?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Cedentul este persoana care a oferit drepturile asupra operei în toată lumea"
-" folosind CC0, în măsura în care legea o permite. Poate fi vorba despre "
-"autorul original al operei sau de o altă persoană care poate a avut anumite "
-"drepturi de autor sau drepturi similare și conexe asura operei."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"

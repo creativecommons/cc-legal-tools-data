@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-10-09 19:03:15+00:00\n"
+"PO-Revision-Date: 2023-11-30 00:58:18+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/is/\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
@@ -373,32 +373,32 @@ msgstr "Smölun (sampling)."
 msgid "Sampling Plus"
 msgstr "Smölun plús"
 
-#: legal_tools/views.py:69
+#: legal_tools/views.py:81
 msgid "Public Domain"
 msgstr "Almenningur"
 
-#: legal_tools/views.py:71
+#: legal_tools/views.py:83
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:209 templates/deed.html:9
+#: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:218
+#: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "Lagamál"
 
-#: legal_tools/views.py:422 templates/includes/related_links.html:15
+#: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:425 templates/includes/related_links.html:18
+#: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:31
+#: templates/base.html:43
 msgid "Skip to content"
 msgstr "Halda áfram í efni"
 
@@ -417,6 +417,178 @@ msgstr ""
 #: templates/deed.html:51
 msgid "See the legal code"
 msgstr ""
+
+#: templates/deed.html:76
+msgid "Footnotes"
+msgstr ""
+
+#: templates/deed.html:86
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:87
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+
+#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
+#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Nánari upplýsingar"
+
+#: templates/deed.html:109
+msgid "appropriate credit"
+msgstr "viðeigandi tilvísanir"
+
+#: templates/deed.html:110
+msgid ""
+"If supplied, you must provide the name of the creator and attribution "
+"parties, a copyright notice, a license notice, a disclaimer notice, and a "
+"link to the material. CC licenses prior to Version 4.0 also require you to "
+"provide the title of the material if supplied, and may have other slight "
+"differences."
+msgstr ""
+
+#: templates/deed.html:132
+msgid "indicate if changes were made"
+msgstr "gefa til kynna ef breytingar hafa verið gerðar"
+
+#: templates/deed.html:133
+msgid ""
+"In 4.0, you must indicate if you modified the material and retain an "
+"indication of previous modifications. In 3.0 and earlier license versions, "
+"the indication of changes is only required if you create a derivative."
+msgstr ""
+
+#: templates/deed.html:140
+msgid "Marking guide"
+msgstr "Leiðbeiningar við merkingar"
+
+#: templates/deed.html:157
+msgid "commercial purposes"
+msgstr "í ágóðaskyni"
+
+#: templates/deed.html:158
+msgid ""
+"A commercial use is one primarily intended for commercial advantage or "
+"monetary compensation."
+msgstr ""
+"Notkun í ágóðaskyni er sú sem ætluð er aðallega til hagnýtingar í viðskiptum"
+" eða gegn fjárhagslegu gjaldi."
+
+#: templates/deed.html:178
+msgid "same license"
+msgstr "sama notkunarleyfi"
+
+#: templates/deed.html:179
+msgid ""
+"You may also use a license listed as compatible at <a "
+"href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
+msgstr ""
+
+#: templates/deed.html:200
+msgid "remix, transform, or build upon"
+msgstr "endurvinnur, umbreytir eða byggir á"
+
+#: templates/deed.html:201
+msgid "Merely changing the format never creates a derivative."
+msgstr "Það eitt að breyta sniðinu býr ekki til afleiðu."
+
+#: templates/deed.html:220
+msgid "technological measures"
+msgstr "tæknilegar úrlausnir"
+
+#: templates/deed.html:221
+msgid ""
+"The license prohibits application of effective technological measures, "
+"defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+
+#: templates/deed.html:241
+msgid "exception or limitation"
+msgstr "undanþágum eða takmörkunum"
+
+#: templates/deed.html:242
+msgid ""
+"The rights of users under exceptions and limitations, such as fair use and "
+"fair dealing, are not affected by the CC licenses."
+msgstr ""
+
+#: templates/deed.html:261
+msgid "publicity, privacy, or moral rights"
+msgstr "birtingu, friðhelgi, eða sæmdarrétt"
+
+#: templates/deed.html:262
+msgid ""
+"You may need to get additional permissions before using the material as you "
+"intend."
+msgstr ""
+"Þú gætir þarfnast viðbótarheimilda áður en þú getur notað efnið eins og þú "
+"ætlaðir þér."
+
+#: templates/deed.html:282
+msgid "jurisdictions "
+msgstr ""
+
+#: templates/deed.html:283
+msgid ""
+"Copyright terms vary jurisdiction to jurisdiction. A work free of copyright "
+"restrictions in one jurisdiction may not be similarly free in other "
+"jurisdictions."
+msgstr ""
+"Gildistími höfundaréttar er mislangur eftir lögsögum. Verk sem er laust "
+"undan höfundarétti í einni lögsögu er það ekki endilega í annari."
+
+#: templates/deed.html:304
+msgid "publicity or privacy"
+msgstr "friðhelgi einkalífs eða um opinbera myndbirtingu"
+
+#: templates/deed.html:305
+msgid ""
+"The use of a work free of known copyright restrictions may be otherwise "
+"regulated or limited. The work or its use may be subject to personal data "
+"protection laws, publicity, image, or privacy rights that allow a person to "
+"control how their voice, image or likeness is used, or other restrictions or"
+" limitations under applicable law."
+msgstr ""
+"Notkun verkar sem ekki lúta neinum þekktum takmörkunum höfundaréttar kann að"
+" vera takmörkum með lögum. Verkið og notkun þess getur varðað við lög um "
+"upplýsingasöfnun um einstaklinga, friðhelgi einkalífs, persónuleikarétt eða "
+"aðrar takmarkanir samkvæmt viðeigandi löggjöf."
+
+#: templates/deed.html:328
+msgid "moral rights"
+msgstr "sæmdarréttur"
+
+#: templates/deed.html:329
+msgid ""
+"Copyright laws in most jurisdictions around the world grant creators \"moral"
+" rights\" which may provide some redress if use of a work is considered "
+"\"derogatory\"."
+msgstr ""
+"Höfundaréttarlög í flestum lögsögum veita höfundum hugverks ákveðinn "
+"sæmdarrétt sem geta veitt þeim réttarfarsúrræði ef notkun verks tekst "
+"ærumeiðandi."
+
+#: templates/deed.html:350
+msgid "endorsement"
+msgstr "styðji"
+
+#: templates/deed.html:351
+msgid ""
+"In some jurisdictions, wrongfully implying that an author, publisher or "
+"anyone else endorses your use of a work may be unlawful."
+msgstr ""
+"Í sumum lögsögum kann það að vera ólöglegt að gefa það ranglega í skyn að "
+"höfundur, útgefandi eða annar aðili styðji sérstaklega eða samþykki notkun "
+"þína á verki."
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
@@ -527,40 +699,40 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
-"You must give <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">appropriate credit</a></span>, provide a link to the "
-"license, and <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">indicate if changes were "
+"You must give <a href=\"#ref-appropriate-credit\" id=\"src-appropriate-"
+"credit\">appropriate credit</a></span>, provide a link to the license, and "
+"<span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">indicate if changes were "
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
-"Þú verður að gefa upp <a href=\"#\" id=\"appropriate_credit_popup\" "
-"class=\"helpLink\">viðeigandi tilvísanir</a></span>, gefa upp tengil á "
+"Þú verður að gefa upp <a href=\"#ref-appropriate-credit\" id=\"src-"
+"appropriate-credit\">viðeigandi tilvísanir</a></span>, gefa upp tengil á "
 "notkunarleyfi, og <span rel=\"cc:requires\" "
-"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#\" "
-"id=\"indicate_changes_popup\" class=\"helpLink\">gefa til kynna ef "
-"breytingar hafa verið gerðar</a></span>.  Þú mátt gera þetta á einhvern "
-"skynsamlegan hátt, en þó ekki þannig að gefið sé til kynna að leyfisgjafinn "
-"styðji við þig eða notkun þína."
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">gefa til kynna ef breytingar hafa "
+"verið gerðar</a></span>.  Þú mátt gera þetta á einhvern skynsamlegan hátt, "
+"en þó ekki þannig að gefið sé til kynna að leyfisgjafinn styðji við þig eða "
+"notkun þína."
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
-"You may not use the material for <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">commercial purposes</a>."
+"You may not use the material for <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
-"Þér er ekki heimilt að nota þetta verk <a href=\"#\" "
-"id=\"commercial_purposes_popup\" class=\"helpLink\">í ágóðaskyni</a>."
+"Þér er ekki heimilt að nota þetta verk <a href=\"#ref-commercial-purposes\" "
+"id=\"src-commercial-purposes\">í ágóðaskyni</a>."
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
 "If you remix, transform, or build upon the material, you must distribute "
-"your contributions under the <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">same license</a> as the original."
+"your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">same license</a> as the original."
 msgstr ""
 "Ef þú endurvinnur, umbreytir, eða byggir á efninu, verðurðu að dreifa "
-"breytingunum þínum með <a href=\"#\" id=\"same_license_popup\" "
-"class=\"helpLink\">sama notkunarleyfi</a> og upprunalega efnið er með."
+"breytingunum þínum með <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">sama notkunarleyfi</a> og upprunalega efnið er með."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -568,13 +740,13 @@ msgstr "EnginAfleidd"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
-"If you <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">remix, transform, or build upon</a> the material, you may"
-" not distribute the modified material."
+"If you <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">remix, transform, or build upon</a> the material, you may not "
+"distribute the modified material."
 msgstr ""
-"Ef þú <a href=\"#\" id=\"some_kinds_of_mods_popup\" "
-"class=\"helpLink\">endurvinnur, umbreytir eða byggir á</a> efninu, geturðu "
-"ekki dreift breytta efninu."
+"Ef þú <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-of-"
+"mods\">endurvinnur, umbreytir eða byggir á</a> efninu, geturðu ekki dreift "
+"breytta efninu."
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
@@ -607,45 +779,51 @@ msgstr "Engar frekari takmarkanir"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
-"You may not apply legal terms or <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">technological "
-"measures</a> that legally restrict others from doing anything the license "
-"permits."
+"You may not apply legal terms or <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">technological measures</a> that legally "
+"restrict others from doing anything the license permits."
 msgstr ""
-"Þú mátt ekki setja inn lagaleg ákvæði eða <a href=\"#\" "
-"id=\"technological_measures_popup\" class=\"helpLink\">tæknilegar "
-"úrlausnir</a> sem gætu hindrað aðra á lagalega vísu við að gera eitthvað það"
-" sem notkunarleyfið heimilar."
+"Þú mátt ekki setja inn lagaleg ákvæði eða <a href=\"#ref-technological-"
+"measures\" id=\"src-technological-measures\">tæknilegar úrlausnir</a> sem "
+"gætu hindrað aðra á lagalega vísu við að gera eitthvað það sem "
+"notkunarleyfið heimilar."
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
 msgstr "Athugasemdir:"
 
-#: templates/includes/deed_body_licenses.html:121
+#: templates/includes/deed_body_licenses.html:122
+msgid ""
+"When the Licensor is an intergovernmental organization, disputes will be "
+"resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
+"and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
+msgstr ""
+
+#: templates/includes/deed_body_licenses.html:127
 msgid ""
 "You do not have to comply with the license for elements of the material in "
 "the public domain or where your use is permitted by an applicable <a "
-"href=\"#\" id=\"exception_or_limitation_popup\" class=\"helpLink\">exception"
-" or limitation</a>."
+"href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">exception or limitation</a>."
 msgstr ""
 "Þú þarft ekki að uppfylla ákvæði notkunarleyfisins fyrir þá hluta efnisins "
 "sem séu í almannaeigu (public domain) eða þar sem notkun þín sé leyfð "
-"samkvæmt <a href=\"#\" id=\"exception_or_limitation_popup\" "
-"class=\"helpLink\">undanþágum eða takmörkunum</a>."
+"samkvæmt <a href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">undanþágum eða takmörkunum</a>."
 
-#: templates/includes/deed_body_licenses.html:124
+#: templates/includes/deed_body_licenses.html:130
 msgid ""
 "No warranties are given. The license may not give you all of the permissions"
 " necessary for your intended use. For example, other rights such as <a "
-"href=\"#\" id=\"publicity_privacy_or_moral_rights_popup\" "
-"class=\"helpLink\">publicity, privacy, or moral rights</a> may limit how you"
-" use the material."
+"href=\"#ref-publicity-privacy-or-moral-rights\" id=\"src-publicity-privacy-"
+"or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
+"use the material."
 msgstr ""
 "Engin ábyrgð fylgir. Notkunarleyfið gæti ekki gefið þér allar nauðsynlegar "
 "heimildir fyrir þá notkun sem þú hafðir í huga. Til dæmis, önnur "
-"réttarákvæði sem varða <a href=\"#\" "
-"id=\"publicity_privacy_or_moral_rights_popup\" class=\"helpLink\">birtingu, "
-"friðhelgi, eða sæmdarrétt</a> gætu takmarkað hvernig þú getur notað efnið."
+"réttarákvæði sem varða <a href=\"#ref-publicity-privacy-or-moral-rights\" "
+"id=\"src-publicity-privacy-or-moral-rights\">birtingu, friðhelgi, eða "
+"sæmdarrétt</a> gætu takmarkað hvernig þú getur notað efnið."
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
@@ -672,41 +850,41 @@ msgstr "Aðrar upplýsingar"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
-"The work may not be free of known copyright restrictions in all <a href=\"\""
-" class=\"helpLink\" id=\"all_jurisdictions\">jurisdictions</a>."
+"The work may not be free of known copyright restrictions in all <a "
+"href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">jurisdictions</a>."
 msgstr ""
 "Þetta verk er mögulega ekki  laust undan takmörkunum höfundaréttar í öllum "
-"<a href=\"\" class=\"helpLink\" id=\"all_jurisdictions\">lögsögum</a>."
+"<a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">lögsögum</a>."
 
-#: templates/includes/deed_body_mark.html:31
+#: templates/includes/deed_body_mark.html:30
 msgid ""
 "Persons may have other rights in or related to the work, such as patent or "
 "trademark rights, and others may have rights in how the work is used, such "
-"as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
+"or privacy</a> rights."
 msgstr ""
 "Aðilar kunna að búa yfir réttindum sem tengjast verkinu á borð við "
 "einkaleyfi eða vörumerkjaréttindi og aðrir kunna að hafa hagsmuna að gæta "
-"varðandi notkun þess, til dæmis varðandi <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant\""
-" class=\"helpLink\" id=\"publicity_rights\">friðhelgi einkalífs eða um "
-"opinbera myndbirtingu</a>."
+"varðandi notkun þess, til dæmis varðandi <a href=\"#ref-publicity-rights\" "
+"id=\"src-publicity-rights\">friðhelgi einkalífs eða um opinbera "
+"myndbirtingu</a>."
 
-#: templates/includes/deed_body_mark.html:40
+#: templates/includes/deed_body_mark.html:37
 msgid ""
-"In some jurisdictions <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">moral rights</a> of the author may persist beyond the "
-"term of copyright. These rights may include the right to be identified as "
-"the author and the right to object to derogatory treatments."
+"In some jurisdictions <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">moral rights</a> of the author may persist beyond the term of "
+"copyright. These rights may include the right to be identified as the author"
+" and the right to object to derogatory treatments."
 msgstr ""
-"Í sumum lögsögum kann <a href=\"\" class=\"helpLink\" "
-"id=\"moral_rights\">sæmdarréttur</a> höfundar að gilda lengur en "
-"fjárhagslegur hluti höfundaréttar. Þessi réttur kann að fela í sér réttinn "
-"til þess að vera kenndur við verk sitt og til þess að sæta ekki ærumeiðandi "
-"eða ósæmilegri notkun þess."
+"Í sumum lögsögum kann <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">sæmdarréttur</a> höfundar að gilda lengur en fjárhagslegur hluti "
+"höfundaréttar. Þessi réttur kann að fela í sér réttinn til þess að vera "
+"kenndur við verk sitt og til þess að sæta ekki ærumeiðandi eða ósæmilegri "
+"notkun þess."
 
-#: templates/includes/deed_body_mark.html:48
+#: templates/includes/deed_body_mark.html:44
 msgid ""
 "Unless expressly stated otherwise, the person who identified the work makes "
 "no warranties about the work, and disclaims liability for all uses of the "
@@ -716,15 +894,15 @@ msgstr ""
 "á verkið enga ábyrgð á því og hafnar allri ábyrgð svo langt sem lög leyfa á "
 "því hvernig verkið kann að verða notað."
 
-#: templates/includes/deed_body_mark.html:55
+#: templates/includes/deed_body_mark.html:51
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
 "Þegar notað eða vitnar í verkið þá ættir þú ekki að gefa í skyn að höfundur "
-"þess eða sá sem benti á það <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">styðji</a> notkun þína sérstaklega."
+"þess eða sá sem benti á það <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">styðji</a> notkun þína sérstaklega."
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
@@ -761,9 +939,8 @@ msgstr ""
 msgid ""
 "In no way are the patent or trademark rights of any person affected by CC0, "
 "nor are the rights that other persons may have in the work or in how the "
-"work is used, such as <a "
-"href=\"https://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">publicity or privacy</a> rights."
+"work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
+"rights\">publicity or privacy</a> rights."
 msgstr ""
 
 #: templates/includes/deed_body_zero.html:17
@@ -778,76 +955,13 @@ msgstr ""
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
-"When using or citing the work, you should not imply <a href=\"\" "
-"class=\"helpLink\" id=\"endorsement\">endorsement</a> by the author or the "
+"When using or citing the work, you should not imply <a href=\"#ref-"
+"endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
 "Þegar notað eða vitnar í verkið þá ættir þú ekki að gefa í skyn að höfundur "
-"þess eða sá sem gaf það <a href=\"\" class=\"helpLink\" "
-"id=\"endorsement\">styðji</a> notkun þína sérstaklega."
-
-#: templates/includes/deed_body_zero.html:21
-msgid "Other Rights"
-msgstr "Önnur réttindi"
-
-#: templates/includes/deed_body_zero.html:23
-msgid ""
-"The use of a work free of known copyright restrictions may be otherwise "
-"regulated or limited. The work or its use may be subject to personal data "
-"protection laws, publicity, image, or privacy rights that allow a person to "
-"control how their voice, image or likeness is used, or other restrictions or"
-" limitations under applicable law."
-msgstr ""
-"Notkun verkar sem ekki lúta neinum þekktum takmörkunum höfundaréttar kann að"
-" vera takmörkum með lögum. Verkið og notkun þess getur varðað við lög um "
-"upplýsingasöfnun um einstaklinga, friðhelgi einkalífs, persónuleikarétt eða "
-"aðrar takmarkanir samkvæmt viðeigandi löggjöf."
-
-#: templates/includes/deed_body_zero.html:24
-#: templates/includes/deed_body_zero.html:31
-#: templates/includes/deed_body_zero.html:37
-msgid "Learn more"
-msgstr "Fræðast frekar"
-
-#: templates/includes/deed_body_zero.html:28
-msgid "Endorsement"
-msgstr "Stuðningur"
-
-#: templates/includes/deed_body_zero.html:30
-msgid ""
-"In some jurisdictions, wrongfully implying that an author, publisher or "
-"anyone else endorses your use of a work may be unlawful."
-msgstr ""
-"Í sumum lögsögum kann það að vera ólöglegt að gefa það ranglega í skyn að "
-"höfundur, útgefandi eða annar aðili styðji sérstaklega eða samþykki notkun "
-"þína á verki."
-
-#: templates/includes/deed_body_zero.html:34
-msgid "Citation"
-msgstr "Tilvísun"
-
-#: templates/includes/deed_body_zero.html:36
-msgid ""
-"Copy and paste the HTML provided into your webpage to easily cite this work."
-msgstr ""
-"Afritaðu og límdu HTML-kóðann á vefsíðu þína til þess að vísa auðveldlega í "
-"þetta verk."
-
-#: templates/includes/deed_body_zero.html:40
-msgid "Who is the affirmer?"
-msgstr "Hver staðfestir?"
-
-#: templates/includes/deed_body_zero.html:42
-msgid ""
-"The affirmer is the person who surrendered rights to the work worldwide "
-"using CC0, to the extent allowable by law. It may be the original author of "
-"the work or another person who may have had some copyright or related or "
-"neighboring legal rights in the work."
-msgstr ""
-"Gefandinn er einstaklingurinn sem afsalaði sér á heimsvísu réttindum yfir "
-"verki með CC0 að því marki sem slíkt er heimilt samkvæmt lögum. Hann gæti "
-"verið upphaflegur höfundur verksins eða annar aðili sem öðlast hefur "
-"höfundarétt eða önnur skyld réttindi yfir verkinu."
+"þess eða sá sem gaf það <a href=\"#ref-endorsement\" id=\"src-"
+"endorsement\">styðji</a> notkun þína sérstaklega."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
