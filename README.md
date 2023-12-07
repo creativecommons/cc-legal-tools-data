@@ -272,7 +272,7 @@ Consortium.
 
 [![CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 button][cc-zero-png]][cc-zero] [`COPYING`](COPYING): The text of the Creative
-Commons public licenses is dedicated to the public domain under the [CC0 1.0
+Commons legal tools is dedicated to the public domain under the [CC0 1.0
 Universal (CC0 1.0) Public Domain Dedication][cc-zero].
 
 [cc-zero-png]: https://licensebuttons.net/l/zero/1.0/88x31.png#floatleft "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication button"
