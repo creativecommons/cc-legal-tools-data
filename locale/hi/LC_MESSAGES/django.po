@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2022
+# Saurmandal, 2023
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2022-03-22 17:27:54+00:00\n"
+"PO-Revision-Date: 2023-12-06 05:19:04+00:00\n"
+"Last-Translator: Saurmandal, 2023\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/hi/\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -20,27 +25,27 @@ msgstr ""
 
 #: i18n/__init__.py:122
 msgid "Generic"
-msgstr "सामान्य"
+msgstr "साधारण"
 
 #: i18n/__init__.py:123
 msgid "Unported"
-msgstr ""
+msgstr "अनपोर्टेड"
 
 #: i18n/__init__.py:124
 msgid "International"
-msgstr "अंतरराष्ट्रीय"
+msgstr "अंतर्राष्ट्रीय"
 
 #: i18n/__init__.py:125
 msgid "Universal"
-msgstr "यूनिवर्सल"
+msgstr "वैश्विक"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "आर्मीनिया"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
-msgstr "अर्जेंटीना"
+msgstr "आर्जेंटीना"
 
 #: i18n/__init__.py:128
 msgid "Austria"
@@ -52,7 +57,7 @@ msgstr "ऑस्ट्रेलिया"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "आज़रबैजान"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -72,7 +77,7 @@ msgstr "कनाडा"
 
 #: i18n/__init__.py:135
 msgid "Switzerland"
-msgstr "स्विट्जरलैंड"
+msgstr "स्विज़रलैंड"
 
 #: i18n/__init__.py:136
 msgid "Chile"
@@ -80,7 +85,7 @@ msgstr "चिली"
 
 #: i18n/__init__.py:137
 msgid "China Mainland"
-msgstr "चीन मेनलैंड"
+msgstr "चीन मुख्य भूमि"
 
 #: i18n/__init__.py:138
 msgid "Colombia"
@@ -88,7 +93,7 @@ msgstr "कोलम्बिया"
 
 #: i18n/__init__.py:139
 msgid "Costa Rica"
-msgstr "कोस्टा रिका"
+msgstr "कोस्टा रीका"
 
 #: i18n/__init__.py:140
 msgid "Czech Republic"
@@ -104,11 +109,11 @@ msgstr "डेनमार्क"
 
 #: i18n/__init__.py:143
 msgid "Ecuador"
-msgstr "इक्वेडोर"
+msgstr "इक्वाडोर"
 
 #: i18n/__init__.py:144
 msgid "Estonia"
-msgstr "एस्तोनिया"
+msgstr "एस्टोनिया"
 
 #: i18n/__init__.py:145
 msgid "Egypt"
@@ -120,15 +125,15 @@ msgstr "स्पेन"
 
 #: i18n/__init__.py:147
 msgid "Finland"
-msgstr "फिनलैंड"
+msgstr "फ़िनलैंड"
 
 #: i18n/__init__.py:148
 msgid "France"
-msgstr "फ्रांस"
+msgstr "फ़्रांस"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "जॉर्जिया"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -140,7 +145,7 @@ msgstr "ग्वाटेमाला"
 
 #: i18n/__init__.py:152
 msgid "Hong Kong"
-msgstr "हांग कांग"
+msgstr "हांगकांग"
 
 #: i18n/__init__.py:153
 msgid "Croatia"
@@ -156,11 +161,11 @@ msgstr "आयरलैंड"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "अंतरसरकारी संगठन"
 
 #: i18n/__init__.py:157
 msgid "Israel"
-msgstr "इज़राइल"
+msgstr "इस्राइल"
 
 #: i18n/__init__.py:158
 msgid "India"
@@ -188,7 +193,7 @@ msgstr "लक्समबर्ग"
 
 #: i18n/__init__.py:164
 msgid "Macedonia"
-msgstr "मैसेडोनिया"
+msgstr "मैसिडोनिया"
 
 #: i18n/__init__.py:165
 msgid "Malta"
@@ -208,7 +213,7 @@ msgstr "नाइजीरिया"
 
 #: i18n/__init__.py:169
 msgid "Netherlands"
-msgstr "नीदरलैंड्स"
+msgstr "नीदरलैंड"
 
 #: i18n/__init__.py:170
 msgid "Norway"
@@ -224,7 +229,7 @@ msgstr "पेरू"
 
 #: i18n/__init__.py:173
 msgid "Philippines"
-msgstr "फिलिपीन्स"
+msgstr "फ़िलीपींस"
 
 #: i18n/__init__.py:174
 msgid "Poland"
@@ -232,7 +237,7 @@ msgstr "पोलैंड"
 
 #: i18n/__init__.py:175
 msgid "Puerto Rico"
-msgstr "प्यूर्टो रिको"
+msgstr "पोर्टो रीको"
 
 #: i18n/__init__.py:176
 msgid "Portugal"
@@ -280,7 +285,7 @@ msgstr "युगांडा"
 
 #: i18n/__init__.py:187
 msgid "UK: England & Wales"
-msgstr "यूके: इंग्लैंड एंड वेल्स"
+msgstr "यूके: इंग्लैंड और वेल्स"
 
 #: i18n/__init__.py:188
 msgid "United States"
@@ -288,7 +293,7 @@ msgstr "संयुक्त राज्य अमेरिका"
 
 #: i18n/__init__.py:189
 msgid "Venezuela"
-msgstr "वेनेजुएला"
+msgstr "वेनेज़ुएला"
 
 #: i18n/__init__.py:190
 msgid "Vietnam"
@@ -308,7 +313,7 @@ msgstr "श्रेय-गैरवाणिज्यिक"
 
 #: i18n/__init__.py:196
 msgid "Attribution-NonCommercial-NoDerivs"
-msgstr "श्रेय-गैरवाणिज्यिक-गैरव्युत्पादित"
+msgstr "श्रेय-गैरवाणिज्यिक-व्युत्पन्ननहीं"
 
 #: i18n/__init__.py:197
 msgid "Attribution-NonCommercial-ShareAlike"
@@ -316,11 +321,11 @@ msgstr "श्रेय-गैरवाणिज्यिक-समानसा�
 
 #: i18n/__init__.py:198
 msgid "Attribution-NoDerivs"
-msgstr "श्रेय-गैरव्युत्पादित"
+msgstr "श्रेय-व्युत्पन्ननहीं"
 
 #: i18n/__init__.py:199
 msgid "Attribution-NoDerivs-NonCommercial"
-msgstr "श्रेय-गैरव्युत्पादित-गैरवाणिज्यिक"
+msgstr "श्रेय-व्युत्पन्ननहीं-गैरवाणिज्यिक"
 
 #: i18n/__init__.py:200
 msgid "Attribution-ShareAlike"
@@ -331,6 +336,7 @@ msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
 msgstr ""
+"केवल कॉपीराइट समर्पण (अमेरिकी कानून पर आधारित) या सार्वजनिक डोमेन प्रमाणन"
 
 #: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
@@ -338,7 +344,7 @@ msgstr "विकासशील देश"
 
 #: i18n/__init__.py:206
 msgid "Public Domain Mark"
-msgstr "सार्वजनिक डोमेन मार्क"
+msgstr "सार्वजनिक डोमेन का चिह्न"
 
 #: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
@@ -354,11 +360,11 @@ msgstr "गैरवाणिज्यिक प्रतिचयन प्ल�
 
 #: i18n/__init__.py:210
 msgid "NoDerivs"
-msgstr "गैरव्युत्पादित"
+msgstr "व्युत्पन्ननहीं"
 
 #: i18n/__init__.py:211
 msgid "NoDerivs-NonCommercial"
-msgstr "गैरव्युत्पादित-गैरवाणिज्यिक"
+msgstr "व्युत्पन्ननहीं-गैरवाणिज्यिक"
 
 #: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
@@ -374,56 +380,56 @@ msgstr "प्रतिचयन प्लस"
 
 #: legal_tools/views.py:81
 msgid "Public Domain"
-msgstr "सार्वजनिक अधिकार-क्षेत्र"
+msgstr "सार्वजनिक डोमेन"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "लाइसेंस"
 
 #: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
-msgstr ""
+msgstr "दलील"
 
 #: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
-msgstr ""
+msgstr "कानूनी संहिता"
 
 #: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "लाइसेंसों की सूची"
 
 #: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
-msgstr ""
+msgstr "सार्वजनिक डोमेन की सूची"
 
 #: templates/base.html:3
 msgid "Home"
-msgstr ""
+msgstr "मुखपृष्ठ"
 
 #: templates/base.html:43
 msgid "Skip to content"
-msgstr ""
+msgstr "सामग्री को जाएँ"
 
 #: templates/deed.html:43 templates/legalcode.html:32
 msgid "Canonical URL"
-msgstr ""
+msgstr "आधिकारिक URL"
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "कानूनी संहिता देखें"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "फ़ुटनोट्स"
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
-msgstr ""
+msgstr "दलाली और विवाचन"
 
 #: templates/deed.html:87
 msgid ""
@@ -432,6 +438,10 @@ msgid ""
 "Unless otherwise designated in a copyright notice attached to the work, the "
 "UNCITRAL Arbitration Rules apply to any arbitration."
 msgstr ""
+"दलाली के प्रयोज्य नियम, कार्य के साथ प्रकाशित कॉपीराइट सूचना में निर्दिष्ट "
+"किए जाएँगे, और अगर नहीं तो फिर दलाली के अनुरोध में। अगर कार्य के साथ संलग्न "
+"किसी कॉपीराइट सूचना में अलग से निर्दिष्ट न हो, UNCITRAL के विवाचन नियम हर "
+"विवाचन पर लागू होते हैं।"
 
 #: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
 #: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
@@ -439,11 +449,11 @@ msgstr ""
 #: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
 #: templates/deed.html:357
 msgid "More info"
-msgstr ""
+msgstr "अधिक जानकारी"
 
 #: templates/deed.html:109
 msgid "appropriate credit"
-msgstr ""
+msgstr "यथोचित श्रेय"
 
 #: templates/deed.html:110
 msgid ""
@@ -453,10 +463,15 @@ msgid ""
 "provide the title of the material if supplied, and may have other slight "
 "differences."
 msgstr ""
+"अगर ये निर्दिष्ट किए जाए, आपको निर्माता और श्रेय के पक्षों का नाम, एक "
+"कॉपीराइट सूचना, एक लाइसेंस सूचना, एक अस्वीकरण सूचना, और सामग्री की एक कड़ी "
+"प्रदान करनी होगी। संस्करण 4.0 से पहले के CC लाइसेंसों के अंतर्गत कुछ दूसरे "
+"बदलावों के अलावा, अगर सामग्री का नाम निर्दिष्ट किया जाए, आपको वह भी प्रदान "
+"करना होगा।"
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr ""
+msgstr "अगर बदलाव किए गए हों तो उन्हें इंगित करना होगा"
 
 #: templates/deed.html:133
 msgid ""
@@ -464,24 +479,29 @@ msgid ""
 "indication of previous modifications. In 3.0 and earlier license versions, "
 "the indication of changes is only required if you create a derivative."
 msgstr ""
+"अगर आपने सामग्री को संशोधित किया हो, आपको 4.0 में यह बात इंगित करनी होगी। "
+"लाइसेंस के 3.0 और उससे पहले के संस्करणों में बदलावों को सिर्फ तभी इंगित करना"
+" होता है अगर आपने एक व्युत्पन्न कार्य बनाया हो।"
 
 #: templates/deed.html:140
 msgid "Marking guide"
-msgstr ""
+msgstr "इंगित करने के लिए गाइड"
 
 #: templates/deed.html:157
 msgid "commercial purposes"
-msgstr ""
+msgstr "वाणिज्यिक उद्देश्य"
 
 #: templates/deed.html:158
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr ""
+"वाणिज्यिक उद्देश्य वह उद्देश्य है जो वाणिज्यिक लाभ या मोद्रिक मुआवज़े की ओर "
+"लक्षित है।"
 
 #: templates/deed.html:178
 msgid "same license"
-msgstr ""
+msgstr "समान लाइसेंस"
 
 #: templates/deed.html:179
 msgid ""
@@ -489,48 +509,57 @@ msgid ""
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
+"आप <a "
+"href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
+" पर अनुकूल के तौर पर सूचीबद्ध भी किसी लाइसेंस का इस्तेमाल कर सकते हैं।"
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr ""
+msgstr "रीमिक्स कर, बदल, और इसपर योग कर सकते हैं"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
-msgstr ""
+msgstr "बस प्रारूप बदल डालने से व्युत्पन्न कार्य नहीं बन जाता है।"
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr ""
+msgstr "तकनीकी उपाय"
 
 #: templates/deed.html:221
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
+"लाइसेंस के अनुसार आप WIPO कॉपीराइट समझौते के अनुच्छेद 11 के सन्दर्भ में "
+"परिभाषित कोई प्रभावी प्रौद्योगिकी उपाय लागू नहीं कर सकते।"
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr ""
+msgstr "अपवाद या प्रतिबंध"
 
 #: templates/deed.html:242
 msgid ""
 "The rights of users under exceptions and limitations, such as fair use and "
 "fair dealing, are not affected by the CC licenses."
 msgstr ""
+"अपवादों या प्रतिबंधों के अंतर्गत उपयोगकर्ताओं के अधिकार, जैसे उचित उपयोग और "
+"निष्पक्ष सौदे, CC लाइसेंसों से प्रभावित नहीं होते हैं।"
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr ""
+msgstr "प्रचार, गोपनीयता, या नैतिक अधिकार"
 
 #: templates/deed.html:262
 msgid ""
 "You may need to get additional permissions before using the material as you "
 "intend."
 msgstr ""
+"अपने उद्देश्य से सामग्री का इस्तेमाल करने से पहले आपको अतिरिक्त अनुमतियाँ "
+"लेनी पड़ सकती हैं।"
 
 #: templates/deed.html:282
 msgid "jurisdictions "
-msgstr ""
+msgstr "क्षेत्र"
 
 #: templates/deed.html:283
 msgid ""
@@ -538,10 +567,13 @@ msgid ""
 "restrictions in one jurisdiction may not be similarly free in other "
 "jurisdictions."
 msgstr ""
+"कॉपीराइट की अवधि अलग-अलग क्षेत्रों में अलग-अलग हो सकते हैं। किसी एक क्षेत्र "
+"में कॉपीराइट के प्रतिबंधों से आज़ाद कोई कार्य दूसरे क्षेत्रों में उसी तरह "
+"आज़ाद न भी हो सकता है।"
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "प्रचार या गोपनीयता"
 
 #: templates/deed.html:305
 msgid ""
@@ -551,10 +583,16 @@ msgid ""
 "control how their voice, image or likeness is used, or other restrictions or"
 " limitations under applicable law."
 msgstr ""
+"कॉपीराइट के ज्ञात प्रतिबंधों से आज़ाद किसी कार्य का उपयोग, दूसरे साधनों से "
+"नियंत्रित या सीमित किया जा सकता है। कार्य या उसका उपयोग, व्यक्तिगत डेटा "
+"सुरक्षा के कानूनों तथा प्रचार, चित्र या गोपनीयता के अधिकारों के अधीन हो सकता"
+" है जिससे व्यक्ति नियंत्रित कर सकता है कि उनकी आवाज़, चित्र आदि का इस्तेमाल "
+"कैसे किया जा सकता है, और साथ में प्रयोज्य कानून के अंतर्गत दूसरे प्रतिबंध या"
+" सीमाएँ भी नियंत्रित कर सकता है।"
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "नैतिक अधिकार"
 
 #: templates/deed.html:329
 msgid ""
@@ -562,20 +600,25 @@ msgid ""
 " rights\" which may provide some redress if use of a work is considered "
 "\"derogatory\"."
 msgstr ""
+"विश्व के अधिकांश क्षेत्रों में कॉपीराइट के कानून निर्माताओं को \"नैतिक "
+"अधिकार\" प्रदान करते हैं जो कार्य के \"अपमानजनक\" माने जाने पर कुछ प्रतिकार "
+"प्रदान करते हैं।"
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "समर्थन"
 
 #: templates/deed.html:351
 msgid ""
 "In some jurisdictions, wrongfully implying that an author, publisher or "
 "anyone else endorses your use of a work may be unlawful."
 msgstr ""
+"कुछ क्षेत्रों में अनुचित रूप से किसी लेखक, प्रकाशक या किसी दूसरे व्यक्ति के "
+"द्वारा कार्य के आपके उपयोग के समर्थन का संकेत करना अवैध हो सकता है।"
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "पृष्ठ नहीं मिला"
 
 #: templates/includes/deed_body_certification.html:3
 msgid ""
@@ -606,64 +649,79 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:6
 msgid "You are free to:"
-msgstr ""
+msgstr "आप खुलकर:"
 
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
 "<strong>to Share</strong> &mdash; to copy, distribute and transmit the work"
 msgstr ""
+"<strong>बाँट सकते हैं</strong>&mdash; रचना की प्रतिलिपि बना सकते हैं, बाँँट "
+"सकते हैं और संचारित कर सकते हैं"
 
 #: templates/includes/deed_body_licenses.html:12
 msgid "<strong>to Remix</strong> &mdash; to adapt the work"
 msgstr ""
+"<strong>रीमिक्स कर सकते हैं</strong>&mdash; कार्य को अनुकूलित कर सकते हैं"
 
 #: templates/includes/deed_body_licenses.html:17
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "noncommercial purposes."
 msgstr ""
+"गैर-वाणिज्यिक उद्देश्यों से इस कार्य का प्रतिचयन कर सकते हैं, इसे मैश-अप कर "
+"सकते हैं, अथवा रचनात्मक रूप से बदल सकते हैं।"
 
 #: templates/includes/deed_body_licenses.html:24
 msgid ""
 "To sample, mash-up, or otherwise creatively transform this work for "
 "commercial or noncommercial purposes."
 msgstr ""
+"वाणिज्यिक या गैर-वाणिज्यिक उद्देश्यों से इस कार्य का प्रतिचयन कर सकते हैं, "
+"इसे मैश-अप कर सकते हैं, अथवा रचनात्मक रूप से बदल सकते हैं।"
 
 #: templates/includes/deed_body_licenses.html:28
 msgid ""
 "To perform, display, and distribute copies of this whole work for "
 "noncommercial purposes (e.g., file-sharing or noncommercial webcasting)."
 msgstr ""
+"गैर-वाणिज्यिक उद्देश्यों से इस पूरे कार्य को प्रदर्शित और वितरित कर सकते हैं"
+" (जैसे फ़ाइल बाँटने या फिर गैर-वाणिज्यिक वेबकास्टिंग के लिए)।"
 
 #: templates/includes/deed_body_licenses.html:34
 msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
 msgstr ""
+"<strong>बाँट सकते हैं</strong> &mdash; किसी भी साधन या प्रारूप में सामग्री "
+"की प्रतिलिपि बना सकते हैं और उसे पुनः वितरित कर सकते हैं"
 
 #: templates/includes/deed_body_licenses.html:35
 #: templates/includes/deed_body_licenses.html:42
 msgid "for any purpose, even commercially."
-msgstr ""
+msgstr "किसी भी उद्देश्य से, वाणिज्यिक उद्देश्यों से भी।"
 
 #: templates/includes/deed_body_licenses.html:41
 msgid ""
 "<strong>Adapt</strong> &mdash; remix, transform, and build upon the material"
 msgstr ""
+"<strong>अनुकूलित कर सकते हैं</strong> &mdash; सामग्री को रीमिक्स कर सकते "
+"हैं, बदल सकते हैं और उसपर योग कर सकते हैं"
 
 #: templates/includes/deed_body_licenses.html:49
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the license "
 "terms."
 msgstr ""
+"जब तक आप लाइसेंस की शर्तों का पालन करें, लाइसेंसर ये स्वतंत्रताएँ नहीं छीन "
+"सकता है।"
 
 #: templates/includes/deed_body_licenses.html:56
 msgid "Under the following terms:"
-msgstr ""
+msgstr "निम्नलिखित शर्तों के अंतर्गत:"
 
 #: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
+msgstr "आपको उपरोक्त स्वतंत्रताएँ सिर्फ विकासशील देशों में हैं।"
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
@@ -675,12 +733,22 @@ msgid ""
 "made</a></span>. You may do so in any reasonable manner, but not in any way "
 "that suggests the licensor endorses you or your use."
 msgstr ""
+"यह अनिवार्य है कि आप <a href=\"#ref-appropriate-credit\" id=\"src-"
+"appropriate-credit\">यथोचित श्रेय</a> प्रदान करें</span>, लाइसेंस की कड़ी "
+"प्रदान करें, और <span rel=\"cc:requires\" "
+"resource=\"http://creativecommons.org/ns#Notice\"><a href=\"#ref-indicate-"
+"changes\" id=\"src-indicate-changes\">अगर कोई बदलाव हुए हों तो उन्हें इंगित "
+"करें</a></span>। आप ऐसा किसी भी उचित तरीके से कर सकते हैं, लेकिन किसी भी तरह"
+" उससे यह नहीं संकेत नहीं किया जाना चाहिए कि लाइसेंसधारी द्वारा आपको अथवा "
+"आपके इस प्रयोग का समर्थन किया जा रहा हो।"
 
 #: templates/includes/deed_body_licenses.html:77
 msgid ""
 "You may not use the material for <a href=\"#ref-commercial-purposes\" "
 "id=\"src-commercial-purposes\">commercial purposes</a>."
 msgstr ""
+"आप सामग्री का उपयोग <a href=\"#ref-commercial-purposes\" id=\"src-"
+"commercial-purposes\">वाणिज्यिक उद्देश्यों</a> से नहीं कर सकते।"
 
 #: templates/includes/deed_body_licenses.html:83
 msgid ""
@@ -688,10 +756,13 @@ msgid ""
 "your contributions under the <a href=\"#ref-same-license\" id=\"src-same-"
 "license\">same license</a> as the original."
 msgstr ""
+"अगर आप सामग्री को रीमिक्त करते हैं, उसे बदलते हैं या उसपर योग करते हैं, आपको"
+" अपने योगदानों को मूल के <a href=\"#ref-same-license\" id=\"src-same-"
+"license\">समान लाइसेंस</a> के अंतर्गत प्रकाशित करना होगा।"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
-msgstr ""
+msgstr "व्युत्पन्ननहीं"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
@@ -699,20 +770,26 @@ msgid ""
 "mods\">remix, transform, or build upon</a> the material, you may not "
 "distribute the modified material."
 msgstr ""
+"अगर आप सामग्री को <a href=\"#ref-some-kinds-of-mods\" id=\"src-some-kinds-"
+"of-mods\">रीमिक्त करते हैं, उसे बदलते हैं या उसपर योग करते हैं</a>, आप "
+"संशोधित सामग्री को वितरित नहीं कर सकते।"
 
 #: templates/includes/deed_body_licenses.html:95
 msgid ""
 "You may not use this work to advertise for or promote anything but the work "
 "you create from it."
 msgstr ""
-"आप इस काम का इस्तेमाल किसी भी विज्ञापन के लिए या बढ़ावा देने के लिए नहीं कर "
-"सकते हैं, लेकिन इसके द्वारा बनाई गई कार्य।"
+"आप इस कार्य का इस्तेमाल इससे आपके द्वारा बनाए गए कार्य के अलावा किसी भी चीज़"
+" को बढ़ावा देने या उसका प्रचार करने के लिए नहीं कर सकते।"
 
 #: templates/includes/deed_body_licenses.html:101
 msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr ""
+"किसी भी पुनः उपयोग का पुनः वितरण के लिए आपको इस कार्य की लाइसेंस की शर्तें "
+"दूसरों को स्पष्ट करनी होंगी। ऐसा करने का सबसे अच्छा तरीका है इस वेब पृष्ठ की"
+" एक कड़ी जोड़ देना।"
 
 #: templates/includes/deed_body_licenses.html:107
 msgid ""
@@ -724,7 +801,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:112
 msgid "No additional restrictions"
-msgstr ""
+msgstr "कोई अतिरिक्त प्रतिबंध नहीं"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
@@ -732,10 +809,13 @@ msgid ""
 "id=\"src-technological-measures\">technological measures</a> that legally "
 "restrict others from doing anything the license permits."
 msgstr ""
+"आप लाइसेंस द्वारा स्वीकृत कोई कार्य करने से दूसरों को कानूनी साधनों से रोकने"
+" के लिए कोई कानूनी शर्तें या <a href=\"#ref-technological-measures\" "
+"id=\"src-technological-measures\">प्रौद्योगिकी उपाय</a> लागू नहीं कर सकते।"
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
-msgstr ""
+msgstr "सूचनाएँ:"
 
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
@@ -743,6 +823,9 @@ msgid ""
 "resolved by <a href=\"#ref-mediation-and-arbitration\" id=\"src-mediation-"
 "and-arbitration\">mediation and arbitration</a> unless otherwise agreed."
 msgstr ""
+"जब लाइसेंसधारी कोई अंतरसरकारी संगठन हो, विवादों को <a href=\"#ref-mediation-"
+"and-arbitration\" id=\"src-mediation-and-arbitration\">दलाली और विवाचन</a> "
+"से सुलझाया जाएगा, अगर अन्यथा स्वीकार न किया गया हो तो।"
 
 #: templates/includes/deed_body_licenses.html:127
 msgid ""
@@ -751,6 +834,10 @@ msgid ""
 "href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
 "limitation\">exception or limitation</a>."
 msgstr ""
+"आपको सार्वजनिक डोमेन में मौजूद सामग्री या फिर ऐसी सामग्री के तत्वों के लिए "
+"लाइसेंस का पालन करने की ज़रूरत नहीं जिनका आपके द्वारा उपयोग किसी प्रयोज्य <a"
+" href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">अपवाद या सीमा</a> द्वारा अनुमोदित हो।"
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
@@ -1067,11 +1154,11 @@ msgstr ""
 
 #: templates/legalcode.html:48
 msgid "See the deed"
-msgstr ""
+msgstr "दलील देखें"
 
 #: templates/legalcode.html:54
 msgid "Version"
-msgstr ""
+msgstr "संस्करण"
 
 #: templates/legalcode.html:55
 msgid ""
@@ -1098,12 +1185,12 @@ msgstr ""
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "भाषा"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "कानूनी उपकरण"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "अनुप्रेषण:"
