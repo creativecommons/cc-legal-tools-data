@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-12-06 05:19:04+00:00\n"
+"PO-Revision-Date: 2023-12-15 14:44:51+00:00\n"
 "Last-Translator: Saurmandal, 2023\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/hi/\n"
 "Language: hi\n"
@@ -466,7 +466,7 @@ msgstr ""
 "अगर ये निर्दिष्ट किए जाए, आपको निर्माता और श्रेय के पक्षों का नाम, एक "
 "कॉपीराइट सूचना, एक लाइसेंस सूचना, एक अस्वीकरण सूचना, और सामग्री की एक कड़ी "
 "प्रदान करनी होगी। संस्करण 4.0 से पहले के CC लाइसेंसों के अंतर्गत कुछ दूसरे "
-"बदलावों के अलावा, अगर सामग्री का नाम निर्दिष्ट किया जाए, आपको वह भी प्रदान "
+"बदलावों के साथ, अगर सामग्री का नाम निर्दिष्ट किया जाए, आपको वह भी प्रदान "
 "करना होगा।"
 
 #: templates/deed.html:132
@@ -511,11 +511,11 @@ msgid ""
 msgstr ""
 "आप <a "
 "href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
-" पर अनुकूल के तौर पर सूचीबद्ध भी किसी लाइसेंस का इस्तेमाल कर सकते हैं।"
+" पर 'अनुकूल' सूचीबद्ध भी किसी लाइसेंस का इस्तेमाल कर सकते हैं"
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr "रीमिक्स कर, बदल, और इसपर योग कर सकते हैं"
+msgstr "रीमिक्स कर, बदल, और उसपर योग कर सकते हैं"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
@@ -559,7 +559,7 @@ msgstr ""
 
 #: templates/deed.html:282
 msgid "jurisdictions "
-msgstr "क्षेत्र"
+msgstr "क्षेत्र "
 
 #: templates/deed.html:283
 msgid ""
@@ -587,8 +587,8 @@ msgstr ""
 "नियंत्रित या सीमित किया जा सकता है। कार्य या उसका उपयोग, व्यक्तिगत डेटा "
 "सुरक्षा के कानूनों तथा प्रचार, चित्र या गोपनीयता के अधिकारों के अधीन हो सकता"
 " है जिससे व्यक्ति नियंत्रित कर सकता है कि उनकी आवाज़, चित्र आदि का इस्तेमाल "
-"कैसे किया जा सकता है, और साथ में प्रयोज्य कानून के अंतर्गत दूसरे प्रतिबंध या"
-" सीमाएँ भी नियंत्रित कर सकता है।"
+"कैसे किया जा सकता है, और साथ में प्रयोज्य कानूनों के अंतर्गत दूसरे प्रतिबंध "
+"या सीमाएँ भी नियंत्रित कर सकता है।"
 
 #: templates/deed.html:328
 msgid "moral rights"
@@ -721,7 +721,7 @@ msgstr "निम्नलिखित शर्तों के अंतर्
 
 #: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
-msgstr "आपको उपरोक्त स्वतंत्रताएँ सिर्फ विकासशील देशों में हैं।"
+msgstr "आपको उपरोक्त स्वतंत्रताएँ सिर्फ विकासशील देशों में हैं। "
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
@@ -797,7 +797,7 @@ msgid ""
 "any purpose."
 msgstr ""
 "आप किसी भी उद्देश्य के लिए इस पूरे कार्य की प्रतियां निष्पादित, प्रदर्शित या"
-" वितरित नहीं कर सकते हैं"
+" वितरित नहीं कर सकते हैं।"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid "No additional restrictions"
@@ -847,11 +847,16 @@ msgid ""
 "or-moral-rights\">publicity, privacy, or moral rights</a> may limit how you "
 "use the material."
 msgstr ""
+"कोई वारंटी नहीं दी जाती है। लाइसेंस आपको लक्षित उपयोग के लिए आवश्यक सारी "
+"अनुमतियाँ प्रदान न भी कर सकता है। उदाहरणस्वरूप, <a href=\"#ref-publicity-"
+"privacy-or-moral-rights\" id=\"src-publicity-privacy-or-moral-"
+"rights\">प्रचार, गोपनीयता, या नैतिक अधिकार</a> यह सीमित कर सकते हैं कि आप "
+"सामग्री का कैसे इस्तेमाल करते हैं।"
 
 #: templates/includes/deed_body_mark.html:6
 #: templates/includes/deed_body_zero.html:5
 msgid "No Copyright"
-msgstr ""
+msgstr "कोई कॉपीराइट नहीं"
 
 #: templates/includes/deed_body_mark.html:9
 msgid ""
@@ -861,11 +866,15 @@ msgid ""
 "perform the work, even for commercial purposes, all without asking "
 "permission. See <b>Other Information</b> below. </p>"
 msgstr ""
+"<p id=\"nolaw-text\"> इस कार्य को सभी संबंधित अधिकारों सहित कॉपीराइट के "
+"कानूनों के अंतर्गत प्रतिबंधों से आज़ाद <b>पहचाना</b> गया है। आप बिना अनुमति "
+"के कार्य की प्रतिलिपि बना सकते हैं, उसे संशोधित, वितरित और प्रदर्शित कर सकते"
+" हैं, वाणिज्यिक उद्देश्यों से भी। नीचे <b>अधिक जानकारी</b> देखें।</p>"
 
 #: templates/includes/deed_body_mark.html:21
 #: templates/includes/deed_body_zero.html:13
 msgid "Other Information"
-msgstr ""
+msgstr "अधिक जानकारी"
 
 #: templates/includes/deed_body_mark.html:25
 msgid ""
@@ -873,6 +882,9 @@ msgid ""
 "href=\"#ref-all-jurisdictions\" id=\"src-all-"
 "jurisdictions\">jurisdictions</a>."
 msgstr ""
+"कार्य सभी <a href=\"#ref-all-jurisdictions\" id=\"src-all-"
+"jurisdictions\">क्षेत्रों</a> में कॉपीराइट के ज्ञात प्रतिबंधों से आज़ाद न भी"
+" हो सकता है।"
 
 #: templates/includes/deed_body_mark.html:30
 msgid ""
@@ -881,6 +893,10 @@ msgid ""
 "as <a href=\"#ref-publicity-rights\" id=\"src-publicity-rights\">publicity "
 "or privacy</a> rights."
 msgstr ""
+"व्यक्तियों के पास कार्य में या कार्य से जुड़े दूसरे अधिकार हो सकते हैं, जैसे"
+" पेटेंट या ट्रेडमार्क अधिकार, और दूसरों के पास इस बात में अधिकार हो सकता है "
+"कि कार्य का इस्तेमाल कैसे किया जाता है, जैसे <a href=\"#ref-publicity-"
+"rights\" id=\"src-publicity-rights\">प्रचार या गोपनीयता</a> के अधिकार।"
 
 #: templates/includes/deed_body_mark.html:37
 msgid ""
@@ -889,6 +905,10 @@ msgid ""
 "copyright. These rights may include the right to be identified as the author"
 " and the right to object to derogatory treatments."
 msgstr ""
+"कुछ क्षेत्रों में लेखक का <a href=\"#ref-moral-rights\" id=\"src-moral-"
+"rights\">नैतिक अधिकार</a> कॉपीराइट की अवधि की समाप्ति के बाद भी मौजूद हो "
+"सकता है। इन अधिकारों में संबंधित हैं लेखक के रूप में पहचाने जाने का अधिकार "
+"और अपमानजनक उपयोगों का विरोध करने का अधिकार।"
 
 #: templates/includes/deed_body_mark.html:44
 msgid ""
@@ -896,6 +916,9 @@ msgid ""
 "no warranties about the work, and disclaims liability for all uses of the "
 "work, to the fullest extent permitted by applicable law."
 msgstr ""
+"अगर अन्यथा स्पष्ट बताया न गया हो, कार्य को पहचानने वाला व्यक्ति कार्य के "
+"बारे में कोई भी वारंटी प्रदान नहीं करता है, और प्रयोज्य कानूनों द्वारा "
+"अनुमोदित पूरी हद तक कार्य के सभी उपयोगों के लिए दायीत्व त्याग करता है।"
 
 #: templates/includes/deed_body_mark.html:51
 msgid ""
@@ -903,17 +926,22 @@ msgid ""
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "person who identified the work."
 msgstr ""
+"कार्य का उपयोग या उद्धरण करते समय आपको कार्य को पहचानने वाले कार्य के लेखक "
+"द्वारा <a href=\"#ref-endorsement\" id=\"src-endorsement\">समर्थन</a> का "
+"संकेत नहीं करना चाहिए।"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
 msgid "Unimplemented"
-msgstr ""
+msgstr "अकार्यान्वित"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:83
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"इस कानूनी उपकरण के पास कोई मान्य साँचा नहीं है। कृपया यह समस्या रिपोर्ट "
+"करें:"
 
 #: templates/includes/deed_body_zero.html:7
 msgid ""
@@ -953,7 +981,7 @@ msgstr ""
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
-msgstr ""
+msgstr "उपलब्ध भाषाएँ"
 
 #: templates/includes/notice_40.html:3
 #: templates/includes/notice_certification.html:3
@@ -961,7 +989,7 @@ msgstr ""
 #: templates/includes/notice_newer_license.html:3
 #: templates/includes/notice_zero.html:3
 msgid "Notice"
-msgstr ""
+msgstr "सूचना"
 
 #: templates/includes/notice_40.html:5
 msgid ""
@@ -980,7 +1008,7 @@ msgstr ""
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
-msgstr ""
+msgstr "क्रिएटिव कॉमन्स के बारे में"
 
 #: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
@@ -1010,7 +1038,7 @@ msgstr ""
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "लाइसेंस और क्रिएटिव कॉमन्स के बारे में"
 
 #: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
@@ -1072,27 +1100,27 @@ msgstr ""
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "हमारे कार्य के बारे में अधिक जानें"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "CC लाइसेंसिंग के बारे में अधिक जानें"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "हमारे कार्य को समर्थित करें"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "अपनी सामग्री के लिए लाइसेंस का इस्तेमाल करें"
 
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
-msgstr "यह प्रष्ठ निम्नलिखित भाषाओं मे उपलब्ध है:"
+msgstr "यह पृष्ठ निम्न भाषाओं में उपलब्ध है:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "क्रिएटिव कॉमन्स सार्वजनिक लाइसेंसों का इस्तेमाल करना"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1106,7 +1134,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "लाइसेंसधारियों के लिए भुगतान"
 
 #: templates/includes/use_of_licenses.html:22
 msgid ""
@@ -1125,7 +1153,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr ""
+msgstr "जनता के लिए भुगतान"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1146,11 +1174,11 @@ msgstr ""
 
 #: templates/legalcode.html:37
 msgid "Other formats"
-msgstr ""
+msgstr "दूसरे प्रारूप"
 
 #: templates/legalcode.html:40
 msgid "Plain Text"
-msgstr ""
+msgstr "सादा टेक्स्ट"
 
 #: templates/legalcode.html:48
 msgid "See the deed"
@@ -1168,19 +1196,19 @@ msgstr ""
 
 #: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "लाइसेंसधारियों के लिए भुगतान छिपाएँ"
 
 #: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "जनता के लिए भुगतान छिपाएँ"
 
 #: templates/legalcode.html:112
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "लाइसेंसधारियों के लिए भुगतान दिखाएँ"
 
 #: templates/legalcode.html:114
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "जनता के लिए भुगतान दिखाएँ"
 
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
