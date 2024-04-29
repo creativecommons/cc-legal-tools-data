@@ -8,7 +8,7 @@
 # https://httpd.apache.org/docs/2.4/mod/mod_alias.html
 # https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html
 
-########################################
+###############################################################################
 # Step 1: Redirect mixed/uppercase to lowercase
 #
 # Must be set within virtual host context:
@@ -17,8 +17,8 @@ RewriteCond %{REQUEST_URI} ^/(licenses|publicdomain)
 RewriteCond $1 [A-Z]
 RewriteRule ^/?(.*)$ /${lowercase:$1} [R=301,L]
 
-########################################
-#Step 2: Redirect alternate language codes to supported Django language codes
+###############################################################################
+# Step 2: Redirect alternate language codes to supported Django language codes
 
 RedirectMatch  301  "^/publicdomain/zero/1[.]0/legalcode[.]zh[@_-]tw(?:[.]html)?$"            "/publicdomain/zero/1.0/legalcode.zh-hant"
 RedirectMatch  301  "^/publicdomain/zero/1[.]0/legalcode[.]zh[@_-]cn(?:[.]html)?$"            "/publicdomain/zero/1.0/legalcode.zh-hans"
@@ -365,6 +365,7 @@ RedirectMatch  301  "^/licenses/by/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"          
 RedirectMatch  301  "^/licenses/by/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                       "/licenses/by/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                       "/licenses/by/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                       "/licenses/by/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"               "/licenses/by/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"                "/licenses/by/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"                    "/licenses/by/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"                    "/licenses/by/3.0/za/deed.zh-hans"
@@ -1355,6 +1356,7 @@ RedirectMatch  301  "^/licenses/by-sa/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"       
 RedirectMatch  301  "^/licenses/by-sa/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                    "/licenses/by-sa/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by-sa/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                    "/licenses/by-sa/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by-sa/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                    "/licenses/by-sa/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by-sa/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"            "/licenses/by-sa/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by-sa/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"             "/licenses/by-sa/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by-sa/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"                 "/licenses/by-sa/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by-sa/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"                 "/licenses/by-sa/3.0/za/deed.zh-hans"
@@ -2345,6 +2347,7 @@ RedirectMatch  301  "^/licenses/by-nd/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"       
 RedirectMatch  301  "^/licenses/by-nd/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                    "/licenses/by-nd/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by-nd/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                    "/licenses/by-nd/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by-nd/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                    "/licenses/by-nd/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by-nd/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"            "/licenses/by-nd/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by-nd/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"             "/licenses/by-nd/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by-nd/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"                 "/licenses/by-nd/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by-nd/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"                 "/licenses/by-nd/3.0/za/deed.zh-hans"
@@ -3373,6 +3376,7 @@ RedirectMatch  301  "^/licenses/by-nc/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"       
 RedirectMatch  301  "^/licenses/by-nc/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                    "/licenses/by-nc/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by-nc/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                    "/licenses/by-nc/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by-nc/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                    "/licenses/by-nc/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by-nc/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"            "/licenses/by-nc/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by-nc/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"             "/licenses/by-nc/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by-nc/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"                 "/licenses/by-nc/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by-nc/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"                 "/licenses/by-nc/3.0/za/deed.zh-hans"
@@ -4363,6 +4367,7 @@ RedirectMatch  301  "^/licenses/by-nc-sa/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"    
 RedirectMatch  301  "^/licenses/by-nc-sa/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                 "/licenses/by-nc-sa/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by-nc-sa/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                 "/licenses/by-nc-sa/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by-nc-sa/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                 "/licenses/by-nc-sa/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by-nc-sa/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"         "/licenses/by-nc-sa/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by-nc-sa/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"          "/licenses/by-nc-sa/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by-nc-sa/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"              "/licenses/by-nc-sa/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by-nc-sa/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"              "/licenses/by-nc-sa/3.0/za/deed.zh-hans"
@@ -5353,6 +5358,7 @@ RedirectMatch  301  "^/licenses/by-nc-nd/4[.]0/deed[.]pt[@_]br(?:[.]html)?$"    
 RedirectMatch  301  "^/licenses/by-nc-nd/4[.]0/deed[.]es[@_-]es(?:[.]html)?$"                 "/licenses/by-nc-nd/4.0/deed.es"
 RedirectMatch  301  "^/licenses/by-nc-nd/4[.]0/deed[.]en[@_-]us(?:[.]html)?$"                 "/licenses/by-nc-nd/4.0/deed.en"
 RedirectMatch  301  "^/licenses/by-nc-nd/4[.]0/deed[.]en[@_-]gb(?:[.]html)?$"                 "/licenses/by-nc-nd/4.0/deed.en"
+RedirectMatch  301  "^/licenses/by-nc-nd/4[.]0/([^/]+)/(deed|legalcode)(?:[.]html)?$"         "/licenses/by-nc-nd/4.0/$2.$1"
 RedirectMatch  301  "^/licenses/by-nc-nd/3[.]0/za/legalcode[.]en[@_]gb(?:[.]html)?$"          "/licenses/by-nc-nd/3.0/za/legalcode.en-gb"
 RedirectMatch  301  "^/licenses/by-nc-nd/3[.]0/za/deed[.]zh[@_-]tw(?:[.]html)?$"              "/licenses/by-nc-nd/3.0/za/deed.zh-hant"
 RedirectMatch  301  "^/licenses/by-nc-nd/3[.]0/za/deed[.]zh[@_-]cn(?:[.]html)?$"              "/licenses/by-nc-nd/3.0/za/deed.zh-hans"
