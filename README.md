@@ -164,7 +164,7 @@ The following terms are used by this dataset and the
 [iso639-2]: https://en.wikipedia.org/wiki/ISO_639-2
 [rfc5646]: https://datatracker.ietf.org/doc/html/rfc5646.html
 [settings-base]: https://github.com/creativecommons/cc-legal-tools-app/blob/main/cc_legal_tools/settings/base.py
-[transifex-languages]: https://www.transifex.com/explore/languages/
+[transifex-languages]: https://explore.transifex.com/languages/
 [wikipedia-cldr]: https://en.wikipedia.org/wiki/Common_Locale_Data_Repository
 [wikipedia-iso3166-alpha2]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 [wikipedia-locale]: https://en.wikipedia.org/wiki/Locale_(computer_software)
