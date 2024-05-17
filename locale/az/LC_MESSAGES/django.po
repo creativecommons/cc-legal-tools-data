@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2024-04-05 18:54:51+00:00\n"
+"PO-Revision-Date: 2024-04-20 10:10:10+00:00\n"
 "Last-Translator: Nəriman Məmmədli, 2024\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/az/\n"
 "Language: az\n"
@@ -525,7 +525,7 @@ msgstr "Sadəcə formatın dəyişdirilməsi heç vaxt törəmə yaratmır."
 
 #: templates/deed.html:220
 msgid "technological measures"
-msgstr "texnoloji tədbirlər"
+msgstr "texniki tədbirlər"
 
 #: templates/deed.html:221
 msgid ""
@@ -533,7 +533,7 @@ msgid ""
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
 "Lisenziya ÜƏMT Müəllif Hüquqları Müqaviləsinin 11-ci maddəsinə istinadla "
-"müəyyən edilmiş effektiv texnoloji tədbirlərin tətbiqini qadağan edir."
+"müəyyən edilmiş effektiv texniki tədbirlərin tətbiqini qadağan edir."
 
 #: templates/deed.html:241
 msgid "exception or limitation"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:6
 msgid "You are free to:"
-msgstr "Etməkdə sərbəstsiniz:"
+msgstr "Siz heç bir məhdudiyyət olmadan:"
 
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
@@ -694,8 +694,8 @@ msgid ""
 "<strong>Share</strong> &mdash; copy and redistribute the material in any "
 "medium or format"
 msgstr ""
-"<strong>Paylaşmaq</strong> &mdash; materialı istənilən mühitdə və ya "
-"formatda köçürmək və yenidən yaymaq"
+"<strong>Paylaşmaq</strong> &mdash; materialı istənilən məlumat daşıyıcısında"
+" və ya formatda kopyalamaq və yenidən yaymaq"
 
 #: templates/includes/deed_body_licenses.html:35
 #: templates/includes/deed_body_licenses.html:42
@@ -761,7 +761,7 @@ msgid ""
 msgstr ""
 "Materialı dəyişdirirsinizsə, çevirirsinizsə və ya onun əsasında "
 "yaradırsınızsa, töhfələrinizi orijinalla <a href=\"#ref-same-license\" "
-"id=\"src-same-license\">same license</a> əsasən yaymalısınız."
+"id=\"src-same-license\">eyni lisenziyaya</a> əsasən yaymalısınız."
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
@@ -957,12 +957,18 @@ msgid ""
 "worldwide under copyright law, including all related and neighboring rights,"
 " to the extent allowed by law."
 msgstr ""
+"Əsəri bu sənədlə əlaqələndirən şəxs qanunla icazə verilən ölçüdə bütün "
+"əlaqəli hüquqlar da daxil olmaqla bütün dünyada müəllif hüquqları qanununa "
+"əsasən əsərə olan bütün hüquqlarından imtina edərək əsəri ictimai mülkiyyətə"
+" <b>buraxmışdır</b>."
 
 #: templates/includes/deed_body_zero.html:8
 msgid ""
 "You can copy, modify, distribute and perform the work, even for commercial "
 "purposes, all without asking permission. See <b>Other Information</b> below."
 msgstr ""
+"Siz hətta kommersiya məqsədləri üçün icazə istəmədən işi köçürə, dəyişdirə "
+"və paylaya bilərsiniz. Aşağıdakı <b>Digər Məlumatlara</b> baxın."
 
 #: templates/includes/deed_body_zero.html:15
 msgid ""
@@ -971,6 +977,11 @@ msgid ""
 "work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
 "rights\">publicity or privacy</a> rights."
 msgstr ""
+"Heç bir şəkildə hər hansı şəxsin patent və ya ticarət nişanı hüquqları "
+"CC0-dan təsirlənmir, nə də <a href=\"#ref-publicity-rights\" id=\"src-"
+"publicity-rights\">ictimailik və ya məxfilik hüquqları</a> kimi digər "
+"şəxslərin əsərdə və ya əsərdən istifadə qaydasında malik ola biləcəyi "
+"hüquqlar."
 
 #: templates/includes/deed_body_zero.html:17
 msgid ""
@@ -978,6 +989,9 @@ msgid ""
 "this deed makes no warranties about the work, and disclaims liability for "
 "all uses of the work, to the fullest extent permitted by applicable law."
 msgstr ""
+"Əksi göstərilmədiyi təqdirdə, əsəri bu sənədlə əlaqələndirən şəxs işlə bağlı"
+" heç bir zəmanət vermir və əsərdən bütün istifadələrə görə, müvafiq qanunun "
+"icazə verdiyi maksimum dərəcədə məsuliyyətdən imtina edir."
 
 #: templates/includes/deed_body_zero.html:18
 msgid ""
@@ -985,6 +999,9 @@ msgid ""
 "endorsement\" id=\"src-endorsement\">endorsement</a> by the author or the "
 "affirmer."
 msgstr ""
+"Əsəri istifadə edərkən və ya istinad edərkən, müəllifin və ya "
+"təsdiqləyicinin <a href=\"#ref-endorsement\" id=\"src-endorsement\">şəxsən "
+"icazə verdiyini</a> bildirməməlisiniz."
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
@@ -1005,6 +1022,10 @@ msgid ""
 "review all of the terms and conditions of the actual license before using "
 "the licensed material."
 msgstr ""
+"Bu sənəd faktiki lisenziyanın yalnız bəzi əsas xüsusiyyətlərini və "
+"şərtlərini vurğulayır. Bu lisenziya deyil və heç bir hüquqi dəyəri yoxdur. "
+"Lisenziyalı materialdan istifadə etməzdən əvvəl faktiki lisenziyanın bütün "
+"şərtlərini diqqətlə nəzərdən keçirməlisiniz."
 
 #: templates/includes/notice_40.html:13
 msgid ""
@@ -1012,6 +1033,9 @@ msgid ""
 "Distributing, displaying, or linking to this deed or the license that it "
 "summarizes does not create a lawyer-client or any other relationship."
 msgstr ""
+"Creative Commons hüquq firması deyil və hüquqi xidmət göstərmir. Bu sənədin "
+"və ya onun ümumiləşdirdiyi lisenziyanın yayılması, nümayiş etdirilməsi və ya"
+" əlaqələndirilməsi hər hansısa bir münasibət yaratmır."
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
@@ -1062,6 +1086,14 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (\"Creative Commons\") hüquq firması deyil və "
+"hüquqi xidmətlər və ya hüquqi məsləhətlər vermir. Creative Commons ictimai "
+"lisenziyalarının istifadəsi hüquqşünas-müştəri və ya başqa münasibət "
+"yaratmır. Creative Commons lisenziyalarını və əlaqəli məlumatları \"olduğu "
+"kimi\" təqdim edir. Creative Commons lisenziyaları, onların şərtlərinə uyğun"
+" olaraq lisenziyalaşdırılmış hər hansı material və ya hər hansı əlaqəli "
+"məlumatla bağlı heç bir zəmanət vermir. Creative Commons onların istifadəsi "
+"nəticəsində dəyən ziyana görə məsuliyyət daşımır."
 
 #: templates/includes/notice_certification.html:5
 msgid ""
@@ -1069,6 +1101,9 @@ msgid ""
 "the US. For dedicating new works to the public domain, we recommend <a "
 "href=\"/choose/zero/\">CC0</a>."
 msgstr ""
+"Bu alət ABŞ qanunlarına əsaslanır və ABŞ-dən kənarda tətbiq olunmaya bilər. "
+"Yeni əsərləri ictimai mülkiyyətə buraxmaq üçün <a "
+"href=\"/choose/zero/\">CC0</a> tövsiyə edirik."
 
 #: templates/includes/notice_deprecated.html:5
 msgid ""
@@ -1076,6 +1111,8 @@ msgid ""
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
 msgstr ""
+"Creative Commons <a href=\"http://creativecommons.org/retiredlicenses\">bu "
+"hüquqi aləti ləğv edib</a> və onun əsərlərə tətbiq edilməsini tövsiyə etmir."
 
 #: templates/includes/notice_newer_license.html:5
 msgid ""
@@ -1085,6 +1122,11 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"Bu, bu lisenziyanın köhnə versiyasıdır. Əvvəlki versiyalarla müqayisədə, "
+"bütün CC lisenziyalarının 4.0 versiyaları <a href=\"/version4/\">daha çox "
+"istifadəçi dostudur və beynəlxalq səviyyədə daha etibarlıdır.</a> <a "
+"href=\"/choose/\">Öz işinizi lisenziyalaşdırırsınızsa</a>, bunun əvəzinə 4.0"
+" lisenziyasından istifadə etməyi tövsiyə edirik:"
 
 #: templates/includes/notice_zero.html:4
 msgid ""
@@ -1107,22 +1149,25 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"Creative Commons, yaradıcılara işlərini paylaşmağa imkan verən açıq "
+"lisenziyaların və digər hüquqi vasitələri yaradıcısı olan qeyri-kommersiya "
+"təşkilatıdır. Hüquqi alətlərimizdən istifadə etmək pulsuzdur."
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "İşimiz haqqında daha çox məlumat əldə edin"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "CC Lisenziyaları haqqında daha ətraflı məlumat əldə edin"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "İşimizi dəstəkləyin"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Öz işiniz üçün lisenziya seçin."
 
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
@@ -1130,7 +1175,7 @@ msgstr "This page is available in the following languages:"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Creative Commons İctimai Lisenziyalarından istifadə"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1141,10 +1186,16 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commons ictimai lisenziyaları, yaradıcıların və digər hüquq "
+"sahiblərinin orijinal müəlliflik əsərlərini və müəlliflik hüququ və aşağıda "
+"göstərilən ictimai lisenziyada müəyyən edilmiş digər hüquqlara aid olan "
+"digər materialları paylaşmaq üçün istifadə edə biləcəkləri standart şərtlər "
+"toplusunu təmin edir. Aşağıdakı mülahizələr yalnız məlumat üçün nəzərdə "
+"tutulub, hərtərəfli deyil və lisenziyalarımızın bir hissəsini təşkil etmir."
 
 #: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Lisenziyaçılar üçün mülahizələr"
 
 #: templates/includes/use_of_licenses.html:22
 msgid ""
@@ -1160,10 +1211,24 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Bizim ictimai lisenziyalarımız müəllif hüququ və müəyyən digər hüquqlarla "
+"başqa şəkildə məhdudlaşdırılan üsullarla materialdan istifadə etmək üçün "
+"ictimai icazə vermək səlahiyyətinə malik olanlar tərəfindən istifadə üçün "
+"nəzərdə tutulub. Lisenziyalarımız ləğv edilə bilməz. Lisenziyaçılar "
+"seçdikləri lisenziyanı tətbiq etməzdən əvvəl onun şərtlərini oxumalı və başa"
+" düşməlidirlər. Lisenziyaçılar həmçinin lisenziyalarımızı tətbiq etməzdən "
+"əvvəl lazım olan bütün hüquqları təmin etməlidirlər ki, ictimaiyyət "
+"materialdan gözlənildiyi kimi yenidən istifadə edə bilsin. Lisenziyaçılar "
+"lisenziyaya tabe olmayan hər hansı materialı aydın şəkildə qeyd "
+"etməlidirlər.  Buraya digər CC lisenziyalı material və ya müəllif hüququ ilə"
+" bağlı istisna və ya məhdudiyyət altında istifadə edilən material daxildir. "
+"<a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Lisenziyaçılar"
+" üçün mülahizələr.</a>"
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr ""
+msgstr "İctimaiyyət üçün mülahizələr"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1181,32 +1246,49 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"İctimai lisenziyalarımızdan birini istifadə etməklə, lisenziyaçı müəyyən "
+"edilmiş şərtlər altında lisenziyalı materialdan istifadə etmək üçün ictimai "
+"icazə verir. Lisenziyaçının icazəsi hər hansı səbəbdən, məsələn, müəllif "
+"hüququna tətbiq edilən hər hansı istisna və ya məhdudiyyətə görə zəruri "
+"deyilsə, o zaman həmin istifadə lisenziya ilə tənzimlənmir. Lisenziyalarımız"
+" yalnız müəllif hüququ və lisenziya verənin vermək səlahiyyətinə malik olan "
+"müəyyən digər hüquqlar çərçivəsində icazələr verir. Lisenziyalı materialın "
+"istifadəsi yenə də başqa səbəblərə görə, məsələn başqalarının materialda "
+"müəlliflik hüququ və ya digər hüquqlara malik olması səbəbilə "
+"məhdudlaşdırıla bilər. Lisenziyaçı bütün dəyişikliklərin qeyd edilməsini və "
+"ya təsvir edilməsini istəmək kimi xüsusi sorğular verə bilər. "
+"Lisenziyalarımız tələb etməsə də, uyğun olan yerdə bu sorğulara hörmətlə "
+"yanaşmağınız gözlənilir. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">İctimaiyyət"
+" üçün daha çox mülahizə.</a>"
 
 #: templates/legalcode.html:37
 msgid "Other formats"
-msgstr ""
+msgstr "Digər formatlar"
 
 #: templates/legalcode.html:40
 msgid "Plain Text"
-msgstr ""
+msgstr "Sadə Mətn"
 
 #: templates/legalcode.html:48
 msgid "See the deed"
-msgstr ""
+msgstr "Sənədə bax"
 
 #: templates/legalcode.html:54
 msgid "Version"
-msgstr ""
+msgstr "Versiya"
 
 #: templates/legalcode.html:55
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
+"Hər hansı düzəlişlər və dəyişiklik tarixi üçün <a href=\"/legal-code-"
+"errata/\">səhvlər səhifəsinə</a> baxın"
 
 #: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Lisenziyaçılar üçün Mülahizələri Gizlət"
 
 #: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
@@ -1223,11 +1305,11 @@ msgstr ""
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "Dil"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "Hüquqi alətlər"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
