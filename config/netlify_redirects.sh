@@ -26,6 +26,7 @@ do
     symlink=${symlink/\/index.html/}
     target="${basedir}/${line##*#}"
     target="${target/\/rdf/rdf}"
-    target="${target/licenses\/..\//}"
+    target="${target/licenses\/../}"
     echo "/${symlink} /${target} 200"
-done | sort -r | column -t > ${DIR_REPO}/docs/_redirects
+    echo "/${symlink%.html} /${target} 200"
+done | sort -r -u | column -t > ${DIR_REPO}/docs/_redirects
