@@ -2,6 +2,10 @@
 #
 # Convert symlinks into a Netlify _redirects file
 #
+# Configure the site in Netlify with:
+#
+# Build command: ./config/netlify_redirects.sh
+#
 set -o errexit
 set -o errtrace
 set -o nounset
