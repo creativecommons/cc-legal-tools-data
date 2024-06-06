@@ -24,7 +24,7 @@ do
         basedir=''
     fi
     symlink=${symlink/\/index.html/}
-    target="${basedir}/${_line##*#}"
+    target="${basedir}/${line##*#}"
     target="${target/\/rdf/rdf}"
     target="${target/licenses\/..\//}"
     echo "/${symlink} /${target} 200"
