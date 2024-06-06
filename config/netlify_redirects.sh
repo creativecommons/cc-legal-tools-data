@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Convert symlinks into a Netlify _redirects format
+# Convert symlinks into a Netlify _redirects file
 #
 set -o errexit
 set -o errtrace
@@ -12,9 +12,11 @@ trap '_es=${?};
     printf " exited with a status of ${_es}\n";
     exit ${_es}' ERR
 
-for _line in $(cd docs; find -- * -type l -ls | awk '{print $11"###"$13}')
+DIR_REPO="$(cd -P -- "${0%/*}/.." && pwd -P)"
+
+for line in $(cd docs; find -- * -type l -ls | awk '{print $11"###"$13}')
 do
-    symlink="${_line%%#*}"
+    symlink="${line%%#*}"
     if [[ "${symlink}" =~ \/ ]]
     then
         basedir="${symlink%/*}"
@@ -26,4 +28,4 @@ do
     target="${target/\/rdf/rdf}"
     target="${target/licenses\/..\//}"
     echo "/${symlink} /${target} 200"
-done | sort -r | column -t
+done | sort -r | column -t > ${DIR_REPO}/docs/_redirects
