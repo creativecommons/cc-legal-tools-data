@@ -184,7 +184,7 @@
       </article>
       <article class="formats">
        <h2>
-        Other formats
+        その他のフォーマット
        </h2>
        <ul>
         <li>
@@ -197,24 +197,28 @@
      </div>
      <div class="alt-view">
       <a href="deed.ja">
-       See the deed
+       コモンズ証を見る
       </a>
      </div>
     </div>
     <p>
      バージョン 2.0 •
-See the
+誤りの訂正情報とその日付については
      <a href="/legal-code-errata/">
-      errata page
+      エラッタのページ
      </a>
-     for any corrections and the date of change
+     をご参照ください。
     </p>
     <div class="notice-top" id="notice-deprecated">
      <h2 class="icon-attach fa-info">
-      Notice
+      ご注意
      </h2>
      <p>
-      2004-05-25: クリエイティブ・コモンズはこの法的なツールを現役から引退させました。作品への適用はお薦めしません。
+      2004-05-25: クリエイティブ・コモンズは
+      <a href="http://creativecommons.org/retiredlicenses">
+       この法的なツールを現役から引退させました。
+      </a>
+      作品への適用はお薦めしません。
      </p>
     </div>
     <div id="legal-code-body">
@@ -443,7 +447,7 @@ See the
     </div>
     <div class="notice-bottom" id="notice-about-cc-and-trademark">
      <h2 class="icon-attach fa-info">
-      About Creative Commons
+      クリエイティブ・コモンズについて
      </h2>
      <p>
       クリエイティブ・コモンズは、クリエイティブ・コモンズ・パブリック・ライセンスの当事者ではありません。ただし、クリエイティブ・コモンズは、自らが公開するマテリアルに、自らのパブリック・ライセンスのいずれかを適用すると決定することができ、その場合には許諾者とみなされます。クリエイティブ・コモンズ・パブリック・ライセンスの文章は
@@ -470,19 +474,19 @@ See the
     <ul>
      <li>
       <a href="/about/">
-       Learn more about our work
+       私たちの活動についてもっと知る
       </a>
      </li>
      <li>
       <strong>
        <a href="/share-your-work/cclicenses/">
-        Learn more about CC Licensing
+        CCライセンスについてもっと知る
        </a>
       </strong>
      </li>
      <li>
       <a href="/donate/">
-       Support our work
+       私たちの活動を支援する
       </a>
      </li>
      <li>
@@ -492,7 +496,7 @@ See the
      </li>
      <li>
       <a href="/licenses/list.ja">
-       Licenses List
+       ライセンスのリスト
       </a>
      </li>
      <li>
@@ -644,13 +648,13 @@ See the
     function handleArrowClicked() {
       // Toggle consideration section's screen reader announcement text (inside of icon)
       if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for Licensors"
+        this.firstChild.innerHTML = "ライセンスする方のための留意事項を隠す"
       } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for the Public"
+        this.firstChild.innerHTML = "公衆のための留意事項を隠す"
       } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Show Considerations for Licensors"
+        this.firstChild.innerHTML = "ライセンスする方のための留意事項を表示する"
       } else {
-        this.firstChild.innerHTML = "Show Considerations for the Public"
+        this.firstChild.innerHTML = "公衆のための留意事項を表示する"
       }
       // Toggle icon between up and down
       if (this.dataset.direction === "down") {
