@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Timid Robot Zehta <timid@creativecommons.org>, 2021
-# Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021
+# TAKAHASHI Shuuji <shuuji3@gmail.com>, 2021
+# Timid Robot Zehta <timid@creativecommons.org>, 2023
+# Tomoaki Watanabe <tomoaki@creativecommons.jp>, 2024
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-30 00:59:31+00:00\n"
-"Last-Translator: Shuuji TAKAHASHI <shuuji3@gmail.com>, 2021\n"
+"PO-Revision-Date: 2024-06-06 20:14:43+00:00\n"
+"Last-Translator: Tomoaki Watanabe <tomoaki@creativecommons.jp>, 2024\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +42,7 @@ msgstr "全世界"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "アルメニア"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -57,7 +58,7 @@ msgstr "オーストラリア"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "アゼルバイジャン"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -133,7 +134,7 @@ msgstr "フランス"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "ジョージア"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -141,7 +142,7 @@ msgstr "ギリシャ"
 
 #: i18n/__init__.py:151
 msgid "Guatemala"
-msgstr "ガテマラ"
+msgstr "グアテマラ"
 
 #: i18n/__init__.py:152
 msgid "Hong Kong"
@@ -161,7 +162,7 @@ msgstr "アイルランド"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "政府間機関"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -335,7 +336,7 @@ msgstr "表示 - 継承"
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
-msgstr "著作権のみの提供米国法のみに基づくもの）またはパブリック・ドメイン認証"
+msgstr "著作権のみの提供（米国法のみに基づくもの）またはパブリック・ドメイン認証"
 
 #: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
@@ -383,13 +384,13 @@ msgstr "パブリック・ドメイン"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "ライセンス"
 
 #: legal_tools/views.py:221 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:13
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
-msgstr ""
+msgstr "コモンズ証"
 
 #: legal_tools/views.py:230
 #: templates/includes/snippet/title_with_icons.html:15
@@ -400,7 +401,7 @@ msgstr "リーガル・コード"
 
 #: legal_tools/views.py:436 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "ライセンスのリスト"
 
 #: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
@@ -420,7 +421,7 @@ msgstr ""
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "リーガル・コードを見る"
 
 #: templates/deed.html:76
 msgid "Footnotes"
@@ -464,7 +465,7 @@ msgstr ""
 
 #: templates/deed.html:132
 msgid "indicate if changes were made"
-msgstr "変更があったらその旨を示さ"
+msgstr "改変した場合その旨を示すこと"
 
 #: templates/deed.html:133
 msgid ""
@@ -473,7 +474,7 @@ msgid ""
 "the indication of changes is only required if you create a derivative."
 msgstr ""
 "4.0 "
-"では、あなたは資料を改変をしたかどうかを示さなければならず、またそれまでの改変の表示を保持しなければなりません。3.0以前のバージョンのライセンスでは、派生作品を作成した場合にのみ変更を示すことが要求されていました。"
+"では、あなたはマテリアルを改変をしたかどうかを示さなければならず、またそれまでの改変の表示を保持しなければなりません。3.0以前のバージョンのライセンスでは、派生作品を作成した場合にのみ改変があったことを示すことが要求されていました。"
 
 #: templates/deed.html:140
 msgid "Marking guide"
@@ -502,11 +503,11 @@ msgstr ""
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
-msgstr "リミックスし、改変し、あるいはこの資料をベースに新しい作品を作った場合"
+msgstr "リミックスし、改変し、あるいはこのマテリアルを元に創作した場合"
 
 #: templates/deed.html:201
 msgid "Merely changing the format never creates a derivative."
-msgstr "単にフォーマットを変更することは、作品を改変することを意味しません。"
+msgstr "単にフォーマットを変更することは、作品の改変にあたることはありません。"
 
 #: templates/deed.html:220
 msgid "technological measures"
@@ -520,27 +521,27 @@ msgstr "このライセンスは、WIPO著作権条約の11条に定義されて
 
 #: templates/deed.html:241
 msgid "exception or limitation"
-msgstr "権利制限規定"
+msgstr "著作権の例外と制限規定"
 
 #: templates/deed.html:242
 msgid ""
 "The rights of users under exceptions and limitations, such as fair use and "
 "fair dealing, are not affected by the CC licenses."
-msgstr "フェアユース、フェアディーリングなど著作権法上の権利制限などに基づく利用者の権利は、CCライセンスによって影響を受けません。"
+msgstr "フェアユース、フェアディーリングなど著作権法上の例外や権利制限などに基づく利用者の権利は、CCライセンスによって影響を受けません。"
 
 #: templates/deed.html:261
 msgid "publicity, privacy, or moral rights"
-msgstr "パブリシティ権、肖像権、人格権"
+msgstr "パブリシティ権、プライバシー権、人格権"
 
 #: templates/deed.html:262
 msgid ""
 "You may need to get additional permissions before using the material as you "
 "intend."
-msgstr "この資料をあなたが想定している形でご利用するには、追加的な許諾が必要になる場合があります。"
+msgstr "このマテリアルをあなたが想定している形でご利用するには、追加的な許諾が必要になる場合があります。"
 
 #: templates/deed.html:282
 msgid "jurisdictions "
-msgstr ""
+msgstr "管轄地"
 
 #: templates/deed.html:283
 msgid ""
@@ -677,7 +678,7 @@ msgstr "あなたの従うべき条件は以下の通りです。"
 
 #: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
-msgstr ""
+msgstr "あなたは上記の自由を発展途上国においてのみ行使することができます。"
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
@@ -777,9 +778,9 @@ msgid ""
 "href=\"#ref-exception-or-limitation\" id=\"src-exception-or-"
 "limitation\">exception or limitation</a>."
 msgstr ""
-"あなたは、資料の中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の<a href=\"#ref-exception-"
-"or-limitation\" id=\"src-exception-or-"
-"limitation\">権利制限規定</a>にもとづく場合には、ライセンスの規定に従う必要はありません。"
+"あなたは、マテリアルの中でパブリック・ドメインに属している部分に関して、あるいはあなたの利用が著作権法上の<a href=\"#ref-"
+"exception-or-limitation\" id=\"src-exception-or-"
+"limitation\">例外や権利制限規定</a>にもとづく場合には、ライセンスの規定に従う必要はありません。"
 
 #: templates/includes/deed_body_licenses.html:130
 msgid ""
@@ -871,7 +872,7 @@ msgstr ""
 #: templates/legalcode.html:83
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
-msgstr ""
+msgstr "このリーガルツールは有効なテンプレートがありません。この問題を報告する："
 
 #: templates/includes/deed_body_zero.html:7
 msgid ""
@@ -916,7 +917,7 @@ msgstr ""
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
-msgstr ""
+msgstr "言語の選択肢"
 
 #: templates/includes/notice_40.html:3
 #: templates/includes/notice_certification.html:3
@@ -924,7 +925,7 @@ msgstr ""
 #: templates/includes/notice_newer_license.html:3
 #: templates/includes/notice_zero.html:3
 msgid "Notice"
-msgstr ""
+msgstr "ご注意"
 
 #: templates/includes/notice_40.html:5
 msgid ""
@@ -946,7 +947,7 @@ msgstr ""
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
-msgstr ""
+msgstr "クリエイティブ・コモンズについて"
 
 #: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
@@ -983,7 +984,7 @@ msgstr ""
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "ライセンスとクリエイティブ・コモンズについて"
 
 #: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
@@ -1006,14 +1007,17 @@ msgid ""
 "href=\"/choose/zero/\">CC0</a>."
 msgstr ""
 "このツールはアメリカ合衆国の法に基づいたものです。米国外では適用できない可能性があります。新しい作品をパブリック・ドメインに提供する場合は、 <a "
-"href=\"/choose/zero/\">CC0</a>.のご利用をお薦めします。"
+"href=\"/choose/zero/\">CC0</a>のご利用をお薦めします。"
 
 #: templates/includes/notice_deprecated.html:5
 msgid ""
 "Creative Commons has <a "
 "href=\"http://creativecommons.org/retiredlicenses\">retired this legal "
 "tool</a> and does not recommend that it be applied to works."
-msgstr "クリエイティブ・コモンズはこの法的なツールを現役から引退させました。作品への適用はお薦めしません。"
+msgstr ""
+"クリエイティブ・コモンズは<a "
+"href=\"http://creativecommons.org/retiredlicenses\">この法的なツールを現役から引退させました。</a>"
+" 作品への適用はお薦めしません。"
 
 #: templates/includes/notice_newer_license.html:5
 msgid ""
@@ -1052,15 +1056,15 @@ msgstr ""
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "私たちの活動についてもっと知る"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "CCライセンスについてもっと知る"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "私たちの活動を支援する"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
@@ -1127,56 +1131,56 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
-"クリエイティブ・コモンズのパブリック・ライセンスの1つを利用することにより、ライセンスする方は、公衆に対し、指定された条項の下で、ライセンスされたマテリアルの利用を許諾します。たとえば、著作権法上の例外や権利制限が適用されるなど、いかなる理由であれ、ライセンスする方の許諾が必要ではない場合、その利用はライセンスにより制限されません。クリエイティブ・コモンズのライセンスは、ライセンスする方が許諾する権限を有している著作権その他一定の権利下におけるライセンスだけを付与します。ライセンスされたマテリアルは、そのマテリアルに関し第三者が著作権またはその他の権利を有しているなどの理由から、利用が制限される可能性があります。ライセンスする方は、すべての変更を表示または記述することをリクエストするなど、特別なリクエストをすることができます。クリエイティブ・コモンズ・ライセンスにより必要とされるものではありませんが、あなたは、合理的な範囲でこれらのリクエストを尊重することが奨励されます。"
+"クリエイティブ・コモンズのパブリック・ライセンスの１つを利用することにより、ライセンスする方は、公衆に対し、指定された条項の下で、ライセンスされたマテリアルの利用を許諾します。たとえば、著作権法上の例外や権利制限が適用されるなど、いかなる理由であれ、ライセンスする方の許諾が必要ではない場合、その利用はライセンスにより制限されません。クリエイティブ・コモンズのライセンスは、ライセンスする方が許諾する権限を有している著作権その他一定の権利下におけるライセンスだけを付与します。ライセンスされたマテリアルは、そのマテリアルに関し第三者が著作権またはその他の権利を有しているなどの理由から、利用が制限される可能性があります。ライセンスする方は、すべての変更を表示または記述することをリクエストするなど、特別なリクエストをすることができます。クリエイティブ・コモンズ・ライセンスにより必要とされるものではありませんが、あなたは、合理的な範囲でこれらのリクエストを尊重することが奨励されます。"
 " <a "
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">公衆のためのより詳細な留意事項はこちらをご覧ください。</a>"
 
 #: templates/legalcode.html:37
 msgid "Other formats"
-msgstr ""
+msgstr "その他のフォーマット"
 
 #: templates/legalcode.html:40
 msgid "Plain Text"
-msgstr ""
+msgstr "プレーン・テキスト"
 
 #: templates/legalcode.html:48
 msgid "See the deed"
-msgstr ""
+msgstr "コモンズ証を見る"
 
 #: templates/legalcode.html:54
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: templates/legalcode.html:55
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
-msgstr ""
+msgstr "誤りの訂正情報とその日付については<a href=\"/legal-code-errata/\">エラッタのページ</a> をご参照ください。"
 
 #: templates/legalcode.html:108
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "ライセンスする方のための留意事項を隠す"
 
 #: templates/legalcode.html:110
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "公衆のための留意事項を隠す"
 
 #: templates/legalcode.html:112
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "ライセンスする方のための留意事項を表示する"
 
 #: templates/legalcode.html:114
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "公衆のための留意事項を表示する"
 
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "リーガル・ツール"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
