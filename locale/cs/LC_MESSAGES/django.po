@@ -17,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "Language-Django: cs\n"
 "Language-Transifex: cs\n"
+"Percent-Translated: 80\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
