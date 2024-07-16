@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2024
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2024-06-21 20:13:28+00:00\n"
+"PO-Revision-Date: 2024-07-02 17:04:24+00:00\n"
+"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2024\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sk/\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "Language-Django: sk\n"
 "Language-Transifex: sk\n"
+"Percent-Translated: 62\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -1168,7 +1173,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr "Considerations for the public"
+msgstr "Upozornenia pre verejnosť"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1186,19 +1191,21 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
-"By using one of our public licenses, a licensor grants the public permission"
-" to use the licensed material under specified terms and conditions. If the "
-"licensor’s permission is not necessary for any reason–for example, because "
-"of any applicable exception or limitation to copyright–then that use is not "
-"regulated by the license. Our licenses grant only permissions under "
-"copyright and certain other rights that a licensor has authority to grant. "
-"Use of the licensed material may still be restricted for other reasons, "
-"including because others have copyright or other rights in the material. A "
-"licensor may make special requests, such as asking that all changes be "
-"marked or described. Although not required by our licenses, you are "
-"encouraged to respect those requests where reasonable. <a "
-"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
-" considerations for the public.</a>"
+"Použitím niektorej z týchto verejných licencií poskytuje poskytovateľ "
+"verejnosti oprávnenie k použitiu licencovaného obsahu za stanovených "
+"licenčných podmienok. Pokiaľ z nejakého dôvodu nie je súhlas poskytovateľa "
+"nevyhnutný, napríklad z dôvodu uplatnenia niektorej výnimky alebo obmedzenia"
+" autorského práva, potom sa na dané použitie táto licencia nevzťahuje. Na "
+"základe týchto licencií sú poskytované výlučne oprávnenia k výkonu "
+"autorských a niektorých ďalších práv, ktoré je poskytovateľ oprávnený "
+"poskytovať. Použitie licencovaného obsahu môže byť napriek tomu obmedzené z "
+"ďalších dôvodov, napríklad preto, že nositeľom autorských, či ďalších práv k"
+" nemu sa vzťahujúcich, je niekto iný. Poskytovateľ môže vzniesť zvláštne "
+"požiadavky, napríklad požiadať o to, aby boli označené alebo popísané všetky"
+" zmeny. Hoci to tieto licencie nevyžadujú, nabádame Vás, aby ste tieto "
+"požiadavky rešpektovali, pokiaľ sú primerané.<a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Ďalšie"
+" upozornenia pre verejnosť.</a>"
 
 #: templates/legalcode.html:37
 msgid "Other formats"
