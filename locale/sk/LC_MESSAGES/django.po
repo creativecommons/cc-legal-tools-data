@@ -21,6 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "Language-Django: sk\n"
 "Language-Transifex: sk\n"
+"Percent-Translated: 62\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
