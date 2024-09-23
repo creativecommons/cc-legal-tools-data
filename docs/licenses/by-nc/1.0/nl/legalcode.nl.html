@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>
-   Juridische tekst - Naamsvermelding-NietCommercieel 1.0 Nederland
+   Juridische tekst - Naamsvermelding-NietCommercieel 1.0
  - Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/1.0/nl/legalcode.nl" rel="canonical">
@@ -140,7 +140,7 @@
   <main>
    <header>
     <h1>
-     Naamsvermelding-NietCommercieel 1.0 Nederland
+     Naamsvermelding-NietCommercieel 1.0
     </h1>
     <span class="alt-titles">
      <span class="tool-icons">
@@ -618,44 +618,6 @@ MET UITZONDERING VAN HET IN DEZE LICENTIE OMSCHREVEN TOEGESTANE GEBRUIK VAN HET 
    </div>
   </footer>
   <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
-  </script>
-  <script>
-   /*
-      Show/Hide Functionality for expand/collapse sections in use_of_licenses.html
-    */
-    let arrowArray = Array.from(document.getElementsByClassName("angle-down"))
-    arrowArray.forEach(function(arrow) {
-      arrow.addEventListener("click", handleArrowClicked);
-    });
-
-    function handleArrowClicked() {
-      // Toggle consideration section's screen reader announcement text (inside of icon)
-      if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Overwegingen voor licentiegevers verbergen"
-      } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Overwegingen voor het publiek verbergen"
-      } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Overwegingen voor licentiegevers tonen"
-      } else {
-        this.firstChild.innerHTML = "Overwegingen voor het publiek tonen"
-      }
-      // Toggle icon between up and down
-      if (this.dataset.direction === "down") {
-        // toggle icon to up arrow icon
-        this.classList.remove("angle-down")
-        this.classList.add("angle-up")
-        this.dataset.direction = "up"
-        // show <p> tag
-        this.parentNode.parentNode.nextSibling.nextSibling.classList.remove("is-hidden");
-      } else {
-        // toggle icon to up arrow icon
-        this.classList.add("angle-down")
-        this.classList.remove("angle-up")
-        this.dataset.direction = "down"
-        // hide <p> tag
-        this.parentNode.parentNode.nextSibling.nextSibling.classList.add("is-hidden");
-      }
-    };
   </script>
  </body>
 </html>
