@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>
-   Código legal - Atribución-NoComercial 3.0 Ecuador
+   Código legal - Reconocimiento – No Comercial 3.0 Ecuador
  - Creative Commons
   </title>
   <link href="https://creativecommons.org/licenses/by-nc/3.0/ec/legalcode.es" rel="canonical">
@@ -140,7 +140,7 @@
   <main>
    <header>
     <h1>
-     Atribución-NoComercial 3.0 Ecuador
+     Reconocimiento – No Comercial 3.0 Ecuador
     </h1>
     <span class="alt-titles">
      <span class="tool-icons">
@@ -231,7 +231,7 @@ See the
     <div id="legal-code-body">
      <div id="plain-text-marker">
       <h2 class="padding-bottom-normal b-header">
-       Reconocimiento – No Comercial  3.0 Ecuador
+       Reconocimiento – No Comercial 3.0 Ecuador
        <div id="deed-main-content">
         <img alt src="https://creativecommons.org/images/international/ec.png">
         <blockquote>
@@ -628,44 +628,6 @@ See the
    </div>
   </footer>
   <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
-  </script>
-  <script>
-   /*
-      Show/Hide Functionality for expand/collapse sections in use_of_licenses.html
-    */
-    let arrowArray = Array.from(document.getElementsByClassName("angle-down"))
-    arrowArray.forEach(function(arrow) {
-      arrow.addEventListener("click", handleArrowClicked);
-    });
-
-    function handleArrowClicked() {
-      // Toggle consideration section's screen reader announcement text (inside of icon)
-      if (this.dataset.consideration === "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for Licensors"
-      } else if (this.dataset.consideration !== "1" && this.dataset.direction === "down") {
-        this.firstChild.innerHTML = "Hide Considerations for the Public"
-      } else if (this.dataset.consideration === "1" && this.dataset.direction === "up") {
-        this.firstChild.innerHTML = "Show Considerations for Licensors"
-      } else {
-        this.firstChild.innerHTML = "Show Considerations for the Public"
-      }
-      // Toggle icon between up and down
-      if (this.dataset.direction === "down") {
-        // toggle icon to up arrow icon
-        this.classList.remove("angle-down")
-        this.classList.add("angle-up")
-        this.dataset.direction = "up"
-        // show <p> tag
-        this.parentNode.parentNode.nextSibling.nextSibling.classList.remove("is-hidden");
-      } else {
-        // toggle icon to up arrow icon
-        this.classList.add("angle-down")
-        this.classList.remove("angle-up")
-        this.dataset.direction = "down"
-        // hide <p> tag
-        this.parentNode.parentNode.nextSibling.nextSibling.classList.add("is-hidden");
-      }
-    };
   </script>
  </body>
 </html>
