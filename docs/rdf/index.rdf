@@ -2091,6 +2091,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.tr</cc:legalcode>
@@ -2128,6 +2129,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -2163,6 +2165,7 @@
     <dcterms:title xml:lang="pt">Atribuição-NãoComercial-SemDerivações 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire-NeComercial-FărăDerivate 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства-Некоммерческая-Без производных версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution-NonCommercial-NoDerivatives („uvedenie autora — nekomerčné použitie – bez odvodeného obsahu“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno-Brez predelav 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande-Icke-Kommersiell-IngaBearbetningar 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf-GayriTicari-Türetilemez 4.0 Uluslararası</dcterms:title>
@@ -4543,6 +4546,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.tr</cc:legalcode>
@@ -4582,6 +4586,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -4617,6 +4622,7 @@
     <dcterms:title xml:lang="pt">Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire-NeComercial-Partajare în Condiții Identice 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства-Некоммерческая-С сохранением условий версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution-NonCommercial-ShareAlike („uvedenie autora — nekomerčné použitie — rovnaké šírenie“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno-Deljenje pod enakimi pogoji 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande-Icke-Kommersiell-DelaPåSammaVillkor 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası</dcterms:title>
@@ -6897,6 +6903,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by-nc/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by-nc/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by-nc/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by-nc/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by-nc/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by-nc/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by-nc/4.0/legalcode.tr</cc:legalcode>
@@ -6935,6 +6942,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by-nc/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by-nc/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by-nc/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by-nc/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by-nc/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by-nc/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by-nc/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -6970,6 +6978,7 @@
     <dcterms:title xml:lang="pt">Atribuição-NãoComercial 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire-NeComercial 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства-Некоммерческая версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution-NonCommercial („uvedenie autora — nekomerčné použitie“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva-Nekomercialno 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande-Icke-Kommersiell 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf-GayriTicari 4.0 Uluslararası</dcterms:title>
@@ -9124,6 +9133,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by-nd/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by-nd/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by-nd/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by-nd/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by-nd/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by-nd/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by-nd/4.0/legalcode.tr</cc:legalcode>
@@ -9160,6 +9170,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by-nd/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by-nd/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by-nd/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by-nd/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by-nd/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by-nd/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by-nd/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -9195,6 +9206,7 @@
     <dcterms:title xml:lang="pt">Atribuição-SemDerivações 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire-FărăDerivate 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства-Без производных версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution-NoDerivatives („uvedenie autora — bez odvodeného obsahu“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva-Brez predelav 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande-IngaBearbetningar 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf-Türetilemez 4.0 Uluslararası</dcterms:title>
@@ -11475,6 +11487,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by-sa/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by-sa/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by-sa/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by-sa/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by-sa/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by-sa/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by-sa/4.0/legalcode.tr</cc:legalcode>
@@ -11513,6 +11526,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by-sa/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by-sa/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by-sa/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by-sa/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by-sa/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by-sa/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -11548,6 +11562,7 @@
     <dcterms:title xml:lang="pt">Atribuição-CompartilhaIgual 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire-Partajare în Condiții Identice 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства-С сохранением условий версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution-ShareAlike („uvedenie autora — rovnaké šírenie“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande-DelaPåSammaVillkor 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf-AynıLisanslaPaylaş 4.0 Uluslararası</dcterms:title>
@@ -13728,6 +13743,7 @@
     <cc:legalcode xml:lang="pt">http://creativecommons.org/licenses/by/4.0/legalcode.pt</cc:legalcode>
     <cc:legalcode xml:lang="ro">http://creativecommons.org/licenses/by/4.0/legalcode.ro</cc:legalcode>
     <cc:legalcode xml:lang="ru">http://creativecommons.org/licenses/by/4.0/legalcode.ru</cc:legalcode>
+    <cc:legalcode xml:lang="sk">http://creativecommons.org/licenses/by/4.0/legalcode.sk</cc:legalcode>
     <cc:legalcode xml:lang="sl">http://creativecommons.org/licenses/by/4.0/legalcode.sl</cc:legalcode>
     <cc:legalcode xml:lang="sv">http://creativecommons.org/licenses/by/4.0/legalcode.sv</cc:legalcode>
     <cc:legalcode xml:lang="tr">http://creativecommons.org/licenses/by/4.0/legalcode.tr</cc:legalcode>
@@ -13765,6 +13781,7 @@
     <dcterms:LicenseDocument xml:lang="pt">https://creativecommons.org/licenses/by/4.0/legalcode.pt</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ro">https://creativecommons.org/licenses/by/4.0/legalcode.ro</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="ru">https://creativecommons.org/licenses/by/4.0/legalcode.ru</dcterms:LicenseDocument>
+    <dcterms:LicenseDocument xml:lang="sk">https://creativecommons.org/licenses/by/4.0/legalcode.sk</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sl">https://creativecommons.org/licenses/by/4.0/legalcode.sl</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="sv">https://creativecommons.org/licenses/by/4.0/legalcode.sv</dcterms:LicenseDocument>
     <dcterms:LicenseDocument xml:lang="tr">https://creativecommons.org/licenses/by/4.0/legalcode.tr</dcterms:LicenseDocument>
@@ -13800,6 +13817,7 @@
     <dcterms:title xml:lang="pt">Atribuição 4.0 Internacional</dcterms:title>
     <dcterms:title xml:lang="ro">Atribuire 4.0 Internațional</dcterms:title>
     <dcterms:title xml:lang="ru">С указанием авторства версии 4.0 Международная</dcterms:title>
+    <dcterms:title xml:lang="sk">Attribution („uvedenie autora“) 4.0 medzinárodná</dcterms:title>
     <dcterms:title xml:lang="sl">Priznanje avtorstva 4.0 Mednarodna</dcterms:title>
     <dcterms:title xml:lang="sv">Erkännande 4.0 Internationell</dcterms:title>
     <dcterms:title xml:lang="tr">Atıf 4.0 Uluslararası</dcterms:title>
