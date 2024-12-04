@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2024
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-30 00:50:01+00:00\n"
+"PO-Revision-Date: 2024-10-28 15:57:40+00:00\n"
+"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2024\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/et/\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Django: et\n"
 "Language-Transifex: et\n"
-"Percent-Translated: 69\n"
+"Percent-Translated: 73\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -1027,12 +1031,29 @@ msgid ""
 "avoidance of doubt, this paragraph does not form part of the public "
 "licenses."
 msgstr ""
+"Creative Commons ei ole oma vaba kasutuse litsentside osapool. Sellele "
+"vaatamata võib Creative Commons otsustada lisada oma vaba kasutuse litsentse"
+" tema poolt avaldatud materjalile, millisel juhul loetakse ta "
+"„Litsentsiandjaks“. Creative Commonsi vaba kasutuse litsentside tekst on "
+"avaliku omandi märgise <a href=\"/publicdomain/zero/1.0/\">CC0 alusel "
+"üldkasutatav</a>. Creative Commons keelab kaubamärgi „Creative Commons“ või "
+"mis tahes muu Creative Commonsi kaubamärgi või logo kasutamise ilma tema "
+"eelneva kirjaliku nõusolekuta. Muu hulgas ei või ilma sellise loata muuta "
+"ühtegi tema vaba kasutuse litsentsi või muud litsentsitud materjali "
+"kasutamisega seotud kokkulepet. Kõnealune keeld ei laiene üksnes "
+"viitamisele, et materjali jagatakse Creative Commonsi vaba kasutuse "
+"litsentsi alusel, või kui see on lubatud Creative Commonsi veebisaidil <a "
+"href=\"/policies/\">creativecommons.org/policies</a> avaldatud põhimõtete "
+"kohaselt. Mitmetimõistetavuse vältimiseks olgu märgitud, et käesolev lõik ei"
+" ole vaba kasutuse litsentside osa."
 
 #: templates/includes/notice_about_cc_and_trademark.html:25
 msgid ""
 "Creative Commons may be contacted at <a "
 "href=\"//creativecommons.org/\">creativecommons.org</a>."
 msgstr ""
+"Creative Commonsiga on võimalik ühendust võtta veebisaidilt <a "
+"href=\"//creativecommons.org/\">creativecommons.org</a>."
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
@@ -1050,6 +1071,15 @@ msgid ""
 "liability for damages resulting from their use to the fullest extent "
 "possible."
 msgstr ""
+"Creative Commons Corporation (edaspidi „Creative Commons“) ei ole õigusbüroo"
+" ega osuta õigusteenuseid ega paku õigusnõustamist. Creative Commonsi vaba "
+"kasutuse litsentside levitamine ei loo advokaadi-kliendi ega muud suhet. "
+"Creative Commons teeb oma litsentsid ja nendega seotud teabe kättesaadavaks "
+"“as is” esitatud kujul. Creative Commons ei anna seoses oma litsentside või "
+"nende tingimuste alusel litsentsitud materjaliga ega mis tahes muu seotud "
+"teabega mingeid garantiisid. Creative Commons välistab igasuguse vastutuse, "
+"nii palju kui võimalik, nende kasutamise tulemusena tekkida võiva kahju "
+"eest."
 
 #: templates/includes/notice_certification.html:5
 msgid ""
@@ -1134,7 +1164,7 @@ msgstr "See lehekülg on kättesaadav järgmistes keeltes: "
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "Creative Commonsi vaba kasutuse litsentside kasutamine"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1145,10 +1175,17 @@ msgid ""
 "considerations are for informational purposes only, are not exhaustive, and "
 "do not form part of our licenses."
 msgstr ""
+"Creative Commonsi vaba kasutuse litsentsidega nähakse ette "
+"standardtingimused, mille alusel teose loojad ja muud õiguste omajad võivad "
+"jagada autori originaalteoseid ja muud materjali, mis on kaitstud "
+"autoriõiguse ja teatavate muude õigustega, mis on täpsustatud allpool "
+"esitatud vaba kasutuse litsentsis. Järgmised märkused on esitatud ainult "
+"teavitamise eesmärgil, need ei ole ammendavad ega moodusta osa meie "
+"litsentsidest."
 
 #: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "Märkused litsentsiandjatele"
 
 #: templates/includes/use_of_licenses.html:22
 msgid ""
@@ -1164,10 +1201,22 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">More"
 " considerations for licensors.</a>"
 msgstr ""
+"Meie vaba kasutuse litsentsid on mõeldud kasutamiseks neile, kel on õigus "
+"anda avalikuks kasutamiseks materjale, mis muul juhul oleks autoriõiguse ja "
+"teatavate muude õigustega piiratud. Meie litsentsid on tagasivõtmatud. "
+"Litsentsiandjad peaksid enne nende valitud litsentsi kasutamist lugema ja "
+"mõistma selle tingimusi. Litsentsiandjad peaksid enne meie litsentside "
+"kasutamist hankima ka kõik vajalikud õigused, nii et üldsus saaks materjali "
+"ootuspäraselt taaskasutada. Litsentsiandjad peaksid selgelt tähistama "
+"materjali, mis litsentsi alla ei kuulu. See hõlmab muid Creative Commonsi "
+"litsentsiga materjale või materjali, mida kasutatakse autoriõiguse erandi "
+"või piirangu alusel.  <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors\">Veel"
+" märkusi litsentsiandjatele.</a>"
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr ""
+msgstr "Märkused üldsusele"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1185,6 +1234,20 @@ msgid ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">More"
 " considerations for the public.</a>"
 msgstr ""
+"Kui litsentsiandja kasutab mõnda meie vaba kasutuse litsentsi, annab ta "
+"sellega avaliku loa kasutada litsentsitud materjali kindlaksmääratud "
+"tingimustel. Kui litsentsiandja luba ei ole ükskõik mis põhjusel vajalik "
+"(näiteks mõne kohalduva autoriõiguse erandi või piirangu tõttu), siis "
+"sellisel juhul litsents seda kasutamist ei reguleeri. Meie litsentsidega "
+"antakse luba ainult autoriõiguse ja teatavate muude õiguste alusel, mida "
+"litsentsiandja võib anda. Litsentsitud materjali kasutamine võib olla "
+"piiratud muudel põhjustel, näiteks kui teistel on materjali suhtes "
+"autoriõigus või muud õigused. Litsentsiandja võib esitada erinõudmisi, "
+"näiteks et kõik muudatused oleksid märgitud või kirjeldatud. Kuigi see ei "
+"ole meie litsentsidega nõutud, soovitame Teil neid nõudmisi täita, kui see "
+"on mõistlik. <a "
+"href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Veel"
+" märkusi üldsusele.</a>"
 
 #: templates/legalcode.html:37
 msgid "Other formats"
