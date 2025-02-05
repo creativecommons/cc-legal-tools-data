@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-29 23:00:00+00:00\n"
+"PO-Revision-Date: 2024-10-19 01:15:58+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/br/\n"
 "Language: br\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 "Language-Django: br\n"
 "Language-Transifex: br\n"
-"Percent-Translated: 47\n"
+"Percent-Translated: 54\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -37,7 +37,7 @@ msgstr "Hollvedel"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -53,7 +53,7 @@ msgstr "Bro-Aostralia"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaidjan"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -129,7 +129,7 @@ msgstr "Bro-Frañs"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Jorjia"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -157,7 +157,7 @@ msgstr "Iwerzhon"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Aozadur etregouarnamantel"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -332,6 +332,8 @@ msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
 msgstr ""
+"Gwirioù-eilañ hepken (diazezet war lezenn ar Stadoù-Unanet) pe Testeni evit "
+"an domani foran"
 
 #: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
@@ -404,7 +406,7 @@ msgstr ""
 
 #: templates/base.html:3
 msgid "Home"
-msgstr ""
+msgstr "Degemer"
 
 #: templates/base.html:43
 msgid "Skip to content"
@@ -416,11 +418,11 @@ msgstr ""
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "Gwelet ar c'hod lezennel"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "Notennoù-traoñ"
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
@@ -1061,11 +1063,11 @@ msgstr ""
 
 #: templates/legalcode.html:37
 msgid "Other formats"
-msgstr ""
+msgstr "Furmadoù all"
 
 #: templates/legalcode.html:40
 msgid "Plain Text"
-msgstr ""
+msgstr "Testenn eeun"
 
 #: templates/legalcode.html:48
 msgid "See the deed"
@@ -1073,7 +1075,7 @@ msgstr ""
 
 #: templates/legalcode.html:54
 msgid "Version"
-msgstr ""
+msgstr "Stumm"
 
 #: templates/legalcode.html:55
 msgid ""
@@ -1100,12 +1102,12 @@ msgstr ""
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "Yezh"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "Ostilhoù lezennel"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Adkas da:"
