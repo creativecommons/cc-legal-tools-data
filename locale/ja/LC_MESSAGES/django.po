@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# TAKAHASHI Shuuji <shuuji3@gmail.com>, 2021
+# Shuuji TAKAHASHI (shuuji3) <shuuji3@gmail.com>, 2021
 # Timid Robot Zehta <timid@creativecommons.org>, 2023
 # Tomoaki Watanabe <tomoaki@creativecommons.jp>, 2024
 #
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2024-06-06 20:14:43+00:00\n"
+"PO-Revision-Date: 2024-12-17 20:32:21+00:00\n"
 "Last-Translator: Tomoaki Watanabe <tomoaki@creativecommons.jp>, 2024\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ja/\n"
 "Language: ja\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Django: ja\n"
 "Language-Transifex: ja\n"
-"Percent-Translated: 94\n"
+"Percent-Translated: 99\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -337,7 +337,7 @@ msgstr "表示 - 継承"
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
-msgstr "著作権のみの提供（米国法のみに基づくもの）またはパブリック・ドメイン認証"
+msgstr "著作権のみの提供（米国法に基づくもの）またはパブリック・ドメイン認証"
 
 #: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
@@ -406,7 +406,7 @@ msgstr "ライセンスのリスト"
 
 #: legal_tools/views.py:439 templates/includes/related_links.html:18
 msgid "Public Domain List"
-msgstr ""
+msgstr "パブリックドメイン関連のツールのリスト"
 
 #: templates/base.html:3
 msgid "Home"
@@ -418,7 +418,7 @@ msgstr "コンテンツへ進む"
 
 #: templates/deed.html:43 templates/legalcode.html:32
 msgid "Canonical URL"
-msgstr ""
+msgstr "カノニカルURL"
 
 #: templates/deed.html:51
 msgid "See the legal code"
@@ -426,7 +426,7 @@ msgstr "リーガル・コードを見る"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "脚注"
 
 #: templates/deed.html:86
 msgid "mediation and arbitration"
@@ -501,6 +501,9 @@ msgid ""
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
+" あなたは互換性があるとして<a href=\"https\\://creativecommons.org/compatiblelicenses\"> "
+"https\\://creativecommons.org/compatiblelicenses</a> "
+"にリストされているライセンスのひとつを使うこともできます。"
 
 #: templates/deed.html:200
 msgid "remix, transform, or build upon"
@@ -898,6 +901,9 @@ msgid ""
 "work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
 "rights\">publicity or privacy</a> rights."
 msgstr ""
+"特許や商標に関する誰の権利も、CC0に影響を受けることはなく、また、<a href=\"#ref-publicity-rights\" "
+"id=\"src-publicity-rights\">パブリシティ権やプライバシー権</a>のように、この作品をどのように利用できるかについて他の人が"
+" もっていることがある権利も影響を受けることはありません。"
 
 #: templates/includes/deed_body_zero.html:17
 msgid ""
@@ -1028,6 +1034,9 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"このページにあるのはこのライセンスの古いバージョンのものです。バージョン4.0のCCライセンス群は、それ以前のバージョンのものと比べて<a "
+"href=\"/version4/\">よりユーザー・フレンドリーで国際的にも堅牢です</a>。もしあなたが<a href=\"/choose/\"> "
+"ご自身の作品をライセンスするのでしたら</a>バージョン4.0のライセンスをこのページにあるライセンスの代わりに使うことを強くお勧めします\\: "
 
 #: templates/includes/notice_zero.html:4
 msgid ""
@@ -1054,6 +1063,7 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"クリエイティブ・コモンズはオープンライセンスや、クリエイターが自分たちの作品をシェアできるようにするためのその他の法的なツールの背後にある非営利組織です。私たちの法的なツールは無償でお使いいただけます。"
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
@@ -1069,7 +1079,7 @@ msgstr "私たちの活動を支援する"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "あなた自身のマテリアルにライセンスを使う"
 
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
@@ -1185,4 +1195,4 @@ msgstr "リーガル・ツール"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "リダイレクト先："
