@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-30 01:01:14+00:00\n"
+"PO-Revision-Date: 2025-02-12 10:20:00+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -299,77 +299,77 @@ msgstr "베트남"
 msgid "South Africa"
 msgstr "남아프리카공화국"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
+#: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "저작자표시"
 
-#: i18n/__init__.py:195
+#: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
 msgstr "저작자표시-비영리"
 
-#: i18n/__init__.py:196
+#: i18n/__init__.py:198
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "저작자표시-비영리-변경금지"
 
-#: i18n/__init__.py:197
+#: i18n/__init__.py:199
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "저작자표시-비영리-동일조건변경허락"
 
-#: i18n/__init__.py:198
+#: i18n/__init__.py:200
 msgid "Attribution-NoDerivs"
 msgstr "저작자표시-변경금지"
 
-#: i18n/__init__.py:199
+#: i18n/__init__.py:201
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "저작자표시-변경금지-비영리"
 
-#: i18n/__init__.py:200
+#: i18n/__init__.py:202
 msgid "Attribution-ShareAlike"
 msgstr "저작자표시-동일조건변경허락"
 
-#: i18n/__init__.py:202
+#: i18n/__init__.py:204
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
 msgstr "저작권 소멸 인증(미국법에 근거) 또는 퍼블릭 도메인 인증"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "개발도상국"
 
-#: i18n/__init__.py:206
+#: i18n/__init__.py:208
 msgid "Public Domain Mark"
 msgstr "퍼블릭 도메인 마크"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
+#: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "비영리"
 
-#: i18n/__init__.py:208
+#: i18n/__init__.py:210
 msgid "NonCommercial-ShareAlike"
 msgstr "비영리-동일조건변경허락"
 
-#: i18n/__init__.py:209
+#: i18n/__init__.py:211
 msgid "NonCommercial Sampling Plus"
 msgstr "비영리 샘플링 플러스"
 
-#: i18n/__init__.py:210
+#: i18n/__init__.py:212
 msgid "NoDerivs"
 msgstr "변경금지"
 
-#: i18n/__init__.py:211
+#: i18n/__init__.py:213
 msgid "NoDerivs-NonCommercial"
 msgstr "변경금지-비영리"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
+#: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "동일조건변경허락"
 
-#: i18n/__init__.py:213
+#: i18n/__init__.py:215
 msgid "Sampling"
 msgstr "샘플링"
 
-#: i18n/__init__.py:214
+#: i18n/__init__.py:216
 msgid "Sampling Plus"
 msgstr "샘플링 플러스"
 
@@ -381,24 +381,24 @@ msgstr "퍼블릭 도메인"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:221 templates/deed.html:9
-#: templates/includes/snippet/title_with_icons.html:13
+#: legal_tools/views.py:222 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:230
-#: templates/includes/snippet/title_with_icons.html:15
+#: legal_tools/views.py:236
+#: templates/includes/snippet/title_with_icons.html:19
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "이용허락규약"
 
-#: legal_tools/views.py:436 templates/includes/related_links.html:15
+#: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:439 templates/includes/related_links.html:18
+#: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -406,11 +406,11 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:43
+#: templates/base.html:42
 msgid "Skip to content"
 msgstr ""
 
-#: templates/deed.html:43 templates/legalcode.html:32
+#: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
 msgstr ""
 
@@ -423,32 +423,10 @@ msgid "Footnotes"
 msgstr ""
 
 #: templates/deed.html:86
-msgid "mediation and arbitration"
-msgstr "조정과 중재"
-
-#: templates/deed.html:87
-msgid ""
-"The applicable mediation rules will be designated in the copyright notice "
-"published with the work, or if none then in the request for mediation.  "
-"Unless otherwise designated in a copyright notice attached to the work, the "
-"UNCITRAL Arbitration Rules apply to any arbitration."
-msgstr ""
-"적용가능한 중재 규칙은 저작물에 함께 게재되는 저작권 표시 안에 정하거나, 그렇지 않은 경우 중재 요청에 의해 정해집니다. 저작물에 "
-"첨부된 저작권 표시에 명시되지 않은 경우, UNCITRAL 조정 규칙이 적용됩니다."
-
-#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
-#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
-#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
-#: templates/deed.html:357
-msgid "More info"
-msgstr "추가 정보"
-
-#: templates/deed.html:109
 msgid "appropriate credit"
 msgstr "적절한 출처"
 
-#: templates/deed.html:110
+#: templates/deed.html:87
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -459,11 +437,19 @@ msgstr ""
 "저작자의 이름과 저작권 관련 단체, 저작권 공지, 라이선스 공지, 권리 포기 공지, 콘텐츠 링크 등을 알고 있다면 제공해야 합니다. "
 "4.0 이전 버전의 CC 라이선스를 사용하는 경우, 콘텐츠 제목을 알고 있다면 제목도 표시해야 하며, 기타 조금 다른 사항들이 있습니다."
 
-#: templates/deed.html:132
+#: templates/deed.html:95 templates/deed.html:120 templates/deed.html:141
+#: templates/deed.html:163 templates/deed.html:183 templates/deed.html:204
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "추가 정보"
+
+#: templates/deed.html:109
 msgid "indicate if changes were made"
 msgstr "변경이 있는 경우 공지"
 
-#: templates/deed.html:133
+#: templates/deed.html:110
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
@@ -472,48 +458,62 @@ msgstr ""
 "4.0 버전에서는 원 저작물을 어떤 식으로든 수정했을 경우 이를 표시하여야 하고 이전 수정 표시도 유지하여야 합니다. 3.0 또는 그 "
 "이전 버전에서는 2차적 저작물을 작성한 경우에 한하여 그 표시를 요구하고 있습니다. "
 
-#: templates/deed.html:140
+#: templates/deed.html:117
 msgid "Marking guide"
 msgstr "적용 가이드"
 
-#: templates/deed.html:157
+#: templates/deed.html:134
 msgid "commercial purposes"
 msgstr "영리 목적"
 
-#: templates/deed.html:158
+#: templates/deed.html:135
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr "영리 목적 이용은 주로 영리적 이익이나 금전적 보상을 의도한 이용을 말합니다."
 
-#: templates/deed.html:178
+#: templates/deed.html:155
 msgid "same license"
 msgstr "동일한 조건의 CCL"
 
-#: templates/deed.html:179
+#: templates/deed.html:156
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
 
-#: templates/deed.html:200
+#: templates/deed.html:177
 msgid "remix, transform, or build upon"
 msgstr "리믹스, 변형하거나 2차적 저작물을 작성"
 
-#: templates/deed.html:201
+#: templates/deed.html:178
 msgid "Merely changing the format never creates a derivative."
 msgstr "단순히 포맷을 변경하는 것은 2차적 저작물에 해당하지 않습니다."
 
-#: templates/deed.html:220
+#: templates/deed.html:197
 msgid "technological measures"
 msgstr "기술적 조치"
 
-#: templates/deed.html:221
+#: templates/deed.html:198
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr "이 라이선스는 WIPO 저작권 협약 11조에 정의된 효과적 기술 조치의 사용을 금합니다."
+
+#: templates/deed.html:218
+msgid "mediation and arbitration"
+msgstr "조정과 중재"
+
+#: templates/deed.html:219
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"적용가능한 중재 규칙은 저작물에 함께 게재되는 저작권 표시 안에 정하거나, 그렇지 않은 경우 중재 요청에 의해 정해집니다. 저작물에 "
+"첨부된 저작권 표시에 명시되지 않은 경우, UNCITRAL 조정 규칙이 적용됩니다."
 
 #: templates/deed.html:241
 msgid "exception or limitation"
@@ -865,12 +865,12 @@ msgstr ""
 "endorsement\">승인</a>을 받았다는 뜻을 시사하여서는 안됩니다."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -900,6 +900,10 @@ msgid ""
 "work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
 "rights\">publicity or privacy</a> rights."
 msgstr ""
+"특허권 또는 상표권은 CC0에 의해 영향을 받지 않으며, <a "
+"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
+" class=\"helpLink\" id=\"publicity_rights\">퍼블리시티권 및 프라이버시권<a/> 등 저작물 자체에 대해"
+" 또는 저작물 이용에 대해 타인이 갖는 권리 또한 영향을 받지 않습니다."
 
 #: templates/includes/deed_body_zero.html:17
 msgid ""
@@ -1158,41 +1162,41 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">자세한"
 " 이용자 유의사항 보기.</a>"
 
-#: templates/legalcode.html:37
+#: templates/legalcode.html:36
 msgid "Other formats"
 msgstr ""
 
-#: templates/legalcode.html:40
+#: templates/legalcode.html:39
 msgid "Plain Text"
 msgstr ""
 
-#: templates/legalcode.html:48
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:53
 msgid "Version"
 msgstr ""
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:110
-msgid "Hide Considerations for the Public"
-msgstr ""
-
-#: templates/legalcode.html:112
+#: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:114
+#: templates/legalcode.html:97
+msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
 msgstr ""
 

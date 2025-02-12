@@ -304,78 +304,78 @@ msgstr "वियतनाम"
 msgid "South Africa"
 msgstr "दक्षिण अफ्रीका"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
+#: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "श्रेय"
 
-#: i18n/__init__.py:195
+#: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
 msgstr "श्रेय-गैरवाणिज्यिक"
 
-#: i18n/__init__.py:196
+#: i18n/__init__.py:198
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "श्रेय-गैरवाणिज्यिक-व्युत्पन्ननहीं"
 
-#: i18n/__init__.py:197
+#: i18n/__init__.py:199
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "श्रेय-गैरवाणिज्यिक-समानसांझा"
 
-#: i18n/__init__.py:198
+#: i18n/__init__.py:200
 msgid "Attribution-NoDerivs"
 msgstr "श्रेय-व्युत्पन्ननहीं"
 
-#: i18n/__init__.py:199
+#: i18n/__init__.py:201
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "श्रेय-व्युत्पन्ननहीं-गैरवाणिज्यिक"
 
-#: i18n/__init__.py:200
+#: i18n/__init__.py:202
 msgid "Attribution-ShareAlike"
 msgstr "श्रेय-समानसांझा"
 
-#: i18n/__init__.py:202
+#: i18n/__init__.py:204
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
 msgstr ""
 "केवल कॉपीराइट समर्पण (अमेरिकी कानून पर आधारित) या सार्वजनिक डोमेन प्रमाणन"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "विकासशील देश"
 
-#: i18n/__init__.py:206
+#: i18n/__init__.py:208
 msgid "Public Domain Mark"
 msgstr "सार्वजनिक डोमेन का चिह्न"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
+#: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "गैरवाणिज्यिक"
 
-#: i18n/__init__.py:208
+#: i18n/__init__.py:210
 msgid "NonCommercial-ShareAlike"
 msgstr "गैरवाणिज्यिक-समानसांझा"
 
-#: i18n/__init__.py:209
+#: i18n/__init__.py:211
 msgid "NonCommercial Sampling Plus"
 msgstr "गैरवाणिज्यिक प्रतिचयन प्लस"
 
-#: i18n/__init__.py:210
+#: i18n/__init__.py:212
 msgid "NoDerivs"
 msgstr "व्युत्पन्ननहीं"
 
-#: i18n/__init__.py:211
+#: i18n/__init__.py:213
 msgid "NoDerivs-NonCommercial"
 msgstr "व्युत्पन्ननहीं-गैरवाणिज्यिक"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
+#: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "समानसांझा"
 
-#: i18n/__init__.py:213
+#: i18n/__init__.py:215
 msgid "Sampling"
 msgstr "प्रतिचयन"
 
-#: i18n/__init__.py:214
+#: i18n/__init__.py:216
 msgid "Sampling Plus"
 msgstr "प्रतिचयन प्लस"
 
@@ -387,24 +387,24 @@ msgstr "सार्वजनिक डोमेन"
 msgid "Licenses"
 msgstr "लाइसेंस"
 
-#: legal_tools/views.py:221 templates/deed.html:9
-#: templates/includes/snippet/title_with_icons.html:13
+#: legal_tools/views.py:222 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr "दलील"
 
-#: legal_tools/views.py:230
-#: templates/includes/snippet/title_with_icons.html:15
+#: legal_tools/views.py:236
+#: templates/includes/snippet/title_with_icons.html:19
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "कानूनी संहिता"
 
-#: legal_tools/views.py:436 templates/includes/related_links.html:15
+#: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr "लाइसेंसों की सूची"
 
-#: legal_tools/views.py:439 templates/includes/related_links.html:18
+#: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr "सार्वजनिक डोमेन की सूची"
 
@@ -412,11 +412,11 @@ msgstr "सार्वजनिक डोमेन की सूची"
 msgid "Home"
 msgstr "मुखपृष्ठ"
 
-#: templates/base.html:43
+#: templates/base.html:42
 msgid "Skip to content"
 msgstr "सामग्री को जाएँ"
 
-#: templates/deed.html:43 templates/legalcode.html:32
+#: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
 msgstr "आधिकारिक URL"
 
@@ -429,34 +429,10 @@ msgid "Footnotes"
 msgstr "फ़ुटनोट्स"
 
 #: templates/deed.html:86
-msgid "mediation and arbitration"
-msgstr "दलाली और विवाचन"
-
-#: templates/deed.html:87
-msgid ""
-"The applicable mediation rules will be designated in the copyright notice "
-"published with the work, or if none then in the request for mediation.  "
-"Unless otherwise designated in a copyright notice attached to the work, the "
-"UNCITRAL Arbitration Rules apply to any arbitration."
-msgstr ""
-"दलाली के प्रयोज्य नियम, कार्य के साथ प्रकाशित कॉपीराइट सूचना में निर्दिष्ट "
-"किए जाएँगे, और अगर नहीं तो फिर दलाली के अनुरोध में। अगर कार्य के साथ संलग्न "
-"किसी कॉपीराइट सूचना में अलग से निर्दिष्ट न हो, UNCITRAL के विवाचन नियम हर "
-"विवाचन पर लागू होते हैं।"
-
-#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
-#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
-#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
-#: templates/deed.html:357
-msgid "More info"
-msgstr "अधिक जानकारी"
-
-#: templates/deed.html:109
 msgid "appropriate credit"
 msgstr "यथोचित श्रेय"
 
-#: templates/deed.html:110
+#: templates/deed.html:87
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -470,11 +446,19 @@ msgstr ""
 "बदलावों के साथ, अगर सामग्री का नाम निर्दिष्ट किया जाए, आपको वह भी प्रदान "
 "करना होगा।"
 
-#: templates/deed.html:132
+#: templates/deed.html:95 templates/deed.html:120 templates/deed.html:141
+#: templates/deed.html:163 templates/deed.html:183 templates/deed.html:204
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "अधिक जानकारी"
+
+#: templates/deed.html:109
 msgid "indicate if changes were made"
 msgstr "अगर बदलाव किए गए हों तो उन्हें इंगित करना होगा"
 
-#: templates/deed.html:133
+#: templates/deed.html:110
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
@@ -484,15 +468,15 @@ msgstr ""
 "लाइसेंस के 3.0 और उससे पहले के संस्करणों में बदलावों को सिर्फ तभी इंगित करना"
 " होता है अगर आपने एक व्युत्पन्न कार्य बनाया हो।"
 
-#: templates/deed.html:140
+#: templates/deed.html:117
 msgid "Marking guide"
 msgstr "इंगित करने के लिए गाइड"
 
-#: templates/deed.html:157
+#: templates/deed.html:134
 msgid "commercial purposes"
 msgstr "वाणिज्यिक उद्देश्य"
 
-#: templates/deed.html:158
+#: templates/deed.html:135
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
@@ -500,11 +484,11 @@ msgstr ""
 "वाणिज्यिक उद्देश्य वह उद्देश्य है जो वाणिज्यिक लाभ या मोद्रिक मुआवज़े की ओर "
 "लक्षित है।"
 
-#: templates/deed.html:178
+#: templates/deed.html:155
 msgid "same license"
 msgstr "समान लाइसेंस"
 
-#: templates/deed.html:179
+#: templates/deed.html:156
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
@@ -514,25 +498,41 @@ msgstr ""
 "href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
 " पर 'अनुकूल' सूचीबद्ध भी किसी लाइसेंस का इस्तेमाल कर सकते हैं"
 
-#: templates/deed.html:200
+#: templates/deed.html:177
 msgid "remix, transform, or build upon"
 msgstr "रीमिक्स कर, बदल, और उसपर योग कर सकते हैं"
 
-#: templates/deed.html:201
+#: templates/deed.html:178
 msgid "Merely changing the format never creates a derivative."
 msgstr "बस प्रारूप बदल डालने से व्युत्पन्न कार्य नहीं बन जाता है।"
 
-#: templates/deed.html:220
+#: templates/deed.html:197
 msgid "technological measures"
 msgstr "तकनीकी उपाय"
 
-#: templates/deed.html:221
+#: templates/deed.html:198
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
 "लाइसेंस के अनुसार आप WIPO कॉपीराइट समझौते के अनुच्छेद 11 के सन्दर्भ में "
 "परिभाषित कोई प्रभावी प्रौद्योगिकी उपाय लागू नहीं कर सकते।"
+
+#: templates/deed.html:218
+msgid "mediation and arbitration"
+msgstr "दलाली और विवाचन"
+
+#: templates/deed.html:219
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"दलाली के प्रयोज्य नियम, कार्य के साथ प्रकाशित कॉपीराइट सूचना में निर्दिष्ट "
+"किए जाएँगे, और अगर नहीं तो फिर दलाली के अनुरोध में। अगर कार्य के साथ संलग्न "
+"किसी कॉपीराइट सूचना में अलग से निर्दिष्ट न हो, UNCITRAL के विवाचन नियम हर "
+"विवाचन पर लागू होते हैं।"
 
 #: templates/deed.html:241
 msgid "exception or limitation"
@@ -932,12 +932,12 @@ msgstr ""
 "का संकेत नहीं करना चाहिए।"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid "Unimplemented"
 msgstr "अकार्यान्वित"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1224,41 +1224,41 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:37
+#: templates/legalcode.html:36
 msgid "Other formats"
 msgstr "दूसरे प्रारूप"
 
-#: templates/legalcode.html:40
+#: templates/legalcode.html:39
 msgid "Plain Text"
 msgstr "सादा टेक्स्ट"
 
-#: templates/legalcode.html:48
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr "दलील देखें"
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:53
 msgid "Version"
 msgstr "संस्करण"
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
 msgstr "लाइसेंसधारियों के लिए भुगतान छिपाएँ"
 
-#: templates/legalcode.html:110
-msgid "Hide Considerations for the Public"
-msgstr "जनता के लिए भुगतान छिपाएँ"
-
-#: templates/legalcode.html:112
+#: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
 msgstr "लाइसेंसधारियों के लिए भुगतान दिखाएँ"
 
-#: templates/legalcode.html:114
+#: templates/legalcode.html:97
+msgid "Hide Considerations for the Public"
+msgstr "जनता के लिए भुगतान छिपाएँ"
+
+#: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
 msgstr "जनता के लिए भुगतान दिखाएँ"
 
