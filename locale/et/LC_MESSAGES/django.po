@@ -4,14 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Timid Robot Zehta <timid@creativecommons.org>, 2024
+# Kalur, 2025
+# Timid Robot Zehta <timid@creativecommons.org>, 2025
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2025-02-12 10:14:48+00:00\n"
+"PO-Revision-Date: 2025-03-06 08:29:17+00:00\n"
+"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2025\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/et/\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Django: et\n"
 "Language-Transifex: et\n"
-"Percent-Translated: 73\n"
+"Percent-Translated: 86\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -40,7 +42,7 @@ msgstr "Üldine"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Armeenia"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -56,7 +58,7 @@ msgstr "Austraalia"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Aserbaidžaan"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -132,7 +134,7 @@ msgstr "Prantsusmaa"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Gruusia"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -160,7 +162,7 @@ msgstr "Iirimaa"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Valitsustevaheline organisatsioon"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -383,13 +385,13 @@ msgstr "Avalik omand"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "Litsentsid"
 
 #: legal_tools/views.py:222 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
-msgstr ""
+msgstr "Lühikokkuvõte"
 
 #: legal_tools/views.py:236
 #: templates/includes/snippet/title_with_icons.html:19
@@ -400,11 +402,11 @@ msgstr "Litsentsi tekst"
 
 #: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "Litsentside loetelu"
 
 #: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
-msgstr ""
+msgstr "Avaliku omandi loetelu"
 
 #: templates/base.html:3
 msgid "Home"
@@ -416,15 +418,15 @@ msgstr ""
 
 #: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
-msgstr ""
+msgstr "Kanooniline URL"
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "Vaata litsentsi teksti"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "Märkused"
 
 #: templates/deed.html:86
 msgid "appropriate credit"
@@ -493,6 +495,9 @@ msgid ""
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
+"Tohid kasutada ka litsentse, mis on loetletud ühilduva litsentsina aadressil"
+" <a href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>."
 
 #: templates/deed.html:177
 msgid "remix, transform, or build upon"
@@ -987,7 +992,7 @@ msgstr ""
 #: templates/includes/notice_newer_license.html:3
 #: templates/includes/notice_zero.html:3
 msgid "Notice"
-msgstr ""
+msgstr "Pane tähele"
 
 #: templates/includes/notice_40.html:5
 msgid ""
@@ -1013,7 +1018,7 @@ msgstr ""
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
-msgstr ""
+msgstr "Creative Commonsi kohta"
 
 #: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
@@ -1060,7 +1065,7 @@ msgstr ""
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "Teave litsentsi ja Creative Commons-i kohta"
 
 #: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
@@ -1109,6 +1114,12 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"See on selle litsentsi vanem versioon. Võrreldes eelmiste versioonidega on "
+"kõik CC-litsentsid versioonis 4.0  <a "
+"href=\"/version4/\">kasutajasõbralikumad ja rahvusvaheliseks kasutamiseks "
+"paremini sobivad</a>. Kui <a href=\"/choose/\"> litsentsid enda teose</a>, "
+"siis soovitame kindlasti kasutada selle litsentsi asemel versiooni 4.0 "
+"litsentsi:"
 
 #: templates/includes/notice_zero.html:4
 msgid ""
@@ -1144,22 +1155,25 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"Creative Commons on mittetulundusühing, mis seisab avatud litsentside ja "
+"teiste juriidiliste tööriistade taga, mis võimaldavad loojatel oma töid "
+"jagada. Meie juriidilised tööriistad on tasuta kasutamiseks."
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Loe veel meie tegevuse kohta"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Loe veel CC-litsentsimise kohta"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "Toeta meie tööd"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Kasuta litsentsi enda materjali juures"
 
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
@@ -1254,7 +1268,7 @@ msgstr ""
 
 #: templates/legalcode.html:36
 msgid "Other formats"
-msgstr ""
+msgstr "Teised vormingud"
 
 #: templates/legalcode.html:39
 msgid "Plain Text"
@@ -1262,17 +1276,19 @@ msgstr ""
 
 #: templates/legalcode.html:47
 msgid "See the deed"
-msgstr ""
+msgstr "Vaata lühikokkuvõtet"
 
 #: templates/legalcode.html:53
 msgid "Version"
-msgstr ""
+msgstr "Versioon"
 
 #: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
+"Vaata <a href=\"/legal-code-errata/\">vigade leheküljelt</a> kõiki parandusi"
+" ja muudatuste kuupäevi."
 
 #: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
@@ -1293,11 +1309,11 @@ msgstr ""
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "Keel"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "Juriidilised dokumendid"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
