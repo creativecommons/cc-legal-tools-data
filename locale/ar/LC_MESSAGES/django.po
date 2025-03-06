@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-30 00:41:37+00:00\n"
+"PO-Revision-Date: 2025-02-12 10:10:45+00:00\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ar/\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Language-Django: ar\n"
 "Language-Transifex: ar\n"
-"Percent-Translated: 79\n"
+"Percent-Translated: 80\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -299,35 +299,35 @@ msgstr "فيتنام"
 msgid "South Africa"
 msgstr "جنوب إفريقيا"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
+#: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "نَسب المُصنَّف"
 
-#: i18n/__init__.py:195
+#: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
 msgstr "نسب المصنف - غير تجاري"
 
-#: i18n/__init__.py:196
+#: i18n/__init__.py:198
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "نَسب المُصنَّف - غير تجاري - منع الاشتقاق "
 
-#: i18n/__init__.py:197
+#: i18n/__init__.py:199
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "نَسب المُصنَّف - غير تجاري - الترخيص بالمثل"
 
-#: i18n/__init__.py:198
+#: i18n/__init__.py:200
 msgid "Attribution-NoDerivs"
 msgstr "نسب المصنف - منع الاشتقاق"
 
-#: i18n/__init__.py:199
+#: i18n/__init__.py:201
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "نَسب المُصنَّف - منع الاشتقاق - غير تجاري"
 
-#: i18n/__init__.py:200
+#: i18n/__init__.py:202
 msgid "Attribution-ShareAlike"
 msgstr "نَسب المُصنَّف - الترخيص بالمثل"
 
-#: i18n/__init__.py:202
+#: i18n/__init__.py:204
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
@@ -335,43 +335,43 @@ msgstr ""
 "شهادة التنازل عن حقوق المؤلف (بناءً على قانون الولايات المتحدة)\n"
 "أو شهادة الملك العام."
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "الدول النامية"
 
-#: i18n/__init__.py:206
+#: i18n/__init__.py:208
 msgid "Public Domain Mark"
 msgstr "علامة الملكية العامة"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
+#: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "غير تجاري"
 
-#: i18n/__init__.py:208
+#: i18n/__init__.py:210
 msgid "NonCommercial-ShareAlike"
 msgstr "غير تجاري - الترخيص بالمثل"
 
-#: i18n/__init__.py:209
+#: i18n/__init__.py:211
 msgid "NonCommercial Sampling Plus"
 msgstr "غير تجاري -عينات إضافية"
 
-#: i18n/__init__.py:210
+#: i18n/__init__.py:212
 msgid "NoDerivs"
 msgstr "منع الاشتقاق"
 
-#: i18n/__init__.py:211
+#: i18n/__init__.py:213
 msgid "NoDerivs-NonCommercial"
 msgstr "منع الاشتقاق - غير تجاري"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
+#: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "الترخيص بالمثل"
 
-#: i18n/__init__.py:213
+#: i18n/__init__.py:215
 msgid "Sampling"
 msgstr "العينات"
 
-#: i18n/__init__.py:214
+#: i18n/__init__.py:216
 msgid "Sampling Plus"
 msgstr "عينات إضافية"
 
@@ -383,24 +383,24 @@ msgstr "الملك العام"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:221 templates/deed.html:9
-#: templates/includes/snippet/title_with_icons.html:13
+#: legal_tools/views.py:222 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:230
-#: templates/includes/snippet/title_with_icons.html:15
+#: legal_tools/views.py:236
+#: templates/includes/snippet/title_with_icons.html:19
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "النص القانوني"
 
-#: legal_tools/views.py:436 templates/includes/related_links.html:15
+#: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:439 templates/includes/related_links.html:18
+#: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -408,11 +408,11 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:43
+#: templates/base.html:42
 msgid "Skip to content"
 msgstr "تخطي إلى المحتوى"
 
-#: templates/deed.html:43 templates/legalcode.html:32
+#: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
 msgstr ""
 
@@ -425,34 +425,10 @@ msgid "Footnotes"
 msgstr ""
 
 #: templates/deed.html:86
-msgid "mediation and arbitration"
-msgstr "الوساطة والتحكيم"
-
-#: templates/deed.html:87
-msgid ""
-"The applicable mediation rules will be designated in the copyright notice "
-"published with the work, or if none then in the request for mediation.  "
-"Unless otherwise designated in a copyright notice attached to the work, the "
-"UNCITRAL Arbitration Rules apply to any arbitration."
-msgstr ""
-"تُطبق قواعد الوساطة من خلال إشعار حقوق التأليف والنشر المرفق مع المُصنَّف، "
-"أو طلب الوساطة. وتنطبق قواعد تحكيم لجنة UNCITRAL (لجنة الأمم المتحدة للقانون"
-" التجاري الدولي) على أي تحكيم، ما لم يذكر خلاف ذلك في إشعار حقوق التأليف "
-"والنشر المرفق مع المُصنَّف."
-
-#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
-#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
-#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
-#: templates/deed.html:357
-msgid "More info"
-msgstr "لمزيد من المعلومات"
-
-#: templates/deed.html:109
 msgid "appropriate credit"
 msgstr "بطريقة مناسبة"
 
-#: templates/deed.html:110
+#: templates/deed.html:87
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -465,11 +441,19 @@ msgstr ""
 " ورابط العمل. رخص المشاع الإبداعي قبل الإصدار 4.0 تتطلب منك أيضاً النص على "
 "عنوان العمل إن كان متاحاً، وقد تكون هناك اختلافات طفيفة أخرى."
 
-#: templates/deed.html:132
+#: templates/deed.html:95 templates/deed.html:120 templates/deed.html:141
+#: templates/deed.html:163 templates/deed.html:183 templates/deed.html:204
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "لمزيد من المعلومات"
+
+#: templates/deed.html:109
 msgid "indicate if changes were made"
 msgstr "وبيان إذا ما قد أُجريت أي تعديلات على العمل"
 
-#: templates/deed.html:133
+#: templates/deed.html:110
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
@@ -479,50 +463,66 @@ msgstr ""
 "الإصدارة 3.0 والإصدارات السابقة، يجب عليك ذكر التغييرات فقط في حالة إنشاء "
 "عمل مشتق من المُصنَّف."
 
-#: templates/deed.html:140
+#: templates/deed.html:117
 msgid "Marking guide"
 msgstr "دليل الوسْم"
 
-#: templates/deed.html:157
+#: templates/deed.html:134
 msgid "commercial purposes"
 msgstr "لأغراض تجارية"
 
-#: templates/deed.html:158
+#: templates/deed.html:135
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr "الاستخدام التجاري هو غرض يستهدف بشكل أساسي الفائدة المالية أو الربح."
 
-#: templates/deed.html:178
+#: templates/deed.html:155
 msgid "same license"
 msgstr "بنفس شروط ترخيص"
 
-#: templates/deed.html:179
+#: templates/deed.html:156
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
 
-#: templates/deed.html:200
+#: templates/deed.html:177
 msgid "remix, transform, or build upon"
 msgstr "التعديل، التحويل، أو البناء"
 
-#: templates/deed.html:201
+#: templates/deed.html:178
 msgid "Merely changing the format never creates a derivative."
 msgstr "تغيير الصغية أو الهيئة لا يعد اشتقاقاً."
 
-#: templates/deed.html:220
+#: templates/deed.html:197
 msgid "technological measures"
 msgstr "تدابير تكنولوجية"
 
-#: templates/deed.html:221
+#: templates/deed.html:198
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
 "تمنع الرخصة تطبيق التدابير التكنولوجية، طبقاً للبند رقم 11 في معاهدة WIPO "
 "لحقوق الملكية الفكرية."
+
+#: templates/deed.html:218
+msgid "mediation and arbitration"
+msgstr "الوساطة والتحكيم"
+
+#: templates/deed.html:219
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"تُطبق قواعد الوساطة من خلال إشعار حقوق التأليف والنشر المرفق مع المُصنَّف، "
+"أو طلب الوساطة. وتنطبق قواعد تحكيم لجنة UNCITRAL (لجنة الأمم المتحدة للقانون"
+" التجاري الدولي) على أي تحكيم، ما لم يذكر خلاف ذلك في إشعار حقوق التأليف "
+"والنشر المرفق مع المُصنَّف."
 
 #: templates/deed.html:241
 msgid "exception or limitation"
@@ -901,12 +901,12 @@ msgstr ""
 "endorsement\">يؤيدك</a>."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -937,6 +937,9 @@ msgid ""
 "work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
 "rights\">publicity or privacy</a> rights."
 msgstr ""
+"لا تتأثر حقوق العلامة التجارية أو براءة الاختراع لأي شخص بـ CC0، ولا الحقوق "
+"التي قد يملكها الآخرين في العمل أو كيفية استخدامه، مثل حقوق <a href=\"#ref-"
+"publicity-rights\" id=\"src-publicity-rights\">الشهرة أو الخصوصية</a>."
 
 #: templates/includes/deed_body_zero.html:17
 msgid ""
@@ -1219,41 +1222,41 @@ msgstr ""
 "التعديلات أو أن يتم وصفها. وبالرغم أنَّ مثل هذه الطلبات غير مطلوبة في رخصنا،"
 " إلا أنه من المحبَّذ أن تقوم بمراعاة هذه الطلبات ضمن حدود المعقول. <br/>"
 
-#: templates/legalcode.html:37
+#: templates/legalcode.html:36
 msgid "Other formats"
 msgstr ""
 
-#: templates/legalcode.html:40
+#: templates/legalcode.html:39
 msgid "Plain Text"
 msgstr ""
 
-#: templates/legalcode.html:48
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:53
 msgid "Version"
 msgstr ""
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:110
-msgid "Hide Considerations for the Public"
-msgstr ""
-
-#: templates/legalcode.html:112
+#: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:114
+#: templates/legalcode.html:97
+msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
 msgstr ""
 
