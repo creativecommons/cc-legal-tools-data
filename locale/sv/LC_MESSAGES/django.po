@@ -6,15 +6,16 @@
 # Translators:
 # Henrik Mattsson-Mårn <h@reglage.net>, 2022
 # abbedabb <albin@albinolsson.com>, 2023
-# Timid Robot Zehta <timid@creativecommons.org>, 2024
+# Timid Robot Zehta <timid@creativecommons.org>, 2025
+# Sarah Pearson <sarah@creativecommons.org>, 2025
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2025-02-12 10:25:17+00:00\n"
-"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2024\n"
+"PO-Revision-Date: 2025-08-12 14:13:52+00:00\n"
+"Last-Translator: Sarah Pearson <sarah@creativecommons.org>, 2025\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -808,7 +809,7 @@ msgid ""
 msgstr ""
 "Du får inte tillämpa lagliga begränsningar eller <a href=\"#ref-"
 "technological-measures\" id=\"src-technological-measures\">teknologiska "
-"metoder</a> som juridiskt begränsar andra från att gör något som licensen "
+"metoder</a> som juridiskt begränsar andra från att göra något som licensen "
 "tillåter. "
 
 #: templates/includes/deed_body_licenses.html:118
