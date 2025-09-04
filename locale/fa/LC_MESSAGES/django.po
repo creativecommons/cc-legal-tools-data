@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2025
+# Mir Sobhan, 2025
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2025-02-12 10:15:21+00:00\n"
+"PO-Revision-Date: 2025-05-26 15:20:02+00:00\n"
+"Last-Translator: Mir Sobhan, 2025\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/fa/\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language-Django: fa\n"
 "Language-Transifex: fa\n"
-"Percent-Translated: 73\n"
+"Percent-Translated: 91\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -37,7 +42,7 @@ msgstr "جهانی"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "ارمنستان"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -53,7 +58,7 @@ msgstr "استرالیا"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "آذربایجان"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -129,7 +134,7 @@ msgstr "فرانسه"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "گرجستان"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -157,7 +162,7 @@ msgstr "ایرلند"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "سازمان بین دولتی"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -301,7 +306,7 @@ msgstr "آفریقای جنوبی"
 
 #: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
-msgstr "تخصیص"
+msgstr "ارجاع"
 
 #: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
@@ -363,7 +368,7 @@ msgstr "بدون‌اشتقاق-غیرتجاری"
 
 #: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
-msgstr "سهم یکسان"
+msgstr "نشر همسان"
 
 #: i18n/__init__.py:215
 msgid "Sampling"
@@ -375,17 +380,17 @@ msgstr "نمونه گیری به علاوه"
 
 #: legal_tools/views.py:81
 msgid "Public Domain"
-msgstr "حوزه عمومی"
+msgstr "مالکیت عمومی"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "پروانه ها"
 
 #: legal_tools/views.py:222 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
-msgstr ""
+msgstr "سند"
 
 #: legal_tools/views.py:236
 #: templates/includes/snippet/title_with_icons.html:19
@@ -396,31 +401,31 @@ msgstr "کد حقوقی"
 
 #: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "فهرست پروانه ها"
 
 #: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
-msgstr ""
+msgstr "سیاهه مالکیت عمومی"
 
 #: templates/base.html:3
 msgid "Home"
-msgstr ""
+msgstr "خانه"
 
 #: templates/base.html:42
 msgid "Skip to content"
-msgstr ""
+msgstr "پرش به محتوا"
 
 #: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
-msgstr ""
+msgstr "نشانی متعارف"
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "مشاهده کد حقوقی"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "پانویس"
 
 #: templates/deed.html:86
 msgid "appropriate credit"
@@ -488,6 +493,9 @@ msgid ""
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
+"شما همچنین می‌توانید از یک پروانه که در <a "
+"href=\"https://creativecommons.org/compatiblelicenses\">https://creativecommons.org/compatiblelicenses</a>"
+" بعنوان سازگار ذکر شده‌است استفاده کنید"
 
 #: templates/deed.html:177
 msgid "remix, transform, or build upon"
@@ -551,7 +559,7 @@ msgstr ""
 
 #: templates/deed.html:282
 msgid "jurisdictions "
-msgstr ""
+msgstr "حوزهٔ قضائی"
 
 #: templates/deed.html:283
 msgid ""
@@ -564,7 +572,7 @@ msgstr ""
 
 #: templates/deed.html:304
 msgid "publicity or privacy"
-msgstr ""
+msgstr "حریم خصوصی یا عمومیت"
 
 #: templates/deed.html:305
 msgid ""
@@ -608,7 +616,7 @@ msgstr ""
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "صفحه یافت نشد"
 
 #: templates/includes/deed_body_certification.html:3
 msgid ""
@@ -639,7 +647,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:6
 msgid "You are free to:"
-msgstr "شما اجازه دارید:"
+msgstr "شما آزادید تا:"
 
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
@@ -912,7 +920,7 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
 msgid "Unimplemented"
-msgstr ""
+msgstr "پیاده‌سازی نشده"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
@@ -974,7 +982,7 @@ msgstr ""
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
-msgstr ""
+msgstr "زبان‌های در دسترس"
 
 #: templates/includes/notice_40.html:3
 #: templates/includes/notice_certification.html:3
@@ -982,7 +990,7 @@ msgstr ""
 #: templates/includes/notice_newer_license.html:3
 #: templates/includes/notice_zero.html:3
 msgid "Notice"
-msgstr ""
+msgstr "آگاهی"
 
 #: templates/includes/notice_40.html:5
 msgid ""
@@ -1001,7 +1009,7 @@ msgstr ""
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
-msgstr ""
+msgstr "درباره کریتیو کامنز"
 
 #: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
@@ -1031,7 +1039,7 @@ msgstr ""
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "درباره پروانه ها و کریتیو کامنز"
 
 #: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
@@ -1109,15 +1117,15 @@ msgstr ""
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "بیشتر درباره اثر ما یاد بگیرید"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "بیشتر در مورد CC بیاموزید"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "از اثر ما حمایت کنید"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
@@ -1129,7 +1137,7 @@ msgstr "این صفحه به زبان های زیر در دسترس است :"
 
 #: templates/includes/use_of_licenses.html:8
 msgid "Using Creative Commons Public Licenses"
-msgstr ""
+msgstr "استفاده پروانه عمومی کریتیو کامنز"
 
 #: templates/includes/use_of_licenses.html:10
 msgid ""
@@ -1143,7 +1151,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:20
 msgid "Considerations for licensors"
-msgstr ""
+msgstr "ملاحظات برای اعطاکنندگان پروانه"
 
 #: templates/includes/use_of_licenses.html:22
 msgid ""
@@ -1162,7 +1170,7 @@ msgstr ""
 
 #: templates/includes/use_of_licenses.html:37
 msgid "Considerations for the public"
-msgstr ""
+msgstr "ملاحظات برای عموم"
 
 #: templates/includes/use_of_licenses.html:39
 msgid ""
@@ -1183,19 +1191,19 @@ msgstr ""
 
 #: templates/legalcode.html:36
 msgid "Other formats"
-msgstr ""
+msgstr "قالب‌های دیگر"
 
 #: templates/legalcode.html:39
 msgid "Plain Text"
-msgstr ""
+msgstr "متن خام"
 
 #: templates/legalcode.html:47
 msgid "See the deed"
-msgstr ""
+msgstr "سند را ببینید"
 
 #: templates/legalcode.html:53
 msgid "Version"
-msgstr "ورژن"
+msgstr "نگارش"
 
 #: templates/legalcode.html:54
 msgid ""
@@ -1205,29 +1213,29 @@ msgstr ""
 
 #: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "پنهان کردن ملاحظات برای اعطاکنندگان پروانه"
 
 #: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "نمایش ملاحظات برای اعطاکنندگان پروانه"
 
 #: templates/legalcode.html:97
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "پنهان کردن ملاحظات برای عموم"
 
 #: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "نمایش ملاحظات برای عموم"
 
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "زبان"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "ابزارهای قانونی"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "تغییر مسیر به:"
