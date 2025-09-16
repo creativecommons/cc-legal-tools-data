@@ -3,12 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2022
+# Vũ Minh Nguyên, 2025
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2023-11-29 22:53:29+00:00\n"
+"PO-Revision-Date: 2025-04-15 12:44:40+00:00\n"
+"Last-Translator: Vũ Minh Nguyên, 2025\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/vi/\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Django: vi\n"
 "Language-Transifex: vi\n"
-"Percent-Translated: 45\n"
+"Percent-Translated: 56\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -157,7 +162,7 @@ msgstr "Ireland"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Tổ chức liên chính phủ"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -337,11 +342,11 @@ msgstr ""
 
 #: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
-msgstr "Developing Nations"
+msgstr "Các quốc gia đang phát triển"
 
 #: i18n/__init__.py:208
 msgid "Public Domain Mark"
-msgstr ""
+msgstr "Dấu chỉ phạm vi công cộng"
 
 #: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
@@ -381,7 +386,7 @@ msgstr "Phạm vi công cộng"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "Giấy phép"
 
 #: legal_tools/views.py:222 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:17
@@ -398,7 +403,7 @@ msgstr ""
 
 #: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "Danh sách giấy phép"
 
 #: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
@@ -406,15 +411,15 @@ msgstr ""
 
 #: templates/base.html:3
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 #: templates/base.html:42
 msgid "Skip to content"
-msgstr ""
+msgstr "Đi tới nội dung"
 
 #: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL chuẩn"
 
 #: templates/deed.html:51
 msgid "See the legal code"
@@ -422,7 +427,7 @@ msgstr ""
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "Chú thích"
 
 #: templates/deed.html:86
 msgid "appropriate credit"
@@ -443,7 +448,7 @@ msgstr ""
 #: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
 #: templates/deed.html:357
 msgid "More info"
-msgstr ""
+msgstr "Tìm hiểu thêm"
 
 #: templates/deed.html:109
 msgid "indicate if changes were made"
@@ -462,7 +467,7 @@ msgstr ""
 
 #: templates/deed.html:134
 msgid "commercial purposes"
-msgstr ""
+msgstr "mục đích thương mại"
 
 #: templates/deed.html:135
 msgid ""
@@ -472,7 +477,7 @@ msgstr ""
 
 #: templates/deed.html:155
 msgid "same license"
-msgstr ""
+msgstr "cùng loại giấy phép"
 
 #: templates/deed.html:156
 msgid ""
@@ -557,7 +562,7 @@ msgstr ""
 
 #: templates/deed.html:328
 msgid "moral rights"
-msgstr ""
+msgstr "quyền đạo đức"
 
 #: templates/deed.html:329
 msgid ""
@@ -568,7 +573,7 @@ msgstr ""
 
 #: templates/deed.html:350
 msgid "endorsement"
-msgstr ""
+msgstr "đồng thuận"
 
 #: templates/deed.html:351
 msgid ""
@@ -578,7 +583,7 @@ msgstr ""
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Không Tìm Thấy"
 
 #: templates/includes/deed_body_certification.html:3
 msgid ""
@@ -609,7 +614,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:6
 msgid "You are free to:"
-msgstr ""
+msgstr "Bạn có thể tự do:"
 
 #: templates/includes/deed_body_licenses.html:11
 msgid ""
@@ -656,7 +661,7 @@ msgstr ""
 #: templates/includes/deed_body_licenses.html:35
 #: templates/includes/deed_body_licenses.html:42
 msgid "for any purpose, even commercially."
-msgstr ""
+msgstr "cho mọi mục đích, kể cả các hoạt động thương mại."
 
 #: templates/includes/deed_body_licenses.html:41
 msgid ""
@@ -671,7 +676,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:56
 msgid "Under the following terms:"
-msgstr ""
+msgstr "Với các điều khoản sau:"
 
 #: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
@@ -703,7 +708,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:89
 msgid "NoDerivatives"
-msgstr ""
+msgstr "Không Phái sinh"
 
 #: templates/includes/deed_body_licenses.html:89
 msgid ""
@@ -725,8 +730,9 @@ msgid ""
 "For any reuse or distribution, you must make clear to others the license "
 "terms of this work. The best way to do this is with a link to this web page."
 msgstr ""
-"For any reuse or distribution, you must make clear to others the license "
-"terms of this work. The best way to do this is with a link to this web page."
+"Đối với bất kỳ việc tái sử dụng hoặc phân phối nào, bạn phải làm rõ cho "
+"người khác các điều khoản cấp phép của tác phẩm này. Cách tốt nhất để làm "
+"điều này là bằng một liên kết đến trang web này."
 
 #: templates/includes/deed_body_licenses.html:107
 msgid ""
@@ -734,11 +740,11 @@ msgid ""
 "any purpose."
 msgstr ""
 "Bạn không được trình diễn, trình chiếu, hay phân phối bản sao toàn vẹn của "
-"tác phẩm này cho bất kỳ mục đích nào"
+"tác phẩm này cho bất kỳ mục đích nào."
 
 #: templates/includes/deed_body_licenses.html:112
 msgid "No additional restrictions"
-msgstr ""
+msgstr "Không bao gồm hạn chế bổ sung"
 
 #: templates/includes/deed_body_licenses.html:112
 msgid ""
@@ -749,7 +755,7 @@ msgstr ""
 
 #: templates/includes/deed_body_licenses.html:118
 msgid "Notices:"
-msgstr ""
+msgstr "Lưu ý:"
 
 #: templates/includes/deed_body_licenses.html:122
 msgid ""
@@ -834,7 +840,7 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
 msgid "Unimplemented"
-msgstr ""
+msgstr "Không được áp dụng"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
@@ -880,7 +886,7 @@ msgstr ""
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
-msgstr ""
+msgstr "Ngôn ngữ có sẵn"
 
 #: templates/includes/notice_40.html:3
 #: templates/includes/notice_certification.html:3
