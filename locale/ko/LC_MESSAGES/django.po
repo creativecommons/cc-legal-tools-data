@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Timid Robot Zehta <timid@creativecommons.org>, 2025
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2025-02-12 10:20:00+00:00\n"
+"PO-Revision-Date: 2025-10-16 08:39:03+00:00\n"
+"Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2025\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/ko/\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -900,10 +904,9 @@ msgid ""
 "work is used, such as <a href=\"#ref-publicity-rights\" id=\"src-publicity-"
 "rights\">publicity or privacy</a> rights."
 msgstr ""
-"특허권 또는 상표권은 CC0에 의해 영향을 받지 않으며, <a "
-"href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\""
-" class=\"helpLink\" id=\"publicity_rights\">퍼블리시티권 및 프라이버시권<a/> 등 저작물 자체에 대해"
-" 또는 저작물 이용에 대해 타인이 갖는 권리 또한 영향을 받지 않습니다."
+"특허권 또는 상표권은 CC0에 의해 영향을 받지 않으며, <a href=\"#ref-publicity-rights\" id=\"src-"
+"publicity-rights\">퍼블리시티권 및 프라이버시권</a> 등 저작물 자체에 대해 또는 저작물 이용에 대해 타인이 갖는 권리 "
+"또한 영향을 받지 않습니다."
 
 #: templates/includes/deed_body_zero.html:17
 msgid ""
