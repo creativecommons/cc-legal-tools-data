@@ -305,41 +305,41 @@ msgstr "Вьетнам"
 msgid "South Africa"
 msgstr "ЮАР"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
+#: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "«Attribution» («Атрибуция»)"
 
-#: i18n/__init__.py:195
+#: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
 msgstr "«Attribution-NonCommercial» («Атрибуция-Некоммерчески»)"
 
-#: i18n/__init__.py:196
+#: i18n/__init__.py:198
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr ""
 "«Attribution-NonCommercial-NoDerivs» («Атрибуция-Некоммерчески-"
 "БезПроизводных»)"
 
-#: i18n/__init__.py:197
+#: i18n/__init__.py:199
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr ""
 "«Attribution-NonCommercial-ShareAlike» («Атрибуция-Некоммерчески-"
 "СохранениеУсловий»)"
 
-#: i18n/__init__.py:198
+#: i18n/__init__.py:200
 msgid "Attribution-NoDerivs"
 msgstr "«Attribution-NoDerivs» («Атрибуция-БезПроизводных»)"
 
-#: i18n/__init__.py:199
+#: i18n/__init__.py:201
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr ""
 "«Attribution-NoDerivs-NonCommercial» («Атрибуция-БезПроизводных-"
 "Некоммерчески»)"
 
-#: i18n/__init__.py:200
+#: i18n/__init__.py:202
 msgid "Attribution-ShareAlike"
 msgstr "«Attribution-ShareAlike» («Атрибуция-СохранениеУсловий»)"
 
-#: i18n/__init__.py:202
+#: i18n/__init__.py:204
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
@@ -347,45 +347,45 @@ msgstr ""
 "Передача только прав, связанных с авторскими, (на основе законов США) \n"
 "или Акт передачи в общественное достояние"
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "«Developing Nations» («Развивающиеся страны»)"
 
-#: i18n/__init__.py:206
+#: i18n/__init__.py:208
 msgid "Public Domain Mark"
 msgstr "Public Domain Mark"
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
+#: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "«NonCommercial» («Некоммерчески»)"
 
-#: i18n/__init__.py:208
+#: i18n/__init__.py:210
 msgid "NonCommercial-ShareAlike"
 msgstr "«NonCommercial-ShareAlike» («Некоммерчески-СохранениеУсловий»)"
 
-#: i18n/__init__.py:209
+#: i18n/__init__.py:211
 msgid "NonCommercial Sampling Plus"
 msgstr ""
 "«NonCommercial Sampling Plus» («Некоммерческое расширенное использование "
 "частей произведения»)"
 
-#: i18n/__init__.py:210
+#: i18n/__init__.py:212
 msgid "NoDerivs"
 msgstr "«NoDerivs» («БезПроизводных»)"
 
-#: i18n/__init__.py:211
+#: i18n/__init__.py:213
 msgid "NoDerivs-NonCommercial"
 msgstr "«NoDerivs-NonCommercial» («БезПроизводных-Некоммерчески»)"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
+#: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "«ShareAlike» («СохранениеУсловий»)"
 
-#: i18n/__init__.py:213
+#: i18n/__init__.py:215
 msgid "Sampling"
 msgstr "«Sampling» («Использование частей произведения»)"
 
-#: i18n/__init__.py:214
+#: i18n/__init__.py:216
 msgid "Sampling Plus"
 msgstr "«Sampling Plus» («Расширенное использование частей произведения»)"
 
@@ -397,24 +397,24 @@ msgstr "Общественное достояние (Public Domain)"
 msgid "Licenses"
 msgstr "Лицензии"
 
-#: legal_tools/views.py:221 templates/deed.html:9
-#: templates/includes/snippet/title_with_icons.html:13
+#: legal_tools/views.py:222 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr "Краткое описание"
 
-#: legal_tools/views.py:230
-#: templates/includes/snippet/title_with_icons.html:15
+#: legal_tools/views.py:236
+#: templates/includes/snippet/title_with_icons.html:19
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr "юридический текст"
 
-#: legal_tools/views.py:436 templates/includes/related_links.html:15
+#: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr "Список лицензий"
 
-#: legal_tools/views.py:439 templates/includes/related_links.html:18
+#: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr "Список публичных доменов"
 
@@ -422,11 +422,11 @@ msgstr "Список публичных доменов"
 msgid "Home"
 msgstr "Главная страница"
 
-#: templates/base.html:43
+#: templates/base.html:42
 msgid "Skip to content"
 msgstr "Перейти к контенту"
 
-#: templates/deed.html:43 templates/legalcode.html:32
+#: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
 msgstr "Канонический URL-адрес"
 
@@ -439,37 +439,10 @@ msgid "Footnotes"
 msgstr "Сноски"
 
 #: templates/deed.html:86
-msgid "mediation and arbitration"
-msgstr "посредничество и арбитраж"
-
-#: templates/deed.html:87
-msgid ""
-"The applicable mediation rules will be designated in the copyright notice "
-"published with the work, or if none then in the request for mediation.  "
-"Unless otherwise designated in a copyright notice attached to the work, the "
-"UNCITRAL Arbitration Rules apply to any arbitration."
-msgstr ""
-"Применяемые правила посредничества будут указаны в уведомлении об авторских "
-"правах, публикуемом вместе с произведением, или, в случае отсутствия такого "
-"уведомления, в запросе на осуществление посредничества. В случае отсутствия "
-"иных договоренностей, указанных в уведомлении об авторских правах, которое "
-"опубликовано вместе с произведением, в отношении любого арбитражного "
-"процесса будут применяться Правила Арбитража Комиссии ООН по праву "
-"международной торговли (ЮНСИТРАЛ)."
-
-#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
-#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
-#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
-#: templates/deed.html:357
-msgid "More info"
-msgstr "Подробнее"
-
-#: templates/deed.html:109
 msgid "appropriate credit"
 msgstr "соответствующее указание авторства"
 
-#: templates/deed.html:110
+#: templates/deed.html:87
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -483,11 +456,19 @@ msgstr ""
 "материалом. Лицензии CC до версии 4.0 требуют от вас также предоставить, "
 "если имеется, название произведения и могут иметь другие небольшие различия."
 
-#: templates/deed.html:132
+#: templates/deed.html:95 templates/deed.html:120 templates/deed.html:141
+#: templates/deed.html:163 templates/deed.html:183 templates/deed.html:204
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr "Подробнее"
+
+#: templates/deed.html:109
 msgid "indicate if changes were made"
 msgstr "обозначить изменения, если таковые были сделаны"
 
-#: templates/deed.html:133
+#: templates/deed.html:110
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
@@ -499,15 +480,15 @@ msgstr ""
 "указание внесенных изменений требуется только в случае создания вами "
 "производного материала."
 
-#: templates/deed.html:140
+#: templates/deed.html:117
 msgid "Marking guide"
 msgstr "Руководство по маркировке контента"
 
-#: templates/deed.html:157
+#: templates/deed.html:134
 msgid "commercial purposes"
 msgstr "коммерческих целях"
 
-#: templates/deed.html:158
+#: templates/deed.html:135
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
@@ -516,11 +497,11 @@ msgstr ""
 "направленное на получение коммерческого преимущества или денежного "
 "вознаграждения."
 
-#: templates/deed.html:178
+#: templates/deed.html:155
 msgid "same license"
 msgstr "той же лицензии"
 
-#: templates/deed.html:179
+#: templates/deed.html:156
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
@@ -530,28 +511,47 @@ msgstr ""
 " href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 
-#: templates/deed.html:200
+#: templates/deed.html:177
 msgid "remix, transform, or build upon"
 msgstr ""
 "перерабатываете, преобразовываете материал или берёте его за основу для "
 "производного произведения"
 
-#: templates/deed.html:201
+#: templates/deed.html:178
 msgid "Merely changing the format never creates a derivative."
 msgstr ""
 "Одно лишь изменение формата не является созданием производного материала."
 
-#: templates/deed.html:220
+#: templates/deed.html:197
 msgid "technological measures"
 msgstr "технологические меры"
 
-#: templates/deed.html:221
+#: templates/deed.html:198
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
 msgstr ""
 "Лицензия запрещает применение эффективных технических средств, определённых "
 "согласно Статье 11 Договора ВОИС по авторскому праву."
+
+#: templates/deed.html:218
+msgid "mediation and arbitration"
+msgstr "посредничество и арбитраж"
+
+#: templates/deed.html:219
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
+msgstr ""
+"Применяемые правила посредничества будут указаны в уведомлении об авторских "
+"правах, публикуемом вместе с произведением, или, в случае отсутствия такого "
+"уведомления, в запросе на осуществление посредничества. В случае отсутствия "
+"иных договоренностей, указанных в уведомлении об авторских правах, которое "
+"опубликовано вместе с произведением, в отношении любого арбитражного "
+"процесса будут применяться Правила Арбитража Комиссии ООН по праву "
+"международной торговли (ЮНСИТРАЛ)."
 
 #: templates/deed.html:241
 msgid "exception or limitation"
@@ -997,12 +997,12 @@ msgstr ""
 " автор или лицо, идентифицирующее произведение."
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid "Unimplemented"
 msgstr "Неосуществленное"
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1366,23 +1366,23 @@ msgstr ""
 "href=\"https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees\">Более"
 " подробная информация для неограниченного круга лиц.</a>"
 
-#: templates/legalcode.html:37
+#: templates/legalcode.html:36
 msgid "Other formats"
 msgstr "Другие форматы"
 
-#: templates/legalcode.html:40
+#: templates/legalcode.html:39
 msgid "Plain Text"
 msgstr "Обычный текст"
 
-#: templates/legalcode.html:48
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr "Ознакомиться с кратким описанием"
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:53
 msgid "Version"
 msgstr "Версия"
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
@@ -1390,19 +1390,19 @@ msgstr ""
 "См. страницу с ошибками (<a href=\"/legal-code-errata/\">errata page</a>) с "
 "исправлениями и датой изменений"
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
 msgstr "Скрыть рекомендации для лицензирующих"
 
-#: templates/legalcode.html:110
-msgid "Hide Considerations for the Public"
-msgstr "Скрыть рекомендации для общественности"
-
-#: templates/legalcode.html:112
+#: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
 msgstr "Показать рекомендации для лицензирующих"
 
-#: templates/legalcode.html:114
+#: templates/legalcode.html:97
+msgid "Hide Considerations for the Public"
+msgstr "Скрыть рекомендации для общественности"
+
+#: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
 msgstr "Показать рекомендации для общественности"
 

@@ -299,77 +299,77 @@ msgstr ""
 msgid "South Africa"
 msgstr "South Africa"
 
-#: i18n/__init__.py:194 templates/includes/deed_body_licenses.html:69
+#: i18n/__init__.py:196 templates/includes/deed_body_licenses.html:69
 msgid "Attribution"
 msgstr "Attribution"
 
-#: i18n/__init__.py:195
+#: i18n/__init__.py:197
 msgid "Attribution-NonCommercial"
 msgstr "Attribution-NonCommercial"
 
-#: i18n/__init__.py:196
+#: i18n/__init__.py:198
 msgid "Attribution-NonCommercial-NoDerivs"
 msgstr "Attribution-NonCommercial-NoDerivs"
 
-#: i18n/__init__.py:197
+#: i18n/__init__.py:199
 msgid "Attribution-NonCommercial-ShareAlike"
 msgstr "Attribution-NonCommercial-ShareAlike"
 
-#: i18n/__init__.py:198
+#: i18n/__init__.py:200
 msgid "Attribution-NoDerivs"
 msgstr "Attribution-NoDerivs"
 
-#: i18n/__init__.py:199
+#: i18n/__init__.py:201
 msgid "Attribution-NoDerivs-NonCommercial"
 msgstr "Attribution-NoDerivs-NonCommercial"
 
-#: i18n/__init__.py:200
+#: i18n/__init__.py:202
 msgid "Attribution-ShareAlike"
 msgstr "Attribution-ShareAlike"
 
-#: i18n/__init__.py:202
+#: i18n/__init__.py:204
 msgid ""
 "Copyright-Only Dedication (based on United States law) or Public Domain "
 "Certification"
 msgstr ""
 
-#: i18n/__init__.py:205 templates/includes/deed_body_licenses.html:62
+#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:62
 msgid "Developing Nations"
 msgstr "Developing Nations"
 
-#: i18n/__init__.py:206
+#: i18n/__init__.py:208
 msgid "Public Domain Mark"
 msgstr ""
 
-#: i18n/__init__.py:207 templates/includes/deed_body_licenses.html:76
+#: i18n/__init__.py:209 templates/includes/deed_body_licenses.html:76
 msgid "NonCommercial"
 msgstr "Non-Commercial"
 
-#: i18n/__init__.py:208
+#: i18n/__init__.py:210
 msgid "NonCommercial-ShareAlike"
 msgstr "NonCommercial-ShareAlike"
 
-#: i18n/__init__.py:209
+#: i18n/__init__.py:211
 msgid "NonCommercial Sampling Plus"
 msgstr "Non-Commercial Sampling Plus"
 
-#: i18n/__init__.py:210
+#: i18n/__init__.py:212
 msgid "NoDerivs"
 msgstr "NoDerivs"
 
-#: i18n/__init__.py:211
+#: i18n/__init__.py:213
 msgid "NoDerivs-NonCommercial"
 msgstr "NoDerivs-NonCommercial"
 
-#: i18n/__init__.py:212 templates/includes/deed_body_licenses.html:83
+#: i18n/__init__.py:214 templates/includes/deed_body_licenses.html:83
 msgid "ShareAlike"
 msgstr "ShareAlike"
 
-#: i18n/__init__.py:213
+#: i18n/__init__.py:215
 msgid "Sampling"
 msgstr "Sampling"
 
-#: i18n/__init__.py:214
+#: i18n/__init__.py:216
 msgid "Sampling Plus"
 msgstr "Sampling Plus"
 
@@ -381,24 +381,24 @@ msgstr "Public Domain"
 msgid "Licenses"
 msgstr ""
 
-#: legal_tools/views.py:221 templates/deed.html:9
-#: templates/includes/snippet/title_with_icons.html:13
+#: legal_tools/views.py:222 templates/deed.html:9
+#: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
 msgstr ""
 
-#: legal_tools/views.py:230
-#: templates/includes/snippet/title_with_icons.html:15
+#: legal_tools/views.py:236
+#: templates/includes/snippet/title_with_icons.html:19
 #: templates/legalcode.html:6 templates/list-licenses.html:39
 #: templates/list-publicdomain.html:31
 msgid "Legal Code"
 msgstr ""
 
-#: legal_tools/views.py:436 templates/includes/related_links.html:15
+#: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
 msgstr ""
 
-#: legal_tools/views.py:439 templates/includes/related_links.html:18
+#: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
 msgstr ""
 
@@ -406,11 +406,11 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:43
+#: templates/base.html:42
 msgid "Skip to content"
 msgstr ""
 
-#: templates/deed.html:43 templates/legalcode.html:32
+#: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
 msgstr ""
 
@@ -423,30 +423,10 @@ msgid "Footnotes"
 msgstr ""
 
 #: templates/deed.html:86
-msgid "mediation and arbitration"
-msgstr ""
-
-#: templates/deed.html:87
-msgid ""
-"The applicable mediation rules will be designated in the copyright notice "
-"published with the work, or if none then in the request for mediation.  "
-"Unless otherwise designated in a copyright notice attached to the work, the "
-"UNCITRAL Arbitration Rules apply to any arbitration."
-msgstr ""
-
-#: templates/deed.html:95 templates/deed.html:118 templates/deed.html:143
-#: templates/deed.html:164 templates/deed.html:186 templates/deed.html:206
-#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
-#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
-#: templates/deed.html:357
-msgid "More info"
-msgstr ""
-
-#: templates/deed.html:109
 msgid "appropriate credit"
 msgstr ""
 
-#: templates/deed.html:110
+#: templates/deed.html:87
 msgid ""
 "If supplied, you must provide the name of the creator and attribution "
 "parties, a copyright notice, a license notice, a disclaimer notice, and a "
@@ -455,58 +435,78 @@ msgid ""
 "differences."
 msgstr ""
 
-#: templates/deed.html:132
+#: templates/deed.html:95 templates/deed.html:120 templates/deed.html:141
+#: templates/deed.html:163 templates/deed.html:183 templates/deed.html:204
+#: templates/deed.html:227 templates/deed.html:247 templates/deed.html:268
+#: templates/deed.html:290 templates/deed.html:314 templates/deed.html:336
+#: templates/deed.html:357
+msgid "More info"
+msgstr ""
+
+#: templates/deed.html:109
 msgid "indicate if changes were made"
 msgstr ""
 
-#: templates/deed.html:133
+#: templates/deed.html:110
 msgid ""
 "In 4.0, you must indicate if you modified the material and retain an "
 "indication of previous modifications. In 3.0 and earlier license versions, "
 "the indication of changes is only required if you create a derivative."
 msgstr ""
 
-#: templates/deed.html:140
+#: templates/deed.html:117
 msgid "Marking guide"
 msgstr ""
 
-#: templates/deed.html:157
+#: templates/deed.html:134
 msgid "commercial purposes"
 msgstr ""
 
-#: templates/deed.html:158
+#: templates/deed.html:135
 msgid ""
 "A commercial use is one primarily intended for commercial advantage or "
 "monetary compensation."
 msgstr ""
 
-#: templates/deed.html:178
+#: templates/deed.html:155
 msgid "same license"
 msgstr ""
 
-#: templates/deed.html:179
+#: templates/deed.html:156
 msgid ""
 "You may also use a license listed as compatible at <a "
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
 
-#: templates/deed.html:200
+#: templates/deed.html:177
 msgid "remix, transform, or build upon"
 msgstr ""
 
-#: templates/deed.html:201
+#: templates/deed.html:178
 msgid "Merely changing the format never creates a derivative."
 msgstr ""
 
-#: templates/deed.html:220
+#: templates/deed.html:197
 msgid "technological measures"
 msgstr ""
 
-#: templates/deed.html:221
+#: templates/deed.html:198
 msgid ""
 "The license prohibits application of effective technological measures, "
 "defined with reference to Article 11 of the WIPO Copyright Treaty."
+msgstr ""
+
+#: templates/deed.html:218
+msgid "mediation and arbitration"
+msgstr ""
+
+#: templates/deed.html:219
+msgid ""
+"The applicable mediation rules will be designated in the copyright notice "
+"published with the work, or if none then in the request for mediation.  "
+"Unless otherwise designated in a copyright notice attached to the work, the "
+"UNCITRAL Arbitration Rules apply to any arbitration."
 msgstr ""
 
 #: templates/deed.html:241
@@ -827,12 +827,12 @@ msgid ""
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid "Unimplemented"
 msgstr ""
 
 #: templates/includes/deed_body_unimplemented.html:7
-#: templates/legalcode.html:83
+#: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
@@ -1066,41 +1066,41 @@ msgid ""
 " considerations for the public.</a>"
 msgstr ""
 
-#: templates/legalcode.html:37
+#: templates/legalcode.html:36
 msgid "Other formats"
 msgstr ""
 
-#: templates/legalcode.html:40
+#: templates/legalcode.html:39
 msgid "Plain Text"
 msgstr ""
 
-#: templates/legalcode.html:48
+#: templates/legalcode.html:47
 msgid "See the deed"
 msgstr ""
 
-#: templates/legalcode.html:54
+#: templates/legalcode.html:53
 msgid "Version"
 msgstr ""
 
-#: templates/legalcode.html:55
+#: templates/legalcode.html:54
 msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
 
-#: templates/legalcode.html:108
+#: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:110
-msgid "Hide Considerations for the Public"
-msgstr ""
-
-#: templates/legalcode.html:112
+#: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
 msgstr ""
 
-#: templates/legalcode.html:114
+#: templates/legalcode.html:97
+msgid "Hide Considerations for the Public"
+msgstr ""
+
+#: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
 msgstr ""
 
