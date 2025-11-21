@@ -36,4 +36,4 @@ do
 done \
     | sort -r -u \
     | awk '{ printf("%-48s%-56s%s\n", $1, $2, $3); }' \
-    > ${DIR_REPO}/docs/_redirects
+    > "${DIR_REPO}"/docs/_redirects
