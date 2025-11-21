@@ -33,4 +33,7 @@ do
     target="${target/licenses\/../}"
     echo "/${symlink} /${target} 200"
     echo "/${symlink%.html} /${target} 200"
-done | sort -r -u | column -t > ${DIR_REPO}/docs/_redirects
+done \
+    | sort -r -u \
+    | awk '{ printf("%-48s%-56s%s\n", $1, $2, $3); }' \
+    > "${DIR_REPO}"/docs/_redirects
