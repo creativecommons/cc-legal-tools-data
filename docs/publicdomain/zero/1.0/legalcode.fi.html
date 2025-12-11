@@ -1,684 +1,764 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="fi">
- <head about>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>
-   Oikeudellinen teksti - CC0 1.0 Yleismaailmallinen
- - Creative Commons
-  </title>
-  <link href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fi" rel="canonical">
-  <!-- Default: English -->
-  <link href="legalcode.en" hreflang="x-default" rel="alternate">
-  <!-- Basque -->
-  <link href="legalcode.eu" hreflang="eu" rel="alternate">
-  <!-- dansk -->
-  <link href="legalcode.da" hreflang="da" rel="alternate">
-  <!-- Deutsch -->
-  <link href="legalcode.de" hreflang="de" rel="alternate">
-  <!-- English -->
-  <link href="legalcode.en" hreflang="en" rel="alternate">
-  <!-- español -->
-  <link href="legalcode.es" hreflang="es" rel="alternate">
-  <!-- français -->
-  <link href="legalcode.fr" hreflang="fr" rel="alternate">
-  <!-- Hrvatski -->
-  <link href="legalcode.hr" hreflang="hr" rel="alternate">
-  <!-- italiano -->
-  <link href="legalcode.it" hreflang="it" rel="alternate">
-  <!-- latviešu -->
-  <link href="legalcode.lv" hreflang="lv" rel="alternate">
-  <!-- Lietuviškai -->
-  <link href="legalcode.lt" hreflang="lt" rel="alternate">
-  <!-- Nederlands -->
-  <link href="legalcode.nl" hreflang="nl" rel="alternate">
-  <!-- polski -->
-  <link href="legalcode.pl" hreflang="pl" rel="alternate">
-  <!-- Română -->
-  <link href="legalcode.ro" hreflang="ro" rel="alternate">
-  <!-- Slovenščina -->
-  <link href="legalcode.sl" hreflang="sl" rel="alternate">
-  <!-- svenska -->
-  <link href="legalcode.sv" hreflang="sv" rel="alternate">
-  <!-- Ελληνικά -->
-  <link href="legalcode.el" hreflang="el" rel="alternate">
-  <!-- 日本語 -->
-  <link href="legalcode.ja" hreflang="ja" rel="alternate">
-  <!-- 简体中文 -->
-  <link href="legalcode.zh-hans" hreflang="zh-hans" rel="alternate">
-  <!-- 繁體中文 -->
-  <link href="legalcode.zh-hant" hreflang="zh-hant" rel="alternate">
-  <!-- 한국어 -->
-  <link href="legalcode.ko" hreflang="ko" rel="alternate">
-  <link href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/favicon.ico" rel="icon" sizes="any">
-  <link href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/favicon.svg" rel="icon" type="image/svg+xml">
-  <link href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/manifest.webmanifest" rel="manifest">
-  <link href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-  <link href="/cc-legal-tools/base.css" rel="stylesheet">
-  <link href="/cc-legal-tools/legalcode.css" rel="stylesheet">
- </head>
- <body about class="default-page cc-legal-tools bidi-left" typeof>
-  <a class="skip-to-content" href="#main-content-marker">
-   Skip to content
-  </a>
-  <!-- Div element used to mount the Explore CC component-->
-  <header>
-   <div class="masthead">
-    <h1>
-     <a class="identity-logo" href="/">
-      Creative Commons
-     </a>
-    </h1>
-    <button class="expand-menu">
-     Menu
-    </button>
-    <!-- below menu is not final items, for testing only -->
-    <nav class="primary-menu">
-     <ul>
-      <li>
-       <a href="/about/team">
-        Who We Are
-       </a>
-      </li>
-      <li>
-       <a href="/about">
-        What We Do
-       </a>
-      </li>
-      <li>
-       <a href="/about/cclicenses/">
-        Licenses and Tools
-       </a>
-      </li>
-      <li>
-       <a href="/blog">
-        Blog
-       </a>
-      </li>
-      <li>
-       <a href="/about/support-cc/">
-        Support Us
-       </a>
-      </li>
-     </ul>
-    </nav>
-    <nav class="ancillary-menu">
-     <ul>
-      <li>
-       <span class="locale icon-attach fa-globe">
-        <select id="languages-dropdown">
-         <option disabled>
-          Languages available
-         </option>
-         <option data-link="legalcode.eu" id="option-eu" value="eu">
-          Basque
-         </option>
-         <option data-link="legalcode.da" id="option-da" value="da">
-          dansk
-         </option>
-         <option data-link="legalcode.de" id="option-de" value="de">
-          Deutsch
-         </option>
-         <option data-link="legalcode.en" id="option-en" value="en">
-          English
-         </option>
-         <option data-link="legalcode.es" id="option-es" value="es">
-          español
-         </option>
-         <option data-link="legalcode.fr" id="option-fr" value="fr">
-          français
-         </option>
-         <option data-link="legalcode.hr" id="option-hr" value="hr">
-          Hrvatski
-         </option>
-         <option data-link="legalcode.it" id="option-it" value="it">
-          italiano
-         </option>
-         <option data-link="legalcode.lv" id="option-lv" value="lv">
-          latviešu
-         </option>
-         <option data-link="legalcode.lt" id="option-lt" value="lt">
-          Lietuviškai
-         </option>
-         <option data-link="legalcode.nl" id="option-nl" value="nl">
-          Nederlands
-         </option>
-         <option data-link="legalcode.pl" id="option-pl" value="pl">
-          polski
-         </option>
-         <option data-link="legalcode.ro" id="option-ro" value="ro">
-          Română
-         </option>
-         <option data-link="legalcode.sl" id="option-sl" value="sl">
-          Slovenščina
-         </option>
-         <option data-link="legalcode.fi" id="option-fi" selected value="fi">
-          suomi
-         </option>
-         <option data-link="legalcode.sv" id="option-sv" value="sv">
-          svenska
-         </option>
-         <option data-link="legalcode.el" id="option-el" value="el">
-          Ελληνικά
-         </option>
-         <option data-link="legalcode.ja" id="option-ja" value="ja">
-          日本語
-         </option>
-         <option data-link="legalcode.zh-hans" id="option-zh-hans" value="zh-hans">
-          简体中文
-         </option>
-         <option data-link="legalcode.zh-hant" id="option-zh-hant" value="zh-hant">
-          繁體中文
-         </option>
-         <option data-link="legalcode.ko" id="option-ko" value="ko">
-          한국어
-         </option>
-        </select>
-       </span>
-      </li>
-      <script src="/cc-legal-tools/language-dropdown.js">
-      </script>
-      <li>
-       <a class="search icon-attach fa-search" href="/?s">
-        Search
-       </a>
-      </li>
-      <li>
-       <a class="donate icon-attach fa-heart" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
-        Donate
-       </a>
-      </li>
-      <li>
-       <button class="explore">
-        Explore CC
-       </button>
-      </li>
-     </ul>
-    </nav>
-   </div>
-   <div class="explore-panel">
-    <nav class="explore-menu">
-     <ul>
-      <li>
-       <a href="https://network.creativecommons.org/" target="_blank">
-        Global Network
-       </a>
-       <p>
-        Join a  global community working to strengthen the Commons
-       </p>
-      </li>
-      <li>
-       <a href="https://certificate.creativecommons.org/" target="_blank">
-        Certificate
-       </a>
-       <p>
-        Become an expert in creating and engaging with openly licensed materials
-       </p>
-      </li>
-      <li>
-       <a href="https://summit.creativecommons.org/" target="_blank">
-        Global Summit
-       </a>
-       <p>
-        Attend our annual event, promoting the power of open licensing
-       </p>
-      </li>
-      <li>
-       <a href="/choose" target="_blank">
-        Chooser
-       </a>
-       <p>
-        Get help choosing the appropriate license for your work
-       </p>
-      </li>
-      <li>
-       <a href="https://search.creativecommons.org/" target="_blank">
-        Search Portal
-       </a>
-       <p>
-        Find engines to search openly licensed material for creative and educational reuse
-       </p>
-      </li>
-      <li>
-       <a href="https://opensource.creativecommons.org/" target="_blank">
-        Open Source
-       </a>
-       <p>
-        Help us build products that maximize creativity and innovation
-       </p>
-      </li>
-     </ul>
-    </nav>
-   </div>
-  </header>
-  <article class="attention low-importance">
-   <p>
-    Help us protect the commons. Make a tax deductible gift to fund our work.
-    <a href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=temp-banner">
-     Donate today!
-    </a>
-   </p>
-  </article>
-  <span id="main-content-marker">
-  </span>
-  <main>
-   <header>
-    <h1>
-     CC0 1.0 Yleismaailmallinen
-    </h1>
-    <span class="alt-titles">
-     <span class="tool-icons">
-      <span class="cc-icon">
-       <svg viewbox="0 0 30 30">
-        <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
-        </use>
-       </svg>
-      </span>
-      <span class="cc-icon">
-       <svg viewbox="0 0 30 30">
-        <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero">
-        </use>
-       </svg>
-      </span>
-     </span>
-     <span class="tool-identifier">
-      CC0 1.0
-     </span>
-    </span>
-    <h2>
-     Oikeudellinen teksti
-    </h2>
-   </header>
-   <aside class="sidebar">
-    <nav>
-     <ul>
-      <li>
-       <a href="#legal-code-title">
-        CC0 1.0 Yleismaailmallinen
-       </a>
-       <ul>
-        <li>
-         <a href="#sop">
-          Tarkoituksen Ilmaus
-         </a>
-        </li>
-        <li>
-         <a href="#copyright">
-          1. Tekijänoikeus ja Läheiset Oikeudet.
-         </a>
-        </li>
-        <li>
-         <a href="#waiver">
-          2. Oikeuksista luopuminen.
-         </a>
-        </li>
-        <li>
-         <a href="#fallback">
-          3. Täydentävä julkinen lisenssi.
-         </a>
-        </li>
-        <li>
-         <a href="#limitations">
-          4. Rajoitukset ja vastuuvapauslauseke.
-         </a>
-        </li>
-       </ul>
-      </li>
-     </ul>
-    </nav>
-   </aside>
-   <div class="content">
-    <div class="tool-meta">
-     <div class="meta-box">
-      <article class="canonical-url">
-       <h2>
-        Canonical URL
-       </h2>
-       <a href="https://creativecommons.org/publicdomain/zero/1.0/">
-        https://creativecommons.org/publicdomain/zero/1.0/
-       </a>
-      </article>
-      <article class="formats">
-       <h2>
-        Other formats
-       </h2>
-       <ul>
-        <li>
-         <a href="legalcode.txt">
-          Plain Text
-         </a>
-        </li>
-        <li>
-         <a href="rdf">
-          RDF/XML
-         </a>
-        </li>
-       </ul>
-      </article>
-     </div>
-     <div class="alt-view">
-      <a href="deed.fi">
-       See the deed
-      </a>
-     </div>
-    </div>
-    <p>
-     Versio 1.0 •
-See the
-     <a href="/legal-code-errata/">
-      errata page
-     </a>
-     for any corrections and the date of change
-    </p>
-    <div class="notice-top" id="notice-about-licenses-and-cc">
-     <h2 class="icon-attach fa-info">
-      About the license and Creative Commons
-     </h2>
-     <p>
-      Creative Commons Corporation ("Creative Commons") ei ole asianajo- tai lakiasiaintoimisto, eikä se tarjoa oikeudellisia palveluja tai neuvoja. Creative Commonsin julkisten lisenssien levittäminen ei luo toimeksianto- eikä muutakaan suhdetta. Creative Commons tarjoaa lisenssinsä ja niihin liittyvät tiedot "sellaisena kuin ne ovat". Creative Commons ei anna mitään takuita liittyen lisensseihinsä tai niillä julkaistuihin aineistoihin taikka muihin liitännäisiin tietoihin eikä ota mitään vastuuta vahingoista, jotka aiheutuvat niiden käytöstä, siinä määrin kuin laki tällaisen määräyksen sallii.
-     </p>
-    </div>
-    <div class="notice-top" id="about-cc-and-license">
-     <h2 class="level is-vcentered b-header">
-      Creative Commonsin Julkisten Lisenssien käyttö
-     </h2>
-     <p>
-      Creative Commonsin julkiset lisenssit tarjoavat vakioidut ehdot, joita teosten luojat ja muut oikeudenhaltijat voivat käyttää jakaakseen luomistyönsä itsenäisiä ja omaperäisiä tuloksia sekä muita tekijänoikeuden ja tiettyjen muiden alla olevassa julkisessa lisenssissä määriteltyjen oikeuksien alaisia sisältöjä ja aineistoja. Seuraavat huomiot on tarkoitettu vain tiedoksi, eivätkä ne ole tyhjentäviä eivätkä muodosta osaa lisensseistämme.
-     </p>
-     <hr class="divider">
-     <h3 class="level is-vcentered b-header">
-      Huomioita lisenssinantajille
-     </h3>
-     <p>
-      Julkiset lisenssimme on tarkoitettu sellaisten tahojen käyttöön, joilla on oikeus antaa yleisölle lupa käyttää aineistoa tavoilla, joita muuten rajoittaisivat tekijänoikeus ja tietyt muut oikeudet. Lisenssejämme ei voi peruuttaa. Lisenssinantajien tulisi lukea ja ymmärtää valitsemansa lisenssin ehdot ennen lisenssin käyttämistä. Lisenssinantajien tulisi myös hankkia kaikki tarvittavat oikeudet ennen lisenssiemme käyttöä, jotta yleisö voi käyttää aineistoa uudelleen odotetulla tavalla. Lisenssinantajien tulisi selvästi merkitä kaikki aineisto, jota lisenssi ei koske. Tällaiseen aineistoon kuuluu muilla CC-lisensseillä lisensoitu aineisto sekä aineisto, jota on käytetty tekijänoikeutta koskevan poikkeuksen tai rajoituksen nojalla.
-      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">
-       Lisää huomioita lisenssinantajille.
-      </a>
-     </p>
-     <hr class="divider">
-     <h3 class="level is-vcentered b-header">
-      Huomioita yleisölle
-     </h3>
-     <p>
-      Käyttäessään jotakin julkisista lisensseistämme lisenssinantaja antaa yleisölle luvan käyttää lisensoitua aineistoa määriteltyjen ehtojen mukaisesti. Jos lisenssinantajan lupa ei jostain syystä ole tarpeen – esimerkiksi siksi, että tekijänoikeuteen soveltuu jokin poikkeus tai rajoitus – lisenssi ei rajoita tällaista käyttöä. Lisensseillämme annetaan vain sellaiset tekijänoikeuden ja tiettyjen muiden oikeuksien alaiset luvat, jotka lisenssinantaja on oikeutettu antamaan. Lisensoidun aineiston käyttö voi edelleen olla rajoitettua muista syistä, esimerkiksi siksi, että jollakulla muulla on aineistoon tekijänoikeus tai muita oikeuksia. Lisenssinantaja voi esittää erityisiä pyyntöjä, esimerkiksi pyynnön merkitä tai kuvailla kaikki aineistoon tehdyt muutokset. Vaikka lisenssi ei sitä edellytä, kannustamme sinua kunnioittamaan näitä pyyntöjä silloin, kun se on kohtuullista.
-      <a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">
-       Lisää huomioita yleisölle.
-      </a>
-     </p>
-    </div>
-    <div id="legal-code-body">
-     <h2 id="legal-code-title">
-      CC0 1.0 Yleismaailmallinen
-     </h2>
-     <p>
-      CREATIVE COMMONS CORPORATION EI OLE ASIANAJO- TAI LAKIASIAINTOIMISTO, EIKÄ SE TARJOA OIKEUDELLISIA PALVELUITA. TÄMÄN ASIAKIRJAN LEVITYS EI LUO TOIMEKSIANTO- TAI ASIAKASSUHDETTA. CREATIVE COMMONS TARJOAA TÄMÄN TIEDON "SELLAISENA KUIN SE ON". CREATIVE COMMONS EI ANNA TAKUITA TÄMÄN ASIAKIRJAN KÄYTTÖÖN LIITTYEN TAIKKA LIITTYEN INFORMAATIOON TAI TEOKSIIN, JOITA TÄMÄN ASIAKIRJAN MUKAISESTI TARJOTAAN. CREATIVE COMMONS EI VASTAA VAHINGOISTA, JOTKA AIHEUTUVAT TÄMÄN ASIAKIRJAN TAI TÄMÄN ASIAKIRJAN MUKAISESTI TARJOTTUJEN TEOSTEN TAI INFORMAATION KÄYTÖSTÄ.
-     </p>
-     <h3 id="sop">
-      Tarkoituksen Ilmaus
-     </h3>
-     <p>
-      Useimmissa maailman oikeusjärjestelmissä myönnetään luovan työn itsenäisen ja omaperäisen tuloksen ja/tai tietokannan (kukin ”Teos”) tekijälle tai tältä oikeutensa johtaneille oikeudenhaltijoille (yhdessä ja erikseen ”oikeudenhaltija”) automaattisesti yksinomainen Tekijänoikeus ja yksinomaisia Läheisiä Oikeuksia (määritelty jäljempänä).
-     </p>
-     <p>
-      Jotkut oikeudenhaltijat haluavat pysyvästi luopua tällaisista Teokseen kohdistuvista oikeuksista tarkoituksenaan kartuttaa luovien, kulttuurillisten ja tieteellisten teosten muodostamia yhteisiä resursseja (”Yhteisresurssit”), joita suuri yleisö voi luotettavasti ja ilman oikeuden loukkaamista koskevien väitteiden pelkoa kehittää, muokata ja sisällyttää muihin teoksiin sekä käyttää uudelleen ja levittää edelleen niin vapaasti kuin mahdollista missä tahansa muodossa ja mitä tahansa tarkoitusta varten, sisältäen myös kaupalliset tarkoitukset. Tällaiset oikeudenhaltijat saattavat kartuttaa Yhteisresursseja edistääkseen vapaan kulttuurin ihannetta sekä uusien luovien, kulttuurin ja tieteen piiriin kuuluvien teosten tuottamista taikka saadakseen mainetta tai saattaakseen Teoksensa laajempaan levitykseen osin muiden siihen kohdistuvan käytön ja työn kautta.
-     </p>
-     <p>
-      Näistä ja/tai muista tarkoituksista ja vaikuttimista johtuen, ilman minkäänlaisia odotuksia enemmästä korvauksesta tai hyvityksestä, CC0:n Teokseen liittävä henkilö (”Vahvistaja”), sikäli ja siinä määrin kuin hän on Teoksen Tekijänoikeuden ja Läheisten Oikeuksien haltija, päättää vapaaehtoisesti soveltaa Teokseen CC0:a ja julkisesti levittää Teosta CC0:n mukaisesti tietoisena sekä omasta Tekijänoikeudestaan ja omista Läheisistä Oikeuksistaan Teokseen että CC0:n merkityksestä ja sillä tavoitelluista oikeusvaikutuksista tällaisiin oikeuksiin.
-     </p>
-     <h3 id="copyright">
-      1. Tekijänoikeus ja Läheiset Oikeudet.
-     </h3>
-     <p>
-      CC0:n mukaisesti yleisön saataviin saatettuun Teokseen saattaa kohdistua tekijänoikeuksia, lähioikeuksia ja läheisiä oikeuksia (”Tekijänoikeus ja Läheiset Oikeudet”). Tekijänoikeuteen ja Läheisiin Oikeuksiin kuuluvat mm. seuraavat:
-     </p>
-     <ol type="i">
-      <li>
-       oikeus valmistaa kappaleita Teoksesta ja oikeudet muunnella, levittää, esittää ja näyttää Teosta sekä välittää ja kääntää Teos;
-      </li>
-      <li>
-       alkuperäisten tekijöiden ja/tai esittäjien moraaliset oikeudet;
-      </li>
-      <li>
-       Teoksessa esitettyyn henkilön kuvaan tai henkilön tunnistettavaan osaan liittyvät yksityisyyden suojaa koskevat oikeudet ja henkilön oikeudet määrätä kuvansa tai henkilönsä tunnistettavan osan kaupallisesta käytöstä (
-       <i>
-        privacy and publicity rights
-       </i>
-       );
-      </li>
-      <li>
-       oikeudet, jotka antavat suojaa Teokseen liittyvää vilpillistä kilpailua (
-       <i>
-        unfair competition
-       </i>
-       ) vastaan, alla kappaleessa 4(a) mainituin rajoituksin;
-      </li>
-      <li>
-       Teokseen sisältyvän informaation kopiointia, levitystä, käyttöä ja uudelleenkäyttöä suojaavat oikeudet;
-      </li>
-      <li>
-       tietokantaoikeudet (kuten sellaiset, joista on säädetty Euroopan parlamentin ja neuvoston 11.3.1996 antamassa direktiivissä 96/9/EY tietokantojen oikeudellisesta suojasta, mukaan lukien sen muutokset ja sen sijaan tulleet säännökset, sekä kyseisen direktiivin nojalla kansallisesti täytäntöön pannuissa laeissa); sekä
-      </li>
-      <li>
-       maailmanlaajuisesti muut samankaltaiset, vastaavat tai vastaavanlaiset oikeudet, jotka perustuvat sovellettavaan lakiin taikka kansainväliseen sopimukseen tai sellaisen johdosta säädettyyn kansalliseen säädökseen.
-      </li>
-     </ol>
-     <h3 id="waiver">
-      2. Oikeuksista luopuminen.
-     </h3>
-     <p>
-      Soveltuvan lainsäädännön sallimassa enimmäislaajuudessa lakia vastoin toimimatta Vahvistaja täten nimenomaisesti, täysin, pysyvästi, peruuttamattomasti ja ehdoitta hylkää ja luopuu kaikin osin Tekijänoikeudestaan ja Läheisistä Oikeuksistaan Teokseen sekä näihin oikeuksiin liittyvistä vaateista ja perusteista, olivatpa ne nyt tunnettuja tai tuntemattomia (sisältäen olemassa olevat ja tulevat vaateet ja perusteet), siten, että tämä luopuminen (i) käsittää kaikki maantieteelliset alueet maailmanlaajuisesti, (ii) on kestoltaan lain tai kansainvälisten sopimusten salliman enimmäisajan pituinen (ottaen huomioon tulevat enimmäisajan pidennykset), (iii) käsittää minkä tahansa nykyisen tai tulevan välineen sekä minkä tahansa kappaleiden määrän, (iv) mahdollistaa käytön missä tahansa tarkoituksessa sisältäen myös kaupallisen käytön sekä käytön mainos- ja myynninedistämistarkoituksissa (”Luopuminen”). Vahvistaja luopuu oikeuksistaan edellä mainitulla tavalla Teoksen käyttäjien ja hyödyntäjien hyväksi ja perillistensä ja seuraajiensa vahingoksi siinä vakaassa tarkoituksessa, että Luopumista ei kumota, peruuteta, pureta tai päätetä ja ettei muillakaan oikeudellisilla tai mihinkään oikeusteoriaan perustuvilla toimilla häiritä Teoksen käyttöä ja hyödyntämistä Vahvistajan nimenomaisessa Tarkoituksen Ilmauksessa kuvatulla tavalla.
-     </p>
-     <h3 id="fallback">
-      3. Täydentävä julkinen lisenssi.
-     </h3>
-     <p>
-      Mikäli Luopuminen katsotaan sovellettavan lainsäädännön mukaan joiltain osin oikeudellisesti pätemättömäksi tai tehottomaksi, sovellettakoon Luopumista enimmäislaajuudessaan ottaen huomioon Vahvistajan nimenomainen Tarkoituksen Ilmaus. Lisäksi siltä osin kuin Luopuminen katsotaan pätemättömäksi tai tehottomaksi, Vahvistaja antaa jokaiselle, johon tämä vaikuttaa, rojaltivapaan, peruuttamattoman ja rajoittamattoman lisenssin koskien Vahvistajan Tekijänoikeutta ja Läheisiä Oikeuksia Teokseen, ilman siirto-, alilisensointi- tai yksinoikeutta, siten, että lisenssi (i) käsittää kaikki maantieteelliset alueet maailmanlaajuisesti, (ii) on kestoltaan lain tai kansainvälisten sopimusten salliman enimmäisajan pituinen (ottaen huomioon tulevat enimmäisajan pidennykset), (iii) käsittää minkä tahansa nykyisen tai tulevan välineen sekä minkä tahansa kappaleiden määrän, (iv) annetaan mihin tahansa tarkoitukseen sisältäen myös kaupallisen käytön sekä käytön mainos- ja myynninedistämistarkoituksissa (”Lisenssi”). Lisenssin katsotaan olevan voimassa siitä päivästä lukien, jolloin Vahvistaja sovelsi Teokseen CC0:aa. Mikäli Lisenssi katsotaan sovellettavan lainsäädännön mukaan joiltain osin oikeudellisesti mitättömäksi tai tehottomaksi, tällainen osittainen mitättömyys tai tehottomuus ei mitätöi Lisenssiä muilta osin ja Vahvistaja vakuuttaa, ettei hän tule vastoin nimenomaista Tarkoituksen Ilmaustaan (i) vetoamaan Tekijänoikeuteensa ja Läheisiin Oikeuksiinsa, siltä osin kuin sellaisia yhä kohdistuu Teokseen, taikka (ii) esittämään mitään tähän liittyviä vaatimuksia tai väitteitä Teosta koskien.
-     </p>
-     <h3 id="limitations">
-      4. Rajoitukset ja vastuuvapauslauseke.
-     </h3>
-     <ol type="a">
-      <li>
-       Tällä asiakirjalla Vahvistaja ei luovu, hylkää, lisensoi tai muutoinkaan määrää tavaramerkki- tai patenttioikeuksistaan.
-      </li>
-      <li>
-       Vahvistaja tarjoaa Teoksen sellaisena kuin se on, ilman minkäänlaista nimenomaista, oletettua, lainmukaista tai muunkaltaista takuuta tai takuuehtoa Teokseen liittyen, mukaan lukien lain sallimassa enimmäislaajuudessa esimerkiksi vakuutukset, jotka koskevat omistusoikeutta, myyntikelpoisuutta, tiettyyn tarkoitukseen sopivuutta, oikeuksien loukkaamattomuutta, virheettömyyttä (piilevät tai muut viat), tarkkuutta taikka todettavissa olevia tai todettavissa olemattomia virheitä.
-      </li>
-      <li>
-       Vahvistaja ei ota vastuuta Teokseen tai sen käyttöön mahdollisesti soveltuvien, muiden tahojen oikeuksien selvittämisestä, sisältäen mm. minkä tahansa tahon Tekijänoikeuden ja Läheiset Oikeudet Teokseen. Lisäksi Vahvistaja ei ota vastuuta minkäänlaisten Teoksen käyttöön tarvittavien suostumusten, lupien tai muiden oikeuksien hankkimisesta.
-      </li>
-      <li>
-       Vahvistaja ymmärtää ja myöntää, ettei Creative Commons ole tämän asiakirjan osapuoli, eikä sillä ole mitään tehtäviä tai velvollisuuksia CC0:aan tai Teoksen käyttöön liittyen.
-      </li>
-     </ol>
-    </div>
-    <div class="notice-bottom" id="notice-about-cc-and-trademark">
-     <h2 class="icon-attach fa-info">
-      About Creative Commons
-     </h2>
-     <p>
-      Creative Commons ei ole julkisten lisenssiensä osapuoli. Siitä huolimatta Creative Commons voi päättää asettaa julkaisemaansa aineistoa saataville jollakin julkisista lisensseistään, jolloin tällaisissa tapauksissa sen katsotaan olevan "Lisenssinantaja". Creative Commonsin julkisten lisenssien teksti on asetettu vapaaseen yleiseen käyttöön (public domain)
-      <a href="/publicdomain/zero/1.0/">
-       CC0 Public Domain -lausuman
-      </a>
-      mukaisesti. Creative Commons ei salli ilman etukäteistä kirjallista suostumusta tavaramerkkinsä "Creative Commons" tai minkään muunkaan tavaramerkin taikka Creative Commons -logon käyttöä, mukaan lukien tapauksissa, joissa Creative Commonsin julkisia lisenssejä on luvatta muunneltu, tai liittyen mihin tahansa muihin järjestelyihin, yhteisymmärryksiin tai sopimuksiin, jotka koskevat lisensoidun materiaalin käyttöä. Edellisessä virkkeessä sanottu ei kuitenkaan koske niitä rajoitettuja tapauksia, joissa tarkoitus on ilmaista materiaalin olevan lisensoitu Creative Commonsin julkisella lisenssillä tai joissa käyttö on muutoin Creative Commonsin osoitteessa
-      <a href="/policies/">
-       creativecommons.org/policies
-      </a>
-      julkaisemien käytännesääntöjen sallimaa. Selvyyden vuoksi todettakoon, että tämä kappale ei ole osa Creative Commonsin julkisia lisenssejä.
-     </p>
-     <p>
-      Creative Commonsiin voi ottaa yhteyttä osoitteessa
-      <a href="//creativecommons.org/">
-       creativecommons.org
-      </a>
-      .
-     </p>
-    </div>
-    <p>
-     Creative Commons is the nonprofit behind the open licenses and other legal tools that allow creators to share their work. Our legal tools are free to use.
-    </p>
-    <ul>
-     <li>
-      <a href="/about/">
-       Learn more about our work
-      </a>
-     </li>
-     <li>
-      <strong>
-       <a href="/share-your-work/cclicenses/">
-        Learn more about CC Licensing
-       </a>
-      </strong>
-     </li>
-     <li>
-      <a href="/donate/">
-       Support our work
-      </a>
-     </li>
-     <li>
-      <a href="/choose/">
-       Use the license for your own material.
-      </a>
-     </li>
-     <li>
-      <a href="/licenses/list.fi">
-       Licenses List
-      </a>
-     </li>
-     <li>
-      <a href="/publicdomain/list.fi">
-       Public Domain List
-      </a>
-     </li>
-    </ul>
-   </div>
-  </main>
-  <footer>
-   <a class="identity-logo" href="/">
-    Creative Commons
-   </a>
-   <nav class="footer-menu">
-    <ul>
-     <li>
-      <a href="/about/contact">
-       Contact
-      </a>
-     </li>
-     <li>
-      <a href="https://mail.creativecommons.org/subscribe" target="_blank">
-       Newsletter
-      </a>
-     </li>
-     <li>
-      <a href="/privacy">
-       Privacy
-      </a>
-     </li>
-     <li>
-      <a href="/policies">
-       Policies
-      </a>
-     </li>
-     <li>
-      <a href="/terms">
-       Terms
-      </a>
-     </li>
-    </ul>
-   </nav>
-   <div class="contact">
-    <!-- this area lacks a heading? -->
-    <h2>
-     Contact Us
-    </h2>
-    <p>
-     Creative Commons
-     <br>
-     PO Box 1866, Mountain View, CA 94042
-    </p>
-    <p>
-     <a href="mailto:info@creativecommons.org">
-      info@creativecommons.org
-     </a>
-    </p>
-    <p>
-     <a href="tel:+14154296753">
-      +1-415-429-6753
-     </a>
-    </p>
-    <nav class="social-menu">
-     <ul>
-      <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
-      <li>
-       <a class="icon-replace fa-bluesky" href="https://bsky.app/profile/creativecommons.bsky.social" target="_blank">
-        Bluesky
-       </a>
-      </li>
-      <li>
-       <a class="icon-replace fa-mastodon" href="https://mastodon.social/@creativecommons" target="_blank">
-        Mastodon
-       </a>
-      </li>
-      <li>
-       <a class="icon-replace fa-linkedin" href="https://www.linkedin.com/company/creative-commons/" target="_blank">
-        LinkedIn
-       </a>
-      </li>
-     </ul>
-    </nav>
-   </div>
-   <div class="subscribe">
-    <h2>
-     Subscribe to our Newsletter
-    </h2>
-    <form action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a" class="validate newsletter" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate target="_blank">
-     <input class="email input" id="mce-EMAIL" name="EMAIL" placeholder="Your email" required type="email" value>
-     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-     <div aria-hidden="true" style="position: absolute; left: -5000px">
-      <input name="b_fd30364b6577b471373d6076c_4603fe102a" tabindex="-1" type="text" value>
-     </div>
-     <input class="button small" id="mc-embedded-subscribe" type="submit" value="subscribe">
-    </form>
-   </div>
-   <div class="donate">
-    <h2>
-     Support Our Work
-    </h2>
-    <p>
-     Our work relies on you! Help us keep the Internet free and open.
-    </p>
-    <a class="donate icon-attach cc-heart-filled" href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner" target="_blank">
-     Donate Now
-    </a>
-   </div>
-   <div class="license">
-    <p>
-     Except where otherwise
-     <a href="/policies/#license">
-      noted
-     </a>
-     , content on this site is licensed under a
-     <a href="/licenses/by/4.0/">
-      Creative Commons Attribution 4.0 International license
-     </a>
-     . Icons by
-     <a href="https://fontawesome.com/" target="_blank">
-      Font Awesome
-     </a>
-     .
-    </p>
-    <svg>
-     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo">
-     </use>
-    </svg>
-    <svg>
-     <use href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by">
-     </use>
-    </svg>
-   </div>
-  </footer>
-  <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js">
-  </script>
- </body>
+  <head about="">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+      Oikeudellinen teksti - CC0 1.0 Yleismaailmallinen - Creative Commons
+    </title>
+    <link
+      href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fi"
+      rel="canonical"
+    />
+    <!-- Default: English -->
+    <link href="legalcode.en" hreflang="x-default" rel="alternate" />
+    <!-- Basque -->
+    <link href="legalcode.eu" hreflang="eu" rel="alternate" />
+    <!-- dansk -->
+    <link href="legalcode.da" hreflang="da" rel="alternate" />
+    <!-- Deutsch -->
+    <link href="legalcode.de" hreflang="de" rel="alternate" />
+    <!-- English -->
+    <link href="legalcode.en" hreflang="en" rel="alternate" />
+    <!-- español -->
+    <link href="legalcode.es" hreflang="es" rel="alternate" />
+    <!-- français -->
+    <link href="legalcode.fr" hreflang="fr" rel="alternate" />
+    <!-- Hrvatski -->
+    <link href="legalcode.hr" hreflang="hr" rel="alternate" />
+    <!-- italiano -->
+    <link href="legalcode.it" hreflang="it" rel="alternate" />
+    <!-- latviešu -->
+    <link href="legalcode.lv" hreflang="lv" rel="alternate" />
+    <!-- Lietuviškai -->
+    <link href="legalcode.lt" hreflang="lt" rel="alternate" />
+    <!-- Nederlands -->
+    <link href="legalcode.nl" hreflang="nl" rel="alternate" />
+    <!-- polski -->
+    <link href="legalcode.pl" hreflang="pl" rel="alternate" />
+    <!-- Română -->
+    <link href="legalcode.ro" hreflang="ro" rel="alternate" />
+    <!-- Slovenščina -->
+    <link href="legalcode.sl" hreflang="sl" rel="alternate" />
+    <!-- svenska -->
+    <link href="legalcode.sv" hreflang="sv" rel="alternate" />
+    <!-- Ελληνικά -->
+    <link href="legalcode.el" hreflang="el" rel="alternate" />
+    <!-- 日本語 -->
+    <link href="legalcode.ja" hreflang="ja" rel="alternate" />
+    <!-- 简体中文 -->
+    <link href="legalcode.zh-hans" hreflang="zh-hans" rel="alternate" />
+    <!-- 繁體中文 -->
+    <link href="legalcode.zh-hant" hreflang="zh-hant" rel="alternate" />
+    <!-- 한국어 -->
+    <link href="legalcode.ko" hreflang="ko" rel="alternate" />
+    <link
+      href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/favicon.ico"
+      rel="icon"
+      sizes="any"
+    />
+    <link
+      href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/favicon.svg"
+      rel="icon"
+      type="image/svg+xml"
+    />
+    <link
+      href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/manifest.webmanifest"
+      rel="manifest"
+    />
+    <link
+      href="/wp-content/themes/vocabulary-theme/vocabulary/favicon/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link href="/cc-legal-tools/base.css" rel="stylesheet" />
+    <link href="/cc-legal-tools/legalcode.css" rel="stylesheet" />
+  </head>
+  <body about="" class="default-page cc-legal-tools bidi-left" typeof="">
+    <a class="skip-to-content" href="#main-content-marker">Skip to content</a>
+    <!-- Div element used to mount the Explore CC component-->
+    <header>
+      <div class="masthead">
+        <h1><a class="identity-logo" href="/">Creative Commons</a></h1>
+        <button class="expand-menu">Menu</button>
+        <!-- below menu is not final items, for testing only -->
+        <nav class="primary-menu">
+          <ul>
+            <li><a href="/about/team">Who We Are</a></li>
+            <li><a href="/about">What We Do</a></li>
+            <li><a href="/about/cclicenses/">Licenses and Tools</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about/support-cc/">Support Us</a></li>
+          </ul>
+        </nav>
+        <nav class="ancillary-menu">
+          <ul>
+            <li>
+              <span class="locale icon-attach fa-globe">
+                <select id="languages-dropdown">
+                  <option disabled="">Languages available</option>
+                  <option data-link="legalcode.eu" id="option-eu" value="eu">
+                    Basque
+                  </option>
+                  <option data-link="legalcode.da" id="option-da" value="da">
+                    dansk
+                  </option>
+                  <option data-link="legalcode.de" id="option-de" value="de">
+                    Deutsch
+                  </option>
+                  <option data-link="legalcode.en" id="option-en" value="en">
+                    English
+                  </option>
+                  <option data-link="legalcode.es" id="option-es" value="es">
+                    español
+                  </option>
+                  <option data-link="legalcode.fr" id="option-fr" value="fr">
+                    français
+                  </option>
+                  <option data-link="legalcode.hr" id="option-hr" value="hr">
+                    Hrvatski
+                  </option>
+                  <option data-link="legalcode.it" id="option-it" value="it">
+                    italiano
+                  </option>
+                  <option data-link="legalcode.lv" id="option-lv" value="lv">
+                    latviešu
+                  </option>
+                  <option data-link="legalcode.lt" id="option-lt" value="lt">
+                    Lietuviškai
+                  </option>
+                  <option data-link="legalcode.nl" id="option-nl" value="nl">
+                    Nederlands
+                  </option>
+                  <option data-link="legalcode.pl" id="option-pl" value="pl">
+                    polski
+                  </option>
+                  <option data-link="legalcode.ro" id="option-ro" value="ro">
+                    Română
+                  </option>
+                  <option data-link="legalcode.sl" id="option-sl" value="sl">
+                    Slovenščina
+                  </option>
+                  <option
+                    data-link="legalcode.fi"
+                    id="option-fi"
+                    selected=""
+                    value="fi"
+                  >
+                    suomi
+                  </option>
+                  <option data-link="legalcode.sv" id="option-sv" value="sv">
+                    svenska
+                  </option>
+                  <option data-link="legalcode.el" id="option-el" value="el">
+                    Ελληνικά
+                  </option>
+                  <option data-link="legalcode.ja" id="option-ja" value="ja">
+                    日本語
+                  </option>
+                  <option
+                    data-link="legalcode.zh-hans"
+                    id="option-zh-hans"
+                    value="zh-hans"
+                  >
+                    简体中文
+                  </option>
+                  <option
+                    data-link="legalcode.zh-hant"
+                    id="option-zh-hant"
+                    value="zh-hant"
+                  >
+                    繁體中文
+                  </option>
+                  <option data-link="legalcode.ko" id="option-ko" value="ko">
+                    한국어
+                  </option>
+                </select>
+              </span>
+            </li>
+            <script src="/cc-legal-tools/language-dropdown.js"></script>
+            <li>
+              <a class="search icon-attach fa-search" href="/?s">Search</a>
+            </li>
+            <li>
+              <a
+                class="donate icon-attach fa-heart"
+                href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner"
+                target="_blank"
+                >Donate</a
+              >
+            </li>
+            <li><button class="explore">Explore CC</button></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="explore-panel">
+        <nav class="explore-menu">
+          <ul>
+            <li>
+              <a href="https://network.creativecommons.org/" target="_blank"
+                >Global Network</a
+              >
+              <p>Join a global community working to strengthen the Commons</p>
+            </li>
+            <li>
+              <a href="https://certificate.creativecommons.org/" target="_blank"
+                >Certificate</a
+              >
+              <p>
+                Become an expert in creating and engaging with openly licensed
+                materials
+              </p>
+            </li>
+            <li>
+              <a href="https://summit.creativecommons.org/" target="_blank"
+                >Global Summit</a
+              >
+              <p>
+                Attend our annual event, promoting the power of open licensing
+              </p>
+            </li>
+            <li>
+              <a href="/choose" target="_blank">Chooser</a>
+              <p>Get help choosing the appropriate license for your work</p>
+            </li>
+            <li>
+              <a href="https://search.creativecommons.org/" target="_blank"
+                >Search Portal</a
+              >
+              <p>
+                Find engines to search openly licensed material for creative and
+                educational reuse
+              </p>
+            </li>
+            <li>
+              <a href="https://opensource.creativecommons.org/" target="_blank"
+                >Open Source</a
+              >
+              <p>
+                Help us build products that maximize creativity and innovation
+              </p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="attention low-importance">
+      <p>
+        Help us protect the commons. Make a tax deductible gift to fund our
+        work.
+        <a
+          href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=temp-banner"
+          >Donate today!</a
+        >
+      </p>
+    </article>
+    <span id="main-content-marker"></span>
+    <main>
+      <header>
+        <h1>CC0 1.0 Yleismaailmallinen</h1>
+        <span class="alt-titles">
+          <span class="tool-icons">
+            <span class="cc-icon">
+              <svg viewbox="0 0 30 30">
+                <use
+                  href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo"
+                ></use>
+              </svg>
+            </span>
+            <span class="cc-icon">
+              <svg viewbox="0 0 30 30">
+                <use
+                  href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-zero"
+                ></use>
+              </svg>
+            </span>
+          </span>
+          <span class="tool-identifier">CC0 1.0</span>
+        </span>
+        <h2>Oikeudellinen teksti</h2>
+      </header>
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <a href="#legal-code-title">CC0 1.0 Yleismaailmallinen</a>
+              <ul>
+                <li>
+                  <a href="#sop"> Tarkoituksen Ilmaus </a>
+                </li>
+                <li>
+                  <a href="#copyright">
+                    1. Tekijänoikeus ja Läheiset Oikeudet.
+                  </a>
+                </li>
+                <li>
+                  <a href="#waiver"> 2. Oikeuksista luopuminen. </a>
+                </li>
+                <li>
+                  <a href="#fallback"> 3. Täydentävä julkinen lisenssi. </a>
+                </li>
+                <li>
+                  <a href="#limitations">
+                    4. Rajoitukset ja vastuuvapauslauseke.
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="content">
+        <div class="tool-meta">
+          <div class="meta-box">
+            <article class="canonical-url">
+              <h2>Canonical URL</h2>
+              <a href="https://creativecommons.org/publicdomain/zero/1.0/"
+                >https://creativecommons.org/publicdomain/zero/1.0/</a
+              >
+            </article>
+            <article class="formats">
+              <h2>Other formats</h2>
+              <ul>
+                <li><a href="legalcode.txt">Plain Text</a></li>
+                <li><a href="rdf">RDF/XML</a></li>
+              </ul>
+            </article>
+          </div>
+          <div class="alt-view">
+            <a href="deed.fi">See the deed</a>
+          </div>
+        </div>
+        <p>
+          Versio 1.0 • See the <a href="/legal-code-errata/">errata page</a> for
+          any corrections and the date of change
+        </p>
+        <div class="notice-top" id="notice-about-licenses-and-cc">
+          <h2 class="icon-attach fa-info">
+            About the license and Creative Commons
+          </h2>
+          <p>
+            Creative Commons Corporation ("Creative Commons") ei ole asianajo-
+            tai lakiasiaintoimisto, eikä se tarjoa oikeudellisia palveluja tai
+            neuvoja. Creative Commonsin julkisten lisenssien levittäminen ei luo
+            toimeksianto- eikä muutakaan suhdetta. Creative Commons tarjoaa
+            lisenssinsä ja niihin liittyvät tiedot "sellaisena kuin ne ovat".
+            Creative Commons ei anna mitään takuita liittyen lisensseihinsä tai
+            niillä julkaistuihin aineistoihin taikka muihin liitännäisiin
+            tietoihin eikä ota mitään vastuuta vahingoista, jotka aiheutuvat
+            niiden käytöstä, siinä määrin kuin laki tällaisen määräyksen sallii.
+          </p>
+        </div>
+        <div class="notice-top" id="about-cc-and-license">
+          <h2 class="level is-vcentered b-header">
+            Creative Commonsin Julkisten Lisenssien käyttö
+          </h2>
+          <p>
+            Creative Commonsin julkiset lisenssit tarjoavat vakioidut ehdot,
+            joita teosten luojat ja muut oikeudenhaltijat voivat käyttää
+            jakaakseen luomistyönsä itsenäisiä ja omaperäisiä tuloksia sekä
+            muita tekijänoikeuden ja tiettyjen muiden alla olevassa julkisessa
+            lisenssissä määriteltyjen oikeuksien alaisia sisältöjä ja
+            aineistoja. Seuraavat huomiot on tarkoitettu vain tiedoksi, eivätkä
+            ne ole tyhjentäviä eivätkä muodosta osaa lisensseistämme.
+          </p>
+          <hr class="divider" />
+          <h3 class="level is-vcentered b-header">
+            Huomioita lisenssinantajille
+          </h3>
+          <p>
+            Julkiset lisenssimme on tarkoitettu sellaisten tahojen käyttöön,
+            joilla on oikeus antaa yleisölle lupa käyttää aineistoa tavoilla,
+            joita muuten rajoittaisivat tekijänoikeus ja tietyt muut oikeudet.
+            Lisenssejämme ei voi peruuttaa. Lisenssinantajien tulisi lukea ja
+            ymmärtää valitsemansa lisenssin ehdot ennen lisenssin käyttämistä.
+            Lisenssinantajien tulisi myös hankkia kaikki tarvittavat oikeudet
+            ennen lisenssiemme käyttöä, jotta yleisö voi käyttää aineistoa
+            uudelleen odotetulla tavalla. Lisenssinantajien tulisi selvästi
+            merkitä kaikki aineisto, jota lisenssi ei koske. Tällaiseen
+            aineistoon kuuluu muilla CC-lisensseillä lisensoitu aineisto sekä
+            aineisto, jota on käytetty tekijänoikeutta koskevan poikkeuksen tai
+            rajoituksen nojalla.
+            <a
+              href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors"
+              >Lisää huomioita lisenssinantajille.</a
+            >
+          </p>
+          <hr class="divider" />
+          <h3 class="level is-vcentered b-header">Huomioita yleisölle</h3>
+          <p>
+            Käyttäessään jotakin julkisista lisensseistämme lisenssinantaja
+            antaa yleisölle luvan käyttää lisensoitua aineistoa määriteltyjen
+            ehtojen mukaisesti. Jos lisenssinantajan lupa ei jostain syystä ole
+            tarpeen – esimerkiksi siksi, että tekijänoikeuteen soveltuu jokin
+            poikkeus tai rajoitus – lisenssi ei rajoita tällaista käyttöä.
+            Lisensseillämme annetaan vain sellaiset tekijänoikeuden ja tiettyjen
+            muiden oikeuksien alaiset luvat, jotka lisenssinantaja on oikeutettu
+            antamaan. Lisensoidun aineiston käyttö voi edelleen olla rajoitettua
+            muista syistä, esimerkiksi siksi, että jollakulla muulla on
+            aineistoon tekijänoikeus tai muita oikeuksia. Lisenssinantaja voi
+            esittää erityisiä pyyntöjä, esimerkiksi pyynnön merkitä tai kuvailla
+            kaikki aineistoon tehdyt muutokset. Vaikka lisenssi ei sitä
+            edellytä, kannustamme sinua kunnioittamaan näitä pyyntöjä silloin,
+            kun se on kohtuullista.
+            <a
+              href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees"
+              >Lisää huomioita yleisölle.</a
+            >
+          </p>
+        </div>
+        <div id="legal-code-body">
+          <h2 id="legal-code-title">CC0 1.0 Yleismaailmallinen</h2>
+          <p>
+            CREATIVE COMMONS CORPORATION EI OLE ASIANAJO- TAI
+            LAKIASIAINTOIMISTO, EIKÄ SE TARJOA OIKEUDELLISIA PALVELUITA. TÄMÄN
+            ASIAKIRJAN LEVITYS EI LUO TOIMEKSIANTO- TAI ASIAKASSUHDETTA.
+            CREATIVE COMMONS TARJOAA TÄMÄN TIEDON "SELLAISENA KUIN SE ON".
+            CREATIVE COMMONS EI ANNA TAKUITA TÄMÄN ASIAKIRJAN KÄYTTÖÖN LIITTYEN
+            TAIKKA LIITTYEN INFORMAATIOON TAI TEOKSIIN, JOITA TÄMÄN ASIAKIRJAN
+            MUKAISESTI TARJOTAAN. CREATIVE COMMONS EI VASTAA VAHINGOISTA, JOTKA
+            AIHEUTUVAT TÄMÄN ASIAKIRJAN TAI TÄMÄN ASIAKIRJAN MUKAISESTI
+            TARJOTTUJEN TEOSTEN TAI INFORMAATION KÄYTÖSTÄ.
+          </p>
+          <h3 id="sop">Tarkoituksen Ilmaus</h3>
+          <p>
+            Useimmissa maailman oikeusjärjestelmissä myönnetään luovan työn
+            itsenäisen ja omaperäisen tuloksen ja/tai tietokannan (kukin ”Teos”)
+            tekijälle tai tältä oikeutensa johtaneille oikeudenhaltijoille
+            (yhdessä ja erikseen ”oikeudenhaltija”) automaattisesti yksinomainen
+            Tekijänoikeus ja yksinomaisia Läheisiä Oikeuksia (määritelty
+            jäljempänä).
+          </p>
+          <p>
+            Jotkut oikeudenhaltijat haluavat pysyvästi luopua tällaisista
+            Teokseen kohdistuvista oikeuksista tarkoituksenaan kartuttaa
+            luovien, kulttuurillisten ja tieteellisten teosten muodostamia
+            yhteisiä resursseja (”Yhteisresurssit”), joita suuri yleisö voi
+            luotettavasti ja ilman oikeuden loukkaamista koskevien väitteiden
+            pelkoa kehittää, muokata ja sisällyttää muihin teoksiin sekä käyttää
+            uudelleen ja levittää edelleen niin vapaasti kuin mahdollista missä
+            tahansa muodossa ja mitä tahansa tarkoitusta varten, sisältäen myös
+            kaupalliset tarkoitukset. Tällaiset oikeudenhaltijat saattavat
+            kartuttaa Yhteisresursseja edistääkseen vapaan kulttuurin ihannetta
+            sekä uusien luovien, kulttuurin ja tieteen piiriin kuuluvien teosten
+            tuottamista taikka saadakseen mainetta tai saattaakseen Teoksensa
+            laajempaan levitykseen osin muiden siihen kohdistuvan käytön ja työn
+            kautta.
+          </p>
+          <p>
+            Näistä ja/tai muista tarkoituksista ja vaikuttimista johtuen, ilman
+            minkäänlaisia odotuksia enemmästä korvauksesta tai hyvityksestä,
+            CC0:n Teokseen liittävä henkilö (”Vahvistaja”), sikäli ja siinä
+            määrin kuin hän on Teoksen Tekijänoikeuden ja Läheisten Oikeuksien
+            haltija, päättää vapaaehtoisesti soveltaa Teokseen CC0:a ja
+            julkisesti levittää Teosta CC0:n mukaisesti tietoisena sekä omasta
+            Tekijänoikeudestaan ja omista Läheisistä Oikeuksistaan Teokseen että
+            CC0:n merkityksestä ja sillä tavoitelluista oikeusvaikutuksista
+            tällaisiin oikeuksiin.
+          </p>
+          <h3 id="copyright">1. Tekijänoikeus ja Läheiset Oikeudet.</h3>
+          <p>
+            CC0:n mukaisesti yleisön saataviin saatettuun Teokseen saattaa
+            kohdistua tekijänoikeuksia, lähioikeuksia ja läheisiä oikeuksia
+            (”Tekijänoikeus ja Läheiset Oikeudet”). Tekijänoikeuteen ja
+            Läheisiin Oikeuksiin kuuluvat mm. seuraavat:
+          </p>
+          <ol type="i">
+            <li>
+              oikeus valmistaa kappaleita Teoksesta ja oikeudet muunnella,
+              levittää, esittää ja näyttää Teosta sekä välittää ja kääntää Teos;
+            </li>
+            <li>
+              alkuperäisten tekijöiden ja/tai esittäjien moraaliset oikeudet;
+            </li>
+            <li>
+              Teoksessa esitettyyn henkilön kuvaan tai henkilön tunnistettavaan
+              osaan liittyvät yksityisyyden suojaa koskevat oikeudet ja henkilön
+              oikeudet määrätä kuvansa tai henkilönsä tunnistettavan osan
+              kaupallisesta käytöstä (<i>privacy and publicity rights</i>);
+            </li>
+            <li>
+              oikeudet, jotka antavat suojaa Teokseen liittyvää vilpillistä
+              kilpailua (<i>unfair competition</i>) vastaan, alla kappaleessa
+              4(a) mainituin rajoituksin;
+            </li>
+            <li>
+              Teokseen sisältyvän informaation kopiointia, levitystä, käyttöä ja
+              uudelleenkäyttöä suojaavat oikeudet;
+            </li>
+            <li>
+              tietokantaoikeudet (kuten sellaiset, joista on säädetty Euroopan
+              parlamentin ja neuvoston 11.3.1996 antamassa direktiivissä 96/9/EY
+              tietokantojen oikeudellisesta suojasta, mukaan lukien sen
+              muutokset ja sen sijaan tulleet säännökset, sekä kyseisen
+              direktiivin nojalla kansallisesti täytäntöön pannuissa laeissa);
+              sekä
+            </li>
+            <li>
+              maailmanlaajuisesti muut samankaltaiset, vastaavat tai
+              vastaavanlaiset oikeudet, jotka perustuvat sovellettavaan lakiin
+              taikka kansainväliseen sopimukseen tai sellaisen johdosta
+              säädettyyn kansalliseen säädökseen.
+            </li>
+          </ol>
+          <h3 id="waiver">2. Oikeuksista luopuminen.</h3>
+          <p>
+            Soveltuvan lainsäädännön sallimassa enimmäislaajuudessa lakia
+            vastoin toimimatta Vahvistaja täten nimenomaisesti, täysin,
+            pysyvästi, peruuttamattomasti ja ehdoitta hylkää ja luopuu kaikin
+            osin Tekijänoikeudestaan ja Läheisistä Oikeuksistaan Teokseen sekä
+            näihin oikeuksiin liittyvistä vaateista ja perusteista, olivatpa ne
+            nyt tunnettuja tai tuntemattomia (sisältäen olemassa olevat ja
+            tulevat vaateet ja perusteet), siten, että tämä luopuminen (i)
+            käsittää kaikki maantieteelliset alueet maailmanlaajuisesti, (ii) on
+            kestoltaan lain tai kansainvälisten sopimusten salliman enimmäisajan
+            pituinen (ottaen huomioon tulevat enimmäisajan pidennykset), (iii)
+            käsittää minkä tahansa nykyisen tai tulevan välineen sekä minkä
+            tahansa kappaleiden määrän, (iv) mahdollistaa käytön missä tahansa
+            tarkoituksessa sisältäen myös kaupallisen käytön sekä käytön mainos-
+            ja myynninedistämistarkoituksissa (”Luopuminen”). Vahvistaja luopuu
+            oikeuksistaan edellä mainitulla tavalla Teoksen käyttäjien ja
+            hyödyntäjien hyväksi ja perillistensä ja seuraajiensa vahingoksi
+            siinä vakaassa tarkoituksessa, että Luopumista ei kumota, peruuteta,
+            pureta tai päätetä ja ettei muillakaan oikeudellisilla tai mihinkään
+            oikeusteoriaan perustuvilla toimilla häiritä Teoksen käyttöä ja
+            hyödyntämistä Vahvistajan nimenomaisessa Tarkoituksen Ilmauksessa
+            kuvatulla tavalla.
+          </p>
+          <h3 id="fallback">3. Täydentävä julkinen lisenssi.</h3>
+          <p>
+            Mikäli Luopuminen katsotaan sovellettavan lainsäädännön mukaan
+            joiltain osin oikeudellisesti pätemättömäksi tai tehottomaksi,
+            sovellettakoon Luopumista enimmäislaajuudessaan ottaen huomioon
+            Vahvistajan nimenomainen Tarkoituksen Ilmaus. Lisäksi siltä osin
+            kuin Luopuminen katsotaan pätemättömäksi tai tehottomaksi,
+            Vahvistaja antaa jokaiselle, johon tämä vaikuttaa, rojaltivapaan,
+            peruuttamattoman ja rajoittamattoman lisenssin koskien Vahvistajan
+            Tekijänoikeutta ja Läheisiä Oikeuksia Teokseen, ilman siirto-,
+            alilisensointi- tai yksinoikeutta, siten, että lisenssi (i) käsittää
+            kaikki maantieteelliset alueet maailmanlaajuisesti, (ii) on
+            kestoltaan lain tai kansainvälisten sopimusten salliman enimmäisajan
+            pituinen (ottaen huomioon tulevat enimmäisajan pidennykset), (iii)
+            käsittää minkä tahansa nykyisen tai tulevan välineen sekä minkä
+            tahansa kappaleiden määrän, (iv) annetaan mihin tahansa
+            tarkoitukseen sisältäen myös kaupallisen käytön sekä käytön mainos-
+            ja myynninedistämistarkoituksissa (”Lisenssi”). Lisenssin katsotaan
+            olevan voimassa siitä päivästä lukien, jolloin Vahvistaja sovelsi
+            Teokseen CC0:aa. Mikäli Lisenssi katsotaan sovellettavan
+            lainsäädännön mukaan joiltain osin oikeudellisesti mitättömäksi tai
+            tehottomaksi, tällainen osittainen mitättömyys tai tehottomuus ei
+            mitätöi Lisenssiä muilta osin ja Vahvistaja vakuuttaa, ettei hän
+            tule vastoin nimenomaista Tarkoituksen Ilmaustaan (i) vetoamaan
+            Tekijänoikeuteensa ja Läheisiin Oikeuksiinsa, siltä osin kuin
+            sellaisia yhä kohdistuu Teokseen, taikka (ii) esittämään mitään
+            tähän liittyviä vaatimuksia tai väitteitä Teosta koskien.
+          </p>
+          <h3 id="limitations">4. Rajoitukset ja vastuuvapauslauseke.</h3>
+          <ol type="a">
+            <li>
+              Tällä asiakirjalla Vahvistaja ei luovu, hylkää, lisensoi tai
+              muutoinkaan määrää tavaramerkki- tai patenttioikeuksistaan.
+            </li>
+            <li>
+              Vahvistaja tarjoaa Teoksen sellaisena kuin se on, ilman
+              minkäänlaista nimenomaista, oletettua, lainmukaista tai
+              muunkaltaista takuuta tai takuuehtoa Teokseen liittyen, mukaan
+              lukien lain sallimassa enimmäislaajuudessa esimerkiksi
+              vakuutukset, jotka koskevat omistusoikeutta, myyntikelpoisuutta,
+              tiettyyn tarkoitukseen sopivuutta, oikeuksien loukkaamattomuutta,
+              virheettömyyttä (piilevät tai muut viat), tarkkuutta taikka
+              todettavissa olevia tai todettavissa olemattomia virheitä.
+            </li>
+            <li>
+              Vahvistaja ei ota vastuuta Teokseen tai sen käyttöön mahdollisesti
+              soveltuvien, muiden tahojen oikeuksien selvittämisestä, sisältäen
+              mm. minkä tahansa tahon Tekijänoikeuden ja Läheiset Oikeudet
+              Teokseen. Lisäksi Vahvistaja ei ota vastuuta minkäänlaisten
+              Teoksen käyttöön tarvittavien suostumusten, lupien tai muiden
+              oikeuksien hankkimisesta.
+            </li>
+            <li>
+              Vahvistaja ymmärtää ja myöntää, ettei Creative Commons ole tämän
+              asiakirjan osapuoli, eikä sillä ole mitään tehtäviä tai
+              velvollisuuksia CC0:aan tai Teoksen käyttöön liittyen.
+            </li>
+          </ol>
+        </div>
+        <div class="notice-bottom" id="notice-about-cc-and-trademark">
+          <h2 class="icon-attach fa-info">About Creative Commons</h2>
+          <p>
+            Creative Commons ei ole julkisten lisenssiensä osapuoli. Siitä
+            huolimatta Creative Commons voi päättää asettaa julkaisemaansa
+            aineistoa saataville jollakin julkisista lisensseistään, jolloin
+            tällaisissa tapauksissa sen katsotaan olevan "Lisenssinantaja".
+            Creative Commonsin julkisten lisenssien teksti on asetettu vapaaseen
+            yleiseen käyttöön (public domain)
+            <a href="/publicdomain/zero/1.0/">CC0 Public Domain -lausuman</a>
+            mukaisesti. Creative Commons ei salli ilman etukäteistä kirjallista
+            suostumusta tavaramerkkinsä "Creative Commons" tai minkään muunkaan
+            tavaramerkin taikka Creative Commons -logon käyttöä, mukaan lukien
+            tapauksissa, joissa Creative Commonsin julkisia lisenssejä on
+            luvatta muunneltu, tai liittyen mihin tahansa muihin järjestelyihin,
+            yhteisymmärryksiin tai sopimuksiin, jotka koskevat lisensoidun
+            materiaalin käyttöä. Edellisessä virkkeessä sanottu ei kuitenkaan
+            koske niitä rajoitettuja tapauksia, joissa tarkoitus on ilmaista
+            materiaalin olevan lisensoitu Creative Commonsin julkisella
+            lisenssillä tai joissa käyttö on muutoin Creative Commonsin
+            osoitteessa
+            <a href="/policies/">creativecommons.org/policies</a> julkaisemien
+            käytännesääntöjen sallimaa. Selvyyden vuoksi todettakoon, että tämä
+            kappale ei ole osa Creative Commonsin julkisia lisenssejä.
+          </p>
+          <p>
+            Creative Commonsiin voi ottaa yhteyttä osoitteessa
+            <a href="//creativecommons.org/">creativecommons.org</a>.
+          </p>
+        </div>
+        <p>
+          Creative Commons is the nonprofit behind the open licenses and other
+          legal tools that allow creators to share their work. Our legal tools
+          are free to use.
+        </p>
+        <ul>
+          <li><a href="/about/">Learn more about our work</a></li>
+          <li>
+            <strong
+              ><a href="/share-your-work/cclicenses/"
+                >Learn more about CC Licensing</a
+              ></strong
+            >
+          </li>
+          <li><a href="/donate/">Support our work</a></li>
+          <li><a href="/choose/">Use the license for your own material.</a></li>
+          <li><a href="/licenses/list.fi">Licenses List</a></li>
+          <li><a href="/publicdomain/list.fi">Public Domain List</a></li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <a class="identity-logo" href="/">Creative Commons</a>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="/about/contact">Contact</a></li>
+          <li>
+            <a href="https://mail.creativecommons.org/subscribe" target="_blank"
+              >Newsletter</a
+            >
+          </li>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/policies">Policies</a></li>
+          <li><a href="/terms">Terms</a></li>
+        </ul>
+      </nav>
+      <div class="contact">
+        <!-- this area lacks a heading? -->
+        <h2>Contact Us</h2>
+        <p>
+          Creative Commons <br />
+          PO Box 1866, Mountain View, CA 94042
+        </p>
+        <p>
+          <a href="mailto:info@creativecommons.org">info@creativecommons.org</a>
+        </p>
+        <p><a href="tel:+14154296753">+1-415-429-6753</a></p>
+        <nav class="social-menu">
+          <ul>
+            <!-- <li><a class="icon-replace fa-instagram" href="#">Instagram</a></li> -->
+            <li>
+              <a
+                class="icon-replace fa-bluesky"
+                href="https://bsky.app/profile/creativecommons.bsky.social"
+                target="_blank"
+                >Bluesky</a
+              >
+            </li>
+            <li>
+              <a
+                class="icon-replace fa-mastodon"
+                href="https://mastodon.social/@creativecommons"
+                target="_blank"
+                >Mastodon</a
+              >
+            </li>
+            <li>
+              <a
+                class="icon-replace fa-linkedin"
+                href="https://www.linkedin.com/company/creative-commons/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="subscribe">
+        <h2>Subscribe to our Newsletter</h2>
+        <form
+          action="https://creativecommons.us4.list-manage.com/subscribe/post?u=fd30364b6577b471373d6076c&amp;id=4603fe102a"
+          class="validate newsletter"
+          id="mc-embedded-subscribe-form"
+          method="post"
+          name="mc-embedded-subscribe-form"
+          novalidate=""
+          target="_blank"
+        >
+          <input
+            class="email input"
+            id="mce-EMAIL"
+            name="EMAIL"
+            placeholder="Your email"
+            required=""
+            type="email"
+            value=""
+          />
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div aria-hidden="true" style="position: absolute; left: -5000px">
+            <input
+              name="b_fd30364b6577b471373d6076c_4603fe102a"
+              tabindex="-1"
+              type="text"
+              value=""
+            />
+          </div>
+          <input
+            class="button small"
+            id="mc-embedded-subscribe"
+            type="submit"
+            value="subscribe"
+          />
+        </form>
+      </div>
+      <div class="donate">
+        <h2>Support Our Work</h2>
+        <p>Our work relies on you! Help us keep the Internet free and open.</p>
+        <a
+          class="donate icon-attach cc-heart-filled"
+          href="https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&amp;c_src2=top-of-page-banner"
+          target="_blank"
+          >Donate Now</a
+        >
+      </div>
+      <div class="license">
+        <p>
+          Except where otherwise <a href="/policies/#license">noted</a>, content
+          on this site is licensed under a
+          <a href="/licenses/by/4.0/"
+            >Creative Commons Attribution 4.0 International license</a
+          >. Icons by
+          <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+        </p>
+        <svg>
+          <use
+            href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-logo"
+          ></use>
+        </svg>
+        <svg>
+          <use
+            href="/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/icons/cc-icons.svg#cc-by"
+          ></use>
+        </svg>
+      </div>
+    </footer>
+    <script src="/wp-content/themes/vocabulary-theme/vocabulary/js/vocabulary.js"></script>
+  </body>
 </html>
