@@ -1,4 +1,14 @@
 @import "/wp-content/themes/vocabulary-theme/style.css" layer(vocabulary-theme);
+@import "/wp-content/themes/vocabulary-theme/pidgin/css/pidgin.css" layer(vocabulary);
+
+
+body .locale {
+  display: flex;
+}
+
+body.legal-tools main {
+  margin-bottom: 8em;
+}
 
 /* html */
 .bidi-left main ul,
@@ -86,6 +96,7 @@ main > header > span.alt-titles > span.tool-icons > span.cc-icon > svg {
 .cc-legal-tools main > header > h1 {
   margin: 0.2em 0;
   order: 2;
+  text-align: center;
 }
 .cc-legal-tools main > header > h2 {
   margin: 0;
@@ -94,7 +105,6 @@ main > header > span.alt-titles > span.tool-icons > span.cc-icon > svg {
 
 /* right nav */
 .cc-legal-tools main > aside {
-  background-color: var(--vocabulary-brand-color-soft-gold);
   margin-left: 4.1rem;
   padding: 1em;
   height: fit-content;
@@ -150,14 +160,14 @@ main > aside > nav ul > li {
 }
 .cc-legal-tools .tool-meta div.meta-box {
   list-style: none;
-  background-color: var(--vocabulary-brand-color-soft-turquoise);
+  /* background-color: var(--vocabulary-brand-color-soft-turquoise); */
   border-radius: 5px;
   padding: 0.8em;
   padding-top: 1em;
   padding-right: 1.4em;
 }
 .cc-legal-tools .tool-meta div.meta-box a {
-  --underline-background-color: var(--vocabulary-brand-color-soft-turquoise);
+  /* --underline-background-color: var(--vocabulary-brand-color-soft-turquoise); */
   font-family: "Source Sans Pro";
 }
 .cc-legal-tools .tool-meta h2 {
@@ -219,16 +229,22 @@ main > aside > nav ul > li {
   margin-bottom: 0;
 }
 .cc-legal-tools div.notice-bottom {
-  background-color: var(--vocabulary-brand-color-soft-turquoise);
+  /* background-color: var(--vocabulary-brand-color-soft-turquoise); */
+  background: #F4FFA6;
 }
 .cc-legal-tools div.notice-bottom a {
-  --underline-background-color: var(--vocabulary-brand-color-soft-turquoise);
+  /* --underline-background-color: var(--vocabulary-brand-color-soft-turquoise); */
+  --underline-background-color: #F4FFA6;
+
 }
 .cc-legal-tools div.notice-top {
-  background-color: var(--vocabulary-brand-color-soft-tomato);
+  /* background-color: var(--vocabulary-brand-color-soft-tomato); */
+  background: #F4FFA6;
+
 }
 .cc-legal-tools div.notice-top a {
-  --underline-background-color: var(--vocabulary-brand-color-soft-tomato);
+  /* --underline-background-color: var(--vocabulary-brand-color-soft-tomato); */
+  --underline-background-color: #F4FFA6;
 }
 
 .cc-legal-tools p.document-link {
