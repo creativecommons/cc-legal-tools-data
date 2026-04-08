@@ -3,7 +3,7 @@ Theme Name: CC Vocabulary Theme
 Author: the Creative Commons team; possumbilities, Timid Robot
 Author URI: https://opensource.creativecommons.org/
 Description: Theme based on the Vocabulary Design System
-Version: 1.15
+Version: 2.3
 Requires at least: 5.0
 Tested up to: 6.2.2
 Requires PHP: 7.0
@@ -126,7 +126,7 @@ main nav.pagination ul li {
     margin: 0 .5em;
 }
 
-main nav.pagination ul li a, main nav.pagination ul li span {
+/* main nav.pagination ul li a, main nav.pagination ul li span {
     padding: .4em .7em;
 
     background: #F5F5F5;
@@ -138,7 +138,7 @@ main nav.pagination ul li a, main nav.pagination ul li span {
     font-size: 1.2em;
     text-transform: none;
     text-decoration: none;
-}
+} */
 
 main nav.pagination ul li span.current {
     padding: .4em .7em;
@@ -150,22 +150,22 @@ main nav.pagination ul li span.current {
 
 
 
-/* Theme specific context rules (mostly home-narrative) */
+/* Theme specific context rules (mostly home-index) */
 
-/* .home-narrative > article:nth-of-type(3) {
+/* .home-index > article:nth-of-type(3) {
   background:var(--vocabulary-brand-color-tomato);
 }
 
-.home-narrative > article:nth-of-type(3) footer {
+.home-index > article:nth-of-type(3) footer {
   background: white;
 } */
 
-/* .home-narrative > article:nth-of-type(4) {
+/* .home-index > article:nth-of-type(4) {
   background:var(--vocabulary-brand-color-gold);
 } */
 
 
-.home-narrative main {
+.home-index main {
   margin-top: 3.4em;
   margin-right: 0;
   margin-bottom: 0;
@@ -175,11 +175,11 @@ main nav.pagination ul li span.current {
   font-weight: 400;
 }
 
-.home-narrative main > header {
+.home-index main > header {
   margin-bottom: 0;
 }
 
-.home-narrative main > article > h2 {
+.home-index main > article > h2 {
   margin-bottom: .2em;
 
   font-style: normal;
@@ -188,22 +188,22 @@ main nav.pagination ul li span.current {
   font-size: 2.865em;
 }
 
-.home-narrative main > article:nth-of-type(1) > h2 {
+.home-index main > article:nth-of-type(1) > h2 {
   margin-top: 0;
 
   font-size: 3.56em;
 }
 
-.home-narrative main p {
+.home-index main p {
   font-size: 1.5em;
   line-height: 150%;
 }
 
-.home-narrative main ul {
+.home-index main ul {
   font-size: 1rem;
 }
 
-.home-narrative .topic-summary {
+.home-index .topic-summary {
   grid-column: 2 / span 9;
   display: grid;
   grid-template:
@@ -216,11 +216,11 @@ main nav.pagination ul li span.current {
   gap: 0 4em;
 }
 
-.home-narrative .topic-summary h2 {
+.home-index .topic-summary h2 {
   grid-area: title;
 }
 
-.home-narrative .topic-summary img {
+.home-index .topic-summary img {
   width: 100%;
   height: 200px;
   grid-area: graphic;
@@ -229,7 +229,7 @@ main nav.pagination ul li span.current {
   background: black;
 }
 
-.home-narrative .topic-summary figure {
+.home-index .topic-summary figure {
   width: 100%;
   grid-area: graphic;
   margin: 0;
@@ -237,21 +237,25 @@ main nav.pagination ul li span.current {
   margin-top: .6em;
 }
 
-.home-narrative .topic-summary figure iframe {
+body main article.topic-summary.intro figure {
+  z-index: 1;
+}
+
+.home-index .topic-summary figure iframe {
   height: 70%;
 
   background: black;
 }
 
-.home-narrative .topic-summary .description {
+.home-index .topic-summary .description {
   grid-area: description;
 }
 
-.home-narrative .topic-summary .description p {
+.home-index .topic-summary .description p {
   margin-bottom: 1em;
 }
 
-.home-narrative .topic-summary .description a {
+.home-index .topic-summary .description a {
   display: inline;
   box-sizing: border-box;
   grid-column-start: 1;
@@ -262,7 +266,7 @@ main nav.pagination ul li span.current {
   font-weight: 700;
 }
 
-.home-narrative .case-studies {
+.home-index .case-studies {
   grid-column: 1 / span 11;
   padding: 0 5%;
   padding-top: 3.5em;
@@ -271,7 +275,7 @@ main nav.pagination ul li span.current {
   color: white;
 }
 
-.home-narrative .case-studies:before {
+.home-index .case-studies:before {
   content: '';
   width: 100%;
   height: 75%;
@@ -283,12 +287,12 @@ main nav.pagination ul li span.current {
   background: var(--vocabulary-brand-color-tomato);
 }
 
-.home-narrative .case-studies > ul a {
+.home-index .case-studies > ul a {
   color: white;
   --underline-background-color: var(--vocabulary-brand-color-tomato);
 }
 
-.home-narrative .case-studies > ul {
+.home-index .case-studies > ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2em;
@@ -298,17 +302,17 @@ main nav.pagination ul li span.current {
   list-style: none;
 }
 
-.home-narrative .case-studies > ul figure {
+.home-index .case-studies > ul figure {
   margin-bottom: 0;
 }
 
-.home-narrative .case-studies > ul figure img {
+.home-index .case-studies > ul figure img {
   object-fit: cover;
   height: 200px;
 
 }
 
-.home-narrative .case-studies footer {
+.home-index .case-studies footer {
   margin: 0 0;
   margin-top: 4em;
   margin-bottom: 3em;
@@ -318,12 +322,12 @@ main nav.pagination ul li span.current {
   color: black;
 }
 
-.home-narrative .data-points {
+.home-index .data-points {
 
 
 }
 
-.home-narrative .data-points ul {
+.home-index .data-points ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3em;
@@ -333,12 +337,12 @@ main nav.pagination ul li span.current {
   list-style-type: none;
 }
 
-.home-narrative .data-points .data-point {
+.home-index .data-points .data-point {
   display: flex;
   flex-direction: column;
 }
 
-.home-narrative .data-points .data-point.wikipedia h2 {
+.home-index .data-points .data-point.wikipedia h2 {
   text-indent: -10000px;
   min-height: 150px;
   background: center center no-repeat;
@@ -347,7 +351,7 @@ main nav.pagination ul li span.current {
   margin-bottom: 0;
 }
 
-.home-narrative .data-points .data-point.the-met h2 {
+.home-index .data-points .data-point.the-met h2 {
   text-indent: -10000px;
   min-height: 150px;
   background: center center no-repeat;
@@ -358,7 +362,7 @@ main nav.pagination ul li span.current {
 
 }
 
-.home-narrative .data-points .data-point.khan-academy h2 {
+.home-index .data-points .data-point.khan-academy h2 {
   text-indent: -10000px;
   min-height: 150px;
   width: 90%;
@@ -370,28 +374,28 @@ main nav.pagination ul li span.current {
 
 }
 
-.home-narrative .data-points .data-point .stat {
+.home-index .data-points .data-point .stat {
   order: 3;
 
   text-transform: uppercase;
 }
 
-.home-narrative .data-points .data-point p {
+.home-index .data-points .data-point p {
   margin-bottom: 0;
 
   font-size: 1em;
 }
 
-.home-narrative main .posts {
+.home-index main .posts {
   grid-column: 2 / span 9;
   padding-top: 4em;
 }
 
-.home-narrative main .posts h2 {
+.home-index main .posts h2 {
   text-align: center;
 }
 
-.home-narrative main .posts ul {
+.home-index main .posts ul {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin-top: 8em;
@@ -405,66 +409,66 @@ main nav.pagination ul li span.current {
   list-style: none;
 }
 
-.home-narrative main .posts ul li {
+.home-index main .posts ul li {
   grid-column: span 4;
 }
 
-.home-narrative main .posts ul li h3 {
+.home-index main .posts ul li h3 {
   font-size: 1.5em;
 }
 
-.home-narrative main .posts .post figure {
+.home-index main .posts .post figure {
   order: -1;
 }
 
 /* targets the featured posts section */
-.home-narrative main .posts.featured {
+.home-index main .posts.featured {
   grid-column: 1 / span 11;
   margin-bottom: 3em;
 
   background: var(--vocabulary-neutral-color-lighter-gray);
 }
 
-.home-narrative main .posts.featured .post h3 {
+.home-index main .posts.featured .post h3 {
   font-size: 1.4em;
 }
 
-.home-narrative main .posts.featured ul li:nth-child(1) h3 {
+.home-index main .posts.featured ul li:nth-child(1) h3 {
   font-size: 2.1em;
 }
 
-.home-narrative main .posts.featured .post a {
+.home-index main .posts.featured .post a {
   --underline-background-color: var(--vocabulary-neutral-color-lighter-gray);
 }
 
-.home-narrative main .posts.featured li:nth-of-type(1) .post a {
+.home-index main .posts.featured li:nth-of-type(1) .post a {
   --underline-background-color: white;
 }
 
-.home-narrative main .posts.featured li:nth-of-type(1) .post figure {
+.home-index main .posts.featured li:nth-of-type(1) .post figure {
   order: initial;
 }
 
-.home-narrative main .posts.featured ul {
+.home-index main .posts.featured ul {
   padding: 0 var(--vocabulary-page-edges-space);
 }
 
-.home-narrative main .posts.featured ul li {
+.home-index main .posts.featured ul li {
   grid-column: span 3;
 }
 
-.home-narrative main .posts.featured ul li:nth-of-type(1) {
+.home-index main .posts.featured ul li:nth-of-type(1) {
   grid-column: span 12;
 
   background: white;
 }
 
-.home-narrative main .posts.featured ul li:nth-of-type(1) article.post {
+.home-index main .posts.featured ul li:nth-of-type(1) article.post {
   margin-bottom: 1em;
   padding: 4em;
 }
 
-.home-narrative main > footer {
+.home-index main > footer {
   grid-column: 1 / span 11;
   display: grid;
   grid-template-columns: subgrid;
@@ -474,7 +478,7 @@ main nav.pagination ul li span.current {
   background: var(--vocabulary-neutral-color-lighter-gray);
 }
 
-.home-narrative main > footer .attribution-list {
+.home-index main > footer .attribution-list {
   grid-column: 2 / span 9;
 
   background: none;
@@ -772,17 +776,881 @@ main nav.pagination ul li span.current {
   line-height: 1.8;
 }
 
+/* pidgin specific patches */
+
+body > article.attention {
+  grid-column: 2/11;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 2em;
+  padding: 1em;
+  position: relative;
+
+  background:#F5F5F5;
+  background: #E0FF00;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+
+body > article.attention:before {
+  display: inline-block;
+  content: '';
+  height: 1.5em;
+  width: 1.5em;
+  position: absolute;
+  top: -1em;
+  right: 2em;
+  z-index: 5;
+
+  background:#F5F5F5;
+  background:#E0FF00;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+
+  transform: rotate(-45deg);
+}
+
+body > article.attention div {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1em 2em 2em 2em;
+}
+
+body > article.attention figure img {
+  width: 100%;
+}
+
+body > article.attention h2 {
+  margin-bottom: 0;
+
+  font-family: "DM Sans";
+  font-size: 1.8em;
+  line-height: 1.5;
+  text-align: left;
+}
+
+body > article.attention p {
+  font-size: 1.4em;
+  /* margin-bottom: 1em; */
+}
+
+body > article.attention a {
+  --underline-background-color:black;
+  display: inline-block;
+  margin-top: 1em;
+  padding: .6em 1.6em;
+
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background:black;
+  border-radius: 60px;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+  text-decoration: none;
+}
+
+body > article.attention a:hover {
+  --underline-background-color:white;
+  background: white;
+
+  color: black;
+  border-color: black;
+}
+
+main > header figure {
+  height: auto;
+  background: transparent;
+  overflow: visible;
+  border: transparent;
+}
+
+main h3, main h4, main h5, main h6 {
+  font-family: "DM Sans";
+}
+
+main h4 {
+  font-size: 1.5em;
+}
+
+main h5 {
+  font-size: 1.4em;
+}
+
+main h6 {
+  font-size: 1.3em;
+}
+
+
+article.topic-summary p a {
+  --underline-background-color: none;
+
+  display: inline;
+
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: none;
+
+  color:#2E1FB8;
+  text-decoration: underline;
+
+}
+
+.blog-index main > header figcaption p {
+  text-align: right;
+}
+
+.blog-index main .post.featured {
+  margin-top: 3em;
+}
+
+.blog-post main > header figcaption p {
+  text-align: right;
+}
+
+.events-index main > header > figure {
+  height: auto;
+
+  background: transparent;
+}
+
+.events-index .topic-summary.about {
+  grid-template-columns: 60% 40%;
+  gap: 1em;
+}
+
+.events-index .topic-summary.about .description {
+  display: flex;
+  align-items: center;
+}
+
+.events-index .topic-summary.about .description p {
+  font-size: 1.6em;
+}
+
+.events-index .event figure {
+  background: transparent;
+  height: auto;
+}
+
+.events-index .event figure img {
+  border-radius: 16px;
+}
+
+/* .events-index .event figcaption p {
+  font-family: "DM Mono";
+} */
+
+.events-index .event {
+  margin-bottom: 8em;
+}
+
+.event-post main > header figure {
+  height: auto;
+
+  background: transparent;
+}
+
+.event-post .content .speakers .speaker figure img {
+  border-radius: 100px;
+}
+
+.event-post .content .speakers .speaker h4 {
+  color: black;
+}
+
+.event-post .content .speakers .speaker h3 a:hover {
+  color:#FF0000;
+}
+
+.event-post .content .speakers .speaker .caption {
+  margin-top: 0;
+}
+
+.event-post main footer nav ul {
+  justify-content: center;
+}
+
+.casestudies-index .topic-summary.about {
+  grid-template-columns: 35% 60%;
+  gap: 4em;
+  box-sizing: border-box;
+}
+
+.casestudies-index .topic-summary.about .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casestudies-index .topic-summary.about .description p {
+  font-size: 1.6em;
+  margin-bottom: 0;
+}
+
+
+.home-narrative article.topic-summary.focus-area:nth-of-type(even) figure {
+    order: -1;
+}
+
+.home-narrative article.topic-summary.focus-area:nth-of-type(odd) figure {
+    order: inherit;
+}
+
+.home-narrative article.topic-summary.about {
+    grid-template-columns: 1fr 2fr;
+    gap: 4em;
+    margin-bottom: 4.5em;
+}
+
+.home-narrative article.topic-summary.about .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-narrative article.topic-summary.about .description p {
+    margin: 0;
+    margin-top: 1.1em;
+}
+
+.home-narrative article.topic-summary.focus-area figure {
+  width: auto;
+  height: auto;
+  background: transparent;
+}
+
+.home-narrative article.topic-summary figure {
+  background: transparent;
+}
+
+.home-narrative article.topic-summary figure img {
+  border-radius: 16px;
+}
+
+.home-narrative article.topic-summary.highlight figure {
+  height: auto;
+  z-index: 1;
+}
+
+/* generalize these three rules? */
+.licenses-page .topic-summary.about {
+  grid-template-columns: 1fr 2fr;
+  gap: 4em;
+  margin-bottom: 8em;
+}
+
+.licenses-page .topic-summary.about .description {
+  display: flex;
+  align-items: center;
+}
+
+.licenses-page .topic-summary.about .description p {
+  font-size: 1.6em;
+}
+
+.licenses-page .topic-summary.orgs figure {
+  z-index: 10;
+}
+
+.licenses-page .license h3 {
+  margin-bottom: 0;
+}
+
+.licenses-page .license img.badge {
+  margin-bottom: 1.5em;
+}
+
+.licenses-page footer .license {
+  display: grid;
+}
+
+.training-index .topic-summary.about {
+  grid-template-columns: 1fr 2fr;
+  gap: 4em;
+  margin-bottom: 6em;
+}
+
+.training-index .topic-summary.about .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.training-index .topic-summary.about .description p {
+  /* font-size: 1.6em; */
+}
+
+.training-index article.topic-summary.focus-area figure {
+  width: auto;
+  height: auto;
+}
+
+.training-index article.topic-summary figure {
+    background: transparent;
+}
+
+.training-index article.topic-summary figure img {
+  border-radius: 16px;
+}
+
+
+
+.support-page article.topic-summary.focus-area figure {
+  width: auto;
+  height: auto;
+}
+
+.support-page article.topic-summary figure {
+    background: transparent;
+}
+
+.support-page article.topic-summary figure img {
+  border-radius: 16px;
+}
+
+
+.licenses-page article.topic-summary.focus-area figure {
+  width: auto;
+  height: auto;
+}
+
+.licenses-page article.topic-summary figure {
+    background: transparent;
+}
+
+.licenses-page article.topic-summary figure img {
+  border-radius: 16px;
+}
+
+.licenses-page article.topic-summary.highlight figure {
+  width: 100%;
+  margin-top: 0;
+}
+
+.chooser-page > header p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.chooser-page > footer  {
+  margin-top: 8em;
+}
+
+.chooser-page main h3 {
+  font-family: "DM Sans";
+}
+
+.chooser-page #tool-recommendation h4 {
+  font-family: "DM Sans";
+}
+
+.chooser-page details summary {
+  font-family: "DM Sans";
+}
+
+.chooser-page #tool-recommendation .conditions-definitions {
+  font-family: "DM Mono";
+}
+
+.chooser-page header p:nth-child(2) {
+  font-size: 1.3em;
+}
+
+.chooser-page form#chooser fieldset {
+  border-radius: 12px;
+}
+
+.chooser-page aside #empty {
+  border-radius: 16px;
+}
+
+.chooser-page #tool-recommendation .tool {
+  background:#FFD9CC;
+  border-radius: 16px;
+}
+
+.chooser-page #tool-recommendation .tool a {
+  --underline-background-color: #FFD9CC;
+
+  font-family: "DM Sans";
+  /* color:#2E1FB8; */
+}
+
+.project-post main > .posts {
+  grid-column: 2 / 11;
+}
+
+
+blockquote:nth-of-type(even):after {
+  background:#FF0000;
+  transform: rotate(90deg);
+}
+
+blockquote:nth-of-type(even) p:after {
+  background:#2E1FB8;
+  transform: rotate(-90deg);
+}
+
+/* tablepress patches */
+
+.dataTables_wrapper {
+  margin-top: 1em;
+  padding: 2em 0;
+  width: 100%;
+  overflow: scroll;
+
+  /* border: 4px solid black;
+  border-radius: 16px; */
+}
+
+table.tablepress, .dataTables_wrapper {
+  font-family: "DM Sans";
+}
+
+table.tablepress th {
+  background:#FFD9CC;
+}
+
+table.tablepress a {
+  color:#2E1FB8;
+}
+
+/* newsletter patches */
+
+body main article.topic-summary.newsletter {
+  margin-top: 12em;
+}
+
+body main article.topic-summary.newsletter figure {
+  height: auto;
+
+  background: transparent;
+}
+
+body main article.topic-summary.newsletter figure img {
+
+  border: 4px solid #F5F5F5;
+  border-radius: 15px;
+  /* padding-top: 6em; */
+}
+
+main > aside.sidebar nav li:has(ul) button.expand {
+    position: absolute;
+    right: 0;
+}
+
+main > aside.sidebar nav li:has(ul) button.expand:before {
+    margin-left: 1em;
+}
+
+/* ----------------- */
+
+
+/* attribution patches */
+
+main > header figcaption p {
+  font-family: "DM Mono";
+  font-size: .8em;
+  text-align: left;
+}
+
+article.topic-summary.highlight .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+article.topic-summary.highlight figure figcaption {
+  width: 80%;
+}
+
+.home-narrative article.topic-summary.focus-area:nth-of-type(odd) figure figcaption,
+.home-narrative article.topic-summary.intro figure figcaption {
+  text-align: right;
+}
+
+article.topic-summary.highlight figure figcaption {
+  text-align: right;
+  margin-left: 20%;
+}
+
+article:nth-child(even).topic-summary.highlight figure figcaption {
+  text-align: left;
+  margin-left: 0%;
+}
+
+article.topic-summary figure figcaption p {
+  font-family: "DM Mono";
+  font-size: .8em;
+}
+
+article.topic-summary .category {
+  display: block;
+  margin-bottom: 1em;
+  order: -1;
+
+  font-family: "DM Mono";
+}
+
+.posts .attribution {
+  font-family: "DM Mono";
+}
+
+.blog-index main .posts h2, .home-narrative main .posts h2, .project-post main .posts h2 {
+    margin-bottom: .5em;
+}
+
+main details.attribution {
+  margin-bottom: 2.5em;
+  width: 100%;
+
+  text-align: left;
+}
+
+main details.attribution summary {
+  display: inline-block;
+  font-family: "DM Mono";
+  font-size: .8em;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+main details.attribution summary span {
+  display: inline-block;
+
+  font-size: .5em;
+  transform: rotate(180deg);
+}
+
+main details.attribution:open summary span {
+  transform: none;
+}
+
+main details.attribution summary span:before {
+  padding-top: 1em;
+}
+
+main details.attribution:open {
+  border-bottom: 2px solid #F5F5F5;
+}
+
+main ul.attributions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    margin-top: 2em;
+    padding: 0;
+    gap: 2em;
+
+    font-size: 1em;
+    list-style: none;
+}
+
+main ul.attributions li {
+  grid-column: span 1;
+}
+
+ul.attributions li:nth-child(1) article {
+  display: initial;
+}
+
+main .attributions article {
+    margin-bottom: 1em;
+}
+
+main .attributions article a {
+    --underline-background-color: var(--vocabulary-brand-color-grey);
+}
+
+main .attributions article figure {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+main .attributions article figure figcaption {
+    font-size: .9em;
+}
+
+main .attributions article figure figcaption p {
+    font-family: "DM Mono";
+    font-size: 1em;
+
+}
+
+main .attributions article img {
+    object-fit: cover;
+    width: 4em;
+    height: 4em;
+}
+
+main .attributions article figure .attribution {
+    margin-top: 0;
+}
+
+
+
+
+
+main nav.pagination ul {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  text-indent: none;
+  font-size: 1em;
+  list-style: none;
+}
+
+main nav.pagination ul li a {
+  padding: .4em .7em;
+
+  background: #F5F5F5;
+  --underline-background-color: #F5F5F5;
+  color: black;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: none;
+  text-decoration: none;
+}
+
+main nav.pagination ul li span.current {
+  --underline-background-color: black;
+
+  padding: .5em 1em;
+  background: black;
+  color: white;
+  border-radius: 5px;
+
+}
+
+main nav.pagination ul li a {
+  font-family: "DM Sans";
+}
+
+main nav.pagination ul li a {
+  /* --underline-background-color: white; */
+  /* background: none; */
+
+  color:#2E1FB8;
+  border-radius: 5px;
+
+}
+
+.project-post header figure {
+  order: 1;
+}
+
+.project-post header h1 {
+  padding-left: 0;
+}
+
+main article.posts.related {
+  margin-bottom: 4em;
+  padding: 2em;
+
+  background:#2E1FB8;
+  border: 4px solid black;
+  border-radius: 16px;
+  color: white;
+  font-family: "DM Sans";
+}
+
+main article.posts.related h2 {
+  font-family: "DM Sans";
+}
+
+main article.posts.related ul {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main article.posts.related ul li {
+  grid-column: span 1;
+}
+
+main article.posts.related h3 a {
+  --underline-background-color:#2E1FB8;
+  color: white;
+}
+
+main article.posts.related a {
+  --underline-background-color:#2E1FB8;
+  color: white;
+}
+
+/* main article.posts.related .byline {
+  font-family: "DM Mono";
+} */
+
+main > header .default-image {
+    position: relative;
+    /* z-index: -1; */
+}
+
+main > header .default-image img.photo {
+  margin-left: -2em;
+    /* width: 100%; */
+    object-fit: cover;
+    mask-image: url(pidgin/svg/blob5.svg);
+    mask-repeat: no-repeat;
+    mask-position: top center;
+    mask-size: 86% 100%;
+    transition: .2s ease-in;
+    margin-top: 2.5em;
+}
+
+main > header .default-image img.shape1 {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    /* transform: rotate(180deg); */
+}
+
+main > header .default-image img.shape2 {
+    width: 40%;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    z-index: -10;
+}
+
+main > header .default-image img.shape3 {
+    width: 66%;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    z-index: 5;
+    transform: rotate(45deg);
+}
+
+main > footer .search button {
+  z-index: 1;
+}
+
+main .content p > img {
+  width: 100%;
+  height: auto;
+}
+
+main .content span.appear-as-button a {
+  --underline-background-color: black;
+    display: inline-block;
+    margin-top: 1em;
+    padding: .6em 1.6em;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+    background: black;
+    border-radius: 60px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    border: 4px solid transparent;
+}
+
+main .content span.appear-as-button a:hover {
+  --underline-background-color: white;
+
+  color: black;
+  background: white;
+  border-color: black;
+}
+
+
+
+body > footer .footer-menu ul {
+  min-height: 10em;
+}
+
+body > footer .search {
+  position: relative;
+  z-index: 10;
+}
+
+
+.home-narrative article.topic-summary.about .description p {
+  font-size: 1.5em;
+}
+
+article.topic-summary.highlight figure {
+  height: auto;
+}
+
+.home-narrative article.posts ul {
+  gap: 3em 5em;
+}
+
+
+@media (min-width: 1300px) {
+
+  body {
+    width: 1300px;
+    margin: 0 auto;
+  }
+
+  article.topic-summary, article.topic-summary.focus-area, article.topic-summary.highlight, .home-narrative article.posts, body main article.topic-summary.newsletter {
+    grid-column: 3 / 10;
+  }
+
+  body main article.topic-summary.intro {
+    grid-column: 2 / 11;
+  }
+
+  body main article.topic-summary.newsletter {
+    gap: 4em;
+  }
+
+  body footer {
+    border-radius: 16px;
+    margin-bottom: 4em;
+  }
+
+}
+
+
 @media (min-width: 1500px) {
 
-  .home-narrative .data-points .data-point.khan-academy h2 {
+  .home-index .data-points .data-point.khan-academy h2 {
     text-indent: -6000px;
+  }
+
+  .home-narrative article.posts ul li:nth-child(1) article.post {
+    /* margin-bottom: 2em; */
+  }
+
+}
+
+
+@media (max-width: 1190px) {
+
+  body main article.topic-summary.newsletter {
+    display: block;
   }
 
 }
 
 @media (max-width: 1140px) {
 
-  .home-narrative main footer .attribution-list ul.expand {
+  .home-index main footer .attribution-list ul.expand {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -790,19 +1658,19 @@ main nav.pagination ul li span.current {
 
 @media (max-width: 900px) {
 
-  .home-narrative main .case-studies {
+  .home-index main .case-studies {
     background: var(--vocabulary-brand-color-tomato);
     padding: 5%;
 
   }
 
-  .home-narrative .case-studies footer {
+  .home-index .case-studies footer {
     margin: 0;
     margin-top: 2em;
     padding: 0;
   }
 
-  .home-narrative .data-points ul {
+  .home-index .data-points ul {
     /* display: block; */
     box-sizing: border-box;
     width: 90%;
@@ -810,12 +1678,12 @@ main nav.pagination ul li span.current {
     /* padding: 0 1em; */
   }
 
-  .home-narrative main .posts ul {
+  .home-index main .posts ul {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .home-narrative main footer {
+  .home-index main footer {
     width: 100%;
     box-sizing: border-box;
   }
@@ -826,34 +1694,57 @@ main nav.pagination ul li span.current {
 
 }
 
-@media (max-width: 705px) {
+@media (max-width: 765px) {
 
-  .home-narrative .topic-summary {
+  body main header {
     display: block;
   }
 
-  .home-narrative .topic-summary figure {
+  body main article.topic-summary.about figure {
     display: none;
   }
 
-  .home-narrative .case-studies > ul {
+  .home-narrative article.topic-summary.focus-area:nth-of-type(odd) figure {
+    order: -1;
+  }
+
+  article.topic-summary.highlight figure {
+    margin-bottom: 2em;
+  }
+
+  main ul.attributions {
+    display: block;
+  }
+}
+
+@media (max-width: 705px) {
+
+  .home-index .topic-summary {
+    display: block;
+  }
+
+  .home-index .topic-summary figure {
+    display: none;
+  }
+
+  .home-index .case-studies > ul {
     grid-template-columns: 1fr 1fr;
   }
 
-  .home-narrative .data-points ul {
+  .home-index .data-points ul {
     display: block;
     padding-top: 2em;
   }
 
-   .home-narrative main article.posts.featured > ul li:nth-child(1) {
+   .home-index main article.posts.featured > ul li:nth-child(1) {
     padding: 2em;
   }
 
-  .home-narrative main .posts {
+  .home-index main .posts {
       padding: 0 var(--vocabulary-page-edges-space);
   }
 
-  .home-narrative main footer .attribution-list ul.expand {
+  .home-index main footer .attribution-list ul.expand {
       display: block;
   }
 }
@@ -866,11 +1757,11 @@ main nav.pagination ul li span.current {
 
 @media (max-width: 425px) {
 
-  .home-narrative .attribution-list {
+  .home-index .attribution-list {
     padding: 2em;
   }
 
-  .home-narrative .attribution-list h2 {
+  .home-index .attribution-list h2 {
     width: 50%;
 
     hyphens: auto;
@@ -880,11 +1771,11 @@ main nav.pagination ul li span.current {
 }
 
 @media (max-width:480px) {
-  .home-narrative .case-studies > ul {
+  .home-index .case-studies > ul {
     display: block;
   }
 
-  .home-narrative .case-studies > ul li {
+  .home-index .case-studies > ul li {
     margin-bottom: 3em;
   }
 }
@@ -893,11 +1784,11 @@ main nav.pagination ul li span.current {
 
 
 
-  .home-narrative .attribution-list {
+  .home-index .attribution-list {
     padding: 2em;
   }
 
-  .home-narrative .attribution-list h2 {
+  .home-index .attribution-list h2 {
     width: 50%;
     font-size: .5em;
     hyphens: auto;

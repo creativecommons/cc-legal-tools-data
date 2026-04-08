@@ -1,4 +1,4 @@
-.cc-legal-tools div.content div#deed-body {
+/* .cc-legal-tools div.content div#deed-body {
   border-top: 10px solid var(--vocabulary-brand-color-turquoise);
   border-bottom: 5px solid var(--vocabulary-neutral-color-dark-gray);
   border-left: 5px solid var(--vocabulary-neutral-color-dark-gray);
@@ -10,6 +10,10 @@
   padding-right: 3em;
   padding-top: 3em;
   padding-bottom: 3em;
+} */
+
+.icon-replace.fa-angle-up:before {
+    --icon-sprite: var(--fa-angle-up);
 }
 
 .cc-legal-tools div#deed-body ol > li {

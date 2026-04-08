@@ -2,7 +2,7 @@
 
 /* brand typsetting */
 @font-face {
-    font-family:"Roboto Condensed";
+    font-family:'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family:"Roboto Condensed";
+    font-family:'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -22,41 +22,41 @@
 }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/SourceSansPro-Regular.woff2') format("woff2"),
-        url('../fonts/SourceSansPro-Regular.woff') format("woff"),
-        url('../fonts/SourceSansPro-Regular.otf') format("opentype");
+    src: url('../fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/SourceSansPro-Regular.otf') format('opentype');
  }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url('../fonts/SourceSansPro-SemiBold.woff2') format("woff2"),
-        url('../fonts/SourceSansPro-SemiBold.woff') format("woff"),
-        url('../fonts/SourceSansPro-SemiBold.otf') format("opentype");
+    src: url('../fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('../fonts/SourceSansPro-SemiBold.woff') format('woff'),
+        url('../fonts/SourceSansPro-SemiBold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('../fonts/SourceSansPro-Bold.woff2') format("woff2"),
-        url('../fonts/SourceSansPro-Bold.woff') format("woff"),
-            url('../fonts/SourceSansPro-Bold.otf') format("opentype");
+    src: url('../fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+            url('../fonts/SourceSansPro-Bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "CC Accidenz Commons";
+    font-family: 'CC Accidenz Commons';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/CCAccidenzCommons-medium.otf') format("opentype");
+    src: url('../fonts/CCAccidenzCommons-medium.otf') format('opentype');
 }
 
 
@@ -82,7 +82,7 @@
     --vocabulary-neutral-color-dark-gray: #767676;
 
     /* brand typsetting */
-    --vocabulary-brand-typeset-nav-family: "Roboto Condensed";
+    --vocabulary-brand-typeset-nav-family: 'Roboto Condensed';
     --vocabulary-brand-typeset-nav-weight: bold;
     --vocabulary-brand-typeset-nav-color: #767676;
 
@@ -121,8 +121,9 @@
 
         a:before {
             --icon-sprite: var(--icon-name);
-            --icon-sprite- color: white;
+            --icon-sprite-color: white;
             --icon-sprite-size: .8em;
+        }
 
     */
 
@@ -147,6 +148,7 @@
      --fa-info: url('../svg/font-awesome/icons/fa-icons.svg#fa-info');
      --fa-right-angle: url('../svg/font-awesome/icons/fa-icons.svg#fa-right-angle');
      --fa-search: url('../svg/font-awesome/icons/fa-icons.svg#fa-search');
+     --fa-close: url('../svg/font-awesome/icons/fa-icons.svg#fa-close');
 
      --fa-bluesky: url('../svg/font-awesome/icons/fa-icons.svg#fa-bluesky');
      --fa-facebook: url('../svg/font-awesome/icons/fa-icons.svg#fa-facebook');
@@ -229,8 +231,11 @@ leaving room for semantic and accessible implementation choices  */
     --icon-sprite: var(--fa-search);
 }
 
+.icon.fa-close, .icon-attach.fa-close:before {
+    --icon-sprite: var(--fa-close);
+}
 
-.icon-replace.fa-bluesky {
+.icon-replace.fa-bluesky:before {
     --icon-sprite: var(--fa-bluesky);
 }
 
@@ -238,16 +243,20 @@ leaving room for semantic and accessible implementation choices  */
     --icon-sprite: var(--fa-facebook);
 }
 
-.icon-replace.fa-instagram {
+.icon-replace.fa-instagram:before {
     --icon-sprite: var(--fa-instagram);
 }
 
-.icon-replace.fa-linkedin {
+.icon-replace.fa-linkedin:before {
     --icon-sprite: var(--fa-linkedin);
 }
 
-.icon-replace.fa-mastodon {
+.icon-replace.fa-mastodon:before {
     --icon-sprite: var(--fa-mastodon);
+}
+
+.icon-replace.fa-close {
+    --icon-sprite: var(--fa-close);
 }
 
 
@@ -275,8 +284,20 @@ leaving room for semantic and accessible implementation choices  */
 
 .icon-replace {
     display: inline-block;
+    text-indent: -1000px;
+    height: 2em;
+    width: 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.icon-replace:before {
+    display: inline-block;
     content: '';
     text-indent: -1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     /* min-width: 30px; */
     /* min-height: 30px; */
