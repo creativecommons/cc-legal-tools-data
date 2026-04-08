@@ -230,20 +230,21 @@ main > aside > nav ul > li {
 }
 .cc-legal-tools div.notice-bottom {
   /* background-color: var(--vocabulary-brand-color-soft-turquoise); */
+  background: #F4FFA6;
 }
 .cc-legal-tools div.notice-bottom a {
   /* --underline-background-color: var(--vocabulary-brand-color-soft-turquoise); */
-  --underline-background-color: rgba(224, 255, 0, 0.35);
+  --underline-background-color: #F4FFA6;
 
 }
 .cc-legal-tools div.notice-top {
   /* background-color: var(--vocabulary-brand-color-soft-tomato); */
-  background: rgba(224, 255, 0, 0.35);
+  background: #F4FFA6;
 
 }
 .cc-legal-tools div.notice-top a {
   /* --underline-background-color: var(--vocabulary-brand-color-soft-tomato); */
-  --underline-background-color: rgba(224, 255, 0, 0.35);
+  --underline-background-color: #F4FFA6;
 }
 
 .cc-legal-tools p.document-link {
