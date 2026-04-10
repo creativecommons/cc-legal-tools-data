@@ -1,9 +1,12 @@
-@import "/wp-content/themes/vocabulary-theme/style.css" layer(vocabulary-theme);
 @import "/wp-content/themes/vocabulary-theme/pidgin/css/pidgin.css" layer(vocabulary);
+@import "/wp-content/themes/vocabulary-theme/style.css" layer(vocabulary);
+
 
 
 body .locale {
   display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 body.legal-tools main {
@@ -106,8 +109,15 @@ main > header > span.alt-titles > span.tool-icons > span.cc-icon > svg {
 /* right nav */
 .cc-legal-tools main > aside {
   margin-left: 4.1rem;
-  padding: 1em;
   height: fit-content;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  hyphens: auto;
 }
 .cc-legal-tools main > aside a {
   --underline-background-color: var(--vocabulary-brand-color-soft-gold);
@@ -115,6 +125,7 @@ main > header > span.alt-titles > span.tool-icons > span.cc-icon > svg {
 main > aside > nav ul > li {
   /* TODO: resolve with vocabulary-theme */
   font-size: 1rem;
+  padding-right: 1em;
 }
 
 /* content */
@@ -289,3 +300,13 @@ main > aside > nav ul > li {
     display: none;
   }
 }
+
+@media (max-width: 1028px) {
+    main {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      padding: 0 var(--vocabulary-page-edges-space);
+      box-sizing: border-box;
+    }
+  }
