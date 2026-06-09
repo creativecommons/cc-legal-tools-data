@@ -146,10 +146,7 @@
     <link href="/cc-legal-tools/base.css" rel="stylesheet" />
     <link href="/cc-legal-tools/deed.css" rel="stylesheet" />
     <!-- Privacy-friendly analytics by Plausible -->
-    <script
-      async=""
-      src="https://plausible.io/js/pa-WRMaH3QHcCo_0RYbTsBgi.js"
-    ></script>
+    <script async="" src="/p/script.js"></script>
     <script>
       ((window.plausible =
         window.plausible ||
@@ -161,7 +158,9 @@
           function (i) {
             plausible.o = i || {};
           }));
-      plausible.init();
+      plausible.init({
+        endpoint: "/p/api/event",
+      });
     </script>
   </head>
   <body
