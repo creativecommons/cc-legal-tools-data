@@ -15,25 +15,30 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
-        sudo apt-get update
-        sudo apt-get install -y gettext
+        sudo apt-get update --no-allow-insecure-repositories --quiet
+        sudo apt-get install --no-install-recommends --no-install-suggests \
+          --quiet --yes gettext
 
     # https://github.com/actions/checkout
     - name: Checkout cc-legal-tools-app
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Check published files for invalid template
       run: |
-        ! grep -Iir 'legal tool does not have a valid template' docs/
+        ! grep --fixed-strings --quiet --binary-files=without-match \
+          --recursive 'INVALID_TEMPLATE' docs/
 
     - name: Check published files for INVALID_VARIABLE
       run: |
-        ! grep -Iir 'INVALID_VARIABLE' docs/
+        ! grep --fixed-strings --quiet --binary-files=without-match \
+          --recursive 'INVALID_VARIABLE' docs/
 
     - name: Check portable object Gettext Files for errors
       run: |
-        find legalcode locale -type f -name '*.po' -exec msgfmt -c -o/dev/null {} \;
+        find legalcode locale -type f -name '*.po' -exec \
+          msgfmt --check --output-file=/dev/null {} \;
 
     - name: Check machine object Gettext Files for errors
       run: |
-        find legalcode locale -type f -name '*.mo' -exec msgunfmt -o/dev/null {} \;
+        find legalcode locale -type f -name '*.mo' -exec \
+          msgunfmt --output-file=/dev/null {} \;
