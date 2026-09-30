@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2026-05-14 13:12:44+00:00\n"
+"PO-Revision-Date: 2026-09-29 13:49:57+00:00\n"
 "Last-Translator: Timid Robot Zehta <timid@creativecommons.org>, 2026\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/it/\n"
 "Language: it\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "Language-Django: it\n"
 "Language-Transifex: it\n"
-"Percent-Translated: 80\n"
+"Percent-Translated: 100\n"
 
 #: i18n/__init__.py:122
 msgid "Generic"
@@ -41,7 +41,7 @@ msgstr "Universal"
 
 #: i18n/__init__.py:126
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: i18n/__init__.py:127
 msgid "Argentina"
@@ -57,7 +57,7 @@ msgstr "Australia"
 
 #: i18n/__init__.py:130
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaigian"
 
 #: i18n/__init__.py:131
 msgid "Belgium"
@@ -133,7 +133,7 @@ msgstr "Francia"
 
 #: i18n/__init__.py:149
 msgid "Georgia"
-msgstr ""
+msgstr "Georgia"
 
 #: i18n/__init__.py:150
 msgid "Greece"
@@ -161,7 +161,7 @@ msgstr "Irlanda"
 
 #: i18n/__init__.py:156
 msgid "Intergovernmental Organization"
-msgstr ""
+msgstr "Organizzazione Intergovernativa"
 
 #: i18n/__init__.py:157
 msgid "Israel"
@@ -385,13 +385,13 @@ msgstr "Pubblico Dominio"
 
 #: legal_tools/views.py:83
 msgid "Licenses"
-msgstr ""
+msgstr "Licenze"
 
 #: legal_tools/views.py:222 templates/deed.html:9
 #: templates/includes/snippet/title_with_icons.html:17
 #: templates/list-licenses.html:38 templates/list-publicdomain.html:30
 msgid "Deed"
-msgstr ""
+msgstr "Atto"
 
 #: legal_tools/views.py:236
 #: templates/includes/snippet/title_with_icons.html:19
@@ -402,15 +402,15 @@ msgstr "Codice Legale"
 
 #: legal_tools/views.py:452 templates/includes/related_links.html:15
 msgid "Licenses List"
-msgstr ""
+msgstr "Lista licenze"
 
 #: legal_tools/views.py:455 templates/includes/related_links.html:18
 msgid "Public Domain List"
-msgstr ""
+msgstr "Elenco di pubblico dominio"
 
 #: templates/base.html:3
 msgid "Home"
-msgstr ""
+msgstr "Abitazione"
 
 #: templates/base.html:42
 msgid "Skip to content"
@@ -418,15 +418,15 @@ msgstr "Vai ai contenuti"
 
 #: templates/deed.html:43 templates/legalcode.html:31
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL canonico"
 
 #: templates/deed.html:51
 msgid "See the legal code"
-msgstr ""
+msgstr "Vedi il codice giuridico"
 
 #: templates/deed.html:76
 msgid "Footnotes"
-msgstr ""
+msgstr "Note a piè pagina"
 
 #: templates/deed.html:86
 msgid "appropriate credit"
@@ -496,6 +496,9 @@ msgid ""
 "href=\"https://creativecommons.org/compatiblelicenses\"> "
 "https://creativecommons.org/compatiblelicenses</a>"
 msgstr ""
+"è anche possibile utilizzare una licenza elencata come compatibile presso <a"
+" href=\"https://creativecommons.org/compatiblelicenses\"> "
+"https://creativecommons.org/compatiblelicenses</a>"
 
 #: templates/deed.html:177
 msgid "remix, transform, or build upon"
@@ -560,7 +563,7 @@ msgstr ""
 
 #: templates/deed.html:282
 msgid "jurisdictions "
-msgstr ""
+msgstr "giurisdizioni"
 
 #: templates/deed.html:283
 msgid ""
@@ -620,7 +623,7 @@ msgstr ""
 
 #: templates/dev/404.html:4
 msgid "Page Not Found"
-msgstr ""
+msgstr "Pagina Non Trovata"
 
 #: templates/includes/deed_body_certification.html:3
 msgid ""
@@ -648,6 +651,30 @@ msgid ""
 "commercial, and in any way, including by methods that have not yet been "
 "invented or conceived.</p>"
 msgstr ""
+"<p>La persona o le persone fisiche che hanno collaborato a questo documento "
+"(il \"Dedicante\" o \"Certificatore\") con la presente o (a) certifica che, "
+"sulla base delle proprie conoscenze, l'opera d'ingegno identificata è di "
+"pubblico dominio del paese dal quale il lavoro è pubblicato, o (b) con la "
+"presente dedica qualsiasi copyright detengano i dedicanti per l'opera "
+"d'ingegno identificata di seguito (l'\"Opera\") al pubblico dominio. Un "
+"certificatore, inoltre, dedica qualsiasi diritto al copyright possa avere "
+"all'interno del lavoro associato, e per questi scopi è descritto di seguito "
+"come \"dedicante\".</p> <p>Un certificatore ha intrapreso misure ragionevoli"
+" per verificare lo status del copyright dell'opera. Il Certificatore "
+"riconosce che i suoi sforzi di buona fede non possano proteggerlo dalle "
+"responsabilità qualora in realtà l'opera certificata non sia di pubblico "
+"dominio.</p> <p>Il Dedicante fa la dedica a beneficio pubblico generale e a "
+"discapito dei propri eredi e successori. Il Dedicante desidera che questa "
+"dedica sia un atto manifesto di rinuncia in perpetuo di tutti i presenti e "
+"futuri diritti sotto la norma del copyright, sia garantiti sia contingenti, "
+"all'interno dell'Opera. Il Dedicante comprende che tale rinuncia a tutti i "
+"diritti includa la rinuncia a ogni diritto di rafforzare (tramite "
+"procedimento legale o in altro modo) quei copyright nell'Opera. </p> <p>Il "
+"Dedicante riconosce che, una volta posta all'interno del pubblico dominio, "
+"l'Opera potrebbe essere liberamente riprodotta, distribuita, trasmessa, "
+"utilizzata, modificata, sviluppata, o al contrario sfruttata da chiunque a "
+"qualsiasi scopo, commerciale o non commerciale, e in qualsiasi modo, incluso"
+" attraverso metodi che non siano ancora stati inventati o concepiti.</p>"
 
 #: templates/includes/deed_body_licenses.html:6
 msgid "You are free to:"
@@ -727,6 +754,8 @@ msgstr "Alle seguenti condizioni:"
 #: templates/includes/deed_body_licenses.html:63
 msgid "You may exercise the above freedoms in developing nations only. "
 msgstr ""
+"è possibile esercitare le libertà sopracitate solo all'interno di nazioni in"
+" via di sviluppo. "
 
 #: templates/includes/deed_body_licenses.html:70
 msgid ""
@@ -944,13 +973,15 @@ msgstr ""
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
 msgid "Unimplemented"
-msgstr ""
+msgstr "Non applicato"
 
 #: templates/includes/deed_body_unimplemented.html:7
 #: templates/legalcode.html:82
 msgid ""
 "this legal tool does not have a valid template. Please report this issue:"
 msgstr ""
+"questo strumento legale non possiede un modello valido. Si prega di "
+"segnalare il problema:"
 
 #: templates/includes/deed_body_zero.html:7
 msgid ""
@@ -1011,7 +1042,7 @@ msgstr ""
 
 #: templates/includes/languages_dropdown.html:6
 msgid "Languages available"
-msgstr ""
+msgstr "Lingue disponibili"
 
 #: templates/includes/notice_40.html:3
 #: templates/includes/notice_certification.html:3
@@ -1019,7 +1050,7 @@ msgstr ""
 #: templates/includes/notice_newer_license.html:3
 #: templates/includes/notice_zero.html:3
 msgid "Notice"
-msgstr ""
+msgstr "Avviso"
 
 #: templates/includes/notice_40.html:5
 msgid ""
@@ -1046,7 +1077,7 @@ msgstr ""
 
 #: templates/includes/notice_about_cc_and_trademark.html:3
 msgid "About Creative Commons"
-msgstr ""
+msgstr "A proposito di Creative Commons"
 
 #: templates/includes/notice_about_cc_and_trademark.html:5
 msgid ""
@@ -1096,7 +1127,7 @@ msgstr ""
 
 #: templates/includes/notice_about_licenses_and_cc.html:4
 msgid "About the license and Creative Commons"
-msgstr ""
+msgstr "A proposito della licenza e di Creative Commons"
 
 #: templates/includes/notice_about_licenses_and_cc.html:7
 msgid ""
@@ -1149,6 +1180,11 @@ msgid ""
 "href=\"/choose/\"> licensing your own work</a>, we strongly recommend the "
 "use of the 4.0 license instead:"
 msgstr ""
+"Questa è una versione precedente della presente licenza. Paragonate alle "
+"versioni precedenti, le versioni 4.0 di tutte le licenze CC sono <a "
+"href=\"/version4/\">più facili da usare e più solide a livello "
+"internazionale</a>. Se stai <a href=\"/choose/\"> ponendo la tua opera sotto"
+" licenza</a>, raccomandiamo altamente l'utilizzo della licenza 4.0 anziché:"
 
 #: templates/includes/notice_zero.html:4
 msgid ""
@@ -1184,22 +1220,25 @@ msgid ""
 "tools that allow creators to share their work. Our legal tools are free to "
 "use."
 msgstr ""
+"Creative Commons è la no profit dietro le licenze libere e altri strumenti "
+"legali che permettono ai creator di condividere il proprio lavoro. I nostri "
+"strumenti legali possono essere utilizzati gratuitamente."
 
 #: templates/includes/related_links.html:10
 msgid "Learn more about our work"
-msgstr ""
+msgstr "Scopri di più sul nostro lavoro"
 
 #: templates/includes/related_links.html:11
 msgid "Learn more about CC Licensing"
-msgstr ""
+msgstr "Scopri di più su sulle Licenze CC"
 
 #: templates/includes/related_links.html:12
 msgid "Support our work"
-msgstr ""
+msgstr "Sostieni il nostro lavoro"
 
 #: templates/includes/related_links.html:13
 msgid "Use the license for your own material."
-msgstr ""
+msgstr "Utilizza la licenza per il tuo materiale"
 
 #: templates/includes/translations.html:4
 msgid "This page is available in the following languages:"
@@ -1298,15 +1337,15 @@ msgstr ""
 
 #: templates/legalcode.html:36
 msgid "Other formats"
-msgstr ""
+msgstr "Altri formati"
 
 #: templates/legalcode.html:39
 msgid "Plain Text"
-msgstr ""
+msgstr "Testo non formattato"
 
 #: templates/legalcode.html:47
 msgid "See the deed"
-msgstr ""
+msgstr "Vedi l'atto"
 
 #: templates/legalcode.html:53
 msgid "Version"
@@ -1317,32 +1356,34 @@ msgid ""
 "See the <a href=\"/legal-code-errata/\">errata page</a> for any corrections "
 "and the date of change"
 msgstr ""
+"Vedi la <a href=\"/legal-code-errata/\">pagina errata corrige</a> per "
+"qualsiasi correzione e la data della modifica"
 
 #: templates/legalcode.html:95
 msgid "Hide Considerations for Licensors"
-msgstr ""
+msgstr "Nascondi Considerazioni per Licenzianti"
 
 #: templates/legalcode.html:96
 msgid "Show Considerations for Licensors"
-msgstr ""
+msgstr "Mostra Considerazioni per i Licenzianti"
 
 #: templates/legalcode.html:97
 msgid "Hide Considerations for the Public"
-msgstr ""
+msgstr "Nascondi Considerazioni per il Pubblico"
 
 #: templates/legalcode.html:98
 msgid "Show Considerations for the Public"
-msgstr ""
+msgstr "Mostra Considerazioni per il Pubblico"
 
 #: templates/list-licenses.html:55 templates/list-licenses.html:71
 #: templates/list-publicdomain.html:45 templates/list-publicdomain.html:61
 msgid "Language"
-msgstr ""
+msgstr "Lingua"
 
 #: templates/list-licenses.html:57 templates/list-publicdomain.html:47
 msgid "Legal Tools"
-msgstr ""
+msgstr "Strumenti Giuridici"
 
 #: templates/redirect.html:5
 msgid "Redirect to:"
-msgstr ""
+msgstr "Reindirizza a:"
