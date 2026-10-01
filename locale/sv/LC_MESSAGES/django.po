@@ -8,14 +8,15 @@
 # abbedabb <albin@albinolsson.com>, 2023
 # Timid Robot Zehta <timid@creativecommons.org>, 2025
 # Sarah Pearson <sarah@creativecommons.org>, 2025
+# André Costa <lokal.profil@gmail.com>, 2026
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: deeds_ux\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-22 23:29:20+00:00\n"
-"PO-Revision-Date: 2025-11-18 09:24:02+00:00\n"
-"Last-Translator: Sarah Pearson <sarah@creativecommons.org>, 2025\n"
+"PO-Revision-Date: 2026-10-01 07:03:21+00:00\n"
+"Last-Translator: André Costa <lokal.profil@gmail.com>, 2026\n"
 "Language-Team: https://www.transifex.com/creativecommons/teams/11342/sv/\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -955,7 +956,7 @@ msgstr ""
 "Personen som associerat ett verk med detta dokument har <b>dedikerat</b> "
 "verket till public domain genom att avsäga sig sina rättigheter till verket "
 "i hela världen enligt upphovsrättslagstiftningen, inklusive alla relaterade "
-"och närstående rättigheter, så lågt lagen tillåter."
+"och närstående rättigheter, så långt lagen tillåter."
 
 #: templates/includes/deed_body_zero.html:8
 msgid ""
