@@ -36,7 +36,7 @@ The data includes both source files used by
 [creativecommons/cc-legal-tools-app][cc-legal-tools-app] and output from it.
 See that repository for additional instructions on the use of this repository.
 This section uses project specific terms. Please reference
-[Definitions](#definitions), below.
+[Definitions](#definitions), below. 
 
 - **[`docs/`](docs)**
   - ***(:warning: NOT YET ACTIVE)*** CC Legal Tools Data served by
